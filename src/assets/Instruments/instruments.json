@@ -2,8 +2,9 @@
     "Instruments": [
         {
             "id": 1,
-            "name": "Acoustic Guitar",
-            "pic": "acoustic-guitar.jpg"
+            "name": "(main) - Stonebridge (Furch) OM32SM",
+            "pic": "acoustic-guitar.jpg",
+            "alias": "Acoustic Guitar"
         },
         {
             "id": 2,
@@ -44,7 +45,7 @@
         },
         {
             "id": 9,
-            "name": "(B) - Furch Blue Gc-SA",
+            "name": "(FBG) - Furch Blue Gc-SA",
             "pic": "furch-blue-gc-sa.jpg"
         },
         {
@@ -59,194 +60,224 @@
         },
         {
             "id": 12,
-            "name": "(MFF) - Maestro Fan Fretted Singa Flamed maple / Adirondack",
-            "pic": "maestro-fan-fretted-singa-flamed-maple-adirondack.jpg"
-        },
-        {
-            "id": 13,
-            "name": "(OOMV1) - Furch OOM Vintage 1",
-            "pic": "furch-oom-vintage-1.jpg"
-        },
-        {
-            "id": 14,
-            "name": "(GPPCB) - Godin Progression Plus Cherry Burst RN",
-            "pic": "godin-progression-plus-cherry-burst-rn.jpg",
-            "type": "electric guitar"
-        },
-        {
-            "id": 15,
-            "name": "(GSDG) - Godin Stadium '59 Desert Green RN",
-            "pic": "godin-stadium-59-desert-green-rn.jpg",
-            "type": "electric guitar"
-        },
-        {
-            "id": 16,
-            "name": "(GLTC) - Godin 5th Ave Uptown GT LTD Trans Cream",
-            "pic": "godin-5th-ave-uptown-gt-ltd-trans-cream.jpg",
-            "type": "electric guitar"
-        },
-        {
-            "id": 17,
-            "name": "(MHD) - Martin HD-28",
-            "pic": "martin-hd-28.jpg"
-        },
-        {
-            "id": 18,
-            "name": "(FVD) - Furch Vintage 2 D-SR",
-            "pic": "furch-vintage-2-d-sr.jpg"
-        },
-        {
-            "id": 19,
-            "name": "(BSG) - Boucher SG-52",
-            "pic": "boucher-sg-52.jpg"
-        },
-        {
-            "id": 20,
-            "name": "(FBD) - Furch Blue D-CM",
-            "pic": "furch-blue-d-cm.jpg"
-        },
-        {
-            "id": 21,
-            "name": "(BSGI) - Boucher SG-52-I",
-            "pic": "boucher-sg-52-i.jpg"
-        },
-        {
-            "id": 22,
-            "name": "(GRSG) - Godin Rialto JR Satina Gray HG Q-Discrete",
-            "pic": "godin-rialto-jr-satina-gray-hg-q-discrete.jpg"
-        },
-        {
-            "id": 23,
-            "name": "(GMNC) - Godin Metropolis Natural Cedar EQ",
-            "pic": "godin-metropolis-natural-cedar-eq.jpg"
-        },
-        {
-            "id": 24,
-            "name": "(GMLN) - Godin Metropolis LTD Natural HG EQ",
-            "pic": "godin-metropolis-ltd-natural-hg-eq.jpg"
-        },
-        {
-            "id": 25,
-            "name": "(GMLHB) - Godin Metropolis LTD Havana Burst HG EQ",
-            "pic": "godin-metropolis-ltd-havana-burst-hg-eq.jpg"
-        },
-        {
-            "id": 26,
-            "name": "(GFCHN) - Godin Fairmount Concert Hall Natural HG EQ",
-            "pic": "godin-fairmount-concert-hall-natural-hg-eq.jpg"
-        },
-        {
-            "id": 27,
-            "name": "(BHG) - Boucher HG-56",
-            "pic": "boucher-hg-56.jpg"
-        },
-        {
-            "id": 28,
-            "name": "(FOSG) - Furch OM22TSW-C-DB SGI",
-            "pic": "furch-om22tsw-c-db-sgi.jpg"
-        },
-        {
-            "id": 29,
-            "name": "(FG) - Furch G25CR-C",
-            "pic": "furch-g25cr-c.jpg"
-        },
-        {
-            "id": 30,
-            "name": "(FSD) - Furch *SGI* D22TSR",
-            "pic": "furch-sgi-d22tsr.jpg"
-        },
-        {
-            "id": 31,
-            "name": "(FOB) - Furch OM34TSR-DB B2",
-            "pic": "furch-om34tsr-db-b2.jpg"
-        },
-        {
-            "id": 32,
-            "name": "(LPE) - La Patrie Etude",
-            "pic": "la-patrie-etude.jpg",
-            "type": "classical guitar"
-        },
-        {
-            "id": 33,
-            "name": "(BDC) - Breedlove Discovery Concert CE",
-            "pic": "breedlove-discovery-concert-ce.jpg"
-        },
-        {
-            "id": 34,
-            "name": "(SOM) - Stonebridge OM35ASR-DB",
-            "pic": "stonebridge-om35asr-db.jpg"
-        },
-        {
-            "id": 35,
-            "name": "(NSPBU) - Norman ST40 Parlor Burnt Umber",
-            "pic": "norman-st40-parlor-burnt-umber.jpg"
-        },
-        {
-            "id": 36,
-            "name": "(NBDA) - Norman B15 Dark Almond",
-            "pic": "norman-b15-dark-almond.jpg"
-        },
-        {
-            "id": 37,
-            "name": "(NBBU) - Norman B20 Burnt Umber",
-            "pic": "norman-b20-burnt-umber.jpg"
-        },
-        {
-            "id": 38,
-            "name": "(NSCG) - Norman ST40 CW GT Presys",
-            "pic": "norman-st40-cw-gt-presys.jpg"
-        },
-        {
-            "id": 39,
-            "name": "(NSTCW) - Norman ST68 CW",
-            "pic": "norman-st68-cw.jpg"
-        },
-        {
-            "id": 40,
-            "name": "(SD22) - Stonebridge D22SR",
-            "pic": "stonebridge-d22sr.jpg"
-        },
-        {
-            "id": 41,
-            "name": "(GPRG) - Godin Passion RG-3 Indigo Burst RN",
-            "pic": "godin-passion-rg-3-indigo-burst-rn.jpg",
-            "type": "electric guitar"
-        },
-        {
-            "id": 42,
-            "name": "(M) - Martin 00-15m",
+            "name": "(M15M) - Martin 00-15m",
             "pic": "martin-00-15m.jpg"
         },
         {
-            "id": 43,
+            "id": 13,
             "name": "(NST) - Norman ST68",
             "pic": "norman-st68.jpg"
         },
         {
-            "id": 44,
+            "id": 14,
             "name": "(OOM) - Furch OOM-SR-DB",
             "pic": "furch-oom-sr-db.jpg"
         },
         {
-            "id": 45,
+            "id": 15,
             "name": "(SAS) - Seagull Artist Studio",
             "pic": "seagull-artist-studio.jpg"
         },
         {
-            "id": 46,
+            "id": 16,
             "name": "(SGI) - SGI Avenir CW20",
             "pic": "sgi-avenir-cw20.jpg"
         },
         {
-            "id": 47,
-            "name": "(V) - Furch Vintage 2 RS-SR",
+            "id": 17,
+            "name": "(SOM) - Stonebridge OM35ASR-DB",
+            "pic": "stonebridge-om35asr-db.jpg"
+        },
+        {
+            "id": 18,
+            "name": "(FV2) - Furch Vintage 2 RS-SR",
             "pic": "furch-vintage-2-rs-sr.jpg"
         },
         {
-            "id": 48,
+            "id": 19,
             "name": "(DM75) - DeArmond M75",
             "pic": "dearmond-m75.jpg",
-            "type": "electric guitar"
+            "type": "electric guitar",
+            "appears": 1
+        },
+        {
+            "id": 20,
+            "name": "(OOMV1) - Furch OOM Vintage 1",
+            "pic": "furch-oom-vintage-1.jpg",
+            "appears": 2
+        },
+        {
+            "id": 21,
+            "name": "(MFF) - Maestro Fan Fretted Singa Flamed maple / Adirondack",
+            "pic": "maestro-fan-fretted-singa-flamed-maple-adirondack.jpg",
+            "appears": 1
+        },
+        {
+            "id": 22,
+            "name": "(GPPCB) - Godin Progression Plus Cherry Burst RN",
+            "pic": "godin-progression-plus-cherry-burst-rn.jpg",
+            "type": "electric guitar",
+            "appears": 1
+        },
+        {
+            "id": 23,
+            "name": "(GSDG) - Godin Stadium '59 Desert Green RN",
+            "pic": "godin-stadium-59-desert-green-rn.jpg",
+            "type": "electric guitar",
+            "appears": 1
+        },
+        {
+            "id": 24,
+            "name": "(GPRG) - Godin Passion RG-3 Indigo Burst RN",
+            "pic": "godin-passion-rg-3-indigo-burst-rn.jpg",
+            "type": "electric guitar",
+            "appears": 1
+        },
+        {
+            "id": 25,
+            "name": "(GLTC) - Godin 5th Ave Uptown GT LTD Trans Cream",
+            "pic": "godin-5th-ave-uptown-gt-ltd-trans-cream.jpg",
+            "type": "electric guitar",
+            "appears": 1
+        },
+        {
+            "id": 26,
+            "name": "(MHD) - Martin HD-28",
+            "pic": "martin-hd-28.jpg",
+            "appears": 1
+        },
+        {
+            "id": 27,
+            "name": "(FVD) - Furch Vintage 2 D-SR",
+            "pic": "furch-vintage-2-d-sr.jpg",
+            "appears": 1
+        },
+        {
+            "id": 28,
+            "name": "(BSG) - Boucher SG-52",
+            "pic": "boucher-sg-52.jpg",
+            "appears": 1
+        },
+        {
+            "id": 29,
+            "name": "(FBD) - Furch Blue D-CM",
+            "pic": "furch-blue-d-cm.jpg",
+            "appears": 1
+        },
+        {
+            "id": 30,
+            "name": "(BSGI) - Boucher SG-52-I",
+            "pic": "boucher-sg-52-i.jpg",
+            "appears": 1
+        },
+        {
+            "id": 31,
+            "name": "(GRSG) - Godin Rialto JR Satina Gray HG Q-Discrete",
+            "pic": "godin-rialto-jr-satina-gray-hg-q-discrete.jpg",
+            "appears": 1
+        },
+        {
+            "id": 32,
+            "name": "(GMNC) - Godin Metropolis Natural Cedar EQ",
+            "pic": "godin-metropolis-natural-cedar-eq.jpg",
+            "appears": 1
+        },
+        {
+            "id": 33,
+            "name": "(GMLN) - Godin Metropolis LTD Natural HG EQ",
+            "pic": "godin-metropolis-ltd-natural-hg-eq.jpg",
+            "appears": 1
+        },
+        {
+            "id": 34,
+            "name": "(GMLHB) - Godin Metropolis LTD Havana Burst HG EQ",
+            "pic": "godin-metropolis-ltd-havana-burst-hg-eq.jpg",
+            "appears": 1
+        },
+        {
+            "id": 35,
+            "name": "(GFCHN) - Godin Fairmount Concert Hall Natural HG EQ",
+            "pic": "godin-fairmount-concert-hall-natural-hg-eq.jpg",
+            "appears": 1
+        },
+        {
+            "id": 36,
+            "name": "(BHG) - Boucher HG-56",
+            "pic": "boucher-hg-56.jpg",
+            "appears": 1
+        },
+        {
+            "id": 37,
+            "name": "(FOSG) - Furch OM22TSW-C-DB SGI",
+            "pic": "furch-om22tsw-c-db-sgi.jpg",
+            "appears": 1
+        },
+        {
+            "id": 38,
+            "name": "(FG) - Furch G25CR-C",
+            "pic": "furch-g25cr-c.jpg",
+            "appears": 1
+        },
+        {
+            "id": 39,
+            "name": "(FSD) - Furch *SGI* D22TSR",
+            "pic": "furch-sgi-d22tsr.jpg",
+            "appears": 1
+        },
+        {
+            "id": 40,
+            "name": "(FOB) - Furch OM34TSR-DB B2",
+            "pic": "furch-om34tsr-db-b2.jpg",
+            "appears": 1
+        },
+        {
+            "id": 41,
+            "name": "(LPE) - La Patrie Etude",
+            "pic": "la-patrie-etude.jpg",
+            "type": "classical guitar",
+            "appears": 1
+        },
+        {
+            "id": 42,
+            "name": "(BDC) - Breedlove Discovery Concert CE",
+            "pic": "breedlove-discovery-concert-ce.jpg",
+            "appears": 1
+        },
+        {
+            "id": 43,
+            "name": "(NSPBU) - Norman ST40 Parlor Burnt Umber",
+            "pic": "norman-st40-parlor-burnt-umber.jpg",
+            "appears": 1
+        },
+        {
+            "id": 44,
+            "name": "(NBDA) - Norman B15 Dark Almond",
+            "pic": "norman-b15-dark-almond.jpg",
+            "appears": 1
+        },
+        {
+            "id": 45,
+            "name": "(NBBU) - Norman B20 Burnt Umber",
+            "pic": "norman-b20-burnt-umber.jpg",
+            "appears": 1
+        },
+        {
+            "id": 46,
+            "name": "(NSCG) - Norman ST40 CW GT Presys",
+            "pic": "norman-st40-cw-gt-presys.jpg",
+            "appears": 1
+        },
+        {
+            "id": 47,
+            "name": "(NSTCW) - Norman ST68 CW",
+            "pic": "norman-st68-cw.jpg",
+            "appears": 1
+        },
+        {
+            "id": 48,
+            "name": "(SD22) - Stonebridge D22SR",
+            "pic": "stonebridge-d22sr.jpg",
+            "appears": 1
         }
     ]
 }
