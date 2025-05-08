@@ -10,6 +10,11 @@ import ArtistPage from '../views/ArtistPage.vue';
 import SongPage from '../views/SongPage.vue';
 
 
+// Card Views
+import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
+import LessonView from '../views/CardViews/Lessons.vue';
+
+
 const routes = [
 	{
 		path: '/',
@@ -34,6 +39,16 @@ const routes = [
 	{
 		path: '/song',
 		component: SongPage
+	},
+
+	// Card Views 
+	{
+		path: '/patreon-sign-in',
+		component: PatreonSignInView
+	},
+	{
+		path: '/lessons',
+		component: LessonView
 	}
 ]
 

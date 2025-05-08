@@ -12,6 +12,11 @@
       </a>
     </p>
     <SearchBar />
+
+    <router-link to="/patreon-sign-in" class="router-btn">
+      DELETE THIS BUTTON
+    </router-link>
+
   </div>
 </template>
 
