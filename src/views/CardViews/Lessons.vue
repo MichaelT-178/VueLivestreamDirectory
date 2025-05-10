@@ -5,6 +5,8 @@
       Go to Home page
     </router-link>
 
+    <button @click="logoutAndGoBack" class="router-button">Back</button>
+
     <div>
       <p class="status" v-if="message">{{ message }}</p>
       <p class="status error" v-else>You don't have access to this content.</p>
@@ -17,9 +19,24 @@
 <script setup>
 import { useUser } from '../../composables/useUser';
 import { ref, watch } from 'vue';
+import { useRouter } from 'vue-router';
 
 const { user } = useUser();
 const message = ref('');
+
+const router = useRouter();
+
+const logoutAndGoBack = async () => {
+  try {
+    await fetch('http://localhost:5001/logout', {
+      credentials: 'include'
+    });
+  } catch (err) {
+    console.error('Logout failed', err);
+  } finally {
+    router.push('/');
+  }
+};
 
 watch(user, (newUser) => {
   if (newUser && newUser.message) {
