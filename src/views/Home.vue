@@ -14,7 +14,7 @@
     <SearchBar />
 
     <router-link to="/patreon-sign-in" class="router-btn">
-      DELETE THIS BUTTON
+      DELETE THIS LINK
     </router-link>
 
   </div>
