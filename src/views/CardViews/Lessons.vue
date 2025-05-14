@@ -24,11 +24,13 @@ import { useRouter } from 'vue-router';
 const { user } = useUser();
 const message = ref('');
 
+const API_LINK = import.meta.env.VITE_API_LINK;
+
 const router = useRouter();
 
 const logoutAndGoBack = async () => {
   try {
-    await fetch('http://localhost:5001/logout', {
+    await fetch(`${API_LINK}/logout`, {
       credentials: 'include'
     });
   } catch (err) {
