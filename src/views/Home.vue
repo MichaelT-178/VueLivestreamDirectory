@@ -44,6 +44,10 @@ import SearchBar from '../components/SearchBar.vue';
   gap: 0.5rem;
 }
 
+.router-btn {
+  color: orange;
+}
+
 .channel-link {
   color: #2a9fd6;
   text-decoration: none;
