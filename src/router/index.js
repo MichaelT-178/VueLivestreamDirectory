@@ -25,7 +25,7 @@ const routes = [
 		component: FavoriteCovers
 	},
 	{
-		path: '/contact-developer',
+		path: '/contact',
 		component: ContactDeveloper
 	},
 	{
