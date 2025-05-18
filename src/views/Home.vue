@@ -2,13 +2,29 @@
   <div class="page-container">
     <div class="top-bar">
       <div class="top-bar-inner">
+
+        <img :src="CHLogo" class="ch-logo" alt="CH Logo" />
+
         <h1 class="site-title">Livestream Directory</h1>
-        <div class="nav-links">
+
+        <div class="nav-links desktop-only">
           <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
           <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
-          <a href="/contact" target="_blank">Contact</a>
+          <router-link to="/contact">Contact</router-link>
         </div>
+
+        <div class="mobile-only">
+          <font-awesome-icon icon="bars" @click="toggleMobileMenu" class="hamburger-icon" />
+        </div>
+
       </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div v-if="isMobileMenuOpen" class="mobile-menu">
+      <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
+      <router-link to="/contact">Contact</router-link>
     </div>
 
     <div class="centered">
@@ -16,7 +32,7 @@
         <font-awesome-icon icon="guitar" />
         Corey Heuvel <span class="search-word">Search</span>
       </p>
-      
+
       <div class="search-wrapper">
         <SearchBar />
       </div>
@@ -32,8 +48,16 @@
 
 
 <script setup>
+import { ref } from 'vue';
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
+import CHLogo from '../../ch-logo.jpg';
+
+const isMobileMenuOpen = ref(false);
+
+const toggleMobileMenu = () => {
+  isMobileMenuOpen.value = !isMobileMenuOpen.value;
+};
 
 </script>
 
@@ -62,21 +86,32 @@ import HomeCard from '../components/HomeCard.vue';
 
 .site-title {
   font-size: 1.3rem;
-  margin: 0;
+  margin: 0 0rem;
+  white-space: nowrap;
+}
+
+.ch-logo {
+  display: none;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 .search-word {
   color: #60A5FA;
 }
 
-.nav-links a {
-  color:#cbd5e1;
+.nav-links a,
+.mobile-menu a {
+  color: #cbd5e1;
   text-decoration: none;
   margin-left: 1.5rem;
   font-weight: bold;
 }
 
-.nav-links a:hover {
+.nav-links a:hover,
+.mobile-menu a:hover {
   text-decoration: underline;
 }
 
@@ -103,16 +138,55 @@ import HomeCard from '../components/HomeCard.vue';
   justify-content: center;
 }
 
-@media (max-width: 750px) {
-  .nav-links a {
-    color:red;
-  }
+.hamburger-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #1f2937;
+}
+
+.mobile-menu a {
+  margin: 0.5rem 0;
+}
+
+.desktop-only {
+  display: flex;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: flex;
+  }
+
+  .top-bar-inner {
+    padding: 1rem 1rem;
+  }
+
+  .site-title {
+    font-size: 1.1rem;
+  }
+}
 
 @media (max-width: 600px) {
   .title {
     font-size: 2rem;
+  }
+
+  .site-title {
+    font-size: 1.25rem;
   }
 
   .nav-links a {
@@ -121,12 +195,17 @@ import HomeCard from '../components/HomeCard.vue';
 }
 
 @media (max-width: 400px) {
-  .title {
-    font-size: 1.75rem;
+  .ch-logo {
+    display: block;
   }
 
   .site-title {
-    font-size: 1.25rem;
+    display: none;
+  }
+
+  .title {
+    margin-top: 18px;
+    font-size: 1.75rem;
   }
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <p>Contact Developer</p>
+  <p class="title">Contact Developer</p>
 </template>
 
 
@@ -8,4 +8,10 @@
 
 
 <style scoped>
+.title {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
 </style>

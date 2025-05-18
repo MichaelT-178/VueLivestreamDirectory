@@ -4,10 +4,15 @@ import router from './router';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faGuitar, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { 
+  faGuitar, 
+  faSearch, 
+  faBars 
+} from '@fortawesome/free-solid-svg-icons';
 
 library.add(faGuitar);
 library.add(faSearch);
+library.add(faBars);
 
 const app = createApp(App);
 
