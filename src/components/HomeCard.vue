@@ -6,7 +6,9 @@
   >
     <p class="home-card-text">{{ name }}</p>
   </router-link>
-  <CalculatorIcon stroke-color="green" :width="32" />
+
+  <!-- <CalculatorIcon stroke-color="green" :width="32" /> -->
+  
 </template>
 
 
@@ -18,7 +20,7 @@ defineProps({
   route: String,
   color: {
     type: String,
-    default: '#2a9fd6' // fallback color if not provided
+    default: '#2a9fd6'
   }
 })
 
