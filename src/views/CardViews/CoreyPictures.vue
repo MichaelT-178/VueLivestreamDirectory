@@ -1,7 +1,7 @@
 <template>
   <div class="gallery-container">
     <div class="gallery">
-      <img :src="HeuvelPic1" alt="Heuvel1" class="heuvel1 gallery-img" loading="lazy" width="5224" height="2938" sizes="(max-width: 640px) 100vw, (max-width: 767px) 50vw, 50vw" />
+      <img :src="HeuvelPic1" alt="Heuvel1" class="heuvel1 gallery-img" loading="lazy" />
       <img :src="HeuvelPic2" alt="Heuvel2" class="heuvel2 gallery-img" loading="lazy" />
       <img :src="HeuvelPic3" alt="Heuvel3" class="heuvel3 gallery-img" loading="lazy" />
       <img :src="HeuvelPic4" alt="Heuvel4" class="heuvel4 gallery-img" loading="lazy" />
@@ -54,7 +54,7 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
   justify-content: center;
 }
 
-/* Shared styles for all images */
+/* Shared image styles */
 .gallery-img {
   width: 100%;
   height: 100%;
@@ -64,7 +64,7 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
   display: block;
 }
 
-/* Grid placement for each image */
+/* Grid placements */
 .heuvel1  { grid-column: 1 / 4; }
 .heuvel2  { grid-column: 4 / 7; }
 .heuvel3  { grid-column: 1 / 3; }
@@ -81,6 +81,25 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
 .heuvel14 { grid-column: 4 / 7; grid-row: 8 / 11; }
 .heuvel15 { grid-column: 1 / 4; }
 .heuvel16 { grid-column: 4 / 7; }
+
+/* Responsive single-column layout */
+@media (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .gallery > * {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+
+  .gallery-img {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
 </style>
 
 
