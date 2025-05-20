@@ -37,11 +37,15 @@
         <SearchBar />
       </div>
 
-      <HomeCard
-        name="Lessons"
-        route="/patreon-sign-in"
-        color="gray"
-      />
+      <div class="cards-wrapper">
+        <HomeCard 
+          v-for="(card, index) in CardData.CardData" 
+          :key="index"
+          :card="card" 
+        />
+      </div>
+
+
     </div>
   </div>
 </template>
@@ -52,6 +56,7 @@ import { ref } from 'vue';
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
 import CHLogo from '../../ch-logo.jpg';
+import CardData from '../assets/Home/CardData.json';
 
 const isMobileMenuOpen = ref(false);
 
@@ -161,6 +166,16 @@ const toggleMobileMenu = () => {
 .mobile-only {
   display: none;
 }
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
+
 
 @media (max-width: 750px) {
   .desktop-only {

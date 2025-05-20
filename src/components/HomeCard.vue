@@ -1,53 +1,69 @@
 <template>
-  <router-link 
-    :to="route" 
-    class="home-card" 
-    :style="{ backgroundColor: color }"
+  <component
+    :is="linkTag"
+    :to="isInternalLink ? card.route : undefined"
+    :href="isExternalLink ? card.route : undefined"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="home-card"
+    style="background-color: #1E293B; padding: 1rem; border-radius: 8px; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;"
   >
-    <p class="home-card-text">{{ name }}</p>
-  </router-link>
-
-  <!-- <CalculatorIcon stroke-color="green" :width="32" /> -->
-  
+    <component
+      :is="IconComponent"
+      :stroke-color="card.iconColor"
+      :width="40"
+    />
+    <h2 style="color: white; font-size: 1.25rem; font-weight: bold;">
+      {{ card.title }}
+    </h2>
+    <p style="color: #ccc;">{{ card.description || 'CHANGE THIS' }}</p>
+    <p style="color: #aaa; font-style: italic;">{{ card.linkTitle || 'CHANGE LINK' }}</p>
+  </component>
 </template>
 
 
 <script setup>
-import CalculatorIcon from "../assets/svg/calculator.vue";
+import { computed } from 'vue';
+import iconMap from '../assets/svg/IconMap.js';
 
-defineProps({
-  name: String,
-  route: String,
-  color: {
-    type: String,
-    default: '#2a9fd6'
+const props = defineProps({
+  card: {
+    type: Object,
+    required: true,
   }
-})
+});
+
+const isExternalLink = computed(() => {
+  return typeof props.card.route === 'string' && props.card.route.startsWith('http');
+});
+
+const isInternalLink = computed(() => {
+  return typeof props.card.route === 'string' && props.card.route.startsWith('/');
+});
+
+const linkTag = computed(() => {
+  if (isInternalLink.value) return 'router-link';
+  if (isExternalLink.value) return 'a';
+  return 'div';
+});
+
+const IconComponent = computed(() => {
+  return iconMap[props.card.icon?.toLowerCase()] || null;
+});
 
 </script>
 
 
+
 <style scoped>
 .home-card {
-  padding: 1rem 2rem;
-  border-radius: 12px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  font-size: 1rem;
-  margin: 1rem;
-  transition: transform 0.2s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  display: inline-block;
+  transition: transform 0.2s;
 }
-
 .home-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
-.home-card-text {
-  margin: 0;
-}
+/* 94A3B8 -> Description Color */
+/* rgb(20 83 45 / .3) -> Circle opacity */
 
 </style>

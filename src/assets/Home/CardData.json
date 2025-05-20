@@ -1,0 +1,76 @@
+{
+    "CardData": [
+        {
+            "icon": "bookmark",
+            "iconColor": "darkgreen",
+            "title": "Saved Songs",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "camera",
+            "iconColor": "purple",
+            "title": "Corey Pictures",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "cash",
+            "iconColor": "green",
+            "title": "Tip the Developer",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "email",
+            "iconColor": "blue",
+            "title": "Contact The Developer",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "folder",
+            "iconColor": "yellow",
+            "title": "Og Website",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "guitar",
+            "iconColor": "teal",
+            "title": "Instruments",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "heart",
+            "iconColor": "pink",
+            "title": "My Favorite Covers",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "musicnote",
+            "iconColor": "red",
+            "title": "Corey's Repertoire",
+            "description": "",
+            "linkTitle": "",
+            "route": ""
+        },
+        {
+            "icon": "school",
+            "iconColor": "orange",
+            "title": "Lessons",
+            "description": "",
+            "linkTitle": "",
+            "route": "/patreon-sign-in"
+        }
+    ]
+}
