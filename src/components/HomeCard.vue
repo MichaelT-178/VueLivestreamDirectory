@@ -1,10 +1,7 @@
 <template>
   <component
     :is="linkTag"
-    :to="isInternalLink ? card.route : undefined"
-    :href="isExternalLink ? card.route : undefined"
-    target="_blank"
-    rel="noopener noreferrer"
+    v-bind="linkProps"
     class="home-card"
     style="background-color: #1E293B; padding: 1rem; border-radius: 8px; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;"
   >
@@ -16,11 +13,14 @@
     <h2 style="color: white; font-size: 1.25rem; font-weight: bold;">
       {{ card.title }}
     </h2>
-    <p style="color: #ccc;">{{ card.description || 'CHANGE THIS' }}</p>
-    <p style="color: #aaa; font-style: italic;">{{ card.linkTitle || 'CHANGE LINK' }}</p>
+    <p style="color: #ccc;">
+      {{ card.description || 'CHANGE THIS' }}
+    </p>
+    <p style="color: #aaa; font-style: italic;">
+      {{ card.linkTitle || 'CHANGE LINK' }}
+    </p>
   </component>
 </template>
-
 
 <script setup>
 import { computed } from 'vue';
@@ -47,13 +47,24 @@ const linkTag = computed(() => {
   return 'div';
 });
 
+const linkProps = computed(() => {
+  if (isInternalLink.value) {
+    return { to: props.card.route };
+  } else if (isExternalLink.value) {
+    return {
+      href: props.card.route,
+      target: '_blank',
+      rel: 'noopener noreferrer',
+    };
+  } else {
+    return {};
+  }
+});
+
 const IconComponent = computed(() => {
   return iconMap[props.card.icon?.toLowerCase()] || null;
 });
-
 </script>
-
-
 
 <style scoped>
 .home-card {
@@ -65,5 +76,4 @@ const IconComponent = computed(() => {
 
 /* 94A3B8 -> Description Color */
 /* rgb(20 83 45 / .3) -> Circle opacity */
-
 </style>

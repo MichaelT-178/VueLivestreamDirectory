@@ -42,7 +42,7 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
 
 <style scoped>
 .gallery-container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -84,21 +84,21 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
 </style>
 
 
-
-
-<!-- Heuvel1.jpg: 1500x844
-Heuvel3.jpg: 1200x800
+<!-- 
+Heuvel1.jpg: 1500x844
 Heuvel2.jpg: 1200x800
+Heuvel3.jpg: 1200x800
+Heuvel4.jpg: 1280x720
+Heuvel5.jpg: 1500x844
 Heuvel6.jpg: 1500x1000
 Heuvel7.jpg: 1500x1000
-Heuvel5.jpg: 1500x844
-Heuvel4.jpg: 1280x720
+Heuvel8.jpg: 1067x1600
+Heuvel9.jpg: 1080x1920
+Heuvel10.jpg: 1280x720
+Heuvel11.jpg: 1500x1000
 Heuvel12.jpg: 1500x844
 Heuvel13.jpg: 1500x2247
-Heuvel11.jpg: 1500x1000
-Heuvel10.jpg: 1280x720
 Heuvel14.jpg: 1500x2247
 Heuvel15.jpg: 1200x800
 Heuvel16.jpg: 960x767
-Heuvel9.jpg: 1080x1920
-Heuvel8.jpg: 1067x1600 -->
+-->
