@@ -42,7 +42,7 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
 
 <style scoped>
 .gallery-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -86,7 +86,7 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
 @media (max-width: 767px) {
   .gallery {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 60px;
   }
 
   .gallery > * {
@@ -97,6 +97,7 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
   .gallery-img {
     width: 95%;
     margin: 0 auto;
+    height: 115%;
   }
 }
 
