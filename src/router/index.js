@@ -13,6 +13,7 @@ import SongPage from '../views/SongPage.vue';
 // Card Views
 import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
 import LessonView from '../views/CardViews/Lessons.vue';
+import CoreyPicturesView from '../views/CardViews/CoreyPictures.vue';
 
 
 const routes = [
@@ -49,7 +50,11 @@ const routes = [
 	{
 		path: '/lessons',
 		component: LessonView
-	}
+	},
+	{
+		path: '/photos',
+		component: CoreyPicturesView
+	},
 ]
 
 const router = createRouter({
