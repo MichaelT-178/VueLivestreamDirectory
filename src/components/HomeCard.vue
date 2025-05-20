@@ -6,10 +6,12 @@
   >
     <p class="home-card-text">{{ name }}</p>
   </router-link>
+  <CalculatorIcon stroke-color="green" :width="32" />
 </template>
 
 
 <script setup>
+import CalculatorIcon from "../assets/svg/calculator.vue";
 
 defineProps({
   name: String,
