@@ -1,43 +1,72 @@
 <template>
   <div class="gallery-container">
     <div class="gallery">
-      <img :src="HeuvelPic1" alt="Heuvel1" class="heuvel1 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic2" alt="Heuvel2" class="heuvel2 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic3" alt="Heuvel3" class="heuvel3 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic4" alt="Heuvel4" class="heuvel4 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic5" alt="Heuvel5" class="heuvel5 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic6" alt="Heuvel6" class="heuvel6 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic7" alt="Heuvel7" class="heuvel7 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic8" alt="Heuvel8" class="heuvel8 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic9" alt="Heuvel9" class="heuvel9 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic10" alt="Heuvel10" class="heuvel10 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic11" alt="Heuvel11" class="heuvel11 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic12" alt="Heuvel12" class="heuvel12 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic13" alt="Heuvel13" class="heuvel13 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic14" alt="Heuvel14" class="heuvel14 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic15" alt="Heuvel15" class="heuvel15 gallery-img" loading="lazy" />
-      <img :src="HeuvelPic16" alt="Heuvel16" class="heuvel16 gallery-img" loading="lazy" />
+      <img
+        v-for="(img, index) in galleryImages"
+        :key="index"
+        :src="img"
+        :alt="galleryCaptions[index]"
+        class="gallery-img"
+        @click="openImageView(index)"
+        loading="lazy"
+      />
     </div>
+
+    <transition name="fade">
+      <ImageView
+        v-if="isImageViewOpen"
+        :images="galleryImages"
+        :captions="galleryCaptions"
+        :initialImage="currentImage"
+        :isOpen="isImageViewOpen"
+        @close="isImageViewOpen = false"
+      />
+    </transition>
   </div>
 </template>
 
 <script setup>
-import HeuvelPic1 from "../../assets/CoreyPics/Heuvel1.jpg";
-import HeuvelPic2 from "../../assets/CoreyPics/Heuvel2.jpg";
-import HeuvelPic3 from "../../assets/CoreyPics/Heuvel3.jpg";
-import HeuvelPic4 from "../../assets/CoreyPics/Heuvel4.jpg";
-import HeuvelPic5 from "../../assets/CoreyPics/Heuvel5.jpg";
-import HeuvelPic6 from "../../assets/CoreyPics/Heuvel6.jpg";
-import HeuvelPic7 from "../../assets/CoreyPics/Heuvel7.jpg";
-import HeuvelPic8 from "../../assets/CoreyPics/Heuvel8.jpg";
-import HeuvelPic9 from "../../assets/CoreyPics/Heuvel9.jpg";
-import HeuvelPic10 from "../../assets/CoreyPics/Heuvel10.jpg";
-import HeuvelPic11 from "../../assets/CoreyPics/Heuvel11.jpg";
-import HeuvelPic12 from "../../assets/CoreyPics/Heuvel12.jpg";
-import HeuvelPic13 from "../../assets/CoreyPics/Heuvel13.jpg";
-import HeuvelPic14 from "../../assets/CoreyPics/Heuvel14.jpg";
-import HeuvelPic15 from "../../assets/CoreyPics/Heuvel15.jpg";
-import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
+import { ref } from 'vue';
+import ImageView from '../../components/ImageView.vue';
+
+import HeuvelPic1 from "../../assets/CoreyPics/Pic1.jpg";
+import HeuvelPic2 from "../../assets/CoreyPics/Pic2.jpg";
+import HeuvelPic3 from "../../assets/CoreyPics/Pic3.jpg";
+import HeuvelPic4 from "../../assets/CoreyPics/Pic4.jpg";
+import HeuvelPic5 from "../../assets/CoreyPics/Pic5.jpg";
+import HeuvelPic6 from "../../assets/CoreyPics/Pic6.jpg";
+import HeuvelPic7 from "../../assets/CoreyPics/Pic7.jpg";
+import HeuvelPic8 from "../../assets/CoreyPics/Pic8.jpg";
+import HeuvelPic9 from "../../assets/CoreyPics/Pic9.jpg";
+import HeuvelPic10 from "../../assets/CoreyPics/Pic10.jpg";
+import HeuvelPic11 from "../../assets/CoreyPics/Pic11.jpg";
+import HeuvelPic12 from "../../assets/CoreyPics/Pic12.jpg";
+import HeuvelPic13 from "../../assets/CoreyPics/Pic13.jpg";
+import HeuvelPic14 from "../../assets/CoreyPics/Pic14.jpg";
+import HeuvelPic15 from "../../assets/CoreyPics/Pic15.jpg";
+import HeuvelPic16 from "../../assets/CoreyPics/Pic16.jpg";
+
+const isImageViewOpen = ref(false);
+const currentImage = ref(0);
+
+const galleryImages = [
+  HeuvelPic1, HeuvelPic2, HeuvelPic3, HeuvelPic4,
+  HeuvelPic5, HeuvelPic6, HeuvelPic7, HeuvelPic8,
+  HeuvelPic9, HeuvelPic10, HeuvelPic11, HeuvelPic12,
+  HeuvelPic13, HeuvelPic14, HeuvelPic15, HeuvelPic16
+];
+
+const galleryCaptions = [
+  "Pic One", "Pic Two", "Pic Three", "Pic Four",
+  "Pic Five", "Pic Six", "Pic Seven", "Pic Eight",
+  "Pic Nine", "Pic Ten", "Pic Eleven", "Pic Twelve",
+  "Pic Thirteen", "Pic Fourteen", "Pic Fifteen", "Pic Sixteen"
+];
+
+const openImageView = (index) => {
+  currentImage.value = index;
+  isImageViewOpen.value = true;
+};
 </script>
 
 <style scoped>
@@ -54,7 +83,6 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
   justify-content: center;
 }
 
-/* Shared image styles */
 .gallery-img {
   width: 100%;
   height: 100%;
@@ -62,27 +90,27 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
   object-position: 31.1% 64.8%;
   border-radius: 8px;
   display: block;
+  cursor: pointer;
 }
 
 /* Grid placements */
-.heuvel1  { grid-column: 1 / 4; }
-.heuvel2  { grid-column: 4 / 7; }
-.heuvel3  { grid-column: 1 / 3; }
-.heuvel4  { grid-column: 3 / 5; }
-.heuvel5  { grid-column: 5 / 7; }
-.heuvel6  { grid-column: 1 / 4; }
-.heuvel7  { grid-column: 1 / 4; }
-.heuvel8  { grid-column: 4 / 7; grid-row: 3 / 5; }
-.heuvel9  { grid-column: 1 / 3; grid-row: 5 / 8; }
-.heuvel10 { grid-column: 3 / 7; }
-.heuvel11 { grid-column: 3 / 7; }
-.heuvel12 { grid-column: 3 / 7; }
-.heuvel13 { grid-column: 1 / 4; grid-row: 8 / 11; }
-.heuvel14 { grid-column: 4 / 7; grid-row: 8 / 11; }
-.heuvel15 { grid-column: 1 / 4; }
-.heuvel16 { grid-column: 4 / 7; }
+.gallery-img:nth-child(1)  { grid-column: 1 / 4; }
+.gallery-img:nth-child(2)  { grid-column: 4 / 7; }
+.gallery-img:nth-child(3)  { grid-column: 1 / 3; }
+.gallery-img:nth-child(4)  { grid-column: 3 / 5; }
+.gallery-img:nth-child(5)  { grid-column: 5 / 7; }
+.gallery-img:nth-child(6)  { grid-column: 1 / 4; }
+.gallery-img:nth-child(7)  { grid-column: 1 / 4; }
+.gallery-img:nth-child(8)  { grid-column: 4 / 7; grid-row: 3 / 5; }
+.gallery-img:nth-child(9)  { grid-column: 1 / 3; grid-row: 5 / 8; }
+.gallery-img:nth-child(10) { grid-column: 3 / 7; }
+.gallery-img:nth-child(11) { grid-column: 3 / 7; }
+.gallery-img:nth-child(12) { grid-column: 3 / 7; }
+.gallery-img:nth-child(13) { grid-column: 1 / 4; grid-row: 8 / 11; }
+.gallery-img:nth-child(14) { grid-column: 4 / 7; grid-row: 8 / 11; }
+.gallery-img:nth-child(15) { grid-column: 1 / 4; }
+.gallery-img:nth-child(16) { grid-column: 4 / 7; }
 
-/* Responsive single-column layout */
 @media (max-width: 767px) {
   .gallery {
     grid-template-columns: 1fr;
@@ -100,25 +128,4 @@ import HeuvelPic16 from "../../assets/CoreyPics/Heuvel16.jpg";
     height: 115%;
   }
 }
-
 </style>
-
-
-<!-- 
-Heuvel1.jpg: 1500x844
-Heuvel2.jpg: 1200x800
-Heuvel3.jpg: 1200x800
-Heuvel4.jpg: 1280x720
-Heuvel5.jpg: 1500x844
-Heuvel6.jpg: 1500x1000
-Heuvel7.jpg: 1500x1000
-Heuvel8.jpg: 1067x1600
-Heuvel9.jpg: 1080x1920
-Heuvel10.jpg: 1280x720
-Heuvel11.jpg: 1500x1000
-Heuvel12.jpg: 1500x844
-Heuvel13.jpg: 1500x2247
-Heuvel14.jpg: 1500x2247
-Heuvel15.jpg: 1200x800
-Heuvel16.jpg: 960x767
--->

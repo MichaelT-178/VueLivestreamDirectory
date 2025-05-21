@@ -30,7 +30,7 @@
             "title": "Contact The Developer",
             "description": "",
             "linkTitle": "",
-            "route": ""
+            "route": "/contact"
         },
         {
             "icon": "folder",
@@ -38,7 +38,7 @@
             "title": "Og Website",
             "description": "",
             "linkTitle": "",
-            "route": ""
+            "route": "https://www.swiftcolors.com/"
         },
         {
             "icon": "guitar",
@@ -46,7 +46,7 @@
             "title": "Instruments",
             "description": "",
             "linkTitle": "",
-            "route": ""
+            "route": "/instruments"
         },
         {
             "icon": "heart",
@@ -54,7 +54,7 @@
             "title": "My Favorite Covers",
             "description": "",
             "linkTitle": "",
-            "route": ""
+            "route": "/favorites"
         },
         {
             "icon": "musicnote",
@@ -62,7 +62,7 @@
             "title": "Corey's Repertoire",
             "description": "",
             "linkTitle": "",
-            "route": ""
+            "route": "/repertoire"
         },
         {
             "icon": "school",

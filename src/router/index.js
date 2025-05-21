@@ -2,18 +2,19 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import Home from '../views/Home.vue';
 
-import FavoriteCovers from '../views/FavoriteCovers.vue';
-import ContactDeveloper from '../views/ContactDeveloper.vue';
-import Instruments from '../views/Instruments.vue';
 
 import ArtistPage from '../views/ArtistPage.vue';
 import SongPage from '../views/SongPage.vue';
 
 
 // Card Views
-import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
-import LessonView from '../views/CardViews/Lessons.vue';
+import ContactDeveloper from '../views/CardViews/ContactDeveloper.vue';
 import CoreyPicturesView from '../views/CardViews/CoreyPictures.vue';
+import FavoriteCovers from '../views/CardViews/FavoriteCovers.vue';
+import Instruments from '../views/CardViews/Instruments.vue';
+import LessonView from '../views/CardViews/Lessons.vue';
+import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
+import RepertoireView from '../views/CardViews/Repertoire.vue';
 
 
 const routes = [
@@ -22,7 +23,7 @@ const routes = [
 		component: Home
 	},
 	{
-		path: '/favorite-covers',
+		path: '/favorites',
 		component: FavoriteCovers
 	},
 	{
@@ -54,6 +55,10 @@ const routes = [
 	{
 		path: '/photos',
 		component: CoreyPicturesView
+	},
+	{
+		path: '/repertoire',
+		component: RepertoireView
 	},
 ]
 

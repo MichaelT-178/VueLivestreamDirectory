@@ -53,7 +53,7 @@ const linkProps = computed(() => {
   } else if (isExternalLink.value) {
     return {
       href: props.card.route,
-      target: '_blank',
+      // target: '_blank',
       rel: 'noopener noreferrer',
     };
   } else {
