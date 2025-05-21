@@ -16,8 +16,18 @@
     <p style="color: #ccc;">
       {{ card.description || 'CHANGE THIS' }}
     </p>
-    <p style="color: #aaa; font-style: italic;">
+    <p
+      class="link-with-icon"
+      :style="{ color: card.iconColor || '#aaa' }"
+    >
       {{ card.linkTitle || 'CHANGE LINK' }}
+      <component
+        v-if="ArrowIcon"
+        :is="ArrowIcon"
+        :stroke-color="card.iconColor"
+        :width="18"
+        style="margin-left: 0.25rem;"
+      />
     </p>
   </component>
 </template>
@@ -34,16 +44,21 @@ const props = defineProps({
 });
 
 const isExternalLink = computed(() => {
-  return typeof props.card.route === 'string' && props.card.route.startsWith('http');
+  return (
+    typeof props.card.route === 'string' && props.card.route.startsWith('http')
+  );
 });
 
 const isInternalLink = computed(() => {
-  return typeof props.card.route === 'string' && props.card.route.startsWith('/');
+  return (
+    typeof props.card.route === 'string' && props.card.route.startsWith('/')
+  );
 });
 
 const linkTag = computed(() => {
   if (isInternalLink.value) return 'router-link';
   if (isExternalLink.value) return 'a';
+  
   return 'div';
 });
 
@@ -64,6 +79,9 @@ const linkProps = computed(() => {
 const IconComponent = computed(() => {
   return iconMap[props.card.icon?.toLowerCase()] || null;
 });
+
+const ArrowIcon = computed(() => iconMap['arrowright']);
+
 </script>
 
 <style scoped>
@@ -74,6 +92,8 @@ const IconComponent = computed(() => {
   transform: scale(1.03);
 }
 
-/* 94A3B8 -> Description Color */
-/* rgb(20 83 45 / .3) -> Circle opacity */
+.link-with-icon {
+  display: flex;
+  align-items: center;
+}
 </style>

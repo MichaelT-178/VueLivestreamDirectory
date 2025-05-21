@@ -13,7 +13,7 @@
             "iconColor": "purple",
             "title": "Corey Pictures",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "See Pictures",
             "route": "/photos"
         },
         {
@@ -21,7 +21,7 @@
             "iconColor": "green",
             "title": "Tip the Developer",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "Go to Paypal",
             "route": ""
         },
         {
@@ -29,7 +29,7 @@
             "iconColor": "blue",
             "title": "Contact The Developer",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "Email the Dev",
             "route": "/contact"
         },
         {
@@ -37,7 +37,7 @@
             "iconColor": "yellow",
             "title": "Og Website",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "Go to Website",
             "route": "https://www.swiftcolors.com/"
         },
         {
@@ -45,7 +45,7 @@
             "iconColor": "teal",
             "title": "Instruments",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "View Instruments",
             "route": "/instruments"
         },
         {
@@ -53,7 +53,7 @@
             "iconColor": "pink",
             "title": "My Favorite Covers",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "See Covers",
             "route": "/favorites"
         },
         {
@@ -61,7 +61,7 @@
             "iconColor": "red",
             "title": "Corey's Repertoire",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "See Repertoire",
             "route": "/repertoire"
         },
         {
@@ -69,7 +69,7 @@
             "iconColor": "orange",
             "title": "Lessons",
             "description": "",
-            "linkTitle": "",
+            "linkTitle": "Go to Lessons",
             "route": "/patreon-sign-in"
         }
     ]
