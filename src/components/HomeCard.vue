@@ -3,7 +3,7 @@
     :is="linkTag"
     v-bind="linkProps"
     class="home-card"
-    style="background-color: #1E293B; padding: 1rem; border-radius: 8px; display: flex; flex-direction: column; align-items: center; gap: 0.5rem;"
+    style="background-color: #1E293B; padding: 1rem; border-radius: 8px; display: flex; flex-direction: column; align-items: flex-start; gap: 0.5rem;"
   >
     <div class="icon-background" :style="backgroundStyle">
       <component
@@ -13,11 +13,11 @@
       />
     </div>
 
-    <h2 style="color: white; font-size: 1.25rem; font-weight: bold;">
+    <h2 style="color: white; font-size: 1.25rem; font-weight: bold; margin: 0;">
       {{ card.title }}
     </h2>
 
-    <p style="color: #ccc;">
+    <p style="color: #ccc; margin: 0;">
       {{ card.description || 'CHANGE THIS' }}
     </p>
 
@@ -36,6 +36,7 @@
     </p>
   </component>
 </template>
+
 
 <script setup>
 import { computed } from 'vue';
@@ -108,6 +109,8 @@ const IconComponent = computed(() => {
 const ArrowIcon = computed(() => iconMap['arrowright']);
 </script>
 
+
+
 <style scoped>
 .home-card {
   transition: transform 0.2s;
@@ -119,7 +122,6 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
 .link-with-icon {
   display: flex;
   font-weight: 500;
-  /* font-family: Inter, "Inter Fallback", sans-serif; */
   font-size: 16px;
   align-items: center;
 }
@@ -132,5 +134,4 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
   height: 50px;
   border-radius: 50%;
 }
-
 </style>
