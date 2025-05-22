@@ -1,81 +1,91 @@
 {
+    "Comment": "These are Tailwind *-400 Color Hex Values",
     "CardData": [
         {
+            "id": 1,
             "icon": "bookmark",
-            "iconColor": "darkgreen",
-            "iconColorCode": "#006400",
+            "iconColor": "cyan",
+            "iconColorCode": "#22D3EE",
             "title": "Saved Songs",
             "description": "",
             "linkTitle": "",
             "route": ""
         },
         {
+            "id": 2,
             "icon": "camera",
             "iconColor": "purple",
-            "iconColorCode": "#800080",
+            "iconColorCode": "#C084FC",
             "title": "Corey Pictures",
             "description": "",
             "linkTitle": "See Pictures",
             "route": "/photos"
         },
         {
+            "id": 3,
             "icon": "cash",
             "iconColor": "green",
-            "iconColorCode": "#008000",
+            "iconColorCode": "#4ADE80",
             "title": "Tip the Developer",
             "description": "",
             "linkTitle": "Go to Paypal",
             "route": ""
         },
         {
+            "id": 4,
             "icon": "email",
             "iconColor": "blue",
-            "iconColorCode": "#0000ff",
+            "iconColorCode": "#60A5FA",
             "title": "Contact The Developer",
             "description": "",
             "linkTitle": "Email the Dev",
             "route": "/contact"
         },
         {
+            "id": 5,
             "icon": "folder",
             "iconColor": "yellow",
-            "iconColorCode": "#ffff00",
+            "iconColorCode": "#FACC15",
             "title": "Og Website",
             "description": "",
             "linkTitle": "Go to Website",
             "route": "https://www.swiftcolors.com/"
         },
         {
+            "id": 6,
             "icon": "guitar",
             "iconColor": "teal",
-            "iconColorCode": "#008080",
+            "iconColorCode": "#2DD4BF",
             "title": "Instruments",
             "description": "",
             "linkTitle": "View Instruments",
             "route": "/instruments"
         },
         {
+            "id": 7,
             "icon": "heart",
             "iconColor": "pink",
-            "iconColorCode": "#ffc0cb",
+            "iconColorCode": "#F472B6",
             "title": "My Favorite Covers",
             "description": "",
             "linkTitle": "See Covers",
             "route": "/favorites"
         },
         {
+            "id": 8,
             "icon": "musicnote",
-            "iconColor": "red",
-            "iconColorCode": "#ff0000",
+            "iconColor": "rose",
+            "iconColorCode": "#FB7185",
             "title": "Corey's Repertoire",
             "description": "",
             "linkTitle": "See Repertoire",
             "route": "/repertoire"
         },
         {
+            "id": 9,
             "icon": "school",
             "iconColor": "orange",
-            "iconColorCode": "#ffa500",
+            "iconColorCode": "#FB923C",
             "title": "Lessons",
             "description": "",
             "linkTitle": "Go to Lessons",
