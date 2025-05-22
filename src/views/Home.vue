@@ -10,6 +10,7 @@
         <div class="nav-links desktop-only">
           <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
           <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
+          <a href="https://www.patreon.com/coreyheuvel" target="_blank" rel="noopener noreferrer">Patreon</a>
           <router-link to="/contact">Contact</router-link>
         </div>
 
@@ -24,6 +25,7 @@
     <div v-if="isMobileMenuOpen" class="mobile-menu">
       <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
       <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
+      <a href="https://www.patreon.com/coreyheuvel" target="_blank" rel="noopener noreferrer">Patreon</a>
       <router-link to="/contact">Contact</router-link>
     </div>
 

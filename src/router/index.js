@@ -15,6 +15,7 @@ import Instruments from '../views/CardViews/Instruments.vue';
 import LessonView from '../views/CardViews/Lessons.vue';
 import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
 import RepertoireView from '../views/CardViews/Repertoire.vue';
+import SavedSongsView from '../views/CardViews/SavedSongs.vue';
 
 
 const routes = [
@@ -60,6 +61,10 @@ const routes = [
 		path: '/repertoire',
 		component: RepertoireView
 	},
+	{
+		path: '/saved-songs',
+		component: SavedSongsView
+	}
 ]
 
 const router = createRouter({

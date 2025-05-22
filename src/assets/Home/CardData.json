@@ -7,9 +7,9 @@
             "iconColor": "cyan",
             "iconColorCode": "#22D3EE",
             "title": "Saved Songs",
-            "description": "",
-            "linkTitle": "",
-            "route": ""
+            "description": "View all of your saved Corey Heuvel songs.",
+            "linkTitle": "View Saved Songs",
+            "route": "/saved-songs"
         },
         {
             "id": 2,
@@ -17,7 +17,7 @@
             "iconColor": "purple",
             "iconColorCode": "#C084FC",
             "title": "Corey Pictures",
-            "description": "",
+            "description": "Photo Gallery of Corey Heuvel and his guitars.",
             "linkTitle": "See Pictures",
             "route": "/photos"
         },
@@ -27,9 +27,9 @@
             "iconColor": "green",
             "iconColorCode": "#4ADE80",
             "title": "Tip the Developer",
-            "description": "",
+            "description": "Tips for Michael L. Obviously completely optional, but greatly appreciated.",
             "linkTitle": "Go to Paypal",
-            "route": ""
+            "route": "https://www.swiftcolors.com/"
         },
         {
             "id": 4,
@@ -37,7 +37,7 @@
             "iconColor": "blue",
             "iconColorCode": "#60A5FA",
             "title": "Contact The Developer",
-            "description": "",
+            "description": "Send an email to Michael L. I'll try to respond as quick as possible.",
             "linkTitle": "Email the Dev",
             "route": "/contact"
         },
@@ -47,7 +47,7 @@
             "iconColor": "yellow",
             "iconColorCode": "#FACC15",
             "title": "Og Website",
-            "description": "",
+            "description": "The original Livestream Directory website. I'll continue to update this.",
             "linkTitle": "Go to Website",
             "route": "https://www.swiftcolors.com/"
         },
@@ -57,7 +57,7 @@
             "iconColor": "teal",
             "iconColorCode": "#2DD4BF",
             "title": "Instruments",
-            "description": "",
+            "description": "All instruments Corey has played throughout his music career.",
             "linkTitle": "View Instruments",
             "route": "/instruments"
         },
@@ -67,7 +67,7 @@
             "iconColor": "pink",
             "iconColorCode": "#F472B6",
             "title": "My Favorite Covers",
-            "description": "",
+            "description": "This is a list of Michael L's favorite Corey Heuvel covers.",
             "linkTitle": "See Covers",
             "route": "/favorites"
         },
@@ -77,7 +77,7 @@
             "iconColor": "rose",
             "iconColorCode": "#FB7185",
             "title": "Corey's Repertoire",
-            "description": "",
+            "description": "This is a list of basically every song Corey has ever covered.",
             "linkTitle": "See Repertoire",
             "route": "/repertoire"
         },
@@ -87,7 +87,7 @@
             "iconColor": "orange",
             "iconColorCode": "#FB923C",
             "title": "Lessons",
-            "description": "",
+            "description": "Corey's Patreon Lessons. Only members of the \"Student\" tier can view this.",
             "linkTitle": "Go to Lessons",
             "route": "/patreon-sign-in"
         }

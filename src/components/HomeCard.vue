@@ -1,9 +1,5 @@
 <template>
-  <component
-    :is="linkTag"
-    v-bind="linkProps"
-    class="home-card"
-  >
+  <div class="home-card">
     <div class="icon-background" :style="backgroundStyle">
       <component
         :is="IconComponent"
@@ -12,16 +8,33 @@
       />
     </div>
 
-    <h2 class="card-title">
-      {{ card.title }}
-    </h2>
+    <h2 class="card-title">{{ card.title }}</h2>
 
-    <p class="card-description">
-      {{ card.description || 'CHANGE THIS' }}
-    </p>
+    <p class="card-description">{{ card.description }}</p>
 
-    <p class="link-with-icon" :style="{ color: card.iconColorCode || '#aaa' }">
-      {{ card.linkTitle || 'CHANGE LINK' }}
+    <component
+      :is="linkTag"
+      v-bind="linkProps"
+      class="link-with-icon"
+      :style="{ color: card.iconColorCode || '#aaa' }"
+      v-if="linkTag !== 'div'"
+    >
+      {{ card.linkTitle }}
+      <component
+        v-if="ArrowIcon"
+        :is="ArrowIcon"
+        :stroke-color="card.iconColorCode"
+        :width="20"
+        class="arrow-icon"
+      />
+    </component>
+
+    <p
+      v-else
+      class="link-with-icon"
+      :style="{ color: card.iconColorCode || '#aaa' }"
+    >
+      {{ card.linkTitle }}
       <component
         v-if="ArrowIcon"
         :is="ArrowIcon"
@@ -30,7 +43,7 @@
         class="arrow-icon"
       />
     </p>
-  </component>
+  </div>
 </template>
 
 <script setup>
@@ -83,8 +96,8 @@ const linkProps = computed(() => {
   } else if (isExternalLink.value) {
     return {
       href: props.card.route,
+      target: '_blank',
       rel: 'noopener noreferrer',
-      // target: '_blank'
     };
   } else {
     return {};
@@ -110,11 +123,8 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
   width: 320px;
   min-height: 240px;
   transition: transform 0.2s;
+  text-decoration: none;
 }
-/* 
-.home-card:hover {
-  transform: scale(1.03);
-} */
 
 .icon-background {
   display: flex;
@@ -133,7 +143,7 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
 }
 
 .card-description {
-  color: #ccc;
+  color: #94A3B8;
   margin: 0;
   font-size: 1.1rem;
 }
@@ -143,12 +153,17 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
   font-weight: 500;
   font-size: 1rem;
   align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-with-icon:hover {
+  filter: brightness(0.85);
 }
 
 .arrow-icon {
   margin-left: 0.25rem;
 }
-
 
 @media (max-width: 400px) {
   .home-card {
@@ -156,5 +171,4 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
     min-height: 220px;
   }
 }
-
 </style>
