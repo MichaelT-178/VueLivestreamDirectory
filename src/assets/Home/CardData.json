@@ -87,7 +87,7 @@
             "iconColor": "orange",
             "iconColorCode": "#FB923C",
             "title": "Lessons",
-            "description": "Corey's Patreon Lessons. Only members of the \"Student\" tier can view this.",
+            "description": "All Patreon Lessons. Only members of the \"Student\" tier can view this content.",
             "linkTitle": "Go to Lessons",
             "route": "/patreon-sign-in"
         }

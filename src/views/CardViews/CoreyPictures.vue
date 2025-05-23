@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import ImageView from '../../components/ImageView.vue';
 
 import HeuvelPic1 from "../../assets/CoreyPics/Pic1.jpg";
@@ -67,7 +67,13 @@ const openImageView = (index) => {
   currentImage.value = index;
   isImageViewOpen.value = true;
 };
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+
 </script>
+
 
 <style scoped>
 .gallery-container {
@@ -128,4 +134,5 @@ const openImageView = (index) => {
     height: 115%;
   }
 }
+
 </style>

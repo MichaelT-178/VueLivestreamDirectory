@@ -37,7 +37,7 @@
 
 
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
@@ -91,6 +91,10 @@ const submitForm = () => {
       buttonText.value = 'Submit';
     })
 };
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 
 </script>
 

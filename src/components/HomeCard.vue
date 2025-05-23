@@ -4,7 +4,7 @@
       <component
         :is="IconComponent"
         :stroke-color="card.iconColorCode"
-        :width="30"
+        :width="28"
       />
     </div>
 
@@ -121,7 +121,7 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
   align-items: flex-start;
   gap: 0.75rem;
   width: 320px;
-  min-height: 240px;
+  min-height: 202px;
   transition: transform 0.2s;
   text-decoration: none;
 }
@@ -130,8 +130,8 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 55px;
-  height: 55px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
 }
 
@@ -140,6 +140,7 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
+  margin-top: 5px;
 }
 
 .card-description {
@@ -151,8 +152,9 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
 .link-with-icon {
   display: flex;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16.5px;
   align-items: center;
+  margin-top: 10px;
   text-decoration: none;
   cursor: pointer;
 }

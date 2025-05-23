@@ -42,6 +42,10 @@ const loginWithPatreon = () => {
 
 onMounted(fetchUserData);
 
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+
 </script>
 
 

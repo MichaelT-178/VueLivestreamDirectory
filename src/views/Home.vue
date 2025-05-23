@@ -176,6 +176,7 @@ const toggleMobileMenu = () => {
   gap: 1.5rem;
   margin-top: 1.5rem;
   padding: 0 1rem;
+  margin-bottom: 100px;
 }
 
 
