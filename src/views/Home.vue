@@ -54,7 +54,7 @@
 
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
 import CHLogo from '../../ch-logo.jpg';
@@ -65,6 +65,20 @@ const isMobileMenuOpen = ref(false);
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
 };
+
+const handleResize = () => {
+  if (window.innerWidth >= 750) {
+    isMobileMenuOpen.value = false;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener('resize', handleResize);
+});
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', handleResize);
+});
 
 </script>
 
