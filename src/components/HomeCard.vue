@@ -46,6 +46,7 @@
   </div>
 </template>
 
+
 <script setup>
 import { computed } from 'vue';
 import iconMap from '../assets/svg/IconMap.js';
@@ -59,18 +60,22 @@ const props = defineProps({
 
 function hexToRgba(hex, alpha = 1) {
   let hexValue = hex.replace('#', '');
+
   if (hexValue.length === 3) {
     hexValue = hexValue.split('').map(c => c + c).join('');
   }
+
   const bigint = parseInt(hexValue, 16);
   const r = (bigint >> 16) & 255;
   const g = (bigint >> 8) & 255;
   const b = bigint & 255;
+
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
 const backgroundStyle = computed(() => {
   const color = props.card.iconColorCode || '#000000';
+  
   return {
     backgroundColor: hexToRgba(color, 0.3)
   };
@@ -85,23 +90,35 @@ const isInternalLink = computed(() =>
 );
 
 const linkTag = computed(() => {
-  if (isInternalLink.value) return 'router-link';
-  if (isExternalLink.value) return 'a';
+  if (isInternalLink.value) {
+    return 'router-link';
+  }
+
+  if (isExternalLink.value) {
+    return 'a';
+  }
+
   return 'div';
 });
 
 const linkProps = computed(() => {
+  
   if (isInternalLink.value) {
-    return { to: props.card.route };
+    return { 
+      to: props.card.route 
+    };
+
   } else if (isExternalLink.value) {
     return {
       href: props.card.route,
       target: '_blank',
       rel: 'noopener noreferrer',
     };
+
   } else {
     return {};
   }
+
 });
 
 const IconComponent = computed(() => {
@@ -109,7 +126,9 @@ const IconComponent = computed(() => {
 });
 
 const ArrowIcon = computed(() => iconMap['arrowright']);
+
 </script>
+
 
 <style scoped>
 .home-card {
@@ -173,4 +192,5 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
     min-height: 220px;
   }
 }
+
 </style>

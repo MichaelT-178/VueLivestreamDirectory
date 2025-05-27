@@ -1,0 +1,117 @@
+{
+    "Comment": "These all have -400 at the end. Ex. red-400",
+    "Colors": [
+        {
+            "color": "slate",
+            "code": "#94a3b8"
+        },
+        {
+            "color": "gray",
+            "code": "#9ca3af"
+        },
+        {
+            "color": "zinc",
+            "code": "#a1a1aa"
+        },
+        {
+            "color": "neutral",
+            "code": "#a3a3a3"
+        },
+        {
+            "color": "stone",
+            "code": "#a8a29e"
+        },
+        {
+            "color": "red",
+            "code": "#f87171"
+        },
+        {
+            "color": "orange",
+            "code": "#fb923c"
+        },
+        {
+            "color": "amber",
+            "code": "#facc15"
+        },
+        {
+            "color": "yellow",
+            "code": "#facc15"
+        },
+        {
+            "color": "lime",
+            "code": "#a3e635"
+        },
+        {
+            "color": "green",
+            "code": "#4ade80"
+        },
+        {
+            "color": "emerald",
+            "code": "#34d399"
+        },
+        {
+            "color": "teal",
+            "code": "#2dd4bf"
+        },
+        {
+            "color": "cyan",
+            "code": "#22d3ee"
+        },
+        {
+            "color": "sky",
+            "code": "#38bdf8"
+        },
+        {
+            "color": "blue",
+            "code": "#60a5fa"
+        },
+        {
+            "color": "indigo",
+            "code": "#818cf8"
+        },
+        {
+            "color": "violet",
+            "code": "#a78bfa"
+        },
+        {
+            "color": "purple",
+            "code": "#c084fc"
+        },
+        {
+            "color": "fuchsia",
+            "code": "#e879f9"
+        },
+        {
+            "color": "pink",
+            "code": "#f472b6"
+        },
+        {
+            "color": "rose",
+            "code": "#fb7185"
+        }
+    ]
+}
+
+
+
+// gray-400	#9ca3af
+// zinc-400	#a1a1aa
+// neutral-400	#a3a3a3
+// stone-400	#a8a29e
+// red-400	#f87171
+// orange-400	#fb923c
+// amber-400	#facc15
+// yellow-400	#facc15
+// lime-400	#a3e635
+// green-400	#4ade80
+// emerald-400	#34d399
+// teal-400	#2dd4bf
+// cyan-400	#22d3ee
+// sky-400	#38bdf8
+// blue-400	#60a5fa
+// indigo-400	#818cf8
+// violet-400	#a78bfa
+// purple-400	#c084fc
+// fuchsia-400	#e879f9
+// pink-400	#f472b6
+// rose-400	#fb7185

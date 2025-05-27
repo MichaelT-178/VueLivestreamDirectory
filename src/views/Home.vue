@@ -25,7 +25,7 @@
 <script setup>
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
-import CardData from '../assets/Home/CardData.json';
+import CardData from '../assets/Home/HomeCardData.json';
 
 </script>
 
@@ -86,4 +86,5 @@ import CardData from '../assets/Home/CardData.json';
     font-size: 1.75rem;
   }
 }
+
 </style>

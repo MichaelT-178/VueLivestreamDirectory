@@ -1,5 +1,11 @@
 <template>
   <div class="gallery-container">
+    <HeaderWithIcon
+      title="Corey Pictures"
+      icon="camera"
+      iconColor="#C084FC"
+    />
+
     <div class="gallery">
       <img
         v-for="(img, index) in galleryImages"
@@ -25,9 +31,12 @@
   </div>
 </template>
 
+
 <script setup>
 import { ref, onMounted } from 'vue';
 import ImageView from '../../components/ImageView.vue';
+
+import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 
 import HeuvelPic1 from "../../assets/CoreyPics/Pic1.jpg";
 import HeuvelPic2 from "../../assets/CoreyPics/Pic2.jpg";
@@ -99,6 +108,10 @@ onMounted(() => {
   cursor: pointer;
 }
 
+.header-with-icon {
+  margin-bottom: 1rem;
+}
+
 /* Grid placements */
 .gallery-img:nth-child(1)  { grid-column: 1 / 4; }
 .gallery-img:nth-child(2)  { grid-column: 4 / 7; }
@@ -132,6 +145,12 @@ onMounted(() => {
     width: 95%;
     margin: 0 auto;
     height: 115%;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery {
+    margin-top: 20px
   }
 }
 

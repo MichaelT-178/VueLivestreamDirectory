@@ -27,12 +27,30 @@
     </div>
 
     <!-- Mobile menu -->
-    <div v-if="isMobileMenuOpen" class="mobile-menu">
-      <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
-      <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
-      <a href="https://www.patreon.com/coreyheuvel" target="_blank" rel="noopener noreferrer">Patreon</a>
-      <router-link to="/contact">Contact</router-link>
+     <div v-if="isMobileMenuOpen" class="mobile-menu">
+      <!-- <router-link 
+        to="/" 
+        @click="closeMobileMenu">Home</router-link> -->
+      <a 
+        href="https://www.youtube.com/@coreyheuvel" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        @click="closeMobileMenu">YouTube</a>
+      <a 
+        href="https://coreyheuvel.com/" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        @click="closeMobileMenu">Website</a>
+      <a 
+        href="https://www.patreon.com/coreyheuvel" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        @click="closeMobileMenu">Patreon</a>
+      <router-link 
+        to="/contact" 
+        @click="closeMobileMenu">Contact</router-link>
     </div>
+
   </div>
 </template>
 
@@ -51,6 +69,10 @@ const handleResize = () => {
   if (window.innerWidth >= 750) {
     isMobileMenuOpen.value = false;
   }
+};
+
+const closeMobileMenu = () => {
+  isMobileMenuOpen.value = false;
 };
 
 onMounted(() => {
