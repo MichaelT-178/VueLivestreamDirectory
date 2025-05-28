@@ -1,518 +1,518 @@
 {
-  "comment": "This file is static and unaffected by the algorithm",
-  "description": "These are some of my favorite covers",
-  "FavoriteCovers": [
-    {
-      "id": 1,
-      "Song": "Cello Song",
-      "Artist": "Nick Drake",
-      "Appearance": "Livestream 31",
-      "Link": "https://youtu.be/mH3c9W8vKbc&t=8051",
-      "AlbumImage": "five-leaves-left"
-    },
-    {
-      "id": 2,
-      "Song": "Vincent",
-      "Artist": "Don McLean",
-      "Appearance": "Livestream 35",
-      "Link": "https://youtu.be/61pND0vO3z8&t=10031",
-      "AlbumImage": "american-pie"
-    },
-    {
-      "id": 3,
-      "Song": "She Talks To Angels",
-      "Artist": "The Black Crowes",
-      "Appearance": "Livestream 28",
-      "Link": "https://youtu.be/8yEnflFWoIU&t=10145",
-      "AlbumImage": "shake-your-money-maker"
-    },
-    {
-      "id": 4,
-      "Song": "Blue Crystal Fire",
-      "Artist": "Robbie Basho",
-      "Appearance": "Livestream 73",
-      "Link": "https://youtu.be/__nszU6iOlM&t=4911",
-      "AlbumImage": "visions-of-the-country"
-    },
-    {
-      "id": 5,
-      "Song": "Glenn Tipton",
-      "Artist": "Sun Kil Moon",
-      "Appearance": "Livestream 70",
-      "Link": "https://youtu.be/Y473wJBI_Y8&t=1583",
-      "AlbumImage": "ghosts-of-the-great-highway"
-    },
-    {
-      "id": 6,
-      "Song": "Fields Of Gold",
-      "Artist": "Sting",
-      "Appearance": "Livestream 52",
-      "Link": "https://youtu.be/9mwYBbDX0dY&t=2960",
-      "AlbumImage": "ten-summoners-tales"
-    },
-    {
-      "id": 7,
-      "Song": "Eyes Wider Than Before",
-      "Artist": "Scott Matthews",
-      "Appearance": "Livestream 40",
-      "Link": "https://youtu.be/AraZ934iGwQ&t=5383",
-      "AlbumImage": "passing-stranger"
-    },
-    {
-      "id": 8,
-      "Song": "Burn One Down",
-      "Artist": "Ben Harper",
-      "Appearance": "Livestream 65",
-      "Link": "https://youtu.be/x6f3H65JhEg&t=2818",
-      "AlbumImage": "fight-for-your-mind"
-    },
-    {
-      "id": 9,
-      "Song": "Ordinary Day",
-      "Artist": "Great Big Sea",
-      "Appearance": "Livestream 64",
-      "Link": "https://youtu.be/Qih3Nx18Yas&t=6254",
-      "AlbumImage": "play"
-    },
-    {
-      "id": 10,
-      "Song": "A Still and Silent Mountain",
-      "Artist": "Corey Heuvel",
-      "Appearance": "Album Version",
-      "Link": "https://youtu.be/o_u2RWvoGLU?si=yA5415-yGb_AtwZC&t=1718",
-      "AlbumImage": "the-new"
-    },
-    {
-      "id": 11,
-      "Song": "Pistol Slapper Blues",
-      "Artist": "Blind Boy Fuller",
-      "Appearance": "Livestream 43",
-      "Link": "https://youtu.be/RCraRcpxmDo&t=4559",
-      "AlbumImage": "rory-gallagher"
-    },
-    {
-      "id": 12,
-      "Song": "Out On The Western Plain",
-      "Artist": "Rory Gallagher",
-      "Appearance": "Livestream 46",
-      "Link": "https://youtu.be/UvL7GFjtrj0&t=4886",
-      "AlbumImage": "against-the-grain"
-    },
-    {
-      "id": 13,
-      "Song": "I Want You",
-      "Artist": "Bob Dylan",
-      "Appearance": "Livestream 70",
-      "Link": "https://youtu.be/Y473wJBI_Y8&t=2542",
-      "AlbumImage": "blonde-on-blonde"
-    },
-    {
-      "id": 14,
-      "Song": "When I'm Up (I Can't Get Down)",
-      "Artist": "Great Big Sea",
-      "Appearance": "Livestream 147",
-      "Link": "https://youtu.be/sXKeY6LpR9g&t=4752",
-      "AlbumImage": "play"
-    },
-    {
-      "id": 15,
-      "Song": "Suit & Tie",
-      "Artist": "Justin Timberlake",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/7VproJkcdrw&t=0",
-      "AlbumImage": "the-20-20-experience"
-    },
-    {
-      "id": 16,
-      "Song": "Human Nature",
-      "Artist": "Michael Jackson",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/YxmtapqiXRg&t=0",
-      "AlbumImage": "thriller"
-    },
-    {
-      "id": 17,
-      "Song": "Between the Bars",
-      "Artist": "Elliott Smith",
-      "Appearance": "Livestream 155",
-      "Link": "https://youtu.be/v56fDp25FcM?feature=share&t=5042",
-      "AlbumImage": "either-or"
-    },
-    {
-      "id": 18,
-      "Song": "Hymne à l'amour",
-      "Artist": "Édith Piaf",
-      "Appearance": "Livestream 76",
-      "Link": "https://youtu.be/ERjisFF12Vk&t=6884",
-      "AlbumImage": "eternelle"
-    },
-    {
-      "id": 19,
-      "Song": "Cherry Wine",
-      "Artist": "Hozier",
-      "Appearance": "Livestream 39",
-      "Link": "https://youtu.be/LmchfAzW9AM&t=3755",
-      "AlbumImage": "hozier"
-    },
-    {
-      "id": 20,
-      "Song": "Purple Haze",
-      "Artist": "Jimi Hendrix",
-      "Appearance": "Livestream 57",
-      "Link": "https://youtu.be/MhNKFJxwK8g&t=7684",
-      "AlbumImage": "are-you-experienced"
-    },
-    {
-      "id": 21,
-      "Song": "Nobody's Fault But My Own",
-      "Artist": "Beck",
-      "Appearance": "Livestream 116",
-      "Link": "https://youtu.be/7Yc3utlluNc&t=7509",
-      "AlbumImage": "mutations"
-    },
-    {
-      "id": 22,
-      "Song": "Life by the Drop",
-      "Artist": "Stevie Ray Vaughan",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/RNOrBaCku98&t=0",
-      "AlbumImage": "the-sky-is-crying"
-    },
-    {
-      "id": 23,
-      "Song": "Place To Be",
-      "Artist": "Nick Drake",
-      "Appearance": "Livestream 81",
-      "Link": "https://youtu.be/0vseNNLzOWY&t=8824",
-      "AlbumImage": "pink-moon"
-    },
-    {
-      "id": 24,
-      "Song": "Time in a Bottle",
-      "Artist": "Jim Croce",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/iVRnFsXphb4&t=0",
-      "AlbumImage": "you-dont-mess-around-with-jim"
-    },
-    {
-      "id": 25,
-      "Song": "Black Mountain Side",
-      "Artist": "Led Zeppelin",
-      "Appearance": "Livestream 85",
-      "Link": "https://youtu.be/U1AhJr6L5SU&t=5233",
-      "AlbumImage": "led-zeppelin"
-    },
-    {
-      "id": 26,
-      "Song": "Wheat Kings",
-      "Artist": "The Tragically Hip",
-      "Appearance": "Livestream 17",
-      "Link": "https://www.youtube.com/live/Bdi0EGV_zpY?si=pln09vrlZ9nL6haw&t=5751",
-      "AlbumImage": "fully-completely"
-    },
-    {
-      "id": 27,
-      "Song": "3AM",
-      "Artist": "Matchbox Twenty",
-      "Appearance": "Livestream 73",
-      "Link": "https://youtu.be/__nszU6iOlM&t=4475",
-      "AlbumImage": "yourself-or-someone-like-you"
-    },
-    {
-      "id": 28,
-      "Song": "Castles Made of Sand",
-      "Artist": "Jimi Hendrix",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/wygTI4goCIQ&t=0",
-      "AlbumImage": "axis-bold-as-love"
-    },
-    {
-      "id": 29,
-      "Song": "If I Had A Boat",
-      "Artist": "Lyle Lovett",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/NJWs4lQKIg0&t=0",
-      "AlbumImage": "pontiac"
-    },
-    {
-      "id": 30,
-      "Song": "Jumper",
-      "Artist": "Third Eye Blind",
-      "Appearance": "Livestream 31",
-      "Link": "https://youtu.be/mH3c9W8vKbc&t=7720",
-      "AlbumImage": "third-eye-blind"
-    },
-    {
-      "id": 31,
-      "Song": "Natural Blues",
-      "Artist": "Moby",
-      "Appearance": "Livestream 49",
-      "Link": "https://youtu.be/ROzDnzn7Vwo&t=1758",
-      "AlbumImage": "play-the-complete-recordings"
-    },
-    {
-      "id": 32,
-      "Song": "Kiss from a Rose",
-      "Artist": "Seal",
-      "Appearance": "Livestream 32",
-      "Link": "https://youtu.be/jDGy1_nMmbk&t=7340",
-      "AlbumImage": "seal"
-    },
-    {
-      "id": 33,
-      "Song": "Mama, You Been on My Mind",
-      "Artist": "Jeff Buckley",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/07RJO0sVdJM&t=0",
-      "AlbumImage": "grace"
-    },
-    {
-      "id": 34,
-      "Song": "Hemorrhage (In My Hands)",
-      "Artist": "Fuel",
-      "Appearance": "Livestream 67",
-      "Link": "https://youtu.be/Xp03EMAOTCg&t=1651",
-      "AlbumImage": "something-like-human"
-    },
-    {
-      "id": 35,
-      "Song": "Howlin' for You (Riff)",
-      "Artist": "The Black Keys",
-      "Appearance": "Livestream 40",
-      "Link": "https://youtu.be/AraZ934iGwQ&t=7098",
-      "AlbumImage": "brothers"
-    },
-    {
-      "id": 36,
-      "Song": "The Boy with the Thorn in His Side",
-      "Artist": "The Smiths",
-      "Appearance": "Livestream 136",
-      "Link": "https://youtu.be/dWIijDnVkho&t=8515",
-      "AlbumImage": "the-queen-is-dead"
-    },
-    {
-      "id": 37,
-      "Song": "The Night They Drove Old Dixie Down",
-      "Artist": "The Band",
-      "Appearance": "Livestream 106",
-      "Link": "https://youtu.be/pVDmEFQX16c&t=3228",
-      "AlbumImage": "the-band"
-    },
-    {
-      "id": 38,
-      "Song": "Them Bones",
-      "Artist": "Alice In Chains",
-      "Appearance": "Livestream 66",
-      "Link": "https://youtu.be/gu7ChqD4Qm4&t=8548",
-      "AlbumImage": "dirt"
-    },
-    {
-      "id": 39,
-      "Song": "Tell Me Why",
-      "Artist": "Neil Young",
-      "Appearance": "Livestream 70",
-      "Link": "https://youtu.be/Y473wJBI_Y8&t=386",
-      "AlbumImage": "after-the-gold-rush"
-    },
-    {
-      "id": 40,
-      "Song": "Angel from Montgomery",
-      "Artist": "John Prine",
-      "Appearance": "Livestream 112",
-      "Link": "https://youtu.be/s6H9GdbDwbQ&t=3782",
-      "AlbumImage": "john-prine"
-    },
-    {
-      "id": 41,
-      "Song": "Soul Embers",
-      "Artist": "Corey Heuvel",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/vdb98onFVl0&t=0",
-      "AlbumImage": "bliss-from-within"
-    },
-    {
-      "id": 42,
-      "Song": "Interstate Love Song",
-      "Artist": "Stone Temple Pilots",
-      "Appearance": "Livestream 65",
-      "Link": "https://youtu.be/x6f3H65JhEg&t=5516",
-      "AlbumImage": "purple"
-    },
-    {
-      "id": 43,
-      "Song": "Beast Of Burden",
-      "Artist": "The Rolling Stones",
-      "Appearance": "Livestream 27",
-      "Link": "https://youtu.be/RfYn2ozzN_c&t=7533",
-      "AlbumImage": "some-girls"
-    },
-    {
-      "id": 44,
-      "Song": "Helpless",
-      "Artist": "Crosby, Stills, Nash & Young",
-      "Appearance": "Livestream 125",
-      "Link": "https://youtu.be/pvM5qp6ZCS4&t=6917",
-      "AlbumImage": "deja-vu"
-    },
-    {
-      "id": 45,
-      "Song": "Lola",
-      "Artist": "The Kinks",
-      "Appearance": "Livestream 133",
-      "Link": "https://youtu.be/9sCm4eY4VKg&t=2874",
-      "AlbumImage": "lola-versus-powerman-and-the-moneygoround-pt-1"
-    },
-    {
-      "id": 46,
-      "Song": "Lost Highway",
-      "Artist": "Hank Williams",
-      "Appearance": "Livestream 140",
-      "Link": "https://youtu.be/wSBFKylNQjU&t=5542",
-      "AlbumImage": "the-complete-hank-williams"
-    },
-    {
-      "id": 47,
-      "Song": "Little Black Submarines",
-      "Artist": "The Black Keys",
-      "Appearance": "Livestream 72",
-      "Link": "https://youtu.be/4MsSeM9AR60&t=5181",
-      "AlbumImage": "el-camino"
-    },
-    {
-      "id": 48,
-      "Song": "Mojo Pin",
-      "Artist": "Jeff Buckley",
-      "Appearance": "Livestream 92",
-      "Link": "https://youtu.be/EX4bD4sLh3Y&t=8162",
-      "AlbumImage": "grace"
-    },
-    {
-      "id": 49,
-      "Song": "Nutshell",
-      "Artist": "Alice In Chains",
-      "Appearance": "Livestream 81",
-      "Link": "https://youtu.be/0vseNNLzOWY&t=5634",
-      "AlbumImage": "jar-of-flies"
-    },
-    {
-      "id": 50,
-      "Song": "The Cave",
-      "Artist": "Mumford & Sons",
-      "Appearance": "Livestream 48",
-      "Link": "https://youtu.be/bVTlDNPzTn4&t=7015",
-      "AlbumImage": "sigh-no-more"
-    },
-    {
-      "id": 51,
-      "Song": "Thirteen",
-      "Artist": "Big Star",
-      "Appearance": "Livestream 28",
-      "Link": "https://youtu.be/8yEnflFWoIU&t=9037",
-      "AlbumImage": "1-record"
-    },
-    {
-      "id": 52,
-      "Song": "Into the Mystic",
-      "Artist": "Van Morrison",
-      "Appearance": "Livestream 77",
-      "Link": "https://youtu.be/q0SOrSxKE90&t=5278",
-      "AlbumImage": "moondance"
-    },
-    {
-      "id": 53,
-      "Song": "Trouble",
-      "Artist": "Ray LaMontagne",
-      "Appearance": "Livestream 75",
-      "Link": "https://youtu.be/uLKs6770MzM&t=7450",
-      "AlbumImage": "trouble"
-    },
-    {
-      "id": 54,
-      "Song": "Crash Into Me",
-      "Artist": "Dave Matthews Band",
-      "Appearance": "Livestream 56",
-      "Link": "https://youtu.be/KLIWP_nbaXs&t=8956",
-      "AlbumImage": "crash"
-    },
-    {
-      "id": 55,
-      "Song": "May You Never",
-      "Artist": "John Martyn",
-      "Appearance": "Livestream 78",
-      "Link": "https://youtu.be/jdD05keNX5w&t=8762",
-      "AlbumImage": "solid-air"
-    },
-    {
-      "id": 56,
-      "Song": "Old Man",
-      "Artist": "Neil Young",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/bk5G_GOLiEo&t=0",
-      "AlbumImage": "harvest"
-    },
-    {
-      "id": 57,
-      "Song": "Something Like Olivia",
-      "Artist": "John Mayer",
-      "Appearance": "Livestream 152",
-      "Link": "https://youtu.be/s-v4qoUK0tU?feature=share&t=4032",
-      "AlbumImage": "born-and-raised"
-    },
-    {
-      "id": 58,
-      "Song": "Let It Be Me",
-      "Artist": "Ray LaMontagne",
-      "Appearance": "Livestream 67",
-      "Link": "https://youtu.be/Xp03EMAOTCg&t=6658",
-      "AlbumImage": "gossip-in-the-grain"
-    },
-    {
-      "id": 59,
-      "Song": "Forget Her",
-      "Artist": "Jeff Buckley",
-      "Appearance": "Solo Video",
-      "Link": "https://youtu.be/WoUNhf_PQsA&t=0",
-      "AlbumImage": "grace"
-    },
-    {
-      "id": 60,
-      "Song": "Don't Let It Bring You Down",
-      "Artist": "Neil Young",
-      "Appearance": "Livestream 91",
-      "Link": "https://youtu.be/yiFNZvisSQw&t=4365",
-      "AlbumImage": "after-the-gold-rush"
-    },
-    {
-      "id": 61,
-      "Song": "Evers",
-      "Artist": "Corey Heuvel",
-      "Appearance": "Livestream 78",
-      "Link": "https://youtu.be/jdD05keNX5w&t=7475",
-      "AlbumImage": "evers-ep"
-    },
-    {
-      "id": 62,
-      "Song": "Pray for the Moon",
-      "Artist": "Corey Heuvel",
-      "Appearance": "Livestream 86",
-      "Link": "https://youtu.be/DqQEPSThDlg&t=7807",
-      "AlbumImage": "evers-ep"
-    },
-    {
-      "id": 63,
-      "Song": "Satisfied Mind",
-      "Artist": "Porter Wagoner",
-      "Appearance": "Livestream 39",
-      "Link": "https://www.youtube.com/watch?v=LmchfAzW9AM&t=9965s",
-      "AlbumImage": "you-and-i"
-    },
-    {
-      "id": 64,
-      "Song": "Elderly Woman Behind the Counter in a Small Town",
-      "Artist": "Pearl Jam",
-      "Appearance": "Livestream 34",
-      "Link": "https://www.youtube.com/live/5yvoFRB-OAE?si=8bLsUR1rwpl7AKGk&t=8854",
-      "AlbumImage": "vs"
-    }
-  ]
+    "comment": "This file is static and unaffected by the algorithm",
+    "description": "These are some of my favorite covers",
+    "FavoriteCovers": [
+        {
+            "id": 1,
+            "Song": "Cello Song",
+            "Artist": "Nick Drake",
+            "Appearance": "Livestream 31",
+            "Link": "https://youtu.be/mH3c9W8vKbc&t=8051",
+            "AlbumImage": "five-leaves-left"
+        },
+        {
+            "id": 2,
+            "Song": "Vincent",
+            "Artist": "Don McLean",
+            "Appearance": "Livestream 35",
+            "Link": "https://youtu.be/61pND0vO3z8&t=10031",
+            "AlbumImage": "american-pie"
+        },
+        {
+            "id": 3,
+            "Song": "She Talks To Angels",
+            "Artist": "The Black Crowes",
+            "Appearance": "Livestream 28",
+            "Link": "https://youtu.be/8yEnflFWoIU&t=10145",
+            "AlbumImage": "shake-your-money-maker"
+        },
+        {
+            "id": 4,
+            "Song": "Blue Crystal Fire",
+            "Artist": "Robbie Basho",
+            "Appearance": "Livestream 73",
+            "Link": "https://youtu.be/__nszU6iOlM&t=4911",
+            "AlbumImage": "visions-of-the-country"
+        },
+        {
+            "id": 5,
+            "Song": "Glenn Tipton",
+            "Artist": "Sun Kil Moon",
+            "Appearance": "Livestream 70",
+            "Link": "https://youtu.be/Y473wJBI_Y8&t=1583",
+            "AlbumImage": "ghosts-of-the-great-highway"
+        },
+        {
+            "id": 6,
+            "Song": "Fields Of Gold",
+            "Artist": "Sting",
+            "Appearance": "Livestream 52",
+            "Link": "https://youtu.be/9mwYBbDX0dY&t=2960",
+            "AlbumImage": "ten-summoners-tales"
+        },
+        {
+            "id": 7,
+            "Song": "Eyes Wider Than Before",
+            "Artist": "Scott Matthews",
+            "Appearance": "Livestream 40",
+            "Link": "https://youtu.be/AraZ934iGwQ&t=5383",
+            "AlbumImage": "passing-stranger"
+        },
+        {
+            "id": 8,
+            "Song": "Burn One Down",
+            "Artist": "Ben Harper",
+            "Appearance": "Livestream 65",
+            "Link": "https://youtu.be/x6f3H65JhEg&t=2818",
+            "AlbumImage": "fight-for-your-mind"
+        },
+        {
+            "id": 9,
+            "Song": "Ordinary Day",
+            "Artist": "Great Big Sea",
+            "Appearance": "Livestream 64",
+            "Link": "https://youtu.be/Qih3Nx18Yas&t=6254",
+            "AlbumImage": "play"
+        },
+        {
+            "id": 10,
+            "Song": "A Still and Silent Mountain",
+            "Artist": "Corey Heuvel",
+            "Appearance": "Album Version",
+            "Link": "https://youtu.be/o_u2RWvoGLU?si=yA5415-yGb_AtwZC&t=1718",
+            "AlbumImage": "the-new"
+        },
+        {
+            "id": 11,
+            "Song": "Pistol Slapper Blues",
+            "Artist": "Blind Boy Fuller",
+            "Appearance": "Livestream 43",
+            "Link": "https://youtu.be/RCraRcpxmDo&t=4559",
+            "AlbumImage": "rory-gallagher"
+        },
+        {
+            "id": 12,
+            "Song": "Out On The Western Plain",
+            "Artist": "Rory Gallagher",
+            "Appearance": "Livestream 46",
+            "Link": "https://youtu.be/UvL7GFjtrj0&t=4886",
+            "AlbumImage": "against-the-grain"
+        },
+        {
+            "id": 13,
+            "Song": "I Want You",
+            "Artist": "Bob Dylan",
+            "Appearance": "Livestream 70",
+            "Link": "https://youtu.be/Y473wJBI_Y8&t=2542",
+            "AlbumImage": "blonde-on-blonde"
+        },
+        {
+            "id": 14,
+            "Song": "When I'm Up (I Can't Get Down)",
+            "Artist": "Great Big Sea",
+            "Appearance": "Livestream 147",
+            "Link": "https://youtu.be/sXKeY6LpR9g&t=4752",
+            "AlbumImage": "play"
+        },
+        {
+            "id": 15,
+            "Song": "Suit & Tie",
+            "Artist": "Justin Timberlake",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/7VproJkcdrw&t=0",
+            "AlbumImage": "the-20-20-experience"
+        },
+        {
+            "id": 16,
+            "Song": "Human Nature",
+            "Artist": "Michael Jackson",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/YxmtapqiXRg&t=0",
+            "AlbumImage": "thriller"
+        },
+        {
+            "id": 17,
+            "Song": "Between the Bars",
+            "Artist": "Elliott Smith",
+            "Appearance": "Livestream 155",
+            "Link": "https://youtu.be/v56fDp25FcM?feature=share&t=5042",
+            "AlbumImage": "either-or"
+        },
+        {
+            "id": 18,
+            "Song": "Hymne à l'amour",
+            "Artist": "Édith Piaf",
+            "Appearance": "Livestream 76",
+            "Link": "https://youtu.be/ERjisFF12Vk&t=6884",
+            "AlbumImage": "eternelle"
+        },
+        {
+            "id": 19,
+            "Song": "Cherry Wine",
+            "Artist": "Hozier",
+            "Appearance": "Livestream 39",
+            "Link": "https://youtu.be/LmchfAzW9AM&t=3755",
+            "AlbumImage": "hozier"
+        },
+        {
+            "id": 20,
+            "Song": "Purple Haze",
+            "Artist": "Jimi Hendrix",
+            "Appearance": "Livestream 57",
+            "Link": "https://youtu.be/MhNKFJxwK8g&t=7684",
+            "AlbumImage": "are-you-experienced"
+        },
+        {
+            "id": 21,
+            "Song": "Nobody's Fault But My Own",
+            "Artist": "Beck",
+            "Appearance": "Livestream 116",
+            "Link": "https://youtu.be/7Yc3utlluNc&t=7509",
+            "AlbumImage": "mutations"
+        },
+        {
+            "id": 22,
+            "Song": "Life by the Drop",
+            "Artist": "Stevie Ray Vaughan",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/RNOrBaCku98&t=0",
+            "AlbumImage": "the-sky-is-crying"
+        },
+        {
+            "id": 23,
+            "Song": "Place To Be",
+            "Artist": "Nick Drake",
+            "Appearance": "Livestream 81",
+            "Link": "https://youtu.be/0vseNNLzOWY&t=8824",
+            "AlbumImage": "pink-moon"
+        },
+        {
+            "id": 24,
+            "Song": "Time in a Bottle",
+            "Artist": "Jim Croce",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/iVRnFsXphb4&t=0",
+            "AlbumImage": "you-dont-mess-around-with-jim"
+        },
+        {
+            "id": 25,
+            "Song": "Black Mountain Side",
+            "Artist": "Led Zeppelin",
+            "Appearance": "Livestream 85",
+            "Link": "https://youtu.be/U1AhJr6L5SU&t=5233",
+            "AlbumImage": "led-zeppelin"
+        },
+        {
+            "id": 26,
+            "Song": "Wheat Kings",
+            "Artist": "The Tragically Hip",
+            "Appearance": "Livestream 17",
+            "Link": "https://www.youtube.com/live/Bdi0EGV_zpY?si=pln09vrlZ9nL6haw&t=5751",
+            "AlbumImage": "fully-completely"
+        },
+        {
+            "id": 27,
+            "Song": "3AM",
+            "Artist": "Matchbox Twenty",
+            "Appearance": "Livestream 73",
+            "Link": "https://youtu.be/__nszU6iOlM&t=4475",
+            "AlbumImage": "yourself-or-someone-like-you"
+        },
+        {
+            "id": 28,
+            "Song": "Castles Made of Sand",
+            "Artist": "Jimi Hendrix",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/wygTI4goCIQ&t=0",
+            "AlbumImage": "axis-bold-as-love"
+        },
+        {
+            "id": 29,
+            "Song": "If I Had A Boat",
+            "Artist": "Lyle Lovett",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/NJWs4lQKIg0&t=0",
+            "AlbumImage": "pontiac"
+        },
+        {
+            "id": 30,
+            "Song": "Jumper",
+            "Artist": "Third Eye Blind",
+            "Appearance": "Livestream 31",
+            "Link": "https://youtu.be/mH3c9W8vKbc&t=7720",
+            "AlbumImage": "third-eye-blind"
+        },
+        {
+            "id": 31,
+            "Song": "Natural Blues",
+            "Artist": "Moby",
+            "Appearance": "Livestream 49",
+            "Link": "https://youtu.be/ROzDnzn7Vwo&t=1758",
+            "AlbumImage": "play-the-complete-recordings"
+        },
+        {
+            "id": 32,
+            "Song": "Kiss from a Rose",
+            "Artist": "Seal",
+            "Appearance": "Livestream 32",
+            "Link": "https://youtu.be/jDGy1_nMmbk&t=7340",
+            "AlbumImage": "seal"
+        },
+        {
+            "id": 33,
+            "Song": "Mama, You Been on My Mind",
+            "Artist": "Jeff Buckley",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/07RJO0sVdJM&t=0",
+            "AlbumImage": "grace"
+        },
+        {
+            "id": 34,
+            "Song": "Hemorrhage (In My Hands)",
+            "Artist": "Fuel",
+            "Appearance": "Livestream 67",
+            "Link": "https://youtu.be/Xp03EMAOTCg&t=1651",
+            "AlbumImage": "something-like-human"
+        },
+        {
+            "id": 35,
+            "Song": "Howlin' for You (Riff)",
+            "Artist": "The Black Keys",
+            "Appearance": "Livestream 40",
+            "Link": "https://youtu.be/AraZ934iGwQ&t=7098",
+            "AlbumImage": "brothers"
+        },
+        {
+            "id": 36,
+            "Song": "The Boy with the Thorn in His Side",
+            "Artist": "The Smiths",
+            "Appearance": "Livestream 136",
+            "Link": "https://youtu.be/dWIijDnVkho&t=8515",
+            "AlbumImage": "the-queen-is-dead"
+        },
+        {
+            "id": 37,
+            "Song": "The Night They Drove Old Dixie Down",
+            "Artist": "The Band",
+            "Appearance": "Livestream 106",
+            "Link": "https://youtu.be/pVDmEFQX16c&t=3228",
+            "AlbumImage": "the-band"
+        },
+        {
+            "id": 38,
+            "Song": "Them Bones",
+            "Artist": "Alice In Chains",
+            "Appearance": "Livestream 66",
+            "Link": "https://youtu.be/gu7ChqD4Qm4&t=8548",
+            "AlbumImage": "dirt"
+        },
+        {
+            "id": 39,
+            "Song": "Tell Me Why",
+            "Artist": "Neil Young",
+            "Appearance": "Livestream 70",
+            "Link": "https://youtu.be/Y473wJBI_Y8&t=386",
+            "AlbumImage": "after-the-gold-rush"
+        },
+        {
+            "id": 40,
+            "Song": "Angel from Montgomery",
+            "Artist": "John Prine",
+            "Appearance": "Livestream 112",
+            "Link": "https://youtu.be/s6H9GdbDwbQ&t=3782",
+            "AlbumImage": "john-prine"
+        },
+        {
+            "id": 41,
+            "Song": "Soul Embers",
+            "Artist": "Corey Heuvel",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/vdb98onFVl0&t=0",
+            "AlbumImage": "bliss-from-within"
+        },
+        {
+            "id": 42,
+            "Song": "Interstate Love Song",
+            "Artist": "Stone Temple Pilots",
+            "Appearance": "Livestream 65",
+            "Link": "https://youtu.be/x6f3H65JhEg&t=5516",
+            "AlbumImage": "purple"
+        },
+        {
+            "id": 43,
+            "Song": "Beast Of Burden",
+            "Artist": "The Rolling Stones",
+            "Appearance": "Livestream 27",
+            "Link": "https://youtu.be/RfYn2ozzN_c&t=7533",
+            "AlbumImage": "some-girls"
+        },
+        {
+            "id": 44,
+            "Song": "Helpless",
+            "Artist": "Crosby, Stills, Nash & Young",
+            "Appearance": "Livestream 125",
+            "Link": "https://youtu.be/pvM5qp6ZCS4&t=6917",
+            "AlbumImage": "deja-vu"
+        },
+        {
+            "id": 45,
+            "Song": "Lola",
+            "Artist": "The Kinks",
+            "Appearance": "Livestream 133",
+            "Link": "https://youtu.be/9sCm4eY4VKg&t=2874",
+            "AlbumImage": "lola-versus-powerman-and-the-moneygoround-pt-1"
+        },
+        {
+            "id": 46,
+            "Song": "Lost Highway",
+            "Artist": "Hank Williams",
+            "Appearance": "Livestream 140",
+            "Link": "https://youtu.be/wSBFKylNQjU&t=5542",
+            "AlbumImage": "the-complete-hank-williams"
+        },
+        {
+            "id": 47,
+            "Song": "Little Black Submarines",
+            "Artist": "The Black Keys",
+            "Appearance": "Livestream 72",
+            "Link": "https://youtu.be/4MsSeM9AR60&t=5181",
+            "AlbumImage": "el-camino"
+        },
+        {
+            "id": 48,
+            "Song": "Mojo Pin",
+            "Artist": "Jeff Buckley",
+            "Appearance": "Livestream 92",
+            "Link": "https://youtu.be/EX4bD4sLh3Y&t=8162",
+            "AlbumImage": "grace"
+        },
+        {
+            "id": 49,
+            "Song": "Nutshell",
+            "Artist": "Alice In Chains",
+            "Appearance": "Livestream 81",
+            "Link": "https://youtu.be/0vseNNLzOWY&t=5634",
+            "AlbumImage": "jar-of-flies"
+        },
+        {
+            "id": 50,
+            "Song": "The Cave",
+            "Artist": "Mumford & Sons",
+            "Appearance": "Livestream 48",
+            "Link": "https://youtu.be/bVTlDNPzTn4&t=7015",
+            "AlbumImage": "sigh-no-more"
+        },
+        {
+            "id": 51,
+            "Song": "Thirteen",
+            "Artist": "Big Star",
+            "Appearance": "Livestream 28",
+            "Link": "https://youtu.be/8yEnflFWoIU&t=9037",
+            "AlbumImage": "1-record"
+        },
+        {
+            "id": 52,
+            "Song": "Into the Mystic",
+            "Artist": "Van Morrison",
+            "Appearance": "Livestream 77",
+            "Link": "https://youtu.be/q0SOrSxKE90&t=5278",
+            "AlbumImage": "moondance"
+        },
+        {
+            "id": 53,
+            "Song": "Trouble",
+            "Artist": "Ray LaMontagne",
+            "Appearance": "Livestream 75",
+            "Link": "https://youtu.be/uLKs6770MzM&t=7450",
+            "AlbumImage": "trouble"
+        },
+        {
+            "id": 54,
+            "Song": "Crash Into Me",
+            "Artist": "Dave Matthews Band",
+            "Appearance": "Livestream 56",
+            "Link": "https://youtu.be/KLIWP_nbaXs&t=8956",
+            "AlbumImage": "crash"
+        },
+        {
+            "id": 55,
+            "Song": "May You Never",
+            "Artist": "John Martyn",
+            "Appearance": "Livestream 78",
+            "Link": "https://youtu.be/jdD05keNX5w&t=8762",
+            "AlbumImage": "solid-air"
+        },
+        {
+            "id": 56,
+            "Song": "Old Man",
+            "Artist": "Neil Young",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/bk5G_GOLiEo&t=0",
+            "AlbumImage": "harvest"
+        },
+        {
+            "id": 57,
+            "Song": "Something Like Olivia",
+            "Artist": "John Mayer",
+            "Appearance": "Livestream 152",
+            "Link": "https://youtu.be/s-v4qoUK0tU?feature=share&t=4032",
+            "AlbumImage": "born-and-raised"
+        },
+        {
+            "id": 58,
+            "Song": "Let It Be Me",
+            "Artist": "Ray LaMontagne",
+            "Appearance": "Livestream 67",
+            "Link": "https://youtu.be/Xp03EMAOTCg&t=6658",
+            "AlbumImage": "gossip-in-the-grain"
+        },
+        {
+            "id": 59,
+            "Song": "Forget Her",
+            "Artist": "Jeff Buckley",
+            "Appearance": "Solo Video",
+            "Link": "https://youtu.be/WoUNhf_PQsA&t=0",
+            "AlbumImage": "grace"
+        },
+        {
+            "id": 60,
+            "Song": "Don't Let It Bring You Down",
+            "Artist": "Neil Young",
+            "Appearance": "Livestream 91",
+            "Link": "https://youtu.be/yiFNZvisSQw&t=4365",
+            "AlbumImage": "after-the-gold-rush"
+        },
+        {
+            "id": 61,
+            "Song": "Evers",
+            "Artist": "Corey Heuvel",
+            "Appearance": "Livestream 78",
+            "Link": "https://youtu.be/jdD05keNX5w&t=7475",
+            "AlbumImage": "evers-ep"
+        },
+        {
+            "id": 62,
+            "Song": "Pray for the Moon",
+            "Artist": "Corey Heuvel",
+            "Appearance": "Livestream 86",
+            "Link": "https://youtu.be/DqQEPSThDlg&t=7807",
+            "AlbumImage": "evers-ep"
+        },
+        {
+            "id": 63,
+            "Song": "Satisfied Mind",
+            "Artist": "Porter Wagoner",
+            "Appearance": "Livestream 39",
+            "Link": "https://www.youtube.com/watch?v=LmchfAzW9AM&t=9965s",
+            "AlbumImage": "you-and-i"
+        },
+        {
+            "id": 64,
+            "Song": "Elderly Woman Behind the Counter in a Small Town",
+            "Artist": "Pearl Jam",
+            "Appearance": "Livestream 34",
+            "Link": "https://www.youtube.com/live/5yvoFRB-OAE?si=8bLsUR1rwpl7AKGk&t=8854",
+            "AlbumImage": "vs"
+        }
+    ]
 }
