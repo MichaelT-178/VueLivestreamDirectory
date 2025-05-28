@@ -1,23 +1,16 @@
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from 'vue';
+import axiosInstance from '../lib/axios';
 
-const user = ref(null)
+const user = ref(null);
 
 export const useUser = () => {
-
   async function fetchUserData() {
     try {
-      const API_LINK = import.meta.env.VITE_API_LINK;
+      const { data } = await axiosInstance.get('/lessons/me', {
+        withCredentials: true,
+      });
 
-      const response = await fetch(`${API_LINK}/me`, {
-        credentials: 'include',
-        headers: { 'Content-Type': 'application/json' },
-      })
-
-      if (!response.ok) {
-        throw new Error('Not logged in');
-      }
-
-      user.value = await response.json();
+      user.value = data;
     } catch (err) {
       console.warn('Failed to fetch user', err);
     }
@@ -25,6 +18,5 @@ export const useUser = () => {
 
   onMounted(fetchUserData);
 
-  return { user }
-
-}
+  return { user };
+};

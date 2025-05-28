@@ -9,45 +9,36 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
+import axiosInstance from '../../lib/axios.js';
 
 const user = ref(null);
-const API_LINK = import.meta.env.VITE_API_LINK;
-
 const route = useRoute();
 
-// patreon-sign-in?error=access_denied
-// This will be undefined if not present
+// Check for OAuth error from Patreon
 const error = route.query.error;
 
-async function fetchUserData() {
+const fetchUserData = async () => {
   try {
-    const response = await fetch(`${API_LINK}/me`, {
-      credentials: 'include',
-      headers: { 'Content-Type': 'application/json' }
+    const { data } = await axiosInstance.get('/lessons/me', {
+      withCredentials: true
     });
 
-    if (!response.ok) {
-      throw new Error('Not logged in');
-    }
-
-    user.value = await response.json();
+    user.value = data;
   } catch (err) {
-    console.warn('Not authenticated or error fetching data', err);
+    console.warn('Not authenticated or error fetching user data', err);
   }
-}
-
-const loginWithPatreon = () => {
-  window.location.href = `${API_LINK}/login`;
 };
 
-onMounted(fetchUserData);
+const loginWithPatreon = () => {
+  window.location.href = `${import.meta.env.VITE_API_LINK}/lessons/login`;
+};
 
 onMounted(() => {
+  fetchUserData();
   window.scrollTo(0, 0);
 });
 
 </script>
-
 
 
 <style scoped>

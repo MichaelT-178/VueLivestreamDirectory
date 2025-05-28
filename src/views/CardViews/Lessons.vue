@@ -11,7 +11,6 @@
       <p class="status" v-if="message">{{ message }}</p>
       <p class="status error" v-else>You don't have access to this content.</p>
     </div>
-
   </div>
 </template>
 
@@ -20,18 +19,17 @@
 import { useUser } from '../../composables/useUser';
 import { ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
+import axiosInstance from '../../lib/axios';
 
 const { user } = useUser();
 const message = ref('');
-
-const API_LINK = import.meta.env.VITE_API_LINK;
 
 const router = useRouter();
 
 const logoutAndGoBack = async () => {
   try {
-    await fetch(`${API_LINK}/logout`, {
-      credentials: 'include'
+    await axiosInstance.post('/lessons/logout', null, {
+      withCredentials: true
     });
   } catch (err) {
     console.error('Logout failed', err);
@@ -61,7 +59,6 @@ watch(user, (newUser) => {
   color: green;
 }
 
-
 .router-button {
   display: inline-block;
   padding: 10px 20px;
@@ -80,6 +77,5 @@ watch(user, (newUser) => {
 .status.error {
   color: red;
 }
-
 
 </style>
