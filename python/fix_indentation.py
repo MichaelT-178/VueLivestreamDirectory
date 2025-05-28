@@ -9,7 +9,6 @@ from pathlib import Path
 
 current_file = Path(__file__).resolve()
 
-
 directory = current_file.parent / "../src/assets/Data"
 directory = directory.resolve()
 
