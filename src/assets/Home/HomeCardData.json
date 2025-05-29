@@ -90,6 +90,36 @@
             "description": "All Patreon Lessons. Only members of the \"Student\" tier can view this content.",
             "linkTitle": "Go to Lessons",
             "route": "/patreon-sign-in"
+        },
+        {
+            "id": 10,
+            "icon": "cash",
+            "iconColor": "sky",
+            "iconColorCode": "#38bdf8",
+            "title": "Corey's PayPal",
+            "description": "Tip Corey Heuvel on PayPal. He greatly appreciate's it!",
+            "linkTitle": "Go to PayPal",
+            "route": "http://paypal.me/coreyheuvel"
+        },
+        {
+            "id": 11,
+            "icon": "video",
+            "iconColor": "sky",
+            "iconColorCode": "#818cf8",
+            "title": "Corey's Patreon",
+            "description": "Corey Heuvel's Patreon. I'd highly recommend the \"student\" tier.",
+            "linkTitle": "Go to Patreon",
+            "route": "https://www.patreon.com/coreyheuvel"
+        },
+        {
+            "id": 12,
+            "icon": "cash",
+            "iconColor": "fuchsia",
+            "iconColorCode": "#e879f9",
+            "title": "Corey's Patreon",
+            "description": "Corey Heuvel's Patreon. I'd highly recommend the \"student\" tier.",
+            "linkTitle": "Go to Patreon",
+            "route": "https://www.swiftcolors.com/"
         }
     ]
 }

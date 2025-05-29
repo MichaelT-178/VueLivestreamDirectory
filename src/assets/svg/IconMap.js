@@ -12,6 +12,7 @@ import HeartIcon from "./Heart.vue";
 import HomeIcon from "./Home.vue";
 import MusicNoteIcon from "./MusicNote.vue";
 import SchoolIcon from "./School.vue";
+import VideoIcon from "./Video.vue";
 
 const iconMap = {
   arrowright: ArrowRightIcon,
@@ -27,7 +28,8 @@ const iconMap = {
   heart: HeartIcon,
   home: HomeIcon,
   musicnote: MusicNoteIcon,
-  school: SchoolIcon
+  school: SchoolIcon,
+  video: VideoIcon
 };
 
 export default iconMap;
