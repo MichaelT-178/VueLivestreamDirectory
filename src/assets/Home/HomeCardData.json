@@ -46,7 +46,7 @@
             "icon": "folder",
             "iconColor": "yellow",
             "iconColorCode": "#FACC15",
-            "title": "Og Website",
+            "title": "O.G. Website",
             "description": "The original Livestream Directory website. I'll continue to update this.",
             "linkTitle": "Go to Website",
             "route": "https://www.swiftcolors.com/"
@@ -90,7 +90,9 @@
             "description": "All Patreon Lessons. Only members of the \"Student\" tier can view this content.",
             "linkTitle": "Go to Lessons",
             "route": "/patreon-sign-in"
-        },
+        }
+    ],
+    "Unused": [
         {
             "id": 10,
             "icon": "cash",

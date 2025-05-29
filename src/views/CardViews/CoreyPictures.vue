@@ -65,11 +65,18 @@ const galleryImages = [
   HeuvelPic13, HeuvelPic14, HeuvelPic15, HeuvelPic16
 ];
 
+// const galleryCaptions = [
+//   "Pic One", "Pic Two", "Pic Three", "Pic Four",
+//   "Pic Five", "Pic Six", "Pic Seven", "Pic Eight",
+//   "Pic Nine", "Pic Ten", "Pic Eleven", "Pic Twelve",
+//   "Pic Thirteen", "Pic Fourteen", "Pic Fifteen", "Pic Sixteen"
+// ];
+
 const galleryCaptions = [
-  "Pic One", "Pic Two", "Pic Three", "Pic Four",
-  "Pic Five", "Pic Six", "Pic Seven", "Pic Eight",
-  "Pic Nine", "Pic Ten", "Pic Eleven", "Pic Twelve",
-  "Pic Thirteen", "Pic Fourteen", "Pic Fifteen", "Pic Sixteen"
+  "", "", "", "",
+  "", "", "", "",
+  "", "", "", "",
+  "", "", "", ""
 ];
 
 const openImageView = (index) => {
