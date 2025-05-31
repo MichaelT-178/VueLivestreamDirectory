@@ -1,6 +1,14 @@
 <template>
+
+
+    <HeaderWithIcon
+      title="Contact The Developer"
+      icon="email"
+      iconColor="#60A5FA"
+    />
+
   <div class="contact-form">
-    <h1>Contact Me</h1>
+    <h1>Contact The Developer</h1>
     <p class="intro-text">Feel free to message me and I'll try to respond as soon as possible!</p>
 
     <div class="form-group">
@@ -40,6 +48,7 @@
 import { ref, computed, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 
 const userName = ref('');
 const userEmail = ref('');
