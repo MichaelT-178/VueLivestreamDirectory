@@ -2,6 +2,8 @@
   <div class="search-bar-container">
     <font-awesome-icon icon="search" class="search-icon" />
     <input 
+      id="search"
+      name="search"
       class="search-bar"
       type="text" 
       placeholder="Search by song, artist, or instrument"

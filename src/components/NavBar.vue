@@ -4,59 +4,63 @@
       <div class="top-bar-inner">
 
         <!-- Livestream directory and CH logo -->
-        <router-link to="/" class="logo-title-wrapper" custom v-slot="{ navigate }">
-          <div @click="navigate" class="home-router-btn">
+        <router-link to="/" custom v-slot="{ navigate, href }">
+          <div
+            class="home-router-btn"
+            :href="href"
+            @click="navigate"
+          >
             <img :src="CHLogo" class="ch-logo" alt="CH Logo" />
             <h1 class="site-title">Livestream Directory</h1>
           </div>
         </router-link>
 
-        <!-- Nav link -->
+        <!-- Nav links for desktop -->
         <div class="nav-links desktop-only">
           <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
           <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
           <a href="https://www.patreon.com/coreyheuvel" target="_blank" rel="noopener noreferrer">Patreon</a>
           <a href="http://paypal.me/coreyheuvel" target="_blank" rel="noopener noreferrer">PayPal</a>
-          <!-- <router-link to="/contact">Contact</router-link> -->
         </div>
 
-        <!-- hamburger-icon -->
+        <!-- Hamburger menu icon for mobile -->
         <div class="mobile-only">
-          <font-awesome-icon icon="bars" @click="toggleMobileMenu" class="hamburger-icon" />
+          <font-awesome-icon
+            icon="bars"
+            @click="toggleMobileMenu"
+            class="hamburger-icon"
+          />
         </div>
       </div>
     </div>
 
     <!-- Mobile menu -->
-     <div v-if="isMobileMenuOpen" class="mobile-menu">
-      <!-- <router-link 
-        to="/" 
-        @click="closeMobileMenu">Home</router-link> -->
-      <a 
-        href="https://www.youtube.com/@coreyheuvel" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        @click="closeMobileMenu">YouTube</a>
-      <a 
-        href="https://coreyheuvel.com/" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        @click="closeMobileMenu">Website</a>
-      <a 
-        href="https://www.patreon.com/coreyheuvel" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        @click="closeMobileMenu">Patreon</a>
-      <a 
-        href="http://paypal.me/coreyheuvel" 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        @click="closeMobileMenu">PayPal</a>
-      <!-- <router-link 
-        to="/contact" 
-        @click="closeMobileMenu">Contact</router-link> -->
+    <div v-if="isMobileMenuOpen" class="mobile-menu">
+      <a
+        href="https://www.youtube.com/@coreyheuvel"
+        target="_blank"
+        rel="noopener noreferrer"
+        @click="closeMobileMenu"
+      >YouTube</a>
+      <a
+        href="https://coreyheuvel.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        @click="closeMobileMenu"
+      >Website</a>
+      <a
+        href="https://www.patreon.com/coreyheuvel"
+        target="_blank"
+        rel="noopener noreferrer"
+        @click="closeMobileMenu"
+      >Patreon</a>
+      <a
+        href="http://paypal.me/coreyheuvel"
+        target="_blank"
+        rel="noopener noreferrer"
+        @click="closeMobileMenu"
+      >PayPal</a>
     </div>
-
   </div>
 </template>
 
@@ -93,7 +97,6 @@ onBeforeUnmount(() => {
 
 
 <style scoped>
-
 .top-bar {
   width: 100%;
   border-bottom: 0.5px solid #cbd5e1;
@@ -110,8 +113,8 @@ onBeforeUnmount(() => {
 }
 
 .home-router-btn {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -129,12 +132,11 @@ onBeforeUnmount(() => {
 
 .site-title {
   font-size: 23px;
-  margin: 0 0rem;
+  margin: 0;
   white-space: nowrap;
 }
 
 .site-title:hover {
-  /* color: #60A5FA; */
   color: #cbd5e1;
 }
 
@@ -180,7 +182,7 @@ onBeforeUnmount(() => {
   .top-bar-inner {
     padding: 17px 17px;
   }
-  
+
   .mobile-only {
     display: flex;
   }
@@ -191,11 +193,10 @@ onBeforeUnmount(() => {
 }
 
 @media (max-width: 600px) {
-
   .ch-logo {
     display: block;
   }
-  
+
   .site-title {
     display: none;
   }
@@ -203,7 +204,6 @@ onBeforeUnmount(() => {
   .top-bar-inner {
     padding: 11px 25px;
   }
-  
 }
 
 </style>

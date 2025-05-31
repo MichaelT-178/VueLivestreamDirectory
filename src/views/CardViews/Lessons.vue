@@ -10,6 +10,8 @@
       <div class="search-bar-container">
         <font-awesome-icon icon="search" class="search-icon" />
         <input 
+          id="tutorial-search"
+          name="tutorial-search"
           v-model="searchQuery" 
           type="text" 
           placeholder="Filter by song, artist, or tuning"

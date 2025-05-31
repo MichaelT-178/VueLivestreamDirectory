@@ -1,13 +1,21 @@
 <template>
   <div class="header-with-icon">
-    <!-- Home icon -->
-    <router-link to="/" class="icon-background" :style="homeIconBackground">
-      <component
-        :is="iconMap['home']"
-        :stroke-color="homeButtonColor"
-        :width="28"
-        class="header-icon home-icon-link"
-      />
+    
+    <!-- Home icon with custom RouterLink -->
+    <router-link to="/" custom v-slot="{ href, navigate }">
+      <div
+        :href="href"
+        @click="navigate"
+        class="icon-background home-icon-link"
+        :style="homeIconBackground"
+      >
+        <component
+          :is="iconMap['home']"
+          :stroke-color="homeButtonColor"
+          :width="28"
+          class="header-icon"
+        />
+      </div>
     </router-link>
 
     <!-- Arrow icon -->
@@ -74,8 +82,7 @@ function hexToRgba(hex, alpha = 1) {
 }
 
 const backgroundStyle = computed(() => {
-  const color = props.iconColor || '#000000';
-  return { backgroundColor: hexToRgba(color, 0.3) };
+  return { backgroundColor: hexToRgba(props.iconColor, 0.3) };
 });
 
 const homeIconBackground = computed(() => {
@@ -83,7 +90,6 @@ const homeIconBackground = computed(() => {
 });
 
 </script>
-
 
 
 <style scoped>
@@ -104,6 +110,7 @@ const homeIconBackground = computed(() => {
 
 .home-icon-link:hover {
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .header-icon {
