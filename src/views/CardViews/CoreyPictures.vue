@@ -10,7 +10,7 @@
       <img
         v-for="(img, index) in galleryImages"
         :key="index"
-        :src="img"
+        :src="getImageUrl(img)"
         :alt="galleryCaptions[index]"
         class="gallery-img"
         @click="openImageView(index)"
@@ -21,7 +21,7 @@
     <transition name="fade">
       <ImageView
         v-if="isImageViewOpen"
-        :images="galleryImages"
+        :images="galleryImages.map(getImageUrl)"
         :captions="galleryCaptions"
         :initialImage="currentImage"
         :isOpen="isImageViewOpen"
@@ -34,43 +34,18 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import ImageView from '../../components/ImageView.vue';
-
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
-
-import HeuvelPic1 from "../../assets/CoreyPics/Pic1.jpg";
-import HeuvelPic2 from "../../assets/CoreyPics/Pic2.jpg";
-import HeuvelPic3 from "../../assets/CoreyPics/Pic3.jpg";
-import HeuvelPic4 from "../../assets/CoreyPics/Pic4.jpg";
-import HeuvelPic5 from "../../assets/CoreyPics/Pic5.jpg";
-import HeuvelPic6 from "../../assets/CoreyPics/Pic6.jpg";
-import HeuvelPic7 from "../../assets/CoreyPics/Pic7.jpg";
-import HeuvelPic8 from "../../assets/CoreyPics/Pic8.jpg";
-import HeuvelPic9 from "../../assets/CoreyPics/Pic9.jpg";
-import HeuvelPic10 from "../../assets/CoreyPics/Pic10.jpg";
-import HeuvelPic11 from "../../assets/CoreyPics/Pic11.jpg";
-import HeuvelPic12 from "../../assets/CoreyPics/Pic12.jpg";
-import HeuvelPic13 from "../../assets/CoreyPics/Pic13.jpg";
-import HeuvelPic14 from "../../assets/CoreyPics/Pic14.jpg";
-import HeuvelPic15 from "../../assets/CoreyPics/Pic15.jpg";
-import HeuvelPic16 from "../../assets/CoreyPics/Pic16.jpg";
+import ImageView from '../../components/ImageView.vue';
 
 const isImageViewOpen = ref(false);
 const currentImage = ref(0);
 
 const galleryImages = [
-  HeuvelPic1, HeuvelPic2, HeuvelPic3, HeuvelPic4,
-  HeuvelPic5, HeuvelPic6, HeuvelPic7, HeuvelPic8,
-  HeuvelPic9, HeuvelPic10, HeuvelPic11, HeuvelPic12,
-  HeuvelPic13, HeuvelPic14, HeuvelPic15, HeuvelPic16
+  "Pic1", "Pic2", "Pic3", "Pic4",
+  "Pic5", "Pic6", "Pic7", "Pic8",
+  "Pic9", "Pic10", "Pic11", "Pic12",
+  "Pic13", "Pic14", "Pic15", "Pic16"
 ];
-
-// const galleryCaptions = [
-//   "Pic One", "Pic Two", "Pic Three", "Pic Four",
-//   "Pic Five", "Pic Six", "Pic Seven", "Pic Eight",
-//   "Pic Nine", "Pic Ten", "Pic Eleven", "Pic Twelve",
-//   "Pic Thirteen", "Pic Fourteen", "Pic Fifteen", "Pic Sixteen"
-// ];
 
 const galleryCaptions = [
   "", "", "", "",
@@ -78,6 +53,10 @@ const galleryCaptions = [
   "", "", "", "",
   "", "", "", ""
 ];
+
+const getImageUrl = (coreyPic) => {
+  return new URL(`../../assets/CoreyPics/${coreyPic}.jpg`, import.meta.url).href;
+};
 
 const openImageView = (index) => {
   currentImage.value = index;

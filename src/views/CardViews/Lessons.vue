@@ -12,7 +12,7 @@
         <input 
           v-model="searchQuery" 
           type="text" 
-          placeholder="Search by song, artist, or tuning"
+          placeholder="Filter by song, artist, or tuning"
           class="search-bar"
         />
       </div>
@@ -23,7 +23,7 @@
         class="lesson-card"
       >
         <img 
-          :src="`/thumbnails/${tutorial.thumbnail}`" 
+          :src="getImageUrl(tutorial.thumbnail)"
           :alt="tutorial.title" 
           class="thumbnail"
         />
@@ -92,6 +92,10 @@ const filteredTutorials = computed(() => {
     (tutorial.search?.toLowerCase().includes(query) ?? false)
   );
 });
+
+const getImageUrl = (filename) => {
+  return new URL(`../../assets/lesson-thumbnails/${filename}`, import.meta.url).href;
+};
 
 const handleUnload = () => {
   navigator.sendBeacon('/lessons/logout');
