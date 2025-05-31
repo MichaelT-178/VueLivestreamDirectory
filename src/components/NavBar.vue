@@ -16,7 +16,8 @@
           <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
           <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
           <a href="https://www.patreon.com/coreyheuvel" target="_blank" rel="noopener noreferrer">Patreon</a>
-          <router-link to="/contact">Contact</router-link>
+          <a href="http://paypal.me/coreyheuvel" target="_blank" rel="noopener noreferrer">PayPal</a>
+          <!-- <router-link to="/contact">Contact</router-link> -->
         </div>
 
         <!-- hamburger-icon -->
@@ -46,9 +47,14 @@
         target="_blank" 
         rel="noopener noreferrer" 
         @click="closeMobileMenu">Patreon</a>
-      <router-link 
+      <a 
+        href="http://paypal.me/coreyheuvel" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        @click="closeMobileMenu">PayPal</a>
+      <!-- <router-link 
         to="/contact" 
-        @click="closeMobileMenu">Contact</router-link>
+        @click="closeMobileMenu">Contact</router-link> -->
     </div>
 
   </div>

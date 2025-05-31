@@ -3,23 +3,23 @@
     "CardData": [
         {
             "id": 1,
-            "icon": "bookmark",
+            "icon": "globe",
             "iconColor": "cyan",
             "iconColorCode": "#22D3EE",
-            "title": "Saved Songs",
-            "description": "View all of your saved Corey Heuvel songs.",
-            "linkTitle": "View Saved Songs",
-            "route": "/saved-songs"
+            "title": "Corey's Patreon",
+            "description": "Corey Heuvel's Patreon. I'd highly recommend the \"Student\" tier.",
+            "linkTitle": "Go to Patreon",
+            "route": "https://www.patreon.com/coreyheuvel"
         },
         {
             "id": 2,
-            "icon": "camera",
+            "icon": "school",
             "iconColor": "purple",
             "iconColorCode": "#C084FC",
-            "title": "Corey Pictures",
-            "description": "Photo Gallery of Corey Heuvel and his guitars.",
-            "linkTitle": "See Pictures",
-            "route": "/photos"
+            "title": "Lessons",
+            "description": "All Patreon Lessons. Only members of the \"Student\" tier can view this content.",
+            "linkTitle": "Go to Lessons",
+            "route": "/patreon-sign-in"
         },
         {
             "id": 3,
@@ -43,13 +43,13 @@
         },
         {
             "id": 5,
-            "icon": "folder",
-            "iconColor": "yellow",
-            "iconColorCode": "#FACC15",
-            "title": "O.G. Website",
-            "description": "The original Livestream Directory website. I'll continue to update this.",
-            "linkTitle": "Go to Website",
-            "route": "https://www.swiftcolors.com/"
+            "icon": "heart",
+            "iconColor": "pink",
+            "iconColorCode": "#F472B6",
+            "title": "My Favorite Covers",
+            "description": "This is a list of Michael L's favorite Corey Heuvel covers.",
+            "linkTitle": "See Covers",
+            "route": "/favorites"
         },
         {
             "id": 6,
@@ -63,13 +63,13 @@
         },
         {
             "id": 7,
-            "icon": "heart",
-            "iconColor": "pink",
-            "iconColorCode": "#F472B6",
-            "title": "My Favorite Covers",
-            "description": "This is a list of Michael L's favorite Corey Heuvel covers.",
-            "linkTitle": "See Covers",
-            "route": "/favorites"
+            "icon": "folder",
+            "iconColor": "yellow",
+            "iconColorCode": "#FACC15",
+            "title": "Original Website",
+            "description": "The first Livestream Directory website. I'll continue to update this.",
+            "linkTitle": "Go to Website",
+            "route": "https://www.swiftcolors.com/"
         },
         {
             "id": 8,
@@ -83,13 +83,13 @@
         },
         {
             "id": 9,
-            "icon": "school",
+            "icon": "camera",
             "iconColor": "orange",
             "iconColorCode": "#FB923C",
-            "title": "Lessons",
-            "description": "All Patreon Lessons. Only members of the \"Student\" tier can view this content.",
-            "linkTitle": "Go to Lessons",
-            "route": "/patreon-sign-in"
+            "title": "Corey Pictures",
+            "description": "Photo Gallery of Corey Heuvel and his guitars.",
+            "linkTitle": "See Pictures",
+            "route": "/photos"
         }
     ],
     "Unused": [
