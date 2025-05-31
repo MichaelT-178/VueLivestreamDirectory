@@ -5,6 +5,7 @@ import Home from '../views/Home.vue';
 
 import ArtistPage from '../views/ArtistPage.vue';
 import SongPage from '../views/SongPage.vue';
+import InstrumentPage from '../views/InstrumentPage.vue';
 
 
 // Card Views
@@ -42,6 +43,12 @@ const routes = [
 	{
 		path: '/song',
 		component: SongPage
+	},
+	{
+		path: '/instrument/:name',
+		name: 'InstrumentPage',
+		component: InstrumentPage,
+		props: true
 	},
 
 	// Card Views 

@@ -19,7 +19,10 @@
           loading="lazy"
           @load="handleImageLoad"
         />
-        <h2>{{ instrument.alias || instrument.name }}</h2>
+        <h2 @click="goToInstrumentPage(instrument.cleaned)" class="clickable-title">
+          {{ instrument.alias || instrument.name }}
+        </h2>
+
         <p><strong>Name:</strong> {{ instrument.name }}</p>
         <p><strong>Key:</strong> {{ instrument.key || '—' }}</p>
         <p><strong>Appears:</strong> {{ instrument.appears }}</p>
@@ -33,6 +36,9 @@
 import { onMounted } from 'vue';
 import Instruments from "../../assets/Data/instruments.json";
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 const getImagePath = (imageName) => {
   return new URL(`../../assets/instrument-pics/${imageName}.jpg`, import.meta.url).href;
@@ -40,6 +46,10 @@ const getImagePath = (imageName) => {
 
 const handleImageLoad = (event) => {
   event.target.classList.add('loaded');
+};
+
+const goToInstrumentPage = (name) => {
+  router.push({ name: 'InstrumentPage', params: { name } });
 };
 
 onMounted(() => {
@@ -85,4 +95,17 @@ onMounted(() => {
   margin-bottom: 0.5rem;
   color: #2DD4BF;
 }
+
+.clickable-title {
+  cursor: pointer;
+  color: #2DD4BF;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.clickable-title:hover {
+  color: #5eead4;
+  text-decoration: underline;
+}
+
 </style>
