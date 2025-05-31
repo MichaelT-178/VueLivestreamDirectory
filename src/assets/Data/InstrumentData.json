@@ -2,7 +2,7 @@
     "acoustic-guitar": {
         "instrument": "(main) - Stonebridge (Furch) OM32SM",
         "pic": "acoustic-guitar.jpg",
-        "numOfAppearances": 5115,
+        "numOfAppearances": 5112,
         "appearances": [
             {
                 "id": 8,
@@ -11798,13 +11798,6 @@
                 "artist": "Lyle Lovett",
                 "livestream": "Livestream 155",
                 "link": "https://youtu.be/v56fDp25FcM?feature=share&t=7662"
-            },
-            {
-                "id": 1791,
-                "songTitle": "Life by the Drop",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/RNOrBaCku98&t=0"
             },
             {
                 "id": 1792,
@@ -31393,13 +31386,6 @@
                 "link": "https://youtu.be/watch?v=lq5YJLgEDWI&t=2405"
             },
             {
-                "id": 5041,
-                "songTitle": "More Than a Feeling",
-                "artist": "Boston",
-                "livestream": "Livestream 117 (Partial)",
-                "link": "https://youtu.be/h_KbDQybQmE&t=4416"
-            },
-            {
                 "id": 5043,
                 "songTitle": "Black Dog",
                 "artist": "Led Zeppelin",
@@ -34690,13 +34676,6 @@
                 "link": "https://youtu.be/h_KbDQybQmE&t=2078"
             },
             {
-                "id": 5613,
-                "songTitle": "Out of Tune 12-String for Jim",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 117",
-                "link": "https://youtu.be/h_KbDQybQmE&t=4445"
-            },
-            {
                 "id": 5614,
                 "songTitle": "38 Years Old",
                 "artist": "The Tragically Hip",
@@ -37508,8 +37487,30 @@
     "12-string-guitar": {
         "instrument": "12-String Guitar",
         "pic": "12-string-guitar.jpg",
-        "numOfAppearances": 0,
-        "appearances": []
+        "numOfAppearances": 3,
+        "appearances": [
+            {
+                "id": 1791,
+                "songTitle": "Life by the Drop",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/RNOrBaCku98&t=0"
+            },
+            {
+                "id": 5041,
+                "songTitle": "More Than a Feeling",
+                "artist": "Boston",
+                "livestream": "Livestream 117 (Partial)",
+                "link": "https://youtu.be/h_KbDQybQmE&t=4416"
+            },
+            {
+                "id": 5613,
+                "songTitle": "Out of Tune 12-String for Jim",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 117",
+                "link": "https://youtu.be/h_KbDQybQmE&t=4445"
+            }
+        ]
     },
     "mandolin": {
         "instrument": "Mandolin",
