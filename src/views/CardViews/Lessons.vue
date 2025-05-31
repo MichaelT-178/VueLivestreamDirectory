@@ -7,12 +7,15 @@
     />
 
     <div v-if="message && message.Tutorials">
-      <input 
-        v-model="searchQuery" 
-        type="text" 
-        placeholder="Search by title, artist, or tuning..." 
-        class="search-bar"
-      />
+      <div class="search-bar-container">
+        <font-awesome-icon icon="search" class="search-icon" />
+        <input 
+          v-model="searchQuery" 
+          type="text" 
+          placeholder="Search by song, artist, or tuning"
+          class="search-bar"
+        />
+      </div>
 
       <div 
         v-for="tutorial in filteredTutorials" 
@@ -38,13 +41,13 @@
   </div>
 </template>
 
-
 <script setup>
 import { ref, watch, computed, onMounted, onBeforeUnmount } from 'vue';
 import { useRouter } from 'vue-router';
 import axiosInstance from '../../lib/axios';
 import { useUser } from '../../composables/useUser';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 const { user } = useUser();
 const message = ref(null);
@@ -102,9 +105,7 @@ onBeforeUnmount(() => {
   window.removeEventListener('beforeunload', handleUnload);
   logoutAndGoBack();
 });
-
 </script>
-
 
 <style scoped>
 .status {
@@ -117,13 +118,33 @@ onBeforeUnmount(() => {
   color: red;
 }
 
+.search-bar-container {
+  position: relative;
+  width: 70%;
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
 .search-bar {
   width: 100%;
-  padding: 0.5rem;
-  margin: 1rem 0;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  padding: 14px 14px 14px 60px;
+  border-radius: 50px;
+  border: 2px solid #444;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.search-bar::placeholder {
+  color: #707070;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  color: #707070;
 }
 
 .lesson-card {
@@ -157,4 +178,41 @@ onBeforeUnmount(() => {
   text-decoration: underline;
 }
 
+/* Responsive styling */
+@media (max-width: 900px) {
+  .search-bar-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .search-bar-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .search-bar {
+    font-size: 18px;
+  }
+
+  .search-icon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .search-bar-container {
+    width: 96%;
+  }
+
+  .search-bar {
+    border-radius: 8px;
+    padding: 13px 14px 13px 15px;
+  }
+
+  .search-icon {
+    display: none;
+  }
+}
 </style>

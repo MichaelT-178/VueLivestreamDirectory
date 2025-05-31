@@ -1,16 +1,27 @@
 <template>
   <div class="container">
     <div class="login-card">
-      <h1>Login with Patreon</h1>
+      <h1>Login to View Lessons</h1>
       <p class="note">
-        * Note: All this program does is check whether you're a member of Corey's Patreon at the 'Student' tier. I am NOT collecting your data or doing anything else.
+        * Note: All this program does is check whether you're a member of Corey's Patreon at the 'Student' tier.
       </p>
       <button 
         class="patreon-btn"
         @click="loginWithPatreon"
       >
-        Sign in with Patreon
+        Login with Patreon
       </button>
+      <!-- <a 
+        class="secondary-btn"
+        href="https://www.patreon.com/coreyheuvel"
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Corey's Patreon
+      </a> -->
+      
+      <!-- I am NOT collecting your data or doing anything else. -->
+
       <router-link 
         class="secondary-btn"
         to="/"
