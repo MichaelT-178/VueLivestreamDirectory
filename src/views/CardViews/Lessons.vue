@@ -1,11 +1,10 @@
 <template>
   <div>
-    <p class="title">Second Page</p>
-    <router-link to="/" class="router-button">
-      Go to Home page
-    </router-link>
-
-    <button @click="logoutAndGoBack" class="router-button">Back</button>
+    <HeaderWithIcon
+      title="Patreon Lessons"
+      icon="school"
+      iconColor="#C084FC"
+    />
 
     <div>
       <p class="status" v-if="message">{{ message }}</p>
@@ -20,6 +19,7 @@ import { useUser } from '../../composables/useUser';
 import { ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import axiosInstance from '../../lib/axios';
+import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 
 const { user } = useUser();
 const message = ref('');
