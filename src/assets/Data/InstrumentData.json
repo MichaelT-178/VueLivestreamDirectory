@@ -40823,20 +40823,6 @@
             }
         ]
     },
-    "maestro-fan-fretted-singa-flamed-maple-adirondack": {
-        "instrument": "(MFF) - Maestro Fan Fretted Singa Flamed maple / Adirondack",
-        "pic": "maestro-fan-fretted-singa-flamed-maple-adirondack.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3738,
-                "songTitle": "Kaijie",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=4bCTEUKdQUo&t=0"
-            }
-        ]
-    },
     "godin-5th-ave-uptown-gt-ltd-trans-cream": {
         "instrument": "(GLTC) - Godin 5th Ave Uptown GT LTD Trans Cream",
         "pic": "godin-5th-ave-uptown-gt-ltd-trans-cream.jpg",
@@ -40890,6 +40876,20 @@
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
                 "link": "https://youtu.be/mG_ZcHn5-vo?si=yxqdfRckULJMvYB8&t=5"
+            }
+        ]
+    },
+    "maestro-fan-fretted-singa-flamed-maple-adirondack": {
+        "instrument": "(MFF) - Maestro Fan Fretted Singa Flamed maple / Adirondack",
+        "pic": "maestro-fan-fretted-singa-flamed-maple-adirondack.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3738,
+                "songTitle": "Kaijie",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=4bCTEUKdQUo&t=0"
             }
         ]
     },
