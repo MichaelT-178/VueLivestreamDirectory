@@ -2,7 +2,7 @@
     "acoustic-guitar": {
         "instrument": "(main) - Stonebridge (Furch) OM32SM",
         "pic": "acoustic-guitar.jpg",
-        "numOfAppearances": 5112,
+        "numOfAppearances": 5104,
         "appearances": [
             {
                 "id": 8,
@@ -12346,13 +12346,6 @@
                 "link": "https://youtu.be/VEh4FA59OGA&t=2748"
             },
             {
-                "id": 1880,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 56 (Rein Rutnik Performance)",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1946"
-            },
-            {
                 "id": 1881,
                 "songTitle": "Before You Accuse Me",
                 "artist": "Eric Clapton",
@@ -12470,13 +12463,6 @@
                 "artist": "Eric Clapton",
                 "livestream": "Livestream 6 (Cont./Audio Issues)",
                 "link": "https://youtu.be/watch?v=Yz6bDH9k1Fk&t=4161"
-            },
-            {
-                "id": 1899,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 12 (Audio Issues/Rein Rutnik Performance)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5904"
             },
             {
                 "id": 1900,
@@ -24624,13 +24610,6 @@
                 "link": "https://youtu.be/vRD0K6kl3Qs&t=2609"
             },
             {
-                "id": 3864,
-                "songTitle": "Dear Mr. Fantasy",
-                "artist": "Traffic",
-                "livestream": "Livestream 12 (Audio Issues/Rein Rutnik Performance)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5462"
-            },
-            {
                 "id": 3865,
                 "songTitle": "Lucky Man",
                 "artist": "The Verve",
@@ -32639,13 +32618,6 @@
                 "link": "https://youtu.be/_7xQAOqGbk4&t=9"
             },
             {
-                "id": 5263,
-                "songTitle": "Fox Chase & Lost John",
-                "artist": "Joe Filisko",
-                "livestream": "Livestream 56 (Rein Rutnik Performance)",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1572"
-            },
-            {
                 "id": 5264,
                 "songTitle": "Closing Time",
                 "artist": "Semisonic",
@@ -34102,20 +34074,6 @@
                 "link": "https://youtu.be/yiFNZvisSQw&t=8236"
             },
             {
-                "id": 5521,
-                "songTitle": "Rollin' and Tumblin'",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 3 (Audio Issues/Rein Rutnik Performance)",
-                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4592"
-            },
-            {
-                "id": 5522,
-                "songTitle": "Rollin' and Tumblin'",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 12 (Audio Issues/Rein Rutnik Performance)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5178"
-            },
-            {
                 "id": 5523,
                 "songTitle": "Ziggy Stardust",
                 "artist": "David Bowie",
@@ -35397,13 +35355,6 @@
                 "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=2388"
             },
             {
-                "id": 5736,
-                "songTitle": "Crossing Over/Tree of Life",
-                "artist": "Grant Dermody",
-                "livestream": "Livestream 3 (Audio Issues/Medley/Rein Rutnik Performance)",
-                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4309"
-            },
-            {
                 "id": 5737,
                 "songTitle": "Smells Like Teen Spirit",
                 "artist": "Nirvana",
@@ -35612,13 +35563,6 @@
                 "artist": "Stevie Ray Vaughan",
                 "livestream": "Livestream 24 (Audio Issues)",
                 "link": "https://youtu.be/watch?v=XxWeHmiEot0&t=2808"
-            },
-            {
-                "id": 5782,
-                "songTitle": "Ice Water Blues",
-                "artist": "Deford Bailey",
-                "livestream": "Livestream 12 (Audio Issues/Rein Rutnik Performance)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5762"
             },
             {
                 "id": 5783,
@@ -37606,8 +37550,93 @@
     "harmonica": {
         "instrument": "Harmonica",
         "pic": "harmonica.jpg",
-        "numOfAppearances": 0,
-        "appearances": []
+        "numOfAppearances": 12,
+        "appearances": [
+            {
+                "id": 1880,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1946"
+            },
+            {
+                "id": 1899,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5904"
+            },
+            {
+                "id": 3864,
+                "songTitle": "Dear Mr. Fantasy",
+                "artist": "Traffic",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5462"
+            },
+            {
+                "id": 5259,
+                "songTitle": "Nobody Knows You When You're Down and Out",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=446"
+            },
+            {
+                "id": 5260,
+                "songTitle": "Sleepy Afternoon",
+                "artist": "Rein Rutnik",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=780"
+            },
+            {
+                "id": 5261,
+                "songTitle": "Big Bad Bill (Is Sweet William Now)",
+                "artist": "Van Halen",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1059"
+            },
+            {
+                "id": 5262,
+                "songTitle": "I'm Satisfied",
+                "artist": "Mississippi John Hurt",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1299"
+            },
+            {
+                "id": 5263,
+                "songTitle": "Fox Chase & Lost John (H)",
+                "artist": "Joe Filisko",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1572"
+            },
+            {
+                "id": 5521,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 3 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4592"
+            },
+            {
+                "id": 5522,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5178"
+            },
+            {
+                "id": 5736,
+                "songTitle": "Crossing Over/Tree of Life",
+                "artist": "Grant Dermody",
+                "livestream": "Livestream 3 (Audio Issues/Medley)",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4309"
+            },
+            {
+                "id": 5782,
+                "songTitle": "Ice Water Blues",
+                "artist": "Deford Bailey",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5762"
+            }
+        ]
     },
     "blues-slide": {
         "instrument": "Blues Slide",
@@ -40740,28 +40769,28 @@
                 "id": 5259,
                 "songTitle": "Nobody Knows You When You're Down and Out",
                 "artist": "Eric Clapton",
-                "livestream": "Livestream 56 (Rein Rutnik Performance)",
+                "livestream": "Livestream 56",
                 "link": "https://youtu.be/KLIWP_nbaXs&t=446"
             },
             {
                 "id": 5260,
                 "songTitle": "Sleepy Afternoon",
                 "artist": "Rein Rutnik",
-                "livestream": "Livestream 56 (Rein Rutnik Performance)",
+                "livestream": "Livestream 56",
                 "link": "https://youtu.be/KLIWP_nbaXs&t=780"
             },
             {
                 "id": 5261,
                 "songTitle": "Big Bad Bill (Is Sweet William Now)",
                 "artist": "Van Halen",
-                "livestream": "Livestream 56 (Rein Rutnik Performance)",
+                "livestream": "Livestream 56",
                 "link": "https://youtu.be/KLIWP_nbaXs&t=1059"
             },
             {
                 "id": 5262,
                 "songTitle": "I'm Satisfied",
                 "artist": "Mississippi John Hurt",
-                "livestream": "Livestream 56 (Rein Rutnik Performance)",
+                "livestream": "Livestream 56",
                 "link": "https://youtu.be/KLIWP_nbaXs&t=1299"
             }
         ]
