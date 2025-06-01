@@ -17,6 +17,7 @@ import HomeIcon from "./Home.vue";
 import MusicNoteIcon from "./MusicNote.vue";
 import PaletteIcon from "./Palette.vue";
 import SchoolIcon from "./School.vue";
+import TriangleAlertIcon from "./TriangleAlert.vue";
 import VideoIcon from "./Video.vue";
 
 const iconMap = {
@@ -39,6 +40,7 @@ const iconMap = {
   musicnote: MusicNoteIcon,
   palette: PaletteIcon,
   school: SchoolIcon,
+  trianglealert: TriangleAlertIcon,
   video: VideoIcon
 };
 

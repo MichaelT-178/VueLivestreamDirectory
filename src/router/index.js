@@ -18,6 +18,9 @@ import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
 import RepertoireView from '../views/CardViews/Repertoire.vue';
 import SavedSongsView from '../views/CardViews/SavedSongs.vue';
 
+// 404 page
+import NotFound from '../views/NotFound.vue';
+
 
 const routes = [
 	{
@@ -71,7 +74,12 @@ const routes = [
 	{
 		path: '/saved-songs',
 		component: SavedSongsView
-	}
+	},
+	{
+		path: '/:pathMatch(.*)*',
+		name: 'NotFound404',
+		component: NotFound
+	},
 ]
 
 const router = createRouter({
