@@ -40837,6 +40837,20 @@
             }
         ]
     },
+    "godin-5th-ave-uptown-gt-ltd-trans-cream": {
+        "instrument": "(GLTC) - Godin 5th Ave Uptown GT LTD Trans Cream",
+        "pic": "godin-5th-ave-uptown-gt-ltd-trans-cream.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3751,
+                "songTitle": "Godin 5th Ave Uptown GT LTD Trans Cream",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=K6RyCMow7Xc&t=6"
+            }
+        ]
+    },
     "godin-progression-plus-cherry-burst-rn": {
         "instrument": "(GPPCB) - Godin Progression Plus Cherry Burst RN",
         "pic": "godin-progression-plus-cherry-burst-rn.jpg",
@@ -40876,20 +40890,6 @@
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
                 "link": "https://youtu.be/mG_ZcHn5-vo?si=yxqdfRckULJMvYB8&t=5"
-            }
-        ]
-    },
-    "godin-5th-ave-uptown-gt-ltd-trans-cream": {
-        "instrument": "(GLTC) - Godin 5th Ave Uptown GT LTD Trans Cream",
-        "pic": "godin-5th-ave-uptown-gt-ltd-trans-cream.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3751,
-                "songTitle": "Godin 5th Ave Uptown GT LTD Trans Cream",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=K6RyCMow7Xc&t=6"
             }
         ]
     },
