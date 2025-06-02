@@ -39,9 +39,18 @@
       </div>
     </div>
 
-    <p class="status error" v-else>You don't have access to this content.</p>
+    <p v-else>
+      <ErrorCard 
+        title="401 - Unauthorized" 
+        description="You don't have access to view this content. Go sign up for Corey's Patreon at the 'Student' tier!"
+        link="https://www.patreon.com/coreyheuvel"
+        linkTitle="Go to Corey's Patreon"
+      />
+    </p>
+
   </div>
 </template>
+
 
 <script setup>
 import { ref, watch, computed, onMounted, onBeforeUnmount } from 'vue';
@@ -50,6 +59,7 @@ import axiosInstance from '../../lib/axios';
 import { useUser } from '../../composables/useUser';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import ErrorCard from '../../components/ErrorCard.vue';
 
 const { user } = useUser();
 const message = ref(null);
@@ -111,17 +121,15 @@ onBeforeUnmount(() => {
   window.removeEventListener('beforeunload', handleUnload);
   logoutAndGoBack();
 });
+
 </script>
+
 
 <style scoped>
 .status {
   margin: 1rem 0;
   font-weight: bold;
   color: green;
-}
-
-.status.error {
-  color: red;
 }
 
 .search-bar-container {
