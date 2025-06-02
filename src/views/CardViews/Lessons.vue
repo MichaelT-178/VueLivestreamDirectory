@@ -203,7 +203,11 @@ onBeforeUnmount(() => {
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
-  margin-bottom: -150px;
+  gap: 0rem;
+}
+
+.unauthorized-container :deep(.error-card) {
+  margin-top: 20px;
 }
 
 /* Responsive styling */
