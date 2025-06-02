@@ -65,7 +65,7 @@
             "CleanedArtist": "matchbox-twenty"
         }
     ],
-    "A Songs": [
+    "A": [
         {
             "Song": "A Certain Shade of Green",
             "CleanedSong": "a-certain-shade-of-green",
@@ -291,7 +291,7 @@
             "CleanedArtist": "joseph-kosma"
         }
     ],
-    "B Songs": [
+    "B": [
         {
             "Song": "Babe I'm Gonna Leave You",
             "CleanedSong": "babe-im-gonna-leave-you",
@@ -749,7 +749,7 @@
             "CleanedArtist": "ben-harper"
         }
     ],
-    "C Songs": [
+    "C": [
         {
             "Song": "Cactus Tree",
             "CleanedSong": "cactus-tree",
@@ -1119,7 +1119,7 @@
             "CleanedArtist": "bryan-adams"
         }
     ],
-    "D Songs": [
+    "D": [
         {
             "Song": "D'yer Mak'er (Electric riff)",
             "CleanedSong": "dyer-maker-electric-riff",
@@ -1377,7 +1377,7 @@
             "CleanedArtist": "kansas"
         }
     ],
-    "E Songs": [
+    "E": [
         {
             "Song": "Echo",
             "CleanedSong": "echo",
@@ -1619,7 +1619,7 @@
             "CleanedArtist": "scott-matthews"
         }
     ],
-    "F Songs": [
+    "F": [
         {
             "Song": "Fake Plastic Trees",
             "CleanedSong": "fake-plastic-trees",
@@ -1877,7 +1877,7 @@
             "CleanedArtist": "ludwig-van-beethoven"
         }
     ],
-    "G Songs": [
+    "G": [
         {
             "Song": "Get Back",
             "CleanedSong": "get-back",
@@ -2111,7 +2111,7 @@
             "CleanedArtist": "rage-against-the-machine"
         }
     ],
-    "H Songs": [
+    "H": [
         {
             "Song": "Hallelujah",
             "CleanedSong": "hallelujah",
@@ -2449,7 +2449,7 @@
             "CleanedArtist": "muse"
         }
     ],
-    "I Songs": [
+    "I": [
         {
             "Song": "I Don't Need No Doctor",
             "CleanedSong": "i-dont-need-no-doctor",
@@ -2971,7 +2971,7 @@
             "CleanedArtist": "the-rolling-stones"
         }
     ],
-    "J Songs": [
+    "J": [
         {
             "Song": "Jeremy",
             "CleanedSong": "jeremy",
@@ -3069,7 +3069,7 @@
             "CleanedArtist": "the-cure"
         }
     ],
-    "K Songs": [
+    "K": [
         {
             "Song": "Kaijie",
             "CleanedSong": "kaijie",
@@ -3143,7 +3143,7 @@
             "CleanedArtist": "nick-drake"
         }
     ],
-    "L Songs": [
+    "L": [
         {
             "Song": "L.A. Woman",
             "CleanedSong": "l-a-woman",
@@ -3505,7 +3505,7 @@
             "CleanedArtist": "francisco-tarrega"
         }
     ],
-    "M Songs": [
+    "M": [
         {
             "Song": "Machine Gun",
             "CleanedSong": "machine-gun",
@@ -3851,7 +3851,7 @@
             "CleanedArtist": "george-harrison"
         }
     ],
-    "N Songs": [
+    "N": [
         {
             "Song": "Natural Blues",
             "CleanedSong": "natural-blues",
@@ -4045,7 +4045,7 @@
             "CleanedArtist": "alice-in-chains"
         }
     ],
-    "O Songs": [
+    "O": [
         {
             "Song": "Oceans",
             "CleanedSong": "oceans",
@@ -4231,7 +4231,7 @@
             "CleanedArtist": "santana"
         }
     ],
-    "P Songs": [
+    "P": [
         {
             "Song": "Paint It, Black",
             "CleanedSong": "paint-it-black",
@@ -4457,7 +4457,7 @@
             "CleanedArtist": "moist"
         }
     ],
-    "Q Songs": [
+    "Q": [
         {
             "Song": "Queen of California",
             "CleanedSong": "queen-of-california",
@@ -4483,7 +4483,7 @@
             "CleanedArtist": "corey-heuvel"
         }
     ],
-    "R Songs": [
+    "R": [
         {
             "Song": "Radiant Skies",
             "CleanedSong": "radiant-skies",
@@ -4733,7 +4733,7 @@
             "CleanedArtist": "corey-heuvel"
         }
     ],
-    "S Songs": [
+    "S": [
         {
             "Song": "S.R.V (Electric riff)",
             "CleanedSong": "s-r-v-electric-riff",
@@ -5519,7 +5519,7 @@
             "CleanedArtist": "van-morrison"
         }
     ],
-    "T Songs": [
+    "T": [
         {
             "Song": "Take A Picture",
             "CleanedSong": "take-a-picture",
@@ -6137,7 +6137,7 @@
             "CleanedArtist": "ryan-adams"
         }
     ],
-    "U Songs": [
+    "U": [
         {
             "Song": "Under the Bridge",
             "CleanedSong": "under-the-bridge",
@@ -6163,7 +6163,7 @@
             "CleanedArtist": "the-band"
         }
     ],
-    "V Songs": [
+    "V": [
         {
             "Song": "Valerie",
             "CleanedSong": "valerie",
@@ -6237,7 +6237,7 @@
             "CleanedArtist": "john-mayer"
         }
     ],
-    "W Songs": [
+    "W": [
         {
             "Song": "Wagon Wheel (Partial)",
             "CleanedSong": "wagon-wheel-partial",
@@ -6479,7 +6479,7 @@
             "CleanedArtist": "joni-mitchell"
         }
     ],
-    "Y Songs": [
+    "Y": [
         {
             "Song": "Yellow",
             "CleanedSong": "yellow",
@@ -6569,7 +6569,7 @@
             "CleanedArtist": "pink-floyd"
         }
     ],
-    "Z Songs": [
+    "Z": [
         {
             "Song": "Ziggy Stardust",
             "CleanedSong": "ziggy-stardust",
