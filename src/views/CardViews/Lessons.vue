@@ -40,21 +40,27 @@
 
   <div v-else>
     <div class="unauthorized-container">
-      <HeaderWithIcon
-        title="Patreon Lessons"
-        icon="school"
-        iconColor="#C084FC"
-      />
+      <div class="unauthorized-content">
+        <HeaderWithIcon
+          title="Patreon Lessons"
+          icon="school"
+          iconColor="#C084FC"
+        />
 
-      <ErrorCard 
-        title="401 - Unauthorized" 
-        description="You don't have access to view this content. Go sign up for Corey's Patreon at the 'Student' tier!"
-        link="https://www.patreon.com/coreyheuvel"
-        linkTitle="Go to Corey's Patreon"
-      />
+        <ErrorCard 
+          title="401 - Unauthorized" 
+          description="You don't have access to view this content. Go sign up for Corey's Patreon at the 'Student' tier!"
+          link="https://www.patreon.com/coreyheuvel"
+          linkTitle="Go to Corey's Patreon"
+        />
+
+        <!-- Only shown on mobile -->
+        <router-link to="/" class="mobile-home-button">
+          Go back home
+        </router-link>
+      </div>
     </div>
   </div>
-
 </template>
 
 
@@ -132,12 +138,6 @@ onBeforeUnmount(() => {
 
 
 <style scoped>
-.status {
-  margin: 1rem 0;
-  font-weight: bold;
-  color: green;
-}
-
 .search-bar-container {
   position: relative;
   width: 70%;
@@ -200,17 +200,35 @@ onBeforeUnmount(() => {
 
 .unauthorized-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   margin-top: 2rem;
-  gap: 0rem;
+}
+
+.unauthorized-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 400px;
 }
 
 .unauthorized-container :deep(.error-card) {
   margin-top: 20px;
 }
 
-/* Responsive styling */
+.mobile-home-button {
+  display: none;
+  background-color: #007eb4;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 20px;
+  margin-top: -30px;
+  align-self: center;
+}
+
 @media (max-width: 900px) {
   .search-bar-container {
     width: 80%;
@@ -246,5 +264,10 @@ onBeforeUnmount(() => {
   .search-icon {
     display: none;
   }
+  
+  .mobile-home-button {
+    display: block;
+  }
 }
+
 </style>
