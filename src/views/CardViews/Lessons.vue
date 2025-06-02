@@ -1,54 +1,60 @@
 <template>
-  <div>
+  <div v-if="message && message.Tutorials">
     <HeaderWithIcon
       title="Patreon Lessons"
       icon="school"
       iconColor="#C084FC"
     />
-
-    <div v-if="message && message.Tutorials">
-      <div class="search-bar-container">
-        <font-awesome-icon icon="search" class="search-icon" />
-        <input 
-          id="tutorial-search"
-          name="tutorial-search"
-          v-model="searchQuery" 
-          type="text" 
-          placeholder="Filter by song, artist, or tuning"
-          class="search-bar"
-        />
-      </div>
-
-      <div 
-        v-for="tutorial in filteredTutorials" 
-        :key="tutorial.id" 
-        class="lesson-card"
-      >
-        <img 
-          :src="getImageUrl(tutorial.thumbnail)"
-          :alt="tutorial.title" 
-          class="thumbnail"
-        />
-        <div class="lesson-info">
-          <h3>{{ tutorial.title }}</h3>
-          <p><strong>Artist:</strong> {{ tutorial.artist }}</p>
-          <p><strong>Tuning:</strong> {{ tutorial.tuning }}</p>
-          <p><strong>Date:</strong> {{ tutorial.date }}</p>
-          <a :href="tutorial.link" target="_blank" rel="noopener">Watch</a>
-        </div>
-      </div>
+    
+    <div class="search-bar-container">
+      <font-awesome-icon icon="search" class="search-icon" />
+      <input 
+        id="tutorial-search"
+        name="tutorial-search"
+        v-model="searchQuery" 
+        type="text" 
+        placeholder="Filter by song, artist, or tuning"
+        class="search-bar"
+      />
     </div>
 
-    <p v-else>
+    <div 
+      v-for="tutorial in filteredTutorials" 
+      :key="tutorial.id" 
+      class="lesson-card"
+    >
+      <img 
+        :src="getImageUrl(tutorial.thumbnail)"
+        :alt="tutorial.title" 
+        class="thumbnail"
+      />
+      <div class="lesson-info">
+        <h3>{{ tutorial.title }}</h3>
+        <p><strong>Artist:</strong> {{ tutorial.artist }}</p>
+        <p><strong>Tuning:</strong> {{ tutorial.tuning }}</p>
+        <p><strong>Date:</strong> {{ tutorial.date }}</p>
+        <a :href="tutorial.link" target="_blank" rel="noopener">Watch</a>
+      </div>
+    </div>
+  </div>
+
+  <div v-else>
+    <div class="unauthorized-container">
+      <HeaderWithIcon
+        title="Patreon Lessons"
+        icon="school"
+        iconColor="#C084FC"
+      />
+
       <ErrorCard 
         title="401 - Unauthorized" 
         description="You don't have access to view this content. Go sign up for Corey's Patreon at the 'Student' tier!"
         link="https://www.patreon.com/coreyheuvel"
         linkTitle="Go to Corey's Patreon"
       />
-    </p>
-
+    </div>
   </div>
+
 </template>
 
 
@@ -190,6 +196,14 @@ onBeforeUnmount(() => {
 .lesson-info a {
   color: #007BFF;
   text-decoration: underline;
+}
+
+.unauthorized-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: -150px;
 }
 
 /* Responsive styling */
