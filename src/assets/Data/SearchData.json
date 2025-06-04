@@ -1821,7 +1821,7 @@
         {
             "id": 304,
             "name": "R.E.M",
-            "cleanedName": "r-e-m",
+            "cleanedName": "rem",
             "Type": "Artist"
         },
         {
@@ -1953,7 +1953,7 @@
         {
             "id": 326,
             "name": "J.J. Cale",
-            "cleanedName": "j-j-cale",
+            "cleanedName": "jj-cale",
             "Type": "Artist"
         },
         {
@@ -3215,11 +3215,11 @@
             "artist": "Bruce Springsteen",
             "cleanedArtist": "bruce-springsteen",
             "album": "Born In The U.S.A",
-            "cleanedAlbum": "born-in-the-u-s-a",
+            "cleanedAlbum": "born-in-the-usa",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "",
-            "CleanedPicture": "born-in-the-u-s-a",
+            "CleanedPicture": "born-in-the-usa",
             "Type": "Song"
         },
         {
@@ -3897,15 +3897,15 @@
         {
             "id": 130,
             "title": "L.A. Woman",
-            "cleanedTitle": "l-a-woman",
+            "cleanedTitle": "la-woman",
             "artist": "The Doors",
             "cleanedArtist": "the-doors",
             "album": "L.A. Woman",
-            "cleanedAlbum": "l-a-woman",
+            "cleanedAlbum": "la-woman",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "LA Woman",
-            "CleanedPicture": "l-a-woman",
+            "CleanedPicture": "la-woman",
             "Type": "Song"
         },
         {
@@ -6547,11 +6547,11 @@
             "artist": "Incubus",
             "cleanedArtist": "incubus",
             "album": "S.C.I.E.N.C.E",
-            "cleanedAlbum": "s-c-i-e-n-c-e",
+            "cleanedAlbum": "science",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "",
-            "CleanedPicture": "s-c-i-e-n-c-e",
+            "CleanedPicture": "science",
             "Type": "Song"
         },
         {
@@ -7163,11 +7163,11 @@
             "artist": "Bruce Springsteen",
             "cleanedArtist": "bruce-springsteen",
             "album": "Born In The U.S.A",
-            "cleanedAlbum": "born-in-the-u-s-a",
+            "cleanedAlbum": "born-in-the-usa",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "",
-            "CleanedPicture": "born-in-the-u-s-a",
+            "CleanedPicture": "born-in-the-usa",
             "Type": "Song"
         },
         {
@@ -7359,11 +7359,11 @@
             "artist": "The Doors",
             "cleanedArtist": "the-doors",
             "album": "L.A. Woman",
-            "cleanedAlbum": "l-a-woman",
+            "cleanedAlbum": "la-woman",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "",
-            "CleanedPicture": "l-a-woman",
+            "CleanedPicture": "la-woman",
             "Type": "Song"
         },
         {
@@ -9809,11 +9809,11 @@
             "artist": "Bruce Springsteen",
             "cleanedArtist": "bruce-springsteen",
             "album": "Born In The U.S.A",
-            "cleanedAlbum": "born-in-the-u-s-a",
+            "cleanedAlbum": "born-in-the-usa",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "Im On Fire, I’m On Fire, I‘m On Fire",
-            "CleanedPicture": "born-in-the-u-s-a",
+            "CleanedPicture": "born-in-the-usa",
             "Type": "Song"
         },
         {
@@ -9963,11 +9963,11 @@
             "artist": "Old Crow Medicine Show",
             "cleanedArtist": "old-crow-medicine-show",
             "album": "O.C.M.S",
-            "cleanedAlbum": "o-c-m-s",
+            "cleanedAlbum": "ocms",
             "otherArtists": "Bob Dylan+ Darius Rucker",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "",
-            "CleanedPicture": "o-c-m-s",
+            "CleanedPicture": "ocms",
             "Type": "Song"
         },
         {
@@ -10299,11 +10299,11 @@
             "artist": "Incubus",
             "cleanedArtist": "incubus",
             "album": "S.C.I.E.N.C.E",
-            "cleanedAlbum": "s-c-i-e-n-c-e",
+            "cleanedAlbum": "science",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "",
-            "CleanedPicture": "s-c-i-e-n-c-e",
+            "CleanedPicture": "science",
             "Type": "Song"
         },
         {
@@ -11795,7 +11795,7 @@
             "title": "Losing My Religion",
             "cleanedTitle": "losing-my-religion",
             "artist": "R.E.M",
-            "cleanedArtist": "r-e-m",
+            "cleanedArtist": "rem",
             "album": "Out Of Time",
             "cleanedAlbum": "out-of-time",
             "otherArtists": "",
@@ -11937,11 +11937,11 @@
             "artist": "The Kinks",
             "cleanedArtist": "the-kinks",
             "album": "Lola Versus Powerman and the Moneygoround, pt.1",
-            "cleanedAlbum": "lola-versus-powerman-and-the-moneygoround-pt-1",
+            "cleanedAlbum": "lola-versus-powerman-and-the-moneygoround-pt1",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (M15M) - Martin 00-15m",
             "search": "",
-            "CleanedPicture": "lola-versus-powerman-and-the-moneygoround-pt-1",
+            "CleanedPicture": "lola-versus-powerman-and-the-moneygoround-pt1",
             "Type": "Song"
         },
         {
@@ -12997,7 +12997,7 @@
         {
             "id": 780,
             "title": "S.R.V (Electric riff)",
-            "cleanedTitle": "s-r-v-electric-riff",
+            "cleanedTitle": "srv-electric-riff",
             "artist": "Eric Johnson",
             "cleanedArtist": "eric-johnson",
             "album": "Venus Isle",
@@ -13155,11 +13155,11 @@
             "artist": "The Doors",
             "cleanedArtist": "the-doors",
             "album": "L.A. Woman",
-            "cleanedAlbum": "l-a-woman",
+            "cleanedAlbum": "la-woman",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
             "search": "",
-            "CleanedPicture": "l-a-woman",
+            "CleanedPicture": "la-woman",
             "Type": "Song"
         },
         {

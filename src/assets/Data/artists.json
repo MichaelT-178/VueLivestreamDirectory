@@ -1577,7 +1577,7 @@
                 "Title": "Glass",
                 "CleanedTitle": "glass",
                 "Album": "S.C.I.E.N.C.E",
-                "CleanedAlbum": "s-c-i-e-n-c-e"
+                "CleanedAlbum": "science"
             },
             {
                 "Id": 346,
@@ -1598,7 +1598,7 @@
                 "Title": "A Certain Shade of Green",
                 "CleanedTitle": "a-certain-shade-of-green",
                 "Album": "S.C.I.E.N.C.E",
-                "CleanedAlbum": "s-c-i-e-n-c-e"
+                "CleanedAlbum": "science"
             },
             {
                 "Id": 687,
@@ -1628,7 +1628,7 @@
             },
             {
                 "Title": "S.C.I.E.N.C.E",
-                "CleanedTitle": "s-c-i-e-n-c-e",
+                "CleanedTitle": "science",
                 "Year": 1997
             }
         ]
@@ -2293,7 +2293,7 @@
                 "Title": "Wagon Wheel (Partial)",
                 "CleanedTitle": "wagon-wheel-partial",
                 "Album": "O.C.M.S",
-                "CleanedAlbum": "o-c-m-s"
+                "CleanedAlbum": "ocms"
             },
             {
                 "Id": 591,
@@ -2340,7 +2340,7 @@
             },
             {
                 "Title": "O.C.M.S",
-                "CleanedTitle": "o-c-m-s",
+                "CleanedTitle": "ocms",
                 "Year": 2004
             },
             {
@@ -2388,7 +2388,7 @@
             {
                 "Id": 780,
                 "Title": "S.R.V (Electric riff)",
-                "CleanedTitle": "s-r-v-electric-riff",
+                "CleanedTitle": "srv-electric-riff",
                 "Album": "Venus Isle",
                 "CleanedAlbum": "venus-isle"
             }
@@ -2407,7 +2407,7 @@
             {
                 "Title": "Venus Isle",
                 "CleanedTitle": "venus-isle",
-                "Year": 1996
+                "Year": 0
             }
         ]
     },
@@ -3925,7 +3925,7 @@
                 "Title": "Dancing In the Dark",
                 "CleanedTitle": "dancing-in-the-dark",
                 "Album": "Born In The U.S.A",
-                "CleanedAlbum": "born-in-the-u-s-a"
+                "CleanedAlbum": "born-in-the-usa"
             },
             {
                 "Id": 258,
@@ -3939,7 +3939,7 @@
                 "Title": "Glory Days",
                 "CleanedTitle": "glory-days",
                 "Album": "Born In The U.S.A",
-                "CleanedAlbum": "born-in-the-u-s-a"
+                "CleanedAlbum": "born-in-the-usa"
             },
             {
                 "Id": 524,
@@ -3953,13 +3953,13 @@
                 "Title": "I'm On Fire",
                 "CleanedTitle": "im-on-fire",
                 "Album": "Born In The U.S.A",
-                "CleanedAlbum": "born-in-the-u-s-a"
+                "CleanedAlbum": "born-in-the-usa"
             }
         ],
         "Albums": [
             {
                 "Title": "Born In The U.S.A",
-                "CleanedTitle": "born-in-the-u-s-a",
+                "CleanedTitle": "born-in-the-usa",
                 "Year": 1984
             },
             {
@@ -5184,9 +5184,9 @@
             {
                 "Id": 130,
                 "Title": "L.A. Woman",
-                "CleanedTitle": "l-a-woman",
+                "CleanedTitle": "la-woman",
                 "Album": "L.A. Woman",
-                "CleanedAlbum": "l-a-woman"
+                "CleanedAlbum": "la-woman"
             },
             {
                 "Id": 188,
@@ -5200,7 +5200,7 @@
                 "Title": "Love Her Madly",
                 "CleanedTitle": "love-her-madly",
                 "Album": "L.A. Woman",
-                "CleanedAlbum": "l-a-woman"
+                "CleanedAlbum": "la-woman"
             },
             {
                 "Id": 404,
@@ -5214,14 +5214,14 @@
                 "Title": "Riders on the Storm (Audio Issues)",
                 "CleanedTitle": "riders-on-the-storm-audio-issues",
                 "Album": "L.A. Woman",
-                "CleanedAlbum": "l-a-woman"
+                "CleanedAlbum": "la-woman"
             }
         ],
         "Albums": [
             {
                 "Title": "L.A. Woman",
-                "CleanedTitle": "l-a-woman",
-                "Year": 1971
+                "CleanedTitle": "la-woman",
+                "Year": 0
             },
             {
                 "Title": "Strange Days",
@@ -9945,13 +9945,13 @@
                 "Title": "Wagon Wheel (Partial)",
                 "CleanedTitle": "wagon-wheel-partial",
                 "Album": "O.C.M.S",
-                "CleanedAlbum": "o-c-m-s"
+                "CleanedAlbum": "ocms"
             }
         ],
         "Albums": [
             {
                 "Title": "O.C.M.S",
-                "CleanedTitle": "o-c-m-s",
+                "CleanedTitle": "ocms",
                 "Year": 2004
             }
         ]
@@ -9965,13 +9965,13 @@
                 "Title": "Wagon Wheel (Partial)",
                 "CleanedTitle": "wagon-wheel-partial",
                 "Album": "O.C.M.S",
-                "CleanedAlbum": "o-c-m-s"
+                "CleanedAlbum": "ocms"
             }
         ],
         "Albums": [
             {
                 "Title": "O.C.M.S",
-                "CleanedTitle": "o-c-m-s",
+                "CleanedTitle": "ocms",
                 "Year": 2004
             }
         ]
@@ -10883,9 +10883,9 @@
             }
         ]
     },
-    "r-e-m": {
+    "rem": {
         "Artist": "R.E.M",
-        "CleanedArtist": "r-e-m",
+        "CleanedArtist": "rem",
         "Songs": [
             {
                 "Id": 694,
@@ -10992,13 +10992,13 @@
                 "Title": "Lola",
                 "CleanedTitle": "lola",
                 "Album": "Lola Versus Powerman and the Moneygoround, pt.1",
-                "CleanedAlbum": "lola-versus-powerman-and-the-moneygoround-pt-1"
+                "CleanedAlbum": "lola-versus-powerman-and-the-moneygoround-pt1"
             }
         ],
         "Albums": [
             {
                 "Title": "Lola Versus Powerman and the Moneygoround, pt.1",
-                "CleanedTitle": "lola-versus-powerman-and-the-moneygoround-pt-1",
+                "CleanedTitle": "lola-versus-powerman-and-the-moneygoround-pt1",
                 "Year": 1970
             }
         ]
@@ -11306,9 +11306,9 @@
         ],
         "Albums": []
     },
-    "j-j-cale": {
+    "jj-cale": {
         "Artist": "J.J. Cale",
-        "CleanedArtist": "j-j-cale",
+        "CleanedArtist": "jj-cale",
         "Songs": [
             {
                 "Id": 762,

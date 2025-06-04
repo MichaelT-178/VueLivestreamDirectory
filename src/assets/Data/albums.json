@@ -1002,9 +1002,9 @@
             }
         ]
     },
-    "born-in-the-u-s-a": {
+    "born-in-the-usa": {
         "AlbumTitle": "Born In The U.S.A",
-        "CleanedAlbumTitle": "born-in-the-u-s-a",
+        "CleanedAlbumTitle": "born-in-the-usa",
         "Artist": "Bruce Springsteen",
         "CleanedArtist": "bruce-springsteen",
         "Year": 1984,
@@ -3281,16 +3281,16 @@
             }
         ]
     },
-    "l-a-woman": {
+    "la-woman": {
         "AlbumTitle": "L.A. Woman",
-        "CleanedAlbumTitle": "l-a-woman",
+        "CleanedAlbumTitle": "la-woman",
         "Artist": "The Doors",
         "CleanedArtist": "the-doors",
         "Year": 1971,
         "Songs": [
             {
                 "Song": "L.A. Woman",
-                "CleanedSong": "l-a-woman"
+                "CleanedSong": "la-woman"
             },
             {
                 "Song": "Love Her Madly",
@@ -3610,9 +3610,9 @@
             }
         ]
     },
-    "lola-versus-powerman-and-the-moneygoround-pt-1": {
+    "lola-versus-powerman-and-the-moneygoround-pt1": {
         "AlbumTitle": "Lola Versus Powerman and the Moneygoround, pt.1",
-        "CleanedAlbumTitle": "lola-versus-powerman-and-the-moneygoround-pt-1",
+        "CleanedAlbumTitle": "lola-versus-powerman-and-the-moneygoround-pt1",
         "Artist": "The Kinks",
         "CleanedArtist": "the-kinks",
         "Year": 1970,
@@ -4123,9 +4123,9 @@
             }
         ]
     },
-    "o-c-m-s": {
+    "ocms": {
         "AlbumTitle": "O.C.M.S",
-        "CleanedAlbumTitle": "o-c-m-s",
+        "CleanedAlbumTitle": "ocms",
         "Artist": "Old Crow Medicine Show",
         "CleanedArtist": "old-crow-medicine-show",
         "Year": 2004,
@@ -4785,23 +4785,6 @@
             }
         ]
     },
-    "s-c-i-e-n-c-e": {
-        "AlbumTitle": "S.C.I.E.N.C.E",
-        "CleanedAlbumTitle": "s-c-i-e-n-c-e",
-        "Artist": "Incubus",
-        "CleanedArtist": "incubus",
-        "Year": 1997,
-        "Songs": [
-            {
-                "Song": "A Certain Shade of Green",
-                "CleanedSong": "a-certain-shade-of-green"
-            },
-            {
-                "Song": "Glass",
-                "CleanedSong": "glass"
-            }
-        ]
-    },
     "sam-sparro": {
         "AlbumTitle": "Sam Sparro",
         "CleanedAlbumTitle": "sam-sparro",
@@ -4825,6 +4808,23 @@
             {
                 "Song": "I'm Satisfied (Rein Rutnik Performance)",
                 "CleanedSong": "im-satisfied-rein-rutnik-performance"
+            }
+        ]
+    },
+    "science": {
+        "AlbumTitle": "S.C.I.E.N.C.E",
+        "CleanedAlbumTitle": "science",
+        "Artist": "Incubus",
+        "CleanedArtist": "incubus",
+        "Year": 1997,
+        "Songs": [
+            {
+                "Song": "A Certain Shade of Green",
+                "CleanedSong": "a-certain-shade-of-green"
+            },
+            {
+                "Song": "Glass",
+                "CleanedSong": "glass"
             }
         ]
     },
@@ -6532,7 +6532,7 @@
         "Songs": [
             {
                 "Song": "S.R.V (Electric riff)",
-                "CleanedSong": "s-r-v-electric-riff"
+                "CleanedSong": "srv-electric-riff"
             }
         ]
     },
