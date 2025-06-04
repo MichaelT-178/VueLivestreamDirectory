@@ -8931,22 +8931,34 @@
             }
         ]
     },
-    "america": {
-        "Artist": "America",
-        "CleanedArtist": "america",
+    "america-george-martin": {
+        "Artist": "America, George Martin",
+        "CleanedArtist": "america-george-martin",
         "Songs": [
             {
                 "Id": 466,
-                "Title": "Horse With No Name (Partial)",
-                "CleanedTitle": "horse-with-no-name-partial",
+                "Title": "A Horse with No Name (Partial)",
+                "CleanedTitle": "a-horse-with-no-name-partial",
                 "Album": "America",
                 "CleanedAlbum": "america"
+            },
+            {
+                "Id": 804,
+                "Title": "Ventura Highway (Audio Issues)",
+                "CleanedTitle": "ventura-highway-audio-issues",
+                "Album": "Homecoming",
+                "CleanedAlbum": "homecoming"
             }
         ],
         "Albums": [
             {
                 "Title": "America",
                 "CleanedTitle": "america",
+                "Year": 1972
+            },
+            {
+                "Title": "Homecoming",
+                "CleanedTitle": "homecoming",
                 "Year": 1972
             }
         ]
@@ -11593,26 +11605,6 @@
                 "Title": "Dangerous",
                 "CleanedTitle": "dangerous",
                 "Year": 1991
-            }
-        ]
-    },
-    "america-george-martin": {
-        "Artist": "America, George Martin",
-        "CleanedArtist": "america-george-martin",
-        "Songs": [
-            {
-                "Id": 804,
-                "Title": "Venture Highway (Audio Issues)",
-                "CleanedTitle": "venture-highway-audio-issues",
-                "Album": "Homecoming",
-                "CleanedAlbum": "homecoming"
-            }
-        ],
-        "Albums": [
-            {
-                "Title": "Homecoming",
-                "CleanedTitle": "homecoming",
-                "Year": 1972
             }
         ]
     },

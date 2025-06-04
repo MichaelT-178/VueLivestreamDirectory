@@ -1286,8 +1286,8 @@
         },
         {
             "id": 215,
-            "name": "America",
-            "cleanedName": "america",
+            "name": "America, George Martin",
+            "cleanedName": "america-george-martin",
             "Type": "Artist"
         },
         {
@@ -2048,42 +2048,36 @@
         },
         {
             "id": 342,
-            "name": "America, George Martin",
-            "cleanedName": "america-george-martin",
-            "Type": "Artist"
-        },
-        {
-            "id": 343,
             "name": "Janet Jackson",
             "cleanedName": "janet-jackson",
             "Type": "Artist"
         },
         {
-            "id": 344,
+            "id": 343,
             "name": "Kiss",
             "cleanedName": "kiss",
             "Type": "Artist"
         },
         {
-            "id": 345,
+            "id": 344,
             "name": "Nursery Rhyme",
             "cleanedName": "nursery-rhyme",
             "Type": "Artist"
         },
         {
-            "id": 346,
+            "id": 345,
             "name": "Alicia Keys",
             "cleanedName": "alicia-keys",
             "Type": "Artist"
         },
         {
-            "id": 347,
+            "id": 346,
             "name": "Donny Hathaway",
             "cleanedName": "donny-hathaway",
             "Type": "Artist"
         },
         {
-            "id": 348,
+            "id": 347,
             "name": "Bachman-Turner Overdrive",
             "cleanedName": "bachman-turner-overdrive",
             "Type": "Artist"
@@ -8600,15 +8594,15 @@
         },
         {
             "id": 466,
-            "title": "Horse With No Name (Partial)",
-            "cleanedTitle": "horse-with-no-name-partial",
-            "artist": "America",
-            "cleanedArtist": "america",
+            "title": "A Horse with No Name (Partial)",
+            "cleanedTitle": "a-horse-with-no-name-partial",
+            "artist": "America, George Martin",
+            "cleanedArtist": "america-george-martin",
             "album": "America",
             "cleanedAlbum": "america",
             "otherArtists": "",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
-            "search": "",
+            "search": "America  George Martin",
             "CleanedPicture": "america",
             "Type": "Song"
         },
@@ -13332,8 +13326,8 @@
         },
         {
             "id": 804,
-            "title": "Venture Highway (Audio Issues)",
-            "cleanedTitle": "venture-highway-audio-issues",
+            "title": "Ventura Highway (Audio Issues)",
+            "cleanedTitle": "ventura-highway-audio-issues",
             "artist": "America, George Martin",
             "cleanedArtist": "america-george-martin",
             "album": "Homecoming",

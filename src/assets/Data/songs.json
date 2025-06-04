@@ -6509,17 +6509,17 @@
         "Appearances": "Livestream 45,Livestream 102,Livestream 10 (Audio Issues)",
         "Links": "https://youtu.be/L1VngMqyXo4&t=3627 , https://youtu.be/dhxJ9HuV65g&t=8223 , https://youtu.be/watch?v=JOWxGQN4x5Y&t=6880"
     },
-    "horse-with-no-name-partial": {
+    "a-horse-with-no-name-partial": {
         "Id": 466,
-        "Title": "Horse With No Name (Partial)",
-        "CleanedTitle": "horse-with-no-name-partial",
-        "Artist": "America",
-        "CleanedArtist": "america",
+        "Title": "A Horse with No Name (Partial)",
+        "CleanedTitle": "a-horse-with-no-name-partial",
+        "Artist": "America, George Martin",
+        "CleanedArtist": "america-george-martin",
         "Album": "America",
         "CleanedAlbum": "america",
         "Other_Artists": "",
         "Instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
-        "Search": "",
+        "Search": "America  George Martin",
         "Appearances": "Livestream 45 (Partial)",
         "Links": "https://youtu.be/L1VngMqyXo4&t=5007"
     },
@@ -11241,10 +11241,10 @@
         "Appearances": "Livestream 14 (Audio Issues),Livestream 18 (Audio Issues)",
         "Links": "https://youtu.be/watch?v=oGvWPFlm1fM&t=3254 , https://youtu.be/watch?v=JR6OhpR0pU0&t=9412"
     },
-    "venture-highway-audio-issues": {
+    "ventura-highway-audio-issues": {
         "Id": 804,
-        "Title": "Venture Highway (Audio Issues)",
-        "CleanedTitle": "venture-highway-audio-issues",
+        "Title": "Ventura Highway (Audio Issues)",
+        "CleanedTitle": "ventura-highway-audio-issues",
         "Artist": "America, George Martin",
         "CleanedArtist": "america-george-martin",
         "Album": "Homecoming",

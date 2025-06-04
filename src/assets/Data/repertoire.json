@@ -75,6 +75,14 @@
             "CleanedArtist": "incubus"
         },
         {
+            "Song": "A Horse with No Name (Partial)",
+            "CleanedSong": "a-horse-with-no-name-partial",
+            "AlbumTitle": "America",
+            "CleanedAlbumTitle": "america",
+            "Artist": "America, George Martin",
+            "CleanedArtist": "america-george-martin"
+        },
+        {
             "Song": "A Passage To Bangkok (Electric riff)",
             "CleanedSong": "a-passage-to-bangkok-electric-riff",
             "AlbumTitle": "2112",
@@ -2383,14 +2391,6 @@
             "CleanedAlbumTitle": "pink-moon",
             "Artist": "Nick Drake",
             "CleanedArtist": "nick-drake"
-        },
-        {
-            "Song": "Horse With No Name (Partial)",
-            "CleanedSong": "horse-with-no-name-partial",
-            "AlbumTitle": "America",
-            "CleanedAlbumTitle": "america",
-            "Artist": "America",
-            "CleanedArtist": "america"
         },
         {
             "Song": "Hot for Teacher (Partial)",
@@ -6173,8 +6173,8 @@
             "CleanedArtist": "amy-winehouse"
         },
         {
-            "Song": "Venture Highway (Audio Issues)",
-            "CleanedSong": "venture-highway-audio-issues",
+            "Song": "Ventura Highway (Audio Issues)",
+            "CleanedSong": "ventura-highway-audio-issues",
             "AlbumTitle": "Homecoming",
             "CleanedAlbumTitle": "homecoming",
             "Artist": "America, George Martin",
