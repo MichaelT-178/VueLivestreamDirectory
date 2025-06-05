@@ -879,8 +879,8 @@
             "CleanedArtist": "nick-drake"
         },
         {
-            "Song": "Cello Suite No. 1 in G Major BMV 1007 (Prelude)",
-            "CleanedSong": "cello-suite-no-1-in-g-major-bmv-1007-prelude",
+            "Song": "Cello Suite No. 1 in G Major BWV 1007 (Prelude)",
+            "CleanedSong": "cello-suite-no-1-in-g-major-bwv-1007-prelude",
             "AlbumTitle": null,
             "CleanedAlbumTitle": null,
             "Artist": "Johann Sebastian Bach",
@@ -1805,8 +1805,8 @@
             "CleanedArtist": "david-gray"
         },
         {
-            "Song": "Fugue in G Minor, BMV 1000",
-            "CleanedSong": "fugue-in-g-minor-bmv-1000",
+            "Song": "Fugue in G Minor (BWV 1000)",
+            "CleanedSong": "fugue-in-g-minor-bwv-1000",
             "AlbumTitle": null,
             "CleanedAlbumTitle": null,
             "Artist": "Johann Sebastian Bach",
@@ -3146,7 +3146,7 @@
     "L": [
         {
             "Song": "L.A. Woman",
-            "CleanedSong": "l-a-woman",
+            "CleanedSong": "la-woman",
             "AlbumTitle": "L.A. Woman",
             "CleanedAlbumTitle": "la-woman",
             "Artist": "The Doors",
@@ -3430,7 +3430,7 @@
             "AlbumTitle": "Out Of Time",
             "CleanedAlbumTitle": "out-of-time",
             "Artist": "R.E.M",
-            "CleanedArtist": "r-e-m"
+            "CleanedArtist": "rem"
         },
         {
             "Song": "Lost Highway",
@@ -4409,15 +4409,15 @@
             "CleanedArtist": "corey-heuvel"
         },
         {
-            "Song": "Prelude in C Minor (BMV 999) (Audio Issues)",
-            "CleanedSong": "prelude-in-c-minor-bmv-999-audio-issues",
+            "Song": "Prelude in C Minor (BWV 999) (Audio Issues)",
+            "CleanedSong": "prelude-in-c-minor-bwv-999-audio-issues",
             "AlbumTitle": null,
             "CleanedAlbumTitle": null,
             "Artist": "Johann Sebastian Bach",
             "CleanedArtist": "johann-sebastian-bach"
         },
         {
-            "Song": "Prelude in E major BWV 1006a",
+            "Song": "Prelude in E major (BWV 1006a)",
             "CleanedSong": "prelude-in-e-major-bwv-1006a",
             "AlbumTitle": null,
             "CleanedAlbumTitle": null,
@@ -4736,7 +4736,7 @@
     "S": [
         {
             "Song": "S.R.V (Electric riff)",
-            "CleanedSong": "s-r-v-electric-riff",
+            "CleanedSong": "srv-electric-riff",
             "AlbumTitle": "Venus Isle",
             "CleanedAlbumTitle": "venus-isle",
             "Artist": "Eric Johnson",
