@@ -2345,12 +2345,12 @@
             }
         ]
     },
-    "frampton": {
-        "AlbumTitle": "Frampton",
-        "CleanedAlbumTitle": "frampton",
+    "frampton-comes-alive": {
+        "AlbumTitle": "Frampton Comes Alive!",
+        "CleanedAlbumTitle": "frampton-comes-alive",
         "Artist": "Peter Frampton",
         "CleanedArtist": "peter-frampton",
-        "Year": 1975,
+        "Year": 1976,
         "Songs": [
             {
                 "Song": "Baby, I Love Your Way (Partial)",

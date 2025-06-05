@@ -10843,15 +10843,15 @@
                 "Id": 686,
                 "Title": "Baby, I Love Your Way (Partial)",
                 "CleanedTitle": "baby-i-love-your-way-partial",
-                "Album": "Frampton",
-                "CleanedAlbum": "frampton"
+                "Album": "Frampton Comes Alive!",
+                "CleanedAlbum": "frampton-comes-alive"
             }
         ],
         "Albums": [
             {
-                "Title": "Frampton",
-                "CleanedTitle": "frampton",
-                "Year": 1975
+                "Title": "Frampton Comes Alive!",
+                "CleanedTitle": "frampton-comes-alive",
+                "Year": 1976
             }
         ]
     },
