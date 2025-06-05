@@ -10280,14 +10280,14 @@
                 "Id": 604,
                 "Title": "Psycho Killer (Partial)",
                 "CleanedTitle": "psycho-killer-partial",
-                "Album": "Talking Heads",
-                "CleanedAlbum": "talking-heads"
+                "Album": "Talking Heads '77",
+                "CleanedAlbum": "talking-heads-77"
             }
         ],
         "Albums": [
             {
-                "Title": "Talking Heads",
-                "CleanedTitle": "talking-heads",
+                "Title": "Talking Heads '77",
+                "CleanedTitle": "talking-heads-77",
                 "Year": 1977
             }
         ]
