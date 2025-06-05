@@ -13382,15 +13382,15 @@
         },
         {
             "id": 808,
-            "title": "Prelude in C Minor, BMV 999 (Audio Issues)",
+            "title": "Prelude in C Minor (BMV 999) (Audio Issues)",
             "cleanedTitle": "prelude-in-c-minor-bmv-999-audio-issues",
             "artist": "Johann Sebastian Bach",
             "cleanedArtist": "johann-sebastian-bach",
             "album": null,
             "cleanedAlbum": null,
-            "otherArtists": "",
+            "otherArtists": "Billy Strings",
             "instruments": "Acoustic Guitar, (main) - Stonebridge (Furch) OM32SM",
-            "search": "Prelude in C Minor BMV 999",
+            "search": "",
             "CleanedPicture": "johann-sebastian-bach",
             "Type": "Song"
         },
