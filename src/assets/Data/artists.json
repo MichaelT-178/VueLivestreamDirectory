@@ -6582,8 +6582,8 @@
                 "Id": 453,
                 "Title": "Pistol Slapper Blues",
                 "CleanedTitle": "pistol-slapper-blues",
-                "Album": "Rory Gallagher",
-                "CleanedAlbum": "rory-gallagher"
+                "Album": "Live! In Europe",
+                "CleanedAlbum": "live-in-europe"
             },
             {
                 "Id": 462,
@@ -6600,9 +6600,9 @@
                 "Year": 1975
             },
             {
-                "Title": "Rory Gallagher",
-                "CleanedTitle": "rory-gallagher",
-                "Year": 1971
+                "Title": "Live! In Europe",
+                "CleanedTitle": "live-in-europe",
+                "Year": 1972
             },
             {
                 "Title": "Top Priority",
@@ -8757,15 +8757,15 @@
                 "Id": 453,
                 "Title": "Pistol Slapper Blues",
                 "CleanedTitle": "pistol-slapper-blues",
-                "Album": "Rory Gallagher",
-                "CleanedAlbum": "rory-gallagher"
+                "Album": "Live! In Europe",
+                "CleanedAlbum": "live-in-europe"
             }
         ],
         "Albums": [
             {
-                "Title": "Rory Gallagher",
-                "CleanedTitle": "rory-gallagher",
-                "Year": 1971
+                "Title": "Live! In Europe",
+                "CleanedTitle": "live-in-europe",
+                "Year": 1972
             }
         ]
     },

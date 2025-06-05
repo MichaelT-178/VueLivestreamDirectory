@@ -3567,6 +3567,19 @@
             }
         ]
     },
+    "live-in-europe": {
+        "AlbumTitle": "Live! In Europe",
+        "CleanedAlbumTitle": "live-in-europe",
+        "Artist": "Rory Gallagher",
+        "CleanedArtist": "rory-gallagher",
+        "Year": 1972,
+        "Songs": [
+            {
+                "Song": "Pistol Slapper Blues",
+                "CleanedSong": "pistol-slapper-blues"
+            }
+        ]
+    },
     "live-in-london": {
         "AlbumTitle": "Live In London",
         "CleanedAlbumTitle": "live-in-london",
@@ -4726,19 +4739,6 @@
             {
                 "Song": "Why Georgia",
                 "CleanedSong": "why-georgia"
-            }
-        ]
-    },
-    "rory-gallagher": {
-        "AlbumTitle": "Rory Gallagher",
-        "CleanedAlbumTitle": "rory-gallagher",
-        "Artist": "Rory Gallagher",
-        "CleanedArtist": "rory-gallagher",
-        "Year": 1971,
-        "Songs": [
-            {
-                "Song": "Pistol Slapper Blues",
-                "CleanedSong": "pistol-slapper-blues"
             }
         ]
     },
