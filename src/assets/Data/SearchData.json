@@ -452,8 +452,8 @@
         },
         {
             "id": 76,
-            "name": "Red Hays",
-            "cleanedName": "red-hays",
+            "name": "Red Hayes",
+            "cleanedName": "red-hayes",
             "Type": "Artist"
         },
         {
@@ -3630,7 +3630,7 @@
             "cleanedArtist": "jeff-buckley",
             "album": "You and I",
             "cleanedAlbum": "you-and-i",
-            "otherArtists": "Porter Wagoner+ Red Hays",
+            "otherArtists": "Porter Wagoner+ Red Hayes",
             "instruments": "Acoustic Guitar, (MDT) - Maestro Double Top",
             "search": "A Satisfied Mind",
             "CleanedPicture": "you-and-i",

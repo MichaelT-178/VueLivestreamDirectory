@@ -4909,9 +4909,9 @@
             }
         ]
     },
-    "red-hays": {
-        "Artist": "Red Hays",
-        "CleanedArtist": "red-hays",
+    "red-hayes": {
+        "Artist": "Red Hayes",
+        "CleanedArtist": "red-hayes",
         "Songs": [
             {
                 "Id": 111,
