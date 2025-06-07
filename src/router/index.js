@@ -6,7 +6,7 @@ import Home from '../views/Home.vue';
 import ArtistPage from '../views/ArtistPage.vue';
 import SongPage from '../views/SongPage.vue';
 import InstrumentPage from '../views/InstrumentPage.vue';
-
+import AlbumPage from '../views/AlbumPage.vue';
 
 // Card Views
 import ContactDeveloper from '../views/CardViews/ContactDeveloper.vue';
@@ -55,6 +55,12 @@ const routes = [
 		path: '/instrument/:name',
 		name: 'InstrumentPage',
 		component: InstrumentPage,
+		props: true
+	},
+	{
+		path: '/album/:name',
+		name: 'AlbumPage',
+		component: AlbumPage,
 		props: true
 	},
 

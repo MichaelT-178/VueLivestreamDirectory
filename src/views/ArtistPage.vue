@@ -3,7 +3,7 @@
     <h1>{{ artist.Artist }}</h1>
 
     <img 
-      :src="getImagePath(artist.CleanedArtist)" 
+      :src="getArtistImagePath(artist.CleanedArtist)" 
       :alt="artist.Artist" 
       class="artist-image"
     />
@@ -21,9 +21,16 @@
     <div class="albums" v-if="artist.Albums && artist.Albums.length">
       <h2>Albums</h2>
       <ul>
-        <li v-for="album in artist.Albums" :key="album.CleanedTitle">
-          <p><strong>Title:</strong> {{ album.Title }}</p>
-          <p><strong>Year:</strong> {{ album.Year }}</p>
+        <li v-for="album in artist.Albums" :key="album.CleanedTitle" class="album-item">
+          <img 
+            :src="getAlbumImagePath(album.CleanedTitle)" 
+            :alt="album.Title" 
+            class="album-image"
+          />
+          <div class="album-info">
+            <p><strong>Title:</strong> {{ album.Title }}</p>
+            <p><strong>Year:</strong> {{ album.Year }}</p>
+          </div>
         </li>
       </ul>
     </div>
@@ -44,14 +51,17 @@ const props = defineProps({
 
 const artist = computed(() => ArtistData[props.name])
 
-const getImagePath = (cleanedName) => {
+const getArtistImagePath = (cleanedName) => {
   return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href
+}
+
+const getAlbumImagePath = (cleanedTitle) => {
+  return new URL(`../assets/AlbumPics/${cleanedTitle}.jpg`, import.meta.url).href
 }
 
 onMounted(() => {
   window.scrollTo(0, 0)
 })
-
 </script>
 
 <style scoped>
@@ -85,5 +95,21 @@ li {
   padding: 1rem;
   border-left: 4px solid #ccc;
   background-color: #f9f9f9;
+}
+
+.album-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.album-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.album-info {
+  flex: 1;
 }
 </style>
