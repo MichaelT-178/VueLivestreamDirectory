@@ -40,12 +40,16 @@ const routes = [
 		component: Instruments
 	},
 	{
-		path: '/artist',
-		component: ArtistPage
+		path: '/song/:title',
+		name: 'SongPage',
+		component: SongPage,
+		props: true
 	},
 	{
-		path: '/song',
-		component: SongPage
+		path: '/artist/:name',
+		name: 'ArtistPage',
+		component: ArtistPage,
+		props: true
 	},
 	{
 		path: '/instrument/:name',
