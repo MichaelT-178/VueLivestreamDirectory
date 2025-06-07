@@ -14,8 +14,8 @@
 
     <ul v-if="filteredResults.length" class="search-dropdown">
       <li 
-        v-for="(item) in filteredResults" 
-        :key="item.id"
+        v-for="(item, index) in filteredResults.slice(0, 30)" 
+        :key="`${item.id}-${index}`"
         class="search-item"
         @click="navigateTo(item)"
       >

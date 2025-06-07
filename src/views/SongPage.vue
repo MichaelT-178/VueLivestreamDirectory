@@ -9,14 +9,32 @@
     />
 
     <p><strong>Artist:</strong> {{ song.Artist }}</p>
-    <p v-if="song.Album"><strong>Album:</strong> {{ song.Album }}</p>
+
+    <p v-if="song.Album && song.CleanedAlbum">
+      <strong>Album:</strong>
+      <router-link :to="`/album/${song.CleanedAlbum}`">{{ song.Album }}</router-link>
+    </p>
+    <p v-else-if="song.Album">
+      <strong>Album:</strong> {{ song.Album }}
+    </p>
+
     <p v-if="song.Other_Artists"><strong>Other Artists:</strong> {{ song.Other_Artists }}</p>
     <p v-if="song.Instruments"><strong>Instruments:</strong> {{ song.Instruments }}</p>
-    <p v-if="song.Appearances"><strong>Appearances:</strong> {{ song.Appearances }}</p>
-    <p v-if="song.Links">
-      <strong>Link:</strong>
-      <a :href="song.Links" target="_blank" rel="noopener noreferrer">{{ song.Links }}</a>
-    </p>
+
+    <div v-if="AppearancesArray.length && LinksArray.length">
+      <strong>Appearances:</strong>
+      <ul>
+        <li v-for="(appearance, index) in AppearancesArray" :key="index">
+          <a 
+            :href="LinksArray[index]" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            {{ appearance }}
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <div class="page-container" v-else>
@@ -37,19 +55,25 @@ const song = computed(() => SongData[props.title])
 const getImagePath = () => {
   if (!song.value) return ''
 
-  if (song.value.CleanedAlbum)
-  {
+  if (song.value.CleanedAlbum) {
     return new URL(`../assets/AlbumPics/${song.value.CleanedAlbum}.jpg`, import.meta.url).href
   }
 
   return new URL(`../assets/ArtistPics/${song.value.CleanedArtist}.jpg`, import.meta.url).href
 }
 
+const AppearancesArray = computed(() => {
+  return song.value?.Appearances?.split(',').map(item => item.trim()) || []
+})
+
+const LinksArray = computed(() => {
+  return song.value?.Links?.split(' , ').map(item => item.trim()) || []
+})
+
 onMounted(() => {
   window.scrollTo(0, 0)
 })
 </script>
-
 
 <style scoped>
 .page-container {

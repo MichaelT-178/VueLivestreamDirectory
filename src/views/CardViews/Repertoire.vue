@@ -38,13 +38,11 @@ onMounted(() => {
 });
 
 const getImagePath = (song) => {
-  const fileName = song.CleanedAlbumTitle || song.CleanedArtist;
-  
-  try {
-    return new URL(`/src/assets/Albums/${fileName}.jpg`, import.meta.url).href;
-  } catch (e) {
-    return '';
+  if (song.CleanedAlbumTitle) {
+    return new URL(`../../assets/AlbumPics/${song.CleanedAlbumTitle}.jpg`, import.meta.url).href;
   }
+
+  return new URL(`../../assets/ArtistPics/${song.CleanedArtist}.jpg`, import.meta.url).href;
 };
 
 const formatCategory = (category) => {

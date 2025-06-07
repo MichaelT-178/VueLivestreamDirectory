@@ -19,17 +19,21 @@
           loading="lazy"
           @load="handleImageLoad"
         />
-        <h2 @click="goToInstrumentPage(instrument.cleaned)" class="clickable-title">
-          {{ instrument.alias || instrument.name }}
-        </h2>
 
-        <p><strong>Name:</strong> {{ instrument.name }}</p>
-        <p><strong>Key:</strong> {{ instrument.key || '—' }}</p>
-        <p><strong>Appears:</strong> {{ instrument.appears }}</p>
+        <div class="instrument-info">
+          <h2 @click="goToInstrumentPage(instrument.cleaned)" class="clickable-title">
+            {{ instrument.alias || instrument.name }}
+          </h2>
+
+          <p><strong>Name:</strong> {{ instrument.name }}</p>
+          <p><strong>Key:</strong> {{ instrument.key || 'None' }}</p>
+          <p><strong>Appears:</strong> {{ instrument.appears }}</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
 
 
 <script setup>
@@ -37,6 +41,9 @@ import { onMounted } from 'vue';
 import Instruments from "../../assets/Data/instruments.json";
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import { useRouter } from 'vue-router';
+import iconMap from '../../assets/svg/IconMap.js';
+
+const ArrowIcon = iconMap['arrowright'];
 
 const router = useRouter();
 
@@ -73,7 +80,14 @@ onMounted(() => {
   border-radius: 12px;
   padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  text-align: center;
+  text-align: left;
+}
+
+.instrument-card h2 {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  color: #2DD4BF;
+  text-align: left;
 }
 
 .instrument-image {
@@ -81,20 +95,20 @@ onMounted(() => {
   height: 180px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   opacity: 0;
   transition: opacity 0.5s ease-in;
 }
+
+.instrument-info {
+  margin-left: 8px;
+}
+
 
 .instrument-image.loaded {
   opacity: 1;
 }
 
-.instrument-card h2 {
-  font-size: 20px;
-  margin-bottom: 0.5rem;
-  color: #2DD4BF;
-}
 
 .clickable-title {
   cursor: pointer;

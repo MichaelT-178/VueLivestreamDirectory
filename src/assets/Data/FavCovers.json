@@ -88,7 +88,8 @@
             "Artist": "Blind Boy Fuller",
             "Appearance": "Livestream 43",
             "Link": "https://youtu.be/RCraRcpxmDo&t=4559",
-            "AlbumImage": "rory-gallagher"
+            "AlbumImage": "rory-gallagher",
+            "ArtistPic": true
         },
         {
             "id": 12,
@@ -360,7 +361,7 @@
             "Artist": "The Kinks",
             "Appearance": "Livestream 133",
             "Link": "https://youtu.be/9sCm4eY4VKg&t=2874",
-            "AlbumImage": "lola-versus-powerman-and-the-moneygoround-pt-1"
+            "AlbumImage": "lola-versus-powerman-and-the-moneygoround-pt1"
         },
         {
             "id": 46,

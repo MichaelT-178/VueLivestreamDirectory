@@ -13,11 +13,11 @@
         class="square"
       >
         <a :href="cover.Link" target="_blank" rel="noopener noreferrer">
-          <!-- <img
-            :src="getImageUrl(cover.AlbumImage)"
+          <img
+            :src="getImagePath(cover)"
             class="album-img"
             :alt="cover.Song"
-          /> -->
+          />
         </a>
         <p class="song">{{ cover.Song }} by {{ cover.Artist }}</p>
         <p class="appearance">{{ cover.Appearance }}</p>
@@ -35,8 +35,14 @@ onMounted(() => {
   window.scrollTo(0, 0);
 });
 
-const getImageUrl = (albumImage) => {
-  return new URL(`../../assets/albums/${albumImage}.jpg`, import.meta.url).href;
+const getImagePath = (song) => {
+
+  if (!song.ArtistPic) {
+    return new URL(`../../assets/AlbumPics/${song.AlbumImage}.jpg`, import.meta.url).href;
+  }
+
+  return new URL(`../../assets/ArtistPics/${song.AlbumImage}.jpg`, import.meta.url).href;
+
 };
 
 </script>
