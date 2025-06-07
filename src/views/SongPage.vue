@@ -3,7 +3,7 @@
     <h1>{{ song.Title }}</h1>
 
     <img 
-      :src="getImagePath(song.CleanedAlbum)" 
+      :src="getImagePath()" 
       :alt="song.Title" 
       class="song-image"
     />
@@ -34,10 +34,15 @@ const props = defineProps({
 
 const song = computed(() => SongData[props.title])
 
-const getImagePath = (cleanedIdentifier) => {
+const getImagePath = () => {
   if (!song.value) return ''
-  const baseFolder = song.value.ArtistPic ? 'ArtistPics' : 'AlbumPics'
-  return new URL(`../assets/${baseFolder}/${cleanedIdentifier}.jpg`, import.meta.url).href
+
+  if (song.value.CleanedAlbum)
+  {
+    return new URL(`../assets/AlbumPics/${song.value.CleanedAlbum}.jpg`, import.meta.url).href
+  }
+
+  return new URL(`../assets/ArtistPics/${song.value.CleanedArtist}.jpg`, import.meta.url).href
 }
 
 onMounted(() => {

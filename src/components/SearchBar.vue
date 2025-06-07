@@ -23,7 +23,15 @@
           :alt="item.name || item.title" 
           class="search-thumb"
         />
-        <span>{{ item.name || item.title }}</span>
+        <div class="search-text">
+          <span class="search-title">{{ item.name || item.title }}</span>
+          <div class="search-type">
+            {{ item.Type }}
+            <span v-if="item.Type == 'Song'">
+              • {{ item.artist }}
+            </span>
+          </div>
+        </div>
       </li>
     </ul>
   </div>
@@ -138,6 +146,20 @@ const navigateTo = (item) => {
   height: 40px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.search-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-title {
+  font-weight: bold;
+}
+
+.search-type {
+  font-size: 0.85em;
+  color: #666;
 }
 
 @media (max-width: 900px) {
