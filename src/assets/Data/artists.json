@@ -5284,6 +5284,26 @@
             }
         ]
     },
+    "john-scofield": {
+        "Artist": "John Scofield",
+        "CleanedArtist": "john-scofield",
+        "Songs": [
+            {
+                "Id": 132,
+                "Title": "I Don't Need No Doctor",
+                "CleanedTitle": "i-dont-need-no-doctor",
+                "Album": "Where the Light Is: John Mayer Live In Los Angeles",
+                "CleanedAlbum": "where-the-light-is-john-mayer-live-in-los-angeles"
+            }
+        ],
+        "Albums": [
+            {
+                "Title": "Where the Light Is: John Mayer Live In Los Angeles",
+                "CleanedTitle": "where-the-light-is-john-mayer-live-in-los-angeles",
+                "Year": 2008
+            }
+        ]
+    },
     "frank-sinatra": {
         "Artist": "Frank Sinatra",
         "CleanedArtist": "frank-sinatra",
