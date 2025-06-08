@@ -9,7 +9,7 @@
     />
 
     <div class="instrument-info">
-      <h2>{{ instrument.alias || instrument.name }}</h2>
+      <h2>{{ instrument.nameNoKey }}</h2>
       <p><strong>Name:</strong> {{ instrument.name }}</p>
       <p><strong>Key:</strong> {{ instrument.key || 'None' }}</p>
       <p><strong>Appears:</strong> {{ instrument.appears }}</p>
