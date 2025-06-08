@@ -32,8 +32,10 @@
               :alt="cover.Song"
             />
           </a>
-          <p class="song">{{ cover.Song }} by {{ cover.Artist }}</p>
-          <p class="appearance">{{ cover.Appearance }}</p>
+          <div class="text-content">
+            <p class="song">{{ cover.Song }} by {{ cover.Artist }}</p>
+            <p class="appearance">{{ cover.Appearance }}</p>
+          </div>
         </div>
       </div>
     </div>
@@ -100,7 +102,7 @@ const getImagePath = (song) => {
 .search-bar:focus {
   outline: none;
   box-shadow: none;
-  border-color: #f472b6;
+  border-color: #2275d9;
 }
 
 .search-icon {
@@ -143,4 +145,50 @@ const getImagePath = (song) => {
   font-size: 12px;
   color: #ddd;
 }
+
+/* Responsive layout for screens under 400px */
+@media (max-width: 400px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* slight spacing between items, tweak as needed */
+  }
+
+  .square {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 8px;
+  }
+
+  .album-img {
+    width: 65px;
+    height: 65px;
+    margin: 0 10px 0 0;
+    flex-shrink: 0;
+  }
+
+  .text-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-content .song,
+  .text-content .appearance {
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .text-content .song {
+    font-size: 0.95rem;
+    color: #fdfdfd;
+  }
+  
+  .text-content .appearance {
+    margin-top: 0.15rem;
+    font-size: 0.8rem;
+  }
+}
+
 </style>
