@@ -26,6 +26,8 @@
         v-for="song in songs" 
         :key="`${song.Song}-${song.Artist}`"
         class="song-card"
+        @click="goToSongPage(song.CleanedSong)"
+        style="cursor: pointer;"
       >
         <img
           :src="getImagePath(song)"
@@ -46,17 +48,17 @@
 import { computed, ref, onMounted } from 'vue';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import AllData from "../../assets/Data/repertoire.json";
+import { useRouter } from 'vue-router';
 
 const searchQuery = ref('');
 
-onMounted(() => {
-  window.scrollTo(0, 0);
-});
+const router = useRouter();
 
 const getImagePath = (song) => {
   if (song.CleanedAlbumTitle) {
     return new URL(`../../assets/AlbumPics/${song.CleanedAlbumTitle}.jpg`, import.meta.url).href;
   }
+
   return new URL(`../../assets/ArtistPics/${song.CleanedArtist}.jpg`, import.meta.url).href;
 };
 
@@ -64,6 +66,9 @@ const formatCategory = (category) => {
   return /^[A-Z]$/.test(category) ? `${category} Songs` : category;
 };
 
+const goToSongPage = (cleanedTitle) => {
+  router.push({ name: 'SongPage', params: { title: cleanedTitle } });
+};
 
 const filteredData = computed(() => {
   const query = searchQuery.value.toLowerCase();
@@ -87,6 +92,10 @@ const filteredData = computed(() => {
   }
 
   return result;
+});
+
+onMounted(() => {
+  window.scrollTo(0, 0);
 });
 
 </script>
@@ -132,7 +141,6 @@ const filteredData = computed(() => {
   margin: 0.25rem 0;
 }
 
-/* Search bar styling */
 .search-bar-container {
   position: relative;
   max-width: 400px;

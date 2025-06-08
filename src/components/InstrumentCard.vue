@@ -1,5 +1,5 @@
 <template>
-  <div class="instrument-card">
+  <div class="instrument-card" @click="goToInstrumentPage(instrument.cleaned)">
     <img
       :src="imageSrc"
       :alt="instrument.alias || instrument.name"
@@ -9,10 +9,7 @@
     />
 
     <div class="instrument-info">
-      <h2 @click="goToInstrumentPage(instrument.cleaned)" class="clickable-title">
-        {{ instrument.alias || instrument.name }}
-      </h2>
-
+      <h2>{{ instrument.alias || instrument.name }}</h2>
       <p><strong>Name:</strong> {{ instrument.name }}</p>
       <p><strong>Key:</strong> {{ instrument.key || 'None' }}</p>
       <p><strong>Appears:</strong> {{ instrument.appears }}</p>
@@ -24,7 +21,6 @@
 <script setup>
 import { useRouter } from 'vue-router';
 import { ref, watchEffect } from 'vue';
-import { onMounted } from 'vue';
 
 const props = defineProps({
   instrument: Object
@@ -57,6 +53,16 @@ const handleImageLoad = (event) => {
   padding: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   text-align: left;
+  transition: background-color 0.2s;
+}
+
+.instrument-card:hover {
+  cursor: pointer;
+}
+
+.instrument-card:hover h2 {
+  text-decoration: underline;
+  color: #5eead4;
 }
 
 .instrument-card h2 {
@@ -81,18 +87,6 @@ const handleImageLoad = (event) => {
 
 .instrument-info {
   margin-left: 8px;
-}
-
-.clickable-title {
-  cursor: pointer;
-  color: #2DD4BF;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.clickable-title:hover {
-  color: #5eead4;
-  text-decoration: underline;
 }
 
 </style>
