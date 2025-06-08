@@ -1,16 +1,21 @@
 <template>
-  <div class="search-bar-container">
-    <font-awesome-icon icon="search" class="search-icon" />
-    <input 
-      id="search"
-      name="search"
-      class="search-bar"
-      type="text" 
-      v-model="query"
-      placeholder="Search by song, artist, or instrument"
-      @input="filterResults"
-      @keyup.enter="handleEnter"
-    />
+  <div class="search-bar-wrapper">
+    <div 
+      class="search-bar-background"
+      :class="{ 'has-dropdown': filteredResults.length > 0 }"
+    >
+      <font-awesome-icon icon="search" class="search-icon" />
+      <input 
+        id="search"
+        name="search"
+        class="search-bar"
+        type="text" 
+        v-model="query"
+        placeholder="Search by song, artist, or instrument"
+        @input="filterResults"
+        @keyup.enter="handleEnter"
+      />
+    </div>
 
     <ul v-if="filteredResults.length" class="search-dropdown">
       <li 
@@ -56,7 +61,6 @@ const filterResults = () => {
     return;
   }
 
-  // Detect "Song by Artist" format
   let songPart = '';
   let artistPart = '';
 
@@ -65,11 +69,9 @@ const filterResults = () => {
 
   if (isBySearch) {
     const parts = raw.split(" by ");
-
     songPart = parts[0].trim();
     artistPart = parts[1].trim();
   }
-
 
   filteredResults.value = SearchData.SearchData.filter(item => {
     const title = (item.name || item.title || '').toLowerCase();
@@ -80,8 +82,7 @@ const filterResults = () => {
     const cleanedAlbum = (item.cleanedAlbum || '').toLowerCase();
     const searchField = (item.search || '').toLowerCase();
 
-    const byMatch = isBySearch &&
-      title === songPart && artist === artistPart;
+    const byMatch = isBySearch && title === songPart && artist === artistPart;
 
     return (
       title.includes(raw) ||
@@ -106,10 +107,12 @@ const getImagePath = (item) => {
   try {
     if (item.Type === 'Artist') {
       return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
+    
     } else if (item.Type === 'Song' && item.CleanedPicture) {
       const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
       return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
     }
+
   } catch (e) {
     return ''
   }
@@ -119,9 +122,9 @@ const getImagePath = (item) => {
 
 const navigateTo = (item) => {
   if (item.Type === 'Artist') {
-    router.push(`/artist/${item.cleanedName}`)
+    router.push(`/artist/${item.cleanedName}`);
   } else if (item.Type === 'Song') {
-    router.push(`/song/${item.cleanedTitle}`)
+    router.push(`/song/${item.cleanedTitle}`);
   }
 }
 
@@ -129,20 +132,40 @@ const navigateTo = (item) => {
 
 
 <style scoped>
-.search-bar-container {
+.search-bar-wrapper {
   position: relative;
   width: 70%;
   max-width: 700px;
   margin: 0 auto;
 }
 
+.search-bar-background {
+  background-color: transparent;
+  padding: 0px 0.5px 0px 0.5px;
+  position: relative;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+}
+
+.search-bar-background.has-dropdown {
+  background-color: white;
+}
+
 .search-bar {
   width: 100%;
-  padding: 14px 14px 14px 60px;
+  padding: 14px 14px 14px 50px;
   border-radius: 50px;
-  border: 2px solid #444;
+  border: 2px solid white;
   font-size: 20px;
   box-sizing: border-box;
+}
+
+.search-bar-background.has-dropdown .search-bar {
+  border-color: white;
+}
+
+.search-bar:focus {
+  outline: none;
 }
 
 .search-bar::placeholder {
@@ -156,6 +179,8 @@ const navigateTo = (item) => {
   transform: translateY(-50%);
   font-size: 22px;
   color: #707070;
+  /* color: purple; */
+  z-index: 10;
 }
 
 .separator-dot {
@@ -164,18 +189,21 @@ const navigateTo = (item) => {
 
 .search-dropdown {
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: 0;
   right: 0;
-  background: #fff;
+  background: white;
   border: 1px solid #ccc;
-  max-height: 300px;
+  max-height: 350px;
   overflow-y: auto;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   z-index: 10;
   padding: 0;
   list-style: none;
-  margin: 8px 0 0 0;
+  margin: 0;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .search-item {
@@ -213,148 +241,19 @@ const navigateTo = (item) => {
 }
 
 @media (max-width: 900px) {
-  .search-bar-container {
+  .search-bar-wrapper {
     width: 80%;
   }
 }
 
 @media (max-width: 600px) {
-  .search-bar-container {
+  .search-bar-wrapper {
     width: 90%;
   }
 }
 
-@media (max-width: 500px) {
-  .search-bar {
-    font-size: 18px;
-  }
-
-  .search-icon {
-    font-size: 20px;
-  }
-}
-
 @media (max-width: 400px) {
-  .search-bar-container {
-    width: 96%;
-  }
-
-  .search-bar {
-    border-radius: 8px;
-    padding: 13px 14px 13px 15px;
-  }
-
-  .search-icon {
-    display: none;
-  }
-}
-</style>
-
-
-<style scoped>
-.search-bar-container {
-  position: relative;
-  width: 70%;
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.search-bar {
-  width: 100%;
-  padding: 14px 14px 14px 60px;
-  border-radius: 50px;
-  border: 2px solid #444;
-  font-size: 20px;
-  box-sizing: border-box;
-}
-
-.search-bar::placeholder {
-  color: #707070;
-}
-
-.search-icon {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 22px;
-  color: #707070;
-}
-
-.search-dropdown {
-  position: absolute;
-  top: 110%;
-  left: 0;
-  right: 0;
-  background: #fff;
-  border: 1px solid #ccc;
-  max-height: 300px;
-  overflow-y: auto;
-  border-radius: 8px;
-  z-index: 10;
-  padding: 0;
-  list-style: none;
-  margin: 8px 0 0 0;
-}
-
-.search-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 10px;
-  cursor: pointer;
-  border-bottom: 1px solid #eee;
-}
-
-.search-item:hover {
-  background-color: #f0f0f0;
-}
-
-.search-thumb {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.search-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.search-title {
-  font-weight: bold;
-}
-
-.search-type {
-  font-size: 0.85em;
-  color: #666;
-}
-
-@media (max-width: 900px) {
-  .search-bar-container {
-    width: 80%;
-  }
-}
-
-@media (max-width: 600px) {
-  .search-bar-container {
-    width: 90%;
-  }
-}
-
-@media (max-width: 500px) {
-  .search-bar {
-    font-size: 18px;
-  }
-
-  .search-icon {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 400px) {
-  .search-bar-container {
+  .search-bar-wrapper {
     width: 96%;
   }
 
