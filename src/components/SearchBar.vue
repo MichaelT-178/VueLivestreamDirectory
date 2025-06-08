@@ -43,7 +43,6 @@
   </div>
 </template>
 
-
 <script setup>
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
@@ -107,17 +106,14 @@ const getImagePath = (item) => {
   try {
     if (item.Type === 'Artist') {
       return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
-    
     } else if (item.Type === 'Song' && item.CleanedPicture) {
       const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
       return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
     }
-
   } catch (e) {
-    return ''
+    return '';
   }
-
-  return ''
+  return '';
 }
 
 const navigateTo = (item) => {
@@ -127,9 +123,7 @@ const navigateTo = (item) => {
     router.push(`/song/${item.cleanedTitle}`);
   }
 }
-
 </script>
-
 
 <style scoped>
 .search-bar-wrapper {
@@ -179,7 +173,6 @@ const navigateTo = (item) => {
   transform: translateY(-50%);
   font-size: 22px;
   color: #707070;
-  /* color: purple; */
   z-index: 10;
 }
 
@@ -194,16 +187,14 @@ const navigateTo = (item) => {
   right: 0;
   background: white;
   border: 1px solid #ccc;
-  max-height: 350px;
+  max-height: calc(6 * 60px + 1px); /* 6 items tall */
   overflow-y: auto;
-  /* border-radius: 8px; */
   z-index: 10;
   padding: 0;
   list-style: none;
   margin: 0;
-
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
 }
 
 .search-item {
@@ -211,6 +202,8 @@ const navigateTo = (item) => {
   align-items: center;
   gap: 12px;
   padding: 10px;
+  height: 60px;
+  box-sizing: border-box;
   cursor: pointer;
   border-bottom: 1px solid #eee;
 }
@@ -224,6 +217,7 @@ const navigateTo = (item) => {
   height: 40px;
   object-fit: cover;
   border-radius: 4px;
+  margin-left: 5px;
 }
 
 .search-text {
@@ -239,6 +233,7 @@ const navigateTo = (item) => {
   font-size: 0.85em;
   color: #666;
 }
+
 
 @media (max-width: 900px) {
   .search-bar-wrapper {
