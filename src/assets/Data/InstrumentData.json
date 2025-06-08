@@ -37218,1511 +37218,6 @@
             }
         ]
     },
-    "classical-guitar": {
-        "instrument": "Asturias Standard S",
-        "pic": "classical-guitar.jpg",
-        "numOfAppearances": 29,
-        "appearances": [
-            {
-                "id": 2074,
-                "songTitle": "Rupert Street",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/_2P_9tCWQts&t=0"
-            },
-            {
-                "id": 2075,
-                "songTitle": "Rupert Street",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 63",
-                "link": "https://youtu.be/bCz3cavBkog&t=6475"
-            },
-            {
-                "id": 2077,
-                "songTitle": "Study in C Major",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/c6CIczDJ7zQ&t=0"
-            },
-            {
-                "id": 2078,
-                "songTitle": "Study in A Major",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/RjBRFnEDpTg&t=0"
-            },
-            {
-                "id": 2079,
-                "songTitle": "Study in D Major",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/VkimnJDpctY&t=0"
-            },
-            {
-                "id": 2080,
-                "songTitle": "Study in D Major",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/wIWCbmuc9Vc&t=0"
-            },
-            {
-                "id": 2081,
-                "songTitle": "Capricho Árabe",
-                "artist": "Francisco Tárrega",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/Op6mWZpHH6M&t=0"
-            },
-            {
-                "id": 2082,
-                "songTitle": "Capricho Árabe",
-                "artist": "Francisco Tárrega",
-                "livestream": "Livestream 58",
-                "link": "https://youtu.be/Q4p-jIfkQpM&t=6961"
-            },
-            {
-                "id": 2126,
-                "songTitle": "Etude op. 60, no. 7",
-                "artist": "Matteo Carcassi",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/Ei4-ArDl0ok&t=0"
-            },
-            {
-                "id": 2751,
-                "songTitle": "Tears in Heaven",
-                "artist": "Eric Clapton",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/FSJi31iljws&t=0"
-            },
-            {
-                "id": 3772,
-                "songTitle": "Study No. 6 in D",
-                "artist": "Fernando Sor",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=mT_uy6P8CQk&t=6"
-            },
-            {
-                "id": 4842,
-                "songTitle": "Prelude in E Major (BWV 1006a)",
-                "artist": "Johann Sebastian Bach",
-                "livestream": "Livestream 43",
-                "link": "https://youtu.be/RCraRcpxmDo&t=5742"
-            },
-            {
-                "id": 5002,
-                "songTitle": "Study in B-Minor",
-                "artist": "Fernando Sor",
-                "livestream": "Livestream 47",
-                "link": "https://youtu.be/biTNdO9Z6Y8&t=4544"
-            },
-            {
-                "id": 5003,
-                "songTitle": "Study in B-Minor",
-                "artist": "Fernando Sor",
-                "livestream": "Livestream 16 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=H_j-P2w0QaA&t=5249"
-            },
-            {
-                "id": 5004,
-                "songTitle": "Lágrima",
-                "artist": "Francisco Tárrega",
-                "livestream": "Livestream 47",
-                "link": "https://youtu.be/biTNdO9Z6Y8&t=4671"
-            },
-            {
-                "id": 5006,
-                "songTitle": "Lágrima",
-                "artist": "Francisco Tárrega",
-                "livestream": "Livestream 74",
-                "link": "https://youtu.be/WQ8mpI5z7z4&t=6475"
-            },
-            {
-                "id": 5007,
-                "songTitle": "Lágrima",
-                "artist": "Francisco Tárrega",
-                "livestream": "Livestream 96",
-                "link": "https://youtu.be/HTJSoHhm7aY&t=8616"
-            },
-            {
-                "id": 5245,
-                "songTitle": "Classical Gas",
-                "artist": "Mason Williams",
-                "livestream": "Livestream 55",
-                "link": "https://youtu.be/LuQ78Y2Fiwo&t=4172"
-            },
-            {
-                "id": 5270,
-                "songTitle": "Cello Suite No. 1 in G Major BWV 1007 (Prelude)",
-                "artist": "Johann Sebastian Bach",
-                "livestream": "Livestream 57",
-                "link": "https://youtu.be/MhNKFJxwK8g&t=6501"
-            },
-            {
-                "id": 5272,
-                "songTitle": "Julia Florida (Barcarola)",
-                "artist": "Agustín Barrios Mangoré",
-                "livestream": "Livestream 57",
-                "link": "https://youtu.be/MhNKFJxwK8g&t=6660"
-            },
-            {
-                "id": 5433,
-                "songTitle": "Spanish Romance (Romanza)",
-                "artist": "Unknown",
-                "livestream": "Livestream 74",
-                "link": "https://youtu.be/WQ8mpI5z7z4&t=6369"
-            },
-            {
-                "id": 5532,
-                "songTitle": "Adelita",
-                "artist": "Francisco Tárrega",
-                "livestream": "Livestream 96",
-                "link": "https://youtu.be/HTJSoHhm7aY&t=8737"
-            },
-            {
-                "id": 5534,
-                "songTitle": "Adelita",
-                "artist": "Francisco Tárrega",
-                "livestream": "Livestream 4 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=nCRWhvGFWUE&t=10204"
-            },
-            {
-                "id": 5535,
-                "songTitle": "Pavana",
-                "artist": "Francisco Tárrega",
-                "livestream": "Livestream 96",
-                "link": "https://youtu.be/HTJSoHhm7aY&t=8833"
-            },
-            {
-                "id": 5619,
-                "songTitle": "Bouree In E Minor",
-                "artist": "Johann Sebastian Bach",
-                "livestream": "Livestream 16 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=H_j-P2w0QaA&t=5137"
-            },
-            {
-                "id": 5708,
-                "songTitle": "Teardrop",
-                "artist": "Massive Attack",
-                "livestream": "Livestream 150",
-                "link": "https://youtu.be/GpaZbjokFec?feature=share&t=5906"
-            },
-            {
-                "id": 5710,
-                "songTitle": "Echo",
-                "artist": "Incubus",
-                "livestream": "Livestream 151",
-                "link": "https://youtu.be/FHa2vjbViJo?feature=share&t=3888"
-            },
-            {
-                "id": 5714,
-                "songTitle": "Fugue in G Minor (BWV 1000)",
-                "artist": "Johann Sebastian Bach",
-                "livestream": "Livestream 161",
-                "link": "https://youtu.be/Mm_r2XHf7kw?feature=share&t=6046"
-            },
-            {
-                "id": 5740,
-                "songTitle": "Claire De Lune",
-                "artist": "Claude Debussy",
-                "livestream": "Livestream 4 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=nCRWhvGFWUE&t=10321"
-            }
-        ]
-    },
-    "12-string-guitar": {
-        "instrument": "12-String Guitar",
-        "pic": "12-string-guitar.jpg",
-        "numOfAppearances": 3,
-        "appearances": [
-            {
-                "id": 1791,
-                "songTitle": "Life by the Drop",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/RNOrBaCku98&t=0"
-            },
-            {
-                "id": 5041,
-                "songTitle": "More Than a Feeling",
-                "artist": "Boston",
-                "livestream": "Livestream 117 (Partial)",
-                "link": "https://youtu.be/h_KbDQybQmE&t=4416"
-            },
-            {
-                "id": 5613,
-                "songTitle": "Out of Tune 12-String for Jim",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 117",
-                "link": "https://youtu.be/h_KbDQybQmE&t=4445"
-            }
-        ]
-    },
-    "mandolin": {
-        "instrument": "Mandolin",
-        "pic": "mandolin.jpg",
-        "numOfAppearances": 12,
-        "appearances": [
-            {
-                "id": 296,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/HPIWDTzOgEY&t=0"
-            },
-            {
-                "id": 297,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Livestream 25",
-                "link": "https://youtu.be/RipA8bRdIbI&t=6178"
-            },
-            {
-                "id": 298,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Livestream 31",
-                "link": "https://youtu.be/mH3c9W8vKbc&t=3307"
-            },
-            {
-                "id": 299,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=6389"
-            },
-            {
-                "id": 300,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Livestream 63",
-                "link": "https://youtu.be/bCz3cavBkog&t=6869"
-            },
-            {
-                "id": 301,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Livestream 120",
-                "link": "https://youtu.be/HJpwaG3PP3E&t=4682"
-            },
-            {
-                "id": 302,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Livestream 150",
-                "link": "https://youtu.be/GpaZbjokFec?feature=share&t=6975"
-            },
-            {
-                "id": 303,
-                "songTitle": "Rise",
-                "artist": "Eddie Vedder",
-                "livestream": "Livestream 161",
-                "link": "https://youtu.be/Mm_r2XHf7kw?feature=share&t=5339"
-            },
-            {
-                "id": 4211,
-                "songTitle": "Mandolin improv",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 28",
-                "link": "https://youtu.be/8yEnflFWoIU&t=1618"
-            },
-            {
-                "id": 4471,
-                "songTitle": "The Battle of Evermore",
-                "artist": "Led Zeppelin",
-                "livestream": "Livestream 31 (Partial)",
-                "link": "https://youtu.be/mH3c9W8vKbc&t=3493"
-            },
-            {
-                "id": 5637,
-                "songTitle": "Losing My Religion",
-                "artist": "R.E.M",
-                "livestream": "Livestream 127",
-                "link": "https://youtu.be/goEx4wnnaQw&t=8415"
-            },
-            {
-                "id": 5638,
-                "songTitle": "Losing My Religion",
-                "artist": "R.E.M",
-                "livestream": "Livestream 22 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=twwoDRDMthg&t=4345"
-            }
-        ]
-    },
-    "harmonica": {
-        "instrument": "Harmonica",
-        "pic": "harmonica.jpg",
-        "numOfAppearances": 12,
-        "appearances": [
-            {
-                "id": 1880,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 56",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1946"
-            },
-            {
-                "id": 1899,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5904"
-            },
-            {
-                "id": 3864,
-                "songTitle": "Dear Mr. Fantasy",
-                "artist": "Traffic",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5462"
-            },
-            {
-                "id": 5259,
-                "songTitle": "Nobody Knows You When You're Down and Out",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 56",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=446"
-            },
-            {
-                "id": 5260,
-                "songTitle": "Sleepy Afternoon",
-                "artist": "Rein Rutnik",
-                "livestream": "Livestream 56",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=780"
-            },
-            {
-                "id": 5261,
-                "songTitle": "Big Bad Bill (Is Sweet William Now)",
-                "artist": "Van Halen",
-                "livestream": "Livestream 56",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1059"
-            },
-            {
-                "id": 5262,
-                "songTitle": "I'm Satisfied",
-                "artist": "Mississippi John Hurt",
-                "livestream": "Livestream 56",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1299"
-            },
-            {
-                "id": 5263,
-                "songTitle": "Fox Chase & Lost John",
-                "artist": "Joe Filisko",
-                "livestream": "Livestream 56",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1572"
-            },
-            {
-                "id": 5521,
-                "songTitle": "Rollin' and Tumblin'",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 3 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4592"
-            },
-            {
-                "id": 5522,
-                "songTitle": "Rollin' and Tumblin'",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5178"
-            },
-            {
-                "id": 5736,
-                "songTitle": "Crossing Over/Tree of Life",
-                "artist": "Grant Dermody",
-                "livestream": "Livestream 3 (Audio Issues/Medley)",
-                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4309"
-            },
-            {
-                "id": 5782,
-                "songTitle": "Ice Water Blues",
-                "artist": "Deford Bailey",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5762"
-            }
-        ]
-    },
-    "blues-slide": {
-        "instrument": "Blues Slide",
-        "pic": "blues-slide.jpg",
-        "numOfAppearances": 3,
-        "appearances": [
-            {
-                "id": 4438,
-                "songTitle": "Phone Call from Leavenworth",
-                "artist": "Chris Whitley",
-                "livestream": "Livestream 136",
-                "link": "https://youtu.be/dWIijDnVkho&t=1667"
-            },
-            {
-                "id": 4853,
-                "songTitle": "Blues Slide Improv",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=3766"
-            },
-            {
-                "id": 5032,
-                "songTitle": "Bad To The Bone",
-                "artist": "George Thorogood & The Destroyers",
-                "livestream": "Livestream 47",
-                "link": "https://youtu.be/biTNdO9Z6Y8&t=8573"
-            }
-        ]
-    },
-    "brickhouse-demo": {
-        "instrument": "(BH) - Brickhouse Demo",
-        "pic": "brickhouse-demo.jpg",
-        "numOfAppearances": 30,
-        "appearances": [
-            {
-                "id": 2397,
-                "songTitle": "You and Me",
-                "artist": "Neil Young",
-                "livestream": "Solo Video (Instrumental)",
-                "link": "https://youtu.be/watch?v=gH-hi4TsFjA&t=0"
-            },
-            {
-                "id": 3738,
-                "songTitle": "Kaijie",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=4bCTEUKdQUo&t=0"
-            },
-            {
-                "id": 3748,
-                "songTitle": "Furch OOM Vintage 1",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=gH-hi4TsFjA&t=0"
-            },
-            {
-                "id": 3749,
-                "songTitle": "Godin Progression Plus Cherry Burst RN",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=R8qrTo2g6LE&t=5"
-            },
-            {
-                "id": 3750,
-                "songTitle": "Godin Stadium '59 Desert Green RN demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=eErXYQKZh4U&t=5"
-            },
-            {
-                "id": 3751,
-                "songTitle": "Godin 5th Ave Uptown GT LTD Trans Cream",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=K6RyCMow7Xc&t=6"
-            },
-            {
-                "id": 3752,
-                "songTitle": "Martin vs. Furch vs. Boucher | High-End Guitar Comparison",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=9_puIWsSEs0&t=46"
-            },
-            {
-                "id": 3759,
-                "songTitle": "Furch Blue D-CM demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=_WcQbI1CTjw&t=6"
-            },
-            {
-                "id": 3760,
-                "songTitle": "Boucher SG-52-I demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=W3fIfsbxoA8&t=7"
-            },
-            {
-                "id": 3761,
-                "songTitle": "Godin Rialto JR Satina Gray HG Q-Discrete",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=o5x9v-YJtGE&t=6"
-            },
-            {
-                "id": 3762,
-                "songTitle": "Godin Metropolis Natural Cedar EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=g3Ylz2FQ7jQ&t=5"
-            },
-            {
-                "id": 3763,
-                "songTitle": "Godin Metropolis LTD Natural HG EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=B2bSZCP_4UM&t=6"
-            },
-            {
-                "id": 3764,
-                "songTitle": "Godin Metropolis LTD Havana Burst HG EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=cd2X99V2eGE&t=6"
-            },
-            {
-                "id": 3765,
-                "songTitle": "Godin Fairmount Concert Hall Natural HG EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=k3K5yNcJ1lQ&t=3"
-            },
-            {
-                "id": 3766,
-                "songTitle": "Boucher HG-56 acoustic guitar demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=lwphFw4_hcg&t=6"
-            },
-            {
-                "id": 3767,
-                "songTitle": "Furch OM22TSW-C-DB SGI",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=Ei5RItxEq9E&t=289"
-            },
-            {
-                "id": 3768,
-                "songTitle": "Furch G25CR-C",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=IgnCuRKlP5o&t=77"
-            },
-            {
-                "id": 3769,
-                "songTitle": "Furch *SGI* D22TSR",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=d_8bqZ5wBUI&t=122"
-            },
-            {
-                "id": 3770,
-                "songTitle": "Furch OM34TSR-DB B2",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=v73zN2V5Rhw&t=129"
-            },
-            {
-                "id": 3771,
-                "songTitle": "La Patrie Etude",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=mT_uy6P8CQk&t=6"
-            },
-            {
-                "id": 3773,
-                "songTitle": "Breedlove Discovery Concert CE",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=ishutnt_64o&t=6"
-            },
-            {
-                "id": 3774,
-                "songTitle": "Stonebridge OM35ASR-DB",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=1xUnFelTIIk&t=134"
-            },
-            {
-                "id": 3775,
-                "songTitle": "Norman ST40 Parlor Burnt Umber",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=D9DKuTAIz9Y&t=75"
-            },
-            {
-                "id": 3776,
-                "songTitle": "Norman B15 Dark Almond",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=gFQGuitnugY&t=70"
-            },
-            {
-                "id": 3777,
-                "songTitle": "Norman ST68",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=yC1VcScR93U&t=67"
-            },
-            {
-                "id": 3778,
-                "songTitle": "Norman B20 Burnt Umber",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=7V3E_Yc28BY&t=63"
-            },
-            {
-                "id": 3779,
-                "songTitle": "Norman ST40 CW GT Presys",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=4FuSiImdfl8&t=78"
-            },
-            {
-                "id": 3780,
-                "songTitle": "Norman ST68 CW",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=HjttyGWp630&t=89"
-            },
-            {
-                "id": 3781,
-                "songTitle": "Stonebridge D22SR",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=QyBV1PpvcHc&t=65"
-            },
-            {
-                "id": 3782,
-                "songTitle": "Godin Passion RG-3 Indigo Burst RN",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/mG_ZcHn5-vo?si=yxqdfRckULJMvYB8&t=5"
-            }
-        ]
-    },
-    "furch-blue-gc-sa": {
-        "instrument": "(FBG) - Furch Blue Gc-SA",
-        "pic": "furch-blue-gc-sa.jpg",
-        "numOfAppearances": 4,
-        "appearances": [
-            {
-                "id": 1404,
-                "songTitle": "Until the End",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 46",
-                "link": "https://youtu.be/UvL7GFjtrj0&t=8355"
-            },
-            {
-                "id": 1781,
-                "songTitle": "Kiss from a Rose",
-                "artist": "Seal",
-                "livestream": "Livestream 46",
-                "link": "https://youtu.be/UvL7GFjtrj0&t=3295"
-            },
-            {
-                "id": 1992,
-                "songTitle": "Doin' Time",
-                "artist": "Sublime",
-                "livestream": "Livestream 46",
-                "link": "https://youtu.be/UvL7GFjtrj0&t=430"
-            },
-            {
-                "id": 3332,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 46",
-                "link": "https://youtu.be/UvL7GFjtrj0&t=1010"
-            }
-        ]
-    },
-    "martin-dx1r": {
-        "instrument": "(DX1R) - Martin DX1R",
-        "pic": "martin-dx1r.jpg",
-        "numOfAppearances": 57,
-        "appearances": [
-            {
-                "id": 447,
-                "songTitle": "Three Hours",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 84",
-                "link": "https://youtu.be/GqfNqQlrL8A&t=5763"
-            },
-            {
-                "id": 1005,
-                "songTitle": "Ohio",
-                "artist": "Crosby, Stills, Nash & Young",
-                "livestream": "Livestream 149",
-                "link": "https://youtu.be/CqHIgye4I8s?feature=share&t=5369"
-            },
-            {
-                "id": 1006,
-                "songTitle": "Ohio",
-                "artist": "Crosby, Stills, Nash & Young",
-                "livestream": "Livestream 161",
-                "link": "https://youtu.be/Mm_r2XHf7kw?feature=share&t=7367"
-            },
-            {
-                "id": 1784,
-                "songTitle": "Kiss from a Rose",
-                "artist": "Seal",
-                "livestream": "Livestream 139",
-                "link": "https://youtu.be/Lpcd7ALm6r4&t=6713"
-            },
-            {
-                "id": 2791,
-                "songTitle": "Over the Hills and Far Away",
-                "artist": "Led Zeppelin",
-                "livestream": "Livestream 42",
-                "link": "https://youtu.be/T6ydeqXOIvk&t=1104"
-            },
-            {
-                "id": 2945,
-                "songTitle": "Down by the River",
-                "artist": "Neil Young",
-                "livestream": "Livestream 156",
-                "link": "https://youtu.be/r4JaTRrhap8?feature=share&t=6134"
-            },
-            {
-                "id": 2985,
-                "songTitle": "My Favorite Obsession",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 137",
-                "link": "https://youtu.be/yN7gKYOObcE&t=2780"
-            },
-            {
-                "id": 3361,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 128",
-                "link": "https://youtu.be/bEBVkT9SWFY&t=10246"
-            },
-            {
-                "id": 3362,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 130",
-                "link": "https://youtu.be/Qh8m_ldN2zw&t=6735"
-            },
-            {
-                "id": 3363,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 136",
-                "link": "https://youtu.be/dWIijDnVkho&t=6983"
-            },
-            {
-                "id": 3368,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 148",
-                "link": "https://youtu.be/ARCgeQF6tRg&t=9415"
-            },
-            {
-                "id": 3369,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 152",
-                "link": "https://youtu.be/s-v4qoUK0tU?feature=share&t=8175"
-            },
-            {
-                "id": 3370,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 155",
-                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=9117"
-            },
-            {
-                "id": 3371,
-                "songTitle": "Into Light",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 159",
-                "link": "https://youtu.be/BvCyN3QU46c?feature=share&t=8772"
-            },
-            {
-                "id": 3428,
-                "songTitle": "Flowers Field",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 137",
-                "link": "https://youtu.be/yN7gKYOObcE&t=8262"
-            },
-            {
-                "id": 3503,
-                "songTitle": "Pink Moon",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 74",
-                "link": "https://youtu.be/WQ8mpI5z7z4&t=7275"
-            },
-            {
-                "id": 3504,
-                "songTitle": "Pink Moon",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 75",
-                "link": "https://youtu.be/uLKs6770MzM&t=4465"
-            },
-            {
-                "id": 3505,
-                "songTitle": "Pink Moon",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 81",
-                "link": "https://youtu.be/0vseNNLzOWY&t=8700"
-            },
-            {
-                "id": 3506,
-                "songTitle": "Pink Moon",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 126",
-                "link": "https://youtu.be/ebv-JlkIPUY&t=1905"
-            },
-            {
-                "id": 3507,
-                "songTitle": "Pink Moon",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 164",
-                "link": "https://youtu.be/c1H63fb1AJs?feature=share&t=5984"
-            },
-            {
-                "id": 3511,
-                "songTitle": "Place To Be",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 81",
-                "link": "https://youtu.be/0vseNNLzOWY&t=8824"
-            },
-            {
-                "id": 3517,
-                "songTitle": "Which Will",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 141",
-                "link": "https://youtu.be/9RNVOwRTSwc&t=6446"
-            },
-            {
-                "id": 3530,
-                "songTitle": "From The Morning",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 79",
-                "link": "https://youtu.be/9-UHTEmE9UU&t=9444"
-            },
-            {
-                "id": 3558,
-                "songTitle": "Pray for the Moon",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 114",
-                "link": "https://youtu.be/KoChozPGk7c&t=3850"
-            },
-            {
-                "id": 3683,
-                "songTitle": "On My Skin",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 75",
-                "link": "https://youtu.be/uLKs6770MzM&t=1085"
-            },
-            {
-                "id": 3685,
-                "songTitle": "On My Skin",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 163",
-                "link": "https://youtu.be/KACYxeAmdCs?feature=share&t=646"
-            },
-            {
-                "id": 3826,
-                "songTitle": "Nobody's Fault But My Own",
-                "artist": "Beck",
-                "livestream": "Solo Video (LS 116 Clip)",
-                "link": "https://youtu.be/ys2PGLbUSHk?si=lH6gUTS9t8hJY7Pp&t=0"
-            },
-            {
-                "id": 3827,
-                "songTitle": "Nobody's Fault But My Own",
-                "artist": "Beck",
-                "livestream": "Livestream 116",
-                "link": "https://youtu.be/7Yc3utlluNc&t=7509"
-            },
-            {
-                "id": 3828,
-                "songTitle": "Nobody's Fault But My Own",
-                "artist": "Beck",
-                "livestream": "Livestream 128",
-                "link": "https://youtu.be/bEBVkT9SWFY&t=3065"
-            },
-            {
-                "id": 3829,
-                "songTitle": "Nobody's Fault But My Own",
-                "artist": "Beck",
-                "livestream": "Livestream 130",
-                "link": "https://youtu.be/Qh8m_ldN2zw&t=5956"
-            },
-            {
-                "id": 3830,
-                "songTitle": "Nobody's Fault But My Own",
-                "artist": "Beck",
-                "livestream": "Livestream 154",
-                "link": "https://youtu.be/QLLYLiTUyDY?feature=share&t=5669"
-            },
-            {
-                "id": 3886,
-                "songTitle": "Ballad Of Big Nothing",
-                "artist": "Elliott Smith",
-                "livestream": "Solo Video (LS 151 Clip)",
-                "link": "https://youtu.be/6vk5LV8i_qI?si=rHhXZXYyoPf4fuZ1&t=0"
-            },
-            {
-                "id": 3887,
-                "songTitle": "Ballad Of Big Nothing",
-                "artist": "Elliott Smith",
-                "livestream": "Livestream 151",
-                "link": "https://youtu.be/FHa2vjbViJo?feature=share&t=1878"
-            },
-            {
-                "id": 3940,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Solo Video (LS 132 Clip)",
-                "link": "https://youtu.be/Y7OrdcHfoqY?si=_mmTNG4hutlG3_H7&t=0"
-            },
-            {
-                "id": 3943,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 52",
-                "link": "https://youtu.be/9mwYBbDX0dY&t=4479"
-            },
-            {
-                "id": 3944,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 62",
-                "link": "https://youtu.be/xMTVh9YaaVc&t=5363"
-            },
-            {
-                "id": 3945,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 64",
-                "link": "https://youtu.be/Qih3Nx18Yas&t=2893"
-            },
-            {
-                "id": 3946,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 80",
-                "link": "https://youtu.be/x048oootisY&t=7616"
-            },
-            {
-                "id": 3947,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 91",
-                "link": "https://youtu.be/yiFNZvisSQw&t=4365"
-            },
-            {
-                "id": 3948,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 132",
-                "link": "https://youtu.be/HdqJmfuPKyM&t=2576"
-            },
-            {
-                "id": 3949,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 148",
-                "link": "https://youtu.be/ARCgeQF6tRg&t=3962"
-            },
-            {
-                "id": 3950,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 150",
-                "link": "https://youtu.be/GpaZbjokFec?feature=share&t=7229"
-            },
-            {
-                "id": 3951,
-                "songTitle": "Don't Let It Bring You Down",
-                "artist": "Neil Young",
-                "livestream": "Livestream 153",
-                "link": "https://youtu.be/jomOdvKXNa4?feature=share&t=7141"
-            },
-            {
-                "id": 4012,
-                "songTitle": "Helpless",
-                "artist": "Neil Young",
-                "livestream": "Livestream 155",
-                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=7032"
-            },
-            {
-                "id": 4034,
-                "songTitle": "Going to California",
-                "artist": "Led Zeppelin",
-                "livestream": "Livestream 42",
-                "link": "https://youtu.be/T6ydeqXOIvk&t=6243"
-            },
-            {
-                "id": 4548,
-                "songTitle": "Hazey Jane I",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 75",
-                "link": "https://youtu.be/uLKs6770MzM&t=4588"
-            },
-            {
-                "id": 4549,
-                "songTitle": "Hazey Jane I",
-                "artist": "Nick Drake",
-                "livestream": "Livestream 90",
-                "link": "https://youtu.be/S0H-UbV9G48&t=9223"
-            },
-            {
-                "id": 4555,
-                "songTitle": "Tell Me Why",
-                "artist": "Neil Young",
-                "livestream": "Livestream 113",
-                "link": "https://youtu.be/YAxlXf4Ftt0&t=3365"
-            },
-            {
-                "id": 4556,
-                "songTitle": "Tell Me Why",
-                "artist": "Neil Young",
-                "livestream": "Livestream 135",
-                "link": "https://youtu.be/ShAGixH0AfU&t=5399"
-            },
-            {
-                "id": 4557,
-                "songTitle": "Tell Me Why",
-                "artist": "Neil Young",
-                "livestream": "Livestream 158",
-                "link": "https://youtu.be/2xkUDe5ZndE?feature=share&t=7611"
-            },
-            {
-                "id": 4671,
-                "songTitle": "My My, Hey Hey (Out of the Blue)",
-                "artist": "Neil Young",
-                "livestream": "Livestream 159",
-                "link": "https://youtu.be/BvCyN3QU46c?feature=share&t=6716"
-            },
-            {
-                "id": 5249,
-                "songTitle": "Between the Bars",
-                "artist": "Elliott Smith",
-                "livestream": "Livestream 155",
-                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=5042"
-            },
-            {
-                "id": 5329,
-                "songTitle": "Burn One Down",
-                "artist": "Ben Harper",
-                "livestream": "Livestream 159",
-                "link": "https://youtu.be/BvCyN3QU46c?feature=share&t=3921"
-            },
-            {
-                "id": 5509,
-                "songTitle": "In Your Atmosphere",
-                "artist": "John Mayer",
-                "livestream": "Livestream 89",
-                "link": "https://youtu.be/j9CL1ydfDSI&t=7980"
-            },
-            {
-                "id": 5530,
-                "songTitle": "Sugar Mountain",
-                "artist": "Neil Young",
-                "livestream": "Livestream 95 (Audio Issues)",
-                "link": "https://youtu.be/y83VDXWJbQE&t=8818"
-            },
-            {
-                "id": 5655,
-                "songTitle": "To Be With You",
-                "artist": "Mr. Big",
-                "livestream": "Livestream 155",
-                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=8232"
-            },
-            {
-                "id": 5669,
-                "songTitle": "Inspector Gadget Theme",
-                "artist": "Shuki Levy",
-                "livestream": "Livestream 135",
-                "link": "https://youtu.be/ShAGixH0AfU&t=5337"
-            }
-        ]
-    },
-    "maestro-double-top": {
-        "instrument": "(MDT) - Maestro Double Top",
-        "pic": "maestro-double-top.jpg",
-        "numOfAppearances": 56,
-        "appearances": [
-            {
-                "id": 141,
-                "songTitle": "Starbird",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=4072"
-            },
-            {
-                "id": 142,
-                "songTitle": "Starbird",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=693"
-            },
-            {
-                "id": 634,
-                "songTitle": "Canned Heat",
-                "artist": "Jamiroquai",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=4477"
-            },
-            {
-                "id": 724,
-                "songTitle": "The Circle Game",
-                "artist": "Joni Mitchell",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=7959"
-            },
-            {
-                "id": 736,
-                "songTitle": "Crazy",
-                "artist": "Gnarls Barkley",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=6881"
-            },
-            {
-                "id": 841,
-                "songTitle": "Solsbury Hill",
-                "artist": "Peter Gabriel",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=5324"
-            },
-            {
-                "id": 965,
-                "songTitle": "Suit & Tie",
-                "artist": "Justin Timberlake ft. JAY-Z",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=4921"
-            },
-            {
-                "id": 1035,
-                "songTitle": "Money",
-                "artist": "Pink Floyd",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=6088"
-            },
-            {
-                "id": 1087,
-                "songTitle": "Hereafter",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=5022"
-            },
-            {
-                "id": 1116,
-                "songTitle": "Voodoo Child (Slight Return)",
-                "artist": "Jimi Hendrix",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=10602"
-            },
-            {
-                "id": 1195,
-                "songTitle": "Time in a Bottle",
-                "artist": "Jim Croce",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=5735"
-            },
-            {
-                "id": 1318,
-                "songTitle": "Old Man",
-                "artist": "Neil Young",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=7193"
-            },
-            {
-                "id": 1346,
-                "songTitle": "Human Nature",
-                "artist": "Michael Jackson",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=2756"
-            },
-            {
-                "id": 1364,
-                "songTitle": "Vultures",
-                "artist": "John Mayer",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=298"
-            },
-            {
-                "id": 1398,
-                "songTitle": "Until the End",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=9593"
-            },
-            {
-                "id": 1400,
-                "songTitle": "Until the End",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=8662"
-            },
-            {
-                "id": 1521,
-                "songTitle": "Ordinary Girl",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=10285"
-            },
-            {
-                "id": 1522,
-                "songTitle": "Ordinary Girl",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=10502"
-            },
-            {
-                "id": 1682,
-                "songTitle": "Do It Again",
-                "artist": "Steely Dan",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=10081"
-            },
-            {
-                "id": 1853,
-                "songTitle": "That's the Way",
-                "artist": "Led Zeppelin",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=9413"
-            },
-            {
-                "id": 1967,
-                "songTitle": "Killer Queen",
-                "artist": "Queen",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=3022"
-            },
-            {
-                "id": 2045,
-                "songTitle": "No Diggity",
-                "artist": "Blackstreet",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=8366"
-            },
-            {
-                "id": 2288,
-                "songTitle": "Hey Joe",
-                "artist": "Jimi Hendrix",
-                "livestream": "Solo Video (LS 39 Clip)",
-                "link": "https://youtu.be/x-UZq57HJzM&t=0"
-            },
-            {
-                "id": 2292,
-                "songTitle": "Hey Joe",
-                "artist": "Jimi Hendrix",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=8848"
-            },
-            {
-                "id": 2322,
-                "songTitle": "Empty Arms - 1984 Version",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Solo Video (LS 40 Clip)",
-                "link": "https://youtu.be/vlqevfp4cdw&t=0"
-            },
-            {
-                "id": 2324,
-                "songTitle": "Empty Arms - 1984 Version",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=4004"
-            },
-            {
-                "id": 2342,
-                "songTitle": "If It's Wrong (It's Alright)",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=1827"
-            },
-            {
-                "id": 2391,
-                "songTitle": "Satisfied Mind",
-                "artist": "Jeff Buckley",
-                "livestream": "Solo Video (LS 39 Clip)",
-                "link": "https://youtu.be/6P8-i95G0oI&t=0"
-            },
-            {
-                "id": 2392,
-                "songTitle": "Satisfied Mind",
-                "artist": "Jeff Buckley",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=9965"
-            },
-            {
-                "id": 2577,
-                "songTitle": "Layla (Unplugged)",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=1908"
-            },
-            {
-                "id": 2675,
-                "songTitle": "At the Creek",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=7504"
-            },
-            {
-                "id": 2995,
-                "songTitle": "Morning Wish",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=828"
-            },
-            {
-                "id": 3052,
-                "songTitle": "Eleanor Rigby",
-                "artist": "The Beatles",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=6092"
-            },
-            {
-                "id": 3436,
-                "songTitle": "Time Always Tells",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=2427"
-            },
-            {
-                "id": 3473,
-                "songTitle": "Life's Been Good",
-                "artist": "Joe Walsh",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=5249"
-            },
-            {
-                "id": 3741,
-                "songTitle": "Kaijie",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=5709"
-            },
-            {
-                "id": 3877,
-                "songTitle": "Helplessly Hoping",
-                "artist": "Crosby, Stills & Nash",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=3375"
-            },
-            {
-                "id": 3953,
-                "songTitle": "Babe I'm Gonna Leave You",
-                "artist": "Led Zeppelin",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=1338"
-            },
-            {
-                "id": 4268,
-                "songTitle": "Wondering Where The Lions Are",
-                "artist": "Bruce Cockburn",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=3113"
-            },
-            {
-                "id": 4503,
-                "songTitle": "You Are the Best Thing",
-                "artist": "Ray LaMontagne",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=266"
-            },
-            {
-                "id": 4712,
-                "songTitle": "Panama",
-                "artist": "Van Halen",
-                "livestream": "Livestream 39 (Partial)",
-                "link": "https://youtu.be/LmchfAzW9AM&t=621"
-            },
-            {
-                "id": 4713,
-                "songTitle": "Ain't Talkin' 'Bout Love",
-                "artist": "Van Halen",
-                "livestream": "Livestream 39 (Partial)",
-                "link": "https://youtu.be/LmchfAzW9AM&t=1842"
-            },
-            {
-                "id": 4718,
-                "songTitle": "Hot for Teacher",
-                "artist": "Van Halen",
-                "livestream": "Livestream 39 (Partial)",
-                "link": "https://youtu.be/LmchfAzW9AM&t=2239"
-            },
-            {
-                "id": 4720,
-                "songTitle": "Dance the Night Away",
-                "artist": "Van Halen",
-                "livestream": "Livestream 39 (Partial)",
-                "link": "https://youtu.be/LmchfAzW9AM&t=3265"
-            },
-            {
-                "id": 4721,
-                "songTitle": "Cherry Wine",
-                "artist": "Hozier",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=3755"
-            },
-            {
-                "id": 4733,
-                "songTitle": "Going Up The Country",
-                "artist": "Canned Heat",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=4963"
-            },
-            {
-                "id": 4735,
-                "songTitle": "Finish What Ya Started",
-                "artist": "Van Halen",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=6559"
-            },
-            {
-                "id": 4741,
-                "songTitle": "Ice Cream Man",
-                "artist": "Van Halen",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=8657"
-            },
-            {
-                "id": 4742,
-                "songTitle": "Fugitive",
-                "artist": "David Gray",
-                "livestream": "Livestream 39",
-                "link": "https://youtu.be/LmchfAzW9AM&t=9239"
-            },
-            {
-                "id": 4743,
-                "songTitle": "Black Star",
-                "artist": "Radiohead",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=3199"
-            },
-            {
-                "id": 4755,
-                "songTitle": "Blues Lesson",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=4787"
-            },
-            {
-                "id": 4758,
-                "songTitle": "Every Little Thing She Does Is Magic",
-                "artist": "The Police",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=5726"
-            },
-            {
-                "id": 4808,
-                "songTitle": "Dani California",
-                "artist": "Red Hot Chili Peppers",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=9717"
-            },
-            {
-                "id": 4812,
-                "songTitle": "Hole Hearted",
-                "artist": "Extreme",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=3596"
-            },
-            {
-                "id": 4816,
-                "songTitle": "Like a Stone",
-                "artist": "Audioslave",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=5988"
-            },
-            {
-                "id": 4821,
-                "songTitle": "Dear Prudence",
-                "artist": "The Beatles",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=9101"
-            }
-        ]
-    },
     "martin-00-15m": {
         "instrument": "(M15M) - Martin 00-15m",
         "pic": "martin-00-15m.jpg",
@@ -39983,339 +38478,808 @@
             }
         ]
     },
-    "norman-st68": {
-        "instrument": "(NST) - Norman ST68",
-        "pic": "norman-st68.jpg",
-        "numOfAppearances": 25,
+    "martin-dx1r": {
+        "instrument": "(DX1R) - Martin DX1R",
+        "pic": "martin-dx1r.jpg",
+        "numOfAppearances": 57,
         "appearances": [
             {
-                "id": 18,
-                "songTitle": "Way to the Sea",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=7783"
+                "id": 447,
+                "songTitle": "Three Hours",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 84",
+                "link": "https://youtu.be/GqfNqQlrL8A&t=5763"
             },
             {
-                "id": 19,
-                "songTitle": "Way to the Sea",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=663"
-            },
-            {
-                "id": 401,
-                "songTitle": "Last Goodbye",
-                "artist": "Jeff Buckley",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=8948"
-            },
-            {
-                "id": 419,
-                "songTitle": "Neon",
-                "artist": "John Mayer",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=7841"
-            },
-            {
-                "id": 473,
-                "songTitle": "Superstition",
-                "artist": "Stevie Wonder",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=10136"
-            },
-            {
-                "id": 563,
-                "songTitle": "Pride and Joy",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=1071"
-            },
-            {
-                "id": 1217,
-                "songTitle": "Moondance",
-                "artist": "Van Morrison",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=9764"
-            },
-            {
-                "id": 1399,
-                "songTitle": "Until the End",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=9318"
-            },
-            {
-                "id": 1523,
-                "songTitle": "Ordinary Girl",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=10577"
-            },
-            {
-                "id": 1875,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=8334"
-            },
-            {
-                "id": 1925,
-                "songTitle": "The Wind Cries Mary",
-                "artist": "Jimi Hendrix",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=7141"
-            },
-            {
-                "id": 2154,
-                "songTitle": "Lonely Boy",
-                "artist": "The Black Keys",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=2275"
-            },
-            {
-                "id": 2818,
-                "songTitle": "I Don't Need No Doctor",
-                "artist": "John Mayer",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=6652"
-            },
-            {
-                "id": 3437,
-                "songTitle": "Time Always Tells",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=1898"
-            },
-            {
-                "id": 3600,
-                "songTitle": "Queenstown",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=3649"
-            },
-            {
-                "id": 3650,
-                "songTitle": "Sage Trees",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=8531"
-            },
-            {
-                "id": 3843,
-                "songTitle": "Blue on Black",
-                "artist": "Kenny Wayne Shepherd",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=194"
-            },
-            {
-                "id": 3903,
-                "songTitle": "Green River",
-                "artist": "Creedence Clearwater Revival",
-                "livestream": "Solo Video (LS 40 Clip)",
-                "link": "https://youtu.be/Yqf0UOMduNo?si=U_hTMpM1JRxAMrQS&t=0"
-            },
-            {
-                "id": 3905,
-                "songTitle": "Green River",
-                "artist": "Creedence Clearwater Revival",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=1217"
-            },
-            {
-                "id": 3987,
-                "songTitle": "Catfish Blues",
-                "artist": "Jimi Hendrix",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=2325"
-            },
-            {
-                "id": 4059,
-                "songTitle": "Ramble On",
-                "artist": "Led Zeppelin",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=4448"
-            },
-            {
-                "id": 4136,
-                "songTitle": "May You Never",
-                "artist": "John Martyn",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=1524"
-            },
-            {
-                "id": 4178,
-                "songTitle": "Fall to Pieces",
-                "artist": "Velvet Revolver",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=1504"
-            },
-            {
-                "id": 4435,
-                "songTitle": "Phone Call from Leavenworth",
-                "artist": "Chris Whitley",
-                "livestream": "Livestream 41",
-                "link": "https://youtu.be/RLZoln3RATs&t=7446"
-            },
-            {
-                "id": 4803,
-                "songTitle": "Magic Carpet Ride",
-                "artist": "Steppenwolf",
-                "livestream": "Livestream 40",
-                "link": "https://youtu.be/AraZ934iGwQ&t=8143"
-            }
-        ]
-    },
-    "furch-oom-sr-db": {
-        "instrument": "(OOM) - Furch OOM-SR-DB",
-        "pic": "furch-oom-sr-db.jpg",
-        "numOfAppearances": 15,
-        "appearances": [
-            {
-                "id": 20,
-                "songTitle": "Way to the Sea",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 43",
-                "link": "https://youtu.be/RCraRcpxmDo&t=2931"
-            },
-            {
-                "id": 256,
-                "songTitle": "Big Yellow Taxi",
-                "artist": "Joni Mitchell",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=5166"
-            },
-            {
-                "id": 450,
-                "songTitle": "Over The Hill",
-                "artist": "John Martyn",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=395"
-            },
-            {
-                "id": 535,
-                "songTitle": "Song For George",
-                "artist": "Eric Johnson",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=5605"
-            },
-            {
-                "id": 699,
-                "songTitle": "Between the Horizons",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=6090"
-            },
-            {
-                "id": 951,
-                "songTitle": "In Your Eyes",
-                "artist": "Peter Gabriel",
-                "livestream": "Livestream 43",
-                "link": "https://youtu.be/RCraRcpxmDo&t=6279"
-            },
-            {
-                "id": 990,
+                "id": 1005,
                 "songTitle": "Ohio",
                 "artist": "Crosby, Stills, Nash & Young",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=5721"
+                "livestream": "Livestream 149",
+                "link": "https://youtu.be/CqHIgye4I8s?feature=share&t=5369"
             },
             {
-                "id": 1401,
-                "songTitle": "Until the End",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 43",
-                "link": "https://youtu.be/RCraRcpxmDo&t=888"
+                "id": 1006,
+                "songTitle": "Ohio",
+                "artist": "Crosby, Stills, Nash & Young",
+                "livestream": "Livestream 161",
+                "link": "https://youtu.be/Mm_r2XHf7kw?feature=share&t=7367"
             },
             {
-                "id": 1402,
-                "songTitle": "Until the End",
-                "artist": "Corey Heuvel",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=8533"
+                "id": 1784,
+                "songTitle": "Kiss from a Rose",
+                "artist": "Seal",
+                "livestream": "Livestream 139",
+                "link": "https://youtu.be/Lpcd7ALm6r4&t=6713"
             },
             {
-                "id": 1876,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 43",
-                "link": "https://youtu.be/RCraRcpxmDo&t=1372"
+                "id": 2791,
+                "songTitle": "Over the Hills and Far Away",
+                "artist": "Led Zeppelin",
+                "livestream": "Livestream 42",
+                "link": "https://youtu.be/T6ydeqXOIvk&t=1104"
             },
             {
-                "id": 2396,
-                "songTitle": "You and Me",
+                "id": 2945,
+                "songTitle": "Down by the River",
                 "artist": "Neil Young",
-                "livestream": "Solo Video (LS 43 Clip)",
-                "link": "https://youtu.be/2Zw3vI93LSI&t=0"
+                "livestream": "Livestream 156",
+                "link": "https://youtu.be/r4JaTRrhap8?feature=share&t=6134"
             },
             {
-                "id": 2398,
-                "songTitle": "You and Me",
-                "artist": "Neil Young",
-                "livestream": "Livestream 43",
-                "link": "https://youtu.be/RCraRcpxmDo&t=2158"
-            },
-            {
-                "id": 2996,
-                "songTitle": "Morning Wish",
+                "id": 2985,
+                "songTitle": "My Favorite Obsession",
                 "artist": "Corey Heuvel",
-                "livestream": "Livestream 44",
-                "link": "https://youtu.be/CoQ0bS1d7uo&t=797"
+                "livestream": "Livestream 137",
+                "link": "https://youtu.be/yN7gKYOObcE&t=2780"
             },
             {
-                "id": 3331,
+                "id": 3361,
                 "songTitle": "Into Light",
                 "artist": "Corey Heuvel",
-                "livestream": "Livestream 43",
-                "link": "https://youtu.be/RCraRcpxmDo&t=8154"
+                "livestream": "Livestream 128",
+                "link": "https://youtu.be/bEBVkT9SWFY&t=10246"
             },
             {
-                "id": 4835,
-                "songTitle": "Riveria Paradise",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Livestream 43 (Partial)",
-                "link": "https://youtu.be/RCraRcpxmDo&t=2874"
+                "id": 3362,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 130",
+                "link": "https://youtu.be/Qh8m_ldN2zw&t=6735"
+            },
+            {
+                "id": 3363,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 136",
+                "link": "https://youtu.be/dWIijDnVkho&t=6983"
+            },
+            {
+                "id": 3368,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 148",
+                "link": "https://youtu.be/ARCgeQF6tRg&t=9415"
+            },
+            {
+                "id": 3369,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 152",
+                "link": "https://youtu.be/s-v4qoUK0tU?feature=share&t=8175"
+            },
+            {
+                "id": 3370,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 155",
+                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=9117"
+            },
+            {
+                "id": 3371,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 159",
+                "link": "https://youtu.be/BvCyN3QU46c?feature=share&t=8772"
+            },
+            {
+                "id": 3428,
+                "songTitle": "Flowers Field",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 137",
+                "link": "https://youtu.be/yN7gKYOObcE&t=8262"
+            },
+            {
+                "id": 3503,
+                "songTitle": "Pink Moon",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 74",
+                "link": "https://youtu.be/WQ8mpI5z7z4&t=7275"
+            },
+            {
+                "id": 3504,
+                "songTitle": "Pink Moon",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 75",
+                "link": "https://youtu.be/uLKs6770MzM&t=4465"
+            },
+            {
+                "id": 3505,
+                "songTitle": "Pink Moon",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 81",
+                "link": "https://youtu.be/0vseNNLzOWY&t=8700"
+            },
+            {
+                "id": 3506,
+                "songTitle": "Pink Moon",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 126",
+                "link": "https://youtu.be/ebv-JlkIPUY&t=1905"
+            },
+            {
+                "id": 3507,
+                "songTitle": "Pink Moon",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 164",
+                "link": "https://youtu.be/c1H63fb1AJs?feature=share&t=5984"
+            },
+            {
+                "id": 3511,
+                "songTitle": "Place To Be",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 81",
+                "link": "https://youtu.be/0vseNNLzOWY&t=8824"
+            },
+            {
+                "id": 3517,
+                "songTitle": "Which Will",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 141",
+                "link": "https://youtu.be/9RNVOwRTSwc&t=6446"
+            },
+            {
+                "id": 3530,
+                "songTitle": "From The Morning",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 79",
+                "link": "https://youtu.be/9-UHTEmE9UU&t=9444"
+            },
+            {
+                "id": 3558,
+                "songTitle": "Pray for the Moon",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 114",
+                "link": "https://youtu.be/KoChozPGk7c&t=3850"
+            },
+            {
+                "id": 3683,
+                "songTitle": "On My Skin",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 75",
+                "link": "https://youtu.be/uLKs6770MzM&t=1085"
+            },
+            {
+                "id": 3685,
+                "songTitle": "On My Skin",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 163",
+                "link": "https://youtu.be/KACYxeAmdCs?feature=share&t=646"
+            },
+            {
+                "id": 3826,
+                "songTitle": "Nobody's Fault But My Own",
+                "artist": "Beck",
+                "livestream": "Solo Video (LS 116 Clip)",
+                "link": "https://youtu.be/ys2PGLbUSHk?si=lH6gUTS9t8hJY7Pp&t=0"
+            },
+            {
+                "id": 3827,
+                "songTitle": "Nobody's Fault But My Own",
+                "artist": "Beck",
+                "livestream": "Livestream 116",
+                "link": "https://youtu.be/7Yc3utlluNc&t=7509"
+            },
+            {
+                "id": 3828,
+                "songTitle": "Nobody's Fault But My Own",
+                "artist": "Beck",
+                "livestream": "Livestream 128",
+                "link": "https://youtu.be/bEBVkT9SWFY&t=3065"
+            },
+            {
+                "id": 3829,
+                "songTitle": "Nobody's Fault But My Own",
+                "artist": "Beck",
+                "livestream": "Livestream 130",
+                "link": "https://youtu.be/Qh8m_ldN2zw&t=5956"
+            },
+            {
+                "id": 3830,
+                "songTitle": "Nobody's Fault But My Own",
+                "artist": "Beck",
+                "livestream": "Livestream 154",
+                "link": "https://youtu.be/QLLYLiTUyDY?feature=share&t=5669"
+            },
+            {
+                "id": 3886,
+                "songTitle": "Ballad Of Big Nothing",
+                "artist": "Elliott Smith",
+                "livestream": "Solo Video (LS 151 Clip)",
+                "link": "https://youtu.be/6vk5LV8i_qI?si=rHhXZXYyoPf4fuZ1&t=0"
+            },
+            {
+                "id": 3887,
+                "songTitle": "Ballad Of Big Nothing",
+                "artist": "Elliott Smith",
+                "livestream": "Livestream 151",
+                "link": "https://youtu.be/FHa2vjbViJo?feature=share&t=1878"
+            },
+            {
+                "id": 3940,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Solo Video (LS 132 Clip)",
+                "link": "https://youtu.be/Y7OrdcHfoqY?si=_mmTNG4hutlG3_H7&t=0"
+            },
+            {
+                "id": 3943,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 52",
+                "link": "https://youtu.be/9mwYBbDX0dY&t=4479"
+            },
+            {
+                "id": 3944,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 62",
+                "link": "https://youtu.be/xMTVh9YaaVc&t=5363"
+            },
+            {
+                "id": 3945,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 64",
+                "link": "https://youtu.be/Qih3Nx18Yas&t=2893"
+            },
+            {
+                "id": 3946,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 80",
+                "link": "https://youtu.be/x048oootisY&t=7616"
+            },
+            {
+                "id": 3947,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 91",
+                "link": "https://youtu.be/yiFNZvisSQw&t=4365"
+            },
+            {
+                "id": 3948,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 132",
+                "link": "https://youtu.be/HdqJmfuPKyM&t=2576"
+            },
+            {
+                "id": 3949,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 148",
+                "link": "https://youtu.be/ARCgeQF6tRg&t=3962"
+            },
+            {
+                "id": 3950,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 150",
+                "link": "https://youtu.be/GpaZbjokFec?feature=share&t=7229"
+            },
+            {
+                "id": 3951,
+                "songTitle": "Don't Let It Bring You Down",
+                "artist": "Neil Young",
+                "livestream": "Livestream 153",
+                "link": "https://youtu.be/jomOdvKXNa4?feature=share&t=7141"
+            },
+            {
+                "id": 4012,
+                "songTitle": "Helpless",
+                "artist": "Neil Young",
+                "livestream": "Livestream 155",
+                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=7032"
+            },
+            {
+                "id": 4034,
+                "songTitle": "Going to California",
+                "artist": "Led Zeppelin",
+                "livestream": "Livestream 42",
+                "link": "https://youtu.be/T6ydeqXOIvk&t=6243"
+            },
+            {
+                "id": 4548,
+                "songTitle": "Hazey Jane I",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 75",
+                "link": "https://youtu.be/uLKs6770MzM&t=4588"
+            },
+            {
+                "id": 4549,
+                "songTitle": "Hazey Jane I",
+                "artist": "Nick Drake",
+                "livestream": "Livestream 90",
+                "link": "https://youtu.be/S0H-UbV9G48&t=9223"
+            },
+            {
+                "id": 4555,
+                "songTitle": "Tell Me Why",
+                "artist": "Neil Young",
+                "livestream": "Livestream 113",
+                "link": "https://youtu.be/YAxlXf4Ftt0&t=3365"
+            },
+            {
+                "id": 4556,
+                "songTitle": "Tell Me Why",
+                "artist": "Neil Young",
+                "livestream": "Livestream 135",
+                "link": "https://youtu.be/ShAGixH0AfU&t=5399"
+            },
+            {
+                "id": 4557,
+                "songTitle": "Tell Me Why",
+                "artist": "Neil Young",
+                "livestream": "Livestream 158",
+                "link": "https://youtu.be/2xkUDe5ZndE?feature=share&t=7611"
+            },
+            {
+                "id": 4671,
+                "songTitle": "My My, Hey Hey (Out of the Blue)",
+                "artist": "Neil Young",
+                "livestream": "Livestream 159",
+                "link": "https://youtu.be/BvCyN3QU46c?feature=share&t=6716"
+            },
+            {
+                "id": 5249,
+                "songTitle": "Between the Bars",
+                "artist": "Elliott Smith",
+                "livestream": "Livestream 155",
+                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=5042"
+            },
+            {
+                "id": 5329,
+                "songTitle": "Burn One Down",
+                "artist": "Ben Harper",
+                "livestream": "Livestream 159",
+                "link": "https://youtu.be/BvCyN3QU46c?feature=share&t=3921"
+            },
+            {
+                "id": 5509,
+                "songTitle": "In Your Atmosphere",
+                "artist": "John Mayer",
+                "livestream": "Livestream 89",
+                "link": "https://youtu.be/j9CL1ydfDSI&t=7980"
+            },
+            {
+                "id": 5530,
+                "songTitle": "Sugar Mountain",
+                "artist": "Neil Young",
+                "livestream": "Livestream 95 (Audio Issues)",
+                "link": "https://youtu.be/y83VDXWJbQE&t=8818"
+            },
+            {
+                "id": 5655,
+                "songTitle": "To Be With You",
+                "artist": "Mr. Big",
+                "livestream": "Livestream 155",
+                "link": "https://youtu.be/v56fDp25FcM?feature=share&t=8232"
+            },
+            {
+                "id": 5669,
+                "songTitle": "Inspector Gadget Theme",
+                "artist": "Shuki Levy",
+                "livestream": "Livestream 135",
+                "link": "https://youtu.be/ShAGixH0AfU&t=5337"
             }
         ]
     },
-    "seagull-artist-studio": {
-        "instrument": "(SAS) - Seagull Artist Studio",
-        "pic": "seagull-artist-studio.jpg",
-        "numOfAppearances": 5,
+    "maestro-double-top": {
+        "instrument": "(MDT) - Maestro Double Top",
+        "pic": "maestro-double-top.jpg",
+        "numOfAppearances": 56,
         "appearances": [
             {
-                "id": 4202,
-                "songTitle": "The Past Recedes",
-                "artist": "John Frusciante",
-                "livestream": "Livestream 42",
-                "link": "https://youtu.be/T6ydeqXOIvk&t=2604"
+                "id": 141,
+                "songTitle": "Starbird",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=4072"
             },
             {
-                "id": 4361,
-                "songTitle": "Midnight Rider",
-                "artist": "Allman Brothers Band",
-                "livestream": "Livestream 42",
-                "link": "https://youtu.be/T6ydeqXOIvk&t=224"
+                "id": 142,
+                "songTitle": "Starbird",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=693"
             },
             {
-                "id": 4823,
-                "songTitle": "Nutshell",
-                "artist": "Alice In Chains",
-                "livestream": "Livestream 42",
-                "link": "https://youtu.be/T6ydeqXOIvk&t=3561"
+                "id": 634,
+                "songTitle": "Canned Heat",
+                "artist": "Jamiroquai",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=4477"
             },
             {
-                "id": 4829,
-                "songTitle": "Just Like Heaven",
-                "artist": "The Cure",
-                "livestream": "Livestream 42",
-                "link": "https://youtu.be/T6ydeqXOIvk&t=4813"
+                "id": 724,
+                "songTitle": "The Circle Game",
+                "artist": "Joni Mitchell",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=7959"
             },
             {
-                "id": 4833,
-                "songTitle": "Patience",
-                "artist": "Chris Cornell",
-                "livestream": "Livestream 42",
-                "link": "https://youtu.be/T6ydeqXOIvk&t=8779"
+                "id": 736,
+                "songTitle": "Crazy",
+                "artist": "Gnarls Barkley",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=6881"
+            },
+            {
+                "id": 841,
+                "songTitle": "Solsbury Hill",
+                "artist": "Peter Gabriel",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=5324"
+            },
+            {
+                "id": 965,
+                "songTitle": "Suit & Tie",
+                "artist": "Justin Timberlake ft. JAY-Z",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=4921"
+            },
+            {
+                "id": 1035,
+                "songTitle": "Money",
+                "artist": "Pink Floyd",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=6088"
+            },
+            {
+                "id": 1087,
+                "songTitle": "Hereafter",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=5022"
+            },
+            {
+                "id": 1116,
+                "songTitle": "Voodoo Child (Slight Return)",
+                "artist": "Jimi Hendrix",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=10602"
+            },
+            {
+                "id": 1195,
+                "songTitle": "Time in a Bottle",
+                "artist": "Jim Croce",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=5735"
+            },
+            {
+                "id": 1318,
+                "songTitle": "Old Man",
+                "artist": "Neil Young",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=7193"
+            },
+            {
+                "id": 1346,
+                "songTitle": "Human Nature",
+                "artist": "Michael Jackson",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=2756"
+            },
+            {
+                "id": 1364,
+                "songTitle": "Vultures",
+                "artist": "John Mayer",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=298"
+            },
+            {
+                "id": 1398,
+                "songTitle": "Until the End",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=9593"
+            },
+            {
+                "id": 1400,
+                "songTitle": "Until the End",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=8662"
+            },
+            {
+                "id": 1521,
+                "songTitle": "Ordinary Girl",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=10285"
+            },
+            {
+                "id": 1522,
+                "songTitle": "Ordinary Girl",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=10502"
+            },
+            {
+                "id": 1682,
+                "songTitle": "Do It Again",
+                "artist": "Steely Dan",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=10081"
+            },
+            {
+                "id": 1853,
+                "songTitle": "That's the Way",
+                "artist": "Led Zeppelin",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=9413"
+            },
+            {
+                "id": 1967,
+                "songTitle": "Killer Queen",
+                "artist": "Queen",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=3022"
+            },
+            {
+                "id": 2045,
+                "songTitle": "No Diggity",
+                "artist": "Blackstreet",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=8366"
+            },
+            {
+                "id": 2288,
+                "songTitle": "Hey Joe",
+                "artist": "Jimi Hendrix",
+                "livestream": "Solo Video (LS 39 Clip)",
+                "link": "https://youtu.be/x-UZq57HJzM&t=0"
+            },
+            {
+                "id": 2292,
+                "songTitle": "Hey Joe",
+                "artist": "Jimi Hendrix",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=8848"
+            },
+            {
+                "id": 2322,
+                "songTitle": "Empty Arms - 1984 Version",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Solo Video (LS 40 Clip)",
+                "link": "https://youtu.be/vlqevfp4cdw&t=0"
+            },
+            {
+                "id": 2324,
+                "songTitle": "Empty Arms - 1984 Version",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=4004"
+            },
+            {
+                "id": 2342,
+                "songTitle": "If It's Wrong (It's Alright)",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=1827"
+            },
+            {
+                "id": 2391,
+                "songTitle": "Satisfied Mind",
+                "artist": "Jeff Buckley",
+                "livestream": "Solo Video (LS 39 Clip)",
+                "link": "https://youtu.be/6P8-i95G0oI&t=0"
+            },
+            {
+                "id": 2392,
+                "songTitle": "Satisfied Mind",
+                "artist": "Jeff Buckley",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=9965"
+            },
+            {
+                "id": 2577,
+                "songTitle": "Layla (Unplugged)",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=1908"
+            },
+            {
+                "id": 2675,
+                "songTitle": "At the Creek",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=7504"
+            },
+            {
+                "id": 2995,
+                "songTitle": "Morning Wish",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=828"
+            },
+            {
+                "id": 3052,
+                "songTitle": "Eleanor Rigby",
+                "artist": "The Beatles",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=6092"
+            },
+            {
+                "id": 3436,
+                "songTitle": "Time Always Tells",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=2427"
+            },
+            {
+                "id": 3473,
+                "songTitle": "Life's Been Good",
+                "artist": "Joe Walsh",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=5249"
+            },
+            {
+                "id": 3741,
+                "songTitle": "Kaijie",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=5709"
+            },
+            {
+                "id": 3877,
+                "songTitle": "Helplessly Hoping",
+                "artist": "Crosby, Stills & Nash",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=3375"
+            },
+            {
+                "id": 3953,
+                "songTitle": "Babe I'm Gonna Leave You",
+                "artist": "Led Zeppelin",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=1338"
+            },
+            {
+                "id": 4268,
+                "songTitle": "Wondering Where The Lions Are",
+                "artist": "Bruce Cockburn",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=3113"
+            },
+            {
+                "id": 4503,
+                "songTitle": "You Are the Best Thing",
+                "artist": "Ray LaMontagne",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=266"
+            },
+            {
+                "id": 4712,
+                "songTitle": "Panama",
+                "artist": "Van Halen",
+                "livestream": "Livestream 39 (Partial)",
+                "link": "https://youtu.be/LmchfAzW9AM&t=621"
+            },
+            {
+                "id": 4713,
+                "songTitle": "Ain't Talkin' 'Bout Love",
+                "artist": "Van Halen",
+                "livestream": "Livestream 39 (Partial)",
+                "link": "https://youtu.be/LmchfAzW9AM&t=1842"
+            },
+            {
+                "id": 4718,
+                "songTitle": "Hot for Teacher",
+                "artist": "Van Halen",
+                "livestream": "Livestream 39 (Partial)",
+                "link": "https://youtu.be/LmchfAzW9AM&t=2239"
+            },
+            {
+                "id": 4720,
+                "songTitle": "Dance the Night Away",
+                "artist": "Van Halen",
+                "livestream": "Livestream 39 (Partial)",
+                "link": "https://youtu.be/LmchfAzW9AM&t=3265"
+            },
+            {
+                "id": 4721,
+                "songTitle": "Cherry Wine",
+                "artist": "Hozier",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=3755"
+            },
+            {
+                "id": 4733,
+                "songTitle": "Going Up The Country",
+                "artist": "Canned Heat",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=4963"
+            },
+            {
+                "id": 4735,
+                "songTitle": "Finish What Ya Started",
+                "artist": "Van Halen",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=6559"
+            },
+            {
+                "id": 4741,
+                "songTitle": "Ice Cream Man",
+                "artist": "Van Halen",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=8657"
+            },
+            {
+                "id": 4742,
+                "songTitle": "Fugitive",
+                "artist": "David Gray",
+                "livestream": "Livestream 39",
+                "link": "https://youtu.be/LmchfAzW9AM&t=9239"
+            },
+            {
+                "id": 4743,
+                "songTitle": "Black Star",
+                "artist": "Radiohead",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=3199"
+            },
+            {
+                "id": 4755,
+                "songTitle": "Blues Lesson",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=4787"
+            },
+            {
+                "id": 4758,
+                "songTitle": "Every Little Thing She Does Is Magic",
+                "artist": "The Police",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=5726"
+            },
+            {
+                "id": 4808,
+                "songTitle": "Dani California",
+                "artist": "Red Hot Chili Peppers",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=9717"
+            },
+            {
+                "id": 4812,
+                "songTitle": "Hole Hearted",
+                "artist": "Extreme",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=3596"
+            },
+            {
+                "id": 4816,
+                "songTitle": "Like a Stone",
+                "artist": "Audioslave",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=5988"
+            },
+            {
+                "id": 4821,
+                "songTitle": "Dear Prudence",
+                "artist": "The Beatles",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=9101"
             }
         ]
     },
@@ -40704,17 +39668,906 @@
             }
         ]
     },
-    "stonebridge-om35asr-db": {
-        "instrument": "(SOM) - Stonebridge OM35ASR-DB",
-        "pic": "stonebridge-om35asr-db.jpg",
-        "numOfAppearances": 1,
+    "brickhouse-demo": {
+        "instrument": "(BH) - Brickhouse Demo",
+        "pic": "brickhouse-demo.jpg",
+        "numOfAppearances": 30,
         "appearances": [
             {
-                "id": 1811,
-                "songTitle": "Hand in My Pocket",
-                "artist": "Alanis Morissette",
+                "id": 2397,
+                "songTitle": "You and Me",
+                "artist": "Neil Young",
+                "livestream": "Solo Video (Instrumental)",
+                "link": "https://youtu.be/watch?v=gH-hi4TsFjA&t=0"
+            },
+            {
+                "id": 3738,
+                "songTitle": "Kaijie",
+                "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
-                "link": "https://youtu.be/sdZ4P0cil_A&t=0"
+                "link": "https://youtu.be/watch?v=4bCTEUKdQUo&t=0"
+            },
+            {
+                "id": 3748,
+                "songTitle": "Furch OOM Vintage 1",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=gH-hi4TsFjA&t=0"
+            },
+            {
+                "id": 3749,
+                "songTitle": "Godin Progression Plus Cherry Burst RN",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=R8qrTo2g6LE&t=5"
+            },
+            {
+                "id": 3750,
+                "songTitle": "Godin Stadium '59 Desert Green RN demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=eErXYQKZh4U&t=5"
+            },
+            {
+                "id": 3751,
+                "songTitle": "Godin 5th Ave Uptown GT LTD Trans Cream",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=K6RyCMow7Xc&t=6"
+            },
+            {
+                "id": 3752,
+                "songTitle": "Martin vs. Furch vs. Boucher | High-End Guitar Comparison",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=9_puIWsSEs0&t=46"
+            },
+            {
+                "id": 3759,
+                "songTitle": "Furch Blue D-CM demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=_WcQbI1CTjw&t=6"
+            },
+            {
+                "id": 3760,
+                "songTitle": "Boucher SG-52-I demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=W3fIfsbxoA8&t=7"
+            },
+            {
+                "id": 3761,
+                "songTitle": "Godin Rialto JR Satina Gray HG Q-Discrete",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=o5x9v-YJtGE&t=6"
+            },
+            {
+                "id": 3762,
+                "songTitle": "Godin Metropolis Natural Cedar EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=g3Ylz2FQ7jQ&t=5"
+            },
+            {
+                "id": 3763,
+                "songTitle": "Godin Metropolis LTD Natural HG EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=B2bSZCP_4UM&t=6"
+            },
+            {
+                "id": 3764,
+                "songTitle": "Godin Metropolis LTD Havana Burst HG EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=cd2X99V2eGE&t=6"
+            },
+            {
+                "id": 3765,
+                "songTitle": "Godin Fairmount Concert Hall Natural HG EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=k3K5yNcJ1lQ&t=3"
+            },
+            {
+                "id": 3766,
+                "songTitle": "Boucher HG-56 acoustic guitar demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=lwphFw4_hcg&t=6"
+            },
+            {
+                "id": 3767,
+                "songTitle": "Furch OM22TSW-C-DB SGI",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=Ei5RItxEq9E&t=289"
+            },
+            {
+                "id": 3768,
+                "songTitle": "Furch G25CR-C",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=IgnCuRKlP5o&t=77"
+            },
+            {
+                "id": 3769,
+                "songTitle": "Furch *SGI* D22TSR",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=d_8bqZ5wBUI&t=122"
+            },
+            {
+                "id": 3770,
+                "songTitle": "Furch OM34TSR-DB B2",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=v73zN2V5Rhw&t=129"
+            },
+            {
+                "id": 3771,
+                "songTitle": "La Patrie Etude",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=mT_uy6P8CQk&t=6"
+            },
+            {
+                "id": 3773,
+                "songTitle": "Breedlove Discovery Concert CE",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=ishutnt_64o&t=6"
+            },
+            {
+                "id": 3774,
+                "songTitle": "Stonebridge OM35ASR-DB",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=1xUnFelTIIk&t=134"
+            },
+            {
+                "id": 3775,
+                "songTitle": "Norman ST40 Parlor Burnt Umber",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=D9DKuTAIz9Y&t=75"
+            },
+            {
+                "id": 3776,
+                "songTitle": "Norman B15 Dark Almond",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=gFQGuitnugY&t=70"
+            },
+            {
+                "id": 3777,
+                "songTitle": "Norman ST68",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=yC1VcScR93U&t=67"
+            },
+            {
+                "id": 3778,
+                "songTitle": "Norman B20 Burnt Umber",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=7V3E_Yc28BY&t=63"
+            },
+            {
+                "id": 3779,
+                "songTitle": "Norman ST40 CW GT Presys",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=4FuSiImdfl8&t=78"
+            },
+            {
+                "id": 3780,
+                "songTitle": "Norman ST68 CW",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=HjttyGWp630&t=89"
+            },
+            {
+                "id": 3781,
+                "songTitle": "Stonebridge D22SR",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=QyBV1PpvcHc&t=65"
+            },
+            {
+                "id": 3782,
+                "songTitle": "Godin Passion RG-3 Indigo Burst RN",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/mG_ZcHn5-vo?si=yxqdfRckULJMvYB8&t=5"
+            }
+        ]
+    },
+    "classical-guitar": {
+        "instrument": "Asturias Standard S",
+        "pic": "classical-guitar.jpg",
+        "numOfAppearances": 29,
+        "appearances": [
+            {
+                "id": 2074,
+                "songTitle": "Rupert Street",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/_2P_9tCWQts&t=0"
+            },
+            {
+                "id": 2075,
+                "songTitle": "Rupert Street",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 63",
+                "link": "https://youtu.be/bCz3cavBkog&t=6475"
+            },
+            {
+                "id": 2077,
+                "songTitle": "Study in C Major",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/c6CIczDJ7zQ&t=0"
+            },
+            {
+                "id": 2078,
+                "songTitle": "Study in A Major",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/RjBRFnEDpTg&t=0"
+            },
+            {
+                "id": 2079,
+                "songTitle": "Study in D Major",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/VkimnJDpctY&t=0"
+            },
+            {
+                "id": 2080,
+                "songTitle": "Study in D Major",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/wIWCbmuc9Vc&t=0"
+            },
+            {
+                "id": 2081,
+                "songTitle": "Capricho Árabe",
+                "artist": "Francisco Tárrega",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/Op6mWZpHH6M&t=0"
+            },
+            {
+                "id": 2082,
+                "songTitle": "Capricho Árabe",
+                "artist": "Francisco Tárrega",
+                "livestream": "Livestream 58",
+                "link": "https://youtu.be/Q4p-jIfkQpM&t=6961"
+            },
+            {
+                "id": 2126,
+                "songTitle": "Etude op. 60, no. 7",
+                "artist": "Matteo Carcassi",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/Ei4-ArDl0ok&t=0"
+            },
+            {
+                "id": 2751,
+                "songTitle": "Tears in Heaven",
+                "artist": "Eric Clapton",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/FSJi31iljws&t=0"
+            },
+            {
+                "id": 3772,
+                "songTitle": "Study No. 6 in D",
+                "artist": "Fernando Sor",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=mT_uy6P8CQk&t=6"
+            },
+            {
+                "id": 4842,
+                "songTitle": "Prelude in E Major (BWV 1006a)",
+                "artist": "Johann Sebastian Bach",
+                "livestream": "Livestream 43",
+                "link": "https://youtu.be/RCraRcpxmDo&t=5742"
+            },
+            {
+                "id": 5002,
+                "songTitle": "Study in B-Minor",
+                "artist": "Fernando Sor",
+                "livestream": "Livestream 47",
+                "link": "https://youtu.be/biTNdO9Z6Y8&t=4544"
+            },
+            {
+                "id": 5003,
+                "songTitle": "Study in B-Minor",
+                "artist": "Fernando Sor",
+                "livestream": "Livestream 16 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=H_j-P2w0QaA&t=5249"
+            },
+            {
+                "id": 5004,
+                "songTitle": "Lágrima",
+                "artist": "Francisco Tárrega",
+                "livestream": "Livestream 47",
+                "link": "https://youtu.be/biTNdO9Z6Y8&t=4671"
+            },
+            {
+                "id": 5006,
+                "songTitle": "Lágrima",
+                "artist": "Francisco Tárrega",
+                "livestream": "Livestream 74",
+                "link": "https://youtu.be/WQ8mpI5z7z4&t=6475"
+            },
+            {
+                "id": 5007,
+                "songTitle": "Lágrima",
+                "artist": "Francisco Tárrega",
+                "livestream": "Livestream 96",
+                "link": "https://youtu.be/HTJSoHhm7aY&t=8616"
+            },
+            {
+                "id": 5245,
+                "songTitle": "Classical Gas",
+                "artist": "Mason Williams",
+                "livestream": "Livestream 55",
+                "link": "https://youtu.be/LuQ78Y2Fiwo&t=4172"
+            },
+            {
+                "id": 5270,
+                "songTitle": "Cello Suite No. 1 in G Major BWV 1007 (Prelude)",
+                "artist": "Johann Sebastian Bach",
+                "livestream": "Livestream 57",
+                "link": "https://youtu.be/MhNKFJxwK8g&t=6501"
+            },
+            {
+                "id": 5272,
+                "songTitle": "Julia Florida (Barcarola)",
+                "artist": "Agustín Barrios Mangoré",
+                "livestream": "Livestream 57",
+                "link": "https://youtu.be/MhNKFJxwK8g&t=6660"
+            },
+            {
+                "id": 5433,
+                "songTitle": "Spanish Romance (Romanza)",
+                "artist": "Unknown",
+                "livestream": "Livestream 74",
+                "link": "https://youtu.be/WQ8mpI5z7z4&t=6369"
+            },
+            {
+                "id": 5532,
+                "songTitle": "Adelita",
+                "artist": "Francisco Tárrega",
+                "livestream": "Livestream 96",
+                "link": "https://youtu.be/HTJSoHhm7aY&t=8737"
+            },
+            {
+                "id": 5534,
+                "songTitle": "Adelita",
+                "artist": "Francisco Tárrega",
+                "livestream": "Livestream 4 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=nCRWhvGFWUE&t=10204"
+            },
+            {
+                "id": 5535,
+                "songTitle": "Pavana",
+                "artist": "Francisco Tárrega",
+                "livestream": "Livestream 96",
+                "link": "https://youtu.be/HTJSoHhm7aY&t=8833"
+            },
+            {
+                "id": 5619,
+                "songTitle": "Bouree In E Minor",
+                "artist": "Johann Sebastian Bach",
+                "livestream": "Livestream 16 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=H_j-P2w0QaA&t=5137"
+            },
+            {
+                "id": 5708,
+                "songTitle": "Teardrop",
+                "artist": "Massive Attack",
+                "livestream": "Livestream 150",
+                "link": "https://youtu.be/GpaZbjokFec?feature=share&t=5906"
+            },
+            {
+                "id": 5710,
+                "songTitle": "Echo",
+                "artist": "Incubus",
+                "livestream": "Livestream 151",
+                "link": "https://youtu.be/FHa2vjbViJo?feature=share&t=3888"
+            },
+            {
+                "id": 5714,
+                "songTitle": "Fugue in G Minor (BWV 1000)",
+                "artist": "Johann Sebastian Bach",
+                "livestream": "Livestream 161",
+                "link": "https://youtu.be/Mm_r2XHf7kw?feature=share&t=6046"
+            },
+            {
+                "id": 5740,
+                "songTitle": "Claire De Lune",
+                "artist": "Claude Debussy",
+                "livestream": "Livestream 4 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=nCRWhvGFWUE&t=10321"
+            }
+        ]
+    },
+    "norman-st68": {
+        "instrument": "(NST) - Norman ST68",
+        "pic": "norman-st68.jpg",
+        "numOfAppearances": 25,
+        "appearances": [
+            {
+                "id": 18,
+                "songTitle": "Way to the Sea",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=7783"
+            },
+            {
+                "id": 19,
+                "songTitle": "Way to the Sea",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=663"
+            },
+            {
+                "id": 401,
+                "songTitle": "Last Goodbye",
+                "artist": "Jeff Buckley",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=8948"
+            },
+            {
+                "id": 419,
+                "songTitle": "Neon",
+                "artist": "John Mayer",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=7841"
+            },
+            {
+                "id": 473,
+                "songTitle": "Superstition",
+                "artist": "Stevie Wonder",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=10136"
+            },
+            {
+                "id": 563,
+                "songTitle": "Pride and Joy",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=1071"
+            },
+            {
+                "id": 1217,
+                "songTitle": "Moondance",
+                "artist": "Van Morrison",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=9764"
+            },
+            {
+                "id": 1399,
+                "songTitle": "Until the End",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=9318"
+            },
+            {
+                "id": 1523,
+                "songTitle": "Ordinary Girl",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=10577"
+            },
+            {
+                "id": 1875,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=8334"
+            },
+            {
+                "id": 1925,
+                "songTitle": "The Wind Cries Mary",
+                "artist": "Jimi Hendrix",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=7141"
+            },
+            {
+                "id": 2154,
+                "songTitle": "Lonely Boy",
+                "artist": "The Black Keys",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=2275"
+            },
+            {
+                "id": 2818,
+                "songTitle": "I Don't Need No Doctor",
+                "artist": "John Mayer",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=6652"
+            },
+            {
+                "id": 3437,
+                "songTitle": "Time Always Tells",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=1898"
+            },
+            {
+                "id": 3600,
+                "songTitle": "Queenstown",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=3649"
+            },
+            {
+                "id": 3650,
+                "songTitle": "Sage Trees",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=8531"
+            },
+            {
+                "id": 3843,
+                "songTitle": "Blue on Black",
+                "artist": "Kenny Wayne Shepherd",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=194"
+            },
+            {
+                "id": 3903,
+                "songTitle": "Green River",
+                "artist": "Creedence Clearwater Revival",
+                "livestream": "Solo Video (LS 40 Clip)",
+                "link": "https://youtu.be/Yqf0UOMduNo?si=U_hTMpM1JRxAMrQS&t=0"
+            },
+            {
+                "id": 3905,
+                "songTitle": "Green River",
+                "artist": "Creedence Clearwater Revival",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=1217"
+            },
+            {
+                "id": 3987,
+                "songTitle": "Catfish Blues",
+                "artist": "Jimi Hendrix",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=2325"
+            },
+            {
+                "id": 4059,
+                "songTitle": "Ramble On",
+                "artist": "Led Zeppelin",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=4448"
+            },
+            {
+                "id": 4136,
+                "songTitle": "May You Never",
+                "artist": "John Martyn",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=1524"
+            },
+            {
+                "id": 4178,
+                "songTitle": "Fall to Pieces",
+                "artist": "Velvet Revolver",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=1504"
+            },
+            {
+                "id": 4435,
+                "songTitle": "Phone Call from Leavenworth",
+                "artist": "Chris Whitley",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=7446"
+            },
+            {
+                "id": 4803,
+                "songTitle": "Magic Carpet Ride",
+                "artist": "Steppenwolf",
+                "livestream": "Livestream 40",
+                "link": "https://youtu.be/AraZ934iGwQ&t=8143"
+            }
+        ]
+    },
+    "furch-oom-sr-db": {
+        "instrument": "(OOM) - Furch OOM-SR-DB",
+        "pic": "furch-oom-sr-db.jpg",
+        "numOfAppearances": 15,
+        "appearances": [
+            {
+                "id": 20,
+                "songTitle": "Way to the Sea",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 43",
+                "link": "https://youtu.be/RCraRcpxmDo&t=2931"
+            },
+            {
+                "id": 256,
+                "songTitle": "Big Yellow Taxi",
+                "artist": "Joni Mitchell",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=5166"
+            },
+            {
+                "id": 450,
+                "songTitle": "Over The Hill",
+                "artist": "John Martyn",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=395"
+            },
+            {
+                "id": 535,
+                "songTitle": "Song For George",
+                "artist": "Eric Johnson",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=5605"
+            },
+            {
+                "id": 699,
+                "songTitle": "Between the Horizons",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=6090"
+            },
+            {
+                "id": 951,
+                "songTitle": "In Your Eyes",
+                "artist": "Peter Gabriel",
+                "livestream": "Livestream 43",
+                "link": "https://youtu.be/RCraRcpxmDo&t=6279"
+            },
+            {
+                "id": 990,
+                "songTitle": "Ohio",
+                "artist": "Crosby, Stills, Nash & Young",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=5721"
+            },
+            {
+                "id": 1401,
+                "songTitle": "Until the End",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 43",
+                "link": "https://youtu.be/RCraRcpxmDo&t=888"
+            },
+            {
+                "id": 1402,
+                "songTitle": "Until the End",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=8533"
+            },
+            {
+                "id": 1876,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 43",
+                "link": "https://youtu.be/RCraRcpxmDo&t=1372"
+            },
+            {
+                "id": 2396,
+                "songTitle": "You and Me",
+                "artist": "Neil Young",
+                "livestream": "Solo Video (LS 43 Clip)",
+                "link": "https://youtu.be/2Zw3vI93LSI&t=0"
+            },
+            {
+                "id": 2398,
+                "songTitle": "You and Me",
+                "artist": "Neil Young",
+                "livestream": "Livestream 43",
+                "link": "https://youtu.be/RCraRcpxmDo&t=2158"
+            },
+            {
+                "id": 2996,
+                "songTitle": "Morning Wish",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=797"
+            },
+            {
+                "id": 3331,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 43",
+                "link": "https://youtu.be/RCraRcpxmDo&t=8154"
+            },
+            {
+                "id": 4835,
+                "songTitle": "Riveria Paradise",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Livestream 43 (Partial)",
+                "link": "https://youtu.be/RCraRcpxmDo&t=2874"
+            }
+        ]
+    },
+    "harmonica": {
+        "instrument": "Harmonica",
+        "pic": "harmonica.jpg",
+        "numOfAppearances": 12,
+        "appearances": [
+            {
+                "id": 1880,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1946"
+            },
+            {
+                "id": 1899,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5904"
+            },
+            {
+                "id": 3864,
+                "songTitle": "Dear Mr. Fantasy",
+                "artist": "Traffic",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5462"
+            },
+            {
+                "id": 5259,
+                "songTitle": "Nobody Knows You When You're Down and Out",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=446"
+            },
+            {
+                "id": 5260,
+                "songTitle": "Sleepy Afternoon",
+                "artist": "Rein Rutnik",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=780"
+            },
+            {
+                "id": 5261,
+                "songTitle": "Big Bad Bill (Is Sweet William Now)",
+                "artist": "Van Halen",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1059"
+            },
+            {
+                "id": 5262,
+                "songTitle": "I'm Satisfied",
+                "artist": "Mississippi John Hurt",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1299"
+            },
+            {
+                "id": 5263,
+                "songTitle": "Fox Chase & Lost John",
+                "artist": "Joe Filisko",
+                "livestream": "Livestream 56",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1572"
+            },
+            {
+                "id": 5521,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 3 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4592"
+            },
+            {
+                "id": 5522,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5178"
+            },
+            {
+                "id": 5736,
+                "songTitle": "Crossing Over/Tree of Life",
+                "artist": "Grant Dermody",
+                "livestream": "Livestream 3 (Audio Issues/Medley)",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4309"
+            },
+            {
+                "id": 5782,
+                "songTitle": "Ice Water Blues",
+                "artist": "Deford Bailey",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5762"
+            }
+        ]
+    },
+    "mandolin": {
+        "instrument": "Mandolin",
+        "pic": "mandolin.jpg",
+        "numOfAppearances": 12,
+        "appearances": [
+            {
+                "id": 296,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/HPIWDTzOgEY&t=0"
+            },
+            {
+                "id": 297,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Livestream 25",
+                "link": "https://youtu.be/RipA8bRdIbI&t=6178"
+            },
+            {
+                "id": 298,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Livestream 31",
+                "link": "https://youtu.be/mH3c9W8vKbc&t=3307"
+            },
+            {
+                "id": 299,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Livestream 41",
+                "link": "https://youtu.be/RLZoln3RATs&t=6389"
+            },
+            {
+                "id": 300,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Livestream 63",
+                "link": "https://youtu.be/bCz3cavBkog&t=6869"
+            },
+            {
+                "id": 301,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Livestream 120",
+                "link": "https://youtu.be/HJpwaG3PP3E&t=4682"
+            },
+            {
+                "id": 302,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Livestream 150",
+                "link": "https://youtu.be/GpaZbjokFec?feature=share&t=6975"
+            },
+            {
+                "id": 303,
+                "songTitle": "Rise",
+                "artist": "Eddie Vedder",
+                "livestream": "Livestream 161",
+                "link": "https://youtu.be/Mm_r2XHf7kw?feature=share&t=5339"
+            },
+            {
+                "id": 4211,
+                "songTitle": "Mandolin improv",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 28",
+                "link": "https://youtu.be/8yEnflFWoIU&t=1618"
+            },
+            {
+                "id": 4471,
+                "songTitle": "The Battle of Evermore",
+                "artist": "Led Zeppelin",
+                "livestream": "Livestream 31 (Partial)",
+                "link": "https://youtu.be/mH3c9W8vKbc&t=3493"
+            },
+            {
+                "id": 5637,
+                "songTitle": "Losing My Religion",
+                "artist": "R.E.M",
+                "livestream": "Livestream 127",
+                "link": "https://youtu.be/goEx4wnnaQw&t=8415"
+            },
+            {
+                "id": 5638,
+                "songTitle": "Losing My Religion",
+                "artist": "R.E.M",
+                "livestream": "Livestream 22 (Audio Issues)",
+                "link": "https://youtu.be/watch?v=twwoDRDMthg&t=4345"
             }
         ]
     },
@@ -40795,6 +40648,195 @@
             }
         ]
     },
+    "seagull-artist-studio": {
+        "instrument": "(SAS) - Seagull Artist Studio",
+        "pic": "seagull-artist-studio.jpg",
+        "numOfAppearances": 5,
+        "appearances": [
+            {
+                "id": 4202,
+                "songTitle": "The Past Recedes",
+                "artist": "John Frusciante",
+                "livestream": "Livestream 42",
+                "link": "https://youtu.be/T6ydeqXOIvk&t=2604"
+            },
+            {
+                "id": 4361,
+                "songTitle": "Midnight Rider",
+                "artist": "Allman Brothers Band",
+                "livestream": "Livestream 42",
+                "link": "https://youtu.be/T6ydeqXOIvk&t=224"
+            },
+            {
+                "id": 4823,
+                "songTitle": "Nutshell",
+                "artist": "Alice In Chains",
+                "livestream": "Livestream 42",
+                "link": "https://youtu.be/T6ydeqXOIvk&t=3561"
+            },
+            {
+                "id": 4829,
+                "songTitle": "Just Like Heaven",
+                "artist": "The Cure",
+                "livestream": "Livestream 42",
+                "link": "https://youtu.be/T6ydeqXOIvk&t=4813"
+            },
+            {
+                "id": 4833,
+                "songTitle": "Patience",
+                "artist": "Chris Cornell",
+                "livestream": "Livestream 42",
+                "link": "https://youtu.be/T6ydeqXOIvk&t=8779"
+            }
+        ]
+    },
+    "furch-blue-gc-sa": {
+        "instrument": "(FBG) - Furch Blue Gc-SA",
+        "pic": "furch-blue-gc-sa.jpg",
+        "numOfAppearances": 4,
+        "appearances": [
+            {
+                "id": 1404,
+                "songTitle": "Until the End",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 46",
+                "link": "https://youtu.be/UvL7GFjtrj0&t=8355"
+            },
+            {
+                "id": 1781,
+                "songTitle": "Kiss from a Rose",
+                "artist": "Seal",
+                "livestream": "Livestream 46",
+                "link": "https://youtu.be/UvL7GFjtrj0&t=3295"
+            },
+            {
+                "id": 1992,
+                "songTitle": "Doin' Time",
+                "artist": "Sublime",
+                "livestream": "Livestream 46",
+                "link": "https://youtu.be/UvL7GFjtrj0&t=430"
+            },
+            {
+                "id": 3332,
+                "songTitle": "Into Light",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 46",
+                "link": "https://youtu.be/UvL7GFjtrj0&t=1010"
+            }
+        ]
+    },
+    "12-string-guitar": {
+        "instrument": "12-String Guitar",
+        "pic": "12-string-guitar.jpg",
+        "numOfAppearances": 3,
+        "appearances": [
+            {
+                "id": 1791,
+                "songTitle": "Life by the Drop",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/RNOrBaCku98&t=0"
+            },
+            {
+                "id": 5041,
+                "songTitle": "More Than a Feeling",
+                "artist": "Boston",
+                "livestream": "Livestream 117 (Partial)",
+                "link": "https://youtu.be/h_KbDQybQmE&t=4416"
+            },
+            {
+                "id": 5613,
+                "songTitle": "Out of Tune 12-String for Jim",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 117",
+                "link": "https://youtu.be/h_KbDQybQmE&t=4445"
+            }
+        ]
+    },
+    "blues-slide": {
+        "instrument": "Blues Slide",
+        "pic": "blues-slide.jpg",
+        "numOfAppearances": 3,
+        "appearances": [
+            {
+                "id": 4438,
+                "songTitle": "Phone Call from Leavenworth",
+                "artist": "Chris Whitley",
+                "livestream": "Livestream 136",
+                "link": "https://youtu.be/dWIijDnVkho&t=1667"
+            },
+            {
+                "id": 4853,
+                "songTitle": "Blues Slide Improv",
+                "artist": "Corey Heuvel",
+                "livestream": "Livestream 44",
+                "link": "https://youtu.be/CoQ0bS1d7uo&t=3766"
+            },
+            {
+                "id": 5032,
+                "songTitle": "Bad To The Bone",
+                "artist": "George Thorogood & The Destroyers",
+                "livestream": "Livestream 47",
+                "link": "https://youtu.be/biTNdO9Z6Y8&t=8573"
+            }
+        ]
+    },
+    "breedlove-discovery-concert-ce": {
+        "instrument": "(BDC) - Breedlove Discovery Concert CE",
+        "pic": "breedlove-discovery-concert-ce.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3773,
+                "songTitle": "Breedlove Discovery Concert CE",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=ishutnt_64o&t=6"
+            }
+        ]
+    },
+    "boucher-hg-56": {
+        "instrument": "(BHG) - Boucher HG-56",
+        "pic": "boucher-hg-56.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3766,
+                "songTitle": "Boucher HG-56 acoustic guitar demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=lwphFw4_hcg&t=6"
+            }
+        ]
+    },
+    "boucher-sg-52": {
+        "instrument": "(BSG) - Boucher SG-52",
+        "pic": "boucher-sg-52.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3752,
+                "songTitle": "Martin vs. Furch vs. Boucher | High-End Guitar Comparison",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=9_puIWsSEs0&t=46"
+            }
+        ]
+    },
+    "boucher-sg-52-i": {
+        "instrument": "(BSGI) - Boucher SG-52-I",
+        "pic": "boucher-sg-52-i.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3760,
+                "songTitle": "Boucher SG-52-I demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=W3fIfsbxoA8&t=7"
+            }
+        ]
+    },
     "dearmond-m75": {
         "instrument": "(DM75) - DeArmond M75",
         "pic": "dearmond-m75.jpg",
@@ -40809,17 +40851,101 @@
             }
         ]
     },
-    "furch-oom-vintage-1": {
-        "instrument": "(OOMV1) - Furch OOM Vintage 1",
-        "pic": "furch-oom-vintage-1.jpg",
+    "furch-blue-d-cm": {
+        "instrument": "(FBD) - Furch Blue D-CM",
+        "pic": "furch-blue-d-cm.jpg",
         "numOfAppearances": 1,
         "appearances": [
             {
-                "id": 3748,
-                "songTitle": "Furch OOM Vintage 1",
+                "id": 3759,
+                "songTitle": "Furch Blue D-CM demo",
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=gH-hi4TsFjA&t=0"
+                "link": "https://youtu.be/watch?v=_WcQbI1CTjw&t=6"
+            }
+        ]
+    },
+    "furch-g25cr-c": {
+        "instrument": "(FG) - Furch G25CR-C",
+        "pic": "furch-g25cr-c.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3768,
+                "songTitle": "Furch G25CR-C",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=IgnCuRKlP5o&t=77"
+            }
+        ]
+    },
+    "furch-om34tsr-db-b2": {
+        "instrument": "(FOB) - Furch OM34TSR-DB B2",
+        "pic": "furch-om34tsr-db-b2.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3770,
+                "songTitle": "Furch OM34TSR-DB B2",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=v73zN2V5Rhw&t=129"
+            }
+        ]
+    },
+    "furch-om22tsw-c-db-sgi": {
+        "instrument": "(FOSG) - Furch OM22TSW-C-DB SGI",
+        "pic": "furch-om22tsw-c-db-sgi.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3767,
+                "songTitle": "Furch OM22TSW-C-DB SGI",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=Ei5RItxEq9E&t=289"
+            }
+        ]
+    },
+    "furch-sgi-d22tsr": {
+        "instrument": "(FSD) - Furch *SGI* D22TSR",
+        "pic": "furch-sgi-d22tsr.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3769,
+                "songTitle": "Furch *SGI* D22TSR",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=d_8bqZ5wBUI&t=122"
+            }
+        ]
+    },
+    "furch-vintage-2-d-sr": {
+        "instrument": "(FVD) - Furch Vintage 2 D-SR",
+        "pic": "furch-vintage-2-d-sr.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3752,
+                "songTitle": "Martin vs. Furch vs. Boucher | High-End Guitar Comparison",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=9_puIWsSEs0&t=46"
+            }
+        ]
+    },
+    "godin-fairmount-concert-hall-natural-hg-eq": {
+        "instrument": "(GFCHN) - Godin Fairmount Concert Hall Natural HG EQ",
+        "pic": "godin-fairmount-concert-hall-natural-hg-eq.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3765,
+                "songTitle": "Godin Fairmount Concert Hall Natural HG EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=k3K5yNcJ1lQ&t=3"
             }
         ]
     },
@@ -40837,6 +40963,48 @@
             }
         ]
     },
+    "godin-metropolis-ltd-havana-burst-hg-eq": {
+        "instrument": "(GMLHB) - Godin Metropolis LTD Havana Burst HG EQ",
+        "pic": "godin-metropolis-ltd-havana-burst-hg-eq.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3764,
+                "songTitle": "Godin Metropolis LTD Havana Burst HG EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=cd2X99V2eGE&t=6"
+            }
+        ]
+    },
+    "godin-metropolis-ltd-natural-hg-eq": {
+        "instrument": "(GMLN) - Godin Metropolis LTD Natural HG EQ",
+        "pic": "godin-metropolis-ltd-natural-hg-eq.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3763,
+                "songTitle": "Godin Metropolis LTD Natural HG EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=B2bSZCP_4UM&t=6"
+            }
+        ]
+    },
+    "godin-metropolis-natural-cedar-eq": {
+        "instrument": "(GMNC) - Godin Metropolis Natural Cedar EQ",
+        "pic": "godin-metropolis-natural-cedar-eq.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3762,
+                "songTitle": "Godin Metropolis Natural Cedar EQ demo",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=g3Ylz2FQ7jQ&t=5"
+            }
+        ]
+    },
     "godin-progression-plus-cherry-burst-rn": {
         "instrument": "(GPPCB) - Godin Progression Plus Cherry Burst RN",
         "pic": "godin-progression-plus-cherry-burst-rn.jpg",
@@ -40848,6 +41016,34 @@
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
                 "link": "https://youtu.be/watch?v=R8qrTo2g6LE&t=5"
+            }
+        ]
+    },
+    "godin-passion-rg-3-indigo-burst-rn": {
+        "instrument": "(GPRG) - Godin Passion RG-3 Indigo Burst RN",
+        "pic": "godin-passion-rg-3-indigo-burst-rn.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3782,
+                "songTitle": "Godin Passion RG-3 Indigo Burst RN",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/mG_ZcHn5-vo?si=yxqdfRckULJMvYB8&t=5"
+            }
+        ]
+    },
+    "godin-rialto-jr-satina-gray-hg-q-discrete": {
+        "instrument": "(GRSG) - Godin Rialto JR Satina Gray HG Q-Discrete",
+        "pic": "godin-rialto-jr-satina-gray-hg-q-discrete.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3761,
+                "songTitle": "Godin Rialto JR Satina Gray HG Q-Discrete",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=o5x9v-YJtGE&t=6"
             }
         ]
     },
@@ -40865,17 +41061,17 @@
             }
         ]
     },
-    "godin-passion-rg-3-indigo-burst-rn": {
-        "instrument": "(GPRG) - Godin Passion RG-3 Indigo Burst RN",
-        "pic": "godin-passion-rg-3-indigo-burst-rn.jpg",
+    "la-patrie-etude": {
+        "instrument": "(LPE) - La Patrie Etude",
+        "pic": "la-patrie-etude.jpg",
         "numOfAppearances": 1,
         "appearances": [
             {
-                "id": 3782,
-                "songTitle": "Godin Passion RG-3 Indigo Burst RN",
+                "id": 3771,
+                "songTitle": "La Patrie Etude",
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
-                "link": "https://youtu.be/mG_ZcHn5-vo?si=yxqdfRckULJMvYB8&t=5"
+                "link": "https://youtu.be/watch?v=mT_uy6P8CQk&t=6"
             }
         ]
     },
@@ -40907,241 +41103,17 @@
             }
         ]
     },
-    "furch-vintage-2-d-sr": {
-        "instrument": "(FVD) - Furch Vintage 2 D-SR",
-        "pic": "furch-vintage-2-d-sr.jpg",
+    "norman-b20-burnt-umber": {
+        "instrument": "(NBBU) - Norman B20 Burnt Umber",
+        "pic": "norman-b20-burnt-umber.jpg",
         "numOfAppearances": 1,
         "appearances": [
             {
-                "id": 3752,
-                "songTitle": "Martin vs. Furch vs. Boucher | High-End Guitar Comparison",
+                "id": 3778,
+                "songTitle": "Norman B20 Burnt Umber",
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=9_puIWsSEs0&t=46"
-            }
-        ]
-    },
-    "boucher-sg-52": {
-        "instrument": "(BSG) - Boucher SG-52",
-        "pic": "boucher-sg-52.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3752,
-                "songTitle": "Martin vs. Furch vs. Boucher | High-End Guitar Comparison",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=9_puIWsSEs0&t=46"
-            }
-        ]
-    },
-    "furch-blue-d-cm": {
-        "instrument": "(FBD) - Furch Blue D-CM",
-        "pic": "furch-blue-d-cm.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3759,
-                "songTitle": "Furch Blue D-CM demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=_WcQbI1CTjw&t=6"
-            }
-        ]
-    },
-    "boucher-sg-52-i": {
-        "instrument": "(BSGI) - Boucher SG-52-I",
-        "pic": "boucher-sg-52-i.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3760,
-                "songTitle": "Boucher SG-52-I demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=W3fIfsbxoA8&t=7"
-            }
-        ]
-    },
-    "godin-rialto-jr-satina-gray-hg-q-discrete": {
-        "instrument": "(GRSG) - Godin Rialto JR Satina Gray HG Q-Discrete",
-        "pic": "godin-rialto-jr-satina-gray-hg-q-discrete.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3761,
-                "songTitle": "Godin Rialto JR Satina Gray HG Q-Discrete",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=o5x9v-YJtGE&t=6"
-            }
-        ]
-    },
-    "godin-metropolis-natural-cedar-eq": {
-        "instrument": "(GMNC) - Godin Metropolis Natural Cedar EQ",
-        "pic": "godin-metropolis-natural-cedar-eq.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3762,
-                "songTitle": "Godin Metropolis Natural Cedar EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=g3Ylz2FQ7jQ&t=5"
-            }
-        ]
-    },
-    "godin-metropolis-ltd-natural-hg-eq": {
-        "instrument": "(GMLN) - Godin Metropolis LTD Natural HG EQ",
-        "pic": "godin-metropolis-ltd-natural-hg-eq.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3763,
-                "songTitle": "Godin Metropolis LTD Natural HG EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=B2bSZCP_4UM&t=6"
-            }
-        ]
-    },
-    "godin-metropolis-ltd-havana-burst-hg-eq": {
-        "instrument": "(GMLHB) - Godin Metropolis LTD Havana Burst HG EQ",
-        "pic": "godin-metropolis-ltd-havana-burst-hg-eq.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3764,
-                "songTitle": "Godin Metropolis LTD Havana Burst HG EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=cd2X99V2eGE&t=6"
-            }
-        ]
-    },
-    "godin-fairmount-concert-hall-natural-hg-eq": {
-        "instrument": "(GFCHN) - Godin Fairmount Concert Hall Natural HG EQ",
-        "pic": "godin-fairmount-concert-hall-natural-hg-eq.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3765,
-                "songTitle": "Godin Fairmount Concert Hall Natural HG EQ demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=k3K5yNcJ1lQ&t=3"
-            }
-        ]
-    },
-    "boucher-hg-56": {
-        "instrument": "(BHG) - Boucher HG-56",
-        "pic": "boucher-hg-56.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3766,
-                "songTitle": "Boucher HG-56 acoustic guitar demo",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=lwphFw4_hcg&t=6"
-            }
-        ]
-    },
-    "furch-om22tsw-c-db-sgi": {
-        "instrument": "(FOSG) - Furch OM22TSW-C-DB SGI",
-        "pic": "furch-om22tsw-c-db-sgi.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3767,
-                "songTitle": "Furch OM22TSW-C-DB SGI",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=Ei5RItxEq9E&t=289"
-            }
-        ]
-    },
-    "furch-g25cr-c": {
-        "instrument": "(FG) - Furch G25CR-C",
-        "pic": "furch-g25cr-c.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3768,
-                "songTitle": "Furch G25CR-C",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=IgnCuRKlP5o&t=77"
-            }
-        ]
-    },
-    "furch-sgi-d22tsr": {
-        "instrument": "(FSD) - Furch *SGI* D22TSR",
-        "pic": "furch-sgi-d22tsr.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3769,
-                "songTitle": "Furch *SGI* D22TSR",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=d_8bqZ5wBUI&t=122"
-            }
-        ]
-    },
-    "furch-om34tsr-db-b2": {
-        "instrument": "(FOB) - Furch OM34TSR-DB B2",
-        "pic": "furch-om34tsr-db-b2.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3770,
-                "songTitle": "Furch OM34TSR-DB B2",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=v73zN2V5Rhw&t=129"
-            }
-        ]
-    },
-    "la-patrie-etude": {
-        "instrument": "(LPE) - La Patrie Etude",
-        "pic": "la-patrie-etude.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3771,
-                "songTitle": "La Patrie Etude",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=mT_uy6P8CQk&t=6"
-            }
-        ]
-    },
-    "breedlove-discovery-concert-ce": {
-        "instrument": "(BDC) - Breedlove Discovery Concert CE",
-        "pic": "breedlove-discovery-concert-ce.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3773,
-                "songTitle": "Breedlove Discovery Concert CE",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=ishutnt_64o&t=6"
-            }
-        ]
-    },
-    "norman-st40-parlor-burnt-umber": {
-        "instrument": "(NSPBU) - Norman ST40 Parlor Burnt Umber",
-        "pic": "norman-st40-parlor-burnt-umber.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3775,
-                "songTitle": "Norman ST40 Parlor Burnt Umber",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=D9DKuTAIz9Y&t=75"
+                "link": "https://youtu.be/watch?v=7V3E_Yc28BY&t=63"
             }
         ]
     },
@@ -41159,20 +41131,6 @@
             }
         ]
     },
-    "norman-b20-burnt-umber": {
-        "instrument": "(NBBU) - Norman B20 Burnt Umber",
-        "pic": "norman-b20-burnt-umber.jpg",
-        "numOfAppearances": 1,
-        "appearances": [
-            {
-                "id": 3778,
-                "songTitle": "Norman B20 Burnt Umber",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/watch?v=7V3E_Yc28BY&t=63"
-            }
-        ]
-    },
     "norman-st40-cw-gt-presys": {
         "instrument": "(NSCG) - Norman ST40 CW GT Presys",
         "pic": "norman-st40-cw-gt-presys.jpg",
@@ -41184,6 +41142,20 @@
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
                 "link": "https://youtu.be/watch?v=4FuSiImdfl8&t=78"
+            }
+        ]
+    },
+    "norman-st40-parlor-burnt-umber": {
+        "instrument": "(NSPBU) - Norman ST40 Parlor Burnt Umber",
+        "pic": "norman-st40-parlor-burnt-umber.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3775,
+                "songTitle": "Norman ST40 Parlor Burnt Umber",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=D9DKuTAIz9Y&t=75"
             }
         ]
     },
@@ -41201,6 +41173,20 @@
             }
         ]
     },
+    "furch-oom-vintage-1": {
+        "instrument": "(OOMV1) - Furch OOM Vintage 1",
+        "pic": "furch-oom-vintage-1.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 3748,
+                "songTitle": "Furch OOM Vintage 1",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/watch?v=gH-hi4TsFjA&t=0"
+            }
+        ]
+    },
     "stonebridge-d22sr": {
         "instrument": "(SD22) - Stonebridge D22SR",
         "pic": "stonebridge-d22sr.jpg",
@@ -41212,6 +41198,20 @@
                 "artist": "Corey Heuvel",
                 "livestream": "Solo Video",
                 "link": "https://youtu.be/watch?v=QyBV1PpvcHc&t=65"
+            }
+        ]
+    },
+    "stonebridge-om35asr-db": {
+        "instrument": "(SOM) - Stonebridge OM35ASR-DB",
+        "pic": "stonebridge-om35asr-db.jpg",
+        "numOfAppearances": 1,
+        "appearances": [
+            {
+                "id": 1811,
+                "songTitle": "Hand in My Pocket",
+                "artist": "Alanis Morissette",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/sdZ4P0cil_A&t=0"
             }
         ]
     }
