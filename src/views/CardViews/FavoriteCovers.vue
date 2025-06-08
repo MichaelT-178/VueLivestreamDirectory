@@ -1,71 +1,125 @@
 <template>
   <div>
-    <HeaderWithIcon
-      title="My Favorite Covers"
-      icon="heart"
-      iconColor="#F472B6"
-    />
+    <div class="content-wrapper">
+      <HeaderWithIcon
+        title="My Favorite Covers"
+        icon="heart"
+        iconColor="#F472B6"
+      />
 
-    <div class="grid">
-      <div
-        v-for="cover in AllData.FavoriteCovers"
-        :key="cover.id"
-        class="square"
-      >
-        <a :href="cover.Link" target="_blank" rel="noopener noreferrer">
-          <img
-            :src="getImagePath(cover)"
-            class="album-img"
-            :alt="cover.Song"
-          />
-        </a>
-        <p class="song">{{ cover.Song }} by {{ cover.Artist }}</p>
-        <p class="appearance">{{ cover.Appearance }}</p>
+      <div class="search-bar-container">
+        <font-awesome-icon icon="search" class="search-icon" />
+        <input 
+          id="cover-search"
+          name="cover-search"
+          v-model="searchQuery" 
+          type="text" 
+          placeholder="Filter by song or artist"
+          class="search-bar"
+        />
+      </div>
+
+      <div class="grid">
+        <div
+          v-for="cover in filteredCovers"
+          :key="cover.id"
+          class="square"
+        >
+          <a :href="cover.Link" target="_blank" rel="noopener noreferrer">
+            <img
+              :src="getImagePath(cover)"
+              class="album-img"
+              :alt="cover.Song"
+            />
+          </a>
+          <p class="song">{{ cover.Song }} by {{ cover.Artist }}</p>
+          <p class="appearance">{{ cover.Appearance }}</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import AllData from "../../assets/Data/FavCovers.json";
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+const searchQuery = ref('');
+
+const filteredCovers = computed(() => {
+  const query = searchQuery.value.toLowerCase();
+  return AllData.FavoriteCovers.filter(cover =>
+    cover.Song.toLowerCase().includes(query) ||
+    cover.Artist.toLowerCase().includes(query)
+  );
+});
 
 onMounted(() => {
   window.scrollTo(0, 0);
 });
 
 const getImagePath = (song) => {
-
   if (!song.ArtistPic) {
     return new URL(`../../assets/AlbumPics/${song.AlbumImage}.jpg`, import.meta.url).href;
   }
-
   return new URL(`../../assets/ArtistPics/${song.AlbumImage}.jpg`, import.meta.url).href;
-
 };
-
 </script>
 
-
 <style scoped>
-.title {
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 20px;
+.content-wrapper {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 1rem 0;
+  padding-bottom: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 9px 10px 9px 37px;
+  border-radius: 6px;
+  background-color: #eeeded;
+  border: 2px solid #eeeded;
+  font-size: 16px;
+  color: #111;
+  box-sizing: border-box;
+}
+
+.search-bar::placeholder {
+  color: #555;
+}
+
+.search-bar:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #f472b6;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 38%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #555;
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 16px;
-  padding: 20px;
 }
 
 .square {
-  background-color: #F472B6;
+  background-color: #1f2937;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
@@ -87,6 +141,6 @@ const getImagePath = (song) => {
 
 .appearance {
   font-size: 12px;
-  color: #aaa;
+  color: #ddd;
 }
 </style>
