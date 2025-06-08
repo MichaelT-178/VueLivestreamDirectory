@@ -20,31 +20,33 @@
       </div>
 
       <div class="grid">
-        <div
+        <a
           v-for="cover in filteredCovers"
           :key="cover.id"
-          class="square"
+          :href="cover.Link"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="cover-card"
         >
-          <a :href="cover.Link" target="_blank" rel="noopener noreferrer">
-            <img
-              :src="getImagePath(cover)"
-              class="album-img"
-              :alt="cover.Song"
-            />
-          </a>
+          <img
+            :src="getImagePath(cover)"
+            class="album-img"
+            :alt="cover.Song"
+          />
           <div class="text-content">
             <p class="song">{{ cover.Song }} by {{ cover.Artist }}</p>
             <p class="appearance">{{ cover.Appearance }}</p>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
 </template>
 
+
 <script setup>
 import { ref, computed, onMounted } from 'vue';
-import AllData from "../../assets/Data/FavCovers.json";
+import AllData from '../../assets/Data/FavCovers.json';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
@@ -52,23 +54,29 @@ const searchQuery = ref('');
 
 const filteredCovers = computed(() => {
   const query = searchQuery.value.toLowerCase();
+
   return AllData.FavoriteCovers.filter(cover =>
     cover.Song.toLowerCase().includes(query) ||
     cover.Artist.toLowerCase().includes(query)
   );
 });
 
-onMounted(() => {
-  window.scrollTo(0, 0);
-});
 
 const getImagePath = (song) => {
   if (!song.ArtistPic) {
     return new URL(`../../assets/AlbumPics/${song.AlbumImage}.jpg`, import.meta.url).href;
   }
+
   return new URL(`../../assets/ArtistPics/${song.AlbumImage}.jpg`, import.meta.url).href;
 };
+
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+
 </script>
+
 
 <style scoped>
 .content-wrapper {
@@ -120,12 +128,19 @@ const getImagePath = (song) => {
   gap: 16px;
 }
 
-.square {
+.cover-card {
   background-color: #1f2937;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
   color: white;
+  text-decoration: none;
+  display: block;
+  transition: transform 0.15s ease;
+}
+
+.cover-card:hover {
+  transform: translateY(-3px);
 }
 
 .album-img {
@@ -146,15 +161,14 @@ const getImagePath = (song) => {
   color: #ddd;
 }
 
-/* Responsive layout for screens under 400px */
 @media (max-width: 400px) {
   .grid {
     display: flex;
     flex-direction: column;
-    gap: 12px; /* slight spacing between items, tweak as needed */
+    gap: 12px;
   }
 
-  .square {
+  .cover-card {
     display: flex;
     flex-direction: row;
     align-items: center;

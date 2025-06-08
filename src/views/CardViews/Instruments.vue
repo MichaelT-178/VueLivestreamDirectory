@@ -23,6 +23,11 @@ import Instruments from '../../assets/Data/instruments.json';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import InstrumentCard from '../../components/InstrumentCard.vue';
 
+const instrumentTypes = [
+  'Acoustic', 'Electric', 'Classical', 
+  'Harmonica', 'Mandolin', 'Blues Slide'
+];
+
 onMounted(() => {
   window.scrollTo(0, 0);
 });
