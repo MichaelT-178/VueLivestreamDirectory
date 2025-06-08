@@ -1,8 +1,8 @@
 <template>
-  <div class="search-bar-wrapper">
+  <div class="search-bar-wrapper" ref="searchWrapper">
     <div 
       class="search-bar-background"
-      :class="{ 'has-dropdown': filteredResults.length > 0 }"
+      :class="{ 'has-dropdown': filteredResults.length > 0 && isFocused }"
     >
       <font-awesome-icon icon="search" class="search-icon" />
       <input 
@@ -14,15 +14,17 @@
         placeholder="Search by song, artist, or instrument"
         @input="filterResults"
         @keyup.enter="handleEnter"
+        @focus="handleFocus"
+        @blur="handleBlur"
       />
     </div>
 
-    <ul v-if="filteredResults.length" class="search-dropdown">
+    <ul v-if="filteredResults.length && isFocused" class="search-dropdown">
       <li 
         v-for="(item, index) in filteredResults.slice(0, 30)" 
         :key="`${item.id}-${index}`"
         class="search-item"
-        @click="navigateTo(item)"
+        @mousedown.prevent="navigateTo(item)"
       >
         <img 
           :src="getImagePath(item)" 
@@ -50,7 +52,10 @@ import SearchData from '../assets/Data/SearchData.json';
 
 const query = ref('');
 const filteredResults = ref([]);
+const isFocused = ref(false);
+const searchWrapper = ref(null);
 const router = useRouter();
+
 
 const filterResults = () => {
   const raw = query.value.trim().toLowerCase();
@@ -62,7 +67,6 @@ const filterResults = () => {
 
   let songPart = '';
   let artistPart = '';
-
   const isBySearch = raw.includes(" by") && !raw.includes(" drop") && 
                      !raw.includes("vain") && !raw.includes("by the river");
 
@@ -94,27 +98,33 @@ const filterResults = () => {
       byMatch
     );
   });
-}
+};
+
 
 const handleEnter = () => {
   if (filteredResults.value.length === 1) {
     navigateTo(filteredResults.value[0]);
   }
-}
+};
+
 
 const getImagePath = (item) => {
   try {
     if (item.Type === 'Artist') {
       return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
     } else if (item.Type === 'Song' && item.CleanedPicture) {
+
       const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
       return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
     }
+
   } catch (e) {
     return '';
   }
+
   return '';
-}
+};
+
 
 const navigateTo = (item) => {
   if (item.Type === 'Artist') {
@@ -122,8 +132,25 @@ const navigateTo = (item) => {
   } else if (item.Type === 'Song') {
     router.push(`/song/${item.cleanedTitle}`);
   }
-}
+};
+
+
+const handleFocus = () => {
+  isFocused.value = true;
+
+  if (query.value.trim()) {
+    filterResults();
+  }
+};
+
+const handleBlur = () => {
+  setTimeout(() => {
+    isFocused.value = false;
+  }, 0);
+};
+
 </script>
+
 
 <style scoped>
 .search-bar-wrapper {
@@ -187,7 +214,7 @@ const navigateTo = (item) => {
   right: 0;
   background: white;
   border: 1px solid #ccc;
-  max-height: calc(6 * 60px + 1px); /* 6 items tall */
+  max-height: calc(6 * 60px + 1px);
   overflow-y: auto;
   z-index: 10;
   padding: 0;
@@ -234,7 +261,6 @@ const navigateTo = (item) => {
   color: #666;
 }
 
-
 @media (max-width: 900px) {
   .search-bar-wrapper {
     width: 80%;
@@ -261,4 +287,5 @@ const navigateTo = (item) => {
     display: none;
   }
 }
+
 </style>
