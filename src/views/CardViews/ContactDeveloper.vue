@@ -1,67 +1,81 @@
 <template>
   <div class="contact-container">
+    <div class="form-layout">
 
-    <div class="form-wrapper">
-      <h1>Contact The Developer</h1>
-      <p class="intro-text">Feel free to message me and I'll try to respond as soon as possible!</p>
-
-      <div class="form-group">
-        <label for="name" class="form-label">
-          Your Name <span class="required">*</span>
-        </label>
-        <input
-          autocomplete="off"
-          type="text"
-          id="name"
-          v-model="userName"
-          placeholder="Enter your name"
+      <div class="header-with-icon">
+        <HeaderWithIcon
+          title=""
+          icon="email"
+          iconColor="#60A5FA"
         />
       </div>
 
-      <div class="form-group">
-        <label for="email" class="form-label">
-          Your Email <span class="required">*</span>
-        </label>
-        <input
-          type="email"
-          id="email"
-          v-model="userEmail"
-          placeholder="Enter your email"
-        />
-      </div>
+      <div class="form-wrapper">
+        <h1>Contact The Developer</h1>
+        <p class="intro-text">
+          Feel free to message me and I'll try to respond as soon as possible!
+        </p>
 
-      <div class="form-group">
-        <label for="message" class="form-label">
-          Message <span class="required">*</span>
-        </label>
-        <textarea
-          id="message"
-          v-model="userMessage"
-          placeholder="Enter your message"
-        ></textarea>
-      </div>
+        <div class="form-group">
+          <label for="name" class="form-label">
+            Your Name <span class="required">*</span>
+          </label>
+          <input
+            autocomplete="off"
+            type="text"
+            id="name"
+            v-model="userName"
+            placeholder="Enter your name"
+          />
+        </div>
 
-      <button
-        type="submit"
-        class="send-email-btn"
-        @click="submitForm"
-        :disabled="!isFormValid"
-        :class="{
-          valid: isFormValid && !isButtonClicked,
-          clicked: isButtonClicked,
-          default: !isFormValid && !isButtonClicked
-        }"
-      >
-        {{ buttonText }}
-      </button>
+        <div class="form-group">
+          <label for="email" class="form-label">
+            Your Email <span class="required">*</span>
+          </label>
+          <input
+            type="email"
+            id="email"
+            v-model="userEmail"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="form-label">
+            Message <span class="required">*</span>
+          </label>
+          <textarea
+            id="message"
+            v-model="userMessage"
+            placeholder="Enter your message"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="send-email-btn"
+          @click="submitForm"
+          :disabled="!isFormValid"
+          :class="{
+            valid: isFormValid && !isButtonClicked,
+            clicked: isButtonClicked,
+            default: !isFormValid && !isButtonClicked
+          }"
+        >
+          {{ buttonText }}
+        </button>
+      </div>
     </div>
   </div>
 </template>
+
 
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 
 const userName = ref('');
 const userEmail = ref('');
@@ -69,14 +83,21 @@ const userMessage = ref('');
 const isButtonClicked = ref(false);
 const buttonText = ref('Submit');
 
-emailjs.init('dOPbPkrmT8oDiIZ9R');
+const publicEmailKey = 'dOPbPkrmT8oDiIZ9R';
+
+emailjs.init(publicEmailKey);
+
 
 const isFormValid = computed(() => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return userName.value.trim() !== '' &&
-         userEmail.value.match(emailRegex) &&
-         userMessage.value.trim() !== '';
+
+  return (
+    userName.value.trim() !== '' &&
+    emailRegex.test(userEmail.value) &&
+    userMessage.value.trim() !== ''
+  );
 });
+
 
 const submitForm = () => {
   if (!isFormValid.value) return;
@@ -85,14 +106,15 @@ const submitForm = () => {
   buttonText.value = 'Sending...';
 
   const templateParams = {
-    subject: "New message from Livestream Directory",
-    website: "Livestream Directory",
+    subject: 'New message from Livestream Directory',
+    website: 'Livestream Directory',
     from_name: userName.value,
-    from_email: `${userEmail.value}`,
-    message: userMessage.value
+    from_email: userEmail.value,
+    message: userMessage.value,
   };
 
-  emailjs.send('service_1uyrj7k', 'template_fnsn7pw', templateParams)
+  emailjs
+    .send('service_1uyrj7k', 'template_fnsn7pw', templateParams)
     .then(() => {
       Swal.fire('Sent!', 'Your message has been sent successfully!', 'success');
       userName.value = '';
@@ -112,24 +134,25 @@ const submitForm = () => {
 onMounted(() => {
   window.scrollTo(0, 0);
 });
+
 </script>
+
 
 <style scoped>
 .contact-container {
-  /* background-color: #0F172A; */
   background-color: transparent;
   min-height: 100vh;
   padding: 2rem 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
-.header-wrapper {
+.form-layout {
   width: 100%;
   max-width: 600px;
-  margin-bottom: 1.5rem;
-  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .form-wrapper {
@@ -137,10 +160,9 @@ onMounted(() => {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  max-width: 600px;
   width: 100%;
-  box-sizing: border-box;
   color: white;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -202,7 +224,6 @@ textarea {
   font-weight: bold;
 }
 
-/* States */
 .send-email-btn.default {
   background-color: gray;
   cursor: not-allowed;
@@ -226,8 +247,11 @@ input:focus,
 textarea:focus {
   outline: none;
   outline: 2px solid #3b82f6;
-  /* outline-offset: 2px;
-  border-color: #3b82f6; */
+}
+
+.header-with-icon {
+  /* margin-top: -10px; */
+  padding-bottom: 10px;
 }
 
 @media (max-width: 400px) {
@@ -236,7 +260,7 @@ textarea:focus {
   }
 
   .form-wrapper {
-    padding: 0.75rem;
+    padding: 1rem;
   }
 }
 
