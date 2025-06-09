@@ -19507,7 +19507,7 @@
                 "link": "https://youtu.be/PvNuNSk9iPM&t=2379"
             },
             {
-                "id": 2986,
+                "id": 2987,
                 "songTitle": "Jeremy",
                 "artist": "Pearl Jam",
                 "livestream": "Solo Video (LS 160 Clip)",
@@ -35737,7 +35737,7 @@
     "electric-guitar": {
         "instrument": "Fender Telecaster",
         "pic": "electric-guitar.jpg",
-        "numOfAppearances": 211,
+        "numOfAppearances": 190,
         "appearances": [
             {
                 "id": 1,
@@ -35817,13 +35817,6 @@
                 "link": "https://youtu.be/biTNdO9Z6Y8&t=8625"
             },
             {
-                "id": 625,
-                "songTitle": "Satch Boogie",
-                "artist": "Joe Satriani",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/X_cwsmILXXk&t=0"
-            },
-            {
                 "id": 626,
                 "songTitle": "Satch Boogie",
                 "artist": "Joe Satriani",
@@ -35852,32 +35845,11 @@
                 "link": "https://youtu.be/watch?v=lfNvWAOnwQw&t=7220"
             },
             {
-                "id": 831,
-                "songTitle": "Indian Style Guitar Improvisation",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/4bPSEphs5Hc&t=0"
-            },
-            {
-                "id": 833,
-                "songTitle": "Solsbury Hill",
-                "artist": "Peter Gabriel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/vGOATBTIGy8&t=0"
-            },
-            {
                 "id": 897,
                 "songTitle": "Machine Gun",
                 "artist": "Jimi Hendrix",
                 "livestream": "Solo Video",
                 "link": "https://youtu.be/8n3PhO-2QcM&t=0"
-            },
-            {
-                "id": 898,
-                "songTitle": "Machine Gun",
-                "artist": "Jimi Hendrix",
-                "livestream": "Solo Video (Live)",
-                "link": "https://youtu.be/Z9KyZZDQXyo&t=0"
             },
             {
                 "id": 1119,
@@ -35936,20 +35908,6 @@
                 "link": "https://youtu.be/MhNKFJxwK8g&t=2100"
             },
             {
-                "id": 2333,
-                "songTitle": "If It's Wrong (It's Alright)",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/zoOwb0lHWoI&t=0"
-            },
-            {
-                "id": 2334,
-                "songTitle": "If It's Wrong (It's Alright)",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/STtz1u-RacA&t=0"
-            },
-            {
                 "id": 2344,
                 "songTitle": "If It's Wrong (It's Alright)",
                 "artist": "Corey Heuvel",
@@ -35969,13 +35927,6 @@
                 "artist": "Jimi Hendrix",
                 "livestream": "Livestream 8 (Audio Issues)",
                 "link": "https://youtu.be/watch?v=x3skjeOvXxo&t=6937"
-            },
-            {
-                "id": 2608,
-                "songTitle": "Tightrope",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/BwuqxrPeUAA&t=173"
             },
             {
                 "id": 2625,
@@ -36006,13 +35957,6 @@
                 "link": "https://youtu.be/biTNdO9Z6Y8&t=9371"
             },
             {
-                "id": 2965,
-                "songTitle": "Into The Heavens",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/AAY7V3ZHVpc&t=0"
-            },
-            {
                 "id": 2968,
                 "songTitle": "Into The Heavens",
                 "artist": "Corey Heuvel",
@@ -36020,81 +35964,11 @@
                 "link": "https://youtu.be/0vseNNLzOWY&t=8010"
             },
             {
-                "id": 2969,
-                "songTitle": "Green Light Girl",
-                "artist": "Doyle Bramhall II, Smokestack",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/w5MzR9MYnbk&t=0"
-            },
-            {
-                "id": 2970,
-                "songTitle": "Green Light Girl",
-                "artist": "Doyle Bramhall II, Smokestack",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/BwuqxrPeUAA&t=416"
-            },
-            {
-                "id": 2972,
-                "songTitle": "Drowning In Your Love",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/mf_l06TFiV4&t=0"
-            },
-            {
-                "id": 2975,
-                "songTitle": "Tension",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/BwuqxrPeUAA&t=0"
-            },
-            {
-                "id": 2976,
-                "songTitle": "Tension",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/upfONr2TXSA&t=0"
-            },
-            {
-                "id": 2978,
-                "songTitle": "Sunshine Of Your Love",
-                "artist": "Cream",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/BwuqxrPeUAA&t=614"
-            },
-            {
-                "id": 2980,
-                "songTitle": "My Favorite Obsession",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/BwuqxrPeUAA&t=906"
-            },
-            {
-                "id": 2987,
-                "songTitle": "Jeremy",
-                "artist": "Pearl Jam",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/BwuqxrPeUAA&t=1178"
-            },
-            {
-                "id": 3073,
-                "songTitle": "Red House",
-                "artist": "Jimi Hendrix",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/YUMC0hwzw1Q&t=0"
-            },
-            {
                 "id": 3079,
                 "songTitle": "Red House",
                 "artist": "Jimi Hendrix",
                 "livestream": "Livestream 8 (Audio Issues)",
                 "link": "https://youtu.be/watch?v=x3skjeOvXxo&t=7159"
-            },
-            {
-                "id": 3080,
-                "songTitle": "Hallelujah",
-                "artist": "Jeff Buckley",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/a904WxKicrw&t=0"
             },
             {
                 "id": 3081,
@@ -36111,25 +35985,11 @@
                 "link": "https://youtu.be/watch?v=x3skjeOvXxo&t=6635"
             },
             {
-                "id": 3535,
-                "songTitle": "The Crush of Love",
-                "artist": "Joe Satriani",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/N3-L4qJc5Fk&t=0"
-            },
-            {
                 "id": 3543,
                 "songTitle": "Money for Nothing",
                 "artist": "Dire Straits",
                 "livestream": "Livestream 8 (Audio Issues)",
                 "link": "https://youtu.be/watch?v=x3skjeOvXxo&t=7835"
-            },
-            {
-                "id": 3548,
-                "songTitle": "Couldn't Stand the Weather",
-                "artist": "Stevie Ray Vaughan",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/r-oQD94YDEQ?si=jhiIoWNDWPETy2vi&t=0"
             },
             {
                 "id": 3554,
@@ -36144,13 +36004,6 @@
                 "artist": "Rush",
                 "livestream": "Livestream 30",
                 "link": "https://youtu.be/9zUVfKZrSGs&t=7565"
-            },
-            {
-                "id": 3573,
-                "songTitle": "Led Boots",
-                "artist": "Jeff Beck",
-                "livestream": "Solo Video",
-                "link": "https://youtu.be/oN18DSmCMKI&t=0"
             },
             {
                 "id": 3574,
@@ -40837,10 +40690,157 @@
             }
         ]
     },
+    "fender-stratocaster": {
+        "instrument": "(Strat) - Fender Stratocaster",
+        "pic": "fender-stratocaster.jpg",
+        "numOfAppearances": 20,
+        "appearances": [
+            {
+                "id": 625,
+                "songTitle": "Satch Boogie",
+                "artist": "Joe Satriani",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/X_cwsmILXXk&t=0"
+            },
+            {
+                "id": 831,
+                "songTitle": "Indian Style Guitar Improvisation",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/4bPSEphs5Hc&t=0"
+            },
+            {
+                "id": 833,
+                "songTitle": "Solsbury Hill",
+                "artist": "Peter Gabriel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/vGOATBTIGy8&t=0"
+            },
+            {
+                "id": 898,
+                "songTitle": "Machine Gun",
+                "artist": "Jimi Hendrix",
+                "livestream": "Solo Video (Live)",
+                "link": "https://youtu.be/Z9KyZZDQXyo&t=0"
+            },
+            {
+                "id": 2333,
+                "songTitle": "If It's Wrong (It's Alright)",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/zoOwb0lHWoI&t=0"
+            },
+            {
+                "id": 2334,
+                "songTitle": "If It's Wrong (It's Alright)",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/STtz1u-RacA&t=0"
+            },
+            {
+                "id": 2608,
+                "songTitle": "Tightrope",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/BwuqxrPeUAA&t=173"
+            },
+            {
+                "id": 2965,
+                "songTitle": "Into The Heavens",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/AAY7V3ZHVpc&t=0"
+            },
+            {
+                "id": 2969,
+                "songTitle": "Green Light Girl",
+                "artist": "Doyle Bramhall II, Smokestack",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/w5MzR9MYnbk&t=0"
+            },
+            {
+                "id": 2970,
+                "songTitle": "Green Light Girl",
+                "artist": "Doyle Bramhall II, Smokestack",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/BwuqxrPeUAA&t=416"
+            },
+            {
+                "id": 2972,
+                "songTitle": "Drowning In Your Love",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/mf_l06TFiV4&t=0"
+            },
+            {
+                "id": 2975,
+                "songTitle": "Tension",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/BwuqxrPeUAA&t=0"
+            },
+            {
+                "id": 2976,
+                "songTitle": "Tension",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/upfONr2TXSA&t=0"
+            },
+            {
+                "id": 2978,
+                "songTitle": "Sunshine Of Your Love",
+                "artist": "Cream",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/BwuqxrPeUAA&t=614"
+            },
+            {
+                "id": 2980,
+                "songTitle": "My Favorite Obsession",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/BwuqxrPeUAA&t=906"
+            },
+            {
+                "id": 2986,
+                "songTitle": "Jeremy",
+                "artist": "Pearl Jam",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/BwuqxrPeUAA&t=1178"
+            },
+            {
+                "id": 3073,
+                "songTitle": "Red House",
+                "artist": "Jimi Hendrix",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/YUMC0hwzw1Q&t=0"
+            },
+            {
+                "id": 3080,
+                "songTitle": "Hallelujah",
+                "artist": "Jeff Buckley",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/a904WxKicrw&t=0"
+            },
+            {
+                "id": 3548,
+                "songTitle": "Couldn't Stand the Weather",
+                "artist": "Stevie Ray Vaughan",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/r-oQD94YDEQ?si=jhiIoWNDWPETy2vi&t=0"
+            },
+            {
+                "id": 3573,
+                "songTitle": "Led Boots",
+                "artist": "Jeff Beck",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/oN18DSmCMKI&t=0"
+            }
+        ]
+    },
     "dearmond-m75": {
         "instrument": "(DM75) - DeArmond M75",
         "pic": "dearmond-m75.jpg",
-        "numOfAppearances": 1,
+        "numOfAppearances": 2,
         "appearances": [
             {
                 "id": 629,
@@ -40848,6 +40848,13 @@
                 "artist": "Joe Satriani",
                 "livestream": "Livestream 100",
                 "link": "https://youtu.be/GDMlH7bT0FA&t=7525"
+            },
+            {
+                "id": 3535,
+                "songTitle": "The Crush of Love",
+                "artist": "Joe Satriani",
+                "livestream": "Solo Video",
+                "link": "https://youtu.be/N3-L4qJc5Fk&t=0"
             }
         ]
     },
