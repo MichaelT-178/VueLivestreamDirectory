@@ -4,6 +4,9 @@
       :title="song.Title"
       icon="audiolines"
       iconColor="#FB923C"
+      :leadingIcon="headerConfig.leadingIcon"
+      :leadingIconColor="headerConfig.leadingIconColor"
+      :leadingIconRoute="headerConfig.leadingIconRoute"
     />
 
     <h1>{{ song.Title }}</h1>
@@ -60,10 +63,29 @@ import SongData from '../assets/Data/songs.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
-  title: String
+  title: String,
+  artist: {
+    type: String,
+    required: false
+  }
 })
 
 const song = computed(() => SongData[props.title])
+
+const headerConfig = computed(() => {
+  if (props.artist) {
+    return {
+      leadingIcon: 'palette',
+      leadingIconColor: '#FB923C',
+      leadingIconRoute: `/artist/${props.artist}`
+    }
+  }
+  return {
+    leadingIcon: 'home',
+    leadingIconColor: '#38bdf8',
+    leadingIconRoute: '/'
+  }
+})
 
 const getImagePath = () => {
   if (!song.value) return ''

@@ -23,7 +23,7 @@
           class="song-item"
         >
           <router-link 
-            :to="{ name: 'SongPage', params: { title: song.CleanedTitle } }" 
+            :to="{ name: 'SongPageWithArtist', params: { title: song.CleanedTitle, artist: artist.CleanedArtist } }" 
             class="song-link"
           >
             <img
