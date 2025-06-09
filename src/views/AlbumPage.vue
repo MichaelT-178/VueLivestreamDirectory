@@ -1,5 +1,14 @@
 <template>
+  
   <div class="page-container" v-if="album">
+    
+    <HeaderWithIcon
+      :title="album.AlbumTitle"
+      icon="palette"
+      iconColor="#FB923C"
+    />
+
+
     <h1>{{ album.AlbumTitle }}</h1>
 
     <img 
@@ -36,6 +45,7 @@
 <script setup>
 import { computed, onMounted } from 'vue'
 import AlbumData from '../assets/Data/albums.json'
+import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
   name: String

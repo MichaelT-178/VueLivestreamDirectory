@@ -1,6 +1,5 @@
 <template>
   <div class="page-container" v-if="artist">
-
     <HeaderWithIcon
       :title="artist.Artist"
       icon="palette"
@@ -18,9 +17,25 @@
     <div class="songs" v-if="artist.Songs && artist.Songs.length">
       <h2>Songs</h2>
       <ul>
-        <li v-for="song in artist.Songs" :key="song.Id">
-          <p><strong>Title:</strong> {{ song.Title }}</p>
-          <p v-if="song.Album"><strong>Album:</strong> {{ song.Album }}</p>
+        <li 
+          v-for="song in artist.Songs" 
+          :key="song.Id" 
+          class="song-item"
+        >
+          <router-link 
+            :to="{ name: 'SongPage', params: { title: song.CleanedTitle } }" 
+            class="song-link"
+          >
+            <img
+              :src="getSongImagePath(song)"
+              :alt="song.Title"
+              class="song-image"
+            />
+            <div class="song-info">
+              <p><strong>Title:</strong> {{ song.Title }}</p>
+              <p v-if="song.Album"><strong>Album:</strong> {{ song.Album }}</p>
+            </div>
+          </router-link>
         </li>
       </ul>
     </div>
@@ -28,16 +43,25 @@
     <div class="albums" v-if="artist.Albums && artist.Albums.length">
       <h2>Albums</h2>
       <ul>
-        <li v-for="album in artist.Albums" :key="album.CleanedTitle" class="album-item">
-          <img 
-            :src="getAlbumImagePath(album.CleanedTitle)" 
-            :alt="album.Title" 
-            class="album-image"
-          />
-          <div class="album-info">
-            <p><strong>Title:</strong> {{ album.Title }}</p>
-            <p><strong>Year:</strong> {{ album.Year }}</p>
-          </div>
+        <li 
+          v-for="album in artist.Albums" 
+          :key="album.CleanedTitle" 
+          class="album-item"
+        >
+          <router-link 
+            :to="{ name: 'AlbumPage', params: { cleanedTitle: album.CleanedTitle } }" 
+            class="album-link"
+          >
+            <img 
+              :src="getAlbumImagePath(album.CleanedTitle)" 
+              :alt="album.Title" 
+              class="album-image"
+            />
+            <div class="album-info">
+              <p><strong>Title:</strong> {{ album.Title }}</p>
+              <p><strong>Year:</strong> {{ album.Year }}</p>
+            </div>
+          </router-link>
         </li>
       </ul>
     </div>
@@ -51,7 +75,7 @@
 <script setup>
 import { computed, onMounted } from 'vue'
 import ArtistData from '../assets/Data/artists.json'
-import HeaderWithIcon from '../components/HeaderWithIcon.vue';
+import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
   name: String
@@ -65,6 +89,13 @@ const getArtistImagePath = (cleanedName) => {
 
 const getAlbumImagePath = (cleanedTitle) => {
   return new URL(`../assets/AlbumPics/${cleanedTitle}.jpg`, import.meta.url).href
+}
+
+const getSongImagePath = (song) => {
+  if (song.CleanedAlbum) {
+    return new URL(`../assets/AlbumPics/${song.CleanedAlbum}.jpg`, import.meta.url).href
+  }
+  return new URL(`../assets/ArtistPics/${artist.value.CleanedArtist}.jpg`, import.meta.url).href
 }
 
 onMounted(() => {
@@ -105,19 +136,28 @@ li {
   background-color: #f9f9f9;
 }
 
-.album-item {
+.album-item, .song-item {
   display: flex;
-  gap: 1rem;
   align-items: center;
+  gap: 1rem;
 }
 
-.album-image {
+.album-link, .song-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.album-image, .song-image {
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
 
-.album-info {
+.album-info, .song-info {
   flex: 1;
 }
 </style>
