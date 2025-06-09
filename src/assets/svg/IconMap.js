@@ -1,4 +1,5 @@
 import ArrowRightIcon from "./ArrowRight.vue";
+import AudioLinesIcon from "./AudioLines.vue";
 import BookmarkIcon from "./Bookmark.vue";
 import CameraIcon from "./Camera.vue";
 import CashIcon from "./Cash.vue";
@@ -16,12 +17,14 @@ import HeartIcon from "./Heart.vue";
 import HomeIcon from "./Home.vue";
 import MusicNoteIcon from "./MusicNote.vue";
 import PaletteIcon from "./Palette.vue";
+import PlayCircleIcon from "./PlayCircle.vue";
 import SchoolIcon from "./School.vue";
 import TriangleAlertIcon from "./TriangleAlert.vue";
 import VideoIcon from "./Video.vue";
 
 const iconMap = {
   arrowright: ArrowRightIcon,
+  audiolines: AudioLinesIcon,
   bookmark: BookmarkIcon,
   camera: CameraIcon,
   cash: CashIcon,
@@ -39,6 +42,7 @@ const iconMap = {
   home: HomeIcon,
   musicnote: MusicNoteIcon,
   palette: PaletteIcon,
+  playcircle: PlayCircleIcon,
   school: SchoolIcon,
   trianglealert: TriangleAlertIcon,
   video: VideoIcon

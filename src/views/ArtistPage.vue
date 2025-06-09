@@ -1,5 +1,12 @@
 <template>
   <div class="page-container" v-if="artist">
+
+    <HeaderWithIcon
+      :title="artist.Artist"
+      icon="palette"
+      iconColor="#FB923C"
+    />
+
     <h1>{{ artist.Artist }}</h1>
 
     <img 
@@ -44,6 +51,7 @@
 <script setup>
 import { computed, onMounted } from 'vue'
 import ArtistData from '../assets/Data/artists.json'
+import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 
 const props = defineProps({
   name: String

@@ -1,5 +1,11 @@
 <template>
   <div class="page-container" v-if="instrument">
+    <HeaderWithIcon
+      :title="instrument.instrument"
+      icon="guitar"
+      iconColor="#FB923C"
+    />
+
     <h1>{{ instrument.instrument }}</h1>
     <img :src="getImagePath(instrument.pic)" :alt="instrument.instrument" class="instrument-image" />
     <p><strong>Number of Appearances:</strong> {{ instrument.numOfAppearances }}</p>
@@ -23,6 +29,7 @@
 <script setup>
 import { computed, onMounted } from 'vue'
 import InstrumentData from '../assets/Data/InstrumentData.json'
+import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
   name: String
