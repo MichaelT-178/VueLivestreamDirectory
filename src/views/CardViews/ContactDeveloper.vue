@@ -62,7 +62,6 @@
 import { ref, computed, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
-import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 
 const userName = ref('');
 const userEmail = ref('');
@@ -70,7 +69,7 @@ const userMessage = ref('');
 const isButtonClicked = ref(false);
 const buttonText = ref('Submit');
 
-emailjs.init('bCe2UFI1L7SfXITtA');
+emailjs.init('dOPbPkrmT8oDiIZ9R');
 
 const isFormValid = computed(() => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -89,11 +88,11 @@ const submitForm = () => {
     subject: "New message from Livestream Directory",
     website: "Livestream Directory",
     from_name: userName.value,
-    from_email: `Email: ${userEmail.value}`,
+    from_email: `${userEmail.value}`,
     message: userMessage.value
   };
 
-  emailjs.send('service_feq974e', 'template_cowiwh7', templateParams)
+  emailjs.send('service_1uyrj7k', 'template_fnsn7pw', templateParams)
     .then(() => {
       Swal.fire('Sent!', 'Your message has been sent successfully!', 'success');
       userName.value = '';
@@ -177,8 +176,8 @@ textarea {
   border-radius: 8px;
   border: 1.5px solid #94a3b8;
   background-color: #0f172a;
-  color: white;
-  font-size: 0.95rem;
+  color: #d9d9da;
+  font-size: 1rem;
   box-sizing: border-box;
 }
 
@@ -221,6 +220,14 @@ textarea {
 .send-email-btn.clicked {
   background-color: #10b981;
   cursor: wait;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  outline: 2px solid #3b82f6;
+  /* outline-offset: 2px;
+  border-color: #3b82f6; */
 }
 
 @media (max-width: 400px) {
