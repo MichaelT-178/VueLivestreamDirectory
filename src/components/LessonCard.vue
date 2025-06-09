@@ -1,5 +1,10 @@
 <template>
-  <div class="lesson-card">
+  <a
+    :href="lesson.link"
+    class="lesson-card"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <img
       :src="imageSrc"
       :alt="lesson.title"
@@ -12,16 +17,7 @@
       <p><strong>Tuning:</strong> {{ lesson.tuning }}</p>
       <p><strong>Date:</strong> {{ lesson.date }}</p>
     </div>
-
-    <a 
-      :href="lesson.link" 
-      class="youtube-button" 
-      target="_blank" 
-      rel="noopener noreferrer"
-    >
-      Watch on YouTube
-    </a>
-  </div>
+  </a>
 </template>
 
 
@@ -43,17 +39,17 @@ watchEffect(() => {
 
 <style scoped>
 .lesson-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 400px;
   background-color: #1f2937;
   color: white;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  position: relative;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-height: 425px;
-  padding: 0;
+  text-decoration: none;
+  transition: transform 0.2s ease;
 }
 
 .thumbnail-image {
@@ -67,35 +63,18 @@ watchEffect(() => {
 .lesson-info {
   padding: 0.25rem 1rem 0.5rem 1rem;
   flex-grow: 1;
-  /* padding-bottom: 3rem; */
 }
 
 .song-title {
   cursor: pointer;
   color: #C084FC;
-  text-decoration: none;
-  transition: color 0.2s;
   font-size: 20px;
   margin-bottom: 0.5rem;
+  transition: text-decoration 0.2s ease;
 }
 
-.youtube-button {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  background-color: #e5e7eb;
-  color: #1f2937;
-  border: 2px solid #C084FC;
-  border-radius: 9999px;
-  padding: 0.4rem 1rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.youtube-button:hover {
-  background-color: #C084FC;
-  color: white;
+.lesson-card:hover .song-title {
+  text-decoration: underline;
 }
 
 </style>

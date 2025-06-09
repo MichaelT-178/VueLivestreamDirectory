@@ -154,6 +154,7 @@ onMounted(() => {
 .song {
   font-size: 14px;
   font-weight: bold;
+  color: #60A5FA;
 }
 
 .appearance {
@@ -196,7 +197,8 @@ onMounted(() => {
 
   .text-content .song {
     font-size: 0.95rem;
-    color: #fdfdfd;
+    color: #60A5FA;
+    /* color: #fdfdfd; */
   }
   
   .text-content .appearance {

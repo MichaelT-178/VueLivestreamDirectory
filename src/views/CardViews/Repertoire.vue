@@ -100,6 +100,7 @@ onMounted(() => {
 
 </script>
 
+
 <style scoped>
 .repertoire-container {
   padding: 2rem;
@@ -161,10 +162,17 @@ onMounted(() => {
   width: 100%;
   padding: 10px 10px 10px 36px;
   border-radius: 6px;
-  background-color: #f3f4f6;
-  border: none;
+  background-color: #eeeded;
+  border: 2px solid #eeeded;
   font-size: 16px;
   color: #111;
   box-sizing: border-box;
 }
+
+.search-bar:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #2275d9;
+}
+
 </style>
