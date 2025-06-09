@@ -1,6 +1,5 @@
 <template>
   <div class="page-container" v-if="song">
-
     <HeaderWithIcon
       :title="song.Title"
       icon="audiolines"
@@ -15,7 +14,13 @@
       class="song-image"
     />
 
-    <p><strong>Artist:</strong> {{ song.Artist }}</p>
+    <p v-if="song.Artist && song.CleanedArtist">
+      <strong>Artist:</strong>
+      <router-link :to="`/artist/${song.CleanedArtist}`">{{ song.Artist }}</router-link>
+    </p>
+    <p v-else-if="song.Artist">
+      <strong>Artist:</strong> {{ song.Artist }}
+    </p>
 
     <p v-if="song.Album && song.CleanedAlbum">
       <strong>Album:</strong>
@@ -62,11 +67,9 @@ const song = computed(() => SongData[props.title])
 
 const getImagePath = () => {
   if (!song.value) return ''
-
   if (song.value.CleanedAlbum) {
     return new URL(`../assets/AlbumPics/${song.value.CleanedAlbum}.jpg`, import.meta.url).href
   }
-
   return new URL(`../assets/ArtistPics/${song.value.CleanedArtist}.jpg`, import.meta.url).href
 }
 
