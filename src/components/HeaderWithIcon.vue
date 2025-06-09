@@ -1,24 +1,22 @@
 <template>
   <div class="header-with-icon">
-    
-    <!-- Home icon with custom RouterLink -->
-    <router-link to="/" custom v-slot="{ href, navigate }">
+
+    <router-link :to="leadingIconRoute" custom v-slot="{ href, navigate }">
       <div
         :href="href"
         @click="navigate"
         class="icon-background home-icon-link"
-        :style="homeIconBackground"
+        :style="leadingIconBackground"
       >
         <component
-          :is="iconMap['home']"
-          :stroke-color="homeButtonColor"
+          :is="leadingIconComponent"
+          :stroke-color="leadingIconColor"
           :width="28"
           class="header-icon"
         />
       </div>
     </router-link>
 
-    <!-- Arrow icon -->
     <component
       :is="iconMap['doublechevronright']"
       stroke-color="#ffffff"
@@ -26,7 +24,6 @@
       class="header-icon"
     />
 
-    <!-- Main icon -->
     <div class="icon-background" :style="backgroundStyle">
       <component
         :is="iconComponent"
@@ -57,14 +54,24 @@ const props = defineProps({
   iconColor: {
     type: String,
     default: '#ffffff'
+  },
+  leadingIcon: {
+    type: String,
+    default: 'home'
+  },
+  leadingIconColor: {
+    type: String,
+    default: '#38bdf8'
+  },
+  leadingIconRoute: {
+    type: String,
+    default: '/'
   }
 });
 
-const homeButtonColor = '#38bdf8';
+const iconComponent = computed(() => iconMap[props.icon?.toLowerCase()] || null);
+const leadingIconComponent = computed(() => iconMap[props.leadingIcon?.toLowerCase()] || null);
 
-const iconComponent = computed(() => {
-  return iconMap[props.icon?.toLowerCase()] || null;
-});
 
 function hexToRgba(hex, alpha = 1) {
   let hexValue = hex.replace('#', '');
@@ -74,6 +81,7 @@ function hexToRgba(hex, alpha = 1) {
   }
 
   const bigint = parseInt(hexValue, 16);
+
   const r = (bigint >> 16) & 255;
   const g = (bigint >> 8) & 255;
   const b = bigint & 255;
@@ -81,13 +89,14 @@ function hexToRgba(hex, alpha = 1) {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
-const backgroundStyle = computed(() => {
-  return { backgroundColor: hexToRgba(props.iconColor, 0.3) };
-});
 
-const homeIconBackground = computed(() => {
-  return { backgroundColor: hexToRgba(homeButtonColor, 0.2) };
-});
+const backgroundStyle = computed(() => ({
+  backgroundColor: hexToRgba(props.iconColor, 0.3)
+}));
+
+const leadingIconBackground = computed(() => ({
+  backgroundColor: hexToRgba(props.leadingIconColor, 0.2)
+}));
 
 </script>
 

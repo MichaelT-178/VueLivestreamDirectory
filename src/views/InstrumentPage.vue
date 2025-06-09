@@ -1,12 +1,16 @@
 <template>
   <div class="page-container" v-if="instrument">
+    
     <HeaderWithIcon
       :title="instrument.instrument"
-      icon="guitar"
-      iconColor="#FB923C"
+      icon="musicnote"
+      iconColor="#e879f9"
+      leadingIcon="guitar"
+      leadingIconColor="#2DD4BF"
+      leadingIconRoute="/instruments"
     />
 
-    <h1>{{ instrument.instrument }}</h1>
+    <!-- <h1>{{ instrument.instrument }}</h1> -->
     <img :src="getImagePath(instrument.pic)" :alt="instrument.instrument" class="instrument-image" />
     <p><strong>Number of Appearances:</strong> {{ instrument.numOfAppearances }}</p>
 
