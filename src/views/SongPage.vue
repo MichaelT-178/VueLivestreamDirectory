@@ -19,7 +19,9 @@
 
     <p v-if="song.Artist && song.CleanedArtist">
       <strong>Artist:</strong>
-      <router-link :to="`/artist/${song.CleanedArtist}`">{{ song.Artist }}</router-link>
+      <router-link 
+      :to="{ name: 'ArtistPageWithSong', params: { name: song.CleanedArtist, title: song.CleanedTitle } }" 
+      >{{ song.Artist }}</router-link>
     </p>
     <p v-else-if="song.Artist">
       <strong>Artist:</strong> {{ song.Artist }}

@@ -58,6 +58,12 @@ const routes = [
 		props: true
 	},
 	{
+		path: '/artist/:name/song/:title',
+		name: 'ArtistPageWithSong',
+		component: ArtistPage,
+		props: true
+	},
+	{
 		path: '/instrument/:name',
 		name: 'InstrumentPage',
 		component: InstrumentPage,
