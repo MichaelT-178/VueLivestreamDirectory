@@ -20,7 +20,7 @@
     <p v-if="song.Artist && song.CleanedArtist">
       <strong>Artist:</strong>
       <router-link 
-      :to="{ name: 'ArtistPageWithSong', params: { name: song.CleanedArtist, title: song.CleanedTitle } }" 
+      :to="{ name: 'ArtistPageFromSong', params: { title: song.CleanedTitle, artist: song.CleanedArtist } }" 
       >{{ song.Artist }}</router-link>
     </p>
     <p v-else-if="song.Artist">
@@ -30,7 +30,7 @@
     <p v-if="song.Album && song.CleanedAlbum">
       <strong>Album:</strong>
       <router-link 
-      :to="{ name: 'AlbumPageWithSong', params: { name: song.CleanedAlbum, title: song.CleanedTitle } }" 
+      :to="{ name: 'AlbumPageFromSong', params: { title: song.CleanedTitle, name: song.CleanedAlbum } }" 
       >{{ song.Album }}</router-link>
     </p>
     <p v-else-if="song.Album">
@@ -84,6 +84,7 @@ const headerConfig = computed(() => {
       leadingIconRoute: `/artist/${props.artist}`
     }
   }
+  
   return {
     leadingIcon: 'home',
     leadingIconColor: '#38bdf8',

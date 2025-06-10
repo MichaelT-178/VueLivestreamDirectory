@@ -26,7 +26,7 @@
           class="song-item"
         >
           <router-link 
-            :to="{ name: 'SongPageWithArtist', params: { title: song.CleanedTitle, artist: artist.CleanedArtist } }" 
+            :to="{ name: 'SongPageFromArtist', params: { artist: artist.CleanedArtist, title: song.CleanedTitle } }" 
             class="song-link"
           >
             <img
@@ -52,7 +52,7 @@
           class="album-item"
         >
           <router-link 
-            :to="{ name: 'AlbumPageWithArtist', params: { name: album.CleanedTitle, artist: artist.CleanedArtist } }" 
+            :to="{ name: 'AlbumPageFromArtist', params: { artist: artist.CleanedArtist, name: album.CleanedTitle } }" 
             class="album-link"
           >
             <img 
@@ -81,7 +81,7 @@ import ArtistData from '../assets/Data/artists.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
-  name: String,
+  artist: String,
   title: {
     type: String,
     required: false
@@ -104,7 +104,7 @@ const headerConfig = computed(() => {
   }
 })
 
-const artist = computed(() => ArtistData[props.name])
+const artist = computed(() => ArtistData[props.artist])
 
 const getArtistImagePath = (cleanedName) => {
   return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href

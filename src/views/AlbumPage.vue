@@ -4,8 +4,8 @@
     
     <HeaderWithIcon
       :title="album.AlbumTitle"
-      icon="palette"
-      iconColor="#FB923C"
+      icon="HandCoins"
+      iconColor="#38bdf8"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
       :leadingIconRoute="headerConfig.leadingIconRoute"

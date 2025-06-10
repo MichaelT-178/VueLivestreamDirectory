@@ -40,6 +40,24 @@ const routes = [
 		component: Instruments
 	},
 	{
+		path: '/artist/:artist',
+		name: 'ArtistPage',
+		component: ArtistPage,
+		props: true
+	},
+	{
+		path: '/artist/:artist/album/:name',
+  	name: 'AlbumPageFromArtist',
+  	component: AlbumPage,
+  	props: true
+	},
+	{
+		path: '/artist/:artist/song/:title',
+  	name: 'SongPageFromArtist',
+  	component: SongPage,
+  	props: true
+	},
+	{
 		path: '/song/:title',
 		name: 'SongPage',
 		component: SongPage,
@@ -47,21 +65,15 @@ const routes = [
 	},
 	{
 		path: '/song/:title/artist/:artist',
-  	name: 'SongPageWithArtist',
-  	component: SongPage,
+		name: 'ArtistPageFromSong',
+		component: ArtistPage,
+		props: true
+	},
+	{
+		path: '/song/:title/album/:name',
+  	name: 'AlbumPageFromSong',
+  	component: AlbumPage,
   	props: true
-	},
-	{
-		path: '/artist/:name',
-		name: 'ArtistPage',
-		component: ArtistPage,
-		props: true
-	},
-	{
-		path: '/artist/:name/song/:title',
-		name: 'ArtistPageWithSong',
-		component: ArtistPage,
-		props: true
 	},
 	{
 		path: '/instrument/:name',
@@ -74,18 +86,6 @@ const routes = [
 		name: 'AlbumPage',
 		component: AlbumPage,
 		props: true
-	},
-	{
-		path: '/album/:name/artist/:artist',
-  	name: 'AlbumPageWithArtist',
-  	component: AlbumPage,
-  	props: true
-	},
-	{
-		path: '/album/:name/song/:title',
-  	name: 'AlbumPageWithSong',
-  	component: AlbumPage,
-  	props: true
 	},
 
 	// Card Views 
