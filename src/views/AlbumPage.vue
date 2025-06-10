@@ -50,12 +50,12 @@ import AlbumData from '../assets/Data/albums.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
-  name: String,
+  album: String,
   artist: {
     type: String,
     required: false
   },
-  title: {
+  song: {
     type: String,
     required: false
   }
@@ -69,11 +69,11 @@ const headerConfig = computed(() => {
       leadingIconColor: '#FB923C',
       leadingIconRoute: `/artist/${props.artist}`
     }
-  } else if (props.title) {
+  } else if (props.song) {
     return {
       leadingIcon: 'audiolines',
       leadingIconColor: '#FB923C',
-      leadingIconRoute: `/song/${props.title}`
+      leadingIconRoute: `/song/${props.song}`
     }
   }
 
@@ -84,7 +84,7 @@ const headerConfig = computed(() => {
   }
 })
 
-const album = computed(() => AlbumData[props.name])
+const album = computed(() => AlbumData[props.album])
 
 const getAlbumImagePath = (cleanedTitle) => {
   return new URL(`../assets/AlbumPics/${cleanedTitle}.jpg`, import.meta.url).href

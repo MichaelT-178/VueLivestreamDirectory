@@ -20,7 +20,7 @@
     <p v-if="song.Artist && song.CleanedArtist">
       <strong>Artist:</strong>
       <router-link 
-      :to="{ name: 'ArtistPageFromSong', params: { title: song.CleanedTitle, artist: song.CleanedArtist } }" 
+      :to="{ name: 'ArtistPageFromSong', params: { song: song.CleanedTitle, artist: song.CleanedArtist } }" 
       >{{ song.Artist }}</router-link>
     </p>
     <p v-else-if="song.Artist">
@@ -30,7 +30,7 @@
     <p v-if="song.Album && song.CleanedAlbum">
       <strong>Album:</strong>
       <router-link 
-      :to="{ name: 'AlbumPageFromSong', params: { title: song.CleanedTitle, name: song.CleanedAlbum } }" 
+      :to="{ name: 'AlbumPageFromSong', params: { song: song.CleanedTitle, album: song.CleanedAlbum } }" 
       >{{ song.Album }}</router-link>
     </p>
     <p v-else-if="song.Album">
@@ -61,20 +61,24 @@
   </div>
 </template>
 
+
 <script setup>
 import { computed, onMounted } from 'vue'
 import SongData from '../assets/Data/songs.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
+import { useRoute } from 'vue-router';
 
 const props = defineProps({
-  title: String,
+  song: String,
   artist: {
     type: String,
     required: false
   }
 })
 
-const song = computed(() => SongData[props.title])
+const song = computed(() => SongData[props.song])
+
+const route = useRoute();
 
 const headerConfig = computed(() => {
   if (props.artist) {
@@ -82,6 +86,12 @@ const headerConfig = computed(() => {
       leadingIcon: 'palette',
       leadingIconColor: '#FB923C',
       leadingIconRoute: `/artist/${props.artist}`
+    }
+  } else if (route.name === 'SongPageFromRepertoire') {
+    return {
+      leadingIcon: 'musicnote',
+      leadingIconColor: '#FB7185',
+      leadingIconRoute: '/repertoire'
     }
   }
   

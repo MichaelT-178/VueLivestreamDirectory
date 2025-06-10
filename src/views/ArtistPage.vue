@@ -26,7 +26,7 @@
           class="song-item"
         >
           <router-link 
-            :to="{ name: 'SongPageFromArtist', params: { artist: artist.CleanedArtist, title: song.CleanedTitle } }" 
+            :to="{ name: 'SongPageFromArtist', params: { artist: artist.CleanedArtist, song: song.CleanedTitle } }" 
             class="song-link"
           >
             <img
@@ -52,7 +52,7 @@
           class="album-item"
         >
           <router-link 
-            :to="{ name: 'AlbumPageFromArtist', params: { artist: artist.CleanedArtist, name: album.CleanedTitle } }" 
+            :to="{ name: 'AlbumPageFromArtist', params: { artist: artist.CleanedArtist, album: album.CleanedTitle } }" 
             class="album-link"
           >
             <img 
@@ -82,18 +82,18 @@ import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
   artist: String,
-  title: {
+  song: {
     type: String,
     required: false
   }
 })
 
 const headerConfig = computed(() => {
-  if (props.title) {
+  if (props.song) {
     return {
       leadingIcon: 'audiolines',
       leadingIconColor: '#FB923C',
-      leadingIconRoute: `/song/${props.title}`
+      leadingIconRoute: `/song/${props.song}`
     }
   }
 

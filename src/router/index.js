@@ -46,31 +46,31 @@ const routes = [
 		props: true
 	},
 	{
-		path: '/artist/:artist/album/:name',
+		path: '/artist/:artist/album/:album',
   	name: 'AlbumPageFromArtist',
   	component: AlbumPage,
   	props: true
 	},
 	{
-		path: '/artist/:artist/song/:title',
+		path: '/artist/:artist/song/:song',
   	name: 'SongPageFromArtist',
   	component: SongPage,
   	props: true
 	},
 	{
-		path: '/song/:title',
+		path: '/song/:song',
 		name: 'SongPage',
 		component: SongPage,
 		props: true
 	},
 	{
-		path: '/song/:title/artist/:artist',
+		path: '/song/:song/artist/:artist',
 		name: 'ArtistPageFromSong',
 		component: ArtistPage,
 		props: true
 	},
 	{
-		path: '/song/:title/album/:name',
+		path: '/song/:song/album/:album',
   	name: 'AlbumPageFromSong',
   	component: AlbumPage,
   	props: true
@@ -82,7 +82,7 @@ const routes = [
 		props: true
 	},
 	{
-		path: '/album/:name',
+		path: '/album/:album',
 		name: 'AlbumPage',
 		component: AlbumPage,
 		props: true
@@ -104,6 +104,12 @@ const routes = [
 	{
 		path: '/repertoire',
 		component: RepertoireView
+	},
+	{
+		path: '/repertoire/song/:song',
+  	name: 'SongPageFromRepertoire',
+  	component: SongPage,
+  	props: true
 	},
 	{
 		path: '/saved-songs',

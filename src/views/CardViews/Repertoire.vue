@@ -67,7 +67,7 @@ const formatCategory = (category) => {
 };
 
 const goToSongPage = (cleanedTitle) => {
-  router.push({ name: 'SongPage', params: { title: cleanedTitle } });
+  router.push({ name: 'SongPageFromRepertoire', params: { song: cleanedTitle } });
 };
 
 const filteredData = computed(() => {
