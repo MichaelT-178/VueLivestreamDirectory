@@ -20,8 +20,10 @@
     <p v-if="song.Artist && song.CleanedArtist">
       <strong>Artist:</strong>
       <router-link 
-      :to="{ name: 'ArtistPageFromSong', params: { song: song.CleanedTitle, artist: song.CleanedArtist } }" 
-      >{{ song.Artist }}</router-link>
+        :to="{ name: 'ArtistPageFromSong', params: { song: song.CleanedTitle, artist: song.CleanedArtist } }"
+      >
+        {{ song.Artist }}
+      </router-link>
     </p>
     <p v-else-if="song.Artist">
       <strong>Artist:</strong> {{ song.Artist }}
@@ -30,8 +32,10 @@
     <p v-if="song.Album && song.CleanedAlbum">
       <strong>Album:</strong>
       <router-link 
-      :to="{ name: 'AlbumPageFromSong', params: { song: song.CleanedTitle, album: song.CleanedAlbum } }" 
-      >{{ song.Album }}</router-link>
+        :to="{ name: 'AlbumPageFromSong', params: { song: song.CleanedTitle, album: song.CleanedAlbum } }"
+      >
+        {{ song.Album }}
+      </router-link>
     </p>
     <p v-else-if="song.Album">
       <strong>Album:</strong> {{ song.Album }}
@@ -40,16 +44,16 @@
     <p v-if="song.Other_Artists"><strong>Other Artists:</strong> {{ song.Other_Artists }}</p>
     <p v-if="song.Instruments"><strong>Instruments:</strong> {{ song.Instruments }}</p>
 
-    <div v-if="AppearancesArray.length && LinksArray.length">
+    <div v-if="song.Appearances?.length">
       <strong>Appearances:</strong>
       <ul>
-        <li v-for="(appearance, index) in AppearancesArray" :key="index">
+        <li v-for="(appearance, index) in song.Appearances" :key="index">
           <a 
-            :href="LinksArray[index]" 
+            :href="appearance.link" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            {{ appearance }}
+            {{ appearance.appearance }}
           </a>
         </li>
       </ul>
@@ -61,12 +65,11 @@
   </div>
 </template>
 
-
 <script setup>
 import { computed, onMounted } from 'vue'
 import SongData from '../assets/Data/songs.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
-import { useRoute } from 'vue-router';
+import { useRoute } from 'vue-router'
 
 const props = defineProps({
   song: String,
@@ -76,9 +79,9 @@ const props = defineProps({
   }
 })
 
-const song = computed(() => SongData[props.song])
+const route = useRoute()
 
-const route = useRoute();
+const song = computed(() => SongData[props.song])
 
 const headerConfig = computed(() => {
   if (props.artist) {
@@ -109,14 +112,6 @@ const getImagePath = () => {
   }
   return new URL(`../assets/ArtistPics/${song.value.CleanedArtist}.jpg`, import.meta.url).href
 }
-
-const AppearancesArray = computed(() => {
-  return song.value?.Appearances?.split(',').map(item => item.trim()) || []
-})
-
-const LinksArray = computed(() => {
-  return song.value?.Links?.split(' , ').map(item => item.trim()) || []
-})
 
 onMounted(() => {
   window.scrollTo(0, 0)
