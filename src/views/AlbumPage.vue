@@ -6,8 +6,10 @@
       :title="album.AlbumTitle"
       icon="palette"
       iconColor="#FB923C"
+      :leadingIcon="headerConfig.leadingIcon"
+      :leadingIconColor="headerConfig.leadingIconColor"
+      :leadingIconRoute="headerConfig.leadingIconRoute"
     />
-
 
     <h1>{{ album.AlbumTitle }}</h1>
 
@@ -48,7 +50,38 @@ import AlbumData from '../assets/Data/albums.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
-  name: String
+  name: String,
+  artist: {
+    type: String,
+    required: false
+  },
+  title: {
+    type: String,
+    required: false
+  }
+})
+
+
+const headerConfig = computed(() => {
+  if (props.artist) {
+    return {
+      leadingIcon: 'palette',
+      leadingIconColor: '#FB923C',
+      leadingIconRoute: `/artist/${props.artist}`
+    }
+  } else if (props.title) {
+    return {
+      leadingIcon: 'audiolines',
+      leadingIconColor: '#FB923C',
+      leadingIconRoute: `/song/${props.title}`
+    }
+  }
+
+  return {
+    leadingIcon: 'home',
+    leadingIconColor: '#38bdf8',
+    leadingIconRoute: '/'
+  }
 })
 
 const album = computed(() => AlbumData[props.name])

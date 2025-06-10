@@ -49,7 +49,7 @@
           class="album-item"
         >
           <router-link 
-            :to="{ name: 'AlbumPage', params: { cleanedTitle: album.CleanedTitle } }" 
+            :to="{ name: 'AlbumPageWithArtist', params: { name: album.CleanedTitle, artist: artist.CleanedArtist } }" 
             class="album-link"
           >
             <img 

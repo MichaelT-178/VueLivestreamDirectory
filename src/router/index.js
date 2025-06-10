@@ -69,6 +69,18 @@ const routes = [
 		component: AlbumPage,
 		props: true
 	},
+	{
+		path: '/album/:name/artist/:artist',
+  	name: 'AlbumPageWithArtist',
+  	component: AlbumPage,
+  	props: true
+	},
+	{
+		path: '/album/:name/song/:title',
+  	name: 'AlbumPageWithSong',
+  	component: AlbumPage,
+  	props: true
+	},
 
 	// Card Views 
 	{
