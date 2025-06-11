@@ -115,6 +115,7 @@ const leadingIconBackground = computed(() => ({
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .home-icon-link:hover {
