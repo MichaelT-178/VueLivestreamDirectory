@@ -38,7 +38,7 @@
           >
             {{ song.Album }}
           </router-link>
-          • {{ 1975 }}
+          • {{ song.Year }}
         </p>
         <p v-else-if="song.Album">
           <strong>Album:</strong> {{ song.Album }}
