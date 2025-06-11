@@ -1821,14 +1821,6 @@
             "CleanedArtist": "red-hot-chili-peppers"
         },
         {
-            "Song": "Furch *SGI* D22TSR",
-            "CleanedSong": "furch-sgi-d22tsr",
-            "AlbumTitle": null,
-            "CleanedAlbumTitle": null,
-            "Artist": "Corey Heuvel",
-            "CleanedArtist": "corey-heuvel"
-        },
-        {
             "Song": "Furch Blue D-CM demo",
             "CleanedSong": "furch-blue-d-cm-demo",
             "AlbumTitle": null,
@@ -1863,6 +1855,14 @@
         {
             "Song": "Furch OOM Vintage 1",
             "CleanedSong": "furch-oom-vintage-1",
+            "AlbumTitle": null,
+            "CleanedAlbumTitle": null,
+            "Artist": "Corey Heuvel",
+            "CleanedArtist": "corey-heuvel"
+        },
+        {
+            "Song": "Furch SGI D22TSR",
+            "CleanedSong": "furch-sgi-d22tsr",
             "AlbumTitle": null,
             "CleanedAlbumTitle": null,
             "Artist": "Corey Heuvel",
