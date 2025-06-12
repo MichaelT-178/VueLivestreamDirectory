@@ -2423,6 +2423,19 @@
             }
         ]
     },
+    "genesis": {
+        "AlbumTitle": "Genesis",
+        "CleanedAlbumTitle": "genesis",
+        "Artist": "Genesis",
+        "CleanedArtist": "genesis",
+        "Year": 1983,
+        "Songs": [
+            {
+                "Song": "That's All",
+                "CleanedSong": "thats-all"
+            }
+        ]
+    },
     "get-the-knack": {
         "AlbumTitle": "Get The Knack",
         "CleanedAlbumTitle": "get-the-knack",
