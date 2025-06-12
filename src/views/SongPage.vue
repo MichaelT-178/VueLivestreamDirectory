@@ -12,22 +12,30 @@
     </div>
 
     <div class="content-wrapper">
-      <img 
-        :src="getImagePath()" 
-        :alt="song.Title" 
-        class="song-image"
-      />
+      <div class="image-wrapper">
+        <img 
+          :src="getImagePath()" 
+          :alt="song.Title" 
+          class="song-image"
+        />
+      </div>
 
       <div class="song-details">
         <h2>{{ song.Title }}</h2>
 
-        <p v-if="song.Artist && song.CleanedArtist">
+        <div class="artist-info" v-if="song.Artist && song.CleanedArtist">
+          <img
+            :src="getArtistImagePath(song.CleanedArtist)"
+            :alt="song.Artist"
+            class="artist-thumb"
+          />
           <router-link 
             :to="{ name: 'ArtistPageFromSong', params: { song: song.CleanedTitle, artist: song.CleanedArtist } }"
           >
             {{ song.Artist }}
           </router-link>
-        </p>
+        </div>
+
         <p v-else-if="song.Artist">
           <strong>Artist:</strong> {{ song.Artist }}
         </p>
@@ -43,49 +51,90 @@
         <p v-else-if="song.Album">
           <strong>Album:</strong> {{ song.Album }}
         </p>
-
-        <p v-if="song.Other_Artists"><strong>Other Artists:</strong> {{ song.Other_Artists }}</p>
-        <p v-if="song.Instruments"><strong>Instruments:</strong> {{ song.Instruments }}</p>
       </div>
     </div>
 
-    <div v-if="song.Appearances?.length" class="appearances-section">
-      <strong class="appearances-tab">Appearances</strong>
-      <ul class="appearances-list">
-        <li 
-          v-for="(appearance, index) in song.Appearances" 
-          :key="index" 
-          :class="{ zebra: index % 2 === 1 }"
+    <div v-if="song.Appearances?.length || song.Other_Artists || song.Instruments" class="appearances-section">
+      <div class="tab-header">
+        <strong 
+          class="appearances-tab"
+          :class="{ active: activeTab === 'appearances' }"
+          @click="activeTab = 'appearances'"
         >
-          <a 
-            :href="appearance.link" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            class="appearance-link"
+          Appearances
+        </strong>
+        <strong 
+          class="appearances-tab"
+          :class="{ active: activeTab === 'info' }"
+          @click="activeTab = 'info'"
+        >
+          Info
+        </strong>
+      </div>
+
+      <div v-if="activeTab === 'appearances'">
+        <ul class="appearances-list">
+          <li 
+            v-for="(appearance, index) in song.Appearances" 
+            :key="index" 
+            :class="{ zebra: index % 2 === 1 }"
           >
-            <div class="appearance-row">
-              <div 
-                class="appearance-id"
-                :class="{ 'non-zebra-text': index % 2 === 0 }"
-              >
-                {{ appearance.id }}
-              </div>
-              <div 
-                class="appearance-content"
-                :class="{ 'non-zebra-text': index % 2 === 0 }"
-              >
-                {{ appearance.appearance }}
+            <a 
+              :href="appearance.link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="appearance-link"
+            >
+              <div class="appearance-row">
                 <div 
-                  class="keys"
+                  class="appearance-id"
                   :class="{ 'non-zebra-text': index % 2 === 0 }"
                 >
-                  {{ appearance.keys?.join(' • ') }}
+                  {{ appearance.id }}
+                </div>
+                <div 
+                  class="appearance-content"
+                  :class="{ 'non-zebra-text': index % 2 === 0 }"
+                >
+                  <div class="appearance-title">
+                    {{ appearance.appearance }}
+                  </div>
+                  <div 
+                    class="keys"
+                    :class="{ 'non-zebra-text': index % 2 === 0 }"
+                  >
+                    {{ appearance.keys?.join(' • ') }}
+                  </div>
                 </div>
               </div>
-            </div>
-          </a>
-        </li>
-      </ul>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div v-if="activeTab === 'info'" class="info-section">
+        <div v-if="song.Other_Artists" class="other-artists">
+          <strong>Other Artists</strong>
+          <ul>
+            <li v-for="(artist, index) in parseList(song.Other_Artists)" :key="'artist-' + index">{{ artist }}</li>
+          </ul>
+        </div>
+        <div v-if="song.Instruments" class="instruments">
+          <strong>Instruments</strong>
+          <ul>
+            <li 
+              v-for="(instrument, index) in parseList(song.Instruments)" 
+              :key="'instrument-' + index"
+            >
+              <router-link 
+                :to="{ name: 'InstrumentPage', params: { name: instrument.trim() } }"
+              >
+                {{ instrument }}
+              </router-link>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -95,7 +144,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import SongData from '../assets/Data/songs.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
@@ -110,6 +159,7 @@ const props = defineProps({
 
 const route = useRoute()
 const song = computed(() => SongData[props.song])
+const activeTab = ref('appearances')
 
 const headerConfig = computed(() => {
   if (props.artist) {
@@ -140,6 +190,14 @@ const getImagePath = () => {
   return new URL(`../assets/ArtistPics/${song.value.CleanedArtist}.jpg`, import.meta.url).href
 }
 
+const getArtistImagePath = (cleanedName) => {
+  return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href
+}
+
+const parseList = (input) => {
+  return input.split(',').map(item => item.trim()).filter(Boolean)
+}
+
 onMounted(() => {
   window.scrollTo(0, 0)
 })
@@ -158,8 +216,6 @@ onMounted(() => {
 .header-wrapper {
   width: 100%;
   max-width: 800px;
-  display: flex;
-  justify-content: flex-start;
   margin-bottom: 2rem;
 }
 
@@ -167,10 +223,15 @@ onMounted(() => {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: 2rem;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 2rem;
+  max-width: 800px;
+  width: 100%;
+}
+
+.image-wrapper {
+  flex-shrink: 0;
 }
 
 .song-image {
@@ -181,12 +242,28 @@ onMounted(() => {
 }
 
 .song-details {
-  max-width: 500px;
+  flex: 1;
+  min-width: 250px;
 }
 
 .song-details h2 {
   color: white;
   margin-bottom: 0.5rem;
+}
+
+.artist-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.artist-thumb {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 p {
@@ -201,6 +278,25 @@ a {
 .appearances-section {
   width: 100%;
   max-width: 800px;
+  margin-top: 2rem;
+}
+
+.tab-header {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.appearances-tab {
+  color: white;
+  cursor: pointer;
+  padding-bottom: 4px;
+  position: relative;
+}
+
+.appearances-tab.active {
+  border-bottom: 2px solid #007acc;
 }
 
 .appearances-list {
@@ -239,16 +335,23 @@ a {
   transition: color 0.3s ease;
 }
 
-.appearance-link:hover .appearance-row,
-.appearance-link:hover .appearance-row .appearance-content,
-.appearance-link:hover .appearance-row .keys {
-  color: #007acc !important;
+.appearance-link:hover .appearance-row {
+  background-color: #090e19;
+  text-decoration: underline;
 }
 
 .appearance-id {
   min-width: 40px;
   font-weight: bold;
   color: white;
+}
+
+.appearance-link:hover .appearance-row,
+.appearance-link:hover .appearance-row .appearance-content,
+.appearance-link:hover .appearance-row {
+  /* color: #007acc !important; */
+  background-color: #090e19;
+  text-decoration: underline;
 }
 
 .appearance-content {
@@ -264,12 +367,21 @@ a {
   margin-top: 0.25rem;
 }
 
-.appearances-tab {
-  color: #007acc;
-  text-decoration: underline;
+.other-artists,
+.instruments {
+  color: white;
 }
 
-.non-zebra-text {
-  color: white !important;
+.other-artists ul,
+.instruments ul {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.other-artists li::before,
+.instruments li::before {
+  content: '• ';
+  margin-right: 0.5rem;
 }
 </style>
