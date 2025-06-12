@@ -63,9 +63,25 @@
             rel="noopener noreferrer"
             class="appearance-link"
           >
-            <div class="appearance-content">
-              {{ appearance.appearance }}
-              <div class="keys">{{ appearance.keys?.join(' • ') }}</div>
+            <div class="appearance-row">
+              <div 
+                class="appearance-id"
+                :class="{ 'non-zebra-text': index % 2 === 0 }"
+              >
+                {{ appearance.id }}
+              </div>
+              <div 
+                class="appearance-content"
+                :class="{ 'non-zebra-text': index % 2 === 0 }"
+              >
+                {{ appearance.appearance }}
+                <div 
+                  class="keys"
+                  :class="{ 'non-zebra-text': index % 2 === 0 }"
+                >
+                  {{ appearance.keys?.join(' • ') }}
+                </div>
+              </div>
             </div>
           </a>
         </li>
@@ -199,37 +215,61 @@ a {
 
 .appearances-list li {
   padding: 0;
-  margin-bottom: 0.5rem;
-  background-color: #eaeaea; /* even rows */
-  border-radius: 6px;
+  background-color: #131e37;
   overflow: hidden;
+  transition: color 0.3s ease;
 }
 
 .appearances-list li.zebra {
-  background-color: #d4d4d4; /* odd rows */
+  background-color: #0F172A;
 }
 
 .appearance-link {
   display: block;
   width: 100%;
-  padding: 0.75rem 1rem;
   text-decoration: none;
   color: inherit;
+}
+
+.appearance-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.appearance-link:hover .appearance-row,
+.appearance-link:hover .appearance-row .appearance-content,
+.appearance-link:hover .appearance-row .keys {
+  color: #007acc !important;
+}
+
+.appearance-id {
+  min-width: 40px;
+  font-weight: bold;
+  color: white;
 }
 
 .appearance-content {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  color: white;
 }
 
 .keys {
   font-size: 0.95rem;
-  color: #444;
+  color: white;
   margin-top: 0.25rem;
 }
 
 .appearances-tab {
   color: #007acc;
   text-decoration: underline;
+}
+
+.non-zebra-text {
+  color: white !important;
 }
 </style>
