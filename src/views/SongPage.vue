@@ -113,10 +113,19 @@
       </div>
 
       <div v-if="activeTab === 'info'" class="info-section">
-        <div v-if="song.Other_Artists" class="other-artists">
+        <div v-if="song.Other_Artists?.length" class="other-artists">
           <strong>Other Artists</strong>
           <ul>
-            <li v-for="(artist, index) in parseList(song.Other_Artists)" :key="'artist-' + index">{{ artist }}</li>
+            <li 
+              v-for="(artist, index) in song.Other_Artists" 
+              :key="'other-artist-' + index"
+            >
+              <router-link 
+                :to="{ name: 'ArtistPageFromSong', params: { song: song.CleanedTitle, artist: artist.cleanedArtist } }"
+              >
+                {{ artist.artist }}
+              </router-link>
+            </li>
           </ul>
         </div>
         <div v-if="song.Instruments" class="instruments">
