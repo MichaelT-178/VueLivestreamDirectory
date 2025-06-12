@@ -38,7 +38,7 @@
           >
             {{ song.Album }}
           </router-link>
-          • {{ song.Year }}
+          <span class="year-released">• {{ song.Year }}</span>
         </p>
         <p v-else-if="song.Album">
           <strong>Album:</strong> {{ song.Album }}
@@ -191,6 +191,10 @@ a {
   list-style-type: none;
   padding: 0;
   margin-top: 1rem;
+}
+
+.year-released {
+  color: white;
 }
 
 .appearances-list li {
