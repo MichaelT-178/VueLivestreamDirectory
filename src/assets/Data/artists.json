@@ -571,6 +571,13 @@
                 "CleanedAlbum": null
             },
             {
+                "Id": 241,
+                "Title": "La Patrie Etude (Classical Guitar/LPE)",
+                "CleanedTitle": "la-patrie-etude-classical-guitar-lpe",
+                "Album": null,
+                "CleanedAlbum": null
+            },
+            {
                 "Id": 243,
                 "Title": "Breedlove Discovery Concert CE",
                 "CleanedTitle": "breedlove-discovery-concert-ce",
@@ -6221,13 +6228,6 @@
         "Artist": "Fernando Sor",
         "CleanedArtist": "fernando-sor",
         "Songs": [
-            {
-                "Id": 241,
-                "Title": "La Patrie Etude (Classical Guitar/LPE)",
-                "CleanedTitle": "la-patrie-etude-classical-guitar-lpe",
-                "Album": null,
-                "CleanedAlbum": null
-            },
             {
                 "Id": 242,
                 "Title": "Study No. 6 in D",
