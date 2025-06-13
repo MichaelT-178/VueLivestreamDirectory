@@ -34,8 +34,8 @@ watchEffect(() => {
   imageSrc.value = new URL(`../assets/instrument-pics/${props.instrument.cleaned}.jpg`, import.meta.url).href;
 });
 
-const goToInstrumentPage = (name) => {
-  router.push({ name: 'InstrumentPage', params: { name } });
+const goToInstrumentPage = (instrument) => {
+  router.push({ name: 'InstrumentPage', params: { instrument } });
 };
 
 const handleImageLoad = (event) => {

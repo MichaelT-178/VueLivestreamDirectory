@@ -46,10 +46,10 @@ import InstrumentData from '../assets/Data/InstrumentData.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 
 const props = defineProps({
-  name: String
+  instrument: String
 })
 
-const instrument = computed(() => InstrumentData[props.name]);
+const instrument = computed(() => InstrumentData[props.instrument]);
 
 const getImagePath = (fileName) => {
   return new URL(`../assets/instrument-pics/${fileName}`, import.meta.url).href;
