@@ -54,7 +54,7 @@
       </div>
     </div>
 
-    <div v-if="song.Appearances?.length || song.Other_Artists || song.Instruments" class="appearances-section">
+    <div v-if="song.Appearances?.length || song.Other_Artists?.length || song.Instruments?.length" class="appearances-section">
       <div class="tab-header">
         <strong 
           class="appearances-tab"
@@ -128,18 +128,24 @@
             </li>
           </ul>
         </div>
-        <div v-if="song.Instruments" class="instruments">
+
+        <div v-if="song.Instruments?.length" class="instruments">
           <strong>Instruments</strong>
           <ul>
             <li 
-              v-for="(instrument, index) in parseList(song.Instruments)" 
+              v-for="(instrument, index) in song.Instruments" 
               :key="'instrument-' + index"
             >
-              <router-link 
-                :to="{ name: 'InstrumentPage', params: { name: instrument.trim() } }"
-              >
-                {{ instrument }}
-              </router-link>
+              <template v-if="instrument.cleanedName">
+                <router-link 
+                  :to="{ name: 'InstrumentPageFromSong', params: { song: song.CleanedTitle, instrument: instrument.cleanedName } }"
+                >
+                  {{ instrument.name }}
+                </router-link>
+              </template>
+              <template v-else>
+                <span class="instrument-name">{{ instrument.name }}</span>
+              </template>
             </li>
           </ul>
         </div>
@@ -151,6 +157,7 @@
     <p>Song not found.</p>
   </div>
 </template>
+
 
 <script setup>
 import { computed, onMounted, ref } from 'vue'
@@ -192,10 +199,14 @@ const headerConfig = computed(() => {
 })
 
 const getImagePath = () => {
-  if (!song.value) return ''
+  if (!song.value) {
+    return ''
+  }
+
   if (song.value.CleanedAlbum) {
     return new URL(`../assets/AlbumPics/${song.value.CleanedAlbum}.jpg`, import.meta.url).href
   }
+
   return new URL(`../assets/ArtistPics/${song.value.CleanedArtist}.jpg`, import.meta.url).href
 }
 
@@ -203,14 +214,12 @@ const getArtistImagePath = (cleanedName) => {
   return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href
 }
 
-const parseList = (input) => {
-  return input.split(',').map(item => item.trim()).filter(Boolean)
-}
-
 onMounted(() => {
   window.scrollTo(0, 0)
 })
+
 </script>
+
 
 <style scoped>
 .page-container {
@@ -355,14 +364,6 @@ a {
   color: white;
 }
 
-.appearance-link:hover .appearance-row,
-.appearance-link:hover .appearance-row .appearance-content,
-.appearance-link:hover .appearance-row {
-  /* color: #007acc !important; */
-  background-color: #090e19;
-  text-decoration: underline;
-}
-
 .appearance-content {
   display: flex;
   flex-direction: column;
@@ -392,5 +393,11 @@ a {
 .instruments li::before {
   content: '• ';
   margin-right: 0.5rem;
+}
+
+.instrument-name {
+  color: white;
+  cursor: default;
+  text-decoration: none;
 }
 </style>

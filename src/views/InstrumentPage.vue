@@ -4,9 +4,9 @@
       :title="instrument.instrument"
       icon="musicnote"
       iconColor="#e879f9"
-      leadingIcon="guitar"
-      leadingIconColor="#2DD4BF"
-      leadingIconRoute="/instruments"
+      :leadingIcon="headerConfig.leadingIcon"
+      :leadingIconColor="headerConfig.leadingIconColor"
+      :leadingIconRoute="headerConfig.leadingIconRoute"
     />
 
     <img :src="getImagePath(instrument.pic)" :alt="instrument.instrument" class="instrument-image" />
@@ -20,7 +20,9 @@
           <p><strong>Livestream:</strong> {{ appearance.livestream }}</p>
           <p>
             <strong>Link:</strong>
-            <a :href="appearance.link" target="_blank" rel="noopener noreferrer">{{ appearance.link }}</a>
+            <a :href="appearance.link" target="_blank" rel="noopener noreferrer">
+              {{ appearance.link }}
+            </a>
           </p>
         </div>
         <div class="appearance-image-wrapper">
@@ -46,10 +48,30 @@ import InstrumentData from '../assets/Data/InstrumentData.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 
 const props = defineProps({
-  instrument: String
-})
+  instrument: String,
+  song: {
+    type: String,
+    required: false
+  }
+});
 
 const instrument = computed(() => InstrumentData[props.instrument]);
+
+const headerConfig = computed(() => {
+  if (props.song) {
+    return {
+      leadingIcon: 'audiolines',
+      leadingIconColor: '#FB923C',
+      leadingIconRoute: `/song/${props.song}`
+    }
+  }
+
+  return {
+    leadingIcon: 'guitar',
+    leadingIconColor: '#2DD4BF',
+    leadingIconRoute: '/instruments'
+  }
+})
 
 const getImagePath = (fileName) => {
   return new URL(`../assets/instrument-pics/${fileName}`, import.meta.url).href;
@@ -64,7 +86,7 @@ const getSongImagePath = (appearance) => {
 }
 
 onMounted(() => {
-  window.scrollTo(0, 0)
+  window.scrollTo(0, 0);
 });
 
 </script>
