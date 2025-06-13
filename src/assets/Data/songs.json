@@ -37617,8 +37617,8 @@
         "Id": 241,
         "Title": "La Patrie Etude (Classical Guitar/LPE)",
         "CleanedTitle": "la-patrie-etude-classical-guitar-lpe",
-        "Artist": "Corey Heuvel",
-        "CleanedArtist": "corey-heuvel",
+        "Artist": "Fernando Sor",
+        "CleanedArtist": "fernando-sor",
         "Album": null,
         "CleanedAlbum": null,
         "Other_Artists": [],
@@ -37637,7 +37637,7 @@
             }
         ],
         "Year": 1836,
-        "Search": "",
+        "Search": "Op. 35 No. 17 op 35 no 17",
         "Appearances": [
             {
                 "id": 1,
@@ -53907,7 +53907,7 @@
             }
         ],
         "Year": 1830,
-        "Search": "Study in B Minor",
+        "Search": "Study in B Minor, Op. 35 No. 22 op 35 no 22",
         "Appearances": [
             {
                 "id": 1,
