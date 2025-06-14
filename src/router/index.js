@@ -88,6 +88,12 @@ const routes = [
 		props: true
 	},
 	{
+		path: '/album/:album/song/:song',
+		name: 'SongPageFromAlbum',
+		component: SongPage,
+		props: true
+	},
+	{
 		path: '/album/:album',
 		name: 'AlbumPage',
 		component: AlbumPage,

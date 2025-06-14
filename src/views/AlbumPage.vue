@@ -32,9 +32,24 @@
     <div class="songs" v-if="album.Songs && album.Songs.length">
       <h2>Songs</h2>
       <ul>
-        <li v-for="(song, index) in album.Songs" :key="index">
+        <!-- <li v-for="(song, index) in album.Songs" :key="index">
           <p><strong>Title:</strong> {{ song.Song }}</p>
+        </li> -->
+        <li v-for="(song, index) in album.Songs" :key="index">
+          <router-link
+            :to="{
+              name: 'SongPageFromAlbum',
+              params: {
+                album: props.album,
+                song: song.CleanedSong
+              }
+            }"
+            class="song-link"
+          >
+            <strong>Title:</strong> {{ song.Song }}
+          </router-link>
         </li>
+
       </ul>
     </div>
   </div>
@@ -75,7 +90,7 @@ const headerConfig = computed(() => {
       leadingIconColor: '#FB923C',
       leadingIconRoute: `/song/${props.song}`
     }
-  }
+  } 
 
   return {
     leadingIcon: 'home',
@@ -141,4 +156,14 @@ li {
   border-left: 4px solid #ccc;
   background-color: #f9f9f9;
 }
+
+.song-link {
+  text-decoration: none;
+  color: #2563eb;
+}
+
+.song-link:hover {
+  text-decoration: underline;
+}
+
 </style>

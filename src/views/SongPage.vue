@@ -170,6 +170,10 @@ const props = defineProps({
   artist: {
     type: String,
     required: false
+  },
+  album: {
+    type: String,
+    required: false
   }
 })
 
@@ -189,6 +193,12 @@ const headerConfig = computed(() => {
       leadingIcon: 'musicnote',
       leadingIconColor: '#FB7185',
       leadingIconRoute: '/repertoire'
+    }
+  } else if (props.album) {
+    return {
+      leadingIcon: 'HandCoins',
+      leadingIconColor: '#38bdf8',
+      leadingIconRoute: `/album/${props.album}`
     }
   }
   return {
