@@ -7,6 +7,8 @@ import ChevronRightIcon from "./ChevronRight.vue";
 import ClapperboardIcon from "./Clapperboard.vue";
 import CrownIcon from "./Crown.vue";
 import DiscIcon from "./Disc.vue";
+import DiscAlbumIcon from "./DiscAlbum.vue";
+import DiscThreeIcon from "./DiscThree.vue";
 import DoubleChevronRightIcon from "./DoubleChevronRight.vue";
 import EmailIcon from "./Email.vue";
 import FolderIcon from "./Folder.vue";
@@ -32,6 +34,8 @@ const iconMap = {
   clapperboard: ClapperboardIcon,
   crown: CrownIcon,
   disc: DiscIcon,
+  discalbum: DiscAlbumIcon,
+  discthree: DiscThreeIcon,
   doublechevronright: DoubleChevronRightIcon,
   email: EmailIcon,
   folder: FolderIcon,
