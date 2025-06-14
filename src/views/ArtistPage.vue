@@ -3,7 +3,7 @@
     <HeaderWithIcon
       :title="artist.Artist"
       icon="palette"
-      iconColor="orange"
+      iconColor="indigo"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
       :leadingIconRoute="headerConfig.leadingIconRoute"
@@ -102,7 +102,7 @@ const headerConfig = computed(() => {
   } else if (props.album) {
     return {
       leadingIcon: 'DiscThree',
-      leadingIconColor: 'sky',
+      leadingIconColor: 'emerald',
       leadingIconRoute: `/album/${props.album}`
     }
   }

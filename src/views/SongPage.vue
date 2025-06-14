@@ -185,7 +185,7 @@ const headerConfig = computed(() => {
   if (props.artist) {
     return {
       leadingIcon: 'palette',
-      leadingIconColor: 'orange',
+      leadingIconColor: 'indigo',
       leadingIconRoute: `/artist/${props.artist}`
     }
   } else if (route.name === 'SongPageFromRepertoire') {
@@ -197,7 +197,7 @@ const headerConfig = computed(() => {
   } else if (props.album) {
     return {
       leadingIcon: 'DiscThree',
-      leadingIconColor: '#38bdf8',
+      leadingIconColor: 'emerald',
       leadingIconRoute: `/album/${props.album}`
     }
   }
