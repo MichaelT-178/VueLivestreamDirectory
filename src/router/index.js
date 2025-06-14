@@ -94,6 +94,12 @@ const routes = [
 		props: true
 	},
 	{
+		path: '/album/:album/artist/:artist',
+		name: 'ArtistPageFromAlbum',
+		component: ArtistPage,
+		props: true
+	},
+	{
 		path: '/album/:album',
 		name: 'AlbumPage',
 		component: AlbumPage,

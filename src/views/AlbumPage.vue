@@ -20,7 +20,22 @@
     />
 
     <div class="album-info">
-      <p><strong>Artist:</strong> {{ album.Artist }}</p>
+      <!-- <p><strong>Artist:</strong> {{ album.Artist }}</p> -->
+       <p><strong>Artist: </strong> 
+        <router-link 
+          :to="{
+            name: 'ArtistPageFromAlbum',
+            params: {
+              album: album.CleanedAlbumTitle,
+              artist: album.CleanedArtist
+            }
+          }"
+          class="song-link"
+        >
+          {{ album.Artist }}
+        </router-link>
+      </p>
+
       <img 
         :src="getArtistImagePath(album.CleanedArtist)" 
         :alt="album.Artist" 
