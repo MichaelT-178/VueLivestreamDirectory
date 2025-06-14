@@ -1,5 +1,5 @@
 <template>
-  <div class="page-container" v-if="instrument">
+  <div class="instrument-page-container" v-if="instrument">
     <HeaderWithIcon
       :title="instrument.instrument"
       icon="musicnote"
@@ -9,38 +9,44 @@
       :leadingIconRoute="headerConfig.leadingIconRoute"
     />
 
-    <img :src="getImagePath(instrument.pic)" :alt="instrument.instrument" class="instrument-image" />
-    <p><strong>Number of Appearances:</strong> {{ instrument.numOfAppearances }}</p>
+    <img
+      :src="getImagePath(instrument.pic)"
+      :alt="instrument.instrument"
+      class="instrument-main-image"
+    />
+    <p class="appearance-count">
+      <strong>Number of Appearances:</strong> {{ instrument.numOfAppearances }}
+    </p>
 
-    <div class="appearance" v-for="appearance in instrument.appearances" :key="appearance.id">
-      <div class="appearance-content">
+    <div
+      v-for="appearance in instrument.appearances"
+      :key="appearance.id"
+      class="appearance-card"
+    >
+      <a
+        :href="appearance.link"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="appearance-link"
+      >
+        <img
+          :src="getSongImagePath(appearance)"
+          :alt="appearance.songTitle"
+          class="appearance-image"
+        />
         <div class="appearance-info">
-          <p><strong>Song Title:</strong> {{ appearance.songTitle }}</p>
-          <p><strong>Artist:</strong> {{ appearance.artist }}</p>
-          <p><strong>Livestream:</strong> {{ appearance.livestream }}</p>
-          <p>
-            <strong>Link:</strong>
-            <a :href="appearance.link" target="_blank" rel="noopener noreferrer">
-              {{ appearance.link }}
-            </a>
-          </p>
+          <p><strong>{{ appearance.songTitle }}</strong></p>
+          <p>{{ appearance.artist }}</p>
+          <p>{{ appearance.livestream }}</p>
         </div>
-        <div class="appearance-image-wrapper">
-          <img
-            :src="getSongImagePath(appearance)"
-            :alt="appearance.songTitle"
-            class="appearance-image"
-          />
-        </div>
-      </div>
+      </a>
     </div>
   </div>
 
-  <div class="page-container" v-else>
+  <div class="instrument-page-container" v-else>
     <p>Instrument not found.</p>
   </div>
 </template>
-
 
 <script setup>
 import { computed, onMounted } from 'vue';
@@ -51,8 +57,8 @@ const props = defineProps({
   instrument: String,
   song: {
     type: String,
-    required: false
-  }
+    required: false,
+  },
 });
 
 const instrument = computed(() => InstrumentData[props.instrument]);
@@ -62,77 +68,88 @@ const headerConfig = computed(() => {
     return {
       leadingIcon: 'audiolines',
       leadingIconColor: 'orange',
-      leadingIconRoute: `/song/${props.song}`
-    }
+      leadingIconRoute: `/song/${props.song}`,
+    };
   }
 
   return {
     leadingIcon: 'guitar',
     leadingIconColor: 'teal',
-    leadingIconRoute: '/instruments'
-  }
-})
+    leadingIconRoute: '/instruments',
+  };
+});
 
 const getImagePath = (fileName) => {
   return new URL(`../assets/instrument-pics/${fileName}`, import.meta.url).href;
-}
+};
 
 const getSongImagePath = (appearance) => {
   if (appearance.cleanedAlbum) {
-    return new URL(`../assets/AlbumPics/${appearance.cleanedAlbum}.jpg`, import.meta.url).href;
+    return new URL(
+      `../assets/AlbumPics/${appearance.cleanedAlbum}.jpg`,
+      import.meta.url
+    ).href;
   }
-
-  return new URL(`../assets/ArtistPics/${appearance.cleanedArtist}.jpg`, import.meta.url).href;
-}
+  return new URL(
+    `../assets/ArtistPics/${appearance.cleanedArtist}.jpg`,
+    import.meta.url
+  ).href;
+};
 
 onMounted(() => {
   window.scrollTo(0, 0);
 });
-
 </script>
 
-
 <style scoped>
-.page-container {
+.instrument-page-container {
   padding: 2rem;
-  font-size: 1.1rem;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.instrument-image {
+.instrument-main-image {
   max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
+  border-radius: 12px;
 }
 
-.appearance {
-  margin-top: 1.5rem;
-  padding: 1rem;
-  border-left: 4px solid #ccc;
-  background-color: #f9f9f9;
+.appearance-count {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
 }
 
-.appearance-content {
+.appearance-card {
+  margin-bottom: 1.5rem;
+  background-color: #1f2937;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.appearance-card:hover {
+  transform: scale(1.01);
+}
+
+.appearance-link {
   display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-
-.appearance-info {
-  flex: 1 1 60%;
-}
-
-.appearance-image-wrapper {
-  flex: 1 1 35%;
-  max-width: 250px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  padding: 1rem;
+  gap: 1rem;
 }
 
 .appearance-image {
-  width: 100%;
-  height: auto;
+  width: 64px;
+  height: 64px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
+.appearance-info p {
+  margin: 0.25rem 0;
+}
 </style>
