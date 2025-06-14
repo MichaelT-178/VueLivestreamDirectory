@@ -19,7 +19,7 @@
     </p>
 
     <div
-      v-for="appearance in instrument.appearances"
+      v-for="appearance in visibleAppearances"
       :key="appearance.id"
       class="appearance-card"
     >
@@ -41,6 +41,12 @@
         </div>
       </a>
     </div>
+
+    <div v-if="canLoadMore" class="load-more-container">
+      <button @click="loadMore" class="load-more-button">
+        Load More
+      </button>
+    </div>
   </div>
 
   <div class="instrument-page-container" v-else>
@@ -49,7 +55,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 import InstrumentData from '../assets/Data/InstrumentData.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 
@@ -62,6 +68,22 @@ const props = defineProps({
 });
 
 const instrument = computed(() => InstrumentData[props.instrument]);
+const appearancesToShow = ref(100);
+
+const visibleAppearances = computed(() => {
+  return instrument.value?.appearances.slice(0, appearancesToShow.value) || [];
+});
+
+const canLoadMore = computed(() => {
+  return (
+    instrument.value &&
+    appearancesToShow.value < instrument.value.appearances.length
+  );
+});
+
+const loadMore = () => {
+  appearancesToShow.value += 100;
+};
 
 const headerConfig = computed(() => {
   if (props.song) {
@@ -152,4 +174,26 @@ onMounted(() => {
 .appearance-info p {
   margin: 0.25rem 0;
 }
+
+.load-more-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.load-more-button {
+  background-color: lightgray;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid #e879f9;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.load-more-button:hover {
+  background-color: #e879f9;
+  color: white;
+}
+
 </style>
