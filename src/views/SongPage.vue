@@ -4,7 +4,7 @@
       <HeaderWithIcon
         title="Song"
         icon="audiolines"
-        iconColor="#FB923C"
+        iconColor="orange"
         :leadingIcon="headerConfig.leadingIcon"
         :leadingIconColor="headerConfig.leadingIconColor"
         :leadingIconRoute="headerConfig.leadingIconRoute"
@@ -185,13 +185,13 @@ const headerConfig = computed(() => {
   if (props.artist) {
     return {
       leadingIcon: 'palette',
-      leadingIconColor: '#FB923C',
+      leadingIconColor: 'orange',
       leadingIconRoute: `/artist/${props.artist}`
     }
   } else if (route.name === 'SongPageFromRepertoire') {
     return {
       leadingIcon: 'musicnote',
-      leadingIconColor: '#FB7185',
+      leadingIconColor: 'rose',
       leadingIconRoute: '/repertoire'
     }
   } else if (props.album) {
@@ -203,7 +203,7 @@ const headerConfig = computed(() => {
   }
   return {
     leadingIcon: 'home',
-    leadingIconColor: '#38bdf8',
+    leadingIconColor: 'sky',
     leadingIconRoute: '/'
   }
 })

@@ -3,7 +3,7 @@
     <HeaderWithIcon
       :title="artist.Artist"
       icon="palette"
-      iconColor="#FB923C"
+      iconColor="orange"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
       :leadingIconRoute="headerConfig.leadingIconRoute"
@@ -96,20 +96,20 @@ const headerConfig = computed(() => {
   if (props.song) {
     return {
       leadingIcon: 'audiolines',
-      leadingIconColor: '#FB923C',
+      leadingIconColor: 'orange',
       leadingIconRoute: `/song/${props.song}`
     }
   } else if (props.album) {
     return {
       leadingIcon: 'DiscThree',
-      leadingIconColor: '#38bdf8',
+      leadingIconColor: 'sky',
       leadingIconRoute: `/album/${props.album}`
     }
   }
 
   return {
     leadingIcon: 'home',
-    leadingIconColor: '#38bdf8',
+    leadingIconColor: 'sky',
     leadingIconRoute: '/'
   }
 })

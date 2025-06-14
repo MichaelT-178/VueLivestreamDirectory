@@ -1,6 +1,5 @@
 <template>
   <div class="header-with-icon">
-
     <router-link :to="leadingIconRoute" custom v-slot="{ href, navigate }">
       <div
         :href="href"
@@ -10,7 +9,7 @@
       >
         <component
           :is="leadingIconComponent"
-          :stroke-color="leadingIconColor"
+          :stroke-color="resolveColor(leadingIconColor)"
           :width="28"
           class="header-icon"
         />
@@ -19,7 +18,7 @@
 
     <component
       :is="iconMap['doublechevronright']"
-      stroke-color="#ffffff"
+      :stroke-color="resolveColor('white')"
       :width="29"
       class="header-icon"
     />
@@ -27,7 +26,7 @@
     <div class="icon-background" :style="backgroundStyle">
       <component
         :is="iconComponent"
-        :stroke-color="iconColor"
+        :stroke-color="resolveColor(iconColor)"
         :width="28"
         class="header-icon"
       />
@@ -37,10 +36,10 @@
   </div>
 </template>
 
-
 <script setup>
 import { computed } from 'vue';
 import iconMap from '../assets/svg/IconMap.js';
+import ColorGraph from '../assets/Home/ColorGraph.json';
 
 const props = defineProps({
   title: {
@@ -53,7 +52,7 @@ const props = defineProps({
   },
   iconColor: {
     type: String,
-    default: '#ffffff'
+    default: 'white'
   },
   leadingIcon: {
     type: String,
@@ -61,7 +60,7 @@ const props = defineProps({
   },
   leadingIconColor: {
     type: String,
-    default: '#38bdf8'
+    default: 'sky'
   },
   leadingIconRoute: {
     type: String,
@@ -72,7 +71,6 @@ const props = defineProps({
 const iconComponent = computed(() => iconMap[props.icon?.toLowerCase()] || null);
 const leadingIconComponent = computed(() => iconMap[props.leadingIcon?.toLowerCase()] || null);
 
-
 function hexToRgba(hex, alpha = 1) {
   let hexValue = hex.replace('#', '');
 
@@ -81,7 +79,6 @@ function hexToRgba(hex, alpha = 1) {
   }
 
   const bigint = parseInt(hexValue, 16);
-
   const r = (bigint >> 16) & 255;
   const g = (bigint >> 8) & 255;
   const b = bigint & 255;
@@ -89,13 +86,16 @@ function hexToRgba(hex, alpha = 1) {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
+const resolveColor = (name) => {
+  return ColorGraph[name]?.code || name;
+}
 
 const backgroundStyle = computed(() => ({
-  backgroundColor: hexToRgba(props.iconColor, 0.3)
+  backgroundColor: hexToRgba(resolveColor(props.iconColor), 0.3)
 }));
 
 const leadingIconBackground = computed(() => ({
-  backgroundColor: hexToRgba(props.leadingIconColor, 0.2)
+  backgroundColor: hexToRgba(resolveColor(props.leadingIconColor), 0.2)
 }));
 
 </script>

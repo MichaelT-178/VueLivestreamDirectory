@@ -3,7 +3,7 @@
     <HeaderWithIcon
       :title="instrument.instrument"
       icon="musicnote"
-      iconColor="#e879f9"
+      iconColor="fuchsia"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
       :leadingIconRoute="headerConfig.leadingIconRoute"
@@ -61,14 +61,14 @@ const headerConfig = computed(() => {
   if (props.song) {
     return {
       leadingIcon: 'audiolines',
-      leadingIconColor: '#FB923C',
+      leadingIconColor: 'orange',
       leadingIconRoute: `/song/${props.song}`
     }
   }
 
   return {
     leadingIcon: 'guitar',
-    leadingIconColor: '#2DD4BF',
+    leadingIconColor: 'teal',
     leadingIconRoute: '/instruments'
   }
 })

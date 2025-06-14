@@ -3,7 +3,7 @@
     <HeaderWithIcon
       title="Corey's Repertoire"
       icon="musicnote"
-      iconColor="#FB7185"
+      iconColor="rose"
     />
 
     <div class="search-bar-container">

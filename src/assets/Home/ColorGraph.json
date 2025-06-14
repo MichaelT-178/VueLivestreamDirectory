@@ -64,5 +64,8 @@
     },
     "rose": {
         "code": "#fb7185"
+    },
+    "white": {
+        "code": "#ffffff"
     }
 }

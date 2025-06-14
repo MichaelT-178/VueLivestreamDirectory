@@ -4,7 +4,7 @@
       <HeaderWithIcon
         title="My Favorite Covers"
         icon="heart"
-        iconColor="#F472B6"
+        iconColor="pink"
       />
 
       <div class="search-bar-container">

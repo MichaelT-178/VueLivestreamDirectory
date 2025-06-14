@@ -4,7 +4,7 @@
       <HeaderWithIcon
         title="Patreon Lessons"
         icon="school"
-        iconColor="#C084FC"
+        iconColor="purple"
       />
 
       <div class="search-bar-container">
@@ -35,7 +35,7 @@
         <HeaderWithIcon
           title="Patreon Lessons"
           icon="school"
-          iconColor="#C084FC"
+          iconColor="purple"
         />
 
         <ErrorCard 

@@ -6,7 +6,7 @@
         <HeaderWithIcon
           title=""
           icon="email"
-          iconColor="#60A5FA"
+          iconColor="blue"
         />
       </div>
 

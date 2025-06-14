@@ -5,7 +5,7 @@
     <HeaderWithIcon
       title="Album"
       icon="DiscThree"
-      iconColor="#38bdf8"
+      iconColor="sky"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
       :leadingIconRoute="headerConfig.leadingIconRoute"
@@ -96,20 +96,20 @@ const headerConfig = computed(() => {
   if (props.artist) {
     return {
       leadingIcon: 'palette',
-      leadingIconColor: '#FB923C',
+      leadingIconColor: 'orange',
       leadingIconRoute: `/artist/${props.artist}`
     }
   } else if (props.song) {
     return {
       leadingIcon: 'audiolines',
-      leadingIconColor: '#FB923C',
+      leadingIconColor: 'orange',
       leadingIconRoute: `/song/${props.song}`
     }
   } 
 
   return {
     leadingIcon: 'home',
-    leadingIconColor: '#38bdf8',
+    leadingIconColor: 'sky',
     leadingIconRoute: '/'
   }
 })
@@ -126,8 +126,10 @@ const getArtistImagePath = (cleanedName) => {
 
 onMounted(() => {
   window.scrollTo(0, 0)
-})
+});
+
 </script>
+
 
 <style scoped>
 .page-container {

@@ -3,7 +3,7 @@
     <HeaderWithIcon
       title="Corey Pictures"
       icon="camera"
-      iconColor="#FB923C"
+      iconColor="orange"
     />
 
     <div class="gallery">

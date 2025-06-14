@@ -4,7 +4,7 @@
       <HeaderWithIcon
         title="Instruments"
         icon="guitar"
-        iconColor="#2DD4BF"
+        iconColor="teal"
       />
 
       <div class="middle-bar">
