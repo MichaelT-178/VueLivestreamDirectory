@@ -2,7 +2,7 @@
   <div class="page-container" v-if="song">
     <div class="header-wrapper">
       <HeaderWithIcon
-        title=""
+        title="Song"
         icon="audiolines"
         iconColor="#FB923C"
         :leadingIcon="headerConfig.leadingIcon"
@@ -196,7 +196,7 @@ const headerConfig = computed(() => {
     }
   } else if (props.album) {
     return {
-      leadingIcon: 'HandCoins',
+      leadingIcon: 'DiscThree',
       leadingIconColor: '#38bdf8',
       leadingIconRoute: `/album/${props.album}`
     }

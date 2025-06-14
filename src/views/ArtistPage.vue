@@ -101,7 +101,7 @@ const headerConfig = computed(() => {
     }
   } else if (props.album) {
     return {
-      leadingIcon: 'HandCoins',
+      leadingIcon: 'DiscThree',
       leadingIconColor: '#38bdf8',
       leadingIconRoute: `/album/${props.album}`
     }

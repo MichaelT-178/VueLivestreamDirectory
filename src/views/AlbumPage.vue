@@ -3,8 +3,8 @@
   <div class="page-container" v-if="album">
     
     <HeaderWithIcon
-      :title="album.AlbumTitle"
-      icon="HandCoins"
+      title="Album"
+      icon="DiscThree"
       iconColor="#38bdf8"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
