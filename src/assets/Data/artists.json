@@ -2,6 +2,9 @@
     "various-artists": {
         "Artist": "Various Artists",
         "CleanedArtist": "various-artists",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 1,
@@ -58,6 +61,9 @@
     "corey-heuvel": {
         "Artist": "Corey Heuvel",
         "CleanedArtist": "corey-heuvel",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 8,
@@ -997,6 +1003,9 @@
     "joni-mitchell": {
         "Artist": "Joni Mitchell",
         "CleanedArtist": "joni-mitchell",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 11,
@@ -1086,6 +1095,9 @@
     "jeff-buckley": {
         "Artist": "Jeff Buckley",
         "CleanedArtist": "jeff-buckley",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 12,
@@ -1298,6 +1310,9 @@
     "the-smiths": {
         "Artist": "The Smiths",
         "CleanedArtist": "the-smiths",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 13,
@@ -1337,6 +1352,9 @@
     "scott-matthews": {
         "Artist": "Scott Matthews",
         "CleanedArtist": "scott-matthews",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 13,
@@ -1402,6 +1420,9 @@
     "eddie-vedder": {
         "Artist": "Eddie Vedder",
         "CleanedArtist": "eddie-vedder",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 14,
@@ -1429,6 +1450,9 @@
     "eric-clapton": {
         "Artist": "Eric Clapton",
         "CleanedArtist": "eric-clapton",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 15,
@@ -1544,6 +1568,9 @@
     "big-bill-broonzy": {
         "Artist": "Big Bill Broonzy",
         "CleanedArtist": "big-bill-broonzy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 15,
@@ -1564,6 +1591,9 @@
     "incubus": {
         "Artist": "Incubus",
         "CleanedArtist": "incubus",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 16,
@@ -1643,6 +1673,9 @@
     "fleetwood-mac": {
         "Artist": "Fleetwood Mac",
         "CleanedArtist": "fleetwood-mac",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 19,
@@ -1694,6 +1727,9 @@
     "lindsey-buckingham": {
         "Artist": "Lindsey Buckingham",
         "CleanedArtist": "lindsey-buckingham",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 19,
@@ -1726,6 +1762,9 @@
     "john-mayer": {
         "Artist": "John Mayer",
         "CleanedArtist": "john-mayer",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 20,
@@ -1895,6 +1934,9 @@
     "nick-drake": {
         "Artist": "Nick Drake",
         "CleanedArtist": "nick-drake",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 23,
@@ -2070,6 +2112,9 @@
     "john-martyn": {
         "Artist": "John Martyn",
         "CleanedArtist": "john-martyn",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 24,
@@ -2097,6 +2142,9 @@
     "flo-rida-t-pain": {
         "Artist": "Flo Rida, T-Pain",
         "CleanedArtist": "flo-rida-t-pain",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 25,
@@ -2117,6 +2165,9 @@
     "michael-jackson": {
         "Artist": "Michael Jackson",
         "CleanedArtist": "michael-jackson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 26,
@@ -2189,6 +2240,9 @@
     "stevie-wonder": {
         "Artist": "Stevie Wonder",
         "CleanedArtist": "stevie-wonder",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 27,
@@ -2266,6 +2320,9 @@
     "bob-dylan": {
         "Artist": "Bob Dylan",
         "CleanedArtist": "bob-dylan",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 28,
@@ -2370,6 +2427,9 @@
     "eric-johnson": {
         "Artist": "Eric Johnson",
         "CleanedArtist": "eric-johnson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 29,
@@ -2421,6 +2481,9 @@
     "tommy-emmanuel": {
         "Artist": "Tommy Emmanuel",
         "CleanedArtist": "tommy-emmanuel",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 31,
@@ -2465,6 +2528,9 @@
     "stevie-ray-vaughan": {
         "Artist": "Stevie Ray Vaughan",
         "CleanedArtist": "stevie-ray-vaughan",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 32,
@@ -2631,6 +2697,9 @@
     "joe-satriani": {
         "Artist": "Joe Satriani",
         "CleanedArtist": "joe-satriani",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 33,
@@ -2689,6 +2758,9 @@
     "jamiroquai": {
         "Artist": "Jamiroquai",
         "CleanedArtist": "jamiroquai",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 34,
@@ -2721,6 +2793,9 @@
     "jimi-hendrix": {
         "Artist": "Jimi Hendrix",
         "CleanedArtist": "jimi-hendrix",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 35,
@@ -2892,6 +2967,9 @@
     "gnarls-barkley": {
         "Artist": "Gnarls Barkley",
         "CleanedArtist": "gnarls-barkley",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 40,
@@ -2919,6 +2997,9 @@
     "ray-lamontagne": {
         "Artist": "Ray LaMontagne",
         "CleanedArtist": "ray-lamontagne",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 40,
@@ -2970,6 +3051,9 @@
     "van-morrison": {
         "Artist": "Van Morrison",
         "CleanedArtist": "van-morrison",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 41,
@@ -3016,6 +3100,9 @@
     "patrick-watson": {
         "Artist": "Patrick Watson",
         "CleanedArtist": "patrick-watson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 42,
@@ -3043,6 +3130,9 @@
     "pendulum": {
         "Artist": "Pendulum",
         "CleanedArtist": "pendulum",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 43,
@@ -3063,6 +3153,9 @@
     "peter-gabriel": {
         "Artist": "Peter Gabriel",
         "CleanedArtist": "peter-gabriel",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 45,
@@ -3095,6 +3188,9 @@
     "steve-miller-band": {
         "Artist": "Steve Miller Band",
         "CleanedArtist": "steve-miller-band",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 48,
@@ -3134,6 +3230,9 @@
     "justin-timberlake-ft-jay-z": {
         "Artist": "Justin Timberlake ft. JAY-Z",
         "CleanedArtist": "justin-timberlake-ft-jay-z",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 51,
@@ -3154,6 +3253,9 @@
     "crosby-stills-nash-young": {
         "Artist": "Crosby, Stills, Nash & Young",
         "CleanedArtist": "crosby-stills-nash-young",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 52,
@@ -3181,6 +3283,9 @@
     "pink-floyd": {
         "Artist": "Pink Floyd",
         "CleanedArtist": "pink-floyd",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 54,
@@ -3307,6 +3412,9 @@
     "heart": {
         "Artist": "Heart",
         "CleanedArtist": "heart",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 56,
@@ -3339,6 +3447,9 @@
     "the-goo-goo-dolls": {
         "Artist": "The Goo Goo Dolls",
         "CleanedArtist": "the-goo-goo-dolls",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 58,
@@ -3366,6 +3477,9 @@
     "jim-croce": {
         "Artist": "Jim Croce",
         "CleanedArtist": "jim-croce",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 59,
@@ -3393,6 +3507,9 @@
     "michael-buble": {
         "Artist": "Michael Bublé",
         "CleanedArtist": "michael-buble",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 60,
@@ -3413,6 +3530,9 @@
     "vanessa-carlton": {
         "Artist": "Vanessa Carlton",
         "CleanedArtist": "vanessa-carlton",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 63,
@@ -3433,6 +3553,9 @@
     "neil-young": {
         "Artist": "Neil Young",
         "CleanedArtist": "neil-young",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 64,
@@ -3560,6 +3683,9 @@
     "sam-sparro": {
         "Artist": "Sam Sparro",
         "CleanedArtist": "sam-sparro",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 65,
@@ -3580,6 +3706,9 @@
     "ariana-grande-ft-zedd": {
         "Artist": "Ariana Grande ft. Zedd",
         "CleanedArtist": "ariana-grande-ft-zedd",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 67,
@@ -3600,6 +3729,9 @@
     "kansas": {
         "Artist": "Kansas",
         "CleanedArtist": "kansas",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 73,
@@ -3632,6 +3764,9 @@
     "steely-dan": {
         "Artist": "Steely Dan",
         "CleanedArtist": "steely-dan",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 74,
@@ -3659,6 +3794,9 @@
     "seal": {
         "Artist": "Seal",
         "CleanedArtist": "seal",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 75,
@@ -3679,6 +3817,9 @@
     "lyle-lovett": {
         "Artist": "Lyle Lovett",
         "CleanedArtist": "lyle-lovett",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 76,
@@ -3699,6 +3840,9 @@
     "doyle-bramhall": {
         "Artist": "Doyle Bramhall",
         "CleanedArtist": "doyle-bramhall",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 77,
@@ -3719,6 +3863,9 @@
     "alanis-morissette": {
         "Artist": "Alanis Morissette",
         "CleanedArtist": "alanis-morissette",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 78,
@@ -3739,6 +3886,9 @@
     "tears-for-fears": {
         "Artist": "Tears For Fears",
         "CleanedArtist": "tears-for-fears",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 79,
@@ -3759,6 +3909,9 @@
     "led-zeppelin": {
         "Artist": "Led Zeppelin",
         "CleanedArtist": "led-zeppelin",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 80,
@@ -3926,6 +4079,9 @@
     "bruce-springsteen": {
         "Artist": "Bruce Springsteen",
         "CleanedArtist": "bruce-springsteen",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 81,
@@ -3984,6 +4140,9 @@
     "bo-diddley": {
         "Artist": "Bo Diddley",
         "CleanedArtist": "bo-diddley",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 82,
@@ -4004,6 +4163,9 @@
     "stone-temple-pilots": {
         "Artist": "Stone Temple Pilots",
         "CleanedArtist": "stone-temple-pilots",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 83,
@@ -4048,6 +4210,9 @@
     "tracy-chapman": {
         "Artist": "Tracy Chapman",
         "CleanedArtist": "tracy-chapman",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 85,
@@ -4068,6 +4233,9 @@
     "queen": {
         "Artist": "Queen",
         "CleanedArtist": "queen",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 86,
@@ -4131,6 +4299,9 @@
     "sublime": {
         "Artist": "Sublime",
         "CleanedArtist": "sublime",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 87,
@@ -4165,6 +4336,9 @@
     "the-band": {
         "Artist": "The Band",
         "CleanedArtist": "the-band",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 88,
@@ -4204,6 +4378,9 @@
     "third-eye-blind": {
         "Artist": "Third Eye Blind",
         "CleanedArtist": "third-eye-blind",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 89,
@@ -4231,6 +4408,9 @@
     "blackstreet": {
         "Artist": "Blackstreet",
         "CleanedArtist": "blackstreet",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 91,
@@ -4251,6 +4431,9 @@
     "francisco-tarrega": {
         "Artist": "Francisco Tárrega",
         "CleanedArtist": "francisco-tarrega",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 96,
@@ -4293,6 +4476,9 @@
     "the-beatles": {
         "Artist": "The Beatles",
         "CleanedArtist": "the-beatles",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 98,
@@ -4432,6 +4618,9 @@
     "matteo-carcassi": {
         "Artist": "Matteo Carcassi",
         "CleanedArtist": "matteo-carcassi",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 99,
@@ -4446,6 +4635,9 @@
     "cream": {
         "Artist": "Cream",
         "CleanedArtist": "cream",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 100,
@@ -4497,6 +4689,9 @@
     "robert-johnson": {
         "Artist": "Robert Johnson",
         "CleanedArtist": "robert-johnson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 100,
@@ -4536,6 +4731,9 @@
     "the-black-keys": {
         "Artist": "The Black Keys",
         "CleanedArtist": "the-black-keys",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 101,
@@ -4575,6 +4773,9 @@
     "radiohead": {
         "Artist": "Radiohead",
         "CleanedArtist": "radiohead",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 102,
@@ -4680,6 +4881,9 @@
     "david-bowie": {
         "Artist": "David Bowie",
         "CleanedArtist": "david-bowie",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 103,
@@ -4748,6 +4952,9 @@
     "soundgarden": {
         "Artist": "Soundgarden",
         "CleanedArtist": "soundgarden",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 104,
@@ -4768,6 +4975,9 @@
     "the-who": {
         "Artist": "The Who",
         "CleanedArtist": "the-who",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 105,
@@ -4807,6 +5017,9 @@
     "kiesza": {
         "Artist": "Kiesza",
         "CleanedArtist": "kiesza",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 106,
@@ -4827,6 +5040,9 @@
     "bob-seger": {
         "Artist": "Bob Seger",
         "CleanedArtist": "bob-seger",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 107,
@@ -4859,6 +5075,9 @@
     "the-leaves": {
         "Artist": "The Leaves",
         "CleanedArtist": "the-leaves",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 108,
@@ -4879,6 +5098,9 @@
     "billy-roberts": {
         "Artist": "Billy Roberts",
         "CleanedArtist": "billy-roberts",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 108,
@@ -4899,6 +5121,9 @@
     "porter-wagoner": {
         "Artist": "Porter Wagoner",
         "CleanedArtist": "porter-wagoner",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 111,
@@ -4919,6 +5144,9 @@
     "red-hayes": {
         "Artist": "Red Hayes",
         "CleanedArtist": "red-hayes",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 111,
@@ -4939,6 +5167,9 @@
     "edith-piaf": {
         "Artist": "Édith Piaf",
         "CleanedArtist": "edith-piaf",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 114,
@@ -4959,6 +5190,9 @@
     "hank-williams": {
         "Artist": "Hank Williams",
         "CleanedArtist": "hank-williams",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 116,
@@ -4979,6 +5213,9 @@
     "leon-payne": {
         "Artist": "Leon Payne",
         "CleanedArtist": "leon-payne",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 116,
@@ -4999,6 +5236,9 @@
     "red-hot-chili-peppers": {
         "Artist": "Red Hot Chili Peppers",
         "CleanedArtist": "red-hot-chili-peppers",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 122,
@@ -5102,6 +5342,9 @@
     "the-jeff-healey-band": {
         "Artist": "The Jeff Healey Band",
         "CleanedArtist": "the-jeff-healey-band",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 125,
@@ -5122,6 +5365,9 @@
     "coldplay": {
         "Artist": "Coldplay",
         "CleanedArtist": "coldplay",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 128,
@@ -5187,6 +5433,9 @@
     "the-doors": {
         "Artist": "The Doors",
         "CleanedArtist": "the-doors",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 130,
@@ -5240,6 +5489,9 @@
     "ray-charles": {
         "Artist": "Ray Charles",
         "CleanedArtist": "ray-charles",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 132,
@@ -5274,6 +5526,9 @@
     "nick-ashford": {
         "Artist": "Nick Ashford",
         "CleanedArtist": "nick-ashford",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 132,
@@ -5294,6 +5549,9 @@
     "john-scofield": {
         "Artist": "John Scofield",
         "CleanedArtist": "john-scofield",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 132,
@@ -5314,6 +5572,9 @@
     "frank-sinatra": {
         "Artist": "Frank Sinatra",
         "CleanedArtist": "frank-sinatra",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 133,
@@ -5334,6 +5595,9 @@
     "marion-montgomery": {
         "Artist": "Marion Montgomery",
         "CleanedArtist": "marion-montgomery",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 133,
@@ -5354,6 +5618,9 @@
     "muse": {
         "Artist": "Muse",
         "CleanedArtist": "muse",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 135,
@@ -5386,6 +5653,9 @@
     "supertramp": {
         "Artist": "Supertramp",
         "CleanedArtist": "supertramp",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 137,
@@ -5418,6 +5688,9 @@
     "bob-marley": {
         "Artist": "Bob Marley",
         "CleanedArtist": "bob-marley",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 138,
@@ -5462,6 +5735,9 @@
     "bob-marley-the-wailers": {
         "Artist": "Bob Marley & The Wailers",
         "CleanedArtist": "bob-marley-the-wailers",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 138,
@@ -5506,6 +5782,9 @@
     "queens-of-the-stone-age": {
         "Artist": "Queens of the Stone Age",
         "CleanedArtist": "queens-of-the-stone-age",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 140,
@@ -5526,6 +5805,9 @@
     "doyle-bramhall-ii-smokestack": {
         "Artist": "Doyle Bramhall II, Smokestack",
         "CleanedArtist": "doyle-bramhall-ii-smokestack",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 146,
@@ -5546,6 +5828,9 @@
     "pearl-jam": {
         "Artist": "Pearl Jam",
         "CleanedArtist": "pearl-jam",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 151,
@@ -5623,6 +5908,9 @@
     "leonard-cohen": {
         "Artist": "Leonard Cohen",
         "CleanedArtist": "leonard-cohen",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 157,
@@ -5643,6 +5931,9 @@
     "jesse-cook": {
         "Artist": "Jesse Cook",
         "CleanedArtist": "jesse-cook",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 158,
@@ -5663,6 +5954,9 @@
     "billy-strings": {
         "Artist": "Billy Strings",
         "CleanedArtist": "billy-strings",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 160,
@@ -5702,6 +5996,9 @@
     "buddy-guy": {
         "Artist": "Buddy Guy",
         "CleanedArtist": "buddy-guy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 161,
@@ -5722,6 +6019,9 @@
     "tones-and-i": {
         "Artist": "Tones And I",
         "CleanedArtist": "tones-and-i",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 164,
@@ -5742,6 +6042,9 @@
     "joe-walsh": {
         "Artist": "Joe Walsh",
         "CleanedArtist": "joe-walsh",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 171,
@@ -5774,6 +6077,9 @@
     "pantera": {
         "Artist": "Pantera",
         "CleanedArtist": "pantera",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 172,
@@ -5820,6 +6126,9 @@
     "ozzy-osbourne": {
         "Artist": "Ozzy Osbourne",
         "CleanedArtist": "ozzy-osbourne",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 173,
@@ -5871,6 +6180,9 @@
     "dire-straits": {
         "Artist": "Dire Straits",
         "CleanedArtist": "dire-straits",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 187,
@@ -5903,6 +6215,9 @@
     "sting": {
         "Artist": "Sting",
         "CleanedArtist": "sting",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 187,
@@ -5935,6 +6250,9 @@
     "the-rolling-stones": {
         "Artist": "The Rolling Stones",
         "CleanedArtist": "the-rolling-stones",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 191,
@@ -6041,6 +6359,9 @@
     "u2": {
         "Artist": "U2",
         "CleanedArtist": "u2",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 192,
@@ -6073,6 +6394,9 @@
     "rush": {
         "Artist": "Rush",
         "CleanedArtist": "rush",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 193,
@@ -6136,6 +6460,9 @@
     "jeff-beck": {
         "Artist": "Jeff Beck",
         "CleanedArtist": "jeff-beck",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 194,
@@ -6175,6 +6502,9 @@
     "blind-faith": {
         "Artist": "Blind Faith",
         "CleanedArtist": "blind-faith",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 219,
@@ -6195,6 +6525,9 @@
     "steve-winwood": {
         "Artist": "Steve Winwood",
         "CleanedArtist": "steve-winwood",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 219,
@@ -6227,6 +6560,9 @@
     "fernando-sor": {
         "Artist": "Fernando Sor",
         "CleanedArtist": "fernando-sor",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 242,
@@ -6248,6 +6584,9 @@
     "beck": {
         "Artist": "Beck",
         "CleanedArtist": "beck",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 259,
@@ -6268,6 +6607,9 @@
     "wings": {
         "Artist": "Wings",
         "CleanedArtist": "wings",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 261,
@@ -6288,6 +6630,9 @@
     "paul-mccartney": {
         "Artist": "Paul McCartney",
         "CleanedArtist": "paul-mccartney",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 261,
@@ -6308,6 +6653,9 @@
     "kenny-wayne-shepherd": {
         "Artist": "Kenny Wayne Shepherd",
         "CleanedArtist": "kenny-wayne-shepherd",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 262,
@@ -6328,6 +6676,9 @@
     "traffic": {
         "Artist": "Traffic",
         "CleanedArtist": "traffic",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 263,
@@ -6348,6 +6699,9 @@
     "the-verve": {
         "Artist": "The Verve",
         "CleanedArtist": "the-verve",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 264,
@@ -6368,6 +6722,9 @@
     "crosby-stills-nash": {
         "Artist": "Crosby, Stills & Nash",
         "CleanedArtist": "crosby-stills-nash",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 265,
@@ -6388,6 +6745,9 @@
     "elliott-smith": {
         "Artist": "Elliott Smith",
         "CleanedArtist": "elliott-smith",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 266,
@@ -6434,6 +6794,9 @@
     "moby": {
         "Artist": "Moby",
         "CleanedArtist": "moby",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 268,
@@ -6454,6 +6817,9 @@
     "vera-hall": {
         "Artist": "Vera Hall",
         "CleanedArtist": "vera-hall",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 269,
@@ -6468,6 +6834,9 @@
     "creedence-clearwater-revival": {
         "Artist": "Creedence Clearwater Revival",
         "CleanedArtist": "creedence-clearwater-revival",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 270,
@@ -6524,6 +6893,9 @@
     "amanda-marshall": {
         "Artist": "Amanda Marshall",
         "CleanedArtist": "amanda-marshall",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 271,
@@ -6544,6 +6916,9 @@
     "colin-james": {
         "Artist": "Colin James",
         "CleanedArtist": "colin-james",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 274,
@@ -6564,6 +6939,9 @@
     "sixpence-none-the-richer": {
         "Artist": "Sixpence None The Richer",
         "CleanedArtist": "sixpence-none-the-richer",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 275,
@@ -6584,6 +6962,9 @@
     "anne-bredon": {
         "Artist": "Anne Bredon",
         "CleanedArtist": "anne-bredon",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 277,
@@ -6604,6 +6985,9 @@
     "rory-gallagher": {
         "Artist": "Rory Gallagher",
         "CleanedArtist": "rory-gallagher",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 280,
@@ -6648,6 +7032,9 @@
     "lead-belly": {
         "Artist": "Lead Belly",
         "CleanedArtist": "lead-belly",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 280,
@@ -6668,6 +7055,9 @@
     "robert-petway": {
         "Artist": "Robert Petway",
         "CleanedArtist": "robert-petway",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 281,
@@ -6688,6 +7078,9 @@
     "beyonce-jay-z": {
         "Artist": "Beyoncé, JAY-Z",
         "CleanedArtist": "beyonce-jay-z",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 282,
@@ -6708,6 +7101,9 @@
     "the-las": {
         "Artist": "The La's",
         "CleanedArtist": "the-las",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 284,
@@ -6728,6 +7124,9 @@
     "velvet-revolver": {
         "Artist": "Velvet Revolver",
         "CleanedArtist": "velvet-revolver",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 287,
@@ -6755,6 +7154,9 @@
     "genesis": {
         "Artist": "Genesis",
         "CleanedArtist": "genesis",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 290,
@@ -6775,6 +7177,9 @@
     "chris-whitley": {
         "Artist": "Chris Whitley",
         "CleanedArtist": "chris-whitley",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 292,
@@ -6814,6 +7219,9 @@
     "amy-winehouse": {
         "Artist": "Amy Winehouse",
         "CleanedArtist": "amy-winehouse",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 302,
@@ -6834,6 +7242,9 @@
     "the-zutons": {
         "Artist": "The Zutons",
         "CleanedArtist": "the-zutons",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 302,
@@ -6854,6 +7265,9 @@
     "mark-ronson": {
         "Artist": "Mark Ronson",
         "CleanedArtist": "mark-ronson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 302,
@@ -6874,6 +7288,9 @@
     "the-smashing-pumpkins": {
         "Artist": "The Smashing Pumpkins",
         "CleanedArtist": "the-smashing-pumpkins",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 303,
@@ -6894,6 +7311,9 @@
     "the-doobie-brothers": {
         "Artist": "The Doobie Brothers",
         "CleanedArtist": "the-doobie-brothers",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 306,
@@ -6914,6 +7334,9 @@
     "grateful-dead": {
         "Artist": "Grateful Dead",
         "CleanedArtist": "grateful-dead",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 308,
@@ -6934,6 +7357,9 @@
     "goyte": {
         "Artist": "Goyte",
         "CleanedArtist": "goyte",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 310,
@@ -6954,6 +7380,9 @@
     "roy-orbison": {
         "Artist": "Roy Orbison",
         "CleanedArtist": "roy-orbison",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 313,
@@ -6974,6 +7403,9 @@
     "smash-mouth": {
         "Artist": "Smash Mouth",
         "CleanedArtist": "smash-mouth",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 314,
@@ -6994,6 +7426,9 @@
     "john-frusciante": {
         "Artist": "John Frusciante",
         "CleanedArtist": "john-frusciante",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 315,
@@ -7026,6 +7461,9 @@
     "nina-simone": {
         "Artist": "Nina Simone",
         "CleanedArtist": "nina-simone",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 316,
@@ -7082,6 +7520,9 @@
     "big-wreck": {
         "Artist": "Big Wreck",
         "CleanedArtist": "big-wreck",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 319,
@@ -7102,6 +7543,9 @@
     "jack-johnson": {
         "Artist": "Jack Johnson",
         "CleanedArtist": "jack-johnson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 320,
@@ -7122,6 +7566,9 @@
     "eurythmics": {
         "Artist": "Eurythmics",
         "CleanedArtist": "eurythmics",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 323,
@@ -7142,6 +7589,9 @@
     "annie-lennox": {
         "Artist": "Annie Lennox",
         "CleanedArtist": "annie-lennox",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 323,
@@ -7162,6 +7612,9 @@
     "dave-stewart": {
         "Artist": "Dave Stewart",
         "CleanedArtist": "dave-stewart",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 323,
@@ -7182,6 +7635,9 @@
     "james-taylor": {
         "Artist": "James Taylor",
         "CleanedArtist": "james-taylor",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 324,
@@ -7221,6 +7677,9 @@
     "the-moody-blues": {
         "Artist": "The Moody Blues",
         "CleanedArtist": "the-moody-blues",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 325,
@@ -7241,6 +7700,9 @@
     "bruce-cockburn": {
         "Artist": "Bruce Cockburn",
         "CleanedArtist": "bruce-cockburn",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 326,
@@ -7273,6 +7735,9 @@
     "the-animals": {
         "Artist": "The Animals",
         "CleanedArtist": "the-animals",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 327,
@@ -7293,6 +7758,9 @@
     "big-star": {
         "Artist": "Big Star",
         "CleanedArtist": "big-star",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 328,
@@ -7320,6 +7788,9 @@
     "david-gray": {
         "Artist": "David Gray",
         "CleanedArtist": "david-gray",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 330,
@@ -7352,6 +7823,9 @@
     "the-black-crowes": {
         "Artist": "The Black Crowes",
         "CleanedArtist": "the-black-crowes",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 331,
@@ -7379,6 +7853,9 @@
     "george-gershwin": {
         "Artist": "George Gershwin",
         "CleanedArtist": "george-gershwin",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 336,
@@ -7399,6 +7876,9 @@
     "ella-fitzgerald": {
         "Artist": "Ella Fitzgerald",
         "CleanedArtist": "ella-fitzgerald",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 336,
@@ -7419,6 +7899,9 @@
     "the-killers": {
         "Artist": "The Killers",
         "CleanedArtist": "the-killers",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 340,
@@ -7446,6 +7929,9 @@
     "allman-brothers-band": {
         "Artist": "Allman Brothers Band",
         "CleanedArtist": "allman-brothers-band",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 341,
@@ -7497,6 +7983,9 @@
     "danny-elfman": {
         "Artist": "Danny Elfman",
         "CleanedArtist": "danny-elfman",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 342,
@@ -7517,6 +8006,9 @@
     "robbie-basho": {
         "Artist": "Robbie Basho",
         "CleanedArtist": "robbie-basho",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 344,
@@ -7537,6 +8029,9 @@
     "arborea": {
         "Artist": "Arborea",
         "CleanedArtist": "arborea",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 344,
@@ -7557,6 +8052,9 @@
     "ac-dc": {
         "Artist": "AC/DC",
         "CleanedArtist": "ac-dc",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 345,
@@ -7589,6 +8087,9 @@
     "larry-davis": {
         "Artist": "Larry Davis",
         "CleanedArtist": "larry-davis",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 347,
@@ -7609,6 +8110,9 @@
     "metallica": {
         "Artist": "Metallica",
         "CleanedArtist": "metallica",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 349,
@@ -7636,6 +8140,9 @@
     "van-halen": {
         "Artist": "Van Halen",
         "CleanedArtist": "van-halen",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 352,
@@ -7725,6 +8232,9 @@
     "chuck-berry": {
         "Artist": "Chuck Berry",
         "CleanedArtist": "chuck-berry",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 354,
@@ -7745,6 +8255,9 @@
     "blue-oyster-cult": {
         "Artist": "Blue Öyster Cult",
         "CleanedArtist": "blue-oyster-cult",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 356,
@@ -7765,6 +8278,9 @@
     "zz-top": {
         "Artist": "ZZ Top",
         "CleanedArtist": "zz-top",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 357,
@@ -7835,6 +8351,9 @@
     "vance-joy": {
         "Artist": "Vance Joy",
         "CleanedArtist": "vance-joy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 362,
@@ -7855,6 +8374,9 @@
     "otis-redding": {
         "Artist": "Otis Redding",
         "CleanedArtist": "otis-redding",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 367,
@@ -7875,6 +8397,9 @@
     "jonny-lang": {
         "Artist": "Jonny Lang",
         "CleanedArtist": "jonny-lang",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 373,
@@ -7895,6 +8420,9 @@
     "foo-fighters": {
         "Artist": "Foo Fighters",
         "CleanedArtist": "foo-fighters",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 375,
@@ -7946,6 +8474,9 @@
     "the-eagles": {
         "Artist": "The Eagles",
         "CleanedArtist": "the-eagles",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 376,
@@ -7978,6 +8509,9 @@
     "the-police": {
         "Artist": "The Police",
         "CleanedArtist": "the-police",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 378,
@@ -8041,6 +8575,9 @@
     "santo-johnny": {
         "Artist": "Santo & Johnny",
         "CleanedArtist": "santo-johnny",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 383,
@@ -8055,6 +8592,9 @@
     "betsy-brye": {
         "Artist": "Betsy Brye",
         "CleanedArtist": "betsy-brye",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 383,
@@ -8069,6 +8609,9 @@
     "matchbox-twenty": {
         "Artist": "Matchbox Twenty",
         "CleanedArtist": "matchbox-twenty",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 384,
@@ -8096,6 +8639,9 @@
     "sonny-boy-williamson-ii": {
         "Artist": "Sonny Boy Williamson II",
         "CleanedArtist": "sonny-boy-williamson-ii",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 386,
@@ -8116,6 +8662,9 @@
     "shania-twain": {
         "Artist": "Shania Twain",
         "CleanedArtist": "shania-twain",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 389,
@@ -8136,6 +8685,9 @@
     "tom-petty": {
         "Artist": "Tom Petty",
         "CleanedArtist": "tom-petty",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 390,
@@ -8168,6 +8720,9 @@
     "johnny-cash": {
         "Artist": "Johnny Cash",
         "CleanedArtist": "johnny-cash",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 390,
@@ -8200,6 +8755,9 @@
     "don-mclean": {
         "Artist": "Don McLean",
         "CleanedArtist": "don-mclean",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 394,
@@ -8220,6 +8778,9 @@
     "oasis": {
         "Artist": "Oasis",
         "CleanedArtist": "oasis",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 399,
@@ -8259,6 +8820,9 @@
     "nirvana": {
         "Artist": "Nirvana",
         "CleanedArtist": "nirvana",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 400,
@@ -8336,6 +8900,9 @@
     "mountain": {
         "Artist": "Mountain",
         "CleanedArtist": "mountain",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 407,
@@ -8356,6 +8923,9 @@
     "hozier": {
         "Artist": "Hozier",
         "CleanedArtist": "hozier",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 413,
@@ -8376,6 +8946,9 @@
     "canned-heat": {
         "Artist": "Canned Heat",
         "CleanedArtist": "canned-heat",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 414,
@@ -8396,6 +8969,9 @@
     "john-brim": {
         "Artist": "John Brim",
         "CleanedArtist": "john-brim",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 416,
@@ -8416,6 +8992,9 @@
     "guns-n-roses": {
         "Artist": "Guns N' Roses",
         "CleanedArtist": "guns-n-roses",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 427,
@@ -8455,6 +9034,9 @@
     "free": {
         "Artist": "Free",
         "CleanedArtist": "free",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 428,
@@ -8475,6 +9057,9 @@
     "the-white-stripes": {
         "Artist": "The White Stripes",
         "CleanedArtist": "the-white-stripes",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 430,
@@ -8495,6 +9080,9 @@
     "black-sabbath": {
         "Artist": "Black Sabbath",
         "CleanedArtist": "black-sabbath",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 432,
@@ -8529,6 +9117,9 @@
     "dick-dale": {
         "Artist": "Dick Dale",
         "CleanedArtist": "dick-dale",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 434,
@@ -8543,6 +9134,9 @@
     "depeche-mode": {
         "Artist": "Depeche Mode",
         "CleanedArtist": "depeche-mode",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 435,
@@ -8563,6 +9157,9 @@
     "wolfmother": {
         "Artist": "Wolfmother",
         "CleanedArtist": "wolfmother",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 436,
@@ -8583,6 +9180,9 @@
     "paul-gilbert": {
         "Artist": "Paul Gilbert",
         "CleanedArtist": "paul-gilbert",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 440,
@@ -8603,6 +9203,9 @@
     "steppenwolf": {
         "Artist": "Steppenwolf",
         "CleanedArtist": "steppenwolf",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 441,
@@ -8623,6 +9226,9 @@
     "extreme": {
         "Artist": "Extreme",
         "CleanedArtist": "extreme",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 443,
@@ -8643,6 +9249,9 @@
     "audioslave": {
         "Artist": "Audioslave",
         "CleanedArtist": "audioslave",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 444,
@@ -8663,6 +9272,9 @@
     "alice-in-chains": {
         "Artist": "Alice In Chains",
         "CleanedArtist": "alice-in-chains",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 447,
@@ -8714,6 +9326,9 @@
     "the-cure": {
         "Artist": "The Cure",
         "CleanedArtist": "the-cure",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 448,
@@ -8734,6 +9349,9 @@
     "chet-atkins": {
         "Artist": "Chet Atkins",
         "CleanedArtist": "chet-atkins",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 450,
@@ -8754,6 +9372,9 @@
     "the-chordettes": {
         "Artist": "The Chordettes",
         "CleanedArtist": "the-chordettes",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 450,
@@ -8774,6 +9395,9 @@
     "chris-cornell": {
         "Artist": "Chris Cornell",
         "CleanedArtist": "chris-cornell",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 451,
@@ -8806,6 +9430,9 @@
     "blind-boy-fuller": {
         "Artist": "Blind Boy Fuller",
         "CleanedArtist": "blind-boy-fuller",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 455,
@@ -8826,6 +9453,9 @@
     "johann-sebastian-bach": {
         "Artist": "Johann Sebastian Bach",
         "CleanedArtist": "johann-sebastian-bach",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 456,
@@ -8868,6 +9498,9 @@
     "jack-savoretti": {
         "Artist": "Jack Savoretti",
         "CleanedArtist": "jack-savoretti",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 457,
@@ -8888,6 +9521,9 @@
     "rodriguez": {
         "Artist": "Rodriguez",
         "CleanedArtist": "rodriguez",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 459,
@@ -8908,6 +9544,9 @@
     "stephen-stills": {
         "Artist": "Stephen Stills",
         "CleanedArtist": "stephen-stills",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 462,
@@ -8928,6 +9567,9 @@
     "doc-watson": {
         "Artist": "Doc Watson",
         "CleanedArtist": "doc-watson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 463,
@@ -8948,6 +9590,9 @@
     "prince": {
         "Artist": "Prince",
         "CleanedArtist": "prince",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 466,
@@ -8968,6 +9613,9 @@
     "yusuf-cat-stevens": {
         "Artist": "Yusuf / Cat Stevens",
         "CleanedArtist": "yusuf-cat-stevens",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 467,
@@ -8988,6 +9636,9 @@
     "america-george-martin": {
         "Artist": "America, George Martin",
         "CleanedArtist": "america-george-martin",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 468,
@@ -9020,6 +9671,9 @@
     "david-wilcox": {
         "Artist": "David Wilcox",
         "CleanedArtist": "david-wilcox",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 469,
@@ -9040,6 +9694,9 @@
     "aerosmith": {
         "Artist": "Aerosmith",
         "CleanedArtist": "aerosmith",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 471,
@@ -9079,6 +9736,9 @@
     "train": {
         "Artist": "Train",
         "CleanedArtist": "train",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 473,
@@ -9099,6 +9759,9 @@
     "steve-vai": {
         "Artist": "Steve Vai",
         "CleanedArtist": "steve-vai",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 477,
@@ -9133,6 +9796,9 @@
     "george-thorogood-the-destroyers": {
         "Artist": "George Thorogood & The Destroyers",
         "CleanedArtist": "george-thorogood-the-destroyers",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 483,
@@ -9153,6 +9819,9 @@
     "boston": {
         "Artist": "Boston",
         "CleanedArtist": "boston",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 488,
@@ -9173,6 +9842,9 @@
     "linkin-park": {
         "Artist": "Linkin Park",
         "CleanedArtist": "linkin-park",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 490,
@@ -9193,6 +9865,9 @@
     "elton-john": {
         "Artist": "Elton John",
         "CleanedArtist": "elton-john",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 491,
@@ -9225,6 +9900,9 @@
     "bukka-white": {
         "Artist": "Bukka White",
         "CleanedArtist": "bukka-white",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 495,
@@ -9245,6 +9923,9 @@
     "mumford-sons": {
         "Artist": "Mumford & Sons",
         "CleanedArtist": "mumford-sons",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 496,
@@ -9265,6 +9946,9 @@
     "blue-rodeo": {
         "Artist": "Blue Rodeo",
         "CleanedArtist": "blue-rodeo",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 497,
@@ -9285,6 +9969,9 @@
     "damien-rice": {
         "Artist": "Damien Rice",
         "CleanedArtist": "damien-rice",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 499,
@@ -9305,6 +9992,9 @@
     "john-lennon-yoko-ono": {
         "Artist": "John Lennon, Yoko Ono",
         "CleanedArtist": "john-lennon-yoko-ono",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 503,
@@ -9319,6 +10009,9 @@
     "trans-siberian-orchestra": {
         "Artist": "Trans Siberian Orchestra",
         "CleanedArtist": "trans-siberian-orchestra",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 504,
@@ -9333,6 +10026,9 @@
     "mykola-leontovych": {
         "Artist": "Mykola Leontovych",
         "CleanedArtist": "mykola-leontovych",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 504,
@@ -9347,6 +10043,9 @@
     "ted-nugent": {
         "Artist": "Ted Nugent",
         "CleanedArtist": "ted-nugent",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 505,
@@ -9367,6 +10066,9 @@
     "tool": {
         "Artist": "Tool",
         "CleanedArtist": "tool",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 506,
@@ -9399,6 +10101,9 @@
     "blur": {
         "Artist": "Blur",
         "CleanedArtist": "blur",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 507,
@@ -9419,6 +10124,9 @@
     "francis-scott-key": {
         "Artist": "Francis Scott Key",
         "CleanedArtist": "francis-scott-key",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 509,
@@ -9433,6 +10141,9 @@
     "rage-against-the-machine": {
         "Artist": "Rage Against The Machine",
         "CleanedArtist": "rage-against-the-machine",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 510,
@@ -9477,6 +10188,9 @@
     "the-offspring": {
         "Artist": "The Offspring",
         "CleanedArtist": "the-offspring",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 512,
@@ -9497,6 +10211,9 @@
     "the-knack": {
         "Artist": "The Knack",
         "CleanedArtist": "the-knack",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 513,
@@ -9517,6 +10234,9 @@
     "eddie-van-halen": {
         "Artist": "Eddie Van Halen",
         "CleanedArtist": "eddie-van-halen",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 515,
@@ -9537,6 +10257,9 @@
     "santana": {
         "Artist": "Santana",
         "CleanedArtist": "santana",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 516,
@@ -9557,6 +10280,9 @@
     "spirit": {
         "Artist": "Spirit",
         "CleanedArtist": "spirit",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 520,
@@ -9577,6 +10303,9 @@
     "dave-matthews-band": {
         "Artist": "Dave Matthews Band",
         "CleanedArtist": "dave-matthews-band",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 522,
@@ -9609,6 +10338,9 @@
     "eva-cassidy": {
         "Artist": "Eva Cassidy",
         "CleanedArtist": "eva-cassidy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 530,
@@ -9629,6 +10361,9 @@
     "lynyrd-skynyrd": {
         "Artist": "Lynyrd Skynyrd",
         "CleanedArtist": "lynyrd-skynyrd",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 534,
@@ -9661,6 +10396,9 @@
     "mason-williams": {
         "Artist": "Mason Williams",
         "CleanedArtist": "mason-williams",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 537,
@@ -9681,6 +10419,9 @@
     "jimmie-cox": {
         "Artist": "Jimmie Cox",
         "CleanedArtist": "jimmie-cox",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 541,
@@ -9701,6 +10442,9 @@
     "rein-rutnik": {
         "Artist": "Rein Rutnik",
         "CleanedArtist": "rein-rutnik",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 542,
@@ -9715,6 +10459,9 @@
     "milton-ager-jack-yellen": {
         "Artist": "Milton Ager & Jack Yellen",
         "CleanedArtist": "milton-ager-jack-yellen",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 543,
@@ -9735,6 +10482,9 @@
     "mississippi-john-hurt": {
         "Artist": "Mississippi John Hurt",
         "CleanedArtist": "mississippi-john-hurt",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 544,
@@ -9755,6 +10505,9 @@
     "joe-filisko": {
         "Artist": "Joe Filisko",
         "CleanedArtist": "joe-filisko",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 545,
@@ -9769,6 +10522,9 @@
     "semisonic": {
         "Artist": "Semisonic",
         "CleanedArtist": "semisonic",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 546,
@@ -9789,6 +10545,9 @@
     "a-ha": {
         "Artist": "A-Ha",
         "CleanedArtist": "a-ha",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 547,
@@ -9809,6 +10568,9 @@
     "p-nk": {
         "Artist": "P!nk",
         "CleanedArtist": "p-nk",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 548,
@@ -9829,6 +10591,9 @@
     "agustin-barrios-mangore": {
         "Artist": "Agustín Barrios Mangoré",
         "CleanedArtist": "agustin-barrios-mangore",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 551,
@@ -9843,6 +10608,9 @@
     "ryan-adams": {
         "Artist": "Ryan Adams",
         "CleanedArtist": "ryan-adams",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 552,
@@ -9875,6 +10643,9 @@
     "bryan-adams": {
         "Artist": "Bryan Adams",
         "CleanedArtist": "bryan-adams",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 553,
@@ -9919,6 +10690,9 @@
     "rusted-root": {
         "Artist": "Rusted Root",
         "CleanedArtist": "rusted-root",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 555,
@@ -9939,6 +10713,9 @@
     "ben-howard": {
         "Artist": "Ben Howard",
         "CleanedArtist": "ben-howard",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 557,
@@ -9966,6 +10743,9 @@
     "george-harrison": {
         "Artist": "George Harrison",
         "CleanedArtist": "george-harrison",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 560,
@@ -10005,6 +10785,9 @@
     "old-crow-medicine-show": {
         "Artist": "Old Crow Medicine Show",
         "CleanedArtist": "old-crow-medicine-show",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 565,
@@ -10025,6 +10808,9 @@
     "darius-rucker": {
         "Artist": "Darius Rucker",
         "CleanedArtist": "darius-rucker",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 565,
@@ -10045,6 +10831,9 @@
     "blink-182": {
         "Artist": "Blink-182",
         "CleanedArtist": "blink-182",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 566,
@@ -10065,6 +10854,9 @@
     "nelly": {
         "Artist": "Nelly",
         "CleanedArtist": "nelly",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 567,
@@ -10085,6 +10877,9 @@
     "great-big-sea": {
         "Artist": "Great Big Sea",
         "CleanedArtist": "great-big-sea",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 570,
@@ -10112,6 +10907,9 @@
     "ben-harper": {
         "Artist": "Ben Harper",
         "CleanedArtist": "ben-harper",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 573,
@@ -10132,6 +10930,9 @@
     "the-tragically-hip": {
         "Artist": "The Tragically Hip",
         "CleanedArtist": "the-tragically-hip",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 574,
@@ -10195,6 +10996,9 @@
     "blind-melon": {
         "Artist": "Blind Melon",
         "CleanedArtist": "blind-melon",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 577,
@@ -10215,6 +11019,9 @@
     "fuel": {
         "Artist": "Fuel",
         "CleanedArtist": "fuel",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 581,
@@ -10235,6 +11042,9 @@
     "green-day": {
         "Artist": "Green Day",
         "CleanedArtist": "green-day",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 584,
@@ -10255,6 +11065,9 @@
     "sun-kil-moon": {
         "Artist": "Sun Kil Moon",
         "CleanedArtist": "sun-kil-moon",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 592,
@@ -10289,6 +11102,9 @@
     "inxs": {
         "Artist": "INXS",
         "CleanedArtist": "inxs",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 596,
@@ -10309,6 +11125,9 @@
     "temple-of-the-dog": {
         "Artist": "Temple Of The Dog",
         "CleanedArtist": "temple-of-the-dog",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 601,
@@ -10329,6 +11148,9 @@
     "talking-heads": {
         "Artist": "Talking Heads",
         "CleanedArtist": "talking-heads",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 606,
@@ -10349,6 +11171,9 @@
     "unknown": {
         "Artist": "Unknown",
         "CleanedArtist": "unknown",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 607,
@@ -10363,6 +11188,9 @@
     "tenacious-d": {
         "Artist": "Tenacious D",
         "CleanedArtist": "tenacious-d",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 611,
@@ -10383,6 +11211,9 @@
     "edwin-mccain": {
         "Artist": "Edwin McCain",
         "CleanedArtist": "edwin-mccain",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 613,
@@ -10403,6 +11234,9 @@
     "tim-buckley": {
         "Artist": "Tim Buckley",
         "CleanedArtist": "tim-buckley",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 616,
@@ -10442,6 +11276,9 @@
     "the-clash": {
         "Artist": "The Clash",
         "CleanedArtist": "the-clash",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 617,
@@ -10462,6 +11299,9 @@
     "adele": {
         "Artist": "Adele",
         "CleanedArtist": "adele",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 621,
@@ -10482,6 +11322,9 @@
     "dusty-springfield": {
         "Artist": "Dusty Springfield",
         "CleanedArtist": "dusty-springfield",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 633,
@@ -10496,6 +11339,9 @@
     "christina-perri": {
         "Artist": "Christina Perri",
         "CleanedArtist": "christina-perri",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 634,
@@ -10516,6 +11362,9 @@
     "bon-iver": {
         "Artist": "Bon Iver",
         "CleanedArtist": "bon-iver",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 635,
@@ -10536,6 +11385,9 @@
     "birdy": {
         "Artist": "Birdy",
         "CleanedArtist": "birdy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 635,
@@ -10556,6 +11408,9 @@
     "james-morrison": {
         "Artist": "James Morrison",
         "CleanedArtist": "james-morrison",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 641,
@@ -10576,6 +11431,9 @@
     "the-mamas-the-papas": {
         "Artist": "The Mamas & The Papas",
         "CleanedArtist": "the-mamas-the-papas",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 644,
@@ -10596,6 +11454,9 @@
     "jose-feliciano": {
         "Artist": "José Feliciano",
         "CleanedArtist": "jose-feliciano",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 644,
@@ -10616,6 +11477,9 @@
     "hambone-willie-newbern": {
         "Artist": "Hambone Willie Newbern",
         "CleanedArtist": "hambone-willie-newbern",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 646,
@@ -10636,6 +11500,9 @@
     "muddy-waters": {
         "Artist": "Muddy Waters",
         "CleanedArtist": "muddy-waters",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 646,
@@ -10656,6 +11523,9 @@
     "john-lennon": {
         "Artist": "John Lennon",
         "CleanedArtist": "john-lennon",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 648,
@@ -10676,6 +11546,9 @@
     "koji-kondo": {
         "Artist": "Koji Kondo",
         "CleanedArtist": "koji-kondo",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 649,
@@ -10690,6 +11563,9 @@
     "john-coltrane": {
         "Artist": "John Coltrane",
         "CleanedArtist": "john-coltrane",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 653,
@@ -10710,6 +11586,9 @@
     "filter": {
         "Artist": "Filter",
         "CleanedArtist": "filter",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 659,
@@ -10730,6 +11609,9 @@
     "the-cranberries": {
         "Artist": "The Cranberries",
         "CleanedArtist": "the-cranberries",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 665,
@@ -10750,6 +11632,9 @@
     "john-denver": {
         "Artist": "John Denver",
         "CleanedArtist": "john-denver",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 666,
@@ -10770,6 +11655,9 @@
     "james-shelton": {
         "Artist": "James Shelton",
         "CleanedArtist": "james-shelton",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 672,
@@ -10790,6 +11678,9 @@
     "pusha-t": {
         "Artist": "Pusha T",
         "CleanedArtist": "pusha-t",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 674,
@@ -10804,6 +11695,9 @@
     "tom-batoy": {
         "Artist": "Tom Batoy",
         "CleanedArtist": "tom-batoy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 674,
@@ -10818,6 +11712,9 @@
     "franco-tortora": {
         "Artist": "Franco Tortora",
         "CleanedArtist": "franco-tortora",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 674,
@@ -10832,6 +11729,9 @@
     "john-prine": {
         "Artist": "John Prine",
         "CleanedArtist": "john-prine",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 677,
@@ -10852,6 +11752,9 @@
     "doucette": {
         "Artist": "Doucette",
         "CleanedArtist": "doucette",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 680,
@@ -10872,6 +11775,9 @@
     "iron-maiden": {
         "Artist": "Iron Maiden",
         "CleanedArtist": "iron-maiden",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 682,
@@ -10892,6 +11798,9 @@
     "peter-frampton": {
         "Artist": "Peter Frampton",
         "CleanedArtist": "peter-frampton",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 688,
@@ -10912,6 +11821,9 @@
     "carney": {
         "Artist": "Carney",
         "CleanedArtist": "carney",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 690,
@@ -10932,6 +11844,9 @@
     "kings-of-leon": {
         "Artist": "Kings of Leon",
         "CleanedArtist": "kings-of-leon",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 693,
@@ -10952,6 +11867,9 @@
     "rem": {
         "Artist": "R.E.M",
         "CleanedArtist": "rem",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 696,
@@ -10972,6 +11890,9 @@
     "the-soggy-bottom-boys": {
         "Artist": "The Soggy Bottom Boys",
         "CleanedArtist": "the-soggy-bottom-boys",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 698,
@@ -10992,6 +11913,9 @@
     "dick-burnett": {
         "Artist": "Dick Burnett",
         "CleanedArtist": "dick-burnett",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 698,
@@ -11012,6 +11936,9 @@
     "kim-mitchell": {
         "Artist": "Kim Mitchell",
         "CleanedArtist": "kim-mitchell",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 701,
@@ -11032,6 +11959,9 @@
     "mr-big": {
         "Artist": "Mr. Big",
         "CleanedArtist": "mr-big",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 704,
@@ -11052,6 +11982,9 @@
     "the-kinks": {
         "Artist": "The Kinks",
         "CleanedArtist": "the-kinks",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 706,
@@ -11072,6 +12005,9 @@
     "jimmy-eat-world": {
         "Artist": "Jimmy Eat World",
         "CleanedArtist": "jimmy-eat-world",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 707,
@@ -11092,6 +12028,9 @@
     "the-hollies": {
         "Artist": "The Hollies",
         "CleanedArtist": "the-hollies",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 708,
@@ -11112,6 +12051,9 @@
     "shuki-levy": {
         "Artist": "Shuki Levy",
         "CleanedArtist": "shuki-levy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 711,
@@ -11126,6 +12068,9 @@
     "haim-saban": {
         "Artist": "Haim Saban",
         "CleanedArtist": "haim-saban",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 711,
@@ -11140,6 +12085,9 @@
     "trevor-hall-krishna-das": {
         "Artist": "Trevor Hall, Krishna Das",
         "CleanedArtist": "trevor-hall-krishna-das",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 713,
@@ -11160,6 +12108,9 @@
     "tonic": {
         "Artist": "Tonic",
         "CleanedArtist": "tonic",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 715,
@@ -11180,6 +12131,9 @@
     "nickelback": {
         "Artist": "Nickelback",
         "CleanedArtist": "nickelback",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 722,
@@ -11207,6 +12161,9 @@
     "collective-soul": {
         "Artist": "Collective Soul",
         "CleanedArtist": "collective-soul",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 725,
@@ -11227,6 +12184,9 @@
     "simon-garfunkel": {
         "Artist": "Simon & Garfunkel",
         "CleanedArtist": "simon-garfunkel",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 728,
@@ -11247,6 +12207,9 @@
     "fleet-foxes": {
         "Artist": "Fleet Foxes",
         "CleanedArtist": "fleet-foxes",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 731,
@@ -11267,6 +12230,9 @@
     "massive-attack": {
         "Artist": "Massive Attack",
         "CleanedArtist": "massive-attack",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 734,
@@ -11287,6 +12253,9 @@
     "ludwig-van-beethoven": {
         "Artist": "Ludwig Van Beethoven",
         "CleanedArtist": "ludwig-van-beethoven",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 740,
@@ -11301,6 +12270,9 @@
     "gordon-lightfoot": {
         "Artist": "Gordon Lightfoot",
         "CleanedArtist": "gordon-lightfoot",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 748,
@@ -11321,6 +12293,9 @@
     "bon-jovi": {
         "Artist": "Bon Jovi",
         "CleanedArtist": "bon-jovi",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 753,
@@ -11341,6 +12316,9 @@
     "grant-dermody": {
         "Artist": "Grant Dermody",
         "CleanedArtist": "grant-dermody",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 755,
@@ -11361,6 +12339,9 @@
     "claude-debussy": {
         "Artist": "Claude Debussy",
         "CleanedArtist": "claude-debussy",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 759,
@@ -11375,6 +12356,9 @@
     "jj-cale": {
         "Artist": "J.J. Cale",
         "CleanedArtist": "jj-cale",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 764,
@@ -11395,6 +12379,9 @@
     "deep-purple": {
         "Artist": "Deep Purple",
         "CleanedArtist": "deep-purple",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 767,
@@ -11415,6 +12402,9 @@
     "joseph-kosma": {
         "Artist": "Joseph Kosma",
         "CleanedArtist": "joseph-kosma",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 769,
@@ -11429,6 +12419,9 @@
     "jacques-prevert": {
         "Artist": "Jacques Prevert",
         "CleanedArtist": "jacques-prevert",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 769,
@@ -11443,6 +12436,9 @@
     "daryl-hall-and-john-oates": {
         "Artist": "Daryl Hall and John Oates",
         "CleanedArtist": "daryl-hall-and-john-oates",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 773,
@@ -11463,6 +12459,9 @@
     "moist": {
         "Artist": "Moist",
         "CleanedArtist": "moist",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 774,
@@ -11483,6 +12482,9 @@
     "bill-withers": {
         "Artist": "Bill Withers",
         "CleanedArtist": "bill-withers",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 775,
@@ -11503,6 +12505,9 @@
     "marcy-playground": {
         "Artist": "Marcy Playground",
         "CleanedArtist": "marcy-playground",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 776,
@@ -11523,6 +12528,9 @@
     "the-proclaimers": {
         "Artist": "The Proclaimers",
         "CleanedArtist": "the-proclaimers",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 777,
@@ -11543,6 +12551,9 @@
     "isaac-albeniz": {
         "Artist": "Isaac Albéniz",
         "CleanedArtist": "isaac-albeniz",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 778,
@@ -11557,6 +12568,9 @@
     "tom-jones": {
         "Artist": "Tom Jones",
         "CleanedArtist": "tom-jones",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 789,
@@ -11577,6 +12591,9 @@
     "toto": {
         "Artist": "Toto",
         "CleanedArtist": "toto",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 790,
@@ -11597,6 +12614,9 @@
     "gaspar-sanz": {
         "Artist": "Gaspar Sanz",
         "CleanedArtist": "gaspar-sanz",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 794,
@@ -11611,6 +12631,9 @@
     "deford-bailey": {
         "Artist": "Deford Bailey",
         "CleanedArtist": "deford-bailey",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 796,
@@ -11625,6 +12648,9 @@
     "bobby-mcferrin": {
         "Artist": "Bobby McFerrin",
         "CleanedArtist": "bobby-mcferrin",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 799,
@@ -11645,6 +12671,9 @@
     "slash": {
         "Artist": "Slash",
         "CleanedArtist": "slash",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 803,
@@ -11665,6 +12694,9 @@
     "janet-jackson": {
         "Artist": "Janet Jackson",
         "CleanedArtist": "janet-jackson",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 807,
@@ -11685,6 +12717,9 @@
     "kiss": {
         "Artist": "Kiss",
         "CleanedArtist": "kiss",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 809,
@@ -11705,6 +12740,9 @@
     "nursery-rhyme": {
         "Artist": "Nursery Rhyme",
         "CleanedArtist": "nursery-rhyme",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 815,
@@ -11719,6 +12757,9 @@
     "alicia-keys": {
         "Artist": "Alicia Keys",
         "CleanedArtist": "alicia-keys",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 817,
@@ -11739,6 +12780,9 @@
     "donny-hathaway": {
         "Artist": "Donny Hathaway",
         "CleanedArtist": "donny-hathaway",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 818,
@@ -11759,6 +12803,9 @@
     "bachman-turner-overdrive": {
         "Artist": "Bachman-Turner Overdrive",
         "CleanedArtist": "bachman-turner-overdrive",
+        "Location": "",
+        "YearFormed": 0,
+        "Genre": "",
         "Songs": [
             {
                 "Id": 819,
