@@ -16,11 +16,11 @@
         <img 
           :src="getAlbumImagePath(album.CleanedAlbumTitle)" 
           :alt="album.AlbumTitle" 
-          class="song-image"
+          class="album-image"
         />
       </div>
 
-      <div class="song-details">
+      <div class="album-details">
         <h2>{{ album.AlbumTitle }}</h2>
 
         <div class="artist-info" v-if="album.Artist && album.CleanedArtist">
@@ -49,12 +49,12 @@
       </div>
     </div>
 
-    <div v-if="album.Songs?.length" class="appearances-section">
+    <div v-if="album.Songs?.length" class="songs-section">
       <div class="tab-header">
-        <strong class="appearances-tab no-border">Songs</strong>
+        <strong class="tab-label no-border">Songs</strong>
       </div>
 
-      <ul class="appearances-list">
+      <ul class="song-list">
         <li 
           v-for="(song, index) in album.Songs" 
           :key="index" 
@@ -68,15 +68,18 @@
                 song: song.CleanedSong
               }
             }"
-            class="appearance-link"
+            class="song-link"
           >
-            <div class="appearance-row">
-              <div class="appearance-id" :class="{ 'non-zebra-text': index % 2 === 0 }">
+            <div class="song-entry-row">
+              <div class="song-entry-index" :class="{ 'non-zebra-text': index % 2 === 0 }">
                 {{ index + 1 }}
               </div>
-              <div class="appearance-content" :class="{ 'non-zebra-text': index % 2 === 0 }">
-                <div class="appearance-title">
+              <div class="song-entry-content" :class="{ 'non-zebra-text': index % 2 === 0 }">
+                <div class="song-title">
                   {{ song.Song }}
+                </div>
+                <div class="song-artist">
+                  {{ album.Artist }}
                 </div>
               </div>
             </div>
@@ -176,19 +179,19 @@ onMounted(() => {
   flex-shrink: 0;
 }
 
-.song-image {
+.album-image {
   width: 250px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.song-details {
+.album-details {
   flex: 1;
   min-width: 250px;
 }
 
-.song-details h2 {
+.album-details h2 {
   color: white;
   margin-bottom: 0.5rem;
 }
@@ -213,15 +216,15 @@ onMounted(() => {
   text-decoration: underline;
 }
 
-p {
-  margin: 0.5rem 0;
-}
-
 .year-text {
-  color: #dad7d7;
+  color: #e3e3e3;
 }
 
-.appearances-section {
+.album-circle {
+  font-size: 15px;
+}
+
+.songs-section {
   width: 100%;
   max-width: 800px;
   margin-top: 2rem;
@@ -234,45 +237,46 @@ p {
   border-bottom: 1px solid #333;
 }
 
-.appearances-tab {
+.tab-label {
   color: white;
-  padding-bottom: 4px;
+  padding-bottom: 10px;
   position: relative;
 }
 
-.appearances-tab.no-border {
+.tab-label.no-border {
   border-bottom: none;
 }
 
-.appearances-list {
+.song-list {
   list-style-type: none;
   padding: 0;
   margin-top: 1rem;
 }
 
-.appearances-list li {
+.song-list li {
   padding: 0;
   background-color: #131e37;
   overflow: hidden;
   transition: color 0.3s ease;
 }
 
-.appearances-list li.zebra {
+.song-list li.zebra {
   background-color: #0F172A;
 }
 
-.appearance-link {
+.song-link {
   display: block;
   width: 100%;
   text-decoration: none;
   color: inherit;
 }
 
-.album-circle {
-  font-size: 15px;
+.song-link:hover .song-entry-row {
+  background-color: #090e19;
+  text-decoration: underline;
 }
 
-.appearance-row {
+.song-entry-row {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
@@ -280,25 +284,28 @@ p {
   transition: color 0.3s ease;
 }
 
-.appearance-link:hover .appearance-row {
-  background-color: #090e19;
-  text-decoration: underline;
-}
-
-.appearance-id {
+.song-entry-index {
   min-width: 40px;
   font-weight: bold;
   color: white;
 }
 
-.appearance-content {
+.song-entry-content {
   display: flex;
   flex-direction: column;
   flex: 1;
   color: white;
 }
 
-.appearance-title {
-  color: white;
+.song-title {
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: #e3e3e3;
+}
+
+.song-artist {
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+  color: #e3e3e3;
 }
 </style>
