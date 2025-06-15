@@ -5,8 +5,8 @@
         "Location": "Places, Earth",
         "YearFormed": 1960,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Earth",
+        "Emoji": "🌎",
         "Songs": [
             {
                 "Id": 1,
@@ -66,8 +66,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1990,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 8,
@@ -1010,8 +1010,8 @@
         "Location": "Alberta, Canada",
         "YearFormed": 1943,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 11,
@@ -1963,8 +1963,8 @@
         "Location": "Rangoon, Burma",
         "YearFormed": 1948,
         "Genre": "Singer/Songwriter",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Burma",
+        "Emoji": "🇲🇲",
         "Songs": [
             {
                 "Id": 23,
@@ -2524,8 +2524,8 @@
         "Location": "Muswellbrook, Australia",
         "YearFormed": 1955,
         "Genre": "Jazz",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 31,
@@ -3108,8 +3108,8 @@
         "Location": "Belfast, North Ireland",
         "YearFormed": 1945,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Ireland",
+        "Emoji": "🇮🇪",
         "Songs": [
             {
                 "Id": 41,
@@ -3191,8 +3191,8 @@
         "Location": "Perth, Australia",
         "YearFormed": 2002,
         "Genre": "Electronic",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 43,
@@ -3586,8 +3586,8 @@
         "Location": "Burnaby, Canada",
         "YearFormed": 1975,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 60,
@@ -3636,8 +3636,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1945,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 64,
@@ -3768,8 +3768,8 @@
         "Location": "Sydney, Australia",
         "YearFormed": 1982,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 65,
@@ -3962,8 +3962,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1974,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 78,
@@ -4453,8 +4453,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1964,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 88,
@@ -4554,8 +4554,8 @@
         "Location": "Castellón, Spain",
         "YearFormed": 1852,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Spain",
+        "Emoji": "🇪🇸",
         "Songs": [
             {
                 "Id": 96,
@@ -4745,8 +4745,8 @@
         "Location": "Florence, Italy",
         "YearFormed": 1792,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Italy",
+        "Emoji": "🇮🇹",
         "Songs": [
             {
                 "Id": 99,
@@ -5160,8 +5160,8 @@
         "Location": "Alberta, Canada",
         "YearFormed": 1989,
         "Genre": "Electronic",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 106,
@@ -5322,8 +5322,8 @@
         "Location": "Paris, France",
         "YearFormed": 1915,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "France",
+        "Emoji": "🇫🇷",
         "Songs": [
             {
                 "Id": 114,
@@ -5505,8 +5505,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1966,
         "Genre": "Blues",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 125,
@@ -5871,8 +5871,8 @@
         "Location": "Kingston, Jamaica",
         "YearFormed": 1945,
         "Genre": "Reggae",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Jamaica",
+        "Emoji": "🇯🇲",
         "Songs": [
             {
                 "Id": 138,
@@ -5920,8 +5920,8 @@
         "Location": "Kingston, Jamaica",
         "YearFormed": 1963,
         "Genre": "Reggae",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Jamaica",
+        "Emoji": "🇯🇲",
         "Songs": [
             {
                 "Id": 138,
@@ -6101,8 +6101,8 @@
         "Location": "Quebec, Canada",
         "YearFormed": 1934,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 157,
@@ -6126,8 +6126,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1964,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 158,
@@ -6220,8 +6220,8 @@
         "Location": "Victoria, Australia",
         "YearFormed": 1993,
         "Genre": "Alternative",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 164,
@@ -6574,8 +6574,8 @@
         "Location": "Dublin, Ireland",
         "YearFormed": 1976,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Ireland",
+        "Emoji": "🇮🇪",
         "Songs": [
             {
                 "Id": 192,
@@ -6611,8 +6611,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1968,
         "Genre": "Hard Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 193,
@@ -6785,8 +6785,8 @@
         "Location": "Barcelona, Spain",
         "YearFormed": 1778,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Spain",
+        "Emoji": "🇪🇸",
         "Songs": [
             {
                 "Id": 242,
@@ -7142,8 +7142,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1972,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 271,
@@ -7167,8 +7167,8 @@
         "Location": "Saskatchewan, Canada",
         "YearFormed": 1964,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 274,
@@ -7242,8 +7242,8 @@
         "Location": "Donegal, Ireland",
         "YearFormed": 1948,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Ireland",
+        "Emoji": "🇮🇪",
         "Songs": [
             {
                 "Id": 280,
@@ -7642,8 +7642,8 @@
         "Location": "Bruges, Belgium",
         "YearFormed": 1980,
         "Genre": "Alternative",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Belgium",
+        "Emoji": "🇧🇪",
         "Songs": [
             {
                 "Id": 310,
@@ -7890,8 +7890,8 @@
         "Location": "Aberdeen, Scotland",
         "YearFormed": 1954,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Scotland",
+        "Emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "Songs": [
             {
                 "Id": 323,
@@ -8009,8 +8009,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1945,
         "Genre": "Singer/Songwriter",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 326,
@@ -8385,8 +8385,8 @@
         "Location": "Sydney, Australia",
         "YearFormed": 1973,
         "Genre": "Hard Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 345,
@@ -8698,8 +8698,8 @@
         "Location": "Melbourne, Australia",
         "YearFormed": 1987,
         "Genre": "Alternative",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 362,
@@ -8723,8 +8723,8 @@
         "Location": "Melbourne, Australia",
         "YearFormed": 1987,
         "Genre": "Alternative",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 367,
@@ -9029,8 +9029,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1965,
         "Genre": "Country",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 389,
@@ -9304,8 +9304,8 @@
         "Location": "County Wicklow, Ireland",
         "YearFormed": 1990,
         "Genre": "Alternative",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Ireland",
+        "Emoji": "🇮🇪",
         "Songs": [
             {
                 "Id": 413,
@@ -9556,8 +9556,8 @@
         "Location": "Sydney, Australia",
         "YearFormed": 2003,
         "Genre": "Hard Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 436,
@@ -9874,8 +9874,8 @@
         "Location": "Eisenbach, Germany",
         "YearFormed": 1685,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Germany",
+        "Emoji": "🇩🇪",
         "Songs": [
             {
                 "Id": 456,
@@ -10108,8 +10108,8 @@
         "Location": "Quebec, Canada",
         "YearFormed": 1949,
         "Genre": "Singer/Songwriter",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 469,
@@ -10403,8 +10403,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1984,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 497,
@@ -10428,8 +10428,8 @@
         "Location": "Dublin, Ireland",
         "YearFormed": 1973,
         "Genre": "Singer/Songwriter",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Ireland",
+        "Emoji": "🇮🇪",
         "Songs": [
             {
                 "Id": 499,
@@ -10491,8 +10491,8 @@
         "Location": "Monastyrok, Ukraine",
         "YearFormed": 1877,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Ukraine",
+        "Emoji": "🇺🇦",
         "Songs": [
             {
                 "Id": 504,
@@ -10715,8 +10715,8 @@
         "Location": "Amsterdam, The Netherlands",
         "YearFormed": 1955,
         "Genre": "Hard Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "The Netherlands",
+        "Emoji": "🇳🇱",
         "Songs": [
             {
                 "Id": 515,
@@ -10939,8 +10939,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1990,
         "Genre": "Blues",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 542,
@@ -11008,8 +11008,8 @@
         "Location": "Giessen, Germany",
         "YearFormed": 1990,
         "Genre": "Blues",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Germany",
+        "Emoji": "🇩🇪",
         "Songs": [
             {
                 "Id": 545,
@@ -11052,8 +11052,8 @@
         "Location": "Oslo, Norway",
         "YearFormed": 1983,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Norway",
+        "Emoji": "🇳🇴",
         "Songs": [
             {
                 "Id": 547,
@@ -11102,8 +11102,8 @@
         "Location": "San Juan Bautista, Paraguay",
         "YearFormed": 1885,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Paraguay",
+        "Emoji": "🇵🇾",
         "Songs": [
             {
                 "Id": 551,
@@ -11158,8 +11158,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1959,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 553,
@@ -11408,8 +11408,8 @@
         "Location": "Newfoundland, Canada",
         "YearFormed": 1993,
         "Genre": "Singer/Songwriter",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 570,
@@ -11465,8 +11465,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1983,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 574,
@@ -11647,8 +11647,8 @@
         "Location": "Sydney, Australia",
         "YearFormed": 1977,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Australia",
+        "Emoji": "🇦🇺",
         "Songs": [
             {
                 "Id": 596,
@@ -11722,8 +11722,8 @@
         "Location": "Places, Spain",
         "YearFormed": 1900,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Spain",
+        "Emoji": "🇪🇸",
         "Songs": [
             {
                 "Id": 607,
@@ -12029,8 +12029,8 @@
         "Location": "Lares, Puerto Rico",
         "YearFormed": 1945,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Puerto Rico",
+        "Emoji": "🇵🇷",
         "Songs": [
             {
                 "Id": 644,
@@ -12129,8 +12129,8 @@
         "Location": "Aichi, Japan",
         "YearFormed": 1961,
         "Genre": "Soundtrack",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Japan",
+        "Emoji": "🇯🇵",
         "Songs": [
             {
                 "Id": 649,
@@ -12198,8 +12198,8 @@
         "Location": "Limerick, Ireland",
         "YearFormed": 1989,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Ireland",
+        "Emoji": "🇮🇪",
         "Songs": [
             {
                 "Id": 665,
@@ -12292,8 +12292,8 @@
         "Location": "Bavaria, Germany",
         "YearFormed": 1972,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Germany",
+        "Emoji": "🇩🇪",
         "Songs": [
             {
                 "Id": 674,
@@ -12311,8 +12311,8 @@
         "Location": "Bavaria, Germany",
         "YearFormed": 1961,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Germany",
+        "Emoji": "🇩🇪",
         "Songs": [
             {
                 "Id": 674,
@@ -12355,8 +12355,8 @@
         "Location": "Quebec, Canada",
         "YearFormed": 1951,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 680,
@@ -12555,8 +12555,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1952,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 701,
@@ -12680,8 +12680,8 @@
         "Location": "Tel Aviv-Yafo, Israel",
         "YearFormed": 1947,
         "Genre": "Soundtrack",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Israel",
+        "Emoji": "🇮🇱",
         "Songs": [
             {
                 "Id": 711,
@@ -12699,8 +12699,8 @@
         "Location": "Alexandria, Egypt",
         "YearFormed": 1944,
         "Genre": "Soundtrack",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Egypt",
+        "Emoji": "🇪🇬",
         "Songs": [
             {
                 "Id": 711,
@@ -12768,8 +12768,8 @@
         "Location": "Alberta, Canada",
         "YearFormed": 1995,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 722,
@@ -12900,8 +12900,8 @@
         "Location": "Bonn, Germany",
         "YearFormed": 1770,
         "Genre": "Germany",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Germany",
+        "Emoji": "🇩🇪",
         "Songs": [
             {
                 "Id": 740,
@@ -12919,8 +12919,8 @@
         "Location": "Ontario, Canada",
         "YearFormed": 1938,
         "Genre": "Singer/Songwriter",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 748,
@@ -12994,8 +12994,8 @@
         "Location": "Saint-Germain-en-Laye, France",
         "YearFormed": 1862,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "France",
+        "Emoji": "🇫🇷",
         "Songs": [
             {
                 "Id": 759,
@@ -13063,8 +13063,8 @@
         "Location": "Budapest, Hungary",
         "YearFormed": 1905,
         "Genre": "Soundtrack",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Hungary",
+        "Emoji": "🇭🇺",
         "Songs": [
             {
                 "Id": 769,
@@ -13082,8 +13082,8 @@
         "Location": "Neuilly-sur-Seine, France",
         "YearFormed": 1900,
         "Genre": "Soundtrack",
-        "Country": "",
-        "Emoji": "",
+        "Country": "France",
+        "Emoji": "🇫🇷",
         "Songs": [
             {
                 "Id": 769,
@@ -13126,8 +13126,8 @@
         "Location": "Vancouver, Canada",
         "YearFormed": 2005,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 774,
@@ -13201,8 +13201,8 @@
         "Location": "Leith, Scotland",
         "YearFormed": 1983,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Scotland",
+        "Emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "Songs": [
             {
                 "Id": 777,
@@ -13226,8 +13226,8 @@
         "Location": "Camprodon, Spain",
         "YearFormed": 1860,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Spain",
+        "Emoji": "🇪🇸",
         "Songs": [
             {
                 "Id": 778,
@@ -13245,8 +13245,8 @@
         "Location": "Pontypridd, Wales",
         "YearFormed": 1940,
         "Genre": "Pop",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Wales",
+        "Emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
         "Songs": [
             {
                 "Id": 789,
@@ -13295,8 +13295,8 @@
         "Location": "Calanda, Spain",
         "YearFormed": 1640,
         "Genre": "Classical",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Spain",
+        "Emoji": "🇪🇸",
         "Songs": [
             {
                 "Id": 794,
@@ -13433,8 +13433,8 @@
         "Location": "Places, Earth",
         "YearFormed": 1940,
         "Genre": "Soundtrack",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Earth",
+        "Emoji": "🌎",
         "Songs": [
             {
                 "Id": 815,
@@ -13502,8 +13502,8 @@
         "Location": "Manitoba, Canada",
         "YearFormed": 1970,
         "Genre": "Rock",
-        "Country": "",
-        "Emoji": "",
+        "Country": "Canada",
+        "Emoji": "🇨🇦",
         "Songs": [
             {
                 "Id": 819,
