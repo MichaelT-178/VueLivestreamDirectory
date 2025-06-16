@@ -959,6 +959,19 @@
             }
         ]
     },
+    "blues-masters-vol-12": {
+        "AlbumTitle": "Blues Masters Vol. 12",
+        "CleanedAlbumTitle": "blues-masters-vol-12",
+        "Artist": "Sonny Boy Williamson II",
+        "CleanedArtist": "sonny-boy-williamson-ii",
+        "Year": 1992,
+        "Songs": [
+            {
+                "Song": "Movin' Down The River Rhine (Rein Rutnik)",
+                "CleanedSong": "movin-down-the-river-rhine-rein-rutnik"
+            }
+        ]
+    },
     "blur": {
         "AlbumTitle": "Blur",
         "CleanedAlbumTitle": "blur",
