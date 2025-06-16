@@ -2,7 +2,7 @@
     "acoustic-guitar": {
         "instrument": "(main) - Stonebridge (Furch) OM32SM",
         "pic": "acoustic-guitar.jpg",
-        "numOfAppearances": 5105,
+        "numOfAppearances": 5106,
         "appearances": [
             {
                 "id": 8,
@@ -15870,6 +15870,15 @@
                 "cleanedAlbum": "unplugged-live",
                 "cleanedArtist": "eric-clapton",
                 "link": "https://youtu.be/VEh4FA59OGA&t=2748"
+            },
+            {
+                "id": 1880,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 56",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1946"
             },
             {
                 "id": 1881,
@@ -51587,157 +51596,6 @@
             }
         ]
     },
-    "harmonica": {
-        "instrument": "Harmonica",
-        "pic": "harmonica.jpg",
-        "numOfAppearances": 16,
-        "appearances": [
-            {
-                "id": 1880,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 56",
-                "cleanedAlbum": "unplugged-live",
-                "cleanedArtist": "eric-clapton",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1946"
-            },
-            {
-                "id": 1899,
-                "songTitle": "Before You Accuse Me",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "cleanedAlbum": "unplugged-live",
-                "cleanedArtist": "eric-clapton",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5904"
-            },
-            {
-                "id": 3864,
-                "songTitle": "Dear Mr. Fantasy",
-                "artist": "Traffic",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "cleanedAlbum": "mr-fantasy",
-                "cleanedArtist": "traffic",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5462"
-            },
-            {
-                "id": 4034,
-                "songTitle": "Big Bad Bill (Is Sweet William Now)",
-                "artist": "Leon Redbone",
-                "livestream": "Solo Video (LS 56 Clip)",
-                "cleanedAlbum": "champagne-charlie",
-                "cleanedArtist": "leon-redbone",
-                "link": "https://youtu.be/rRkziiEbSYI?si=StmEP0BqY4slI7dB&t=0"
-            },
-            {
-                "id": 4035,
-                "songTitle": "Big Bad Bill (Is Sweet William Now)",
-                "artist": "Leon Redbone",
-                "livestream": "Livestream 56",
-                "cleanedAlbum": "champagne-charlie",
-                "cleanedArtist": "leon-redbone",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1059"
-            },
-            {
-                "id": 4036,
-                "songTitle": "Nobody Knows You When You're Down and Out",
-                "artist": "Eric Clapton",
-                "livestream": "Solo Video",
-                "cleanedAlbum": "unplugged-live",
-                "cleanedArtist": "eric-clapton",
-                "link": "https://youtu.be/qVuI7_DLM6Y?si=RZpAShXhCq7CzcgQ&t=0"
-            },
-            {
-                "id": 4037,
-                "songTitle": "Nobody Knows You When You're Down and Out",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 56",
-                "cleanedAlbum": "unplugged-live",
-                "cleanedArtist": "eric-clapton",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=446"
-            },
-            {
-                "id": 4038,
-                "songTitle": "Movin' Down The River Rhine",
-                "artist": "Sonny Boy Williamson II",
-                "livestream": "Solo Video",
-                "cleanedAlbum": "blues-masters-vol-12",
-                "cleanedArtist": "sonny-boy-williamson-ii",
-                "link": "https://youtu.be/p2iy8aC1SBE?si=zPKM1Mw03ZNOwQqY&t=0"
-            },
-            {
-                "id": 4039,
-                "songTitle": "Deep River Blues",
-                "artist": "Doc Watson",
-                "livestream": "Solo Video",
-                "cleanedAlbum": "doc-watson",
-                "cleanedArtist": "doc-watson",
-                "link": "https://youtu.be/pELczZYz0NM?si=tjVUeUD9FieDMXOT&t=0"
-            },
-            {
-                "id": 5267,
-                "songTitle": "Sleepy Afternoon",
-                "artist": "Rein Rutnik",
-                "livestream": "Livestream 56",
-                "cleanedAlbum": null,
-                "cleanedArtist": "rein-rutnik",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=780"
-            },
-            {
-                "id": 5268,
-                "songTitle": "I'm Satisfied",
-                "artist": "Mississippi John Hurt",
-                "livestream": "Livestream 56",
-                "cleanedAlbum": "satisfied",
-                "cleanedArtist": "mississippi-john-hurt",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1299"
-            },
-            {
-                "id": 5269,
-                "songTitle": "Fox Chase & Lost John",
-                "artist": "Joe Filisko",
-                "livestream": "Livestream 56",
-                "cleanedAlbum": null,
-                "cleanedArtist": "joe-filisko",
-                "link": "https://youtu.be/KLIWP_nbaXs&t=1572"
-            },
-            {
-                "id": 5527,
-                "songTitle": "Rollin' and Tumblin'",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 3 (Audio Issues)",
-                "cleanedAlbum": "unplugged-live",
-                "cleanedArtist": "eric-clapton",
-                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4592"
-            },
-            {
-                "id": 5528,
-                "songTitle": "Rollin' and Tumblin'",
-                "artist": "Eric Clapton",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "cleanedAlbum": "unplugged-live",
-                "cleanedArtist": "eric-clapton",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5178"
-            },
-            {
-                "id": 5742,
-                "songTitle": "Crossing Over/Tree of Life",
-                "artist": "Grant Dermody",
-                "livestream": "Livestream 3 (Audio Issues/Medley)",
-                "cleanedAlbum": "sun-might-shine-on-me",
-                "cleanedArtist": "grant-dermody",
-                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4309"
-            },
-            {
-                "id": 5788,
-                "songTitle": "Ice Water Blues",
-                "artist": "Deford Bailey",
-                "livestream": "Livestream 12 (Audio Issues)",
-                "cleanedAlbum": null,
-                "cleanedArtist": "deford-bailey",
-                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5762"
-            }
-        ]
-    },
     "fender-stratocaster": {
         "instrument": "(Strat) - Fender Stratocaster",
         "pic": "fender-stratocaster.jpg",
@@ -51931,6 +51789,157 @@
                 "cleanedAlbum": null,
                 "cleanedArtist": "corey-heuvel",
                 "link": "https://youtu.be/oEGizdHR2Fs?si=T4RJds3qTs_9WMFh&t=301"
+            }
+        ]
+    },
+    "harmonica": {
+        "instrument": "Harmonica",
+        "pic": "harmonica.jpg",
+        "numOfAppearances": 16,
+        "appearances": [
+            {
+                "id": 1880,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 56",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1946"
+            },
+            {
+                "id": 1899,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5904"
+            },
+            {
+                "id": 3864,
+                "songTitle": "Dear Mr. Fantasy",
+                "artist": "Traffic",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": "mr-fantasy",
+                "cleanedArtist": "traffic",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5462"
+            },
+            {
+                "id": 4034,
+                "songTitle": "Big Bad Bill (Is Sweet William Now)",
+                "artist": "Leon Redbone",
+                "livestream": "Solo Video (LS 56 Clip)",
+                "cleanedAlbum": "champagne-charlie",
+                "cleanedArtist": "leon-redbone",
+                "link": "https://youtu.be/rRkziiEbSYI?si=StmEP0BqY4slI7dB&t=0"
+            },
+            {
+                "id": 4035,
+                "songTitle": "Big Bad Bill (Is Sweet William Now)",
+                "artist": "Leon Redbone",
+                "livestream": "Livestream 56",
+                "cleanedAlbum": "champagne-charlie",
+                "cleanedArtist": "leon-redbone",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1059"
+            },
+            {
+                "id": 4036,
+                "songTitle": "Nobody Knows You When You're Down and Out",
+                "artist": "Eric Clapton",
+                "livestream": "Solo Video",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/qVuI7_DLM6Y?si=RZpAShXhCq7CzcgQ&t=0"
+            },
+            {
+                "id": 4037,
+                "songTitle": "Nobody Knows You When You're Down and Out",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 56",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=446"
+            },
+            {
+                "id": 4038,
+                "songTitle": "Movin' Down The River Rhine",
+                "artist": "Sonny Boy Williamson II",
+                "livestream": "Solo Video",
+                "cleanedAlbum": "blues-masters-vol-12",
+                "cleanedArtist": "sonny-boy-williamson-ii",
+                "link": "https://youtu.be/p2iy8aC1SBE?si=zPKM1Mw03ZNOwQqY&t=0"
+            },
+            {
+                "id": 4039,
+                "songTitle": "Deep River Blues",
+                "artist": "Doc Watson",
+                "livestream": "Solo Video",
+                "cleanedAlbum": "doc-watson",
+                "cleanedArtist": "doc-watson",
+                "link": "https://youtu.be/pELczZYz0NM?si=tjVUeUD9FieDMXOT&t=0"
+            },
+            {
+                "id": 5267,
+                "songTitle": "Sleepy Afternoon",
+                "artist": "Rein Rutnik",
+                "livestream": "Livestream 56",
+                "cleanedAlbum": null,
+                "cleanedArtist": "rein-rutnik",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=780"
+            },
+            {
+                "id": 5268,
+                "songTitle": "I'm Satisfied",
+                "artist": "Mississippi John Hurt",
+                "livestream": "Livestream 56",
+                "cleanedAlbum": "satisfied",
+                "cleanedArtist": "mississippi-john-hurt",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1299"
+            },
+            {
+                "id": 5269,
+                "songTitle": "Fox Chase & Lost John",
+                "artist": "Joe Filisko",
+                "livestream": "Livestream 56",
+                "cleanedAlbum": null,
+                "cleanedArtist": "joe-filisko",
+                "link": "https://youtu.be/KLIWP_nbaXs&t=1572"
+            },
+            {
+                "id": 5527,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 3 (Audio Issues)",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4592"
+            },
+            {
+                "id": 5528,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5178"
+            },
+            {
+                "id": 5742,
+                "songTitle": "Crossing Over/Tree of Life",
+                "artist": "Grant Dermody",
+                "livestream": "Livestream 3 (Audio Issues/Medley)",
+                "cleanedAlbum": "sun-might-shine-on-me",
+                "cleanedArtist": "grant-dermody",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4309"
+            },
+            {
+                "id": 5788,
+                "songTitle": "Ice Water Blues",
+                "artist": "Deford Bailey",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": null,
+                "cleanedArtist": "deford-bailey",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5762"
             }
         ]
     },
