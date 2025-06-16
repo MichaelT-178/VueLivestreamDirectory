@@ -4,13 +4,16 @@ from PIL import Image
 def resize_and_replace_image(image_path, size=(640, 640)):
     try:
         with Image.open(image_path) as img:
+            if img.size == size:
+                # print(f"Skipped (already {size}): {image_path}")
+                return
+
             resized_img = img.resize(size, Image.LANCZOS)
 
             if resized_img.mode == 'RGBA':
                 resized_img = resized_img.convert('RGB')
 
             ext = os.path.splitext(image_path)[1].lower()
-
 
             if ext in ['.jpg', '.jpeg']:
                 resized_img.save(image_path, format='JPEG')
@@ -19,10 +22,10 @@ def resize_and_replace_image(image_path, size=(640, 640)):
             else:
                 resized_img.save(image_path)
 
-
             print(f"Resized and replaced: {image_path}")
     except Exception as e:
-        print(f"Error processing {image_path}: {e}")
+        print(f"Error processing {image_path}: {e}\n")
+
 
 
 
@@ -48,5 +51,11 @@ def resize_images_in_directory(directory, size=(640, 640)):
         print(f"An error occurred: {e}")
 
 
-directory_path = "../src/assets/ArtistPics"
+# directory_path = "../src/assets/ArtistPics"
+# resize_images_in_directory(directory_path)
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+directory_path = os.path.join(script_dir, "../src/assets/ArtistPics")
+directory_path = os.path.normpath(directory_path)
+
 resize_images_in_directory(directory_path)
