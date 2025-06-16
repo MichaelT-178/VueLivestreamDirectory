@@ -2,7 +2,7 @@
     "acoustic-guitar": {
         "instrument": "(main) - Stonebridge (Furch) OM32SM",
         "pic": "acoustic-guitar.jpg",
-        "numOfAppearances": 5106,
+        "numOfAppearances": 5112,
         "appearances": [
             {
                 "id": 8,
@@ -16034,6 +16034,15 @@
                 "link": "https://youtu.be/watch?v=Yz6bDH9k1Fk&t=4161"
             },
             {
+                "id": 1899,
+                "songTitle": "Before You Accuse Me",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5904"
+            },
+            {
                 "id": 1900,
                 "songTitle": "Before You Accuse Me",
                 "artist": "Eric Clapton",
@@ -31649,6 +31658,15 @@
                 "link": "https://youtu.be/vRD0K6kl3Qs&t=2609"
             },
             {
+                "id": 3864,
+                "songTitle": "Dear Mr. Fantasy",
+                "artist": "Traffic",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": "mr-fantasy",
+                "cleanedArtist": "traffic",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5462"
+            },
+            {
                 "id": 3865,
                 "songTitle": "Lucky Man",
                 "artist": "The Verve",
@@ -43826,6 +43844,24 @@
                 "link": "https://youtu.be/yiFNZvisSQw&t=8236"
             },
             {
+                "id": 5527,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 3 (Audio Issues)",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4592"
+            },
+            {
+                "id": 5528,
+                "songTitle": "Rollin' and Tumblin'",
+                "artist": "Eric Clapton",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": "unplugged-live",
+                "cleanedArtist": "eric-clapton",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5178"
+            },
+            {
                 "id": 5529,
                 "songTitle": "Ziggy Stardust",
                 "artist": "David Bowie",
@@ -45473,6 +45509,15 @@
                 "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=2388"
             },
             {
+                "id": 5742,
+                "songTitle": "Crossing Over/Tree of Life",
+                "artist": "Grant Dermody",
+                "livestream": "Livestream 3 (Audio Issues/Medley)",
+                "cleanedAlbum": "sun-might-shine-on-me",
+                "cleanedArtist": "grant-dermody",
+                "link": "https://youtu.be/watch?v=9gkOvE2nTlM&t=4309"
+            },
+            {
                 "id": 5743,
                 "songTitle": "Smells Like Teen Spirit",
                 "artist": "Nirvana",
@@ -45741,6 +45786,15 @@
                 "cleanedAlbum": "texas-flood",
                 "cleanedArtist": "stevie-ray-vaughan",
                 "link": "https://youtu.be/watch?v=XxWeHmiEot0&t=2808"
+            },
+            {
+                "id": 5788,
+                "songTitle": "Ice Water Blues",
+                "artist": "Deford Bailey",
+                "livestream": "Livestream 12 (Audio Issues)",
+                "cleanedAlbum": null,
+                "cleanedArtist": "deford-bailey",
+                "link": "https://youtu.be/watch?v=B5AJb0_vLS4&t=5762"
             },
             {
                 "id": 5789,
