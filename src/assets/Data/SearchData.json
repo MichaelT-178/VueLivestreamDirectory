@@ -806,1290 +806,1296 @@
         },
         {
             "id": 135,
-            "name": "Chris Whitley",
-            "cleanedName": "chris-whitley",
+            "name": "Leon Redbone",
+            "cleanedName": "leon-redbone",
             "Type": "Artist"
         },
         {
             "id": 136,
-            "name": "Amy Winehouse",
-            "cleanedName": "amy-winehouse",
-            "Type": "Artist"
-        },
-        {
-            "id": 137,
-            "name": "The Zutons",
-            "cleanedName": "the-zutons",
-            "Type": "Artist"
-        },
-        {
-            "id": 138,
-            "name": "Mark Ronson",
-            "cleanedName": "mark-ronson",
-            "Type": "Artist"
-        },
-        {
-            "id": 139,
-            "name": "The Smashing Pumpkins",
-            "cleanedName": "the-smashing-pumpkins",
-            "Type": "Artist"
-        },
-        {
-            "id": 140,
-            "name": "The Doobie Brothers",
-            "cleanedName": "the-doobie-brothers",
-            "Type": "Artist"
-        },
-        {
-            "id": 141,
-            "name": "Grateful Dead",
-            "cleanedName": "grateful-dead",
-            "Type": "Artist"
-        },
-        {
-            "id": 142,
-            "name": "Goyte",
-            "cleanedName": "goyte",
-            "Type": "Artist"
-        },
-        {
-            "id": 143,
-            "name": "Roy Orbison",
-            "cleanedName": "roy-orbison",
-            "Type": "Artist"
-        },
-        {
-            "id": 144,
-            "name": "Smash Mouth",
-            "cleanedName": "smash-mouth",
-            "Type": "Artist"
-        },
-        {
-            "id": 145,
-            "name": "John Frusciante",
-            "cleanedName": "john-frusciante",
-            "Type": "Artist"
-        },
-        {
-            "id": 146,
-            "name": "Nina Simone",
-            "cleanedName": "nina-simone",
-            "Type": "Artist"
-        },
-        {
-            "id": 147,
-            "name": "Big Wreck",
-            "cleanedName": "big-wreck",
-            "Type": "Artist"
-        },
-        {
-            "id": 148,
-            "name": "Jack Johnson",
-            "cleanedName": "jack-johnson",
-            "Type": "Artist"
-        },
-        {
-            "id": 149,
-            "name": "Eurythmics",
-            "cleanedName": "eurythmics",
-            "Type": "Artist"
-        },
-        {
-            "id": 150,
-            "name": "Annie Lennox",
-            "cleanedName": "annie-lennox",
-            "Type": "Artist"
-        },
-        {
-            "id": 151,
-            "name": "Dave Stewart",
-            "cleanedName": "dave-stewart",
-            "Type": "Artist"
-        },
-        {
-            "id": 152,
-            "name": "James Taylor",
-            "cleanedName": "james-taylor",
-            "Type": "Artist"
-        },
-        {
-            "id": 153,
-            "name": "The Moody Blues",
-            "cleanedName": "the-moody-blues",
-            "Type": "Artist"
-        },
-        {
-            "id": 154,
-            "name": "Bruce Cockburn",
-            "cleanedName": "bruce-cockburn",
-            "Type": "Artist"
-        },
-        {
-            "id": 155,
-            "name": "The Animals",
-            "cleanedName": "the-animals",
-            "Type": "Artist"
-        },
-        {
-            "id": 156,
-            "name": "Big Star",
-            "cleanedName": "big-star",
-            "Type": "Artist"
-        },
-        {
-            "id": 157,
-            "name": "David Gray",
-            "cleanedName": "david-gray",
-            "Type": "Artist"
-        },
-        {
-            "id": 158,
-            "name": "The Black Crowes",
-            "cleanedName": "the-black-crowes",
-            "Type": "Artist"
-        },
-        {
-            "id": 159,
-            "name": "George Gershwin",
-            "cleanedName": "george-gershwin",
-            "Type": "Artist"
-        },
-        {
-            "id": 160,
-            "name": "Ella Fitzgerald",
-            "cleanedName": "ella-fitzgerald",
-            "Type": "Artist"
-        },
-        {
-            "id": 161,
-            "name": "The Killers",
-            "cleanedName": "the-killers",
-            "Type": "Artist"
-        },
-        {
-            "id": 162,
-            "name": "Allman Brothers Band",
-            "cleanedName": "allman-brothers-band",
-            "Type": "Artist"
-        },
-        {
-            "id": 163,
-            "name": "Danny Elfman",
-            "cleanedName": "danny-elfman",
-            "Type": "Artist"
-        },
-        {
-            "id": 164,
-            "name": "Robbie Basho",
-            "cleanedName": "robbie-basho",
-            "Type": "Artist"
-        },
-        {
-            "id": 165,
-            "name": "Arborea",
-            "cleanedName": "arborea",
-            "Type": "Artist"
-        },
-        {
-            "id": 166,
-            "name": "AC/DC",
-            "cleanedName": "ac-dc",
-            "Type": "Artist"
-        },
-        {
-            "id": 167,
-            "name": "Larry Davis",
-            "cleanedName": "larry-davis",
-            "Type": "Artist"
-        },
-        {
-            "id": 168,
-            "name": "Metallica",
-            "cleanedName": "metallica",
-            "Type": "Artist"
-        },
-        {
-            "id": 169,
             "name": "Van Halen",
             "cleanedName": "van-halen",
             "Type": "Artist"
         },
         {
-            "id": 170,
-            "name": "Chuck Berry",
-            "cleanedName": "chuck-berry",
-            "Type": "Artist"
-        },
-        {
-            "id": 171,
-            "name": "Blue Öyster Cult",
-            "cleanedName": "blue-oyster-cult",
-            "Type": "Artist"
-        },
-        {
-            "id": 172,
-            "name": "ZZ Top",
-            "cleanedName": "zz-top",
-            "Type": "Artist"
-        },
-        {
-            "id": 173,
-            "name": "Vance Joy",
-            "cleanedName": "vance-joy",
-            "Type": "Artist"
-        },
-        {
-            "id": 174,
-            "name": "Otis Redding",
-            "cleanedName": "otis-redding",
-            "Type": "Artist"
-        },
-        {
-            "id": 175,
-            "name": "Jonny Lang",
-            "cleanedName": "jonny-lang",
-            "Type": "Artist"
-        },
-        {
-            "id": 176,
-            "name": "Foo Fighters",
-            "cleanedName": "foo-fighters",
-            "Type": "Artist"
-        },
-        {
-            "id": 177,
-            "name": "The Eagles",
-            "cleanedName": "the-eagles",
-            "Type": "Artist"
-        },
-        {
-            "id": 178,
-            "name": "The Police",
-            "cleanedName": "the-police",
-            "Type": "Artist"
-        },
-        {
-            "id": 179,
-            "name": "Santo & Johnny",
-            "cleanedName": "santo-johnny",
-            "Type": "Artist"
-        },
-        {
-            "id": 180,
-            "name": "Betsy Brye",
-            "cleanedName": "betsy-brye",
-            "Type": "Artist"
-        },
-        {
-            "id": 181,
-            "name": "Matchbox Twenty",
-            "cleanedName": "matchbox-twenty",
-            "Type": "Artist"
-        },
-        {
-            "id": 182,
-            "name": "Sonny Boy Williamson II",
-            "cleanedName": "sonny-boy-williamson-ii",
-            "Type": "Artist"
-        },
-        {
-            "id": 183,
-            "name": "Shania Twain",
-            "cleanedName": "shania-twain",
-            "Type": "Artist"
-        },
-        {
-            "id": 184,
-            "name": "Tom Petty",
-            "cleanedName": "tom-petty",
-            "Type": "Artist"
-        },
-        {
-            "id": 185,
-            "name": "Johnny Cash",
-            "cleanedName": "johnny-cash",
-            "Type": "Artist"
-        },
-        {
-            "id": 186,
-            "name": "Don McLean",
-            "cleanedName": "don-mclean",
-            "Type": "Artist"
-        },
-        {
-            "id": 187,
-            "name": "Oasis",
-            "cleanedName": "oasis",
-            "Type": "Artist"
-        },
-        {
-            "id": 188,
-            "name": "Nirvana",
-            "cleanedName": "nirvana",
-            "Type": "Artist"
-        },
-        {
-            "id": 189,
-            "name": "Mountain",
-            "cleanedName": "mountain",
-            "Type": "Artist"
-        },
-        {
-            "id": 190,
-            "name": "Hozier",
-            "cleanedName": "hozier",
-            "Type": "Artist"
-        },
-        {
-            "id": 191,
-            "name": "Canned Heat",
-            "cleanedName": "canned-heat",
-            "Type": "Artist"
-        },
-        {
-            "id": 192,
-            "name": "John Brim",
-            "cleanedName": "john-brim",
-            "Type": "Artist"
-        },
-        {
-            "id": 193,
-            "name": "Guns N' Roses",
-            "cleanedName": "guns-n-roses",
-            "Type": "Artist"
-        },
-        {
-            "id": 194,
-            "name": "Free",
-            "cleanedName": "free",
-            "Type": "Artist"
-        },
-        {
-            "id": 195,
-            "name": "The White Stripes",
-            "cleanedName": "the-white-stripes",
-            "Type": "Artist"
-        },
-        {
-            "id": 196,
-            "name": "Black Sabbath",
-            "cleanedName": "black-sabbath",
-            "Type": "Artist"
-        },
-        {
-            "id": 197,
-            "name": "Dick Dale",
-            "cleanedName": "dick-dale",
-            "Type": "Artist"
-        },
-        {
-            "id": 198,
-            "name": "Depeche Mode",
-            "cleanedName": "depeche-mode",
-            "Type": "Artist"
-        },
-        {
-            "id": 199,
-            "name": "Wolfmother",
-            "cleanedName": "wolfmother",
-            "Type": "Artist"
-        },
-        {
-            "id": 200,
-            "name": "Paul Gilbert",
-            "cleanedName": "paul-gilbert",
-            "Type": "Artist"
-        },
-        {
-            "id": 201,
-            "name": "Steppenwolf",
-            "cleanedName": "steppenwolf",
-            "Type": "Artist"
-        },
-        {
-            "id": 202,
-            "name": "Extreme",
-            "cleanedName": "extreme",
-            "Type": "Artist"
-        },
-        {
-            "id": 203,
-            "name": "Audioslave",
-            "cleanedName": "audioslave",
-            "Type": "Artist"
-        },
-        {
-            "id": 204,
-            "name": "Alice In Chains",
-            "cleanedName": "alice-in-chains",
-            "Type": "Artist"
-        },
-        {
-            "id": 205,
-            "name": "The Cure",
-            "cleanedName": "the-cure",
-            "Type": "Artist"
-        },
-        {
-            "id": 206,
-            "name": "Chet Atkins",
-            "cleanedName": "chet-atkins",
-            "Type": "Artist"
-        },
-        {
-            "id": 207,
-            "name": "The Chordettes",
-            "cleanedName": "the-chordettes",
-            "Type": "Artist"
-        },
-        {
-            "id": 208,
-            "name": "Chris Cornell",
-            "cleanedName": "chris-cornell",
-            "Type": "Artist"
-        },
-        {
-            "id": 209,
-            "name": "Blind Boy Fuller",
-            "cleanedName": "blind-boy-fuller",
-            "Type": "Artist"
-        },
-        {
-            "id": 210,
-            "name": "Johann Sebastian Bach",
-            "cleanedName": "johann-sebastian-bach",
-            "Type": "Artist"
-        },
-        {
-            "id": 211,
-            "name": "Jack Savoretti",
-            "cleanedName": "jack-savoretti",
-            "Type": "Artist"
-        },
-        {
-            "id": 212,
-            "name": "Rodriguez",
-            "cleanedName": "rodriguez",
-            "Type": "Artist"
-        },
-        {
-            "id": 213,
-            "name": "Stephen Stills",
-            "cleanedName": "stephen-stills",
-            "Type": "Artist"
-        },
-        {
-            "id": 214,
-            "name": "Doc Watson",
-            "cleanedName": "doc-watson",
-            "Type": "Artist"
-        },
-        {
-            "id": 215,
-            "name": "Prince",
-            "cleanedName": "prince",
-            "Type": "Artist"
-        },
-        {
-            "id": 216,
-            "name": "Yusuf / Cat Stevens",
-            "cleanedName": "yusuf-cat-stevens",
-            "Type": "Artist"
-        },
-        {
-            "id": 217,
-            "name": "America, George Martin",
-            "cleanedName": "america-george-martin",
-            "Type": "Artist"
-        },
-        {
-            "id": 218,
-            "name": "David Wilcox",
-            "cleanedName": "david-wilcox",
-            "Type": "Artist"
-        },
-        {
-            "id": 219,
-            "name": "Aerosmith",
-            "cleanedName": "aerosmith",
-            "Type": "Artist"
-        },
-        {
-            "id": 220,
-            "name": "Train",
-            "cleanedName": "train",
-            "Type": "Artist"
-        },
-        {
-            "id": 221,
-            "name": "Steve Vai",
-            "cleanedName": "steve-vai",
-            "Type": "Artist"
-        },
-        {
-            "id": 222,
-            "name": "George Thorogood & The Destroyers",
-            "cleanedName": "george-thorogood-the-destroyers",
-            "Type": "Artist"
-        },
-        {
-            "id": 223,
-            "name": "Boston",
-            "cleanedName": "boston",
-            "Type": "Artist"
-        },
-        {
-            "id": 224,
-            "name": "Linkin Park",
-            "cleanedName": "linkin-park",
-            "Type": "Artist"
-        },
-        {
-            "id": 225,
-            "name": "Elton John",
-            "cleanedName": "elton-john",
-            "Type": "Artist"
-        },
-        {
-            "id": 226,
-            "name": "Bukka White",
-            "cleanedName": "bukka-white",
-            "Type": "Artist"
-        },
-        {
-            "id": 227,
-            "name": "Mumford & Sons",
-            "cleanedName": "mumford-sons",
-            "Type": "Artist"
-        },
-        {
-            "id": 228,
-            "name": "Blue Rodeo",
-            "cleanedName": "blue-rodeo",
-            "Type": "Artist"
-        },
-        {
-            "id": 229,
-            "name": "Damien Rice",
-            "cleanedName": "damien-rice",
-            "Type": "Artist"
-        },
-        {
-            "id": 230,
-            "name": "John Lennon, Yoko Ono",
-            "cleanedName": "john-lennon-yoko-ono",
-            "Type": "Artist"
-        },
-        {
-            "id": 231,
-            "name": "Trans Siberian Orchestra",
-            "cleanedName": "trans-siberian-orchestra",
-            "Type": "Artist"
-        },
-        {
-            "id": 232,
-            "name": "Mykola Leontovych",
-            "cleanedName": "mykola-leontovych",
-            "Type": "Artist"
-        },
-        {
-            "id": 233,
-            "name": "Ted Nugent",
-            "cleanedName": "ted-nugent",
-            "Type": "Artist"
-        },
-        {
-            "id": 234,
-            "name": "Tool",
-            "cleanedName": "tool",
-            "Type": "Artist"
-        },
-        {
-            "id": 235,
-            "name": "Blur",
-            "cleanedName": "blur",
-            "Type": "Artist"
-        },
-        {
-            "id": 236,
-            "name": "Francis Scott Key",
-            "cleanedName": "francis-scott-key",
-            "Type": "Artist"
-        },
-        {
-            "id": 237,
-            "name": "Rage Against The Machine",
-            "cleanedName": "rage-against-the-machine",
-            "Type": "Artist"
-        },
-        {
-            "id": 238,
-            "name": "The Offspring",
-            "cleanedName": "the-offspring",
-            "Type": "Artist"
-        },
-        {
-            "id": 239,
-            "name": "The Knack",
-            "cleanedName": "the-knack",
-            "Type": "Artist"
-        },
-        {
-            "id": 240,
-            "name": "Eddie Van Halen",
-            "cleanedName": "eddie-van-halen",
-            "Type": "Artist"
-        },
-        {
-            "id": 241,
-            "name": "Santana",
-            "cleanedName": "santana",
-            "Type": "Artist"
-        },
-        {
-            "id": 242,
-            "name": "Spirit",
-            "cleanedName": "spirit",
-            "Type": "Artist"
-        },
-        {
-            "id": 243,
-            "name": "Dave Matthews Band",
-            "cleanedName": "dave-matthews-band",
-            "Type": "Artist"
-        },
-        {
-            "id": 244,
-            "name": "Eva Cassidy",
-            "cleanedName": "eva-cassidy",
-            "Type": "Artist"
-        },
-        {
-            "id": 245,
-            "name": "Lynyrd Skynyrd",
-            "cleanedName": "lynyrd-skynyrd",
-            "Type": "Artist"
-        },
-        {
-            "id": 246,
-            "name": "Mason Williams",
-            "cleanedName": "mason-williams",
-            "Type": "Artist"
-        },
-        {
-            "id": 247,
-            "name": "Jimmie Cox",
-            "cleanedName": "jimmie-cox",
-            "Type": "Artist"
-        },
-        {
-            "id": 248,
-            "name": "Rein Rutnik",
-            "cleanedName": "rein-rutnik",
-            "Type": "Artist"
-        },
-        {
-            "id": 249,
+            "id": 137,
             "name": "Milton Ager & Jack Yellen",
             "cleanedName": "milton-ager-jack-yellen",
             "Type": "Artist"
         },
         {
+            "id": 138,
+            "name": "Chris Whitley",
+            "cleanedName": "chris-whitley",
+            "Type": "Artist"
+        },
+        {
+            "id": 139,
+            "name": "Amy Winehouse",
+            "cleanedName": "amy-winehouse",
+            "Type": "Artist"
+        },
+        {
+            "id": 140,
+            "name": "The Zutons",
+            "cleanedName": "the-zutons",
+            "Type": "Artist"
+        },
+        {
+            "id": 141,
+            "name": "Mark Ronson",
+            "cleanedName": "mark-ronson",
+            "Type": "Artist"
+        },
+        {
+            "id": 142,
+            "name": "The Smashing Pumpkins",
+            "cleanedName": "the-smashing-pumpkins",
+            "Type": "Artist"
+        },
+        {
+            "id": 143,
+            "name": "The Doobie Brothers",
+            "cleanedName": "the-doobie-brothers",
+            "Type": "Artist"
+        },
+        {
+            "id": 144,
+            "name": "Grateful Dead",
+            "cleanedName": "grateful-dead",
+            "Type": "Artist"
+        },
+        {
+            "id": 145,
+            "name": "Goyte",
+            "cleanedName": "goyte",
+            "Type": "Artist"
+        },
+        {
+            "id": 146,
+            "name": "Roy Orbison",
+            "cleanedName": "roy-orbison",
+            "Type": "Artist"
+        },
+        {
+            "id": 147,
+            "name": "Smash Mouth",
+            "cleanedName": "smash-mouth",
+            "Type": "Artist"
+        },
+        {
+            "id": 148,
+            "name": "John Frusciante",
+            "cleanedName": "john-frusciante",
+            "Type": "Artist"
+        },
+        {
+            "id": 149,
+            "name": "Nina Simone",
+            "cleanedName": "nina-simone",
+            "Type": "Artist"
+        },
+        {
+            "id": 150,
+            "name": "Big Wreck",
+            "cleanedName": "big-wreck",
+            "Type": "Artist"
+        },
+        {
+            "id": 151,
+            "name": "Jack Johnson",
+            "cleanedName": "jack-johnson",
+            "Type": "Artist"
+        },
+        {
+            "id": 152,
+            "name": "Eurythmics",
+            "cleanedName": "eurythmics",
+            "Type": "Artist"
+        },
+        {
+            "id": 153,
+            "name": "Annie Lennox",
+            "cleanedName": "annie-lennox",
+            "Type": "Artist"
+        },
+        {
+            "id": 154,
+            "name": "Dave Stewart",
+            "cleanedName": "dave-stewart",
+            "Type": "Artist"
+        },
+        {
+            "id": 155,
+            "name": "James Taylor",
+            "cleanedName": "james-taylor",
+            "Type": "Artist"
+        },
+        {
+            "id": 156,
+            "name": "The Moody Blues",
+            "cleanedName": "the-moody-blues",
+            "Type": "Artist"
+        },
+        {
+            "id": 157,
+            "name": "Bruce Cockburn",
+            "cleanedName": "bruce-cockburn",
+            "Type": "Artist"
+        },
+        {
+            "id": 158,
+            "name": "The Animals",
+            "cleanedName": "the-animals",
+            "Type": "Artist"
+        },
+        {
+            "id": 159,
+            "name": "Big Star",
+            "cleanedName": "big-star",
+            "Type": "Artist"
+        },
+        {
+            "id": 160,
+            "name": "David Gray",
+            "cleanedName": "david-gray",
+            "Type": "Artist"
+        },
+        {
+            "id": 161,
+            "name": "The Black Crowes",
+            "cleanedName": "the-black-crowes",
+            "Type": "Artist"
+        },
+        {
+            "id": 162,
+            "name": "George Gershwin",
+            "cleanedName": "george-gershwin",
+            "Type": "Artist"
+        },
+        {
+            "id": 163,
+            "name": "Ella Fitzgerald",
+            "cleanedName": "ella-fitzgerald",
+            "Type": "Artist"
+        },
+        {
+            "id": 164,
+            "name": "The Killers",
+            "cleanedName": "the-killers",
+            "Type": "Artist"
+        },
+        {
+            "id": 165,
+            "name": "Allman Brothers Band",
+            "cleanedName": "allman-brothers-band",
+            "Type": "Artist"
+        },
+        {
+            "id": 166,
+            "name": "Danny Elfman",
+            "cleanedName": "danny-elfman",
+            "Type": "Artist"
+        },
+        {
+            "id": 167,
+            "name": "Robbie Basho",
+            "cleanedName": "robbie-basho",
+            "Type": "Artist"
+        },
+        {
+            "id": 168,
+            "name": "Arborea",
+            "cleanedName": "arborea",
+            "Type": "Artist"
+        },
+        {
+            "id": 169,
+            "name": "AC/DC",
+            "cleanedName": "ac-dc",
+            "Type": "Artist"
+        },
+        {
+            "id": 170,
+            "name": "Larry Davis",
+            "cleanedName": "larry-davis",
+            "Type": "Artist"
+        },
+        {
+            "id": 171,
+            "name": "Metallica",
+            "cleanedName": "metallica",
+            "Type": "Artist"
+        },
+        {
+            "id": 172,
+            "name": "Chuck Berry",
+            "cleanedName": "chuck-berry",
+            "Type": "Artist"
+        },
+        {
+            "id": 173,
+            "name": "Blue Öyster Cult",
+            "cleanedName": "blue-oyster-cult",
+            "Type": "Artist"
+        },
+        {
+            "id": 174,
+            "name": "ZZ Top",
+            "cleanedName": "zz-top",
+            "Type": "Artist"
+        },
+        {
+            "id": 175,
+            "name": "Vance Joy",
+            "cleanedName": "vance-joy",
+            "Type": "Artist"
+        },
+        {
+            "id": 176,
+            "name": "Otis Redding",
+            "cleanedName": "otis-redding",
+            "Type": "Artist"
+        },
+        {
+            "id": 177,
+            "name": "Jonny Lang",
+            "cleanedName": "jonny-lang",
+            "Type": "Artist"
+        },
+        {
+            "id": 178,
+            "name": "Foo Fighters",
+            "cleanedName": "foo-fighters",
+            "Type": "Artist"
+        },
+        {
+            "id": 179,
+            "name": "The Eagles",
+            "cleanedName": "the-eagles",
+            "Type": "Artist"
+        },
+        {
+            "id": 180,
+            "name": "The Police",
+            "cleanedName": "the-police",
+            "Type": "Artist"
+        },
+        {
+            "id": 181,
+            "name": "Santo & Johnny",
+            "cleanedName": "santo-johnny",
+            "Type": "Artist"
+        },
+        {
+            "id": 182,
+            "name": "Betsy Brye",
+            "cleanedName": "betsy-brye",
+            "Type": "Artist"
+        },
+        {
+            "id": 183,
+            "name": "Matchbox Twenty",
+            "cleanedName": "matchbox-twenty",
+            "Type": "Artist"
+        },
+        {
+            "id": 184,
+            "name": "Sonny Boy Williamson II",
+            "cleanedName": "sonny-boy-williamson-ii",
+            "Type": "Artist"
+        },
+        {
+            "id": 185,
+            "name": "Shania Twain",
+            "cleanedName": "shania-twain",
+            "Type": "Artist"
+        },
+        {
+            "id": 186,
+            "name": "Tom Petty",
+            "cleanedName": "tom-petty",
+            "Type": "Artist"
+        },
+        {
+            "id": 187,
+            "name": "Johnny Cash",
+            "cleanedName": "johnny-cash",
+            "Type": "Artist"
+        },
+        {
+            "id": 188,
+            "name": "Don McLean",
+            "cleanedName": "don-mclean",
+            "Type": "Artist"
+        },
+        {
+            "id": 189,
+            "name": "Oasis",
+            "cleanedName": "oasis",
+            "Type": "Artist"
+        },
+        {
+            "id": 190,
+            "name": "Nirvana",
+            "cleanedName": "nirvana",
+            "Type": "Artist"
+        },
+        {
+            "id": 191,
+            "name": "Mountain",
+            "cleanedName": "mountain",
+            "Type": "Artist"
+        },
+        {
+            "id": 192,
+            "name": "Hozier",
+            "cleanedName": "hozier",
+            "Type": "Artist"
+        },
+        {
+            "id": 193,
+            "name": "Canned Heat",
+            "cleanedName": "canned-heat",
+            "Type": "Artist"
+        },
+        {
+            "id": 194,
+            "name": "John Brim",
+            "cleanedName": "john-brim",
+            "Type": "Artist"
+        },
+        {
+            "id": 195,
+            "name": "Guns N' Roses",
+            "cleanedName": "guns-n-roses",
+            "Type": "Artist"
+        },
+        {
+            "id": 196,
+            "name": "Free",
+            "cleanedName": "free",
+            "Type": "Artist"
+        },
+        {
+            "id": 197,
+            "name": "The White Stripes",
+            "cleanedName": "the-white-stripes",
+            "Type": "Artist"
+        },
+        {
+            "id": 198,
+            "name": "Black Sabbath",
+            "cleanedName": "black-sabbath",
+            "Type": "Artist"
+        },
+        {
+            "id": 199,
+            "name": "Dick Dale",
+            "cleanedName": "dick-dale",
+            "Type": "Artist"
+        },
+        {
+            "id": 200,
+            "name": "Depeche Mode",
+            "cleanedName": "depeche-mode",
+            "Type": "Artist"
+        },
+        {
+            "id": 201,
+            "name": "Wolfmother",
+            "cleanedName": "wolfmother",
+            "Type": "Artist"
+        },
+        {
+            "id": 202,
+            "name": "Paul Gilbert",
+            "cleanedName": "paul-gilbert",
+            "Type": "Artist"
+        },
+        {
+            "id": 203,
+            "name": "Steppenwolf",
+            "cleanedName": "steppenwolf",
+            "Type": "Artist"
+        },
+        {
+            "id": 204,
+            "name": "Extreme",
+            "cleanedName": "extreme",
+            "Type": "Artist"
+        },
+        {
+            "id": 205,
+            "name": "Audioslave",
+            "cleanedName": "audioslave",
+            "Type": "Artist"
+        },
+        {
+            "id": 206,
+            "name": "Alice In Chains",
+            "cleanedName": "alice-in-chains",
+            "Type": "Artist"
+        },
+        {
+            "id": 207,
+            "name": "The Cure",
+            "cleanedName": "the-cure",
+            "Type": "Artist"
+        },
+        {
+            "id": 208,
+            "name": "Chet Atkins",
+            "cleanedName": "chet-atkins",
+            "Type": "Artist"
+        },
+        {
+            "id": 209,
+            "name": "The Chordettes",
+            "cleanedName": "the-chordettes",
+            "Type": "Artist"
+        },
+        {
+            "id": 210,
+            "name": "Chris Cornell",
+            "cleanedName": "chris-cornell",
+            "Type": "Artist"
+        },
+        {
+            "id": 211,
+            "name": "Blind Boy Fuller",
+            "cleanedName": "blind-boy-fuller",
+            "Type": "Artist"
+        },
+        {
+            "id": 212,
+            "name": "Johann Sebastian Bach",
+            "cleanedName": "johann-sebastian-bach",
+            "Type": "Artist"
+        },
+        {
+            "id": 213,
+            "name": "Jack Savoretti",
+            "cleanedName": "jack-savoretti",
+            "Type": "Artist"
+        },
+        {
+            "id": 214,
+            "name": "Rodriguez",
+            "cleanedName": "rodriguez",
+            "Type": "Artist"
+        },
+        {
+            "id": 215,
+            "name": "Stephen Stills",
+            "cleanedName": "stephen-stills",
+            "Type": "Artist"
+        },
+        {
+            "id": 216,
+            "name": "Doc Watson",
+            "cleanedName": "doc-watson",
+            "Type": "Artist"
+        },
+        {
+            "id": 217,
+            "name": "Prince",
+            "cleanedName": "prince",
+            "Type": "Artist"
+        },
+        {
+            "id": 218,
+            "name": "Yusuf / Cat Stevens",
+            "cleanedName": "yusuf-cat-stevens",
+            "Type": "Artist"
+        },
+        {
+            "id": 219,
+            "name": "America, George Martin",
+            "cleanedName": "america-george-martin",
+            "Type": "Artist"
+        },
+        {
+            "id": 220,
+            "name": "David Wilcox",
+            "cleanedName": "david-wilcox",
+            "Type": "Artist"
+        },
+        {
+            "id": 221,
+            "name": "Aerosmith",
+            "cleanedName": "aerosmith",
+            "Type": "Artist"
+        },
+        {
+            "id": 222,
+            "name": "Train",
+            "cleanedName": "train",
+            "Type": "Artist"
+        },
+        {
+            "id": 223,
+            "name": "Steve Vai",
+            "cleanedName": "steve-vai",
+            "Type": "Artist"
+        },
+        {
+            "id": 224,
+            "name": "George Thorogood & The Destroyers",
+            "cleanedName": "george-thorogood-the-destroyers",
+            "Type": "Artist"
+        },
+        {
+            "id": 225,
+            "name": "Boston",
+            "cleanedName": "boston",
+            "Type": "Artist"
+        },
+        {
+            "id": 226,
+            "name": "Linkin Park",
+            "cleanedName": "linkin-park",
+            "Type": "Artist"
+        },
+        {
+            "id": 227,
+            "name": "Elton John",
+            "cleanedName": "elton-john",
+            "Type": "Artist"
+        },
+        {
+            "id": 228,
+            "name": "Bukka White",
+            "cleanedName": "bukka-white",
+            "Type": "Artist"
+        },
+        {
+            "id": 229,
+            "name": "Mumford & Sons",
+            "cleanedName": "mumford-sons",
+            "Type": "Artist"
+        },
+        {
+            "id": 230,
+            "name": "Blue Rodeo",
+            "cleanedName": "blue-rodeo",
+            "Type": "Artist"
+        },
+        {
+            "id": 231,
+            "name": "Damien Rice",
+            "cleanedName": "damien-rice",
+            "Type": "Artist"
+        },
+        {
+            "id": 232,
+            "name": "John Lennon, Yoko Ono",
+            "cleanedName": "john-lennon-yoko-ono",
+            "Type": "Artist"
+        },
+        {
+            "id": 233,
+            "name": "Trans Siberian Orchestra",
+            "cleanedName": "trans-siberian-orchestra",
+            "Type": "Artist"
+        },
+        {
+            "id": 234,
+            "name": "Mykola Leontovych",
+            "cleanedName": "mykola-leontovych",
+            "Type": "Artist"
+        },
+        {
+            "id": 235,
+            "name": "Ted Nugent",
+            "cleanedName": "ted-nugent",
+            "Type": "Artist"
+        },
+        {
+            "id": 236,
+            "name": "Tool",
+            "cleanedName": "tool",
+            "Type": "Artist"
+        },
+        {
+            "id": 237,
+            "name": "Blur",
+            "cleanedName": "blur",
+            "Type": "Artist"
+        },
+        {
+            "id": 238,
+            "name": "Francis Scott Key",
+            "cleanedName": "francis-scott-key",
+            "Type": "Artist"
+        },
+        {
+            "id": 239,
+            "name": "Rage Against The Machine",
+            "cleanedName": "rage-against-the-machine",
+            "Type": "Artist"
+        },
+        {
+            "id": 240,
+            "name": "The Offspring",
+            "cleanedName": "the-offspring",
+            "Type": "Artist"
+        },
+        {
+            "id": 241,
+            "name": "The Knack",
+            "cleanedName": "the-knack",
+            "Type": "Artist"
+        },
+        {
+            "id": 242,
+            "name": "Eddie Van Halen",
+            "cleanedName": "eddie-van-halen",
+            "Type": "Artist"
+        },
+        {
+            "id": 243,
+            "name": "Santana",
+            "cleanedName": "santana",
+            "Type": "Artist"
+        },
+        {
+            "id": 244,
+            "name": "Spirit",
+            "cleanedName": "spirit",
+            "Type": "Artist"
+        },
+        {
+            "id": 245,
+            "name": "Dave Matthews Band",
+            "cleanedName": "dave-matthews-band",
+            "Type": "Artist"
+        },
+        {
+            "id": 246,
+            "name": "Eva Cassidy",
+            "cleanedName": "eva-cassidy",
+            "Type": "Artist"
+        },
+        {
+            "id": 247,
+            "name": "Lynyrd Skynyrd",
+            "cleanedName": "lynyrd-skynyrd",
+            "Type": "Artist"
+        },
+        {
+            "id": 248,
+            "name": "Mason Williams",
+            "cleanedName": "mason-williams",
+            "Type": "Artist"
+        },
+        {
+            "id": 249,
+            "name": "Jimmie Cox",
+            "cleanedName": "jimmie-cox",
+            "Type": "Artist"
+        },
+        {
             "id": 250,
+            "name": "Rein Rutnik",
+            "cleanedName": "rein-rutnik",
+            "Type": "Artist"
+        },
+        {
+            "id": 251,
             "name": "Mississippi John Hurt",
             "cleanedName": "mississippi-john-hurt",
             "Type": "Artist"
         },
         {
-            "id": 251,
+            "id": 252,
             "name": "Joe Filisko",
             "cleanedName": "joe-filisko",
             "Type": "Artist"
         },
         {
-            "id": 252,
+            "id": 253,
             "name": "Semisonic",
             "cleanedName": "semisonic",
             "Type": "Artist"
         },
         {
-            "id": 253,
+            "id": 254,
             "name": "A-Ha",
             "cleanedName": "a-ha",
             "Type": "Artist"
         },
         {
-            "id": 254,
+            "id": 255,
             "name": "P!nk",
             "cleanedName": "p-nk",
             "Type": "Artist"
         },
         {
-            "id": 255,
+            "id": 256,
             "name": "Agustín Barrios Mangoré",
             "cleanedName": "agustin-barrios-mangore",
             "Type": "Artist"
         },
         {
-            "id": 256,
+            "id": 257,
             "name": "Ryan Adams",
             "cleanedName": "ryan-adams",
             "Type": "Artist"
         },
         {
-            "id": 257,
+            "id": 258,
             "name": "Bryan Adams",
             "cleanedName": "bryan-adams",
             "Type": "Artist"
         },
         {
-            "id": 258,
+            "id": 259,
             "name": "Rusted Root",
             "cleanedName": "rusted-root",
             "Type": "Artist"
         },
         {
-            "id": 259,
+            "id": 260,
             "name": "Ben Howard",
             "cleanedName": "ben-howard",
             "Type": "Artist"
         },
         {
-            "id": 260,
+            "id": 261,
             "name": "George Harrison",
             "cleanedName": "george-harrison",
             "Type": "Artist"
         },
         {
-            "id": 261,
+            "id": 262,
             "name": "Old Crow Medicine Show",
             "cleanedName": "old-crow-medicine-show",
             "Type": "Artist"
         },
         {
-            "id": 262,
+            "id": 263,
             "name": "Darius Rucker",
             "cleanedName": "darius-rucker",
             "Type": "Artist"
         },
         {
-            "id": 263,
+            "id": 264,
             "name": "Blink-182",
             "cleanedName": "blink-182",
             "Type": "Artist"
         },
         {
-            "id": 264,
+            "id": 265,
             "name": "Nelly",
             "cleanedName": "nelly",
             "Type": "Artist"
         },
         {
-            "id": 265,
+            "id": 266,
             "name": "Great Big Sea",
             "cleanedName": "great-big-sea",
             "Type": "Artist"
         },
         {
-            "id": 266,
+            "id": 267,
             "name": "Ben Harper",
             "cleanedName": "ben-harper",
             "Type": "Artist"
         },
         {
-            "id": 267,
+            "id": 268,
             "name": "The Tragically Hip",
             "cleanedName": "the-tragically-hip",
             "Type": "Artist"
         },
         {
-            "id": 268,
+            "id": 269,
             "name": "Blind Melon",
             "cleanedName": "blind-melon",
             "Type": "Artist"
         },
         {
-            "id": 269,
+            "id": 270,
             "name": "Fuel",
             "cleanedName": "fuel",
             "Type": "Artist"
         },
         {
-            "id": 270,
+            "id": 271,
             "name": "Green Day",
             "cleanedName": "green-day",
             "Type": "Artist"
         },
         {
-            "id": 271,
+            "id": 272,
             "name": "Sun Kil Moon",
             "cleanedName": "sun-kil-moon",
             "Type": "Artist"
         },
         {
-            "id": 272,
+            "id": 273,
             "name": "INXS",
             "cleanedName": "inxs",
             "Type": "Artist"
         },
         {
-            "id": 273,
+            "id": 274,
             "name": "Temple Of The Dog",
             "cleanedName": "temple-of-the-dog",
             "Type": "Artist"
         },
         {
-            "id": 274,
+            "id": 275,
             "name": "Talking Heads",
             "cleanedName": "talking-heads",
             "Type": "Artist"
         },
         {
-            "id": 275,
+            "id": 276,
             "name": "Unknown",
             "cleanedName": "unknown",
             "Type": "Artist"
         },
         {
-            "id": 276,
+            "id": 277,
             "name": "Tenacious D",
             "cleanedName": "tenacious-d",
             "Type": "Artist"
         },
         {
-            "id": 277,
+            "id": 278,
             "name": "Edwin McCain",
             "cleanedName": "edwin-mccain",
             "Type": "Artist"
         },
         {
-            "id": 278,
+            "id": 279,
             "name": "Tim Buckley",
             "cleanedName": "tim-buckley",
             "Type": "Artist"
         },
         {
-            "id": 279,
+            "id": 280,
             "name": "The Clash",
             "cleanedName": "the-clash",
             "Type": "Artist"
         },
         {
-            "id": 280,
+            "id": 281,
             "name": "Adele",
             "cleanedName": "adele",
             "Type": "Artist"
         },
         {
-            "id": 281,
+            "id": 282,
             "name": "Dusty Springfield",
             "cleanedName": "dusty-springfield",
             "Type": "Artist"
         },
         {
-            "id": 282,
+            "id": 283,
             "name": "Christina Perri",
             "cleanedName": "christina-perri",
             "Type": "Artist"
         },
         {
-            "id": 283,
+            "id": 284,
             "name": "Bon Iver",
             "cleanedName": "bon-iver",
             "Type": "Artist"
         },
         {
-            "id": 284,
+            "id": 285,
             "name": "Birdy",
             "cleanedName": "birdy",
             "Type": "Artist"
         },
         {
-            "id": 285,
+            "id": 286,
             "name": "James Morrison",
             "cleanedName": "james-morrison",
             "Type": "Artist"
         },
         {
-            "id": 286,
+            "id": 287,
             "name": "The Mamas & The Papas",
             "cleanedName": "the-mamas-the-papas",
             "Type": "Artist"
         },
         {
-            "id": 287,
+            "id": 288,
             "name": "José Feliciano",
             "cleanedName": "jose-feliciano",
             "Type": "Artist"
         },
         {
-            "id": 288,
+            "id": 289,
             "name": "Hambone Willie Newbern",
             "cleanedName": "hambone-willie-newbern",
             "Type": "Artist"
         },
         {
-            "id": 289,
+            "id": 290,
             "name": "Muddy Waters",
             "cleanedName": "muddy-waters",
             "Type": "Artist"
         },
         {
-            "id": 290,
+            "id": 291,
             "name": "John Lennon",
             "cleanedName": "john-lennon",
             "Type": "Artist"
         },
         {
-            "id": 291,
+            "id": 292,
             "name": "Koji Kondo",
             "cleanedName": "koji-kondo",
             "Type": "Artist"
         },
         {
-            "id": 292,
+            "id": 293,
             "name": "John Coltrane",
             "cleanedName": "john-coltrane",
             "Type": "Artist"
         },
         {
-            "id": 293,
+            "id": 294,
             "name": "Filter",
             "cleanedName": "filter",
             "Type": "Artist"
         },
         {
-            "id": 294,
+            "id": 295,
             "name": "The Cranberries",
             "cleanedName": "the-cranberries",
             "Type": "Artist"
         },
         {
-            "id": 295,
+            "id": 296,
             "name": "John Denver",
             "cleanedName": "john-denver",
             "Type": "Artist"
         },
         {
-            "id": 296,
+            "id": 297,
             "name": "James Shelton",
             "cleanedName": "james-shelton",
             "Type": "Artist"
         },
         {
-            "id": 297,
+            "id": 298,
             "name": "Pusha T",
             "cleanedName": "pusha-t",
             "Type": "Artist"
         },
         {
-            "id": 298,
+            "id": 299,
             "name": "Tom Batoy",
             "cleanedName": "tom-batoy",
             "Type": "Artist"
         },
         {
-            "id": 299,
+            "id": 300,
             "name": "Franco Tortora",
             "cleanedName": "franco-tortora",
             "Type": "Artist"
         },
         {
-            "id": 300,
+            "id": 301,
             "name": "John Prine",
             "cleanedName": "john-prine",
             "Type": "Artist"
         },
         {
-            "id": 301,
+            "id": 302,
             "name": "Doucette",
             "cleanedName": "doucette",
             "Type": "Artist"
         },
         {
-            "id": 302,
+            "id": 303,
             "name": "Iron Maiden",
             "cleanedName": "iron-maiden",
             "Type": "Artist"
         },
         {
-            "id": 303,
+            "id": 304,
             "name": "Peter Frampton",
             "cleanedName": "peter-frampton",
             "Type": "Artist"
         },
         {
-            "id": 304,
+            "id": 305,
             "name": "Carney",
             "cleanedName": "carney",
             "Type": "Artist"
         },
         {
-            "id": 305,
+            "id": 306,
             "name": "Kings of Leon",
             "cleanedName": "kings-of-leon",
             "Type": "Artist"
         },
         {
-            "id": 306,
+            "id": 307,
             "name": "R.E.M",
             "cleanedName": "rem",
             "Type": "Artist"
         },
         {
-            "id": 307,
+            "id": 308,
             "name": "The Soggy Bottom Boys",
             "cleanedName": "the-soggy-bottom-boys",
             "Type": "Artist"
         },
         {
-            "id": 308,
+            "id": 309,
             "name": "Dick Burnett",
             "cleanedName": "dick-burnett",
             "Type": "Artist"
         },
         {
-            "id": 309,
+            "id": 310,
             "name": "Kim Mitchell",
             "cleanedName": "kim-mitchell",
             "Type": "Artist"
         },
         {
-            "id": 310,
+            "id": 311,
             "name": "Mr. Big",
             "cleanedName": "mr-big",
             "Type": "Artist"
         },
         {
-            "id": 311,
+            "id": 312,
             "name": "The Kinks",
             "cleanedName": "the-kinks",
             "Type": "Artist"
         },
         {
-            "id": 312,
+            "id": 313,
             "name": "Jimmy Eat World",
             "cleanedName": "jimmy-eat-world",
             "Type": "Artist"
         },
         {
-            "id": 313,
+            "id": 314,
             "name": "The Hollies",
             "cleanedName": "the-hollies",
             "Type": "Artist"
         },
         {
-            "id": 314,
+            "id": 315,
             "name": "Shuki Levy",
             "cleanedName": "shuki-levy",
             "Type": "Artist"
         },
         {
-            "id": 315,
+            "id": 316,
             "name": "Haim Saban",
             "cleanedName": "haim-saban",
             "Type": "Artist"
         },
         {
-            "id": 316,
+            "id": 317,
             "name": "Trevor Hall, Krishna Das",
             "cleanedName": "trevor-hall-krishna-das",
             "Type": "Artist"
         },
         {
-            "id": 317,
+            "id": 318,
             "name": "Tonic",
             "cleanedName": "tonic",
             "Type": "Artist"
         },
         {
-            "id": 318,
+            "id": 319,
             "name": "Nickelback",
             "cleanedName": "nickelback",
             "Type": "Artist"
         },
         {
-            "id": 319,
+            "id": 320,
             "name": "Collective Soul",
             "cleanedName": "collective-soul",
             "Type": "Artist"
         },
         {
-            "id": 320,
+            "id": 321,
             "name": "Simon & Garfunkel",
             "cleanedName": "simon-garfunkel",
             "Type": "Artist"
         },
         {
-            "id": 321,
+            "id": 322,
             "name": "Fleet Foxes",
             "cleanedName": "fleet-foxes",
             "Type": "Artist"
         },
         {
-            "id": 322,
+            "id": 323,
             "name": "Massive Attack",
             "cleanedName": "massive-attack",
             "Type": "Artist"
         },
         {
-            "id": 323,
+            "id": 324,
             "name": "Ludwig Van Beethoven",
             "cleanedName": "ludwig-van-beethoven",
             "Type": "Artist"
         },
         {
-            "id": 324,
+            "id": 325,
             "name": "Gordon Lightfoot",
             "cleanedName": "gordon-lightfoot",
             "Type": "Artist"
         },
         {
-            "id": 325,
+            "id": 326,
             "name": "Bon Jovi",
             "cleanedName": "bon-jovi",
             "Type": "Artist"
         },
         {
-            "id": 326,
+            "id": 327,
             "name": "Grant Dermody",
             "cleanedName": "grant-dermody",
             "Type": "Artist"
         },
         {
-            "id": 327,
+            "id": 328,
             "name": "Claude Debussy",
             "cleanedName": "claude-debussy",
             "Type": "Artist"
         },
         {
-            "id": 328,
+            "id": 329,
             "name": "J.J. Cale",
             "cleanedName": "jj-cale",
             "Type": "Artist"
         },
         {
-            "id": 329,
+            "id": 330,
             "name": "Deep Purple",
             "cleanedName": "deep-purple",
             "Type": "Artist"
         },
         {
-            "id": 330,
+            "id": 331,
             "name": "Joseph Kosma",
             "cleanedName": "joseph-kosma",
             "Type": "Artist"
         },
         {
-            "id": 331,
+            "id": 332,
             "name": "Jacques Prevert",
             "cleanedName": "jacques-prevert",
             "Type": "Artist"
         },
         {
-            "id": 332,
+            "id": 333,
             "name": "Daryl Hall and John Oates",
             "cleanedName": "daryl-hall-and-john-oates",
             "Type": "Artist"
         },
         {
-            "id": 333,
+            "id": 334,
             "name": "Moist",
             "cleanedName": "moist",
             "Type": "Artist"
         },
         {
-            "id": 334,
+            "id": 335,
             "name": "Bill Withers",
             "cleanedName": "bill-withers",
             "Type": "Artist"
         },
         {
-            "id": 335,
+            "id": 336,
             "name": "Marcy Playground",
             "cleanedName": "marcy-playground",
             "Type": "Artist"
         },
         {
-            "id": 336,
+            "id": 337,
             "name": "The Proclaimers",
             "cleanedName": "the-proclaimers",
             "Type": "Artist"
         },
         {
-            "id": 337,
+            "id": 338,
             "name": "Isaac Albéniz",
             "cleanedName": "isaac-albeniz",
             "Type": "Artist"
         },
         {
-            "id": 338,
+            "id": 339,
             "name": "Tom Jones",
             "cleanedName": "tom-jones",
             "Type": "Artist"
         },
         {
-            "id": 339,
+            "id": 340,
             "name": "Toto",
             "cleanedName": "toto",
             "Type": "Artist"
         },
         {
-            "id": 340,
+            "id": 341,
             "name": "Gaspar Sanz",
             "cleanedName": "gaspar-sanz",
             "Type": "Artist"
         },
         {
-            "id": 341,
+            "id": 342,
             "name": "Deford Bailey",
             "cleanedName": "deford-bailey",
             "Type": "Artist"
         },
         {
-            "id": 342,
+            "id": 343,
             "name": "Bobby McFerrin",
             "cleanedName": "bobby-mcferrin",
             "Type": "Artist"
         },
         {
-            "id": 343,
+            "id": 344,
             "name": "Slash",
             "cleanedName": "slash",
             "Type": "Artist"
         },
         {
-            "id": 344,
+            "id": 345,
             "name": "Janet Jackson",
             "cleanedName": "janet-jackson",
             "Type": "Artist"
         },
         {
-            "id": 345,
+            "id": 346,
             "name": "Kiss",
             "cleanedName": "kiss",
             "Type": "Artist"
         },
         {
-            "id": 346,
+            "id": 347,
             "name": "Nursery Rhyme",
             "cleanedName": "nursery-rhyme",
             "Type": "Artist"
         },
         {
-            "id": 347,
+            "id": 348,
             "name": "Alicia Keys",
             "cleanedName": "alicia-keys",
             "Type": "Artist"
         },
         {
-            "id": 348,
+            "id": 349,
             "name": "Donny Hathaway",
             "cleanedName": "donny-hathaway",
             "Type": "Artist"
         },
         {
-            "id": 349,
+            "id": 350,
             "name": "Bachman-Turner Overdrive",
             "cleanedName": "bachman-turner-overdrive",
             "Type": "Artist"
@@ -6446,6 +6452,21 @@
         },
         {
             "id": 291,
+            "title": "Big Bad Bill (Is Sweet William Now) (Rein Rutnik)",
+            "cleanedTitle": "big-bad-bill-is-sweet-william-now-rein-rutnik",
+            "artist": "Leon Redbone",
+            "cleanedArtist": "leon-redbone",
+            "album": "Champagne Charlie",
+            "cleanedAlbum": "champagne-charlie",
+            "otherArtists": "Van Halen+ Milton Ager & Jack Yellen",
+            "instruments": "Acoustic Guitar, Harmonica, (FV2) - Furch Vintage 2 RS-SR",
+            "search": "Eddie Van Halen",
+            "CleanedPicture": "champagne-charlie",
+            "ArtistPic": false,
+            "Type": "Song"
+        },
+        {
+            "id": 292,
             "title": "Going to California",
             "cleanedTitle": "going-to-california",
             "artist": "Led Zeppelin",
@@ -6460,7 +6481,7 @@
             "Type": "Song"
         },
         {
-            "id": 292,
+            "id": 293,
             "title": "Ball Peen Hammer",
             "cleanedTitle": "ball-peen-hammer",
             "artist": "Chris Whitley",
@@ -6475,7 +6496,7 @@
             "Type": "Song"
         },
         {
-            "id": 293,
+            "id": 294,
             "title": "Somebody To Love",
             "cleanedTitle": "somebody-to-love",
             "artist": "Queen",
@@ -6490,7 +6511,7 @@
             "Type": "Song"
         },
         {
-            "id": 294,
+            "id": 295,
             "title": "Iris",
             "cleanedTitle": "iris",
             "artist": "The Goo Goo Dolls",
@@ -6505,7 +6526,7 @@
             "Type": "Song"
         },
         {
-            "id": 295,
+            "id": 296,
             "title": "This Flight Tonight",
             "cleanedTitle": "this-flight-tonight",
             "artist": "Joni Mitchell",
@@ -6520,7 +6541,7 @@
             "Type": "Song"
         },
         {
-            "id": 296,
+            "id": 297,
             "title": "Ramble On",
             "cleanedTitle": "ramble-on",
             "artist": "Led Zeppelin",
@@ -6535,7 +6556,7 @@
             "Type": "Song"
         },
         {
-            "id": 297,
+            "id": 298,
             "title": "Little Black Submarines",
             "cleanedTitle": "little-black-submarines",
             "artist": "The Black Keys",
@@ -6550,7 +6571,7 @@
             "Type": "Song"
         },
         {
-            "id": 298,
+            "id": 299,
             "title": "Come On In My Kitchen",
             "cleanedTitle": "come-on-in-my-kitchen",
             "artist": "Robert Johnson",
@@ -6565,7 +6586,7 @@
             "Type": "Song"
         },
         {
-            "id": 299,
+            "id": 300,
             "title": "Sultans of Swing",
             "cleanedTitle": "sultans-of-swing",
             "artist": "Dire Straits",
@@ -6580,7 +6601,7 @@
             "Type": "Song"
         },
         {
-            "id": 300,
+            "id": 301,
             "title": "Elusive",
             "cleanedTitle": "elusive",
             "artist": "Scott Matthews",
@@ -6595,7 +6616,7 @@
             "Type": "Song"
         },
         {
-            "id": 301,
+            "id": 302,
             "title": "The Last Time",
             "cleanedTitle": "the-last-time",
             "artist": "The Rolling Stones",
@@ -6610,7 +6631,7 @@
             "Type": "Song"
         },
         {
-            "id": 302,
+            "id": 303,
             "title": "Valerie",
             "cleanedTitle": "valerie",
             "artist": "Amy Winehouse",
@@ -6625,7 +6646,7 @@
             "Type": "Song"
         },
         {
-            "id": 303,
+            "id": 304,
             "title": "1979",
             "cleanedTitle": "1979",
             "artist": "The Smashing Pumpkins",
@@ -6640,7 +6661,7 @@
             "Type": "Song"
         },
         {
-            "id": 304,
+            "id": 305,
             "title": "May You Never",
             "cleanedTitle": "may-you-never",
             "artist": "John Martyn",
@@ -6655,7 +6676,7 @@
             "Type": "Song"
         },
         {
-            "id": 305,
+            "id": 306,
             "title": "The Needle and the Damage Done",
             "cleanedTitle": "the-needle-and-the-damage-done",
             "artist": "Neil Young",
@@ -6670,7 +6691,7 @@
             "Type": "Song"
         },
         {
-            "id": 306,
+            "id": 307,
             "title": "Long Train Running (Partial)",
             "cleanedTitle": "long-train-running-partial",
             "artist": "The Doobie Brothers",
@@ -6685,7 +6706,7 @@
             "Type": "Song"
         },
         {
-            "id": 307,
+            "id": 308,
             "title": "Stones In My Passway",
             "cleanedTitle": "stones-in-my-passway",
             "artist": "Robert Johnson",
@@ -6700,7 +6721,7 @@
             "Type": "Song"
         },
         {
-            "id": 308,
+            "id": 309,
             "title": "Touch of Grey",
             "cleanedTitle": "touch-of-grey",
             "artist": "Grateful Dead",
@@ -6715,7 +6736,7 @@
             "Type": "Song"
         },
         {
-            "id": 309,
+            "id": 310,
             "title": "Fake Plastic Trees",
             "cleanedTitle": "fake-plastic-trees",
             "artist": "Radiohead",
@@ -6730,7 +6751,7 @@
             "Type": "Song"
         },
         {
-            "id": 310,
+            "id": 311,
             "title": "Somebody That I Used To Know",
             "cleanedTitle": "somebody-that-i-used-to-know",
             "artist": "Goyte",
@@ -6745,7 +6766,7 @@
             "Type": "Song"
         },
         {
-            "id": 311,
+            "id": 312,
             "title": "Beast Of Burden",
             "cleanedTitle": "beast-of-burden",
             "artist": "The Rolling Stones",
@@ -6760,7 +6781,7 @@
             "Type": "Song"
         },
         {
-            "id": 312,
+            "id": 313,
             "title": "Fall to Pieces",
             "cleanedTitle": "fall-to-pieces",
             "artist": "Velvet Revolver",
@@ -6775,7 +6796,7 @@
             "Type": "Song"
         },
         {
-            "id": 313,
+            "id": 314,
             "title": "You Got It",
             "cleanedTitle": "you-got-it",
             "artist": "Roy Orbison",
@@ -6790,7 +6811,7 @@
             "Type": "Song"
         },
         {
-            "id": 314,
+            "id": 315,
             "title": "Walkin' On The Sun",
             "cleanedTitle": "walkin-on-the-sun",
             "artist": "Smash Mouth",
@@ -6805,7 +6826,7 @@
             "Type": "Song"
         },
         {
-            "id": 315,
+            "id": 316,
             "title": "The Past Recedes",
             "cleanedTitle": "the-past-recedes",
             "artist": "John Frusciante",
@@ -6820,7 +6841,7 @@
             "Type": "Song"
         },
         {
-            "id": 316,
+            "id": 317,
             "title": "Be My Husband",
             "cleanedTitle": "be-my-husband",
             "artist": "Nina Simone",
@@ -6835,7 +6856,7 @@
             "Type": "Song"
         },
         {
-            "id": 317,
+            "id": 318,
             "title": "Be Your Husband",
             "cleanedTitle": "be-your-husband",
             "artist": "Jeff Buckley",
@@ -6850,7 +6871,7 @@
             "Type": "Song"
         },
         {
-            "id": 318,
+            "id": 319,
             "title": "Mandolin improv",
             "cleanedTitle": "mandolin-improv",
             "artist": "Corey Heuvel",
@@ -6865,7 +6886,7 @@
             "Type": "Song"
         },
         {
-            "id": 319,
+            "id": 320,
             "title": "That Song",
             "cleanedTitle": "that-song",
             "artist": "Big Wreck",
@@ -6880,7 +6901,7 @@
             "Type": "Song"
         },
         {
-            "id": 320,
+            "id": 321,
             "title": "Sitting, Waiting, Wishing",
             "cleanedTitle": "sitting-waiting-wishing",
             "artist": "Jack Johnson",
@@ -6895,7 +6916,7 @@
             "Type": "Song"
         },
         {
-            "id": 321,
+            "id": 322,
             "title": "Glass",
             "cleanedTitle": "glass",
             "artist": "Incubus",
@@ -6910,7 +6931,7 @@
             "Type": "Song"
         },
         {
-            "id": 322,
+            "id": 323,
             "title": "Fool in the Rain",
             "cleanedTitle": "fool-in-the-rain",
             "artist": "Led Zeppelin",
@@ -6925,7 +6946,7 @@
             "Type": "Song"
         },
         {
-            "id": 323,
+            "id": 324,
             "title": "Sweet Dreams (Are Made of This)",
             "cleanedTitle": "sweet-dreams-are-made-of-this",
             "artist": "Eurythmics",
@@ -6940,7 +6961,7 @@
             "Type": "Song"
         },
         {
-            "id": 324,
+            "id": 325,
             "title": "Carolina in my Mind",
             "cleanedTitle": "carolina-in-my-mind",
             "artist": "James Taylor",
@@ -6955,7 +6976,7 @@
             "Type": "Song"
         },
         {
-            "id": 325,
+            "id": 326,
             "title": "Nights In White Satin",
             "cleanedTitle": "nights-in-white-satin",
             "artist": "The Moody Blues",
@@ -6970,7 +6991,7 @@
             "Type": "Song"
         },
         {
-            "id": 326,
+            "id": 327,
             "title": "Wondering Where The Lions Are",
             "cleanedTitle": "wondering-where-the-lions-are",
             "artist": "Bruce Cockburn",
@@ -6985,7 +7006,7 @@
             "Type": "Song"
         },
         {
-            "id": 327,
+            "id": 328,
             "title": "House Of The Rising Sun",
             "cleanedTitle": "house-of-the-rising-sun",
             "artist": "The Animals",
@@ -7000,7 +7021,7 @@
             "Type": "Song"
         },
         {
-            "id": 328,
+            "id": 329,
             "title": "In The Street (That 70's Show Theme) (Partial)",
             "cleanedTitle": "in-the-street-that-70s-show-theme-partial",
             "artist": "Big Star",
@@ -7015,7 +7036,7 @@
             "Type": "Song"
         },
         {
-            "id": 329,
+            "id": 330,
             "title": "Thirteen",
             "cleanedTitle": "thirteen",
             "artist": "Big Star",
@@ -7030,7 +7051,7 @@
             "Type": "Song"
         },
         {
-            "id": 330,
+            "id": 331,
             "title": "Babylon",
             "cleanedTitle": "babylon",
             "artist": "David Gray",
@@ -7045,7 +7066,7 @@
             "Type": "Song"
         },
         {
-            "id": 331,
+            "id": 332,
             "title": "She Talks To Angels",
             "cleanedTitle": "she-talks-to-angels",
             "artist": "The Black Crowes",
@@ -7060,7 +7081,7 @@
             "Type": "Song"
         },
         {
-            "id": 332,
+            "id": 333,
             "title": "Lookin' Out My Back Door",
             "cleanedTitle": "lookin-out-my-back-door",
             "artist": "Creedence Clearwater Revival",
@@ -7075,7 +7096,7 @@
             "Type": "Song"
         },
         {
-            "id": 333,
+            "id": 334,
             "title": "Starlight",
             "cleanedTitle": "starlight",
             "artist": "Muse",
@@ -7090,7 +7111,7 @@
             "Type": "Song"
         },
         {
-            "id": 334,
+            "id": 335,
             "title": "Little Green",
             "cleanedTitle": "little-green",
             "artist": "Joni Mitchell",
@@ -7105,7 +7126,7 @@
             "Type": "Song"
         },
         {
-            "id": 335,
+            "id": 336,
             "title": "Why Georgia",
             "cleanedTitle": "why-georgia",
             "artist": "John Mayer",
@@ -7120,7 +7141,7 @@
             "Type": "Song"
         },
         {
-            "id": 336,
+            "id": 337,
             "title": "Summertime",
             "cleanedTitle": "summertime",
             "artist": "George Gershwin",
@@ -7135,7 +7156,7 @@
             "Type": "Song"
         },
         {
-            "id": 337,
+            "id": 338,
             "title": "Black Mountain Side",
             "cleanedTitle": "black-mountain-side",
             "artist": "Led Zeppelin",
@@ -7150,7 +7171,7 @@
             "Type": "Song"
         },
         {
-            "id": 338,
+            "id": 339,
             "title": "River Man",
             "cleanedTitle": "river-man",
             "artist": "Nick Drake",
@@ -7165,7 +7186,7 @@
             "Type": "Song"
         },
         {
-            "id": 339,
+            "id": 340,
             "title": "Street Fighting Man",
             "cleanedTitle": "street-fighting-man",
             "artist": "The Rolling Stones",
@@ -7180,7 +7201,7 @@
             "Type": "Song"
         },
         {
-            "id": 340,
+            "id": 341,
             "title": "All These Things That I've Done",
             "cleanedTitle": "all-these-things-that-ive-done",
             "artist": "The Killers",
@@ -7195,7 +7216,7 @@
             "Type": "Song"
         },
         {
-            "id": 341,
+            "id": 342,
             "title": "Midnight Rider",
             "cleanedTitle": "midnight-rider",
             "artist": "Allman Brothers Band",
@@ -7210,7 +7231,7 @@
             "Type": "Song"
         },
         {
-            "id": 342,
+            "id": 343,
             "title": "The Simpson's Theme",
             "cleanedTitle": "the-simpsons-theme",
             "artist": "Danny Elfman",
@@ -7225,7 +7246,7 @@
             "Type": "Song"
         },
         {
-            "id": 343,
+            "id": 344,
             "title": "My Stupid Mouth",
             "cleanedTitle": "my-stupid-mouth",
             "artist": "John Mayer",
@@ -7240,7 +7261,7 @@
             "Type": "Song"
         },
         {
-            "id": 344,
+            "id": 345,
             "title": "Blue Crystal Fire",
             "cleanedTitle": "blue-crystal-fire",
             "artist": "Robbie Basho",
@@ -7255,7 +7276,7 @@
             "Type": "Song"
         },
         {
-            "id": 345,
+            "id": 346,
             "title": "Thunderstruck (Partial)",
             "cleanedTitle": "thunderstruck-partial",
             "artist": "AC/DC",
@@ -7270,7 +7291,7 @@
             "Type": "Song"
         },
         {
-            "id": 346,
+            "id": 347,
             "title": "Whole Lotta Love (Partial)",
             "cleanedTitle": "whole-lotta-love-partial",
             "artist": "Led Zeppelin",
@@ -7285,7 +7306,7 @@
             "Type": "Song"
         },
         {
-            "id": 347,
+            "id": 348,
             "title": "Texas Flood",
             "cleanedTitle": "texas-flood",
             "artist": "Stevie Ray Vaughan",
@@ -7300,7 +7321,7 @@
             "Type": "Song"
         },
         {
-            "id": 348,
+            "id": 349,
             "title": "Wish You Were Here",
             "cleanedTitle": "wish-you-were-here-incubus",
             "artist": "Incubus",
@@ -7315,7 +7336,7 @@
             "Type": "Song"
         },
         {
-            "id": 349,
+            "id": 350,
             "title": "Nothing Else Matters (Partial)",
             "cleanedTitle": "nothing-else-matters-partial",
             "artist": "Metallica",
@@ -7330,7 +7351,7 @@
             "Type": "Song"
         },
         {
-            "id": 350,
+            "id": 351,
             "title": "Good Love Is On the Way",
             "cleanedTitle": "good-love-is-on-the-way",
             "artist": "John Mayer",
@@ -7345,7 +7366,7 @@
             "Type": "Song"
         },
         {
-            "id": 351,
+            "id": 352,
             "title": "This Love (Electric riff)",
             "cleanedTitle": "this-love-electric-riff",
             "artist": "Pantera",
@@ -7360,7 +7381,7 @@
             "Type": "Song"
         },
         {
-            "id": 352,
+            "id": 353,
             "title": "Eruption (Electric riff)",
             "cleanedTitle": "eruption-electric-riff",
             "artist": "Van Halen",
@@ -7375,7 +7396,7 @@
             "Type": "Song"
         },
         {
-            "id": 353,
+            "id": 354,
             "title": "Scatterbrain (Electric riff)",
             "cleanedTitle": "scatterbrain-electric-riff",
             "artist": "Jeff Beck",
@@ -7390,7 +7411,7 @@
             "Type": "Song"
         },
         {
-            "id": 354,
+            "id": 355,
             "title": "Johnny B. Goode",
             "cleanedTitle": "johnny-b-goode",
             "artist": "Chuck Berry",
@@ -7405,7 +7426,7 @@
             "Type": "Song"
         },
         {
-            "id": 355,
+            "id": 356,
             "title": "A Passage To Bangkok (Electric riff)",
             "cleanedTitle": "a-passage-to-bangkok-electric-riff",
             "artist": "Rush",
@@ -7420,7 +7441,7 @@
             "Type": "Song"
         },
         {
-            "id": 356,
+            "id": 357,
             "title": "(Don't Fear) The Reaper (Electric riff)",
             "cleanedTitle": "dont-fear-the-reaper-electric-riff",
             "artist": "Blue Öyster Cult",
@@ -7435,7 +7456,7 @@
             "Type": "Song"
         },
         {
-            "id": 357,
+            "id": 358,
             "title": "Waitin' for the Bus (Electric riff)",
             "cleanedTitle": "waitin-for-the-bus-electric-riff",
             "artist": "ZZ Top",
@@ -7450,7 +7471,7 @@
             "Type": "Song"
         },
         {
-            "id": 358,
+            "id": 359,
             "title": "La Grange (Partial)",
             "cleanedTitle": "la-grange-partial",
             "artist": "ZZ Top",
@@ -7465,7 +7486,7 @@
             "Type": "Song"
         },
         {
-            "id": 359,
+            "id": 360,
             "title": "Phone Call from Leavenworth",
             "cleanedTitle": "phone-call-from-leavenworth",
             "artist": "Chris Whitley",
@@ -7480,7 +7501,7 @@
             "Type": "Song"
         },
         {
-            "id": 360,
+            "id": 361,
             "title": "Mr. Brightside",
             "cleanedTitle": "mr-brightside",
             "artist": "The Killers",
@@ -7495,7 +7516,7 @@
             "Type": "Song"
         },
         {
-            "id": 361,
+            "id": 362,
             "title": "Cinnamon Girl",
             "cleanedTitle": "cinnamon-girl",
             "artist": "Neil Young",
@@ -7510,7 +7531,7 @@
             "Type": "Song"
         },
         {
-            "id": 362,
+            "id": 363,
             "title": "Riptide",
             "cleanedTitle": "riptide",
             "artist": "Vance Joy",
@@ -7525,7 +7546,7 @@
             "Type": "Song"
         },
         {
-            "id": 363,
+            "id": 364,
             "title": "High and Dry",
             "cleanedTitle": "high-and-dry",
             "artist": "Radiohead",
@@ -7540,7 +7561,7 @@
             "Type": "Song"
         },
         {
-            "id": 364,
+            "id": 365,
             "title": "Jumpin' Jack Flash",
             "cleanedTitle": "jumpin-jack-flash",
             "artist": "The Rolling Stones",
@@ -7555,7 +7576,7 @@
             "Type": "Song"
         },
         {
-            "id": 365,
+            "id": 366,
             "title": "Glory Days",
             "cleanedTitle": "glory-days",
             "artist": "Bruce Springsteen",
@@ -7570,7 +7591,7 @@
             "Type": "Song"
         },
         {
-            "id": 366,
+            "id": 367,
             "title": "The Battle of Evermore (Partial)",
             "cleanedTitle": "the-battle-of-evermore-partial",
             "artist": "Led Zeppelin",
@@ -7585,7 +7606,7 @@
             "Type": "Song"
         },
         {
-            "id": 367,
+            "id": 368,
             "title": "(Sittin' On) the Dock of the Bay",
             "cleanedTitle": "sittin-on-the-dock-of-the-bay",
             "artist": "Otis Redding",
@@ -7600,7 +7621,7 @@
             "Type": "Song"
         },
         {
-            "id": 368,
+            "id": 369,
             "title": "Stop This Train",
             "cleanedTitle": "stop-this-train",
             "artist": "John Mayer",
@@ -7615,7 +7636,7 @@
             "Type": "Song"
         },
         {
-            "id": 369,
+            "id": 370,
             "title": "Jumper",
             "cleanedTitle": "jumper",
             "artist": "Third Eye Blind",
@@ -7630,7 +7651,7 @@
             "Type": "Song"
         },
         {
-            "id": 370,
+            "id": 371,
             "title": "Cello Song",
             "cleanedTitle": "cello-song",
             "artist": "Nick Drake",
@@ -7645,7 +7666,7 @@
             "Type": "Song"
         },
         {
-            "id": 371,
+            "id": 372,
             "title": "You Are the Best Thing",
             "cleanedTitle": "you-are-the-best-thing",
             "artist": "Ray LaMontagne",
@@ -7660,7 +7681,7 @@
             "Type": "Song"
         },
         {
-            "id": 372,
+            "id": 373,
             "title": "Instrumental/Improv",
             "cleanedTitle": "instrumental-improv",
             "artist": "Corey Heuvel",
@@ -7675,7 +7696,7 @@
             "Type": "Song"
         },
         {
-            "id": 373,
+            "id": 374,
             "title": "Lie To Me",
             "cleanedTitle": "lie-to-me",
             "artist": "Jonny Lang",
@@ -7690,7 +7711,7 @@
             "Type": "Song"
         },
         {
-            "id": 374,
+            "id": 375,
             "title": "Woodstock",
             "cleanedTitle": "woodstock",
             "artist": "Joni Mitchell",
@@ -7705,7 +7726,7 @@
             "Type": "Song"
         },
         {
-            "id": 375,
+            "id": 376,
             "title": "Everlong",
             "cleanedTitle": "everlong",
             "artist": "Foo Fighters",
@@ -7720,7 +7741,7 @@
             "Type": "Song"
         },
         {
-            "id": 376,
+            "id": 377,
             "title": "Take It Easy",
             "cleanedTitle": "take-it-easy",
             "artist": "The Eagles",
@@ -7735,7 +7756,7 @@
             "Type": "Song"
         },
         {
-            "id": 377,
+            "id": 378,
             "title": "Man Like You",
             "cleanedTitle": "man-like-you",
             "artist": "Patrick Watson",
@@ -7750,7 +7771,7 @@
             "Type": "Song"
         },
         {
-            "id": 378,
+            "id": 379,
             "title": "Message In A bottle",
             "cleanedTitle": "message-in-a-bottle",
             "artist": "The Police",
@@ -7765,7 +7786,7 @@
             "Type": "Song"
         },
         {
-            "id": 379,
+            "id": 380,
             "title": "Love Her Madly",
             "cleanedTitle": "love-her-madly",
             "artist": "The Doors",
@@ -7780,7 +7801,7 @@
             "Type": "Song"
         },
         {
-            "id": 380,
+            "id": 381,
             "title": "Hazey Jane I",
             "cleanedTitle": "hazey-jane-i",
             "artist": "Nick Drake",
@@ -7795,7 +7816,7 @@
             "Type": "Song"
         },
         {
-            "id": 381,
+            "id": 382,
             "title": "Tell Me Why",
             "cleanedTitle": "tell-me-why",
             "artist": "Neil Young",
@@ -7810,7 +7831,7 @@
             "Type": "Song"
         },
         {
-            "id": 382,
+            "id": 383,
             "title": "Morning Theft",
             "cleanedTitle": "morning-theft",
             "artist": "Jeff Buckley",
@@ -7825,7 +7846,7 @@
             "Type": "Song"
         },
         {
-            "id": 383,
+            "id": 384,
             "title": "Sleepwalk",
             "cleanedTitle": "sleepwalk",
             "artist": "Santo & Johnny",
@@ -7840,7 +7861,7 @@
             "Type": "Song"
         },
         {
-            "id": 384,
+            "id": 385,
             "title": "3AM",
             "cleanedTitle": "3am",
             "artist": "Matchbox Twenty",
@@ -7855,7 +7876,7 @@
             "Type": "Song"
         },
         {
-            "id": 385,
+            "id": 386,
             "title": "It Ain't Me Babe",
             "cleanedTitle": "it-aint-me-babe",
             "artist": "Bob Dylan",
@@ -7870,7 +7891,7 @@
             "Type": "Song"
         },
         {
-            "id": 386,
+            "id": 387,
             "title": "Bring It on Home",
             "cleanedTitle": "bring-it-on-home",
             "artist": "Led Zeppelin",
@@ -7885,7 +7906,7 @@
             "Type": "Song"
         },
         {
-            "id": 387,
+            "id": 388,
             "title": "Elderly Woman Behind the Counter in a Small Town",
             "cleanedTitle": "elderly-woman-behind-the-counter-in-a-small-town",
             "artist": "Pearl Jam",
@@ -7900,7 +7921,7 @@
             "Type": "Song"
         },
         {
-            "id": 388,
+            "id": 389,
             "title": "Queen of California",
             "cleanedTitle": "queen-of-california",
             "artist": "John Mayer",
@@ -7915,7 +7936,7 @@
             "Type": "Song"
         },
         {
-            "id": 389,
+            "id": 390,
             "title": "You're Still the One",
             "cleanedTitle": "youre-still-the-one",
             "artist": "Shania Twain",
@@ -7930,7 +7951,7 @@
             "Type": "Song"
         },
         {
-            "id": 390,
+            "id": 391,
             "title": "I Won't Back Down",
             "cleanedTitle": "i-wont-back-down",
             "artist": "Tom Petty",
@@ -7945,7 +7966,7 @@
             "Type": "Song"
         },
         {
-            "id": 391,
+            "id": 392,
             "title": "Here Comes The Sun",
             "cleanedTitle": "here-comes-the-sun",
             "artist": "The Beatles",
@@ -7960,7 +7981,7 @@
             "Type": "Song"
         },
         {
-            "id": 392,
+            "id": 393,
             "title": "I Wish",
             "cleanedTitle": "i-wish",
             "artist": "Stevie Wonder",
@@ -7975,7 +7996,7 @@
             "Type": "Song"
         },
         {
-            "id": 393,
+            "id": 394,
             "title": "Walking On The Moon",
             "cleanedTitle": "walking-on-the-moon",
             "artist": "The Police",
@@ -7990,7 +8011,7 @@
             "Type": "Song"
         },
         {
-            "id": 394,
+            "id": 395,
             "title": "Vincent",
             "cleanedTitle": "vincent",
             "artist": "Don McLean",
@@ -8005,7 +8026,7 @@
             "Type": "Song"
         },
         {
-            "id": 395,
+            "id": 396,
             "title": "Learn to Fly",
             "cleanedTitle": "learn-to-fly",
             "artist": "Foo Fighters",
@@ -8020,7 +8041,7 @@
             "Type": "Song"
         },
         {
-            "id": 396,
+            "id": 397,
             "title": "Both Sides Now",
             "cleanedTitle": "both-sides-now",
             "artist": "Joni Mitchell",
@@ -8035,7 +8056,7 @@
             "Type": "Song"
         },
         {
-            "id": 397,
+            "id": 398,
             "title": "Love Struck Baby",
             "cleanedTitle": "love-struck-baby",
             "artist": "Stevie Ray Vaughan",
@@ -8050,7 +8071,7 @@
             "Type": "Song"
         },
         {
-            "id": 398,
+            "id": 399,
             "title": "Fly",
             "cleanedTitle": "fly",
             "artist": "Nick Drake",
@@ -8065,7 +8086,7 @@
             "Type": "Song"
         },
         {
-            "id": 399,
+            "id": 400,
             "title": "Champagne Supernova",
             "cleanedTitle": "champagne-supernova",
             "artist": "Oasis",
@@ -8080,7 +8101,7 @@
             "Type": "Song"
         },
         {
-            "id": 400,
+            "id": 401,
             "title": "Heart-Shaped Box",
             "cleanedTitle": "heart-shaped-box",
             "artist": "Nirvana",
@@ -8095,7 +8116,7 @@
             "Type": "Song"
         },
         {
-            "id": 401,
+            "id": 402,
             "title": "Angeles",
             "cleanedTitle": "angeles",
             "artist": "Elliott Smith",
@@ -8110,7 +8131,7 @@
             "Type": "Song"
         },
         {
-            "id": 402,
+            "id": 403,
             "title": "My My, Hey Hey (Out of the Blue)",
             "cleanedTitle": "my-my-hey-hey-out-of-the-blue",
             "artist": "Neil Young",
@@ -8125,7 +8146,7 @@
             "Type": "Song"
         },
         {
-            "id": 403,
+            "id": 404,
             "title": "Hit the Road Jack",
             "cleanedTitle": "hit-the-road-jack",
             "artist": "Ray Charles",
@@ -8140,7 +8161,7 @@
             "Type": "Song"
         },
         {
-            "id": 404,
+            "id": 405,
             "title": "Bold as Love",
             "cleanedTitle": "bold-as-love",
             "artist": "Jimi Hendrix",
@@ -8155,7 +8176,7 @@
             "Type": "Song"
         },
         {
-            "id": 405,
+            "id": 406,
             "title": "People's Parties",
             "cleanedTitle": "peoples-parties",
             "artist": "Joni Mitchell",
@@ -8170,7 +8191,7 @@
             "Type": "Song"
         },
         {
-            "id": 406,
+            "id": 407,
             "title": "People Are Strange",
             "cleanedTitle": "people-are-strange",
             "artist": "The Doors",
@@ -8185,7 +8206,7 @@
             "Type": "Song"
         },
         {
-            "id": 407,
+            "id": 408,
             "title": "Mississippi Queen (Partial)",
             "cleanedTitle": "mississippi-queen-partial",
             "artist": "Mountain",
@@ -8200,7 +8221,7 @@
             "Type": "Song"
         },
         {
-            "id": 408,
+            "id": 409,
             "title": "One Of These Things First",
             "cleanedTitle": "one-of-these-things-first",
             "artist": "Nick Drake",
@@ -8215,7 +8236,7 @@
             "Type": "Song"
         },
         {
-            "id": 409,
+            "id": 410,
             "title": "Panama (Partial)",
             "cleanedTitle": "panama-partial",
             "artist": "Van Halen",
@@ -8230,7 +8251,7 @@
             "Type": "Song"
         },
         {
-            "id": 410,
+            "id": 411,
             "title": "Ain't Talkin' 'Bout Love (Partial)",
             "cleanedTitle": "aint-talkin-bout-love-partial",
             "artist": "Van Halen",
@@ -8245,7 +8266,7 @@
             "Type": "Song"
         },
         {
-            "id": 411,
+            "id": 412,
             "title": "Hot for Teacher (Partial)",
             "cleanedTitle": "hot-for-teacher-partial",
             "artist": "Van Halen",
@@ -8260,7 +8281,7 @@
             "Type": "Song"
         },
         {
-            "id": 412,
+            "id": 413,
             "title": "Dance the Night Away (Partial)",
             "cleanedTitle": "dance-the-night-away-partial",
             "artist": "Van Halen",
@@ -8275,7 +8296,7 @@
             "Type": "Song"
         },
         {
-            "id": 413,
+            "id": 414,
             "title": "Cherry Wine",
             "cleanedTitle": "cherry-wine",
             "artist": "Hozier",
@@ -8290,7 +8311,7 @@
             "Type": "Song"
         },
         {
-            "id": 414,
+            "id": 415,
             "title": "Going Up The Country",
             "cleanedTitle": "going-up-the-country",
             "artist": "Canned Heat",
@@ -8305,7 +8326,7 @@
             "Type": "Song"
         },
         {
-            "id": 415,
+            "id": 416,
             "title": "Finish What Ya Started",
             "cleanedTitle": "finish-what-ya-started",
             "artist": "Van Halen",
@@ -8320,7 +8341,7 @@
             "Type": "Song"
         },
         {
-            "id": 416,
+            "id": 417,
             "title": "Ice Cream Man",
             "cleanedTitle": "ice-cream-man",
             "artist": "Van Halen",
@@ -8335,7 +8356,7 @@
             "Type": "Song"
         },
         {
-            "id": 417,
+            "id": 418,
             "title": "Fugitive",
             "cleanedTitle": "fugitive",
             "artist": "David Gray",
@@ -8350,7 +8371,7 @@
             "Type": "Song"
         },
         {
-            "id": 418,
+            "id": 419,
             "title": "Black Star",
             "cleanedTitle": "black-star",
             "artist": "Radiohead",
@@ -8365,7 +8386,7 @@
             "Type": "Song"
         },
         {
-            "id": 419,
+            "id": 420,
             "title": "Blues Lesson",
             "cleanedTitle": "blues-lesson",
             "artist": "Corey Heuvel",
@@ -8380,7 +8401,7 @@
             "Type": "Song"
         },
         {
-            "id": 420,
+            "id": 421,
             "title": "Eyes Wider Than Before",
             "cleanedTitle": "eyes-wider-than-before",
             "artist": "Scott Matthews",
@@ -8395,7 +8416,7 @@
             "Type": "Song"
         },
         {
-            "id": 421,
+            "id": 422,
             "title": "Every Little Thing She Does Is Magic",
             "cleanedTitle": "every-little-thing-she-does-is-magic",
             "artist": "The Police",
@@ -8410,7 +8431,7 @@
             "Type": "Song"
         },
         {
-            "id": 422,
+            "id": 423,
             "title": "Hammer To Fall (Electric riff)",
             "cleanedTitle": "hammer-to-fall-electric-riff",
             "artist": "Queen",
@@ -8425,7 +8446,7 @@
             "Type": "Song"
         },
         {
-            "id": 423,
+            "id": 424,
             "title": "Tie Your Mother Down (Electric riff)",
             "cleanedTitle": "tie-your-mother-down-electric-riff",
             "artist": "Queen",
@@ -8440,7 +8461,7 @@
             "Type": "Song"
         },
         {
-            "id": 424,
+            "id": 425,
             "title": "Lithium",
             "cleanedTitle": "lithium",
             "artist": "Nirvana",
@@ -8455,7 +8476,7 @@
             "Type": "Song"
         },
         {
-            "id": 425,
+            "id": 426,
             "title": "Shine On You Crazy Diamond (Electric riff)",
             "cleanedTitle": "shine-on-you-crazy-diamond-electric-riff",
             "artist": "Pink Floyd",
@@ -8470,7 +8491,7 @@
             "Type": "Song"
         },
         {
-            "id": 426,
+            "id": 427,
             "title": "Back In Black (Electric riff)",
             "cleanedTitle": "back-in-black-electric-riff",
             "artist": "AC/DC",
@@ -8485,7 +8506,7 @@
             "Type": "Song"
         },
         {
-            "id": 427,
+            "id": 428,
             "title": "Welcome To The Jungle (Electric riff)",
             "cleanedTitle": "welcome-to-the-jungle-electric-riff",
             "artist": "Guns N' Roses",
@@ -8500,7 +8521,7 @@
             "Type": "Song"
         },
         {
-            "id": 428,
+            "id": 429,
             "title": "All Right Now (Electric riff)",
             "cleanedTitle": "all-right-now-electric-riff",
             "artist": "Free",
@@ -8515,7 +8536,7 @@
             "Type": "Song"
         },
         {
-            "id": 429,
+            "id": 430,
             "title": "Lenny",
             "cleanedTitle": "lenny",
             "artist": "Stevie Ray Vaughan",
@@ -8530,7 +8551,7 @@
             "Type": "Song"
         },
         {
-            "id": 430,
+            "id": 431,
             "title": "Seven Nation Army",
             "cleanedTitle": "seven-nation-army",
             "artist": "The White Stripes",
@@ -8545,7 +8566,7 @@
             "Type": "Song"
         },
         {
-            "id": 431,
+            "id": 432,
             "title": "Howlin' for You (Electric riff)",
             "cleanedTitle": "howlin-for-you-electric-riff",
             "artist": "The Black Keys",
@@ -8560,7 +8581,7 @@
             "Type": "Song"
         },
         {
-            "id": 432,
+            "id": 433,
             "title": "Paranoid (Partial)",
             "cleanedTitle": "paranoid-partial",
             "artist": "Black Sabbath",
@@ -8575,7 +8596,7 @@
             "Type": "Song"
         },
         {
-            "id": 433,
+            "id": 434,
             "title": "War Pigs (Partial)",
             "cleanedTitle": "war-pigs-partial",
             "artist": "Black Sabbath",
@@ -8590,7 +8611,7 @@
             "Type": "Song"
         },
         {
-            "id": 434,
+            "id": 435,
             "title": "Miserlou (Partial)",
             "cleanedTitle": "miserlou-partial",
             "artist": "Dick Dale",
@@ -8605,7 +8626,7 @@
             "Type": "Song"
         },
         {
-            "id": 435,
+            "id": 436,
             "title": "Personal Jesus (Electric riff)",
             "cleanedTitle": "personal-jesus-electric-riff",
             "artist": "Depeche Mode",
@@ -8620,7 +8641,7 @@
             "Type": "Song"
         },
         {
-            "id": 436,
+            "id": 437,
             "title": "Joker And The Thief (Electric riff)",
             "cleanedTitle": "joker-and-the-thief-electric-riff",
             "artist": "Wolfmother",
@@ -8635,7 +8656,7 @@
             "Type": "Song"
         },
         {
-            "id": 437,
+            "id": 438,
             "title": "Tush",
             "cleanedTitle": "tush",
             "artist": "ZZ Top",
@@ -8650,7 +8671,7 @@
             "Type": "Song"
         },
         {
-            "id": 438,
+            "id": 439,
             "title": "Won't Get Fooled Again (Partial)",
             "cleanedTitle": "wont-get-fooled-again-partial",
             "artist": "The Who",
@@ -8665,7 +8686,7 @@
             "Type": "Song"
         },
         {
-            "id": 439,
+            "id": 440,
             "title": "Enter Sandman (Electric riff)",
             "cleanedTitle": "enter-sandman-electric-riff",
             "artist": "Metallica",
@@ -8680,7 +8701,7 @@
             "Type": "Song"
         },
         {
-            "id": 440,
+            "id": 441,
             "title": "Fuzz Universe (Electric riff)",
             "cleanedTitle": "fuzz-universe-electric-riff",
             "artist": "Paul Gilbert",
@@ -8695,7 +8716,7 @@
             "Type": "Song"
         },
         {
-            "id": 441,
+            "id": 442,
             "title": "Magic Carpet Ride",
             "cleanedTitle": "magic-carpet-ride",
             "artist": "Steppenwolf",
@@ -8710,7 +8731,7 @@
             "Type": "Song"
         },
         {
-            "id": 442,
+            "id": 443,
             "title": "Dani California",
             "cleanedTitle": "dani-california",
             "artist": "Red Hot Chili Peppers",
@@ -8725,7 +8746,7 @@
             "Type": "Song"
         },
         {
-            "id": 443,
+            "id": 444,
             "title": "Hole Hearted",
             "cleanedTitle": "hole-hearted",
             "artist": "Extreme",
@@ -8740,7 +8761,7 @@
             "Type": "Song"
         },
         {
-            "id": 444,
+            "id": 445,
             "title": "Like a Stone",
             "cleanedTitle": "like-a-stone",
             "artist": "Audioslave",
@@ -8755,7 +8776,7 @@
             "Type": "Song"
         },
         {
-            "id": 445,
+            "id": 446,
             "title": "Dear Prudence",
             "cleanedTitle": "dear-prudence",
             "artist": "The Beatles",
@@ -8770,7 +8791,7 @@
             "Type": "Song"
         },
         {
-            "id": 446,
+            "id": 447,
             "title": "Quick Metal Style Riff",
             "cleanedTitle": "quick-metal-style-riff",
             "artist": "Corey Heuvel",
@@ -8785,7 +8806,7 @@
             "Type": "Song"
         },
         {
-            "id": 447,
+            "id": 448,
             "title": "Nutshell",
             "cleanedTitle": "nutshell",
             "artist": "Alice In Chains",
@@ -8800,7 +8821,7 @@
             "Type": "Song"
         },
         {
-            "id": 448,
+            "id": 449,
             "title": "Just Like Heaven",
             "cleanedTitle": "just-like-heaven",
             "artist": "The Cure",
@@ -8815,7 +8836,7 @@
             "Type": "Song"
         },
         {
-            "id": 449,
+            "id": 450,
             "title": "Every Teardrop is a Waterfall",
             "cleanedTitle": "every-teardrop-is-a-waterfall",
             "artist": "Coldplay",
@@ -8830,7 +8851,7 @@
             "Type": "Song"
         },
         {
-            "id": 450,
+            "id": 451,
             "title": "Mr Sandman",
             "cleanedTitle": "mr-sandman",
             "artist": "Chet Atkins",
@@ -8845,7 +8866,7 @@
             "Type": "Song"
         },
         {
-            "id": 451,
+            "id": 452,
             "title": "Patience",
             "cleanedTitle": "patience",
             "artist": "Chris Cornell",
@@ -8860,7 +8881,7 @@
             "Type": "Song"
         },
         {
-            "id": 452,
+            "id": 453,
             "title": "Riveria Paradise (Partial)",
             "cleanedTitle": "riveria-paradise-partial",
             "artist": "Stevie Ray Vaughan",
@@ -8875,7 +8896,7 @@
             "Type": "Song"
         },
         {
-            "id": 453,
+            "id": 454,
             "title": "Blossom",
             "cleanedTitle": "blossom",
             "artist": "James Taylor",
@@ -8890,7 +8911,7 @@
             "Type": "Song"
         },
         {
-            "id": 454,
+            "id": 455,
             "title": "Mr Crowley (Partial)",
             "cleanedTitle": "mr-crowley-partial",
             "artist": "Ozzy Osbourne",
@@ -8905,7 +8926,7 @@
             "Type": "Song"
         },
         {
-            "id": 455,
+            "id": 456,
             "title": "Pistol Slapper Blues",
             "cleanedTitle": "pistol-slapper-blues",
             "artist": "Rory Gallagher",
@@ -8920,7 +8941,7 @@
             "Type": "Song"
         },
         {
-            "id": 456,
+            "id": 457,
             "title": "Prelude in E Major (BWV 1006a)",
             "cleanedTitle": "prelude-in-e-major-bwv-1006a",
             "artist": "Johann Sebastian Bach",
@@ -8935,7 +8956,7 @@
             "Type": "Song"
         },
         {
-            "id": 457,
+            "id": 458,
             "title": "Soldier's Eyes",
             "cleanedTitle": "soldiers-eyes",
             "artist": "Jack Savoretti",
@@ -8950,7 +8971,7 @@
             "Type": "Song"
         },
         {
-            "id": 458,
+            "id": 459,
             "title": "Into the Mystic",
             "cleanedTitle": "into-the-mystic",
             "artist": "Van Morrison",
@@ -8965,7 +8986,7 @@
             "Type": "Song"
         },
         {
-            "id": 459,
+            "id": 460,
             "title": "Sugar Man",
             "cleanedTitle": "sugar-man",
             "artist": "Rodriguez",
@@ -8980,7 +9001,7 @@
             "Type": "Song"
         },
         {
-            "id": 460,
+            "id": 461,
             "title": "Blues licks (Some SRV/Hendrix)",
             "cleanedTitle": "blues-licks-some-srv-hendrix",
             "artist": "Corey Heuvel",
@@ -8995,7 +9016,7 @@
             "Type": "Song"
         },
         {
-            "id": 461,
+            "id": 462,
             "title": "Blues Slide Improv",
             "cleanedTitle": "blues-slide-improv",
             "artist": "Corey Heuvel",
@@ -9010,7 +9031,7 @@
             "Type": "Song"
         },
         {
-            "id": 462,
+            "id": 463,
             "title": "Treetop Flyer",
             "cleanedTitle": "treetop-flyer",
             "artist": "Stephen Stills",
@@ -9025,7 +9046,7 @@
             "Type": "Song"
         },
         {
-            "id": 463,
+            "id": 464,
             "title": "Deep River Blues",
             "cleanedTitle": "deep-river-blues",
             "artist": "Doc Watson",
@@ -9040,7 +9061,7 @@
             "Type": "Song"
         },
         {
-            "id": 464,
+            "id": 465,
             "title": "Bad Penny",
             "cleanedTitle": "bad-penny",
             "artist": "Rory Gallagher",
@@ -9055,7 +9076,7 @@
             "Type": "Song"
         },
         {
-            "id": 465,
+            "id": 466,
             "title": "Enough To Leave",
             "cleanedTitle": "enough-to-leave",
             "artist": "Billy Strings",
@@ -9070,7 +9091,7 @@
             "Type": "Song"
         },
         {
-            "id": 466,
+            "id": 467,
             "title": "Let's Go Crazy (Partial)",
             "cleanedTitle": "lets-go-crazy-partial",
             "artist": "Prince",
@@ -9085,7 +9106,7 @@
             "Type": "Song"
         },
         {
-            "id": 467,
+            "id": 468,
             "title": "Wild World",
             "cleanedTitle": "wild-world",
             "artist": "Yusuf / Cat Stevens",
@@ -9100,7 +9121,7 @@
             "Type": "Song"
         },
         {
-            "id": 468,
+            "id": 469,
             "title": "A Horse with No Name (Partial)",
             "cleanedTitle": "a-horse-with-no-name-partial",
             "artist": "America, George Martin",
@@ -9115,7 +9136,7 @@
             "Type": "Song"
         },
         {
-            "id": 469,
+            "id": 470,
             "title": "Riverboat Fantasy",
             "cleanedTitle": "riverboat-fantasy",
             "artist": "David Wilcox",
@@ -9130,7 +9151,7 @@
             "Type": "Song"
         },
         {
-            "id": 470,
+            "id": 471,
             "title": "Intro \"Jhana\"",
             "cleanedTitle": "intro-jhana",
             "artist": "Corey Heuvel",
@@ -9145,7 +9166,7 @@
             "Type": "Song"
         },
         {
-            "id": 471,
+            "id": 472,
             "title": "Deuces are Wild",
             "cleanedTitle": "deuces-are-wild",
             "artist": "Aerosmith",
@@ -9160,7 +9181,7 @@
             "Type": "Song"
         },
         {
-            "id": 472,
+            "id": 473,
             "title": "Clouds Race Across the Sky (Partial)",
             "cleanedTitle": "clouds-race-across-the-sky-partial",
             "artist": "Joe Satriani",
@@ -9175,7 +9196,7 @@
             "Type": "Song"
         },
         {
-            "id": 473,
+            "id": 474,
             "title": "Drops of Jupiter (Tell Me)",
             "cleanedTitle": "drops-of-jupiter-tell-me",
             "artist": "Train",
@@ -9190,7 +9211,7 @@
             "Type": "Song"
         },
         {
-            "id": 474,
+            "id": 475,
             "title": "Outro \"Jhana\"",
             "cleanedTitle": "outro-jhana",
             "artist": "Corey Heuvel",
@@ -9205,7 +9226,7 @@
             "Type": "Song"
         },
         {
-            "id": 475,
+            "id": 476,
             "title": "Study in B-Minor",
             "cleanedTitle": "study-in-b-minor",
             "artist": "Fernando Sor",
@@ -9220,7 +9241,7 @@
             "Type": "Song"
         },
         {
-            "id": 476,
+            "id": 477,
             "title": "Lágrima",
             "cleanedTitle": "lagrima",
             "artist": "Francisco Tárrega",
@@ -9235,7 +9256,7 @@
             "Type": "Song"
         },
         {
-            "id": 477,
+            "id": 478,
             "title": "Eugene's Trick Bag (Electric riff)",
             "cleanedTitle": "eugenes-trick-bag-electric-riff",
             "artist": "Steve Vai",
@@ -9250,7 +9271,7 @@
             "Type": "Song"
         },
         {
-            "id": 478,
+            "id": 479,
             "title": "Purple Haze",
             "cleanedTitle": "purple-haze",
             "artist": "Jimi Hendrix",
@@ -9265,7 +9286,7 @@
             "Type": "Song"
         },
         {
-            "id": 479,
+            "id": 480,
             "title": "Oh Well (Electric riff)",
             "cleanedTitle": "oh-well-electric-riff",
             "artist": "Fleetwood Mac",
@@ -9280,7 +9301,7 @@
             "Type": "Song"
         },
         {
-            "id": 480,
+            "id": 481,
             "title": "Scuttle Buttin' (Partial)",
             "cleanedTitle": "scuttle-buttin-partial",
             "artist": "Stevie Ray Vaughan",
@@ -9295,7 +9316,7 @@
             "Type": "Song"
         },
         {
-            "id": 481,
+            "id": 482,
             "title": "Sweet Child O'Mine (Partial)",
             "cleanedTitle": "sweet-child-omine-partial",
             "artist": "Guns N' Roses",
@@ -9310,7 +9331,7 @@
             "Type": "Song"
         },
         {
-            "id": 482,
+            "id": 483,
             "title": "Cowboys from Hell (Partial)",
             "cleanedTitle": "cowboys-from-hell-partial",
             "artist": "Pantera",
@@ -9325,7 +9346,7 @@
             "Type": "Song"
         },
         {
-            "id": 483,
+            "id": 484,
             "title": "Bad To The Bone (Electric riff/Blues Slide)",
             "cleanedTitle": "bad-to-the-bone-electric-riff-blues-slide",
             "artist": "George Thorogood & The Destroyers",
@@ -9340,7 +9361,7 @@
             "Type": "Song"
         },
         {
-            "id": 484,
+            "id": 485,
             "title": "Suize Q (Electric riff)",
             "cleanedTitle": "suize-q-electric-riff",
             "artist": "Creedence Clearwater Revival",
@@ -9355,7 +9376,7 @@
             "Type": "Song"
         },
         {
-            "id": 485,
+            "id": 486,
             "title": "Always with Me, Always with You (Electric riff)",
             "cleanedTitle": "always-with-me-always-with-you-electric-riff",
             "artist": "Joe Satriani",
@@ -9370,7 +9391,7 @@
             "Type": "Song"
         },
         {
-            "id": 486,
+            "id": 487,
             "title": "Heartbreaker (Electric riff)",
             "cleanedTitle": "heartbreaker-electric-riff",
             "artist": "Led Zeppelin",
@@ -9385,7 +9406,7 @@
             "Type": "Song"
         },
         {
-            "id": 487,
+            "id": 488,
             "title": "Rocky Mountain Way (Partial)",
             "cleanedTitle": "rocky-mountain-way-partial",
             "artist": "Joe Walsh",
@@ -9400,7 +9421,7 @@
             "Type": "Song"
         },
         {
-            "id": 488,
+            "id": 489,
             "title": "More Than a Feeling (Partial)",
             "cleanedTitle": "more-than-a-feeling-partial",
             "artist": "Boston",
@@ -9415,7 +9436,7 @@
             "Type": "Song"
         },
         {
-            "id": 489,
+            "id": 490,
             "title": "Black Dog (Partial)",
             "cleanedTitle": "black-dog-partial",
             "artist": "Led Zeppelin",
@@ -9430,7 +9451,7 @@
             "Type": "Song"
         },
         {
-            "id": 490,
+            "id": 491,
             "title": "One Step Closer (Electric riff)",
             "cleanedTitle": "one-step-closer-electric-riff",
             "artist": "Linkin Park",
@@ -9445,7 +9466,7 @@
             "Type": "Song"
         },
         {
-            "id": 491,
+            "id": 492,
             "title": "Rocket Man",
             "cleanedTitle": "rocket-man",
             "artist": "Elton John",
@@ -9460,7 +9481,7 @@
             "Type": "Song"
         },
         {
-            "id": 492,
+            "id": 493,
             "title": "Intro \"The New\"",
             "cleanedTitle": "intro-the-new",
             "artist": "Corey Heuvel",
@@ -9475,7 +9496,7 @@
             "Type": "Song"
         },
         {
-            "id": 493,
+            "id": 494,
             "title": "Jet Airliner",
             "cleanedTitle": "jet-airliner",
             "artist": "Steve Miller Band",
@@ -9490,7 +9511,7 @@
             "Type": "Song"
         },
         {
-            "id": 494,
+            "id": 495,
             "title": "Otherside",
             "cleanedTitle": "otherside",
             "artist": "Red Hot Chili Peppers",
@@ -9505,7 +9526,7 @@
             "Type": "Song"
         },
         {
-            "id": 495,
+            "id": 496,
             "title": "Parchman Farm Blues",
             "cleanedTitle": "parchman-farm-blues",
             "artist": "Jeff Buckley",
@@ -9520,7 +9541,7 @@
             "Type": "Song"
         },
         {
-            "id": 496,
+            "id": 497,
             "title": "The Cave",
             "cleanedTitle": "the-cave",
             "artist": "Mumford & Sons",
@@ -9535,7 +9556,7 @@
             "Type": "Song"
         },
         {
-            "id": 497,
+            "id": 498,
             "title": "Til I Am Myself Again",
             "cleanedTitle": "til-i-am-myself-again",
             "artist": "Blue Rodeo",
@@ -9550,7 +9571,7 @@
             "Type": "Song"
         },
         {
-            "id": 498,
+            "id": 499,
             "title": "Street Spirit (Fade Out)",
             "cleanedTitle": "street-spirit-fade-out",
             "artist": "Radiohead",
@@ -9565,7 +9586,7 @@
             "Type": "Song"
         },
         {
-            "id": 499,
+            "id": 500,
             "title": "Volcano",
             "cleanedTitle": "volcano",
             "artist": "Damien Rice",
@@ -9580,7 +9601,7 @@
             "Type": "Song"
         },
         {
-            "id": 500,
+            "id": 501,
             "title": "Sweet Emotion (Partial)",
             "cleanedTitle": "sweet-emotion-partial",
             "artist": "Aerosmith",
@@ -9595,7 +9616,7 @@
             "Type": "Song"
         },
         {
-            "id": 501,
+            "id": 502,
             "title": "Trouble",
             "cleanedTitle": "trouble",
             "artist": "Ray LaMontagne",
@@ -9610,7 +9631,7 @@
             "Type": "Song"
         },
         {
-            "id": 502,
+            "id": 503,
             "title": "Scar Tissue",
             "cleanedTitle": "scar-tissue",
             "artist": "Red Hot Chili Peppers",
@@ -9625,7 +9646,7 @@
             "Type": "Song"
         },
         {
-            "id": 503,
+            "id": 504,
             "title": "Happy Xmas (War Is Over)",
             "cleanedTitle": "happy-xmas-war-is-over",
             "artist": "John Lennon, Yoko Ono",
@@ -9640,7 +9661,7 @@
             "Type": "Song"
         },
         {
-            "id": 504,
+            "id": 505,
             "title": "Carol of the Bells (Partial)",
             "cleanedTitle": "carol-of-the-bells-partial",
             "artist": "Trans Siberian Orchestra",
@@ -9655,7 +9676,7 @@
             "Type": "Song"
         },
         {
-            "id": 505,
+            "id": 506,
             "title": "Stranglehold (Electric riff)",
             "cleanedTitle": "stranglehold-electric-riff",
             "artist": "Ted Nugent",
@@ -9670,7 +9691,7 @@
             "Type": "Song"
         },
         {
-            "id": 506,
+            "id": 507,
             "title": "The Pot (Electric riff)",
             "cleanedTitle": "the-pot-electric-riff",
             "artist": "Tool",
@@ -9685,7 +9706,7 @@
             "Type": "Song"
         },
         {
-            "id": 507,
+            "id": 508,
             "title": "Song 2 (Partial)",
             "cleanedTitle": "song-2-partial",
             "artist": "Blur",
@@ -9700,7 +9721,7 @@
             "Type": "Song"
         },
         {
-            "id": 508,
+            "id": 509,
             "title": "Bohemian Rhapsody (Electric riff)",
             "cleanedTitle": "bohemian-rhapsody-electric-riff",
             "artist": "Queen",
@@ -9715,7 +9736,7 @@
             "Type": "Song"
         },
         {
-            "id": 509,
+            "id": 510,
             "title": "Star Spangled Banner/American National Anthem (Jimi Hendrix Style)",
             "cleanedTitle": "star-spangled-banner-american-national-anthem-jimi-hendrix-style",
             "artist": "Francis Scott Key",
@@ -9730,7 +9751,7 @@
             "Type": "Song"
         },
         {
-            "id": 510,
+            "id": 511,
             "title": "Killing In The Name (Electric riff)",
             "cleanedTitle": "killing-in-the-name-electric-riff",
             "artist": "Rage Against The Machine",
@@ -9745,7 +9766,7 @@
             "Type": "Song"
         },
         {
-            "id": 511,
+            "id": 512,
             "title": "Carry on Wayward Son (Electric riff)",
             "cleanedTitle": "carry-on-wayward-son-electric-riff",
             "artist": "Kansas",
@@ -9760,7 +9781,7 @@
             "Type": "Song"
         },
         {
-            "id": 512,
+            "id": 513,
             "title": "Self Esteem (Electric riff)",
             "cleanedTitle": "self-esteem-electric-riff",
             "artist": "The Offspring",
@@ -9775,7 +9796,7 @@
             "Type": "Song"
         },
         {
-            "id": 513,
+            "id": 514,
             "title": "My Sharona (Electric riff)",
             "cleanedTitle": "my-sharona-electric-riff",
             "artist": "The Knack",
@@ -9790,7 +9811,7 @@
             "Type": "Song"
         },
         {
-            "id": 514,
+            "id": 515,
             "title": "Man in the Box (Electric riff)",
             "cleanedTitle": "man-in-the-box-electric-riff",
             "artist": "Alice In Chains",
@@ -9805,7 +9826,7 @@
             "Type": "Song"
         },
         {
-            "id": 515,
+            "id": 516,
             "title": "Beat It (Partial)",
             "cleanedTitle": "beat-it-partial",
             "artist": "Michael Jackson",
@@ -9820,7 +9841,7 @@
             "Type": "Song"
         },
         {
-            "id": 516,
+            "id": 517,
             "title": "Oye Como Va (Electric riff)",
             "cleanedTitle": "oye-como-va-electric-riff",
             "artist": "Santana",
@@ -9835,7 +9856,7 @@
             "Type": "Song"
         },
         {
-            "id": 517,
+            "id": 518,
             "title": "Even Flow (Electric riff)",
             "cleanedTitle": "even-flow-electric-riff",
             "artist": "Pearl Jam",
@@ -9850,7 +9871,7 @@
             "Type": "Song"
         },
         {
-            "id": 518,
+            "id": 519,
             "title": "Yellow Ledbetter",
             "cleanedTitle": "yellow-ledbetter",
             "artist": "Pearl Jam",
@@ -9865,7 +9886,7 @@
             "Type": "Song"
         },
         {
-            "id": 519,
+            "id": 520,
             "title": "Surfing with the Alien (Electric riff)",
             "cleanedTitle": "surfing-with-the-alien-electric-riff",
             "artist": "Joe Satriani",
@@ -9880,7 +9901,7 @@
             "Type": "Song"
         },
         {
-            "id": 520,
+            "id": 521,
             "title": "Taurus (Partial)",
             "cleanedTitle": "taurus-partial",
             "artist": "Spirit",
@@ -9895,7 +9916,7 @@
             "Type": "Song"
         },
         {
-            "id": 521,
+            "id": 522,
             "title": "Stairway to Heaven (Partial)",
             "cleanedTitle": "stairway-to-heaven-partial",
             "artist": "Led Zeppelin",
@@ -9910,7 +9931,7 @@
             "Type": "Song"
         },
         {
-            "id": 522,
+            "id": 523,
             "title": "Crash Into Me",
             "cleanedTitle": "crash-into-me",
             "artist": "Dave Matthews Band",
@@ -9925,7 +9946,7 @@
             "Type": "Song"
         },
         {
-            "id": 523,
+            "id": 524,
             "title": "I'm Cryin'",
             "cleanedTitle": "im-cryin",
             "artist": "Stevie Ray Vaughan",
@@ -9940,7 +9961,7 @@
             "Type": "Song"
         },
         {
-            "id": 524,
+            "id": 525,
             "title": "As",
             "cleanedTitle": "as",
             "artist": "Stevie Wonder",
@@ -9955,7 +9976,7 @@
             "Type": "Song"
         },
         {
-            "id": 525,
+            "id": 526,
             "title": "Society",
             "cleanedTitle": "society",
             "artist": "Eddie Vedder",
@@ -9970,7 +9991,7 @@
             "Type": "Song"
         },
         {
-            "id": 526,
+            "id": 527,
             "title": "Streets of Philadelphia",
             "cleanedTitle": "streets-of-philadelphia",
             "artist": "Bruce Springsteen",
@@ -9985,7 +10006,7 @@
             "Type": "Song"
         },
         {
-            "id": 527,
+            "id": 528,
             "title": "Limelight",
             "cleanedTitle": "limelight",
             "artist": "Rush",
@@ -10000,7 +10021,7 @@
             "Type": "Song"
         },
         {
-            "id": 528,
+            "id": 529,
             "title": "Intro \"Crimson Fools\"",
             "cleanedTitle": "intro-crimson-fools",
             "artist": "Corey Heuvel",
@@ -10015,7 +10036,7 @@
             "Type": "Song"
         },
         {
-            "id": 529,
+            "id": 530,
             "title": "No Whining (No Complaining)",
             "cleanedTitle": "no-whining-no-complaining",
             "artist": "Corey Heuvel",
@@ -10030,7 +10051,7 @@
             "Type": "Song"
         },
         {
-            "id": 530,
+            "id": 531,
             "title": "Fields Of Gold",
             "cleanedTitle": "fields-of-gold",
             "artist": "Sting",
@@ -10045,7 +10066,7 @@
             "Type": "Song"
         },
         {
-            "id": 531,
+            "id": 532,
             "title": "Bossa Nova Improv",
             "cleanedTitle": "bossa-nova-improv",
             "artist": "Corey Heuvel",
@@ -10060,7 +10081,7 @@
             "Type": "Song"
         },
         {
-            "id": 532,
+            "id": 533,
             "title": "Intro \"Out of the Mist\"",
             "cleanedTitle": "intro-out-of-the-mist",
             "artist": "Corey Heuvel",
@@ -10075,7 +10096,7 @@
             "Type": "Song"
         },
         {
-            "id": 533,
+            "id": 534,
             "title": "Gravity",
             "cleanedTitle": "gravity",
             "artist": "John Mayer",
@@ -10090,7 +10111,7 @@
             "Type": "Song"
         },
         {
-            "id": 534,
+            "id": 535,
             "title": "Simple Man",
             "cleanedTitle": "simple-man",
             "artist": "Lynyrd Skynyrd",
@@ -10105,7 +10126,7 @@
             "Type": "Song"
         },
         {
-            "id": 535,
+            "id": 536,
             "title": "Intro \"A Still and Silent Mountain\"",
             "cleanedTitle": "intro-a-still-and-silent-mountain",
             "artist": "Corey Heuvel",
@@ -10120,7 +10141,7 @@
             "Type": "Song"
         },
         {
-            "id": 536,
+            "id": 537,
             "title": "Belief",
             "cleanedTitle": "belief",
             "artist": "John Mayer",
@@ -10135,7 +10156,7 @@
             "Type": "Song"
         },
         {
-            "id": 537,
+            "id": 538,
             "title": "Classical Gas",
             "cleanedTitle": "classical-gas",
             "artist": "Mason Williams",
@@ -10150,7 +10171,7 @@
             "Type": "Song"
         },
         {
-            "id": 538,
+            "id": 539,
             "title": "Between the Bars",
             "cleanedTitle": "between-the-bars",
             "artist": "Elliott Smith",
@@ -10165,7 +10186,7 @@
             "Type": "Song"
         },
         {
-            "id": 539,
+            "id": 540,
             "title": "So Real",
             "cleanedTitle": "so-real",
             "artist": "Jeff Buckley",
@@ -10180,7 +10201,7 @@
             "Type": "Song"
         },
         {
-            "id": 540,
+            "id": 541,
             "title": "Intro \"Beautiful Slide\"",
             "cleanedTitle": "intro-beautiful-slide",
             "artist": "Corey Heuvel",
@@ -10195,7 +10216,7 @@
             "Type": "Song"
         },
         {
-            "id": 541,
+            "id": 542,
             "title": "Nobody Knows You When You're Down and Out (Rein Rutnik)",
             "cleanedTitle": "nobody-knows-you-when-youre-down-and-out-rein-rutnik",
             "artist": "Eric Clapton",
@@ -10210,7 +10231,7 @@
             "Type": "Song"
         },
         {
-            "id": 542,
+            "id": 543,
             "title": "Sleepy Afternoon (Rein Rutnik)",
             "cleanedTitle": "sleepy-afternoon-rein-rutnik",
             "artist": "Rein Rutnik",
@@ -10222,21 +10243,6 @@
             "search": "",
             "CleanedPicture": "rein-rutnik",
             "ArtistPic": true,
-            "Type": "Song"
-        },
-        {
-            "id": 543,
-            "title": "Big Bad Bill (Is Sweet William Now) (Rein Rutnik)",
-            "cleanedTitle": "big-bad-bill-is-sweet-william-now-rein-rutnik",
-            "artist": "Van Halen",
-            "cleanedArtist": "van-halen",
-            "album": "Diver Down",
-            "cleanedAlbum": "diver-down",
-            "otherArtists": "Milton Ager & Jack Yellen",
-            "instruments": "Acoustic Guitar, Harmonica, (FV2) - Furch Vintage 2 RS-SR",
-            "search": "Eddie Van Halen",
-            "CleanedPicture": "diver-down",
-            "ArtistPic": false,
             "Type": "Song"
         },
         {
