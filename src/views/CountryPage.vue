@@ -35,16 +35,34 @@
       <button @click="loadMore" class="load-more-button">Load More</button>
     </div>
   </div>
-
+  
   <div v-else class="country-page-container">
-    <p>Country not found.</p>
+    <HeaderWithIcon
+      title="Country"
+      icon="mappin"
+      iconColor="blue"
+      :leadingIcon="headerConfig.leadingIcon"
+      :leadingIconColor="headerConfig.leadingIconColor"
+      :leadingIconRoute="headerConfig.leadingIconRoute"
+    />
+    <div class="not-found-message">
+      <p>
+        "<strong>{{ formattedCountryNoArtists }}</strong>" ain't no country I ever heard of!
+        <br />
+        Do they speak English in "<strong>{{ formattedCountryNoArtists }}</strong>"?
+      </p>
+    </div>
+    <img :src="SamJacksonPic" alt="Samuel L. Jackson" class="not-found-image" />
   </div>
+
 </template>
+
 
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import CountryData from '../assets/Data/countries.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
+import SamJacksonPic from '../assets/CountryPics/SamJackson.jpg';
 
 const props = defineProps({
   country: String,
@@ -54,7 +72,7 @@ const props = defineProps({
   },
 });
 
-const country = computed(() => CountryData[props.country]);
+const country = computed(() => CountryData[props.country.toLowerCase()]);
 const artistsToShow = ref(100);
 
 const visibleArtists = computed(() => {
@@ -68,6 +86,18 @@ const canLoadMore = computed(() => {
 const loadMore = () => {
   artistsToShow.value += 100;
 };
+
+//If the user types in a country with no artists
+const formattedCountryNoArtists = computed(() => {
+  if (!props.country) {
+    return '';
+  }
+
+  return props.country
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+});
 
 const headerConfig = computed(() => {
   if (props.artist) {
@@ -88,7 +118,9 @@ const headerConfig = computed(() => {
 onMounted(() => {
   window.scrollTo(0, 0);
 });
+
 </script>
+
 
 <style scoped>
 .country-page-container {
@@ -144,4 +176,27 @@ onMounted(() => {
   background-color: #3b82f6;
   color: white;
 }
+
+.not-found-message {
+  font-size: 1.3rem;
+}
+
+.not-found-image {
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 830px) {
+  .not-found-image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .not-found-message {
+    font-size: 1.1rem;
+  }
+}
+
 </style>
