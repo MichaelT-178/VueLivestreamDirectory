@@ -1,6 +1,7 @@
 {
     "earth": {
         "name": "Earth",
+        "cleanedName": "earth",
         "numOfArtists": 2,
         "emoji": "🌎",
         "artists": [
@@ -22,6 +23,7 @@
     },
     "canada": {
         "name": "Canada",
+        "cleanedName": "canada",
         "numOfArtists": 27,
         "emoji": "🇨🇦",
         "artists": [
@@ -218,6 +220,7 @@
     },
     "united-states": {
         "name": "United States",
+        "cleanedName": "united-states",
         "numOfArtists": 206,
         "emoji": "🇺🇸",
         "artists": [
@@ -1667,6 +1670,7 @@
     },
     "england": {
         "name": "England",
+        "cleanedName": "england",
         "numOfArtists": 69,
         "emoji": "🇬🇧",
         "artists": [
@@ -2157,6 +2161,7 @@
     },
     "burma": {
         "name": "Burma",
+        "cleanedName": "burma",
         "numOfArtists": 1,
         "emoji": "🇲🇲",
         "artists": [
@@ -2171,6 +2176,7 @@
     },
     "australia": {
         "name": "Australia",
+        "cleanedName": "australia",
         "numOfArtists": 9,
         "emoji": "🇦🇺",
         "artists": [
@@ -2241,6 +2247,7 @@
     },
     "ireland": {
         "name": "Ireland",
+        "cleanedName": "ireland",
         "numOfArtists": 6,
         "emoji": "🇮🇪",
         "artists": [
@@ -2290,6 +2297,7 @@
     },
     "spain": {
         "name": "Spain",
+        "cleanedName": "spain",
         "numOfArtists": 5,
         "emoji": "🇪🇸",
         "artists": [
@@ -2332,6 +2340,7 @@
     },
     "italy": {
         "name": "Italy",
+        "cleanedName": "italy",
         "numOfArtists": 1,
         "emoji": "🇮🇹",
         "artists": [
@@ -2346,6 +2355,7 @@
     },
     "france": {
         "name": "France",
+        "cleanedName": "france",
         "numOfArtists": 3,
         "emoji": "🇫🇷",
         "artists": [
@@ -2374,6 +2384,7 @@
     },
     "jamaica": {
         "name": "Jamaica",
+        "cleanedName": "jamaica",
         "numOfArtists": 2,
         "emoji": "🇯🇲",
         "artists": [
@@ -2395,6 +2406,7 @@
     },
     "belgium": {
         "name": "Belgium",
+        "cleanedName": "belgium",
         "numOfArtists": 1,
         "emoji": "🇧🇪",
         "artists": [
@@ -2409,6 +2421,7 @@
     },
     "scotland": {
         "name": "Scotland",
+        "cleanedName": "scotland",
         "numOfArtists": 2,
         "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
         "artists": [
@@ -2430,6 +2443,7 @@
     },
     "germany": {
         "name": "Germany",
+        "cleanedName": "germany",
         "numOfArtists": 5,
         "emoji": "🇩🇪",
         "artists": [
@@ -2472,6 +2486,7 @@
     },
     "ukraine": {
         "name": "Ukraine",
+        "cleanedName": "ukraine",
         "numOfArtists": 1,
         "emoji": "🇺🇦",
         "artists": [
@@ -2486,6 +2501,7 @@
     },
     "the-netherlands": {
         "name": "The Netherlands",
+        "cleanedName": "the-netherlands",
         "numOfArtists": 1,
         "emoji": "🇳🇱",
         "artists": [
@@ -2500,6 +2516,7 @@
     },
     "norway": {
         "name": "Norway",
+        "cleanedName": "norway",
         "numOfArtists": 1,
         "emoji": "🇳🇴",
         "artists": [
@@ -2514,6 +2531,7 @@
     },
     "paraguay": {
         "name": "Paraguay",
+        "cleanedName": "paraguay",
         "numOfArtists": 1,
         "emoji": "🇵🇾",
         "artists": [
@@ -2528,6 +2546,7 @@
     },
     "puerto-rico": {
         "name": "Puerto Rico",
+        "cleanedName": "puerto-rico",
         "numOfArtists": 1,
         "emoji": "🇵🇷",
         "artists": [
@@ -2542,6 +2561,7 @@
     },
     "japan": {
         "name": "Japan",
+        "cleanedName": "japan",
         "numOfArtists": 1,
         "emoji": "🇯🇵",
         "artists": [
@@ -2556,6 +2576,7 @@
     },
     "israel": {
         "name": "Israel",
+        "cleanedName": "israel",
         "numOfArtists": 1,
         "emoji": "🇮🇱",
         "artists": [
@@ -2570,6 +2591,7 @@
     },
     "egypt": {
         "name": "Egypt",
+        "cleanedName": "egypt",
         "numOfArtists": 1,
         "emoji": "🇪🇬",
         "artists": [
@@ -2584,6 +2606,7 @@
     },
     "hungary": {
         "name": "Hungary",
+        "cleanedName": "hungary",
         "numOfArtists": 1,
         "emoji": "🇭🇺",
         "artists": [
@@ -2598,6 +2621,7 @@
     },
     "wales": {
         "name": "Wales",
+        "cleanedName": "wales",
         "numOfArtists": 1,
         "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
         "artists": [
@@ -2612,6 +2636,7 @@
     },
     "cyprus": {
         "name": "Cyprus",
+        "cleanedName": "cyprus",
         "numOfArtists": 1,
         "emoji": "🇨🇾",
         "artists": [

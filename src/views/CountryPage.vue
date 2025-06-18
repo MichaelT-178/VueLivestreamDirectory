@@ -19,7 +19,7 @@
       class="artist-card"
     >
       <router-link
-        :to="`/country/${country.name}/artist/${artist.CleanedArtist}`"
+        :to="`/country/${country.cleanedName}/artist/${artist.CleanedArtist}`"
         class="artist-link"
       >
         <div class="artist-info">
