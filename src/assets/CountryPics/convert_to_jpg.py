@@ -60,4 +60,5 @@ def resize_images_to_fixed_height(target_height=640):
 FUNCTION CALLS
 """
 # convert_to_jpg()
-print_image_sizes()
+# print_image_sizes()
+resize_images_to_fixed_height()
