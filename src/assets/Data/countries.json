@@ -1,2852 +1,2627 @@
 {
-    "earth": [
-        {
-            "Artist": "Various Artists",
-            "CleanedArtist": "various-artists",
-            "Location": "Places, Earth",
-            "YearFormed": 1960,
-            "Genre": "Rock",
-            "Emoji": "🌎"
-        },
-        {
-            "Artist": "Nursery Rhyme",
-            "CleanedArtist": "nursery-rhyme",
-            "Location": "Places, Earth",
-            "YearFormed": 1940,
-            "Genre": "Soundtrack",
-            "Emoji": "🌎"
-        }
-    ],
-    "canada": [
-        {
-            "Artist": "Corey Heuvel",
-            "CleanedArtist": "corey-heuvel",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1990,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Joni Mitchell",
-            "CleanedArtist": "joni-mitchell",
-            "Location": "Alberta, Canada",
-            "YearFormed": 1943,
-            "Genre": "Pop",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Michael Bublé",
-            "CleanedArtist": "michael-buble",
-            "Location": "Burnaby, Canada",
-            "YearFormed": 1975,
-            "Genre": "Pop",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Neil Young",
-            "CleanedArtist": "neil-young",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1945,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Alanis Morissette",
-            "CleanedArtist": "alanis-morissette",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1974,
-            "Genre": "Pop",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "The Band",
-            "CleanedArtist": "the-band",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Kiesza",
-            "CleanedArtist": "kiesza",
-            "Location": "Alberta, Canada",
-            "YearFormed": 1989,
-            "Genre": "Electronic",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "The Jeff Healey Band",
-            "CleanedArtist": "the-jeff-healey-band",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1966,
-            "Genre": "Blues",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Leonard Cohen",
-            "CleanedArtist": "leonard-cohen",
-            "Location": "Quebec, Canada",
-            "YearFormed": 1934,
-            "Genre": "Pop",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Jesse Cook",
-            "CleanedArtist": "jesse-cook",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1964,
-            "Genre": "Pop",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Rush",
-            "CleanedArtist": "rush",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1968,
-            "Genre": "Hard Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Amanda Marshall",
-            "CleanedArtist": "amanda-marshall",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1972,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Colin James",
-            "CleanedArtist": "colin-james",
-            "Location": "Saskatchewan, Canada",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Bruce Cockburn",
-            "CleanedArtist": "bruce-cockburn",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1945,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Shania Twain",
-            "CleanedArtist": "shania-twain",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1965,
-            "Genre": "Country",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "David Wilcox",
-            "CleanedArtist": "david-wilcox",
-            "Location": "Quebec, Canada",
-            "YearFormed": 1949,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Blue Rodeo",
-            "CleanedArtist": "blue-rodeo",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1984,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Rein Rutnik",
-            "CleanedArtist": "rein-rutnik",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1990,
-            "Genre": "Blues",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Bryan Adams",
-            "CleanedArtist": "bryan-adams",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1959,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Great Big Sea",
-            "CleanedArtist": "great-big-sea",
-            "Location": "Newfoundland, Canada",
-            "YearFormed": 1993,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "The Tragically Hip",
-            "CleanedArtist": "the-tragically-hip",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1983,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Doucette",
-            "CleanedArtist": "doucette",
-            "Location": "Quebec, Canada",
-            "YearFormed": 1951,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Kim Mitchell",
-            "CleanedArtist": "kim-mitchell",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1952,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Nickelback",
-            "CleanedArtist": "nickelback",
-            "Location": "Alberta, Canada",
-            "YearFormed": 1995,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Gordon Lightfoot",
-            "CleanedArtist": "gordon-lightfoot",
-            "Location": "Ontario, Canada",
-            "YearFormed": 1938,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Moist",
-            "CleanedArtist": "moist",
-            "Location": "Vancouver, Canada",
-            "YearFormed": 2005,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        },
-        {
-            "Artist": "Bachman-Turner Overdrive",
-            "CleanedArtist": "bachman-turner-overdrive",
-            "Location": "Manitoba, Canada",
-            "YearFormed": 1970,
-            "Genre": "Rock",
-            "Emoji": "🇨🇦"
-        }
-    ],
-    "united-states": [
-        {
-            "Artist": "Jeff Buckley",
-            "CleanedArtist": "jeff-buckley",
-            "Location": "Anaheim, California",
-            "YearFormed": 1966,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Eddie Vedder",
-            "CleanedArtist": "eddie-vedder",
-            "Location": "Evanston, Illinois",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Big Bill Broonzy",
-            "CleanedArtist": "big-bill-broonzy",
-            "Location": "Scott, Mississippi",
-            "YearFormed": 1893,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Incubus",
-            "CleanedArtist": "incubus",
-            "Location": "Calabasas, California",
-            "YearFormed": 1991,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Lindsey Buckingham",
-            "CleanedArtist": "lindsey-buckingham",
-            "Location": "Palo Alto, California",
-            "YearFormed": 1949,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "John Mayer",
-            "CleanedArtist": "john-mayer",
-            "Location": "Bridgeport, Connecticut",
-            "YearFormed": 1977,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Flo Rida, T-Pain",
-            "CleanedArtist": "flo-rida-t-pain",
-            "Location": "Miami Gardens, Florida",
-            "YearFormed": 1979,
-            "Genre": "Hip-Hop/Rap",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Michael Jackson",
-            "CleanedArtist": "michael-jackson",
-            "Location": "Gary, Indiana",
-            "YearFormed": 1958,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Stevie Wonder",
-            "CleanedArtist": "stevie-wonder",
-            "Location": "Saginaw, Michigan",
-            "YearFormed": 1950,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bob Dylan",
-            "CleanedArtist": "bob-dylan",
-            "Location": "Duluth, Minnesota",
-            "YearFormed": 1941,
-            "Genre": "Folk",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Eric Johnson",
-            "CleanedArtist": "eric-johnson",
-            "Location": "Austin, Texas",
-            "YearFormed": 1954,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Stevie Ray Vaughan",
-            "CleanedArtist": "stevie-ray-vaughan",
-            "Location": "Dallas, Texas",
-            "YearFormed": 1954,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Joe Satriani",
-            "CleanedArtist": "joe-satriani",
-            "Location": "Westbury, New York",
-            "YearFormed": 1956,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Jimi Hendrix",
-            "CleanedArtist": "jimi-hendrix",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1942,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Gnarls Barkley",
-            "CleanedArtist": "gnarls-barkley",
-            "Location": "Atlanta, Georgia",
-            "YearFormed": 2006,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Ray LaMontagne",
-            "CleanedArtist": "ray-lamontagne",
-            "Location": "Nashua, New Hampshire",
-            "YearFormed": 1973,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Patrick Watson",
-            "CleanedArtist": "patrick-watson",
-            "Location": "Lancaster, California",
-            "YearFormed": 1979,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Steve Miller Band",
-            "CleanedArtist": "steve-miller-band",
-            "Location": "San Francisco, California",
-            "YearFormed": 1966,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Justin Timberlake ft. JAY-Z",
-            "CleanedArtist": "justin-timberlake-ft-jay-z",
-            "Location": "Memphis, Tennessee",
-            "YearFormed": 1981,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Crosby, Stills, Nash & Young",
-            "CleanedArtist": "crosby-stills-nash-young",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1969,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Heart",
-            "CleanedArtist": "heart",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1973,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Goo Goo Dolls",
-            "CleanedArtist": "the-goo-goo-dolls",
-            "Location": "Buffalo, New York",
-            "YearFormed": 1986,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Jim Croce",
-            "CleanedArtist": "jim-croce",
-            "Location": "Philadelphia, Pennsylvania",
-            "YearFormed": 1943,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Vanessa Carlton",
-            "CleanedArtist": "vanessa-carlton",
-            "Location": "Milford, Pennsylvania",
-            "YearFormed": 1980,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Ariana Grande ft. Zedd",
-            "CleanedArtist": "ariana-grande-ft-zedd",
-            "Location": "Boca Raton, Florida",
-            "YearFormed": 1993,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Kansas",
-            "CleanedArtist": "kansas",
-            "Location": "Topeka, Kansas",
-            "YearFormed": 1973,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Steely Dan",
-            "CleanedArtist": "steely-dan",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1972,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Lyle Lovett",
-            "CleanedArtist": "lyle-lovett",
-            "Location": "Klein, Texas",
-            "YearFormed": 1957,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Doyle Bramhall",
-            "CleanedArtist": "doyle-bramhall",
-            "Location": "Dallas, Texas",
-            "YearFormed": 1949,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bruce Springsteen",
-            "CleanedArtist": "bruce-springsteen",
-            "Location": "Long Branch, New Jersey",
-            "YearFormed": 1949,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bo Diddley",
-            "CleanedArtist": "bo-diddley",
-            "Location": "McComb, Mississippi",
-            "YearFormed": 1928,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Stone Temple Pilots",
-            "CleanedArtist": "stone-temple-pilots",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1990,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Tracy Chapman",
-            "CleanedArtist": "tracy-chapman",
-            "Location": "Cleveland, Ohio",
-            "YearFormed": 1964,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Sublime",
-            "CleanedArtist": "sublime",
-            "Location": "Long Beach, California",
-            "YearFormed": 1988,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Third Eye Blind",
-            "CleanedArtist": "third-eye-blind",
-            "Location": "San Francisco, California",
-            "YearFormed": 1993,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Blackstreet",
-            "CleanedArtist": "blackstreet",
-            "Location": "New York, New York",
-            "YearFormed": 1991,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Robert Johnson",
-            "CleanedArtist": "robert-johnson",
-            "Location": "Hazlehurst, Mississippi",
-            "YearFormed": 1911,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Black Keys",
-            "CleanedArtist": "the-black-keys",
-            "Location": "Akron, Ohio",
-            "YearFormed": 2001,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Soundgarden",
-            "CleanedArtist": "soundgarden",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1984,
-            "Genre": "Grunge",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bob Seger",
-            "CleanedArtist": "bob-seger",
-            "Location": "Detroit, Michigan",
-            "YearFormed": 1945,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Leaves",
-            "CleanedArtist": "the-leaves",
-            "Location": "San Fernando Valley, California",
-            "YearFormed": 1963,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Billy Roberts",
-            "CleanedArtist": "billy-roberts",
-            "Location": "Greenville, South Carolina",
-            "YearFormed": 1936,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Porter Wagoner",
-            "CleanedArtist": "porter-wagoner",
-            "Location": "West Plains, Missouri",
-            "YearFormed": 1927,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Red Hayes",
-            "CleanedArtist": "red-hayes",
-            "Location": "Garden Valley, Texas",
-            "YearFormed": 1926,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Hank Williams",
-            "CleanedArtist": "hank-williams",
-            "Location": "Butler County, Alabama",
-            "YearFormed": 1923,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Leon Payne",
-            "CleanedArtist": "leon-payne",
-            "Location": "Alba, Texas",
-            "YearFormed": 1917,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Red Hot Chili Peppers",
-            "CleanedArtist": "red-hot-chili-peppers",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1983,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Doors",
-            "CleanedArtist": "the-doors",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1965,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Ray Charles",
-            "CleanedArtist": "ray-charles",
-            "Location": "Albany, Georgia",
-            "YearFormed": 1930,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Nick Ashford",
-            "CleanedArtist": "nick-ashford",
-            "Location": "Fairfield, South Carolina",
-            "YearFormed": 1942,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "John Scofield",
-            "CleanedArtist": "john-scofield",
-            "Location": "Dayton, Ohio",
-            "YearFormed": 1951,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Frank Sinatra",
-            "CleanedArtist": "frank-sinatra",
-            "Location": "Hoboken, New Jersey",
-            "YearFormed": 1915,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Marion Montgomery",
-            "CleanedArtist": "marion-montgomery",
-            "Location": "Natchez, Mississippi",
-            "YearFormed": 1934,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Queens of the Stone Age",
-            "CleanedArtist": "queens-of-the-stone-age",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1996,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Doyle Bramhall II, Smokestack",
-            "CleanedArtist": "doyle-bramhall-ii-smokestack",
-            "Location": "Dallas, Texas",
-            "YearFormed": 1968,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Pearl Jam",
-            "CleanedArtist": "pearl-jam",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1990,
-            "Genre": "Grunge",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Billy Strings",
-            "CleanedArtist": "billy-strings",
-            "Location": "Lansing, Michigan",
-            "YearFormed": 1992,
-            "Genre": "Bluegrass",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Buddy Guy",
-            "CleanedArtist": "buddy-guy",
-            "Location": "Lettsworth, Louisiana",
-            "YearFormed": 1936,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Joe Walsh",
-            "CleanedArtist": "joe-walsh",
-            "Location": "Wichita, Kansas",
-            "YearFormed": 1947,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Pantera",
-            "CleanedArtist": "pantera",
-            "Location": "Arlington, Texas",
-            "YearFormed": 1982,
-            "Genre": "Metal",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Beck",
-            "CleanedArtist": "beck",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1970,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Kenny Wayne Shepherd",
-            "CleanedArtist": "kenny-wayne-shepherd",
-            "Location": "Bossier City, Louisiana",
-            "YearFormed": 1977,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Crosby, Stills & Nash",
-            "CleanedArtist": "crosby-stills-nash",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1969,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Elliott Smith",
-            "CleanedArtist": "elliott-smith",
-            "Location": "Omaha, Nebraska",
-            "YearFormed": 1969,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Moby",
-            "CleanedArtist": "moby",
-            "Location": "New York, New York",
-            "YearFormed": 1965,
-            "Genre": "Electronic",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Vera Hall",
-            "CleanedArtist": "vera-hall",
-            "Location": "Livingston, Alabama",
-            "YearFormed": 1902,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Creedence Clearwater Revival",
-            "CleanedArtist": "creedence-clearwater-revival",
-            "Location": "El Cerrito, California",
-            "YearFormed": 1959,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Sixpence None The Richer",
-            "CleanedArtist": "sixpence-none-the-richer",
-            "Location": "New Braunfels, Texas",
-            "YearFormed": 1993,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Anne Bredon",
-            "CleanedArtist": "anne-bredon",
-            "Location": "Berkeley, California",
-            "YearFormed": 1930,
-            "Genre": "Folk",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Lead Belly",
-            "CleanedArtist": "lead-belly",
-            "Location": "Mooringsport, Louisiana",
-            "YearFormed": 1888,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Robert Petway",
-            "CleanedArtist": "robert-petway",
-            "Location": "Yazoo City, Mississippi",
-            "YearFormed": 1908,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Beyoncé, JAY-Z",
-            "CleanedArtist": "beyonce-jay-z",
-            "Location": "Houston, Texas",
-            "YearFormed": 1981,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Velvet Revolver",
-            "CleanedArtist": "velvet-revolver",
-            "Location": "Rancho Santa Margarita, California",
-            "YearFormed": 2002,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Chris Whitley",
-            "CleanedArtist": "chris-whitley",
-            "Location": "Houston, Texas",
-            "YearFormed": 1960,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Smashing Pumpkins",
-            "CleanedArtist": "the-smashing-pumpkins",
-            "Location": "Chicago, Illinois",
-            "YearFormed": 1988,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Doobie Brothers",
-            "CleanedArtist": "the-doobie-brothers",
-            "Location": "San Jose, California",
-            "YearFormed": 1970,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Grateful Dead",
-            "CleanedArtist": "grateful-dead",
-            "Location": "Palo Alto, California",
-            "YearFormed": 1965,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Roy Orbison",
-            "CleanedArtist": "roy-orbison",
-            "Location": "Vernon, Texas",
-            "YearFormed": 1936,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Smash Mouth",
-            "CleanedArtist": "smash-mouth",
-            "Location": "San Jose, California",
-            "YearFormed": 1994,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "John Frusciante",
-            "CleanedArtist": "john-frusciante",
-            "Location": "New York, New York",
-            "YearFormed": 1970,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Nina Simone",
-            "CleanedArtist": "nina-simone",
-            "Location": "Tryon, North Carolina",
-            "YearFormed": 1933,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Big Wreck",
-            "CleanedArtist": "big-wreck",
-            "Location": "Boston, Massachusetts",
-            "YearFormed": 1993,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Jack Johnson",
-            "CleanedArtist": "jack-johnson",
-            "Location": "Oahu, Hawaii",
-            "YearFormed": 1975,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "James Taylor",
-            "CleanedArtist": "james-taylor",
-            "Location": "Boston, Massachusetts",
-            "YearFormed": 1948,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Big Star",
-            "CleanedArtist": "big-star",
-            "Location": "Memphis, Tennessee",
-            "YearFormed": 1971,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Black Crowes",
-            "CleanedArtist": "the-black-crowes",
-            "Location": "Atlanta, Georgia",
-            "YearFormed": 1984,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "George Gershwin",
-            "CleanedArtist": "george-gershwin",
-            "Location": "New York, New York",
-            "YearFormed": 1898,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Ella Fitzgerald",
-            "CleanedArtist": "ella-fitzgerald",
-            "Location": "Newport News, Virginia",
-            "YearFormed": 1917,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Killers",
-            "CleanedArtist": "the-killers",
-            "Location": "Las Vegas, Nevada",
-            "YearFormed": 2001,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Allman Brothers Band",
-            "CleanedArtist": "allman-brothers-band",
-            "Location": "Jacksonville, Florida",
-            "YearFormed": 1969,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Danny Elfman",
-            "CleanedArtist": "danny-elfman",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1953,
-            "Genre": "Soundtrack",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Robbie Basho",
-            "CleanedArtist": "robbie-basho",
-            "Location": "Baltimore, Maryland",
-            "YearFormed": 1940,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Arborea",
-            "CleanedArtist": "arborea",
-            "Location": "Lewiston, Maine",
-            "YearFormed": 2005,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Larry Davis",
-            "CleanedArtist": "larry-davis",
-            "Location": "Kansas City, Missouri",
-            "YearFormed": 1936,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Metallica",
-            "CleanedArtist": "metallica",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1981,
-            "Genre": "Metal",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Van Halen",
-            "CleanedArtist": "van-halen",
-            "Location": "Pasadena, California",
-            "YearFormed": 1972,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Chuck Berry",
-            "CleanedArtist": "chuck-berry",
-            "Location": "St. Louis, Missouri",
-            "YearFormed": 1926,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Blue Öyster Cult",
-            "CleanedArtist": "blue-oyster-cult",
-            "Location": "Stony Brook, New York",
-            "YearFormed": 1967,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "ZZ Top",
-            "CleanedArtist": "zz-top",
-            "Location": "Houston, Texas",
-            "YearFormed": 1969,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Jonny Lang",
-            "CleanedArtist": "jonny-lang",
-            "Location": "Fargo, North Dakota",
-            "YearFormed": 1981,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Foo Fighters",
-            "CleanedArtist": "foo-fighters",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1994,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Eagles",
-            "CleanedArtist": "the-eagles",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1971,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Santo & Johnny",
-            "CleanedArtist": "santo-johnny",
-            "Location": "Brooklyn, New York",
-            "YearFormed": 1959,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Betsy Brye",
-            "CleanedArtist": "betsy-brye",
-            "Location": "Richmond, Virginia",
-            "YearFormed": 1932,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Matchbox Twenty",
-            "CleanedArtist": "matchbox-twenty",
-            "Location": "Orlando, Florida",
-            "YearFormed": 1995,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Sonny Boy Williamson II",
-            "CleanedArtist": "sonny-boy-williamson-ii",
-            "Location": "Glendora, Mississippi",
-            "YearFormed": 1912,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Tom Petty",
-            "CleanedArtist": "tom-petty",
-            "Location": "Gainesville, Florida",
-            "YearFormed": 1950,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Johnny Cash",
-            "CleanedArtist": "johnny-cash",
-            "Location": "Kingsland, Arkansas",
-            "YearFormed": 1932,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Don McLean",
-            "CleanedArtist": "don-mclean",
-            "Location": "New Rochelle, New York",
-            "YearFormed": 1945,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Nirvana",
-            "CleanedArtist": "nirvana",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1987,
-            "Genre": "Grunge",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Mountain",
-            "CleanedArtist": "mountain",
-            "Location": "Long Island, New York",
-            "YearFormed": 1969,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Canned Heat",
-            "CleanedArtist": "canned-heat",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1965,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "John Brim",
-            "CleanedArtist": "john-brim",
-            "Location": "Hopkinsville, Kentucky",
-            "YearFormed": 1922,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Guns N' Roses",
-            "CleanedArtist": "guns-n-roses",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1985,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The White Stripes",
-            "CleanedArtist": "the-white-stripes",
-            "Location": "Detroit, Michigan",
-            "YearFormed": 1997,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Dick Dale",
-            "CleanedArtist": "dick-dale",
-            "Location": "Boston, Massachusetts",
-            "YearFormed": 1937,
-            "Genre": "Surf-Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Paul Gilbert",
-            "CleanedArtist": "paul-gilbert",
-            "Location": "Carbondale, Illinois",
-            "YearFormed": 1966,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Steppenwolf",
-            "CleanedArtist": "steppenwolf",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1961,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Extreme",
-            "CleanedArtist": "extreme",
-            "Location": "Boston, Massachusetts",
-            "YearFormed": 1985,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Audioslave",
-            "CleanedArtist": "audioslave",
-            "Location": "Glendale, California",
-            "YearFormed": 2001,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Alice In Chains",
-            "CleanedArtist": "alice-in-chains",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1987,
-            "Genre": "Grunge",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Chet Atkins",
-            "CleanedArtist": "chet-atkins",
-            "Location": "Luttrell, Tennessee",
-            "YearFormed": 1924,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Chordettes",
-            "CleanedArtist": "the-chordettes",
-            "Location": "Sheboygan, Wisconsin",
-            "YearFormed": 1946,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Chris Cornell",
-            "CleanedArtist": "chris-cornell",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Blind Boy Fuller",
-            "CleanedArtist": "blind-boy-fuller",
-            "Location": "Wadesboro, North Carolina",
-            "YearFormed": 1907,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Rodriguez",
-            "CleanedArtist": "rodriguez",
-            "Location": "Detroit, Michigan",
-            "YearFormed": 1942,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Stephen Stills",
-            "CleanedArtist": "stephen-stills",
-            "Location": "Dallas, Texas",
-            "YearFormed": 1945,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Doc Watson",
-            "CleanedArtist": "doc-watson",
-            "Location": "Deep Gap, North Carolina",
-            "YearFormed": 1923,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Prince",
-            "CleanedArtist": "prince",
-            "Location": "Minneapolis, Minnesota",
-            "YearFormed": 1958,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Aerosmith",
-            "CleanedArtist": "aerosmith",
-            "Location": "Boston, Massachusetts",
-            "YearFormed": 1970,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Train",
-            "CleanedArtist": "train",
-            "Location": "San Francisco, California",
-            "YearFormed": 1994,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Steve Vai",
-            "CleanedArtist": "steve-vai",
-            "Location": "Carle Place, New York",
-            "YearFormed": 1960,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "George Thorogood & The Destroyers",
-            "CleanedArtist": "george-thorogood-the-destroyers",
-            "Location": "Newark, Delaware",
-            "YearFormed": 1976,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Boston",
-            "CleanedArtist": "boston",
-            "Location": "Boston, Massachusetts",
-            "YearFormed": 1975,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Linkin Park",
-            "CleanedArtist": "linkin-park",
-            "Location": "Agoura Hills, California",
-            "YearFormed": 1996,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bukka White",
-            "CleanedArtist": "bukka-white",
-            "Location": "Houston, Mississippi",
-            "YearFormed": 1906,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Trans Siberian Orchestra",
-            "CleanedArtist": "trans-siberian-orchestra",
-            "Location": "Tampa, Florida",
-            "YearFormed": 1996,
-            "Genre": "Holiday",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Ted Nugent",
-            "CleanedArtist": "ted-nugent",
-            "Location": "Detroit, Michigan",
-            "YearFormed": 1948,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Tool",
-            "CleanedArtist": "tool",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1990,
-            "Genre": "Metal",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Francis Scott Key",
-            "CleanedArtist": "francis-scott-key",
-            "Location": "Frederick County, Maryland",
-            "YearFormed": 1779,
-            "Genre": "Classical",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Rage Against The Machine",
-            "CleanedArtist": "rage-against-the-machine",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1991,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Offspring",
-            "CleanedArtist": "the-offspring",
-            "Location": "Orange County, California,",
-            "YearFormed": 1984,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Knack",
-            "CleanedArtist": "the-knack",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1978,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Santana",
-            "CleanedArtist": "santana",
-            "Location": "San Francisco, California",
-            "YearFormed": 1966,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Spirit",
-            "CleanedArtist": "spirit",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1967,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Dave Matthews Band",
-            "CleanedArtist": "dave-matthews-band",
-            "Location": "Charlottesville, Virginia",
-            "YearFormed": 1991,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Eva Cassidy",
-            "CleanedArtist": "eva-cassidy",
-            "Location": "Bowie, Maryland",
-            "YearFormed": 1963,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Lynyrd Skynyrd",
-            "CleanedArtist": "lynyrd-skynyrd",
-            "Location": "Jacksonville, Florida",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Mason Williams",
-            "CleanedArtist": "mason-williams",
-            "Location": "Abilene, Texas",
-            "YearFormed": 1938,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Jimmie Cox",
-            "CleanedArtist": "jimmie-cox",
-            "Location": "Richmond, Virginia",
-            "YearFormed": 1882,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Milton Ager & Jack Yellen",
-            "CleanedArtist": "milton-ager-jack-yellen",
-            "Location": "Chicago, Illinois",
-            "YearFormed": 1893,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Mississippi John Hurt",
-            "CleanedArtist": "mississippi-john-hurt",
-            "Location": "Avalon, Mississippi",
-            "YearFormed": 1893,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Semisonic",
-            "CleanedArtist": "semisonic",
-            "Location": "Minneapolis, Minnesota",
-            "YearFormed": 1993,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "P!nk",
-            "CleanedArtist": "p-nk",
-            "Location": "Doylestown, Pennsylvania",
-            "YearFormed": 1979,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Ryan Adams",
-            "CleanedArtist": "ryan-adams",
-            "Location": "Jacksonville, North Carolina",
-            "YearFormed": 1974,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Rusted Root",
-            "CleanedArtist": "rusted-root",
-            "Location": "Pittsburgh, Pennsylvania",
-            "YearFormed": 1990,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Old Crow Medicine Show",
-            "CleanedArtist": "old-crow-medicine-show",
-            "Location": "Harrisonburg, Virginia",
-            "YearFormed": 1998,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Darius Rucker",
-            "CleanedArtist": "darius-rucker",
-            "Location": "Charleston, South Carolina",
-            "YearFormed": 1966,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Blink-182",
-            "CleanedArtist": "blink-182",
-            "Location": "Poway, California",
-            "YearFormed": 1992,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Nelly",
-            "CleanedArtist": "nelly",
-            "Location": "Austin, Texas",
-            "YearFormed": 1974,
-            "Genre": "Hip-Hop/Rap",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Ben Harper",
-            "CleanedArtist": "ben-harper",
-            "Location": "Pomona, California",
-            "YearFormed": 1969,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Blind Melon",
-            "CleanedArtist": "blind-melon",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1989,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Fuel",
-            "CleanedArtist": "fuel",
-            "Location": "Harrisburg, Pennsylvania",
-            "YearFormed": 1994,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Green Day",
-            "CleanedArtist": "green-day",
-            "Location": "East Bay, California",
-            "YearFormed": 1989,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Sun Kil Moon",
-            "CleanedArtist": "sun-kil-moon",
-            "Location": "San Francisco, California",
-            "YearFormed": 2002,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Temple Of The Dog",
-            "CleanedArtist": "temple-of-the-dog",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1990,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Talking Heads",
-            "CleanedArtist": "talking-heads",
-            "Location": "New York, New York",
-            "YearFormed": 1975,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Tenacious D",
-            "CleanedArtist": "tenacious-d",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1994,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Edwin McCain",
-            "CleanedArtist": "edwin-mccain",
-            "Location": "Charleston, South Carolina",
-            "YearFormed": 1970,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Tim Buckley",
-            "CleanedArtist": "tim-buckley",
-            "Location": "Washington, D.C.",
-            "YearFormed": 1947,
-            "Genre": "Folk",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Christina Perri",
-            "CleanedArtist": "christina-perri",
-            "Location": "Bensalem, Pennsylvania",
-            "YearFormed": 1986,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bon Iver",
-            "CleanedArtist": "bon-iver",
-            "Location": "Eau Claire, Wisconsin",
-            "YearFormed": 2006,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Mamas & The Papas",
-            "CleanedArtist": "the-mamas-the-papas",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1965,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Hambone Willie Newbern",
-            "CleanedArtist": "hambone-willie-newbern",
-            "Location": "Haywood County, Tennessee",
-            "YearFormed": 1901,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Muddy Waters",
-            "CleanedArtist": "muddy-waters",
-            "Location": "Rolling Fork, Mississippi",
-            "YearFormed": 1915,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "John Coltrane",
-            "CleanedArtist": "john-coltrane",
-            "Location": "Hamlet, North Carolina",
-            "YearFormed": 1926,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Filter",
-            "CleanedArtist": "filter",
-            "Location": "Cleveland, Ohio",
-            "YearFormed": 1993,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "John Denver",
-            "CleanedArtist": "john-denver",
-            "Location": "Roswell, New Mexico",
-            "YearFormed": 1943,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "James Shelton",
-            "CleanedArtist": "james-shelton",
-            "Location": "New York, New York",
-            "YearFormed": 1950,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Pusha T",
-            "CleanedArtist": "pusha-t",
-            "Location": "Bronx, New York",
-            "YearFormed": 1977,
-            "Genre": "Hip-Hop/Rap",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "John Prine",
-            "CleanedArtist": "john-prine",
-            "Location": "Maywood, Illinois",
-            "YearFormed": 1946,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Carney",
-            "CleanedArtist": "carney",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1983,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Kings of Leon",
-            "CleanedArtist": "kings-of-leon",
-            "Location": "Nashville, Tennessee",
-            "YearFormed": 1999,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "R.E.M",
-            "CleanedArtist": "rem",
-            "Location": "Athens, Georgia",
-            "YearFormed": 1980,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "The Soggy Bottom Boys",
-            "CleanedArtist": "the-soggy-bottom-boys",
-            "Location": "Yazoo City, Mississippi",
-            "YearFormed": 1937,
-            "Genre": "Country",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Dick Burnett",
-            "CleanedArtist": "dick-burnett",
-            "Location": "Elk Springs, Kentucky",
-            "YearFormed": 1883,
-            "Genre": "Folk",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Mr. Big",
-            "CleanedArtist": "mr-big",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1988,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Jimmy Eat World",
-            "CleanedArtist": "jimmy-eat-world",
-            "Location": "Mesa, Arizona",
-            "YearFormed": 1993,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Trevor Hall, Krishna Das",
-            "CleanedArtist": "trevor-hall-krishna-das",
-            "Location": "Greenwich, Connecticut",
-            "YearFormed": 1986,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Tonic",
-            "CleanedArtist": "tonic",
-            "Location": "Los Angeles, California",
-            "YearFormed": 1993,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Collective Soul",
-            "CleanedArtist": "collective-soul",
-            "Location": "Stockbridge, Georgia",
-            "YearFormed": 1992,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Simon & Garfunkel",
-            "CleanedArtist": "simon-garfunkel",
-            "Location": "Queens, New York",
-            "YearFormed": 1963,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Fleet Foxes",
-            "CleanedArtist": "fleet-foxes",
-            "Location": "Seattle, Washington",
-            "YearFormed": 2006,
-            "Genre": "Alternative",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bon Jovi",
-            "CleanedArtist": "bon-jovi",
-            "Location": "Sayreville, New Jersey",
-            "YearFormed": 1983,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Grant Dermody",
-            "CleanedArtist": "grant-dermody",
-            "Location": "Seattle, Washington",
-            "YearFormed": 1970,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "J.J. Cale",
-            "CleanedArtist": "jj-cale",
-            "Location": "Oklahoma City, Oklahoma",
-            "YearFormed": 1938,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Daryl Hall and John Oates",
-            "CleanedArtist": "daryl-hall-and-john-oates",
-            "Location": "Philadelphia, Pennsylvania",
-            "YearFormed": 1970,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bill Withers",
-            "CleanedArtist": "bill-withers",
-            "Location": "Slab Fork, West Virginia",
-            "YearFormed": 1938,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Marcy Playground",
-            "CleanedArtist": "marcy-playground",
-            "Location": "New York, New York",
-            "YearFormed": 1994,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Toto",
-            "CleanedArtist": "toto",
-            "Location": "Van Nuys, California",
-            "YearFormed": 1977,
-            "Genre": "Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Deford Bailey",
-            "CleanedArtist": "deford-bailey",
-            "Location": "Smith County, Tennessee",
-            "YearFormed": 1899,
-            "Genre": "Blues",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Bobby McFerrin",
-            "CleanedArtist": "bobby-mcferrin",
-            "Location": "New York, New York",
-            "YearFormed": 1950,
-            "Genre": "Jazz",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Janet Jackson",
-            "CleanedArtist": "janet-jackson",
-            "Location": "Gary, Indiana",
-            "YearFormed": 1966,
-            "Genre": "Pop",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Kiss",
-            "CleanedArtist": "kiss",
-            "Location": "New York, New York",
-            "YearFormed": 1973,
-            "Genre": "Hard Rock",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Alicia Keys",
-            "CleanedArtist": "alicia-keys",
-            "Location": "New York, New York",
-            "YearFormed": 1981,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇺🇸"
-        },
-        {
-            "Artist": "Donny Hathaway",
-            "CleanedArtist": "donny-hathaway",
-            "Location": "Chicago, Illinois",
-            "YearFormed": 1945,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇺🇸"
-        }
-    ],
-    "england": [
-        {
-            "Artist": "The Smiths",
-            "CleanedArtist": "the-smiths",
-            "Location": "Manchester, England",
-            "YearFormed": 1982,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Scott Matthews",
-            "CleanedArtist": "scott-matthews",
-            "Location": "Wolverhampton, England",
-            "YearFormed": 1976,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Eric Clapton",
-            "CleanedArtist": "eric-clapton",
-            "Location": "Surrey, England",
-            "YearFormed": 1945,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Fleetwood Mac",
-            "CleanedArtist": "fleetwood-mac",
-            "Location": "London, England",
-            "YearFormed": 1967,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "John Martyn",
-            "CleanedArtist": "john-martyn",
-            "Location": "Surrey, England",
-            "YearFormed": 1948,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Jamiroquai",
-            "CleanedArtist": "jamiroquai",
-            "Location": "London, England",
-            "YearFormed": 1992,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Peter Gabriel",
-            "CleanedArtist": "peter-gabriel",
-            "Location": "Surrey, England",
-            "YearFormed": 1950,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Pink Floyd",
-            "CleanedArtist": "pink-floyd",
-            "Location": "London, England",
-            "YearFormed": 1965,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Seal",
-            "CleanedArtist": "seal",
-            "Location": "London, England",
-            "YearFormed": 1963,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Tears For Fears",
-            "CleanedArtist": "tears-for-fears",
-            "Location": "Somerset, England",
-            "YearFormed": 1981,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Led Zeppelin",
-            "CleanedArtist": "led-zeppelin",
-            "Location": "London, England",
-            "YearFormed": 1968,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Queen",
-            "CleanedArtist": "queen",
-            "Location": "London, England",
-            "YearFormed": 1970,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Beatles",
-            "CleanedArtist": "the-beatles",
-            "Location": "Liverpool, England",
-            "YearFormed": 1960,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Cream",
-            "CleanedArtist": "cream",
-            "Location": "London, England",
-            "YearFormed": 1966,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Radiohead",
-            "CleanedArtist": "radiohead",
-            "Location": "Oxford, England",
-            "YearFormed": 1985,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "David Bowie",
-            "CleanedArtist": "david-bowie",
-            "Location": "London, England",
-            "YearFormed": 1947,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Who",
-            "CleanedArtist": "the-who",
-            "Location": "London, England",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Coldplay",
-            "CleanedArtist": "coldplay",
-            "Location": "London, England",
-            "YearFormed": 1997,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Muse",
-            "CleanedArtist": "muse",
-            "Location": "Devon, England",
-            "YearFormed": 1994,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Supertramp",
-            "CleanedArtist": "supertramp",
-            "Location": "London, England",
-            "YearFormed": 1969,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Ozzy Osbourne",
-            "CleanedArtist": "ozzy-osbourne",
-            "Location": "Birmingham, England",
-            "YearFormed": 1948,
-            "Genre": "Metal",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Dire Straits",
-            "CleanedArtist": "dire-straits",
-            "Location": "London, England",
-            "YearFormed": 1977,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Sting",
-            "CleanedArtist": "sting",
-            "Location": "Newcastle, England",
-            "YearFormed": 1951,
-            "Genre": "1951",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Rolling Stones",
-            "CleanedArtist": "the-rolling-stones",
-            "Location": "London, England",
-            "YearFormed": 1962,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Jeff Beck",
-            "CleanedArtist": "jeff-beck",
-            "Location": "Surrey, England",
-            "YearFormed": 1944,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Blind Faith",
-            "CleanedArtist": "blind-faith",
-            "Location": "London, England",
-            "YearFormed": 1968,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Steve Winwood",
-            "CleanedArtist": "steve-winwood",
-            "Location": "Birmingham, England",
-            "YearFormed": 1948,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Wings",
-            "CleanedArtist": "wings",
-            "Location": "Liverpool, England",
-            "YearFormed": 1942,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Paul McCartney",
-            "CleanedArtist": "paul-mccartney",
-            "Location": "Liverpool, England",
-            "YearFormed": 1942,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Traffic",
-            "CleanedArtist": "traffic",
-            "Location": "Birmingham, England",
-            "YearFormed": 1967,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Verve",
-            "CleanedArtist": "the-verve",
-            "Location": "Manchester, England",
-            "YearFormed": 1989,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The La's",
-            "CleanedArtist": "the-las",
-            "Location": "Liverpool, England",
-            "YearFormed": 1983,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Genesis",
-            "CleanedArtist": "genesis",
-            "Location": "Surrey, England",
-            "YearFormed": 1967,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Amy Winehouse",
-            "CleanedArtist": "amy-winehouse",
-            "Location": "London, England",
-            "YearFormed": 1983,
-            "Genre": "R&B/Soul",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Zutons",
-            "CleanedArtist": "the-zutons",
-            "Location": "Liverpool, England",
-            "YearFormed": 2001,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Mark Ronson",
-            "CleanedArtist": "mark-ronson",
-            "Location": "London, England",
-            "YearFormed": 1975,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Eurythmics",
-            "CleanedArtist": "eurythmics",
-            "Location": "London, England",
-            "YearFormed": 1980,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Dave Stewart",
-            "CleanedArtist": "dave-stewart",
-            "Location": "Sunderland, England",
-            "YearFormed": 1952,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Moody Blues",
-            "CleanedArtist": "the-moody-blues",
-            "Location": "Birmingham, England",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Animals",
-            "CleanedArtist": "the-animals",
-            "Location": "Newcastle Upon Tyne, England",
-            "YearFormed": 1962,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "David Gray",
-            "CleanedArtist": "david-gray",
-            "Location": "Cheshire, England",
-            "YearFormed": 1968,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Police",
-            "CleanedArtist": "the-police",
-            "Location": "London, England",
-            "YearFormed": 1977,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Oasis",
-            "CleanedArtist": "oasis",
-            "Location": "Manchester, England",
-            "YearFormed": 1991,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Free",
-            "CleanedArtist": "free",
-            "Location": "London, England",
-            "YearFormed": 1968,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Black Sabbath",
-            "CleanedArtist": "black-sabbath",
-            "Location": "Birmingham, England",
-            "YearFormed": 1968,
-            "Genre": "Metal",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Depeche Mode",
-            "CleanedArtist": "depeche-mode",
-            "Location": "Essex, England",
-            "YearFormed": 1980,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Cure",
-            "CleanedArtist": "the-cure",
-            "Location": "West Sussex, England",
-            "YearFormed": 1977,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Jack Savoretti",
-            "CleanedArtist": "jack-savoretti",
-            "Location": "London, England",
-            "YearFormed": 1983,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Yusuf / Cat Stevens",
-            "CleanedArtist": "yusuf-cat-stevens",
-            "Location": "London, England",
-            "YearFormed": 1948,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "America, George Martin",
-            "CleanedArtist": "america-george-martin",
-            "Location": "London, England",
-            "YearFormed": 1970,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Elton John",
-            "CleanedArtist": "elton-john",
-            "Location": "Middlesex, England",
-            "YearFormed": 1947,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Mumford & Sons",
-            "CleanedArtist": "mumford-sons",
-            "Location": "London, England",
-            "YearFormed": 2007,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "John Lennon, Yoko Ono",
-            "CleanedArtist": "john-lennon-yoko-ono",
-            "Location": "Liverpool, England",
-            "YearFormed": 1940,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Blur",
-            "CleanedArtist": "blur",
-            "Location": "Essex, England",
-            "YearFormed": 1990,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Ben Howard",
-            "CleanedArtist": "ben-howard",
-            "Location": "London, England",
-            "YearFormed": 1987,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "George Harrison",
-            "CleanedArtist": "george-harrison",
-            "Location": "Liverpool, England",
-            "YearFormed": 1943,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Clash",
-            "CleanedArtist": "the-clash",
-            "Location": "London, England",
-            "YearFormed": 1976,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Adele",
-            "CleanedArtist": "adele",
-            "Location": "London, England",
-            "YearFormed": 1988,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Dusty Springfield",
-            "CleanedArtist": "dusty-springfield",
-            "Location": "London, England",
-            "YearFormed": 1939,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Birdy",
-            "CleanedArtist": "birdy",
-            "Location": "Hampshire, England",
-            "YearFormed": 1996,
-            "Genre": "Alternative",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "James Morrison",
-            "CleanedArtist": "james-morrison",
-            "Location": "Warwickshire, England",
-            "YearFormed": 1984,
-            "Genre": "Pop",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "John Lennon",
-            "CleanedArtist": "john-lennon",
-            "Location": "Liverpool, England",
-            "YearFormed": 1940,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Iron Maiden",
-            "CleanedArtist": "iron-maiden",
-            "Location": "London, England",
-            "YearFormed": 1975,
-            "Genre": "Metal",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Peter Frampton",
-            "CleanedArtist": "peter-frampton",
-            "Location": "Kent, England",
-            "YearFormed": 1950,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Kinks",
-            "CleanedArtist": "the-kinks",
-            "Location": "London, England",
-            "YearFormed": 1964,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "The Hollies",
-            "CleanedArtist": "the-hollies",
-            "Location": "Manchester, England",
-            "YearFormed": 1963,
-            "Genre": "Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Massive Attack",
-            "CleanedArtist": "massive-attack",
-            "Location": "Bristol, England",
-            "YearFormed": 1988,
-            "Genre": "Electronic",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Deep Purple",
-            "CleanedArtist": "deep-purple",
-            "Location": "Hertford, England",
-            "YearFormed": 1968,
-            "Genre": "Hard Rock",
-            "Emoji": "🇬🇧"
-        },
-        {
-            "Artist": "Slash",
-            "CleanedArtist": "slash",
-            "Location": "London, England",
-            "YearFormed": 1965,
-            "Genre": "Hard Rock",
-            "Emoji": "🇬🇧"
-        }
-    ],
-    "burma": [
-        {
-            "Artist": "Nick Drake",
-            "CleanedArtist": "nick-drake",
-            "Location": "Rangoon, Burma",
-            "YearFormed": 1948,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇲🇲"
-        }
-    ],
-    "australia": [
-        {
-            "Artist": "Tommy Emmanuel",
-            "CleanedArtist": "tommy-emmanuel",
-            "Location": "Muswellbrook, Australia",
-            "YearFormed": 1955,
-            "Genre": "Jazz",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "Pendulum",
-            "CleanedArtist": "pendulum",
-            "Location": "Perth, Australia",
-            "YearFormed": 2002,
-            "Genre": "Electronic",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "Sam Sparro",
-            "CleanedArtist": "sam-sparro",
-            "Location": "Sydney, Australia",
-            "YearFormed": 1982,
-            "Genre": "Pop",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "Tones And I",
-            "CleanedArtist": "tones-and-i",
-            "Location": "Victoria, Australia",
-            "YearFormed": 1993,
-            "Genre": "Alternative",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "AC/DC",
-            "CleanedArtist": "ac-dc",
-            "Location": "Sydney, Australia",
-            "YearFormed": 1973,
-            "Genre": "Hard Rock",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "Vance Joy",
-            "CleanedArtist": "vance-joy",
-            "Location": "Melbourne, Australia",
-            "YearFormed": 1987,
-            "Genre": "Alternative",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "Otis Redding",
-            "CleanedArtist": "otis-redding",
-            "Location": "Melbourne, Australia",
-            "YearFormed": 1987,
-            "Genre": "Alternative",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "Wolfmother",
-            "CleanedArtist": "wolfmother",
-            "Location": "Sydney, Australia",
-            "YearFormed": 2003,
-            "Genre": "Hard Rock",
-            "Emoji": "🇦🇺"
-        },
-        {
-            "Artist": "INXS",
-            "CleanedArtist": "inxs",
-            "Location": "Sydney, Australia",
-            "YearFormed": 1977,
-            "Genre": "Rock",
-            "Emoji": "🇦🇺"
-        }
-    ],
-    "ireland": [
-        {
-            "Artist": "Van Morrison",
-            "CleanedArtist": "van-morrison",
-            "Location": "Belfast, North Ireland",
-            "YearFormed": 1945,
-            "Genre": "Rock",
-            "Emoji": "🇮🇪"
-        },
-        {
-            "Artist": "U2",
-            "CleanedArtist": "u2",
-            "Location": "Dublin, Ireland",
-            "YearFormed": 1976,
-            "Genre": "Rock",
-            "Emoji": "🇮🇪"
-        },
-        {
-            "Artist": "Rory Gallagher",
-            "CleanedArtist": "rory-gallagher",
-            "Location": "Donegal, Ireland",
-            "YearFormed": 1948,
-            "Genre": "Rock",
-            "Emoji": "🇮🇪"
-        },
-        {
-            "Artist": "Hozier",
-            "CleanedArtist": "hozier",
-            "Location": "County Wicklow, Ireland",
-            "YearFormed": 1990,
-            "Genre": "Alternative",
-            "Emoji": "🇮🇪"
-        },
-        {
-            "Artist": "Damien Rice",
-            "CleanedArtist": "damien-rice",
-            "Location": "Dublin, Ireland",
-            "YearFormed": 1973,
-            "Genre": "Singer/Songwriter",
-            "Emoji": "🇮🇪"
-        },
-        {
-            "Artist": "The Cranberries",
-            "CleanedArtist": "the-cranberries",
-            "Location": "Limerick, Ireland",
-            "YearFormed": 1989,
-            "Genre": "Rock",
-            "Emoji": "🇮🇪"
-        }
-    ],
-    "spain": [
-        {
-            "Artist": "Francisco Tárrega",
-            "CleanedArtist": "francisco-tarrega",
-            "Location": "Castellón, Spain",
-            "YearFormed": 1852,
-            "Genre": "Classical",
-            "Emoji": "🇪🇸"
-        },
-        {
-            "Artist": "Fernando Sor",
-            "CleanedArtist": "fernando-sor",
-            "Location": "Barcelona, Spain",
-            "YearFormed": 1778,
-            "Genre": "Classical",
-            "Emoji": "🇪🇸"
-        },
-        {
-            "Artist": "Unknown",
-            "CleanedArtist": "unknown",
-            "Location": "Places, Spain",
-            "YearFormed": 1900,
-            "Genre": "Classical",
-            "Emoji": "🇪🇸"
-        },
-        {
-            "Artist": "Isaac Albéniz",
-            "CleanedArtist": "isaac-albeniz",
-            "Location": "Camprodon, Spain",
-            "YearFormed": 1860,
-            "Genre": "Classical",
-            "Emoji": "🇪🇸"
-        },
-        {
-            "Artist": "Gaspar Sanz",
-            "CleanedArtist": "gaspar-sanz",
-            "Location": "Calanda, Spain",
-            "YearFormed": 1640,
-            "Genre": "Classical",
-            "Emoji": "🇪🇸"
-        }
-    ],
-    "italy": [
-        {
-            "Artist": "Matteo Carcassi",
-            "CleanedArtist": "matteo-carcassi",
-            "Location": "Florence, Italy",
-            "YearFormed": 1792,
-            "Genre": "Classical",
-            "Emoji": "🇮🇹"
-        }
-    ],
-    "france": [
-        {
-            "Artist": "Édith Piaf",
-            "CleanedArtist": "edith-piaf",
-            "Location": "Paris, France",
-            "YearFormed": 1915,
-            "Genre": "Pop",
-            "Emoji": "🇫🇷"
-        },
-        {
-            "Artist": "Claude Debussy",
-            "CleanedArtist": "claude-debussy",
-            "Location": "Saint-Germain-en-Laye, France",
-            "YearFormed": 1862,
-            "Genre": "Classical",
-            "Emoji": "🇫🇷"
-        },
-        {
-            "Artist": "Jacques Prevert",
-            "CleanedArtist": "jacques-prevert",
-            "Location": "Neuilly-sur-Seine, France",
-            "YearFormed": 1900,
-            "Genre": "Soundtrack",
-            "Emoji": "🇫🇷"
-        }
-    ],
-    "jamaica": [
-        {
-            "Artist": "Bob Marley",
-            "CleanedArtist": "bob-marley",
-            "Location": "Kingston, Jamaica",
-            "YearFormed": 1945,
-            "Genre": "Reggae",
-            "Emoji": "🇯🇲"
-        },
-        {
-            "Artist": "Bob Marley & The Wailers",
-            "CleanedArtist": "bob-marley-the-wailers",
-            "Location": "Kingston, Jamaica",
-            "YearFormed": 1963,
-            "Genre": "Reggae",
-            "Emoji": "🇯🇲"
-        }
-    ],
-    "belgium": [
-        {
-            "Artist": "Goyte",
-            "CleanedArtist": "goyte",
-            "Location": "Bruges, Belgium",
-            "YearFormed": 1980,
-            "Genre": "Alternative",
-            "Emoji": "🇧🇪"
-        }
-    ],
-    "scotland": [
-        {
-            "Artist": "Annie Lennox",
-            "CleanedArtist": "annie-lennox",
-            "Location": "Aberdeen, Scotland",
-            "YearFormed": 1954,
-            "Genre": "Pop",
-            "Emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-        },
-        {
-            "Artist": "The Proclaimers",
-            "CleanedArtist": "the-proclaimers",
-            "Location": "Leith, Scotland",
-            "YearFormed": 1983,
-            "Genre": "Rock",
-            "Emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-        }
-    ],
-    "germany": [
-        {
-            "Artist": "Johann Sebastian Bach",
-            "CleanedArtist": "johann-sebastian-bach",
-            "Location": "Eisenbach, Germany",
-            "YearFormed": 1685,
-            "Genre": "Classical",
-            "Emoji": "🇩🇪"
-        },
-        {
-            "Artist": "Joe Filisko",
-            "CleanedArtist": "joe-filisko",
-            "Location": "Giessen, Germany",
-            "YearFormed": 1990,
-            "Genre": "Blues",
-            "Emoji": "🇩🇪"
-        },
-        {
-            "Artist": "Tom Batoy",
-            "CleanedArtist": "tom-batoy",
-            "Location": "Bavaria, Germany",
-            "YearFormed": 1972,
-            "Genre": "Pop",
-            "Emoji": "🇩🇪"
-        },
-        {
-            "Artist": "Franco Tortora",
-            "CleanedArtist": "franco-tortora",
-            "Location": "Bavaria, Germany",
-            "YearFormed": 1961,
-            "Genre": "Pop",
-            "Emoji": "🇩🇪"
-        },
-        {
-            "Artist": "Ludwig Van Beethoven",
-            "CleanedArtist": "ludwig-van-beethoven",
-            "Location": "Bonn, Germany",
-            "YearFormed": 1770,
-            "Genre": "Germany",
-            "Emoji": "🇩🇪"
-        }
-    ],
-    "ukraine": [
-        {
-            "Artist": "Mykola Leontovych",
-            "CleanedArtist": "mykola-leontovych",
-            "Location": "Monastyrok, Ukraine",
-            "YearFormed": 1877,
-            "Genre": "Classical",
-            "Emoji": "🇺🇦"
-        }
-    ],
-    "the-netherlands": [
-        {
-            "Artist": "Eddie Van Halen",
-            "CleanedArtist": "eddie-van-halen",
-            "Location": "Amsterdam, The Netherlands",
-            "YearFormed": 1955,
-            "Genre": "Hard Rock",
-            "Emoji": "🇳🇱"
-        }
-    ],
-    "norway": [
-        {
-            "Artist": "A-Ha",
-            "CleanedArtist": "a-ha",
-            "Location": "Oslo, Norway",
-            "YearFormed": 1983,
-            "Genre": "Pop",
-            "Emoji": "🇳🇴"
-        }
-    ],
-    "paraguay": [
-        {
-            "Artist": "Agustín Barrios Mangoré",
-            "CleanedArtist": "agustin-barrios-mangore",
-            "Location": "San Juan Bautista, Paraguay",
-            "YearFormed": 1885,
-            "Genre": "Classical",
-            "Emoji": "🇵🇾"
-        }
-    ],
-    "puerto-rico": [
-        {
-            "Artist": "José Feliciano",
-            "CleanedArtist": "jose-feliciano",
-            "Location": "Lares, Puerto Rico",
-            "YearFormed": 1945,
-            "Genre": "Pop",
-            "Emoji": "🇵🇷"
-        }
-    ],
-    "japan": [
-        {
-            "Artist": "Koji Kondo",
-            "CleanedArtist": "koji-kondo",
-            "Location": "Aichi, Japan",
-            "YearFormed": 1961,
-            "Genre": "Soundtrack",
-            "Emoji": "🇯🇵"
-        }
-    ],
-    "israel": [
-        {
-            "Artist": "Shuki Levy",
-            "CleanedArtist": "shuki-levy",
-            "Location": "Tel Aviv-Yafo, Israel",
-            "YearFormed": 1947,
-            "Genre": "Soundtrack",
-            "Emoji": "🇮🇱"
-        }
-    ],
-    "egypt": [
-        {
-            "Artist": "Haim Saban",
-            "CleanedArtist": "haim-saban",
-            "Location": "Alexandria, Egypt",
-            "YearFormed": 1944,
-            "Genre": "Soundtrack",
-            "Emoji": "🇪🇬"
-        }
-    ],
-    "hungary": [
-        {
-            "Artist": "Joseph Kosma",
-            "CleanedArtist": "joseph-kosma",
-            "Location": "Budapest, Hungary",
-            "YearFormed": 1905,
-            "Genre": "Soundtrack",
-            "Emoji": "🇭🇺"
-        }
-    ],
-    "wales": [
-        {
-            "Artist": "Tom Jones",
-            "CleanedArtist": "tom-jones",
-            "Location": "Pontypridd, Wales",
-            "YearFormed": 1940,
-            "Genre": "Pop",
-            "Emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
-        }
-    ],
-    "cyprus": [
-        {
-            "Artist": "Leon Redbone",
-            "CleanedArtist": "leon-redbone",
-            "Location": "Nicosia, Cyprus",
-            "YearFormed": 1949,
-            "Genre": "Blues",
-            "Emoji": "🇨🇾"
-        }
-    ]
+    "earth": {
+        "name": "Earth",
+        "numOfArtists": 2,
+        "emoji": "🌎",
+        "artists": [
+            {
+                "Artist": "Various Artists",
+                "CleanedArtist": "various-artists",
+                "Location": "Places, Earth",
+                "YearFormed": 1960,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Nursery Rhyme",
+                "CleanedArtist": "nursery-rhyme",
+                "Location": "Places, Earth",
+                "YearFormed": 1940,
+                "Genre": "Soundtrack"
+            }
+        ]
+    },
+    "canada": {
+        "name": "Canada",
+        "numOfArtists": 27,
+        "emoji": "🇨🇦",
+        "artists": [
+            {
+                "Artist": "Corey Heuvel",
+                "CleanedArtist": "corey-heuvel",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1990,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Joni Mitchell",
+                "CleanedArtist": "joni-mitchell",
+                "Location": "Alberta, Canada",
+                "YearFormed": 1943,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Michael Bublé",
+                "CleanedArtist": "michael-buble",
+                "Location": "Burnaby, Canada",
+                "YearFormed": 1975,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Neil Young",
+                "CleanedArtist": "neil-young",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1945,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Alanis Morissette",
+                "CleanedArtist": "alanis-morissette",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1974,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "The Band",
+                "CleanedArtist": "the-band",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Kiesza",
+                "CleanedArtist": "kiesza",
+                "Location": "Alberta, Canada",
+                "YearFormed": 1989,
+                "Genre": "Electronic"
+            },
+            {
+                "Artist": "The Jeff Healey Band",
+                "CleanedArtist": "the-jeff-healey-band",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1966,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Leonard Cohen",
+                "CleanedArtist": "leonard-cohen",
+                "Location": "Quebec, Canada",
+                "YearFormed": 1934,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Jesse Cook",
+                "CleanedArtist": "jesse-cook",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1964,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Rush",
+                "CleanedArtist": "rush",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1968,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Amanda Marshall",
+                "CleanedArtist": "amanda-marshall",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1972,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Colin James",
+                "CleanedArtist": "colin-james",
+                "Location": "Saskatchewan, Canada",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Bruce Cockburn",
+                "CleanedArtist": "bruce-cockburn",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1945,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Shania Twain",
+                "CleanedArtist": "shania-twain",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1965,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "David Wilcox",
+                "CleanedArtist": "david-wilcox",
+                "Location": "Quebec, Canada",
+                "YearFormed": 1949,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Blue Rodeo",
+                "CleanedArtist": "blue-rodeo",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1984,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Rein Rutnik",
+                "CleanedArtist": "rein-rutnik",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1990,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Bryan Adams",
+                "CleanedArtist": "bryan-adams",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1959,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Great Big Sea",
+                "CleanedArtist": "great-big-sea",
+                "Location": "Newfoundland, Canada",
+                "YearFormed": 1993,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "The Tragically Hip",
+                "CleanedArtist": "the-tragically-hip",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1983,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Doucette",
+                "CleanedArtist": "doucette",
+                "Location": "Quebec, Canada",
+                "YearFormed": 1951,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Kim Mitchell",
+                "CleanedArtist": "kim-mitchell",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1952,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Nickelback",
+                "CleanedArtist": "nickelback",
+                "Location": "Alberta, Canada",
+                "YearFormed": 1995,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Gordon Lightfoot",
+                "CleanedArtist": "gordon-lightfoot",
+                "Location": "Ontario, Canada",
+                "YearFormed": 1938,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Moist",
+                "CleanedArtist": "moist",
+                "Location": "Vancouver, Canada",
+                "YearFormed": 2005,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Bachman-Turner Overdrive",
+                "CleanedArtist": "bachman-turner-overdrive",
+                "Location": "Manitoba, Canada",
+                "YearFormed": 1970,
+                "Genre": "Rock"
+            }
+        ]
+    },
+    "united-states": {
+        "name": "United States",
+        "numOfArtists": 206,
+        "emoji": "🇺🇸",
+        "artists": [
+            {
+                "Artist": "Jeff Buckley",
+                "CleanedArtist": "jeff-buckley",
+                "Location": "Anaheim, California",
+                "YearFormed": 1966,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Eddie Vedder",
+                "CleanedArtist": "eddie-vedder",
+                "Location": "Evanston, Illinois",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Big Bill Broonzy",
+                "CleanedArtist": "big-bill-broonzy",
+                "Location": "Scott, Mississippi",
+                "YearFormed": 1893,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Incubus",
+                "CleanedArtist": "incubus",
+                "Location": "Calabasas, California",
+                "YearFormed": 1991,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Lindsey Buckingham",
+                "CleanedArtist": "lindsey-buckingham",
+                "Location": "Palo Alto, California",
+                "YearFormed": 1949,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "John Mayer",
+                "CleanedArtist": "john-mayer",
+                "Location": "Bridgeport, Connecticut",
+                "YearFormed": 1977,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Flo Rida, T-Pain",
+                "CleanedArtist": "flo-rida-t-pain",
+                "Location": "Miami Gardens, Florida",
+                "YearFormed": 1979,
+                "Genre": "Hip-Hop/Rap"
+            },
+            {
+                "Artist": "Michael Jackson",
+                "CleanedArtist": "michael-jackson",
+                "Location": "Gary, Indiana",
+                "YearFormed": 1958,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Stevie Wonder",
+                "CleanedArtist": "stevie-wonder",
+                "Location": "Saginaw, Michigan",
+                "YearFormed": 1950,
+                "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "Bob Dylan",
+                "CleanedArtist": "bob-dylan",
+                "Location": "Duluth, Minnesota",
+                "YearFormed": 1941,
+                "Genre": "Folk"
+            },
+            {
+                "Artist": "Eric Johnson",
+                "CleanedArtist": "eric-johnson",
+                "Location": "Austin, Texas",
+                "YearFormed": 1954,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Stevie Ray Vaughan",
+                "CleanedArtist": "stevie-ray-vaughan",
+                "Location": "Dallas, Texas",
+                "YearFormed": 1954,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Joe Satriani",
+                "CleanedArtist": "joe-satriani",
+                "Location": "Westbury, New York",
+                "YearFormed": 1956,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Jimi Hendrix",
+                "CleanedArtist": "jimi-hendrix",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1942,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Gnarls Barkley",
+                "CleanedArtist": "gnarls-barkley",
+                "Location": "Atlanta, Georgia",
+                "YearFormed": 2006,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Ray LaMontagne",
+                "CleanedArtist": "ray-lamontagne",
+                "Location": "Nashua, New Hampshire",
+                "YearFormed": 1973,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Patrick Watson",
+                "CleanedArtist": "patrick-watson",
+                "Location": "Lancaster, California",
+                "YearFormed": 1979,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Steve Miller Band",
+                "CleanedArtist": "steve-miller-band",
+                "Location": "San Francisco, California",
+                "YearFormed": 1966,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Justin Timberlake ft. JAY-Z",
+                "CleanedArtist": "justin-timberlake-ft-jay-z",
+                "Location": "Memphis, Tennessee",
+                "YearFormed": 1981,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Crosby, Stills, Nash & Young",
+                "CleanedArtist": "crosby-stills-nash-young",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1969,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Heart",
+                "CleanedArtist": "heart",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1973,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Goo Goo Dolls",
+                "CleanedArtist": "the-goo-goo-dolls",
+                "Location": "Buffalo, New York",
+                "YearFormed": 1986,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Jim Croce",
+                "CleanedArtist": "jim-croce",
+                "Location": "Philadelphia, Pennsylvania",
+                "YearFormed": 1943,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Vanessa Carlton",
+                "CleanedArtist": "vanessa-carlton",
+                "Location": "Milford, Pennsylvania",
+                "YearFormed": 1980,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Ariana Grande ft. Zedd",
+                "CleanedArtist": "ariana-grande-ft-zedd",
+                "Location": "Boca Raton, Florida",
+                "YearFormed": 1993,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Kansas",
+                "CleanedArtist": "kansas",
+                "Location": "Topeka, Kansas",
+                "YearFormed": 1973,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Steely Dan",
+                "CleanedArtist": "steely-dan",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1972,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Lyle Lovett",
+                "CleanedArtist": "lyle-lovett",
+                "Location": "Klein, Texas",
+                "YearFormed": 1957,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Doyle Bramhall",
+                "CleanedArtist": "doyle-bramhall",
+                "Location": "Dallas, Texas",
+                "YearFormed": 1949,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Bruce Springsteen",
+                "CleanedArtist": "bruce-springsteen",
+                "Location": "Long Branch, New Jersey",
+                "YearFormed": 1949,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Bo Diddley",
+                "CleanedArtist": "bo-diddley",
+                "Location": "McComb, Mississippi",
+                "YearFormed": 1928,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Stone Temple Pilots",
+                "CleanedArtist": "stone-temple-pilots",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1990,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Tracy Chapman",
+                "CleanedArtist": "tracy-chapman",
+                "Location": "Cleveland, Ohio",
+                "YearFormed": 1964,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Sublime",
+                "CleanedArtist": "sublime",
+                "Location": "Long Beach, California",
+                "YearFormed": 1988,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Third Eye Blind",
+                "CleanedArtist": "third-eye-blind",
+                "Location": "San Francisco, California",
+                "YearFormed": 1993,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Blackstreet",
+                "CleanedArtist": "blackstreet",
+                "Location": "New York, New York",
+                "YearFormed": 1991,
+                "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "Robert Johnson",
+                "CleanedArtist": "robert-johnson",
+                "Location": "Hazlehurst, Mississippi",
+                "YearFormed": 1911,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "The Black Keys",
+                "CleanedArtist": "the-black-keys",
+                "Location": "Akron, Ohio",
+                "YearFormed": 2001,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Soundgarden",
+                "CleanedArtist": "soundgarden",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1984,
+                "Genre": "Grunge"
+            },
+            {
+                "Artist": "Bob Seger",
+                "CleanedArtist": "bob-seger",
+                "Location": "Detroit, Michigan",
+                "YearFormed": 1945,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Leaves",
+                "CleanedArtist": "the-leaves",
+                "Location": "San Fernando Valley, California",
+                "YearFormed": 1963,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Billy Roberts",
+                "CleanedArtist": "billy-roberts",
+                "Location": "Greenville, South Carolina",
+                "YearFormed": 1936,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Porter Wagoner",
+                "CleanedArtist": "porter-wagoner",
+                "Location": "West Plains, Missouri",
+                "YearFormed": 1927,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Red Hayes",
+                "CleanedArtist": "red-hayes",
+                "Location": "Garden Valley, Texas",
+                "YearFormed": 1926,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Hank Williams",
+                "CleanedArtist": "hank-williams",
+                "Location": "Butler County, Alabama",
+                "YearFormed": 1923,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Leon Payne",
+                "CleanedArtist": "leon-payne",
+                "Location": "Alba, Texas",
+                "YearFormed": 1917,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Red Hot Chili Peppers",
+                "CleanedArtist": "red-hot-chili-peppers",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1983,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "The Doors",
+                "CleanedArtist": "the-doors",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1965,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Ray Charles",
+                "CleanedArtist": "ray-charles",
+                "Location": "Albany, Georgia",
+                "YearFormed": 1930,
+                "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "Nick Ashford",
+                "CleanedArtist": "nick-ashford",
+                "Location": "Fairfield, South Carolina",
+                "YearFormed": 1942,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "John Scofield",
+                "CleanedArtist": "john-scofield",
+                "Location": "Dayton, Ohio",
+                "YearFormed": 1951,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Frank Sinatra",
+                "CleanedArtist": "frank-sinatra",
+                "Location": "Hoboken, New Jersey",
+                "YearFormed": 1915,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Marion Montgomery",
+                "CleanedArtist": "marion-montgomery",
+                "Location": "Natchez, Mississippi",
+                "YearFormed": 1934,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Queens of the Stone Age",
+                "CleanedArtist": "queens-of-the-stone-age",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1996,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Doyle Bramhall II, Smokestack",
+                "CleanedArtist": "doyle-bramhall-ii-smokestack",
+                "Location": "Dallas, Texas",
+                "YearFormed": 1968,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Pearl Jam",
+                "CleanedArtist": "pearl-jam",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1990,
+                "Genre": "Grunge"
+            },
+            {
+                "Artist": "Billy Strings",
+                "CleanedArtist": "billy-strings",
+                "Location": "Lansing, Michigan",
+                "YearFormed": 1992,
+                "Genre": "Bluegrass"
+            },
+            {
+                "Artist": "Buddy Guy",
+                "CleanedArtist": "buddy-guy",
+                "Location": "Lettsworth, Louisiana",
+                "YearFormed": 1936,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Joe Walsh",
+                "CleanedArtist": "joe-walsh",
+                "Location": "Wichita, Kansas",
+                "YearFormed": 1947,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Pantera",
+                "CleanedArtist": "pantera",
+                "Location": "Arlington, Texas",
+                "YearFormed": 1982,
+                "Genre": "Metal"
+            },
+            {
+                "Artist": "Beck",
+                "CleanedArtist": "beck",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1970,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Kenny Wayne Shepherd",
+                "CleanedArtist": "kenny-wayne-shepherd",
+                "Location": "Bossier City, Louisiana",
+                "YearFormed": 1977,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Crosby, Stills & Nash",
+                "CleanedArtist": "crosby-stills-nash",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1969,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Elliott Smith",
+                "CleanedArtist": "elliott-smith",
+                "Location": "Omaha, Nebraska",
+                "YearFormed": 1969,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Moby",
+                "CleanedArtist": "moby",
+                "Location": "New York, New York",
+                "YearFormed": 1965,
+                "Genre": "Electronic"
+            },
+            {
+                "Artist": "Vera Hall",
+                "CleanedArtist": "vera-hall",
+                "Location": "Livingston, Alabama",
+                "YearFormed": 1902,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Creedence Clearwater Revival",
+                "CleanedArtist": "creedence-clearwater-revival",
+                "Location": "El Cerrito, California",
+                "YearFormed": 1959,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Sixpence None The Richer",
+                "CleanedArtist": "sixpence-none-the-richer",
+                "Location": "New Braunfels, Texas",
+                "YearFormed": 1993,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Anne Bredon",
+                "CleanedArtist": "anne-bredon",
+                "Location": "Berkeley, California",
+                "YearFormed": 1930,
+                "Genre": "Folk"
+            },
+            {
+                "Artist": "Lead Belly",
+                "CleanedArtist": "lead-belly",
+                "Location": "Mooringsport, Louisiana",
+                "YearFormed": 1888,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Robert Petway",
+                "CleanedArtist": "robert-petway",
+                "Location": "Yazoo City, Mississippi",
+                "YearFormed": 1908,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Beyoncé, JAY-Z",
+                "CleanedArtist": "beyonce-jay-z",
+                "Location": "Houston, Texas",
+                "YearFormed": 1981,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Velvet Revolver",
+                "CleanedArtist": "velvet-revolver",
+                "Location": "Rancho Santa Margarita, California",
+                "YearFormed": 2002,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Chris Whitley",
+                "CleanedArtist": "chris-whitley",
+                "Location": "Houston, Texas",
+                "YearFormed": 1960,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Smashing Pumpkins",
+                "CleanedArtist": "the-smashing-pumpkins",
+                "Location": "Chicago, Illinois",
+                "YearFormed": 1988,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "The Doobie Brothers",
+                "CleanedArtist": "the-doobie-brothers",
+                "Location": "San Jose, California",
+                "YearFormed": 1970,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Grateful Dead",
+                "CleanedArtist": "grateful-dead",
+                "Location": "Palo Alto, California",
+                "YearFormed": 1965,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Roy Orbison",
+                "CleanedArtist": "roy-orbison",
+                "Location": "Vernon, Texas",
+                "YearFormed": 1936,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Smash Mouth",
+                "CleanedArtist": "smash-mouth",
+                "Location": "San Jose, California",
+                "YearFormed": 1994,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "John Frusciante",
+                "CleanedArtist": "john-frusciante",
+                "Location": "New York, New York",
+                "YearFormed": 1970,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Nina Simone",
+                "CleanedArtist": "nina-simone",
+                "Location": "Tryon, North Carolina",
+                "YearFormed": 1933,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Big Wreck",
+                "CleanedArtist": "big-wreck",
+                "Location": "Boston, Massachusetts",
+                "YearFormed": 1993,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Jack Johnson",
+                "CleanedArtist": "jack-johnson",
+                "Location": "Oahu, Hawaii",
+                "YearFormed": 1975,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "James Taylor",
+                "CleanedArtist": "james-taylor",
+                "Location": "Boston, Massachusetts",
+                "YearFormed": 1948,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Big Star",
+                "CleanedArtist": "big-star",
+                "Location": "Memphis, Tennessee",
+                "YearFormed": 1971,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Black Crowes",
+                "CleanedArtist": "the-black-crowes",
+                "Location": "Atlanta, Georgia",
+                "YearFormed": 1984,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "George Gershwin",
+                "CleanedArtist": "george-gershwin",
+                "Location": "New York, New York",
+                "YearFormed": 1898,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Ella Fitzgerald",
+                "CleanedArtist": "ella-fitzgerald",
+                "Location": "Newport News, Virginia",
+                "YearFormed": 1917,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "The Killers",
+                "CleanedArtist": "the-killers",
+                "Location": "Las Vegas, Nevada",
+                "YearFormed": 2001,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Allman Brothers Band",
+                "CleanedArtist": "allman-brothers-band",
+                "Location": "Jacksonville, Florida",
+                "YearFormed": 1969,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Danny Elfman",
+                "CleanedArtist": "danny-elfman",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1953,
+                "Genre": "Soundtrack"
+            },
+            {
+                "Artist": "Robbie Basho",
+                "CleanedArtist": "robbie-basho",
+                "Location": "Baltimore, Maryland",
+                "YearFormed": 1940,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Arborea",
+                "CleanedArtist": "arborea",
+                "Location": "Lewiston, Maine",
+                "YearFormed": 2005,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Larry Davis",
+                "CleanedArtist": "larry-davis",
+                "Location": "Kansas City, Missouri",
+                "YearFormed": 1936,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Metallica",
+                "CleanedArtist": "metallica",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1981,
+                "Genre": "Metal"
+            },
+            {
+                "Artist": "Van Halen",
+                "CleanedArtist": "van-halen",
+                "Location": "Pasadena, California",
+                "YearFormed": 1972,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Chuck Berry",
+                "CleanedArtist": "chuck-berry",
+                "Location": "St. Louis, Missouri",
+                "YearFormed": 1926,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Blue Öyster Cult",
+                "CleanedArtist": "blue-oyster-cult",
+                "Location": "Stony Brook, New York",
+                "YearFormed": 1967,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "ZZ Top",
+                "CleanedArtist": "zz-top",
+                "Location": "Houston, Texas",
+                "YearFormed": 1969,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Jonny Lang",
+                "CleanedArtist": "jonny-lang",
+                "Location": "Fargo, North Dakota",
+                "YearFormed": 1981,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Foo Fighters",
+                "CleanedArtist": "foo-fighters",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1994,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Eagles",
+                "CleanedArtist": "the-eagles",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1971,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Santo & Johnny",
+                "CleanedArtist": "santo-johnny",
+                "Location": "Brooklyn, New York",
+                "YearFormed": 1959,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Betsy Brye",
+                "CleanedArtist": "betsy-brye",
+                "Location": "Richmond, Virginia",
+                "YearFormed": 1932,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Matchbox Twenty",
+                "CleanedArtist": "matchbox-twenty",
+                "Location": "Orlando, Florida",
+                "YearFormed": 1995,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Sonny Boy Williamson II",
+                "CleanedArtist": "sonny-boy-williamson-ii",
+                "Location": "Glendora, Mississippi",
+                "YearFormed": 1912,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Tom Petty",
+                "CleanedArtist": "tom-petty",
+                "Location": "Gainesville, Florida",
+                "YearFormed": 1950,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Johnny Cash",
+                "CleanedArtist": "johnny-cash",
+                "Location": "Kingsland, Arkansas",
+                "YearFormed": 1932,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Don McLean",
+                "CleanedArtist": "don-mclean",
+                "Location": "New Rochelle, New York",
+                "YearFormed": 1945,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Nirvana",
+                "CleanedArtist": "nirvana",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1987,
+                "Genre": "Grunge"
+            },
+            {
+                "Artist": "Mountain",
+                "CleanedArtist": "mountain",
+                "Location": "Long Island, New York",
+                "YearFormed": 1969,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Canned Heat",
+                "CleanedArtist": "canned-heat",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1965,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "John Brim",
+                "CleanedArtist": "john-brim",
+                "Location": "Hopkinsville, Kentucky",
+                "YearFormed": 1922,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Guns N' Roses",
+                "CleanedArtist": "guns-n-roses",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1985,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "The White Stripes",
+                "CleanedArtist": "the-white-stripes",
+                "Location": "Detroit, Michigan",
+                "YearFormed": 1997,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Dick Dale",
+                "CleanedArtist": "dick-dale",
+                "Location": "Boston, Massachusetts",
+                "YearFormed": 1937,
+                "Genre": "Surf-Rock"
+            },
+            {
+                "Artist": "Paul Gilbert",
+                "CleanedArtist": "paul-gilbert",
+                "Location": "Carbondale, Illinois",
+                "YearFormed": 1966,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Steppenwolf",
+                "CleanedArtist": "steppenwolf",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1961,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Extreme",
+                "CleanedArtist": "extreme",
+                "Location": "Boston, Massachusetts",
+                "YearFormed": 1985,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Audioslave",
+                "CleanedArtist": "audioslave",
+                "Location": "Glendale, California",
+                "YearFormed": 2001,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Alice In Chains",
+                "CleanedArtist": "alice-in-chains",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1987,
+                "Genre": "Grunge"
+            },
+            {
+                "Artist": "Chet Atkins",
+                "CleanedArtist": "chet-atkins",
+                "Location": "Luttrell, Tennessee",
+                "YearFormed": 1924,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "The Chordettes",
+                "CleanedArtist": "the-chordettes",
+                "Location": "Sheboygan, Wisconsin",
+                "YearFormed": 1946,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Chris Cornell",
+                "CleanedArtist": "chris-cornell",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Blind Boy Fuller",
+                "CleanedArtist": "blind-boy-fuller",
+                "Location": "Wadesboro, North Carolina",
+                "YearFormed": 1907,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Rodriguez",
+                "CleanedArtist": "rodriguez",
+                "Location": "Detroit, Michigan",
+                "YearFormed": 1942,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Stephen Stills",
+                "CleanedArtist": "stephen-stills",
+                "Location": "Dallas, Texas",
+                "YearFormed": 1945,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Doc Watson",
+                "CleanedArtist": "doc-watson",
+                "Location": "Deep Gap, North Carolina",
+                "YearFormed": 1923,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Prince",
+                "CleanedArtist": "prince",
+                "Location": "Minneapolis, Minnesota",
+                "YearFormed": 1958,
+                "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "Aerosmith",
+                "CleanedArtist": "aerosmith",
+                "Location": "Boston, Massachusetts",
+                "YearFormed": 1970,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Train",
+                "CleanedArtist": "train",
+                "Location": "San Francisco, California",
+                "YearFormed": 1994,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Steve Vai",
+                "CleanedArtist": "steve-vai",
+                "Location": "Carle Place, New York",
+                "YearFormed": 1960,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "George Thorogood & The Destroyers",
+                "CleanedArtist": "george-thorogood-the-destroyers",
+                "Location": "Newark, Delaware",
+                "YearFormed": 1976,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Boston",
+                "CleanedArtist": "boston",
+                "Location": "Boston, Massachusetts",
+                "YearFormed": 1975,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Linkin Park",
+                "CleanedArtist": "linkin-park",
+                "Location": "Agoura Hills, California",
+                "YearFormed": 1996,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Bukka White",
+                "CleanedArtist": "bukka-white",
+                "Location": "Houston, Mississippi",
+                "YearFormed": 1906,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Trans Siberian Orchestra",
+                "CleanedArtist": "trans-siberian-orchestra",
+                "Location": "Tampa, Florida",
+                "YearFormed": 1996,
+                "Genre": "Holiday"
+            },
+            {
+                "Artist": "Ted Nugent",
+                "CleanedArtist": "ted-nugent",
+                "Location": "Detroit, Michigan",
+                "YearFormed": 1948,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Tool",
+                "CleanedArtist": "tool",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1990,
+                "Genre": "Metal"
+            },
+            {
+                "Artist": "Francis Scott Key",
+                "CleanedArtist": "francis-scott-key",
+                "Location": "Frederick County, Maryland",
+                "YearFormed": 1779,
+                "Genre": "Classical"
+            },
+            {
+                "Artist": "Rage Against The Machine",
+                "CleanedArtist": "rage-against-the-machine",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1991,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "The Offspring",
+                "CleanedArtist": "the-offspring",
+                "Location": "Orange County, California,",
+                "YearFormed": 1984,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Knack",
+                "CleanedArtist": "the-knack",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1978,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Santana",
+                "CleanedArtist": "santana",
+                "Location": "San Francisco, California",
+                "YearFormed": 1966,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Spirit",
+                "CleanedArtist": "spirit",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1967,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Dave Matthews Band",
+                "CleanedArtist": "dave-matthews-band",
+                "Location": "Charlottesville, Virginia",
+                "YearFormed": 1991,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Eva Cassidy",
+                "CleanedArtist": "eva-cassidy",
+                "Location": "Bowie, Maryland",
+                "YearFormed": 1963,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Lynyrd Skynyrd",
+                "CleanedArtist": "lynyrd-skynyrd",
+                "Location": "Jacksonville, Florida",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Mason Williams",
+                "CleanedArtist": "mason-williams",
+                "Location": "Abilene, Texas",
+                "YearFormed": 1938,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Jimmie Cox",
+                "CleanedArtist": "jimmie-cox",
+                "Location": "Richmond, Virginia",
+                "YearFormed": 1882,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Milton Ager & Jack Yellen",
+                "CleanedArtist": "milton-ager-jack-yellen",
+                "Location": "Chicago, Illinois",
+                "YearFormed": 1893,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Mississippi John Hurt",
+                "CleanedArtist": "mississippi-john-hurt",
+                "Location": "Avalon, Mississippi",
+                "YearFormed": 1893,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Semisonic",
+                "CleanedArtist": "semisonic",
+                "Location": "Minneapolis, Minnesota",
+                "YearFormed": 1993,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "P!nk",
+                "CleanedArtist": "p-nk",
+                "Location": "Doylestown, Pennsylvania",
+                "YearFormed": 1979,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Ryan Adams",
+                "CleanedArtist": "ryan-adams",
+                "Location": "Jacksonville, North Carolina",
+                "YearFormed": 1974,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Rusted Root",
+                "CleanedArtist": "rusted-root",
+                "Location": "Pittsburgh, Pennsylvania",
+                "YearFormed": 1990,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Old Crow Medicine Show",
+                "CleanedArtist": "old-crow-medicine-show",
+                "Location": "Harrisonburg, Virginia",
+                "YearFormed": 1998,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Darius Rucker",
+                "CleanedArtist": "darius-rucker",
+                "Location": "Charleston, South Carolina",
+                "YearFormed": 1966,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Blink-182",
+                "CleanedArtist": "blink-182",
+                "Location": "Poway, California",
+                "YearFormed": 1992,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Nelly",
+                "CleanedArtist": "nelly",
+                "Location": "Austin, Texas",
+                "YearFormed": 1974,
+                "Genre": "Hip-Hop/Rap"
+            },
+            {
+                "Artist": "Ben Harper",
+                "CleanedArtist": "ben-harper",
+                "Location": "Pomona, California",
+                "YearFormed": 1969,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Blind Melon",
+                "CleanedArtist": "blind-melon",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1989,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Fuel",
+                "CleanedArtist": "fuel",
+                "Location": "Harrisburg, Pennsylvania",
+                "YearFormed": 1994,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Green Day",
+                "CleanedArtist": "green-day",
+                "Location": "East Bay, California",
+                "YearFormed": 1989,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Sun Kil Moon",
+                "CleanedArtist": "sun-kil-moon",
+                "Location": "San Francisco, California",
+                "YearFormed": 2002,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Temple Of The Dog",
+                "CleanedArtist": "temple-of-the-dog",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1990,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Talking Heads",
+                "CleanedArtist": "talking-heads",
+                "Location": "New York, New York",
+                "YearFormed": 1975,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Tenacious D",
+                "CleanedArtist": "tenacious-d",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1994,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Edwin McCain",
+                "CleanedArtist": "edwin-mccain",
+                "Location": "Charleston, South Carolina",
+                "YearFormed": 1970,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Tim Buckley",
+                "CleanedArtist": "tim-buckley",
+                "Location": "Washington, D.C.",
+                "YearFormed": 1947,
+                "Genre": "Folk"
+            },
+            {
+                "Artist": "Christina Perri",
+                "CleanedArtist": "christina-perri",
+                "Location": "Bensalem, Pennsylvania",
+                "YearFormed": 1986,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Bon Iver",
+                "CleanedArtist": "bon-iver",
+                "Location": "Eau Claire, Wisconsin",
+                "YearFormed": 2006,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "The Mamas & The Papas",
+                "CleanedArtist": "the-mamas-the-papas",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1965,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Hambone Willie Newbern",
+                "CleanedArtist": "hambone-willie-newbern",
+                "Location": "Haywood County, Tennessee",
+                "YearFormed": 1901,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Muddy Waters",
+                "CleanedArtist": "muddy-waters",
+                "Location": "Rolling Fork, Mississippi",
+                "YearFormed": 1915,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "John Coltrane",
+                "CleanedArtist": "john-coltrane",
+                "Location": "Hamlet, North Carolina",
+                "YearFormed": 1926,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Filter",
+                "CleanedArtist": "filter",
+                "Location": "Cleveland, Ohio",
+                "YearFormed": 1993,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "John Denver",
+                "CleanedArtist": "john-denver",
+                "Location": "Roswell, New Mexico",
+                "YearFormed": 1943,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "James Shelton",
+                "CleanedArtist": "james-shelton",
+                "Location": "New York, New York",
+                "YearFormed": 1950,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Pusha T",
+                "CleanedArtist": "pusha-t",
+                "Location": "Bronx, New York",
+                "YearFormed": 1977,
+                "Genre": "Hip-Hop/Rap"
+            },
+            {
+                "Artist": "John Prine",
+                "CleanedArtist": "john-prine",
+                "Location": "Maywood, Illinois",
+                "YearFormed": 1946,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Carney",
+                "CleanedArtist": "carney",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1983,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Kings of Leon",
+                "CleanedArtist": "kings-of-leon",
+                "Location": "Nashville, Tennessee",
+                "YearFormed": 1999,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "R.E.M",
+                "CleanedArtist": "rem",
+                "Location": "Athens, Georgia",
+                "YearFormed": 1980,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Soggy Bottom Boys",
+                "CleanedArtist": "the-soggy-bottom-boys",
+                "Location": "Yazoo City, Mississippi",
+                "YearFormed": 1937,
+                "Genre": "Country"
+            },
+            {
+                "Artist": "Dick Burnett",
+                "CleanedArtist": "dick-burnett",
+                "Location": "Elk Springs, Kentucky",
+                "YearFormed": 1883,
+                "Genre": "Folk"
+            },
+            {
+                "Artist": "Mr. Big",
+                "CleanedArtist": "mr-big",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1988,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Jimmy Eat World",
+                "CleanedArtist": "jimmy-eat-world",
+                "Location": "Mesa, Arizona",
+                "YearFormed": 1993,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Trevor Hall, Krishna Das",
+                "CleanedArtist": "trevor-hall-krishna-das",
+                "Location": "Greenwich, Connecticut",
+                "YearFormed": 1986,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Tonic",
+                "CleanedArtist": "tonic",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1993,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Collective Soul",
+                "CleanedArtist": "collective-soul",
+                "Location": "Stockbridge, Georgia",
+                "YearFormed": 1992,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Simon & Garfunkel",
+                "CleanedArtist": "simon-garfunkel",
+                "Location": "Queens, New York",
+                "YearFormed": 1963,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Fleet Foxes",
+                "CleanedArtist": "fleet-foxes",
+                "Location": "Seattle, Washington",
+                "YearFormed": 2006,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Bon Jovi",
+                "CleanedArtist": "bon-jovi",
+                "Location": "Sayreville, New Jersey",
+                "YearFormed": 1983,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Grant Dermody",
+                "CleanedArtist": "grant-dermody",
+                "Location": "Seattle, Washington",
+                "YearFormed": 1970,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "J.J. Cale",
+                "CleanedArtist": "jj-cale",
+                "Location": "Oklahoma City, Oklahoma",
+                "YearFormed": 1938,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Daryl Hall and John Oates",
+                "CleanedArtist": "daryl-hall-and-john-oates",
+                "Location": "Philadelphia, Pennsylvania",
+                "YearFormed": 1970,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Bill Withers",
+                "CleanedArtist": "bill-withers",
+                "Location": "Slab Fork, West Virginia",
+                "YearFormed": 1938,
+                "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "Marcy Playground",
+                "CleanedArtist": "marcy-playground",
+                "Location": "New York, New York",
+                "YearFormed": 1994,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Toto",
+                "CleanedArtist": "toto",
+                "Location": "Van Nuys, California",
+                "YearFormed": 1977,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Deford Bailey",
+                "CleanedArtist": "deford-bailey",
+                "Location": "Smith County, Tennessee",
+                "YearFormed": 1899,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Bobby McFerrin",
+                "CleanedArtist": "bobby-mcferrin",
+                "Location": "New York, New York",
+                "YearFormed": 1950,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Janet Jackson",
+                "CleanedArtist": "janet-jackson",
+                "Location": "Gary, Indiana",
+                "YearFormed": 1966,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Kiss",
+                "CleanedArtist": "kiss",
+                "Location": "New York, New York",
+                "YearFormed": 1973,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Alicia Keys",
+                "CleanedArtist": "alicia-keys",
+                "Location": "New York, New York",
+                "YearFormed": 1981,
+                "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "Donny Hathaway",
+                "CleanedArtist": "donny-hathaway",
+                "Location": "Chicago, Illinois",
+                "YearFormed": 1945,
+                "Genre": "R&B/Soul"
+            }
+        ]
+    },
+    "england": {
+        "name": "England",
+        "numOfArtists": 69,
+        "emoji": "🇬🇧",
+        "artists": [
+            {
+                "Artist": "The Smiths",
+                "CleanedArtist": "the-smiths",
+                "Location": "Manchester, England",
+                "YearFormed": 1982,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Scott Matthews",
+                "CleanedArtist": "scott-matthews",
+                "Location": "Wolverhampton, England",
+                "YearFormed": 1976,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Eric Clapton",
+                "CleanedArtist": "eric-clapton",
+                "Location": "Surrey, England",
+                "YearFormed": 1945,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Fleetwood Mac",
+                "CleanedArtist": "fleetwood-mac",
+                "Location": "London, England",
+                "YearFormed": 1967,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "John Martyn",
+                "CleanedArtist": "john-martyn",
+                "Location": "Surrey, England",
+                "YearFormed": 1948,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Jamiroquai",
+                "CleanedArtist": "jamiroquai",
+                "Location": "London, England",
+                "YearFormed": 1992,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Peter Gabriel",
+                "CleanedArtist": "peter-gabriel",
+                "Location": "Surrey, England",
+                "YearFormed": 1950,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Pink Floyd",
+                "CleanedArtist": "pink-floyd",
+                "Location": "London, England",
+                "YearFormed": 1965,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Seal",
+                "CleanedArtist": "seal",
+                "Location": "London, England",
+                "YearFormed": 1963,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Tears For Fears",
+                "CleanedArtist": "tears-for-fears",
+                "Location": "Somerset, England",
+                "YearFormed": 1981,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Led Zeppelin",
+                "CleanedArtist": "led-zeppelin",
+                "Location": "London, England",
+                "YearFormed": 1968,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Queen",
+                "CleanedArtist": "queen",
+                "Location": "London, England",
+                "YearFormed": 1970,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Beatles",
+                "CleanedArtist": "the-beatles",
+                "Location": "Liverpool, England",
+                "YearFormed": 1960,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Cream",
+                "CleanedArtist": "cream",
+                "Location": "London, England",
+                "YearFormed": 1966,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Radiohead",
+                "CleanedArtist": "radiohead",
+                "Location": "Oxford, England",
+                "YearFormed": 1985,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "David Bowie",
+                "CleanedArtist": "david-bowie",
+                "Location": "London, England",
+                "YearFormed": 1947,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Who",
+                "CleanedArtist": "the-who",
+                "Location": "London, England",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Coldplay",
+                "CleanedArtist": "coldplay",
+                "Location": "London, England",
+                "YearFormed": 1997,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Muse",
+                "CleanedArtist": "muse",
+                "Location": "Devon, England",
+                "YearFormed": 1994,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Supertramp",
+                "CleanedArtist": "supertramp",
+                "Location": "London, England",
+                "YearFormed": 1969,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Ozzy Osbourne",
+                "CleanedArtist": "ozzy-osbourne",
+                "Location": "Birmingham, England",
+                "YearFormed": 1948,
+                "Genre": "Metal"
+            },
+            {
+                "Artist": "Dire Straits",
+                "CleanedArtist": "dire-straits",
+                "Location": "London, England",
+                "YearFormed": 1977,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Sting",
+                "CleanedArtist": "sting",
+                "Location": "Newcastle, England",
+                "YearFormed": 1951,
+                "Genre": "1951"
+            },
+            {
+                "Artist": "The Rolling Stones",
+                "CleanedArtist": "the-rolling-stones",
+                "Location": "London, England",
+                "YearFormed": 1962,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Jeff Beck",
+                "CleanedArtist": "jeff-beck",
+                "Location": "Surrey, England",
+                "YearFormed": 1944,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Blind Faith",
+                "CleanedArtist": "blind-faith",
+                "Location": "London, England",
+                "YearFormed": 1968,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Steve Winwood",
+                "CleanedArtist": "steve-winwood",
+                "Location": "Birmingham, England",
+                "YearFormed": 1948,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Wings",
+                "CleanedArtist": "wings",
+                "Location": "Liverpool, England",
+                "YearFormed": 1942,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Paul McCartney",
+                "CleanedArtist": "paul-mccartney",
+                "Location": "Liverpool, England",
+                "YearFormed": 1942,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Traffic",
+                "CleanedArtist": "traffic",
+                "Location": "Birmingham, England",
+                "YearFormed": 1967,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Verve",
+                "CleanedArtist": "the-verve",
+                "Location": "Manchester, England",
+                "YearFormed": 1989,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The La's",
+                "CleanedArtist": "the-las",
+                "Location": "Liverpool, England",
+                "YearFormed": 1983,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Genesis",
+                "CleanedArtist": "genesis",
+                "Location": "Surrey, England",
+                "YearFormed": 1967,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Amy Winehouse",
+                "CleanedArtist": "amy-winehouse",
+                "Location": "London, England",
+                "YearFormed": 1983,
+                "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "The Zutons",
+                "CleanedArtist": "the-zutons",
+                "Location": "Liverpool, England",
+                "YearFormed": 2001,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Mark Ronson",
+                "CleanedArtist": "mark-ronson",
+                "Location": "London, England",
+                "YearFormed": 1975,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Eurythmics",
+                "CleanedArtist": "eurythmics",
+                "Location": "London, England",
+                "YearFormed": 1980,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Dave Stewart",
+                "CleanedArtist": "dave-stewart",
+                "Location": "Sunderland, England",
+                "YearFormed": 1952,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Moody Blues",
+                "CleanedArtist": "the-moody-blues",
+                "Location": "Birmingham, England",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Animals",
+                "CleanedArtist": "the-animals",
+                "Location": "Newcastle Upon Tyne, England",
+                "YearFormed": 1962,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "David Gray",
+                "CleanedArtist": "david-gray",
+                "Location": "Cheshire, England",
+                "YearFormed": 1968,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "The Police",
+                "CleanedArtist": "the-police",
+                "Location": "London, England",
+                "YearFormed": 1977,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Oasis",
+                "CleanedArtist": "oasis",
+                "Location": "Manchester, England",
+                "YearFormed": 1991,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Free",
+                "CleanedArtist": "free",
+                "Location": "London, England",
+                "YearFormed": 1968,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Black Sabbath",
+                "CleanedArtist": "black-sabbath",
+                "Location": "Birmingham, England",
+                "YearFormed": 1968,
+                "Genre": "Metal"
+            },
+            {
+                "Artist": "Depeche Mode",
+                "CleanedArtist": "depeche-mode",
+                "Location": "Essex, England",
+                "YearFormed": 1980,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "The Cure",
+                "CleanedArtist": "the-cure",
+                "Location": "West Sussex, England",
+                "YearFormed": 1977,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Jack Savoretti",
+                "CleanedArtist": "jack-savoretti",
+                "Location": "London, England",
+                "YearFormed": 1983,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "Yusuf / Cat Stevens",
+                "CleanedArtist": "yusuf-cat-stevens",
+                "Location": "London, England",
+                "YearFormed": 1948,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "America, George Martin",
+                "CleanedArtist": "america-george-martin",
+                "Location": "London, England",
+                "YearFormed": 1970,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Elton John",
+                "CleanedArtist": "elton-john",
+                "Location": "Middlesex, England",
+                "YearFormed": 1947,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Mumford & Sons",
+                "CleanedArtist": "mumford-sons",
+                "Location": "London, England",
+                "YearFormed": 2007,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "John Lennon, Yoko Ono",
+                "CleanedArtist": "john-lennon-yoko-ono",
+                "Location": "Liverpool, England",
+                "YearFormed": 1940,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Blur",
+                "CleanedArtist": "blur",
+                "Location": "Essex, England",
+                "YearFormed": 1990,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Ben Howard",
+                "CleanedArtist": "ben-howard",
+                "Location": "London, England",
+                "YearFormed": 1987,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "George Harrison",
+                "CleanedArtist": "george-harrison",
+                "Location": "Liverpool, England",
+                "YearFormed": 1943,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Clash",
+                "CleanedArtist": "the-clash",
+                "Location": "London, England",
+                "YearFormed": 1976,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Adele",
+                "CleanedArtist": "adele",
+                "Location": "London, England",
+                "YearFormed": 1988,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Dusty Springfield",
+                "CleanedArtist": "dusty-springfield",
+                "Location": "London, England",
+                "YearFormed": 1939,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Birdy",
+                "CleanedArtist": "birdy",
+                "Location": "Hampshire, England",
+                "YearFormed": 1996,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "James Morrison",
+                "CleanedArtist": "james-morrison",
+                "Location": "Warwickshire, England",
+                "YearFormed": 1984,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "John Lennon",
+                "CleanedArtist": "john-lennon",
+                "Location": "Liverpool, England",
+                "YearFormed": 1940,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Iron Maiden",
+                "CleanedArtist": "iron-maiden",
+                "Location": "London, England",
+                "YearFormed": 1975,
+                "Genre": "Metal"
+            },
+            {
+                "Artist": "Peter Frampton",
+                "CleanedArtist": "peter-frampton",
+                "Location": "Kent, England",
+                "YearFormed": 1950,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Kinks",
+                "CleanedArtist": "the-kinks",
+                "Location": "London, England",
+                "YearFormed": 1964,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "The Hollies",
+                "CleanedArtist": "the-hollies",
+                "Location": "Manchester, England",
+                "YearFormed": 1963,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Massive Attack",
+                "CleanedArtist": "massive-attack",
+                "Location": "Bristol, England",
+                "YearFormed": 1988,
+                "Genre": "Electronic"
+            },
+            {
+                "Artist": "Deep Purple",
+                "CleanedArtist": "deep-purple",
+                "Location": "Hertford, England",
+                "YearFormed": 1968,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Slash",
+                "CleanedArtist": "slash",
+                "Location": "London, England",
+                "YearFormed": 1965,
+                "Genre": "Hard Rock"
+            }
+        ]
+    },
+    "burma": {
+        "name": "Burma",
+        "numOfArtists": 1,
+        "emoji": "🇲🇲",
+        "artists": [
+            {
+                "Artist": "Nick Drake",
+                "CleanedArtist": "nick-drake",
+                "Location": "Rangoon, Burma",
+                "YearFormed": 1948,
+                "Genre": "Singer/Songwriter"
+            }
+        ]
+    },
+    "australia": {
+        "name": "Australia",
+        "numOfArtists": 9,
+        "emoji": "🇦🇺",
+        "artists": [
+            {
+                "Artist": "Tommy Emmanuel",
+                "CleanedArtist": "tommy-emmanuel",
+                "Location": "Muswellbrook, Australia",
+                "YearFormed": 1955,
+                "Genre": "Jazz"
+            },
+            {
+                "Artist": "Pendulum",
+                "CleanedArtist": "pendulum",
+                "Location": "Perth, Australia",
+                "YearFormed": 2002,
+                "Genre": "Electronic"
+            },
+            {
+                "Artist": "Sam Sparro",
+                "CleanedArtist": "sam-sparro",
+                "Location": "Sydney, Australia",
+                "YearFormed": 1982,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Tones And I",
+                "CleanedArtist": "tones-and-i",
+                "Location": "Victoria, Australia",
+                "YearFormed": 1993,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "AC/DC",
+                "CleanedArtist": "ac-dc",
+                "Location": "Sydney, Australia",
+                "YearFormed": 1973,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Vance Joy",
+                "CleanedArtist": "vance-joy",
+                "Location": "Melbourne, Australia",
+                "YearFormed": 1987,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Otis Redding",
+                "CleanedArtist": "otis-redding",
+                "Location": "Melbourne, Australia",
+                "YearFormed": 1987,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Wolfmother",
+                "CleanedArtist": "wolfmother",
+                "Location": "Sydney, Australia",
+                "YearFormed": 2003,
+                "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "INXS",
+                "CleanedArtist": "inxs",
+                "Location": "Sydney, Australia",
+                "YearFormed": 1977,
+                "Genre": "Rock"
+            }
+        ]
+    },
+    "ireland": {
+        "name": "Ireland",
+        "numOfArtists": 6,
+        "emoji": "🇮🇪",
+        "artists": [
+            {
+                "Artist": "Van Morrison",
+                "CleanedArtist": "van-morrison",
+                "Location": "Belfast, North Ireland",
+                "YearFormed": 1945,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "U2",
+                "CleanedArtist": "u2",
+                "Location": "Dublin, Ireland",
+                "YearFormed": 1976,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Rory Gallagher",
+                "CleanedArtist": "rory-gallagher",
+                "Location": "Donegal, Ireland",
+                "YearFormed": 1948,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Hozier",
+                "CleanedArtist": "hozier",
+                "Location": "County Wicklow, Ireland",
+                "YearFormed": 1990,
+                "Genre": "Alternative"
+            },
+            {
+                "Artist": "Damien Rice",
+                "CleanedArtist": "damien-rice",
+                "Location": "Dublin, Ireland",
+                "YearFormed": 1973,
+                "Genre": "Singer/Songwriter"
+            },
+            {
+                "Artist": "The Cranberries",
+                "CleanedArtist": "the-cranberries",
+                "Location": "Limerick, Ireland",
+                "YearFormed": 1989,
+                "Genre": "Rock"
+            }
+        ]
+    },
+    "spain": {
+        "name": "Spain",
+        "numOfArtists": 5,
+        "emoji": "🇪🇸",
+        "artists": [
+            {
+                "Artist": "Francisco Tárrega",
+                "CleanedArtist": "francisco-tarrega",
+                "Location": "Castellón, Spain",
+                "YearFormed": 1852,
+                "Genre": "Classical"
+            },
+            {
+                "Artist": "Fernando Sor",
+                "CleanedArtist": "fernando-sor",
+                "Location": "Barcelona, Spain",
+                "YearFormed": 1778,
+                "Genre": "Classical"
+            },
+            {
+                "Artist": "Unknown",
+                "CleanedArtist": "unknown",
+                "Location": "Places, Spain",
+                "YearFormed": 1900,
+                "Genre": "Classical"
+            },
+            {
+                "Artist": "Isaac Albéniz",
+                "CleanedArtist": "isaac-albeniz",
+                "Location": "Camprodon, Spain",
+                "YearFormed": 1860,
+                "Genre": "Classical"
+            },
+            {
+                "Artist": "Gaspar Sanz",
+                "CleanedArtist": "gaspar-sanz",
+                "Location": "Calanda, Spain",
+                "YearFormed": 1640,
+                "Genre": "Classical"
+            }
+        ]
+    },
+    "italy": {
+        "name": "Italy",
+        "numOfArtists": 1,
+        "emoji": "🇮🇹",
+        "artists": [
+            {
+                "Artist": "Matteo Carcassi",
+                "CleanedArtist": "matteo-carcassi",
+                "Location": "Florence, Italy",
+                "YearFormed": 1792,
+                "Genre": "Classical"
+            }
+        ]
+    },
+    "france": {
+        "name": "France",
+        "numOfArtists": 3,
+        "emoji": "🇫🇷",
+        "artists": [
+            {
+                "Artist": "Édith Piaf",
+                "CleanedArtist": "edith-piaf",
+                "Location": "Paris, France",
+                "YearFormed": 1915,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Claude Debussy",
+                "CleanedArtist": "claude-debussy",
+                "Location": "Saint-Germain-en-Laye, France",
+                "YearFormed": 1862,
+                "Genre": "Classical"
+            },
+            {
+                "Artist": "Jacques Prevert",
+                "CleanedArtist": "jacques-prevert",
+                "Location": "Neuilly-sur-Seine, France",
+                "YearFormed": 1900,
+                "Genre": "Soundtrack"
+            }
+        ]
+    },
+    "jamaica": {
+        "name": "Jamaica",
+        "numOfArtists": 2,
+        "emoji": "🇯🇲",
+        "artists": [
+            {
+                "Artist": "Bob Marley",
+                "CleanedArtist": "bob-marley",
+                "Location": "Kingston, Jamaica",
+                "YearFormed": 1945,
+                "Genre": "Reggae"
+            },
+            {
+                "Artist": "Bob Marley & The Wailers",
+                "CleanedArtist": "bob-marley-the-wailers",
+                "Location": "Kingston, Jamaica",
+                "YearFormed": 1963,
+                "Genre": "Reggae"
+            }
+        ]
+    },
+    "belgium": {
+        "name": "Belgium",
+        "numOfArtists": 1,
+        "emoji": "🇧🇪",
+        "artists": [
+            {
+                "Artist": "Goyte",
+                "CleanedArtist": "goyte",
+                "Location": "Bruges, Belgium",
+                "YearFormed": 1980,
+                "Genre": "Alternative"
+            }
+        ]
+    },
+    "scotland": {
+        "name": "Scotland",
+        "numOfArtists": 2,
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "artists": [
+            {
+                "Artist": "Annie Lennox",
+                "CleanedArtist": "annie-lennox",
+                "Location": "Aberdeen, Scotland",
+                "YearFormed": 1954,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "The Proclaimers",
+                "CleanedArtist": "the-proclaimers",
+                "Location": "Leith, Scotland",
+                "YearFormed": 1983,
+                "Genre": "Rock"
+            }
+        ]
+    },
+    "germany": {
+        "name": "Germany",
+        "numOfArtists": 5,
+        "emoji": "🇩🇪",
+        "artists": [
+            {
+                "Artist": "Johann Sebastian Bach",
+                "CleanedArtist": "johann-sebastian-bach",
+                "Location": "Eisenbach, Germany",
+                "YearFormed": 1685,
+                "Genre": "Classical"
+            },
+            {
+                "Artist": "Joe Filisko",
+                "CleanedArtist": "joe-filisko",
+                "Location": "Giessen, Germany",
+                "YearFormed": 1990,
+                "Genre": "Blues"
+            },
+            {
+                "Artist": "Tom Batoy",
+                "CleanedArtist": "tom-batoy",
+                "Location": "Bavaria, Germany",
+                "YearFormed": 1972,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Franco Tortora",
+                "CleanedArtist": "franco-tortora",
+                "Location": "Bavaria, Germany",
+                "YearFormed": 1961,
+                "Genre": "Pop"
+            },
+            {
+                "Artist": "Ludwig Van Beethoven",
+                "CleanedArtist": "ludwig-van-beethoven",
+                "Location": "Bonn, Germany",
+                "YearFormed": 1770,
+                "Genre": "Germany"
+            }
+        ]
+    },
+    "ukraine": {
+        "name": "Ukraine",
+        "numOfArtists": 1,
+        "emoji": "🇺🇦",
+        "artists": [
+            {
+                "Artist": "Mykola Leontovych",
+                "CleanedArtist": "mykola-leontovych",
+                "Location": "Monastyrok, Ukraine",
+                "YearFormed": 1877,
+                "Genre": "Classical"
+            }
+        ]
+    },
+    "the-netherlands": {
+        "name": "The Netherlands",
+        "numOfArtists": 1,
+        "emoji": "🇳🇱",
+        "artists": [
+            {
+                "Artist": "Eddie Van Halen",
+                "CleanedArtist": "eddie-van-halen",
+                "Location": "Amsterdam, The Netherlands",
+                "YearFormed": 1955,
+                "Genre": "Hard Rock"
+            }
+        ]
+    },
+    "norway": {
+        "name": "Norway",
+        "numOfArtists": 1,
+        "emoji": "🇳🇴",
+        "artists": [
+            {
+                "Artist": "A-Ha",
+                "CleanedArtist": "a-ha",
+                "Location": "Oslo, Norway",
+                "YearFormed": 1983,
+                "Genre": "Pop"
+            }
+        ]
+    },
+    "paraguay": {
+        "name": "Paraguay",
+        "numOfArtists": 1,
+        "emoji": "🇵🇾",
+        "artists": [
+            {
+                "Artist": "Agustín Barrios Mangoré",
+                "CleanedArtist": "agustin-barrios-mangore",
+                "Location": "San Juan Bautista, Paraguay",
+                "YearFormed": 1885,
+                "Genre": "Classical"
+            }
+        ]
+    },
+    "puerto-rico": {
+        "name": "Puerto Rico",
+        "numOfArtists": 1,
+        "emoji": "🇵🇷",
+        "artists": [
+            {
+                "Artist": "José Feliciano",
+                "CleanedArtist": "jose-feliciano",
+                "Location": "Lares, Puerto Rico",
+                "YearFormed": 1945,
+                "Genre": "Pop"
+            }
+        ]
+    },
+    "japan": {
+        "name": "Japan",
+        "numOfArtists": 1,
+        "emoji": "🇯🇵",
+        "artists": [
+            {
+                "Artist": "Koji Kondo",
+                "CleanedArtist": "koji-kondo",
+                "Location": "Aichi, Japan",
+                "YearFormed": 1961,
+                "Genre": "Soundtrack"
+            }
+        ]
+    },
+    "israel": {
+        "name": "Israel",
+        "numOfArtists": 1,
+        "emoji": "🇮🇱",
+        "artists": [
+            {
+                "Artist": "Shuki Levy",
+                "CleanedArtist": "shuki-levy",
+                "Location": "Tel Aviv-Yafo, Israel",
+                "YearFormed": 1947,
+                "Genre": "Soundtrack"
+            }
+        ]
+    },
+    "egypt": {
+        "name": "Egypt",
+        "numOfArtists": 1,
+        "emoji": "🇪🇬",
+        "artists": [
+            {
+                "Artist": "Haim Saban",
+                "CleanedArtist": "haim-saban",
+                "Location": "Alexandria, Egypt",
+                "YearFormed": 1944,
+                "Genre": "Soundtrack"
+            }
+        ]
+    },
+    "hungary": {
+        "name": "Hungary",
+        "numOfArtists": 1,
+        "emoji": "🇭🇺",
+        "artists": [
+            {
+                "Artist": "Joseph Kosma",
+                "CleanedArtist": "joseph-kosma",
+                "Location": "Budapest, Hungary",
+                "YearFormed": 1905,
+                "Genre": "Soundtrack"
+            }
+        ]
+    },
+    "wales": {
+        "name": "Wales",
+        "numOfArtists": 1,
+        "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+        "artists": [
+            {
+                "Artist": "Tom Jones",
+                "CleanedArtist": "tom-jones",
+                "Location": "Pontypridd, Wales",
+                "YearFormed": 1940,
+                "Genre": "Pop"
+            }
+        ]
+    },
+    "cyprus": {
+        "name": "Cyprus",
+        "numOfArtists": 1,
+        "emoji": "🇨🇾",
+        "artists": [
+            {
+                "Artist": "Leon Redbone",
+                "CleanedArtist": "leon-redbone",
+                "Location": "Nicosia, Cyprus",
+                "YearFormed": 1949,
+                "Genre": "Blues"
+            }
+        ]
+    }
 }
