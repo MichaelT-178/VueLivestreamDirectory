@@ -1,12 +1,13 @@
 from PIL import Image
-import os
+import os 
+from termcolor import colored as c
 
 """
 Converts png, jpeg, and webp to jpg
 """
 
 def convert_to_jpg():
-    supported_extensions = [".png", ".jpeg", ".webp"]
+    supported_extensions = [".png", ".jpeg", ".webp", ".avif"]
     
     for filename in os.listdir("."):
         ext = os.path.splitext(filename)[1].lower()
@@ -59,6 +60,9 @@ def resize_images_to_fixed_height(target_height=640):
 """
 FUNCTION CALLS
 """
-# convert_to_jpg()
+convert_to_jpg()
+print(c('✅ Converted all pics to jpg!', 'green'))
 # print_image_sizes()
+
 resize_images_to_fixed_height()
+print(c('✅ Resized all pics!', 'green'))
