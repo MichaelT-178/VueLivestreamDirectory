@@ -7,6 +7,7 @@ import ArtistPage from '../views/ArtistPage.vue';
 import SongPage from '../views/SongPage.vue';
 import InstrumentPage from '../views/InstrumentPage.vue';
 import AlbumPage from '../views/AlbumPage.vue';
+import CountryPage from '../views/CountryPage.vue';
 
 // Card Views
 import ContactDeveloper from '../views/CardViews/ContactDeveloper.vue';
@@ -103,6 +104,24 @@ const routes = [
 		path: '/album/:album',
 		name: 'AlbumPage',
 		component: AlbumPage,
+		props: true
+	},
+	{
+		path: '/country/:country/song/:song',
+		name: 'SongPageFromCountry',
+		component: SongPage,
+		props: true
+	},
+	{
+		path: '/album/:album/country/:country',
+		name: 'CountryPageFromAlbum',
+		component: CountryPage,
+		props: true
+	},
+	{
+		path: '/country/:country',
+		name: 'CountryPage',
+		component: CountryPage,
 		props: true
 	},
 
