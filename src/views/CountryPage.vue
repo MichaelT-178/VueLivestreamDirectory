@@ -2,7 +2,7 @@
   <div class="country-page-container" v-if="country">
     <HeaderWithIcon
       :title="country.name"
-      :icon="country.emoji"
+      icon="mappin"
       iconColor="blue"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
@@ -19,7 +19,7 @@
       class="artist-card"
     >
       <router-link
-        :to="`/artist/${artist.CleanedArtist}`"
+        :to="`/country/${country.name}/artist/${artist.CleanedArtist}`"
         class="artist-link"
       >
         <div class="artist-info">
@@ -48,7 +48,7 @@ import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 
 const props = defineProps({
   country: String,
-  album: {
+  artist: {
     type: String,
     required: false,
   },
@@ -70,13 +70,14 @@ const loadMore = () => {
 };
 
 const headerConfig = computed(() => {
-  if (props.album) {
+  if (props.artist) {
     return {
-      leadingIcon: 'DiscThree',
-      leadingIconColor: 'emerald',
-      leadingIconRoute: `/album/${props.album}`
+      leadingIcon: 'palette',
+      leadingIconColor: 'indigo',
+      leadingIconRoute: `/artist/${props.artist}`
     }
   }
+
   return {
     leadingIcon: 'home',
     leadingIconColor: 'sky',

@@ -107,14 +107,14 @@ const routes = [
 		props: true
 	},
 	{
-		path: '/country/:country/song/:song',
-		name: 'SongPageFromCountry',
-		component: SongPage,
+		path: '/country/:country/artist/:artist',
+		name: 'ArtistPageFromCountry',
+		component: ArtistPage,
 		props: true
 	},
 	{
-		path: '/album/:album/country/:country',
-		name: 'CountryPageFromAlbum',
+		path: '/artist/:artist/country/:country',
+		name: 'CountryPageFromArtist',
 		component: CountryPage,
 		props: true
 	},

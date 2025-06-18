@@ -17,8 +17,10 @@ import GuitarIcon from "./Guitar.vue";
 import HandCoinsIcon from "./HandCoins.vue";
 import HeartIcon from "./Heart.vue";
 import HomeIcon from "./Home.vue";
+import MapPinIcon from "./MapPin.vue";
 import MusicNoteIcon from "./MusicNote.vue";
 import PaletteIcon from "./Palette.vue";
+import PinIcon from "./Pin.vue";
 import PlayCircleIcon from "./PlayCircle.vue";
 import SchoolIcon from "./School.vue";
 import TriangleAlertIcon from "./TriangleAlert.vue";
@@ -44,8 +46,10 @@ const iconMap = {
   handcoins: HandCoinsIcon,
   heart: HeartIcon,
   home: HomeIcon,
+  mappin: MapPinIcon,
   musicnote: MusicNoteIcon,
   palette: PaletteIcon,
+  pin: PinIcon,
   playcircle: PlayCircleIcon,
   school: SchoolIcon,
   trianglealert: TriangleAlertIcon,

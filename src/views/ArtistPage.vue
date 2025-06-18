@@ -109,8 +109,18 @@ import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
   artist: String,
-  song: String,
-  album: String
+  song: {
+    type: String,
+    required: false
+  },
+  album: {
+    type: String,
+    required: false
+  },
+  country: {
+    type: String,
+    required: false
+  },
 })
 
 const activeTab = ref('songs')
@@ -129,6 +139,12 @@ const headerConfig = computed(() => {
       leadingIcon: 'DiscThree',
       leadingIconColor: 'emerald',
       leadingIconRoute: `/album/${props.album}`
+    }
+  } else if (props.country) {
+    return {
+      leadingIcon: 'MapPin',
+      leadingIconColor: 'blue',
+      leadingIconRoute: `/country/${props.country}`
     }
   }
   return {
