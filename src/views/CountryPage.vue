@@ -9,12 +9,18 @@
       :leadingIconRoute="headerConfig.leadingIconRoute"
     />
 
+    <img 
+      :src="getCountryImagePath(country.cleanedName)" 
+      :alt="country.name" 
+      class="country-image"
+    />
+
     <p class="artist-count">
       <strong>Number of Artists:</strong> {{ country.numOfArtists }}
     </p>
 
     <div
-      v-for="artist in visibleArtists"
+      v-for="artist in country.artists"
       :key="artist.CleanedArtist"
       class="artist-card"
     >
@@ -23,16 +29,17 @@
         class="artist-link"
       >
         <div class="artist-info">
-          <p><strong>{{ artist.Artist }}</strong></p>
-          <p>{{ artist.Genre }}</p>
-          <p>{{ artist.Location }}</p>
-          <p>Formed: {{ artist.YearFormed }}</p>
+          <img
+            :src="getArtistImagePath(artist.CleanedArtist)"
+            :alt="artist.Artist"
+            class="artist-thumb"
+          />
+          <div class="artist-text">
+            <p><strong>{{ artist.Artist }}</strong></p>
+            <p>{{ artist.Location }}</p>
+          </div>
         </div>
       </router-link>
-    </div>
-
-    <div v-if="canLoadMore" class="load-more-container">
-      <button @click="loadMore" class="load-more-button">Load More</button>
     </div>
   </div>
   
@@ -54,12 +61,10 @@
     </div>
     <img :src="SamJacksonPic" alt="Samuel L. Jackson" class="not-found-image" />
   </div>
-
 </template>
 
-
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { computed, onMounted } from 'vue';
 import CountryData from '../assets/Data/countries.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 import SamJacksonPic from '../assets/CountryPics/SamJackson.jpg';
@@ -73,26 +78,9 @@ const props = defineProps({
 });
 
 const country = computed(() => CountryData[props.country.toLowerCase()]);
-const artistsToShow = ref(100);
 
-const visibleArtists = computed(() => {
-  return country.value?.artists.slice(0, artistsToShow.value) || [];
-});
-
-const canLoadMore = computed(() => {
-  return country.value && artistsToShow.value < country.value.artists.length;
-});
-
-const loadMore = () => {
-  artistsToShow.value += 100;
-};
-
-//If the user types in a country with no artists
 const formattedCountryNoArtists = computed(() => {
-  if (!props.country) {
-    return '';
-  }
-
+  if (!props.country) return '';
   return props.country
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -107,20 +95,25 @@ const headerConfig = computed(() => {
       leadingIconRoute: `/artist/${props.artist}`
     }
   }
-
   return {
     leadingIcon: 'home',
     leadingIconColor: 'sky',
     leadingIconRoute: '/'
   }
-})
+});
+
+const getCountryImagePath = (cleanedName) => {
+  return new URL(`../assets/CountryPics/${cleanedName}-flag.jpg`, import.meta.url).href;
+};
+
+const getArtistImagePath = (cleanedName) => {
+  return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href;
+};
 
 onMounted(() => {
   window.scrollTo(0, 0);
 });
-
 </script>
-
 
 <style scoped>
 .country-page-container {
@@ -152,29 +145,27 @@ onMounted(() => {
   padding: 1rem;
 }
 
-.artist-info p {
+.artist-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.artist-thumb {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.artist-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-text p {
   margin: 0.25rem 0;
-}
-
-.load-more-container {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.load-more-button {
-  background-color: lightgray;
-  color: black;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  border: 2px solid #3b82f6;
-  border-radius: 30px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
-
-.load-more-button:hover {
-  background-color: #3b82f6;
-  color: white;
 }
 
 .not-found-message {
@@ -183,6 +174,14 @@ onMounted(() => {
 
 .not-found-image {
   height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.country-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto 2rem;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
@@ -198,5 +197,4 @@ onMounted(() => {
     font-size: 1.1rem;
   }
 }
-
 </style>

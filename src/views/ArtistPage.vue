@@ -242,11 +242,12 @@ onMounted(() => {
 .location-link {
   /* color: #80caff; */
   color: #007acc;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .location-link:hover {
   color: #63beff;
+  text-decoration: underline;
 }
 
 .genre-year {
