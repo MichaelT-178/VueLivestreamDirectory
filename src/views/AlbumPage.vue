@@ -213,10 +213,16 @@ onMounted(() => {
 
 .artist-link {
   color: #007acc;
+  text-decoration: none;
+}
+
+.artist-link:hover {
+  color: #63beff;
   text-decoration: underline;
 }
 
 .year-text {
+  margin-top: 7px;
   color: #e3e3e3;
 }
 
@@ -308,4 +314,8 @@ onMounted(() => {
   margin-top: 0.25rem;
   color: #e3e3e3;
 }
+
+@media (max-width: 600px) {
+}
+
 </style>

@@ -119,21 +119,22 @@
   </div>
 </template>
 
+
 <script setup>
-import { computed, onMounted, ref } from 'vue'
-import ArtistData from '../assets/Data/artists.json'
-import HeaderWithIcon from '../components/HeaderWithIcon.vue'
+import { computed, onMounted, ref } from 'vue';
+import ArtistData from '../assets/Data/artists.json';
+import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 
 const props = defineProps({
   artist: String,
   song: String,
   album: String,
   country: String
-})
+});
 
-const activeTab = ref('songs')
+const activeTab = ref('songs');
 
-const artist = computed(() => ArtistData[props.artist])
+const artist = computed(() => ArtistData[props.artist]);
 
 const headerConfig = computed(() => {
   if (props.song) {
@@ -155,6 +156,7 @@ const headerConfig = computed(() => {
       leadingIconRoute: `/country/${props.country}`
     }
   }
+
   return {
     leadingIcon: 'home',
     leadingIconColor: 'sky',
@@ -162,23 +164,28 @@ const headerConfig = computed(() => {
   }
 })
 
-const getArtistImagePath = (cleanedName) =>
-  new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href
+const getArtistImagePath = (cleanedName) => {
+  return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href;
+}
 
-const getAlbumImagePath = (cleanedTitle) =>
-  new URL(`../assets/AlbumPics/${cleanedTitle}.jpg`, import.meta.url).href
+const getAlbumImagePath = (cleanedTitle) => {
+  return new URL(`../assets/AlbumPics/${cleanedTitle}.jpg`, import.meta.url).href;
+}
 
 const getSongImagePath = (song) => {
   if (song.CleanedAlbum) {
-    return new URL(`../assets/AlbumPics/${song.CleanedAlbum}.jpg`, import.meta.url).href
+    return new URL(`../assets/AlbumPics/${song.CleanedAlbum}.jpg`, import.meta.url).href;
   }
-  return getArtistImagePath(artist.value.CleanedArtist)
+
+  return getArtistImagePath(artist.value.CleanedArtist);
 }
 
 onMounted(() => {
-  window.scrollTo(0, 0)
-})
+  window.scrollTo(0, 0);
+});
+
 </script>
+
 
 <style scoped>
 .page-container {
@@ -233,7 +240,8 @@ onMounted(() => {
 }
 
 .location-link {
-  color: #80caff;
+  /* color: #80caff; */
+  color: #007acc;
   text-decoration: underline;
 }
 
@@ -330,5 +338,8 @@ onMounted(() => {
 
 .empty-message {
   color: white;
+}
+
+@media (max-width: 600px) {
 }
 </style>

@@ -31,6 +31,7 @@
           />
           <router-link 
             :to="{ name: 'ArtistPageFromSong', params: { song: song.CleanedTitle, artist: song.CleanedArtist } }"
+            class="artist-link"
           >
             {{ song.Artist }}
           </router-link>
@@ -43,6 +44,7 @@
         <p v-if="song.Album && song.CleanedAlbum">
           <router-link 
             :to="{ name: 'AlbumPageFromSong', params: { song: song.CleanedTitle, album: song.CleanedAlbum } }"
+            class="album-link"
           >
             {{ song.Album }}
           </router-link>
@@ -122,6 +124,7 @@
             >
               <router-link 
                 :to="{ name: 'ArtistPageFromSong', params: { song: song.CleanedTitle, artist: artist.cleanedArtist } }"
+                class="other-artist-link"
               >
                 {{ artist.artist }}
               </router-link>
@@ -139,6 +142,7 @@
               <template v-if="instrument.cleanedName">
                 <router-link 
                   :to="{ name: 'InstrumentPageFromSong', params: { song: song.CleanedTitle, instrument: instrument.cleanedName } }"
+                  class="instrument-link"
                 >
                   {{ instrument.name }}
                 </router-link>
@@ -258,6 +262,35 @@ onMounted(() => {
   width: 100%;
 }
 
+.artist-link, 
+.album-link {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.artist-link:hover,
+.album-link:hover {
+  color: #63beff;
+  text-decoration: underline;
+}
+
+.instrument-link,
+.other-artist-link {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.instrument-link:hover,
+.other-artist-link:hover {
+  color: #63beff;
+  text-decoration: underline;
+}
+
+.other-artists li,
+.instruments li {
+  padding-bottom: 0.5rem;
+}
+
 .image-wrapper {
   flex-shrink: 0;
 }
@@ -298,11 +331,6 @@ p {
   margin: 0.5rem 0;
 }
 
-a {
-  color: #007acc;
-  text-decoration: underline;
-}
-
 .appearances-section {
   width: 100%;
   max-width: 800px;
@@ -334,7 +362,7 @@ a {
 }
 
 .year-released {
-  color: white;
+  color: #e3e3e3;
 }
 
 .appearances-list li {
@@ -410,4 +438,8 @@ a {
   cursor: default;
   text-decoration: none;
 }
+
+@media (max-width: 650px) {
+}
+
 </style>
