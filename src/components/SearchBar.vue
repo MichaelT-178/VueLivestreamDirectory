@@ -5,6 +5,7 @@
       :class="{ 'has-dropdown': filteredResults.length > 0 && isFocused }"
     >
       <font-awesome-icon icon="search" class="search-icon" />
+      
       <input 
         id="search"
         name="search"
@@ -17,6 +18,14 @@
         @focus="handleFocus"
         @blur="handleBlur"
       />
+
+      <div 
+        v-if="query"
+        class="clear-icon-wrapper"
+        @mousedown.prevent="clearQuery"
+      >
+        <font-awesome-icon icon="xmark" class="clear-icon" />
+      </div>
     </div>
 
     <ul v-if="filteredResults.length && isFocused" class="search-dropdown">
@@ -55,7 +64,6 @@ const filteredResults = ref([]);
 const isFocused = ref(false);
 const searchWrapper = ref(null);
 const router = useRouter();
-
 
 const filterResults = () => {
   const raw = query.value.trim().toLowerCase();
@@ -100,31 +108,25 @@ const filterResults = () => {
   });
 };
 
-
 const handleEnter = () => {
   if (filteredResults.value.length === 1) {
     navigateTo(filteredResults.value[0]);
   }
 };
 
-
 const getImagePath = (item) => {
   try {
     if (item.Type === 'Artist') {
       return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
     } else if (item.Type === 'Song' && item.CleanedPicture) {
-
       const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
       return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
     }
-
   } catch (e) {
     return '';
   }
-
   return '';
 };
-
 
 const navigateTo = (item) => {
   if (item.Type === 'Artist') {
@@ -133,7 +135,6 @@ const navigateTo = (item) => {
     router.push(`/song/${item.cleanedTitle}`);
   }
 };
-
 
 const handleFocus = () => {
   isFocused.value = true;
@@ -149,8 +150,12 @@ const handleBlur = () => {
   }, 0);
 };
 
-</script>
+const clearQuery = () => {
+  query.value = '';
+  filteredResults.value = [];
+};
 
+</script>
 
 <style scoped>
 .search-bar-wrapper {
@@ -174,15 +179,11 @@ const handleBlur = () => {
 
 .search-bar {
   width: 100%;
-  padding: 14px 14px 14px 50px;
+  padding: 14px 45px 14px 50px;
   border-radius: 50px;
   border: 2px solid white;
   font-size: 20px;
   box-sizing: border-box;
-}
-
-.search-bar-background.has-dropdown .search-bar {
-  border-color: white;
 }
 
 .search-bar:focus {
@@ -201,6 +202,32 @@ const handleBlur = () => {
   font-size: 22px;
   color: #707070;
   z-index: 10;
+}
+
+.clear-icon-wrapper {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  z-index: 10;
+}
+
+.clear-icon-wrapper:hover {
+  background-color: #ebebeb;
+}
+
+.clear-icon {
+  font-size: 22px;
+  color: #707070;
+  pointer-events: none;
 }
 
 .separator-dot {
@@ -285,6 +312,16 @@ const handleBlur = () => {
 
   .search-icon {
     display: none;
+  }
+
+  .clear-icon-wrapper {
+    right: 12px;
+    width: 28px;
+    height: 28px;
+  }
+
+  .clear-icon {
+    font-size: 16px;
   }
 }
 

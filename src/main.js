@@ -7,12 +7,14 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { 
   faGuitar, 
   faSearch, 
-  faBars 
+  faBars,
+  faXmark
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faGuitar);
 library.add(faSearch);
 library.add(faBars);
+library.add(faXmark);
 
 const app = createApp(App);
 

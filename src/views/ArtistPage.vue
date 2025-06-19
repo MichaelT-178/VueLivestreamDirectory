@@ -75,7 +75,7 @@
                 />
                 <div class="list-content">
                   <div class="title">{{ song.Title }}</div>
-                  <div v-if="song.Album" class="subtitle">{{ song.Album }}</div>
+                  <div class="subtitle">{{ song.Album || 'Single' }}</div>
                 </div>
               </div>
             </router-link>
