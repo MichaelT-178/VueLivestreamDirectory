@@ -59,7 +59,7 @@
         Do they speak English in "<strong>{{ formattedCountryNoArtists }}</strong>"?
       </p>
     </div>
-    <img :src="SamJacksonPic" alt="Samuel L. Jackson" class="not-found-image" />
+    <img :src="SamJacksonPic" alt="Pulp Fiction Sam Jackson Jules" class="not-found-image" />
   </div>
 </template>
 
@@ -80,7 +80,10 @@ const props = defineProps({
 const country = computed(() => CountryData[props.country.toLowerCase()]);
 
 const formattedCountryNoArtists = computed(() => {
-  if (!props.country) return '';
+  if (!props.country) {
+    return '';
+  }
+
   return props.country
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -103,7 +106,7 @@ const headerConfig = computed(() => {
 });
 
 const getCountryImagePath = (cleanedName) => {
-  return new URL(`../assets/CountryPics/${cleanedName}-flag.jpg`, import.meta.url).href;
+  return new URL(`../assets/CountryPics/${cleanedName}.jpg`, import.meta.url).href;
 };
 
 const getArtistImagePath = (cleanedName) => {

@@ -18,6 +18,7 @@ import LessonView from '../views/CardViews/Lessons.vue';
 import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
 import RepertoireView from '../views/CardViews/Repertoire.vue';
 import SavedSongsView from '../views/CardViews/SavedSongs.vue';
+import TipDeveloperView from '../views/CardViews/TipDeveloper.vue';
 
 // 404 page
 import NotFound from '../views/NotFound.vue';
@@ -125,7 +126,11 @@ const routes = [
 		props: true
 	},
 
-	// Card Views 
+	// Card Views
+	{
+		path: '/tip-developer',
+		component: TipDeveloperView
+	},
 	{
 		path: '/patreon-sign-in',
 		component: PatreonSignInView
