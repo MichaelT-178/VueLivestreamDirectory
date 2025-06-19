@@ -3,7 +3,7 @@
     <HeaderWithIcon
       :title="country.name"
       icon="mappin"
-      iconColor="blue"
+      iconColor="amber"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
       :leadingIconRoute="headerConfig.leadingIconRoute"
@@ -40,7 +40,7 @@
     <HeaderWithIcon
       title="Country"
       icon="mappin"
-      iconColor="blue"
+      iconColor="amber"
       :leadingIcon="headerConfig.leadingIcon"
       :leadingIconColor="headerConfig.leadingIconColor"
       :leadingIconRoute="headerConfig.leadingIconRoute"

@@ -20,8 +20,21 @@
         />
       </div>
 
-      <div class="details-wrapper">
-        <h2 class="artist-title">{{ artist.Artist }}</h2>
+      <div class="artist-details">
+        <h2>{{ artist.Artist }}</h2>
+
+        <div class="location-info" v-if="artist.Location && artist.CleanedCountry">
+          <router-link
+            :to="`/artist/${artist.CleanedArtist}/country/${artist.CleanedCountry}`"
+            class="location-link"
+          >
+            {{ artist.Location }}
+          </router-link>
+        </div>
+
+        <p v-if="artist.Genre || artist.YearFormed" class="genre-year">
+          {{ artist.Genre }}<span v-if="artist.Genre && artist.YearFormed"> • </span>{{ artist.YearFormed }}
+        </p>
       </div>
     </div>
 
@@ -31,12 +44,16 @@
           class="tab"
           :class="{ active: activeTab === 'songs' }"
           @click="activeTab = 'songs'"
-        >Songs</strong>
+        >
+          Songs
+        </strong>
         <strong
           class="tab"
           :class="{ active: activeTab === 'albums' }"
           @click="activeTab = 'albums'"
-        >Albums</strong>
+        >
+          Albums
+        </strong>
       </div>
 
       <div v-if="activeTab === 'songs'">
@@ -109,18 +126,9 @@ import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 
 const props = defineProps({
   artist: String,
-  song: {
-    type: String,
-    required: false
-  },
-  album: {
-    type: String,
-    required: false
-  },
-  country: {
-    type: String,
-    required: false
-  },
+  song: String,
+  album: String,
+  country: String
 })
 
 const activeTab = ref('songs')
@@ -143,7 +151,7 @@ const headerConfig = computed(() => {
   } else if (props.country) {
     return {
       leadingIcon: 'MapPin',
-      leadingIconColor: 'blue',
+      leadingIconColor: 'amber',
       leadingIconRoute: `/country/${props.country}`
     }
   }
@@ -190,10 +198,13 @@ onMounted(() => {
 
 .content-wrapper {
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 2rem;
   flex-wrap: wrap;
-  width: 100%;
   max-width: 800px;
+  width: 100%;
 }
 
 .image-wrapper {
@@ -207,14 +218,32 @@ onMounted(() => {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.details-wrapper {
+.artist-details {
   flex: 1;
   min-width: 250px;
 }
 
-.artist-title {
+.artist-details h2 {
   color: white;
-  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.location-info {
+  margin-bottom: 0.5rem;
+}
+
+.location-link {
+  color: #80caff;
+  text-decoration: underline;
+}
+
+.location-link:hover {
+  color: #63beff;
+}
+
+.genre-year {
+  color: white;
+  margin-top: 0.25rem;
 }
 
 .tabbed-section {
@@ -302,5 +331,4 @@ onMounted(() => {
 .empty-message {
   color: white;
 }
-
 </style>
