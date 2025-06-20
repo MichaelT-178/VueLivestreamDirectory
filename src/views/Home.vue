@@ -25,9 +25,13 @@
 <script setup>
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
-import CardData from '../assets/Home/HomeCardData.json';
+import rawCardData from '../assets/Home/HomeCardData.jsonc?raw';
+import { parse } from 'jsonc-parser';
+
+const CardData = parse(rawCardData);
 
 </script>
+
 
 
 <style scoped>

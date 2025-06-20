@@ -1,0 +1,19 @@
+{
+    "payments": [
+        {
+            "name": "PayPal",
+            "description": "This is paypal desc",
+            "link": "https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US"
+        },
+        {
+            "name": "Venmo",
+            "description": "This is venmo desc",
+            "link": ""
+        },
+        {
+            "name": "Stripe",
+            "description": "This is stripe desc",
+            "link": ""
+        }
+    ]
+}

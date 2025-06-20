@@ -128,7 +128,11 @@ const routes = [
 
 	// Card Views
 	{
-		path: '/tip-developer',
+		path: '/tips',
+		component: TipDeveloperView
+	},
+	{
+		path: '/payments',
 		component: TipDeveloperView
 	},
 	{
