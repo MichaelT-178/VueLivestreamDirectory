@@ -83,7 +83,7 @@ const userMessage = ref('');
 const isButtonClicked = ref(false);
 const buttonText = ref('Submit');
 
-const publicEmailKey = 'dOPbPkrmT8oDiIZ9R';
+const publicEmailKey = 'n_0DD9e920wrGRa_I';
 
 emailjs.init(publicEmailKey);
 
@@ -114,7 +114,7 @@ const submitForm = () => {
   };
 
   emailjs
-    .send('service_1uyrj7k', 'template_fnsn7pw', templateParams)
+    .send('service_5y41gll', 'template_6kezich', templateParams)
     .then(() => {
       Swal.fire('Sent!', 'Your message has been sent successfully!', 'success');
       userName.value = '';
