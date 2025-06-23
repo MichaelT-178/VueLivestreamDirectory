@@ -40487,6 +40487,10 @@
             {
                 "artist": "Robert Petway",
                 "cleanedArtist": "robert-petway"
+            },
+            {
+                "artist": "Gary Clark Jr.",
+                "cleanedArtist": "gary-clark-jr"
             }
         ],
         "Instruments": [
@@ -40504,7 +40508,7 @@
             }
         ],
         "Year": 1994,
-        "Search": "",
+        "Search": "Jimi Hendrix/Robert Petway/Gary Clark Jr",
         "Appearances": [
             {
                 "id": 1,

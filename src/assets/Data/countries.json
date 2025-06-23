@@ -221,7 +221,7 @@
     "united-states": {
         "name": "United States",
         "cleanedName": "united-states",
-        "numOfArtists": 206,
+        "numOfArtists": 207,
         "emoji": "🇺🇸",
         "artists": [
             {
@@ -1665,6 +1665,13 @@
                 "Location": "Chicago, Illinois",
                 "YearFormed": 1945,
                 "Genre": "R&B/Soul"
+            },
+            {
+                "Artist": "Gary Clark Jr.",
+                "CleanedArtist": "gary-clark-jr",
+                "Location": "Austin, Texas",
+                "YearFormed": 1984,
+                "Genre": "Rock"
             }
         ]
     },

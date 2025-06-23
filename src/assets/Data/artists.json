@@ -7465,6 +7465,32 @@
             }
         ]
     },
+    "gary-clark-jr": {
+        "Artist": "Gary Clark Jr.",
+        "CleanedArtist": "gary-clark-jr",
+        "Location": "Austin, Texas",
+        "YearFormed": 1984,
+        "Genre": "Rock",
+        "Country": "United States",
+        "CleanedCountry": "united-states",
+        "Emoji": "🇺🇸",
+        "Songs": [
+            {
+                "Id": 281,
+                "Title": "Catfish Blues",
+                "CleanedTitle": "catfish-blues",
+                "Album": "Blues",
+                "CleanedAlbum": "blues"
+            }
+        ],
+        "Albums": [
+            {
+                "Title": "Blues",
+                "CleanedTitle": "blues",
+                "Year": 1994
+            }
+        ]
+    },
     "beyonce-jay-z": {
         "Artist": "Beyoncé, JAY-Z",
         "CleanedArtist": "beyonce-jay-z",
