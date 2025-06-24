@@ -36,6 +36,10 @@
 
     <!-- Mobile menu -->
     <div v-if="isMobileMenuOpen" class="mobile-menu">
+      <router-link 
+        to="/" 
+        @click="closeMobileMenu"
+      >Home</router-link>
       <a
         href="https://www.youtube.com/@coreyheuvel"
         target="_blank"

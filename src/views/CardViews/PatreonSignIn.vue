@@ -160,4 +160,16 @@ h1 {
   
 }
 
+@media (max-width: 425px) {
+  .login-card {
+    padding: 1rem 0.25rem;
+  }
+
+  h1 {
+    margin-bottom: 0rem;
+    font-size: 24px;
+  }
+  
+}
+
 </style>

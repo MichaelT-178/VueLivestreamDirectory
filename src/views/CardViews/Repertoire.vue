@@ -6,6 +6,8 @@
       iconColor="rose"
     />
 
+    <h2 v-if="isSmallScreen" class="mobile-title">Corey's Repertoire</h2>
+
     <div class="search-bar-container">
       <font-awesome-icon icon="search" class="search-icon" />
       <input 
@@ -48,11 +50,14 @@
 import { computed, ref, onMounted } from 'vue';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import AllData from "../../assets/Data/repertoire.json";
+import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 import { useRouter } from 'vue-router';
 
 const searchQuery = ref('');
 
 const router = useRouter();
+
+const { isSmallScreen } = useScreenHelpers();
 
 const getImagePath = (song) => {
   if (song.CleanedAlbumTitle) {

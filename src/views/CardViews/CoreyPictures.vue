@@ -6,6 +6,8 @@
       iconColor="orange"
     />
 
+    <h2 v-if="isSmallScreen" class="mobile-title">Corey Pictures</h2>
+
     <div class="gallery">
       <img
         v-for="(img, index) in galleryImages"
@@ -29,6 +31,15 @@
       />
     </transition>
   </div>
+
+  <button
+    v-if="isSmallScreen"
+    class="go-to-top-btn"
+    @click="scrollToTop"
+  >
+    Go back to top
+  </button>
+
 </template>
 
 
@@ -36,9 +47,12 @@
 import { ref, onMounted } from 'vue';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import ImageView from '../../components/ImageView.vue';
+import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 
 const isImageViewOpen = ref(false);
 const currentImage = ref(0);
+
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const galleryImages = [
   "Pic1", "Pic2", "Pic3", "Pic4",
@@ -136,8 +150,35 @@ onMounted(() => {
 
 @media (max-width: 400px) {
   .gallery {
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
+
+  .mobile-title {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 9px;
+  }
+
+  .go-to-top-btn {
+    display: block;
+    margin: 40px auto 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-to-top-btn:hover {
+    background-color: #e86d3a;
+  }
+
 }
 
 </style>

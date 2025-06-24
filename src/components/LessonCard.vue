@@ -77,4 +77,15 @@ watchEffect(() => {
   text-decoration: underline;
 }
 
+@media (max-width: 400px) {
+  .lesson-card {
+    min-height: 0px;
+  }
+
+  .thumbnail-image {
+    height: 150px;
+  }
+
+}
+
 </style>

@@ -259,8 +259,15 @@ textarea:focus {
     padding: 2rem 0.5rem;
   }
 
+  h1 {
+    margin: 0 0 0.5rem 0;
+  }
+
   .form-wrapper {
     padding: 1rem;
+    background: #0F172A;
+    /* background: red; */
+    box-shadow: none;
   }
 }
 
