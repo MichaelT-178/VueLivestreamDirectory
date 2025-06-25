@@ -17,7 +17,6 @@ import Instruments from '../views/CardViews/Instruments.vue';
 import LessonView from '../views/CardViews/Lessons.vue';
 import PatreonSignInView from '../views/CardViews/PatreonSignIn.vue';
 import RepertoireView from '../views/CardViews/Repertoire.vue';
-import SavedSongsView from '../views/CardViews/SavedSongs.vue';
 import TipDeveloperView from '../views/CardViews/TipDeveloper.vue';
 
 // 404 page
@@ -156,10 +155,6 @@ const routes = [
   	name: 'SongPageFromRepertoire',
   	component: SongPage,
   	props: true
-	},
-	{
-		path: '/saved-songs',
-		component: SavedSongsView
 	},
 	{
 		path: '/:pathMatch(.*)*',
