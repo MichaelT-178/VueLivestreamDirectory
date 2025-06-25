@@ -341,6 +341,33 @@ onMounted(() => {
   color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 595px) {
+  .artist-details {
+    margin-top: -40px;
+  }
 }
+
+@media (max-width: 400px) {
+  .page-container {
+    padding: 1.5rem;
+  }
+
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -40px;
+  }
+
+  .thumb {
+    width: 54px;
+    height: 54px;
+  }
+
+  .tabbed-section {
+    margin-top: 15px;
+  }
+
+}
+
 </style>
