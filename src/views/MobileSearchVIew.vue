@@ -1,17 +1,61 @@
 <template>
   <div class="mobile-search-view">
-    <button class="close-button" @click="emit('close')">×</button>
-    <div>MOBILE SEARCH VIEW</div>
+    <div class="search-bar-container">
+      <div class="search-bar-wrapper">
+        <font-awesome-icon icon="search" class="search-icon" />
+        <input
+          ref="searchInput"
+          v-model="query"
+          type="text"
+          class="search-input"
+          placeholder="Search by song or artist"
+          @input="filterResults"
+        />
+      </div>
+      <button class="cancel-button" @click="emit('close')">Cancel</button>
+    </div>
+
+    <ul v-if="filteredResults.length" class="results-list">
+      <li
+        v-for="(item, index) in filteredResults.slice(0, 30)"
+        :key="`${item.id}-${index}`"
+        class="result-item"
+        @mousedown.prevent="navigateTo(item)"
+      >
+        <img
+          :src="getImagePath(item)"
+          :alt="item.name || item.title"
+          class="result-thumb"
+        />
+        <div class="result-text">
+          <span class="result-title">{{ item.name || item.title }}</span>
+          <div class="result-type">
+            {{ item.Type }}
+            <span v-if="item.Type === 'Song'">
+              <span class="dot">•</span> {{ item.artist }}
+            </span>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </template>
 
 
 <script setup>
-import { watch } from 'vue';
+import { ref, watch, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
+import SearchData from '../assets/Data/SearchData.json';
 
 const emit = defineEmits(['close']);
 const { isSmallScreen } = useScreenHelpers(400);
+const router = useRouter();
+
+const query = ref('');
+const filteredResults = ref([]);
+
+const searchInput = ref(null);
 
 watch(isSmallScreen, (value) => {
   if (!value) {
@@ -19,20 +63,193 @@ watch(isSmallScreen, (value) => {
   }
 });
 
+const filterResults = () => {
+  const raw = query.value.trim().toLowerCase();
+
+  if (!raw) {
+    filteredResults.value = [];
+    return;
+  }
+
+  let songPart = '';
+  let artistPart = '';
+
+  const isBySearch = raw.includes(" by") 
+                 && !raw.includes(" drop") 
+                 && !raw.includes("vain") 
+                 && !raw.includes("by the river");
+
+  if (isBySearch) {
+    const parts = raw.split(" by ");
+    songPart = parts[0].trim();
+    artistPart = parts[1].trim();
+  }
+
+  filteredResults.value = SearchData.SearchData.filter(item => {
+    const title = (item.name || item.title || '').toLowerCase();
+    const artist = (item.artist || '').toLowerCase();
+    const otherArtists = (item.otherArtists || item.other_artists || '').toLowerCase();
+    const instruments = (item.instruments || '').toLowerCase();
+    const album = (item.album || '').toLowerCase();
+    const cleanedAlbum = (item.cleanedAlbum || '').toLowerCase();
+    const searchField = (item.search || '').toLowerCase();
+    const byMatch = isBySearch && title === songPart && artist === artistPart;
+
+    return (
+      title.includes(raw) ||
+      artist.includes(raw) ||
+      otherArtists.includes(raw) ||
+      instruments.includes(raw) ||
+      album.includes(raw) ||
+      cleanedAlbum.includes(raw) ||
+      searchField.includes(raw) ||
+      byMatch
+    );
+  });
+};
+
+const getImagePath = (item) => {
+  try {
+    if (item.Type === 'Artist') {
+      return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
+    } else if (item.Type === 'Song' && item.CleanedPicture) {
+      const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
+      return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
+    }
+  } catch (e) {
+    return '';
+  }
+
+  return '';
+};
+
+const navigateTo = (item) => {
+  if (item.Type === 'Artist') {
+    router.push(`/artist/${item.cleanedName}`);
+  } else if (item.Type === 'Song') {
+    router.push(`/song/${item.cleanedTitle}`);
+  }
+
+  emit('close');
+};
+
+onMounted(() => {
+  searchInput.value?.focus();
+});
+
 </script>
 
 
 <style scoped>
 .mobile-search-view {
-  padding: 1rem;
-  background-color: #0f172a;
-  color: white;
   height: 100%;
   width: 100%;
+  background-color: #0f172a;
+  color: white;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.close-button {
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: #0f172a;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  gap: 0.5rem;
+}
+
+.search-bar-wrapper {
+  position: relative;
+  flex-grow: 1;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 10px 8px 0px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  color: black;
+  text-indent: 30px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+/* .search-input::placeholder {
+  padding-left: 30px;
+} */
+
+.search-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #707070;
+  font-size: 15px;
+  pointer-events: none;
+}
+
+.cancel-button {
+  flex-shrink: 0;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #f87171;
+  background: transparent;
+  border: none;
   cursor: pointer;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border-bottom: 1px solid #1e293b;
+  background-color: #1e293b;
+  cursor: pointer;
+}
+
+.result-item:hover {
+  background-color: #334155;
+}
+
+.result-thumb {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.result-text {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.result-title {
+  font-weight: bold;
+  color: white;
+}
+
+.result-type {
+  font-size: 0.85em;
+  color: #cbd5e1;
+}
+
+.dot {
+  margin: 0 4px;
 }
 
 </style>
