@@ -56,7 +56,10 @@
       </div>
     </div>
 
-    <div v-if="song.Appearances?.length || song.Other_Artists?.length || song.Instruments?.length" class="appearances-section">
+    <div 
+      v-if="song.Appearances?.length || song.Other_Artists?.length || song.Instruments?.length" 
+      class="appearances-section"
+    >
       <div class="tab-header">
         <strong 
           class="appearances-tab"
@@ -439,7 +442,19 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 595px) {
+  .song-details {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -40px;
+  }
 }
 
 </style>
