@@ -54,8 +54,9 @@
   </div>
 </template>
 
+
 <script setup>
-import { ref } from 'vue';
+import { ref, defineEmits } from 'vue';
 import { useRouter } from 'vue-router';
 import SearchData from '../assets/Data/SearchData.json';
 
@@ -64,6 +65,8 @@ const filteredResults = ref([]);
 const isFocused = ref(false);
 const searchWrapper = ref(null);
 const router = useRouter();
+
+const emit = defineEmits(['focus', 'blur']);
 
 const filterResults = () => {
   const raw = query.value.trim().toLowerCase();
@@ -139,6 +142,8 @@ const navigateTo = (item) => {
 const handleFocus = () => {
   isFocused.value = true;
 
+  emit('focus'); // emit focus to parent
+
   if (query.value.trim()) {
     filterResults();
   }
@@ -147,6 +152,7 @@ const handleFocus = () => {
 const handleBlur = () => {
   setTimeout(() => {
     isFocused.value = false;
+    emit('blur'); // emit blur to parent
   }, 0);
 };
 
@@ -156,6 +162,7 @@ const clearQuery = () => {
 };
 
 </script>
+
 
 <style scoped>
 .search-bar-wrapper {

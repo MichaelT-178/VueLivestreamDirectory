@@ -7,10 +7,10 @@
       </p>
 
       <div class="search-wrapper">
-        <SearchBar />
+        <SearchBar @focus="handleFocus" />
       </div>
 
-      <div class="cards-wrapper">
+      <div class="cards-wrapper" v-if="!showMobileSearch">
         <HomeCard 
           v-for="(card, index) in CardData.CardData" 
           :key="index"
@@ -18,20 +18,36 @@
         />
       </div>
     </div>
+
+    <MobileSearchView 
+      v-if="showMobileSearch" 
+      class="mobile-overlay" 
+      @close="showMobileSearch = false" 
+    />
   </div>
 </template>
 
 
 <script setup>
+import { ref } from 'vue';
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
+import MobileSearchView from './MobileSearchVIew.vue';
 import rawCardData from '../assets/Home/HomeCardData.jsonc?raw';
+import { useScreenHelpers } from '../composables/useScreenHelpers.js';
 import { parse } from 'jsonc-parser';
 
 const CardData = parse(rawCardData);
+const showMobileSearch = ref(false);
+const { isSmallScreen } = useScreenHelpers(400);
+
+const handleFocus = () => {
+  if (isSmallScreen.value) {
+    showMobileSearch.value = true;
+  }
+};
 
 </script>
-
 
 
 <style scoped>
@@ -39,6 +55,7 @@ const CardData = parse(rawCardData);
   display: flex;
   flex-direction: column;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
 }
 
 .centered {
@@ -76,6 +93,16 @@ const CardData = parse(rawCardData);
   margin-top: 1.5rem;
   padding: 0 1rem;
   margin-bottom: 100px;
+}
+
+.mobile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: #0f172a;
 }
 
 @media (max-width: 600px) {
