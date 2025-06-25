@@ -178,8 +178,8 @@ onMounted(() => {
   }
 
   .album-img {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     margin: 0 10px 0 0;
     flex-shrink: 0;
   }
