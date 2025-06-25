@@ -161,6 +161,10 @@ h1 {
 }
 
 @media (max-width: 425px) {
+  .container {
+    min-height: 50vh;
+  }
+
   .login-card {
     padding: 1rem 0.25rem;
   }
