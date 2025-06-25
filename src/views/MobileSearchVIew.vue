@@ -25,7 +25,7 @@
         <img
           :src="getImagePath(item)"
           :alt="item.name || item.title"
-          class="result-thumb"
+          :class="['result-thumb', { 'artist-thumb': item.Type === 'Artist' }]"
         />
         <div class="result-text">
           <span class="result-title">{{ item.name || item.title }}</span>
@@ -154,8 +154,9 @@ onMounted(() => {
 .search-bar-container {
   display: flex;
   align-items: center;
-  padding: 0.75rem;
-  background-color: #0f172a;
+  padding: 0.75rem 0.0rem 0.75rem 0rem;
+  /* background-color: #0f172a; */
+  background-color: #1e293b;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -165,6 +166,7 @@ onMounted(() => {
 .search-bar-wrapper {
   position: relative;
   flex-grow: 1;
+  margin-left: 10px;
 }
 
 .search-input {
@@ -199,10 +201,14 @@ onMounted(() => {
   flex-shrink: 0;
   padding: 6px 12px;
   font-size: 14px;
-  color: #f87171;
+  color: #cbd5e1;
   background: transparent;
   border: none;
   cursor: pointer;
+}
+
+.cancel-button:hover {
+  text-decoration: underline;
 }
 
 .results-list {
@@ -216,8 +222,8 @@ onMounted(() => {
   align-items: center;
   gap: 12px;
   padding: 10px;
-  border-bottom: 1px solid #1e293b;
-  background-color: #1e293b;
+  /* border-bottom: 1px solid #1e293b; 
+  background-color: #1e293b; */
   cursor: pointer;
 }
 
@@ -226,10 +232,14 @@ onMounted(() => {
 }
 
 .result-thumb {
-  width: 48px;
-  height: 48px;
+  width: 45px;
+  height: 45px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+.artist-thumb {
+  border-radius: 50%;
 }
 
 .result-text {
