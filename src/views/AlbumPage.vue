@@ -98,6 +98,7 @@
 import { computed, onMounted } from 'vue'
 import AlbumData from '../assets/Data/albums.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
+import { useScreenHelpers } from '../composables/useScreenHelpers.js';
 
 const props = defineProps({
   album: String,
@@ -110,6 +111,8 @@ const props = defineProps({
     required: false
   }
 })
+
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const album = computed(() => AlbumData[props.album])
 
@@ -315,7 +318,27 @@ onMounted(() => {
   color: #e3e3e3;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 595px) {
+  .album-details {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: -40px;
+  }
+  
+  .song-entry-index {
+    min-width: 20px;
+  }
+  
+  .songs-section {
+    margin-top: 15px;
+  }
 }
 
 </style>
