@@ -41,7 +41,7 @@
           <strong>Artist:</strong> {{ song.Artist }}
         </p>
 
-        <p v-if="song.Album && song.CleanedAlbum">
+        <p v-if="!isSmallScreen && song.Album && song.CleanedAlbum">
           <router-link 
             :to="{ name: 'AlbumPageFromSong', params: { song: song.CleanedTitle, album: song.CleanedAlbum } }"
             class="album-link"
@@ -50,9 +50,10 @@
           </router-link>
           <span class="year-released"> • {{ song.Year }}</span>
         </p>
-        <p v-else-if="song.Album">
+        <p v-else-if="!isSmallScreen && song.Album">
           <strong>Album:</strong> {{ song.Album }}
         </p>
+        
       </div>
     </div>
 
@@ -118,6 +119,37 @@
       </div>
 
       <div v-if="activeTab === 'info'" class="info-section">
+
+        <!-- Only show this on small screen. Year and album-->
+        <div v-if="isSmallScreen && song.Album" class="album-info">
+          <strong class="info-section-header">Album</strong>
+          <ul>
+            <li>
+              <template v-if="song.CleanedAlbum">
+                <router-link 
+                  :to="{ name: 'AlbumPageFromSong', params: { song: song.CleanedTitle, album: song.CleanedAlbum } }"
+                  class="album-link"
+                >
+                  {{ song.Album }}
+                </router-link>
+              </template>
+              <template v-else>
+                {{ song.Album }}
+              </template>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- PART OF SMALL SCREEN SHOWS THE YEAR
+        <div v-if="isSmallScreen && song.Year" class="year-info">
+          <strong class="info-section-header">Year</strong>
+          <ul>
+            <li>{{ song.Year }}</li>
+          </ul>
+        </div> 
+        -->
+
+
         <div v-if="song.Other_Artists?.length" class="other-artists">
           <strong>Other Artists</strong>
           <ul>
@@ -171,6 +203,7 @@ import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import SongData from '../assets/Data/songs.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
+import { useScreenHelpers } from '../composables/useScreenHelpers.js';
 
 const props = defineProps({
   song: String,
@@ -187,6 +220,8 @@ const props = defineProps({
 const route = useRoute()
 const song = computed(() => SongData[props.song])
 const activeTab = ref('appearances')
+
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const headerConfig = computed(() => {
   if (props.artist) {
@@ -442,6 +477,29 @@ p {
   text-decoration: none;
 }
 
+.album-info ul,
+.year-info ul {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.year-info ul {
+  color: white;
+}
+
+.album-info li::before,
+.year-info li::before {
+  content: '• ';
+  margin-right: 0.5rem;
+  color: white;
+}
+
+.info-section-header {
+  color: white;
+  font-weight: bold;
+}
+
 @media (max-width: 595px) {
   .song-details {
     margin-top: -40px;
@@ -454,6 +512,10 @@ p {
     justify-content: center;
     width: 100%;
     margin-top: -40px;
+  }
+
+  .appearances-section {
+    margin-top: 15px;
   }
 }
 
