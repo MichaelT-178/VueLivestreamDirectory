@@ -41,7 +41,24 @@
           <p>{{ song.Artist }}</p>
         </div>
       </div>
+      
+      <button
+        v-if="isSmallScreen"
+        class="go-to-top-btn"
+        @click="scrollToTop"
+      >
+        Go back to top
+      </button>
     </div>
+
+    <!-- <button
+      v-if="isSmallScreen"
+      class="go-to-top-btn"
+      @click="scrollToTop"
+    >
+      Go back to top
+    </button> -->
+
   </div>
 </template>
 
@@ -57,7 +74,7 @@ const searchQuery = ref('');
 
 const router = useRouter();
 
-const { isSmallScreen } = useScreenHelpers();
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const getImagePath = (song) => {
   if (song.CleanedAlbumTitle) {
@@ -178,6 +195,26 @@ onMounted(() => {
   outline: none;
   box-shadow: none;
   border-color: #2275d9;
+}
+
+@media (max-width: 400px) {
+  .go-to-top-btn {
+    display: block;
+    margin: 40px auto 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fb7185;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-to-top-btn:hover {
+    background-color: #f43f5e;
+  }
 }
 
 </style>

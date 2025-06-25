@@ -39,6 +39,14 @@
           </div>
         </a>
       </div>
+
+      <button
+        v-if="isSmallScreen"
+        class="go-to-top-btn"
+        @click="scrollToTop"
+      >
+        Go back to top
+      </button>
     </div>
   </div>
 </template>
@@ -48,6 +56,7 @@
 import { ref, computed, onMounted } from 'vue';
 import AllData from '../../assets/Data/FavCovers.json';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
+import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 const searchQuery = ref('');
@@ -61,6 +70,7 @@ const filteredCovers = computed(() => {
   );
 });
 
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const getImagePath = (song) => {
   if (!song.ArtistPic) {
@@ -204,6 +214,24 @@ onMounted(() => {
   .text-content .appearance {
     margin-top: 0.15rem;
     font-size: 0.8rem;
+  }
+  
+  .go-to-top-btn {
+    display: block;
+    margin: 40px auto 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f472b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-to-top-btn:hover {
+    background-color: #ec4899;
   }
 }
 

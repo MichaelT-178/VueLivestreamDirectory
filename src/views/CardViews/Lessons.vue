@@ -26,6 +26,14 @@
           :lesson="tutorial"
         />
       </div>
+      
+      <button
+        v-if="isSmallScreen"
+        class="go-to-top-btn"
+        @click="scrollToTop"
+      >
+        Go back to top
+      </button>
     </div>
   </div>
 
@@ -59,7 +67,7 @@ import { ref, watch, computed, onMounted, onBeforeUnmount } from 'vue';
 import { useRouter } from 'vue-router';
 import axiosInstance from '../../lib/axios';
 import { useUser } from '../../composables/useUser';
-
+import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import LessonCard from '../../components/LessonCard.vue';
 import ErrorCard from '../../components/ErrorCard.vue';
@@ -69,6 +77,8 @@ const { user } = useUser();
 const message = ref(null);
 const searchQuery = ref('');
 const router = useRouter();
+
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const logoutAndGoBack = async () => {
   try {
@@ -223,6 +233,26 @@ onBeforeUnmount(() => {
 
   .mobile-home-button {
     display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .go-to-top-btn {
+    display: block;
+    margin: 40px auto 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #c084fc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-to-top-btn:hover {
+    background-color: #a855f7;
   }
 }
 

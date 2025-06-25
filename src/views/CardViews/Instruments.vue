@@ -40,6 +40,14 @@
         :instrument="instrument"
       />
     </div>
+    <button
+      v-if="isSmallScreen"
+      class="go-to-top-btn"
+      @click="scrollToTop"
+    >
+      Go back to top
+    </button>
+
   </div>
 </template>
 
@@ -49,6 +57,7 @@ import { ref, computed, onMounted } from 'vue';
 import Instruments from '../../assets/Data/instruments.json';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import InstrumentCard from '../../components/InstrumentCard.vue';
+import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 const instrumentTypes = [
@@ -58,6 +67,8 @@ const instrumentTypes = [
 
 const selectedType = ref('All');
 const searchQuery = ref('');
+
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const filteredInstruments = computed(() => {
   const query = searchQuery.value.toLowerCase();
@@ -158,6 +169,24 @@ onMounted(() => {
 }
 
 @media (max-width: 400px) {
+  .go-to-top-btn {
+    display: block;
+    margin: 40px auto 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #14b8a6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-to-top-btn:hover {
+    background-color: #0f766e;
+  }
+  
   .filter-wrapper {
     display: none;
   }
