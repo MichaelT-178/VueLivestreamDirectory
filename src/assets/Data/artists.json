@@ -970,29 +970,9 @@
         ],
         "Albums": [
             {
-                "Title": "Starbird",
-                "CleanedTitle": "starbird",
-                "Year": 2022
-            },
-            {
-                "Title": "Bliss from Within",
-                "CleanedTitle": "bliss-from-within",
-                "Year": 2013
-            },
-            {
-                "Title": "Evers - EP",
-                "CleanedTitle": "evers-ep",
-                "Year": 2008
-            },
-            {
-                "Title": "In Balance",
-                "CleanedTitle": "in-balance",
-                "Year": 2007
-            },
-            {
-                "Title": "The New",
-                "CleanedTitle": "the-new",
-                "Year": 2011
+                "Title": "Corey VandenHeuvel - EP",
+                "CleanedTitle": "corey-vandenheuvel-ep",
+                "Year": 2005
             },
             {
                 "Title": "Let Me In",
@@ -1000,9 +980,29 @@
                 "Year": 2006
             },
             {
-                "Title": "Corey VandenHeuvel - EP",
-                "CleanedTitle": "corey-vandenheuvel-ep",
-                "Year": 2005
+                "Title": "In Balance",
+                "CleanedTitle": "in-balance",
+                "Year": 2007
+            },
+            {
+                "Title": "Evers - EP",
+                "CleanedTitle": "evers-ep",
+                "Year": 2008
+            },
+            {
+                "Title": "The New",
+                "CleanedTitle": "the-new",
+                "Year": 2011
+            },
+            {
+                "Title": "Bliss from Within",
+                "CleanedTitle": "bliss-from-within",
+                "Year": 2013
+            },
+            {
+                "Title": "Starbird",
+                "CleanedTitle": "starbird",
+                "Year": 2022
             }
         ]
     },
@@ -1075,24 +1075,24 @@
         ],
         "Albums": [
             {
-                "Title": "Ladies of the Canyon",
-                "CleanedTitle": "ladies-of-the-canyon",
-                "Year": 1970
-            },
-            {
                 "Title": "Song to a Seagull",
                 "CleanedTitle": "song-to-a-seagull",
                 "Year": 1968
             },
             {
-                "Title": "Blue",
-                "CleanedTitle": "blue",
-                "Year": 1971
-            },
-            {
                 "Title": "Clouds",
                 "CleanedTitle": "clouds",
                 "Year": 1969
+            },
+            {
+                "Title": "Ladies of the Canyon",
+                "CleanedTitle": "ladies-of-the-canyon",
+                "Year": 1970
+            },
+            {
+                "Title": "Blue",
+                "CleanedTitle": "blue",
+                "Year": 1971
             },
             {
                 "Title": "Court and Spark",
@@ -1268,14 +1268,9 @@
         ],
         "Albums": [
             {
-                "Title": "Grace",
-                "CleanedTitle": "grace",
-                "Year": 1994
-            },
-            {
-                "Title": "The Queen Is Dead",
-                "CleanedTitle": "the-queen-is-dead",
-                "Year": 1986
+                "Title": "Pastel Blues",
+                "CleanedTitle": "pastel-blues",
+                "Year": 1965
             },
             {
                 "Title": "Astral Weeks",
@@ -1283,9 +1278,9 @@
                 "Year": 1968
             },
             {
-                "Title": "You and I",
-                "CleanedTitle": "you-and-i",
-                "Year": 2016
+                "Title": "The Queen Is Dead",
+                "CleanedTitle": "the-queen-is-dead",
+                "Year": 1986
             },
             {
                 "Title": "Éternelle",
@@ -1293,19 +1288,19 @@
                 "Year": 1987
             },
             {
-                "Title": "The Complete Hank Williams",
-                "CleanedTitle": "the-complete-hank-williams",
-                "Year": 1998
-            },
-            {
-                "Title": "Pastel Blues",
-                "CleanedTitle": "pastel-blues",
-                "Year": 1965
-            },
-            {
                 "Title": "Live at Sin-é (Legacy Edition)",
                 "CleanedTitle": "live-at-sin-e-legacy-edition",
                 "Year": 1993
+            },
+            {
+                "Title": "Grace",
+                "CleanedTitle": "grace",
+                "Year": 1994
+            },
+            {
+                "Title": "The Complete Hank Williams",
+                "CleanedTitle": "the-complete-hank-williams",
+                "Year": 1998
             },
             {
                 "Title": "Sketches for My Sweetheart The Drunk",
@@ -1316,6 +1311,11 @@
                 "Title": "The Essential Bob Dylan",
                 "CleanedTitle": "the-essential-bob-dylan",
                 "Year": 2014
+            },
+            {
+                "Title": "You and I",
+                "CleanedTitle": "you-and-i",
+                "Year": 2016
             }
         ]
     },
@@ -1353,14 +1353,14 @@
         ],
         "Albums": [
             {
-                "Title": "The Queen Is Dead",
-                "CleanedTitle": "the-queen-is-dead",
-                "Year": 1986
-            },
-            {
                 "Title": "Meat Is Murder",
                 "CleanedTitle": "meat-is-murder",
                 "Year": 1985
+            },
+            {
+                "Title": "The Queen Is Dead",
+                "CleanedTitle": "the-queen-is-dead",
+                "Year": 1986
             }
         ]
     },
@@ -1558,14 +1558,14 @@
         ],
         "Albums": [
             {
-                "Title": "Unplugged (Live)",
-                "CleanedTitle": "unplugged-live",
-                "Year": 1992
-            },
-            {
                 "Title": "The Beatles/The White Album",
                 "CleanedTitle": "the-beatles-the-white-album",
                 "Year": 1968
+            },
+            {
+                "Title": "Layla And Other Assorted Love Songs",
+                "CleanedTitle": "layla-and-other-assorted-love-songs",
+                "Year": 1970
             },
             {
                 "Title": "Burnin'",
@@ -1578,14 +1578,14 @@
                 "Year": 1973
             },
             {
-                "Title": "Layla And Other Assorted Love Songs",
-                "CleanedTitle": "layla-and-other-assorted-love-songs",
-                "Year": 1970
-            },
-            {
                 "Title": "Slowhand",
                 "CleanedTitle": "slowhand",
                 "Year": 1977
+            },
+            {
+                "Title": "Unplugged (Live)",
+                "CleanedTitle": "unplugged-live",
+                "Year": 1992
             }
         ]
     },
@@ -1684,6 +1684,11 @@
         ],
         "Albums": [
             {
+                "Title": "S.C.I.E.N.C.E",
+                "CleanedTitle": "science",
+                "Year": 1997
+            },
+            {
                 "Title": "Make Yourself",
                 "CleanedTitle": "make-yourself",
                 "Year": 1999
@@ -1692,11 +1697,6 @@
                 "Title": "Morning View",
                 "CleanedTitle": "morning-view",
                 "Year": 2001
-            },
-            {
-                "Title": "S.C.I.E.N.C.E",
-                "CleanedTitle": "science",
-                "Year": 1997
             }
         ]
     },
@@ -1741,9 +1741,9 @@
         ],
         "Albums": [
             {
-                "Title": "Tango in the Night",
-                "CleanedTitle": "tango-in-the-night",
-                "Year": 1987
+                "Title": "Then Play On",
+                "CleanedTitle": "then-play-on",
+                "Year": 1969
             },
             {
                 "Title": "Rumours",
@@ -1751,9 +1751,9 @@
                 "Year": 1977
             },
             {
-                "Title": "Then Play On",
-                "CleanedTitle": "then-play-on",
-                "Year": 1969
+                "Title": "Tango in the Night",
+                "CleanedTitle": "tango-in-the-night",
+                "Year": 1987
             }
         ]
     },
@@ -1784,14 +1784,14 @@
         ],
         "Albums": [
             {
-                "Title": "Tango in the Night",
-                "CleanedTitle": "tango-in-the-night",
-                "Year": 1987
-            },
-            {
                 "Title": "Rumours",
                 "CleanedTitle": "rumours",
                 "Year": 1977
+            },
+            {
+                "Title": "Tango in the Night",
+                "CleanedTitle": "tango-in-the-night",
+                "Year": 1987
             }
         ]
     },
@@ -1934,14 +1934,9 @@
         ],
         "Albums": [
             {
-                "Title": "Room For Squares",
-                "CleanedTitle": "room-for-squares",
-                "Year": 2001
-            },
-            {
-                "Title": "Where the Light Is: John Mayer Live In Los Angeles",
-                "CleanedTitle": "where-the-light-is-john-mayer-live-in-los-angeles",
-                "Year": 2008
+                "Title": "Axis: Bold As Love",
+                "CleanedTitle": "axis-bold-as-love",
+                "Year": 1967
             },
             {
                 "Title": "Thriller",
@@ -1949,14 +1944,9 @@
                 "Year": 1982
             },
             {
-                "Title": "Continuum",
-                "CleanedTitle": "continuum",
-                "Year": 2006
-            },
-            {
-                "Title": "Born and Raised",
-                "CleanedTitle": "born-and-raised",
-                "Year": 2012
+                "Title": "Room For Squares",
+                "CleanedTitle": "room-for-squares",
+                "Year": 2001
             },
             {
                 "Title": "TRY! - Live In Concert",
@@ -1964,9 +1954,19 @@
                 "Year": 2005
             },
             {
-                "Title": "Axis: Bold As Love",
-                "CleanedTitle": "axis-bold-as-love",
-                "Year": 1967
+                "Title": "Continuum",
+                "CleanedTitle": "continuum",
+                "Year": 2006
+            },
+            {
+                "Title": "Where the Light Is: John Mayer Live In Los Angeles",
+                "CleanedTitle": "where-the-light-is-john-mayer-live-in-los-angeles",
+                "Year": 2008
+            },
+            {
+                "Title": "Born and Raised",
+                "CleanedTitle": "born-and-raised",
+                "Year": 2012
             }
         ]
     },
@@ -2135,14 +2135,14 @@
                 "Year": 1969
             },
             {
-                "Title": "Pink Moon",
-                "CleanedTitle": "pink-moon",
-                "Year": 1972
-            },
-            {
                 "Title": "Bryter Layter",
                 "CleanedTitle": "bryter-layter",
                 "Year": 1971
+            },
+            {
+                "Title": "Pink Moon",
+                "CleanedTitle": "pink-moon",
+                "Year": 1972
             },
             {
                 "Title": "Family Tree",
@@ -2360,14 +2360,14 @@
                 "Year": 1973
             },
             {
-                "Title": "Songs In The Key Of Life",
-                "CleanedTitle": "songs-in-the-key-of-life",
-                "Year": 1976
-            },
-            {
                 "Title": "Fulfillingness' First Finale",
                 "CleanedTitle": "fulfillingness-first-finale",
                 "Year": 1974
+            },
+            {
+                "Title": "Songs In The Key Of Life",
+                "CleanedTitle": "songs-in-the-key-of-life",
+                "Year": 1976
             }
         ]
     },
@@ -2440,16 +2440,6 @@
         ],
         "Albums": [
             {
-                "Title": "Grace",
-                "CleanedTitle": "grace",
-                "Year": 1994
-            },
-            {
-                "Title": "Electric Ladyland",
-                "CleanedTitle": "electric-ladyland",
-                "Year": 1968
-            },
-            {
                 "Title": "Another Side Of Bob Dylan",
                 "CleanedTitle": "another-side-of-bob-dylan",
                 "Year": 1964
@@ -2460,19 +2450,29 @@
                 "Year": 1965
             },
             {
-                "Title": "O.C.M.S",
-                "CleanedTitle": "ocms",
-                "Year": 2004
-            },
-            {
                 "Title": "Blonde on Blonde",
                 "CleanedTitle": "blonde-on-blonde",
                 "Year": 1966
             },
             {
+                "Title": "Electric Ladyland",
+                "CleanedTitle": "electric-ladyland",
+                "Year": 1968
+            },
+            {
                 "Title": "Blood On The Tracks",
                 "CleanedTitle": "blood-on-the-tracks",
                 "Year": 1975
+            },
+            {
+                "Title": "Grace",
+                "CleanedTitle": "grace",
+                "Year": 1994
+            },
+            {
+                "Title": "O.C.M.S",
+                "CleanedTitle": "ocms",
+                "Year": 2004
             },
             {
                 "Title": "The Essential Bob Dylan",
@@ -2522,14 +2522,14 @@
         ],
         "Albums": [
             {
-                "Title": "Ah Via Musicom",
-                "CleanedTitle": "ah-via-musicom",
-                "Year": 1990
-            },
-            {
                 "Title": "Live From Austin, TX '84",
                 "CleanedTitle": "live-from-austin-tx-84",
                 "Year": 1984
+            },
+            {
+                "Title": "Ah Via Musicom",
+                "CleanedTitle": "ah-via-musicom",
+                "Year": 1990
             },
             {
                 "Title": "Venus Isle",
@@ -2572,11 +2572,6 @@
         ],
         "Albums": [
             {
-                "Title": "Endless Road: 20th Anniversary Edition",
-                "CleanedTitle": "endless-road-20th-anniversary-edition",
-                "Year": 2004
-            },
-            {
                 "Title": "Doc Watson",
                 "CleanedTitle": "doc-watson",
                 "Year": 1964
@@ -2585,6 +2580,11 @@
                 "Title": "The Mason Williams Phonographic Record",
                 "CleanedTitle": "the-mason-williams-phonographic-record",
                 "Year": 1968
+            },
+            {
+                "Title": "Endless Road: 20th Anniversary Edition",
+                "CleanedTitle": "endless-road-20th-anniversary-edition",
+                "Year": 2004
             }
         ]
     },
@@ -2739,16 +2739,6 @@
                 "Year": 1983
             },
             {
-                "Title": "The Sky Is Crying",
-                "CleanedTitle": "the-sky-is-crying",
-                "Year": 1991
-            },
-            {
-                "Title": "In Step",
-                "CleanedTitle": "in-step",
-                "Year": 1989
-            },
-            {
                 "Title": "Couldn't Stand The Weather",
                 "CleanedTitle": "couldnt-stand-the-weather",
                 "Year": 1984
@@ -2757,6 +2747,16 @@
                 "Title": "Soul to Soul",
                 "CleanedTitle": "soul-to-soul",
                 "Year": 1985
+            },
+            {
+                "Title": "In Step",
+                "CleanedTitle": "in-step",
+                "Year": 1989
+            },
+            {
+                "Title": "The Sky Is Crying",
+                "CleanedTitle": "the-sky-is-crying",
+                "Year": 1991
             }
         ]
     },
@@ -2851,14 +2851,14 @@
         ],
         "Albums": [
             {
-                "Title": "Synkronized",
-                "CleanedTitle": "synkronized",
-                "Year": 1999
-            },
-            {
                 "Title": "Travelling Without Moving",
                 "CleanedTitle": "travelling-without-moving",
                 "Year": 1996
+            },
+            {
+                "Title": "Synkronized",
+                "CleanedTitle": "synkronized",
+                "Year": 1999
             }
         ]
     },
@@ -3008,16 +3008,6 @@
         ],
         "Albums": [
             {
-                "Title": "Electric Ladyland",
-                "CleanedTitle": "electric-ladyland",
-                "Year": 1968
-            },
-            {
-                "Title": "Band Of Gypsys",
-                "CleanedTitle": "band-of-gypsys",
-                "Year": 1970
-            },
-            {
                 "Title": "Are You Experienced",
                 "CleanedTitle": "are-you-experienced",
                 "Year": 1967
@@ -3026,6 +3016,16 @@
                 "Title": "Axis: Bold As Love",
                 "CleanedTitle": "axis-bold-as-love",
                 "Year": 1967
+            },
+            {
+                "Title": "Electric Ladyland",
+                "CleanedTitle": "electric-ladyland",
+                "Year": 1968
+            },
+            {
+                "Title": "Band Of Gypsys",
+                "CleanedTitle": "band-of-gypsys",
+                "Year": 1970
             },
             {
                 "Title": "Blues",
@@ -3113,6 +3113,11 @@
         ],
         "Albums": [
             {
+                "Title": "Trouble",
+                "CleanedTitle": "trouble",
+                "Year": 2004
+            },
+            {
                 "Title": "St. Elsewhere",
                 "CleanedTitle": "st-elsewhere",
                 "Year": 2006
@@ -3121,11 +3126,6 @@
                 "Title": "Gossip In The Grain",
                 "CleanedTitle": "gossip-in-the-grain",
                 "Year": 2008
-            },
-            {
-                "Title": "Trouble",
-                "CleanedTitle": "trouble",
-                "Year": 2004
             }
         ]
     },
@@ -3493,6 +3493,11 @@
         ],
         "Albums": [
             {
+                "Title": "Meddle",
+                "CleanedTitle": "meddle",
+                "Year": 1971
+            },
+            {
                 "Title": "The Dark Side of the Moon",
                 "CleanedTitle": "the-dark-side-of-the-moon",
                 "Year": 1973
@@ -3506,11 +3511,6 @@
                 "Title": "The Wall",
                 "CleanedTitle": "the-wall",
                 "Year": 1979
-            },
-            {
-                "Title": "Meddle",
-                "CleanedTitle": "meddle",
-                "Year": 1971
             }
         ]
     },
@@ -3767,16 +3767,6 @@
         ],
         "Albums": [
             {
-                "Title": "Harvest",
-                "CleanedTitle": "harvest",
-                "Year": 1972
-            },
-            {
-                "Title": "Harvest Moon",
-                "CleanedTitle": "harvest-moon",
-                "Year": 1992
-            },
-            {
                 "Title": "Everybody Knows This Is Nowhere",
                 "CleanedTitle": "everybody-knows-this-is-nowhere",
                 "Year": 1969
@@ -3792,14 +3782,24 @@
                 "Year": 1970
             },
             {
-                "Title": "Rust Never Sleeps",
-                "CleanedTitle": "rust-never-sleeps",
-                "Year": 1979
+                "Title": "Harvest",
+                "CleanedTitle": "harvest",
+                "Year": 1972
             },
             {
                 "Title": "Decade",
                 "CleanedTitle": "decade",
                 "Year": 1977
+            },
+            {
+                "Title": "Rust Never Sleeps",
+                "CleanedTitle": "rust-never-sleeps",
+                "Year": 1979
+            },
+            {
+                "Title": "Harvest Moon",
+                "CleanedTitle": "harvest-moon",
+                "Year": 1992
             }
         ]
     },
@@ -3882,14 +3882,14 @@
         ],
         "Albums": [
             {
-                "Title": "Point Of Know Return",
-                "CleanedTitle": "point-of-know-return",
-                "Year": 1977
-            },
-            {
                 "Title": "Leftoverture",
                 "CleanedTitle": "leftoverture",
                 "Year": 1976
+            },
+            {
+                "Title": "Point Of Know Return",
+                "CleanedTitle": "point-of-know-return",
+                "Year": 1977
             }
         ]
     },
@@ -4188,29 +4188,9 @@
         ],
         "Albums": [
             {
-                "Title": "Led Zeppelin III",
-                "CleanedTitle": "led-zeppelin-iii",
-                "Year": 1970
-            },
-            {
-                "Title": "Houses of the Holy",
-                "CleanedTitle": "houses-of-the-holy",
-                "Year": 1973
-            },
-            {
                 "Title": "Led Zeppelin",
                 "CleanedTitle": "led-zeppelin",
                 "Year": 1969
-            },
-            {
-                "Title": "Coda (Deluxe Edition)",
-                "CleanedTitle": "coda-deluxe-edition",
-                "Year": 1982
-            },
-            {
-                "Title": "Led Zeppelin IV",
-                "CleanedTitle": "led-zeppelin-iv",
-                "Year": 1971
             },
             {
                 "Title": "Led Zeppelin II",
@@ -4218,14 +4198,34 @@
                 "Year": 1969
             },
             {
-                "Title": "In Through the out Door",
-                "CleanedTitle": "in-through-the-out-door",
-                "Year": 1979
+                "Title": "Led Zeppelin III",
+                "CleanedTitle": "led-zeppelin-iii",
+                "Year": 1970
+            },
+            {
+                "Title": "Led Zeppelin IV",
+                "CleanedTitle": "led-zeppelin-iv",
+                "Year": 1971
+            },
+            {
+                "Title": "Houses of the Holy",
+                "CleanedTitle": "houses-of-the-holy",
+                "Year": 1973
             },
             {
                 "Title": "Physical Graffiti",
                 "CleanedTitle": "physical-graffiti",
                 "Year": 1975
+            },
+            {
+                "Title": "In Through the out Door",
+                "CleanedTitle": "in-through-the-out-door",
+                "Year": 1979
+            },
+            {
+                "Title": "Coda (Deluxe Edition)",
+                "CleanedTitle": "coda-deluxe-edition",
+                "Year": 1982
             }
         ]
     },
@@ -4277,14 +4277,14 @@
         ],
         "Albums": [
             {
-                "Title": "Born In The U.S.A",
-                "CleanedTitle": "born-in-the-usa",
-                "Year": 1984
-            },
-            {
                 "Title": "Born To Run",
                 "CleanedTitle": "born-to-run",
                 "Year": 1975
+            },
+            {
+                "Title": "Born In The U.S.A",
+                "CleanedTitle": "born-in-the-usa",
+                "Year": 1984
             },
             {
                 "Title": "PHILADELPHIA - Music From The Motion Picture",
@@ -4448,6 +4448,11 @@
                 "Year": 1974
             },
             {
+                "Title": "A Night At The Opera",
+                "CleanedTitle": "a-night-at-the-opera",
+                "Year": 1975
+            },
+            {
                 "Title": "A Day At The Races",
                 "CleanedTitle": "a-day-at-the-races",
                 "Year": 1976
@@ -4456,11 +4461,6 @@
                 "Title": "The Works",
                 "CleanedTitle": "the-works",
                 "Year": 1984
-            },
-            {
-                "Title": "A Night At The Opera",
-                "CleanedTitle": "a-night-at-the-opera",
-                "Year": 1975
             }
         ]
     },
@@ -4538,14 +4538,14 @@
         ],
         "Albums": [
             {
-                "Title": "The Band",
-                "CleanedTitle": "the-band",
-                "Year": 1969
-            },
-            {
                 "Title": "Music From Big Pink",
                 "CleanedTitle": "music-from-big-pink",
                 "Year": 1968
+            },
+            {
+                "Title": "The Band",
+                "CleanedTitle": "the-band",
+                "Year": 1969
             }
         ]
     },
@@ -4760,9 +4760,14 @@
         ],
         "Albums": [
             {
-                "Title": "The Beatles/The White Album",
-                "CleanedTitle": "the-beatles-the-white-album",
-                "Year": 1968
+                "Title": "Rubber Soul",
+                "CleanedTitle": "rubber-soul",
+                "Year": 1965
+            },
+            {
+                "Title": "Help!",
+                "CleanedTitle": "help",
+                "Year": 1965
             },
             {
                 "Title": "Revolver",
@@ -4770,9 +4775,9 @@
                 "Year": 1966
             },
             {
-                "Title": "Let It Be",
-                "CleanedTitle": "let-it-be",
-                "Year": 1970
+                "Title": "The Beatles/The White Album",
+                "CleanedTitle": "the-beatles-the-white-album",
+                "Year": 1968
             },
             {
                 "Title": "Abbey Road",
@@ -4780,19 +4785,14 @@
                 "Year": 1969
             },
             {
-                "Title": "Rubber Soul",
-                "CleanedTitle": "rubber-soul",
-                "Year": 1965
+                "Title": "Let It Be",
+                "CleanedTitle": "let-it-be",
+                "Year": 1970
             },
             {
                 "Title": "Imagine",
                 "CleanedTitle": "imagine",
                 "Year": 1971
-            },
-            {
-                "Title": "Help!",
-                "CleanedTitle": "help",
-                "Year": 1965
             },
             {
                 "Title": "1",
@@ -4862,14 +4862,14 @@
         ],
         "Albums": [
             {
-                "Title": "Wheels Of Fire",
-                "CleanedTitle": "wheels-of-fire",
-                "Year": 1968
-            },
-            {
                 "Title": "Disraeli Gears",
                 "CleanedTitle": "disraeli-gears",
                 "Year": 1967
+            },
+            {
+                "Title": "Wheels Of Fire",
+                "CleanedTitle": "wheels-of-fire",
+                "Year": 1968
             },
             {
                 "Title": "Unplugged (Live)",
@@ -4912,14 +4912,14 @@
         ],
         "Albums": [
             {
-                "Title": "Wheels Of Fire",
-                "CleanedTitle": "wheels-of-fire",
-                "Year": 1968
-            },
-            {
                 "Title": "King Of The Delta Blues Singers",
                 "CleanedTitle": "king-of-the-delta-blues-singers",
                 "Year": 1937
+            },
+            {
+                "Title": "Wheels Of Fire",
+                "CleanedTitle": "wheels-of-fire",
+                "Year": 1968
             }
         ]
     },
@@ -4957,14 +4957,14 @@
         ],
         "Albums": [
             {
-                "Title": "El Camino",
-                "CleanedTitle": "el-camino",
-                "Year": 2011
-            },
-            {
                 "Title": "Brothers",
                 "CleanedTitle": "brothers",
                 "Year": 2010
+            },
+            {
+                "Title": "El Camino",
+                "CleanedTitle": "el-camino",
+                "Year": 2011
             }
         ]
     },
@@ -5058,9 +5058,9 @@
         ],
         "Albums": [
             {
-                "Title": "OK Computer",
-                "CleanedTitle": "ok-computer",
-                "Year": 1997
+                "Title": "Pablo Honey",
+                "CleanedTitle": "pablo-honey",
+                "Year": 1993
             },
             {
                 "Title": "The Bends",
@@ -5068,9 +5068,9 @@
                 "Year": 1995
             },
             {
-                "Title": "Pablo Honey",
-                "CleanedTitle": "pablo-honey",
-                "Year": 1993
+                "Title": "OK Computer",
+                "CleanedTitle": "ok-computer",
+                "Year": 1997
             },
             {
                 "Title": "Kid A",
@@ -5127,9 +5127,14 @@
         ],
         "Albums": [
             {
-                "Title": "Heroes",
-                "CleanedTitle": "heroes",
-                "Year": 1977
+                "Title": "David Bowie (aka Space Oddity)",
+                "CleanedTitle": "david-bowie-aka-space-oddity",
+                "Year": 1969
+            },
+            {
+                "Title": "The Man Who Sold the World",
+                "CleanedTitle": "the-man-who-sold-the-world",
+                "Year": 1970
             },
             {
                 "Title": "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
@@ -5142,14 +5147,9 @@
                 "Year": 1974
             },
             {
-                "Title": "David Bowie (aka Space Oddity)",
-                "CleanedTitle": "david-bowie-aka-space-oddity",
-                "Year": 1969
-            },
-            {
-                "Title": "The Man Who Sold the World",
-                "CleanedTitle": "the-man-who-sold-the-world",
-                "Year": 1970
+                "Title": "Heroes",
+                "CleanedTitle": "heroes",
+                "Year": 1977
             }
         ]
     },
@@ -5553,9 +5553,9 @@
         ],
         "Albums": [
             {
-                "Title": "Stadium Arcadium",
-                "CleanedTitle": "stadium-arcadium",
-                "Year": 2006
+                "Title": "Innervisions",
+                "CleanedTitle": "innervisions",
+                "Year": 1973
             },
             {
                 "Title": "Blood Sugar Sex Magik",
@@ -5563,19 +5563,19 @@
                 "Year": 1991
             },
             {
+                "Title": "Californication",
+                "CleanedTitle": "californication",
+                "Year": 1999
+            },
+            {
                 "Title": "By the Way",
                 "CleanedTitle": "by-the-way",
                 "Year": 2002
             },
             {
-                "Title": "Innervisions",
-                "CleanedTitle": "innervisions",
-                "Year": 1973
-            },
-            {
-                "Title": "Californication",
-                "CleanedTitle": "californication",
-                "Year": 1999
+                "Title": "Stadium Arcadium",
+                "CleanedTitle": "stadium-arcadium",
+                "Year": 2006
             }
         ]
     },
@@ -5665,14 +5665,14 @@
                 "Year": 2000
             },
             {
-                "Title": "Mylo Xyloto",
-                "CleanedTitle": "mylo-xyloto",
-                "Year": 2011
-            },
-            {
                 "Title": "A Rush of Blood to the Head",
                 "CleanedTitle": "a-rush-of-blood-to-the-head",
                 "Year": 2002
+            },
+            {
+                "Title": "Mylo Xyloto",
+                "CleanedTitle": "mylo-xyloto",
+                "Year": 2011
             }
         ]
     },
@@ -5724,14 +5724,14 @@
         ],
         "Albums": [
             {
-                "Title": "L.A. Woman",
-                "CleanedTitle": "la-woman",
-                "Year": 1971
-            },
-            {
                 "Title": "Strange Days",
                 "CleanedTitle": "strange-days",
                 "Year": 1967
+            },
+            {
+                "Title": "L.A. Woman",
+                "CleanedTitle": "la-woman",
+                "Year": 1971
             }
         ]
     },
@@ -5944,14 +5944,14 @@
         ],
         "Albums": [
             {
-                "Title": "Breakfast In America",
-                "CleanedTitle": "breakfast-in-america",
-                "Year": 1979
-            },
-            {
                 "Title": "Even In The Quietest Moments",
                 "CleanedTitle": "even-in-the-quietest-moments",
                 "Year": 1977
+            },
+            {
+                "Title": "Breakfast In America",
+                "CleanedTitle": "breakfast-in-america",
+                "Year": 1979
             }
         ]
     },
@@ -6174,14 +6174,14 @@
                 "Year": 1991
             },
             {
-                "Title": "Vs.",
-                "CleanedTitle": "vs",
-                "Year": 1993
-            },
-            {
                 "Title": "Jeremy",
                 "CleanedTitle": "jeremy",
                 "Year": 1991
+            },
+            {
+                "Title": "Vs.",
+                "CleanedTitle": "vs",
+                "Year": 1993
             },
             {
                 "Title": "Backspacer",
@@ -6366,14 +6366,14 @@
         ],
         "Albums": [
             {
-                "Title": "But Seriously, Folks...",
-                "CleanedTitle": "but-seriously-folks",
-                "Year": 1978
-            },
-            {
                 "Title": "The Smoker You Drink, The Player You Get",
                 "CleanedTitle": "the-smoker-you-drink-the-player-you-get",
                 "Year": 1973
+            },
+            {
+                "Title": "But Seriously, Folks...",
+                "CleanedTitle": "but-seriously-folks",
+                "Year": 1978
             }
         ]
     },
@@ -6470,9 +6470,9 @@
         ],
         "Albums": [
             {
-                "Title": "No More Tears",
-                "CleanedTitle": "no-more-tears",
-                "Year": 1991
+                "Title": "Blizzard Of Ozz",
+                "CleanedTitle": "blizzard-of-ozz",
+                "Year": 1980
             },
             {
                 "Title": "Diary Of A Madman",
@@ -6480,9 +6480,9 @@
                 "Year": 1981
             },
             {
-                "Title": "Blizzard Of Ozz",
-                "CleanedTitle": "blizzard-of-ozz",
-                "Year": 1980
+                "Title": "No More Tears",
+                "CleanedTitle": "no-more-tears",
+                "Year": 1991
             }
         ]
     },
@@ -6513,14 +6513,14 @@
         ],
         "Albums": [
             {
-                "Title": "Brothers in Arms",
-                "CleanedTitle": "brothers-in-arms",
-                "Year": 1985
-            },
-            {
                 "Title": "Dire Straits",
                 "CleanedTitle": "dire-straits",
                 "Year": 1978
+            },
+            {
+                "Title": "Brothers in Arms",
+                "CleanedTitle": "brothers-in-arms",
+                "Year": 1985
             }
         ]
     },
@@ -6638,19 +6638,14 @@
         ],
         "Albums": [
             {
-                "Title": "Aftermath",
-                "CleanedTitle": "aftermath",
-                "Year": 1966
-            },
-            {
                 "Title": "Out Of Our Heads",
                 "CleanedTitle": "out-of-our-heads",
                 "Year": 1965
             },
             {
-                "Title": "Some Girls",
-                "CleanedTitle": "some-girls",
-                "Year": 1978
+                "Title": "Aftermath",
+                "CleanedTitle": "aftermath",
+                "Year": 1966
             },
             {
                 "Title": "Beggars Banquet",
@@ -6671,6 +6666,11 @@
                 "Title": "It's Only Rock'N'Roll",
                 "CleanedTitle": "its-only-rocknroll",
                 "Year": 1974
+            },
+            {
+                "Title": "Some Girls",
+                "CleanedTitle": "some-girls",
+                "Year": 1978
             }
         ]
     },
@@ -6760,24 +6760,24 @@
         ],
         "Albums": [
             {
-                "Title": "Permanent Waves",
-                "CleanedTitle": "permanent-waves",
-                "Year": 1980
-            },
-            {
                 "Title": "2112",
                 "CleanedTitle": "2112",
                 "Year": 1976
             },
             {
-                "Title": "Moving Pictures",
-                "CleanedTitle": "moving-pictures",
-                "Year": 1981
-            },
-            {
                 "Title": "A Farewell To Kings",
                 "CleanedTitle": "a-farewell-to-kings",
                 "Year": 1977
+            },
+            {
+                "Title": "Permanent Waves",
+                "CleanedTitle": "permanent-waves",
+                "Year": 1980
+            },
+            {
+                "Title": "Moving Pictures",
+                "CleanedTitle": "moving-pictures",
+                "Year": 1981
             }
         ]
     },
@@ -6815,14 +6815,14 @@
         ],
         "Albums": [
             {
-                "Title": "Wired",
-                "CleanedTitle": "wired",
-                "Year": 1976
-            },
-            {
                 "Title": "Blow By Blow",
                 "CleanedTitle": "blow-by-blow",
                 "Year": 1975
+            },
+            {
+                "Title": "Wired",
+                "CleanedTitle": "wired",
+                "Year": 1976
             }
         ]
     },
@@ -7140,14 +7140,14 @@
         ],
         "Albums": [
             {
-                "Title": "Either/Or",
-                "CleanedTitle": "either-or",
-                "Year": 1997
-            },
-            {
                 "Title": "#1 Record",
                 "CleanedTitle": "1-record",
                 "Year": 1972
+            },
+            {
+                "Title": "Either/Or",
+                "CleanedTitle": "either-or",
+                "Year": 1997
             }
         ]
     },
@@ -7238,6 +7238,11 @@
         ],
         "Albums": [
             {
+                "Title": "Creedence Clearwater Revival",
+                "CleanedTitle": "creedence-clearwater-revival",
+                "Year": 1968
+            },
+            {
                 "Title": "Green River",
                 "CleanedTitle": "green-river",
                 "Year": 1969
@@ -7246,11 +7251,6 @@
                 "Title": "Cosmo's Factory",
                 "CleanedTitle": "cosmos-factory",
                 "Year": 1970
-            },
-            {
-                "Title": "Creedence Clearwater Revival",
-                "CleanedTitle": "creedence-clearwater-revival",
-                "Year": 1968
             },
             {
                 "Title": "Pendulum",
@@ -7397,14 +7397,14 @@
         ],
         "Albums": [
             {
-                "Title": "Against The Grain",
-                "CleanedTitle": "against-the-grain",
-                "Year": 1975
-            },
-            {
                 "Title": "Live! In Europe",
                 "CleanedTitle": "live-in-europe",
                 "Year": 1972
+            },
+            {
+                "Title": "Against The Grain",
+                "CleanedTitle": "against-the-grain",
+                "Year": 1975
             },
             {
                 "Title": "Top Priority",
@@ -7707,14 +7707,14 @@
                 "Year": 1978
             },
             {
-                "Title": "1984",
-                "CleanedTitle": "1984",
-                "Year": 1984
-            },
-            {
                 "Title": "Van Halen II",
                 "CleanedTitle": "van-halen-ii",
                 "Year": 1979
+            },
+            {
+                "Title": "1984",
+                "CleanedTitle": "1984",
+                "Year": 1984
             },
             {
                 "Title": "OU812",
@@ -7802,14 +7802,14 @@
         ],
         "Albums": [
             {
-                "Title": "Blues Masters Vol. 12",
-                "CleanedTitle": "blues-masters-vol-12",
-                "Year": 1992
-            },
-            {
                 "Title": "Led Zeppelin II",
                 "CleanedTitle": "led-zeppelin-ii",
                 "Year": 1969
+            },
+            {
+                "Title": "Blues Masters Vol. 12",
+                "CleanedTitle": "blues-masters-vol-12",
+                "Year": 1992
             }
         ]
     },
@@ -7873,14 +7873,14 @@
         ],
         "Albums": [
             {
-                "Title": "Dirt Floor",
-                "CleanedTitle": "dirt-floor",
-                "Year": 1998
-            },
-            {
                 "Title": "Living With The Law",
                 "CleanedTitle": "living-with-the-law",
                 "Year": 1991
+            },
+            {
+                "Title": "Dirt Floor",
+                "CleanedTitle": "dirt-floor",
+                "Year": 1998
             }
         ]
     },
@@ -8145,14 +8145,14 @@
         ],
         "Albums": [
             {
-                "Title": "Curtains",
-                "CleanedTitle": "curtains",
-                "Year": 2005
-            },
-            {
                 "Title": "Starsailor",
                 "CleanedTitle": "starsailor",
                 "Year": 1970
+            },
+            {
+                "Title": "Curtains",
+                "CleanedTitle": "curtains",
+                "Year": 2005
             }
         ]
     },
@@ -8202,6 +8202,11 @@
                 "Year": 1965
             },
             {
+                "Title": "I Put A Spell On You",
+                "CleanedTitle": "i-put-a-spell-on-you",
+                "Year": 1965
+            },
+            {
                 "Title": "Live at Sin-é (Legacy Edition)",
                 "CleanedTitle": "live-at-sin-e-legacy-edition",
                 "Year": 1993
@@ -8210,11 +8215,6 @@
                 "Title": "Grace",
                 "CleanedTitle": "grace",
                 "Year": 1994
-            },
-            {
-                "Title": "I Put A Spell On You",
-                "CleanedTitle": "i-put-a-spell-on-you",
-                "Year": 1965
             }
         ]
     },
@@ -8446,14 +8446,14 @@
         ],
         "Albums": [
             {
-                "Title": "Waiting For A Miracle",
-                "CleanedTitle": "waiting-for-a-miracle",
-                "Year": 1987
-            },
-            {
                 "Title": "Bruce Cockburn",
                 "CleanedTitle": "bruce-cockburn",
                 "Year": 1970
+            },
+            {
+                "Title": "Waiting For A Miracle",
+                "CleanedTitle": "waiting-for-a-miracle",
+                "Year": 1987
             }
         ]
     },
@@ -8834,14 +8834,14 @@
         ],
         "Albums": [
             {
-                "Title": "The Razors Edge",
-                "CleanedTitle": "the-razors-edge",
-                "Year": 1990
-            },
-            {
                 "Title": "Back In Black",
                 "CleanedTitle": "back-in-black",
                 "Year": 1980
+            },
+            {
+                "Title": "The Razors Edge",
+                "CleanedTitle": "the-razors-edge",
+                "Year": 1990
             }
         ]
     },
@@ -9021,14 +9021,14 @@
                 "Year": 1975
             },
             {
-                "Title": "Recycler",
-                "CleanedTitle": "recycler",
-                "Year": 1990
-            },
-            {
                 "Title": "Eliminator",
                 "CleanedTitle": "eliminator",
                 "Year": 1983
+            },
+            {
+                "Title": "Recycler",
+                "CleanedTitle": "recycler",
+                "Year": 1990
             }
         ]
     },
@@ -9253,6 +9253,11 @@
         ],
         "Albums": [
             {
+                "Title": "Outlandos D'Amour",
+                "CleanedTitle": "outlandos-damour",
+                "Year": 1978
+            },
+            {
                 "Title": "Reggatta De Blanc",
                 "CleanedTitle": "reggatta-de-blanc",
                 "Year": 1979
@@ -9266,11 +9271,6 @@
                 "Title": "Synchronicity",
                 "CleanedTitle": "synchronicity",
                 "Year": 1983
-            },
-            {
-                "Title": "Outlandos D'Amour",
-                "CleanedTitle": "outlandos-damour",
-                "Year": 1978
             }
         ]
     },
@@ -9438,14 +9438,14 @@
         ],
         "Albums": [
             {
-                "Title": "Full Moon Fever",
-                "CleanedTitle": "full-moon-fever",
-                "Year": 1989
-            },
-            {
                 "Title": "At Folsom Prison",
                 "CleanedTitle": "at-folsom-prison",
                 "Year": 1968
+            },
+            {
+                "Title": "Full Moon Fever",
+                "CleanedTitle": "full-moon-fever",
+                "Year": 1989
             }
         ]
     },
@@ -9582,14 +9582,9 @@
         ],
         "Albums": [
             {
-                "Title": "In Utero",
-                "CleanedTitle": "in-utero",
-                "Year": 1993
-            },
-            {
-                "Title": "Nevermind",
-                "CleanedTitle": "nevermind",
-                "Year": 1991
+                "Title": "The Man Who Sold the World",
+                "CleanedTitle": "the-man-who-sold-the-world",
+                "Year": 1970
             },
             {
                 "Title": "Bleach",
@@ -9597,9 +9592,14 @@
                 "Year": 1989
             },
             {
-                "Title": "The Man Who Sold the World",
-                "CleanedTitle": "the-man-who-sold-the-world",
-                "Year": 1970
+                "Title": "Nevermind",
+                "CleanedTitle": "nevermind",
+                "Year": 1991
+            },
+            {
+                "Title": "In Utero",
+                "CleanedTitle": "in-utero",
+                "Year": 1993
             }
         ]
     },
@@ -10061,11 +10061,6 @@
         ],
         "Albums": [
             {
-                "Title": "Jar Of Flies",
-                "CleanedTitle": "jar-of-flies",
-                "Year": 1994
-            },
-            {
                 "Title": "Facelift",
                 "CleanedTitle": "facelift",
                 "Year": 1990
@@ -10074,6 +10069,11 @@
                 "Title": "Dirt",
                 "CleanedTitle": "dirt",
                 "Year": 1992
+            },
+            {
+                "Title": "Jar Of Flies",
+                "CleanedTitle": "jar-of-flies",
+                "Year": 1994
             }
         ]
     },
@@ -10182,14 +10182,14 @@
         ],
         "Albums": [
             {
-                "Title": "No One Sings Like You Anymore",
-                "CleanedTitle": "no-one-sings-like-you-anymore",
-                "Year": 2020
-            },
-            {
                 "Title": "Chris Cornell",
                 "CleanedTitle": "chris-cornell",
                 "Year": 2018
+            },
+            {
+                "Title": "No One Sings Like You Anymore",
+                "CleanedTitle": "no-one-sings-like-you-anymore",
+                "Year": 2020
             }
         ]
     },
@@ -10495,14 +10495,14 @@
         ],
         "Albums": [
             {
-                "Title": "Big Ones",
-                "CleanedTitle": "big-ones",
-                "Year": 1994
-            },
-            {
                 "Title": "Toys In The Attic",
                 "CleanedTitle": "toys-in-the-attic",
                 "Year": 1975
+            },
+            {
+                "Title": "Big Ones",
+                "CleanedTitle": "big-ones",
+                "Year": 1994
             }
         ]
     },
@@ -10677,14 +10677,14 @@
         ],
         "Albums": [
             {
-                "Title": "Honky Château",
-                "CleanedTitle": "honky-chateau",
-                "Year": 1972
-            },
-            {
                 "Title": "Madman Across The Water",
                 "CleanedTitle": "madman-across-the-water",
                 "Year": 1971
+            },
+            {
+                "Title": "Honky Château",
+                "CleanedTitle": "honky-chateau",
+                "Year": 1972
             }
         ]
     },
@@ -10905,14 +10905,14 @@
         ],
         "Albums": [
             {
-                "Title": "10,000 Days",
-                "CleanedTitle": "10-000-days",
-                "Year": 2006
-            },
-            {
                 "Title": "Lateralus",
                 "CleanedTitle": "lateralus",
                 "Year": 2001
+            },
+            {
+                "Title": "10,000 Days",
+                "CleanedTitle": "10-000-days",
+                "Year": 2006
             }
         ]
     },
@@ -11001,14 +11001,14 @@
                 "Year": 1992
             },
             {
-                "Title": "The Battle Of Los Angeles",
-                "CleanedTitle": "the-battle-of-los-angeles",
-                "Year": 1999
-            },
-            {
                 "Title": "Evil Empire",
                 "CleanedTitle": "evil-empire",
                 "Year": 1996
+            },
+            {
+                "Title": "The Battle Of Los Angeles",
+                "CleanedTitle": "the-battle-of-los-angeles",
+                "Year": 1999
             }
         ]
     },
@@ -11506,6 +11506,11 @@
         ],
         "Albums": [
             {
+                "Title": "Cuts Like A Knife",
+                "CleanedTitle": "cuts-like-a-knife",
+                "Year": 1983
+            },
+            {
                 "Title": "Reckless",
                 "CleanedTitle": "reckless",
                 "Year": 1984
@@ -11514,11 +11519,6 @@
                 "Title": "MTV Unplugged",
                 "CleanedTitle": "mtv-unplugged",
                 "Year": 1997
-            },
-            {
-                "Title": "Cuts Like A Knife",
-                "CleanedTitle": "cuts-like-a-knife",
-                "Year": 1983
             }
         ]
     },
@@ -11615,14 +11615,14 @@
         ],
         "Albums": [
             {
-                "Title": "All Things Must Pass",
-                "CleanedTitle": "all-things-must-pass",
-                "Year": 1970
-            },
-            {
                 "Title": "Abbey Road",
                 "CleanedTitle": "abbey-road",
                 "Year": 1969
+            },
+            {
+                "Title": "All Things Must Pass",
+                "CleanedTitle": "all-things-must-pass",
+                "Year": 1970
             }
         ]
     },
@@ -11837,24 +11837,24 @@
         ],
         "Albums": [
             {
-                "Title": "Fully Completely",
-                "CleanedTitle": "fully-completely",
-                "Year": 1992
-            },
-            {
-                "Title": "Phantom Power",
-                "CleanedTitle": "phantom-power",
-                "Year": 1998
-            },
-            {
                 "Title": "Up To Here",
                 "CleanedTitle": "up-to-here",
                 "Year": 1989
             },
             {
+                "Title": "Fully Completely",
+                "CleanedTitle": "fully-completely",
+                "Year": 1992
+            },
+            {
                 "Title": "Trouble At The Henhouse",
                 "CleanedTitle": "trouble-at-the-henhouse",
                 "Year": 1996
+            },
+            {
+                "Title": "Phantom Power",
+                "CleanedTitle": "phantom-power",
+                "Year": 1998
             }
         ]
     },
@@ -12160,14 +12160,14 @@
         ],
         "Albums": [
             {
-                "Title": "Starsailor",
-                "CleanedTitle": "starsailor",
-                "Year": 1970
-            },
-            {
                 "Title": "Goodbye And Hello",
                 "CleanedTitle": "goodbye-and-hello",
                 "Year": 1967
+            },
+            {
+                "Title": "Starsailor",
+                "CleanedTitle": "starsailor",
+                "Year": 1970
             }
         ]
     },
