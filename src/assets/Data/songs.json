@@ -45145,7 +45145,7 @@
             }
         ],
         "Year": 1969,
-        "Search": "",
+        "Search": "riverman",
         "Appearances": [
             {
                 "id": 1,
@@ -45604,6 +45604,10 @@
             {
                 "name": "(M15M) - Martin 00-15m",
                 "cleanedName": "martin-00-15m"
+            },
+            {
+                "name": "(DX1R) - Martin DX1R",
+                "cleanedName": "martin-dx1r"
             }
         ],
         "Year": 1978,
@@ -45622,7 +45626,7 @@
                 "appearance": "Livestream 73",
                 "link": "https://youtu.be/__nszU6iOlM&t=4911",
                 "keys": [
-                    "main"
+                    "DX1R"
                 ]
             }
         ]
