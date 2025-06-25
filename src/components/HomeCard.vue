@@ -187,9 +187,13 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
 }
 
 @media (max-width: 400px) {
+  .icon-background {
+    width: 45px;
+    height: 45px;
+  }
+
   .home-card {
     width: 300px;
-    min-height: 220px;
   }
 }
 
