@@ -38,7 +38,7 @@
         <img 
           :src="getImagePath(item)" 
           :alt="item.name || item.title" 
-          class="search-thumb"
+          :class="['search-thumb', { 'artist-thumb': item.Type === 'Artist' }]"
         />
         <div class="search-text">
           <span class="search-title">{{ item.name || item.title }}</span>
@@ -248,7 +248,7 @@ const clearQuery = () => {
   right: 0;
   background: white;
   border: 1px solid #ccc;
-  max-height: calc(6 * 60px + 1px);
+  max-height: calc(6 * 62px + 1px);
   overflow-y: auto;
   z-index: 10;
   padding: 0;
@@ -263,7 +263,7 @@ const clearQuery = () => {
   align-items: center;
   gap: 12px;
   padding: 10px;
-  height: 60px;
+  height: 62px;
   box-sizing: border-box;
   cursor: pointer;
   border-bottom: 1px solid #eee;
@@ -274,11 +274,15 @@ const clearQuery = () => {
 }
 
 .search-thumb {
-  width: 40px;
-  height: 40px;
+  width: 47px;
+  height: 47px;
   object-fit: cover;
   border-radius: 4px;
   margin-left: 5px;
+}
+
+.artist-thumb {
+  border-radius: 50%;
 }
 
 .search-text {
