@@ -56,7 +56,7 @@
 
 
 <script setup>
-import { ref, defineEmits } from 'vue';
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import SearchData from '../assets/Data/SearchData.json';
 
