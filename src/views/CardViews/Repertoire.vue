@@ -5,8 +5,8 @@
       icon="musicnote"
       iconColor="rose"
     />
-
-    <h2 v-if="isSmallScreen" class="mobile-title">Corey's Repertoire</h2>
+<!-- 
+    <h2 v-if="isSmallScreen" class="mobile-title">Corey's Repertoire</h2> -->
 
     <div class="search-bar-container">
       <font-awesome-icon icon="search" class="search-icon" />
