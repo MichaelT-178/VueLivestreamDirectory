@@ -1,13 +1,29 @@
 <template>
   <div class="country-page-container" v-if="country">
-    <HeaderWithIcon
-      :title="country.name"
-      icon="mappin"
-      iconColor="amber"
-      :leadingIcon="headerConfig.leadingIcon"
-      :leadingIconColor="headerConfig.leadingIconColor"
-      :leadingIconRoute="headerConfig.leadingIconRoute"
-    />
+    <!-- Header Row with Dropdown -->
+    <div class="country-header-row">
+      <HeaderWithIcon
+        :title="country.name"
+        icon="mappin"
+        iconColor="amber"
+        :leadingIcon="headerConfig.leadingIcon"
+        :leadingIconColor="headerConfig.leadingIconColor"
+        :leadingIconRoute="headerConfig.leadingIconRoute"
+      />
+
+      <div class="filter-wrapper header-dropdown-wrapper">
+        <select v-model="selectedCountry" class="filter-select" @change="handleCountryChange">
+          <option disabled value="">Select Country</option>
+          <option
+            v-for="c in allCountries"
+            :key="c.cleanedCountry"
+            :value="c.cleanedCountry"
+          >
+            {{ c.emoji }} {{ c.country }}
+          </option>
+        </select>
+      </div>
+    </div>
 
     <img 
       :src="getCountryImagePath(country.cleanedName)" 
@@ -21,7 +37,6 @@
       <strong>Number of Artists:</strong> {{ country.numOfArtists }}
     </p>
 
-    <!-- Search Bar -->
     <div class="search-bar-container" v-if="country.numOfArtists >= 25">
       <font-awesome-icon icon="search" class="search-icon" />
       <input 
@@ -55,7 +70,8 @@
       </router-link>
     </div>
   </div>
-  
+
+  <!-- Not Found Fallback -->
   <div v-else class="country-page-container">
     <HeaderWithIcon
       title="Country"
@@ -78,11 +94,14 @@
 
 
 <script setup>
-import { computed, ref, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 import CountryData from '../assets/Data/countries.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 import SamJacksonPic from '../assets/CountryPics/SamJackson.jpg';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+const router = useRouter();
 
 const props = defineProps({
   country: String,
@@ -95,6 +114,9 @@ const props = defineProps({
 const country = computed(() => CountryData[props.country.toLowerCase()]);
 const searchQuery = ref('');
 const imageLoaded = ref(false);
+
+const selectedCountry = ref('');
+const allCountries = CountryData.AllCountries;
 
 const handleImageLoad = () => {
   imageLoaded.value = true;
@@ -110,6 +132,12 @@ const filteredArtists = computed(() => {
         artist.Location.toLowerCase().includes(query)
       );
 });
+
+const handleCountryChange = () => {
+  if (selectedCountry.value) {
+    router.push(`/country/${selectedCountry.value}`);
+  }
+};
 
 const formattedCountryNoArtists = computed(() => {
   if (!props.country) {
@@ -148,6 +176,7 @@ const getArtistImagePath = (cleanedName) => {
 
 onMounted(() => {
   window.scrollTo(0, 0);
+  selectedCountry.value = props.country;
 });
 
 </script>
@@ -158,6 +187,36 @@ onMounted(() => {
   padding: 2rem;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Header + Dropdown row */
+.country-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* margin-bottom: 2rem; */
+}
+
+.header-dropdown-wrapper {
+  margin-left: auto;
+  background-color: #1f2937;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding-right: 10px;
+}
+
+.filter-select {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #1f2937;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
 }
 
 .artist-count {
@@ -181,7 +240,6 @@ onMounted(() => {
   border: 2px solid #eeeded;
   font-size: 16px;
   color: #111;
-  box-sizing: border-box;
 }
 
 .search-bar::placeholder {
@@ -272,13 +330,15 @@ onMounted(() => {
   opacity: 1;
 }
 
-@media (max-width: 500px) {
-  .not-found-message {
-    font-size: 1.1rem;
+@media (max-width: 600px) {
+  .country-header-row {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .search-bar-container {
-    margin-bottom: 1.5rem;
+  .header-dropdown-wrapper {
+    width: 100%;
+    margin-left: 0;
   }
 }
 
