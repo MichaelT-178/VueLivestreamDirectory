@@ -24,7 +24,7 @@
     "canada": {
         "name": "Canada",
         "cleanedName": "canada",
-        "numOfArtists": 27,
+        "numOfArtists": 28,
         "emoji": "🇨🇦",
         "artists": [
             {
@@ -215,6 +215,13 @@
                 "Location": "Manitoba, Canada",
                 "YearFormed": 1970,
                 "Genre": "Rock"
+            },
+            {
+                "Artist": "Sarah McLachlan",
+                "CleanedArtist": "sarah-mclachlan",
+                "Location": "Nova Scotia, Canada",
+                "YearFormed": 1968,
+                "Genre": "Singer/Songwriter"
             }
         ]
     },

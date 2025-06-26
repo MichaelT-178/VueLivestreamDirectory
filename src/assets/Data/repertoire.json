@@ -211,6 +211,14 @@
             "CleanedArtist": "joe-satriani"
         },
         {
+            "Song": "Angel",
+            "CleanedSong": "angel",
+            "AlbumTitle": "Surfacing",
+            "CleanedAlbumTitle": "surfacing",
+            "Artist": "Sarah McLachlan",
+            "CleanedArtist": "sarah-mclachlan"
+        },
+        {
             "Song": "Angel from Montgomery",
             "CleanedSong": "angel-from-montgomery",
             "AlbumTitle": "John Prine",

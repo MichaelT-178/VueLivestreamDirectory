@@ -5417,6 +5417,19 @@
             }
         ]
     },
+    "surfacing": {
+        "AlbumTitle": "Surfacing",
+        "CleanedAlbumTitle": "surfacing",
+        "Artist": "Sarah McLachlan",
+        "CleanedArtist": "sarah-mclachlan",
+        "Year": 1997,
+        "Songs": [
+            {
+                "Song": "Angel",
+                "CleanedSong": "angel"
+            }
+        ]
+    },
     "surfing-with-the-alien": {
         "AlbumTitle": "Surfing With The Alien",
         "CleanedAlbumTitle": "surfing-with-the-alien",
