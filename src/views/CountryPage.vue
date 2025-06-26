@@ -1,6 +1,6 @@
 <template>
   <div class="country-page-container" v-if="country">
-    <!-- Header Row with Dropdown -->
+
     <div class="country-header-row">
       <HeaderWithIcon
         :title="country.name"
@@ -11,7 +11,6 @@
         :leadingIconRoute="headerConfig.leadingIconRoute"
       />
 
-      <!-- Dropdown + Image wrapper -->
       <div class="dropdown-and-image-wrapper">
         <div class="filter-wrapper header-dropdown-wrapper" @click="openCountryDropdown">
           <select
@@ -81,9 +80,17 @@
         </div>
       </router-link>
     </div>
+
+    <button
+      v-if="country.numOfArtists >= 25 && isExtraSmallScreen && !searchQuery"
+      class="go-to-top-btn"
+      @click="scrollToTop"
+    >
+      Go back to top
+    </button>
   </div>
 
-  <!-- Not Found Fallback -->
+  <!-- Not Found -->
   <div v-else class="country-page-container">
     <HeaderWithIcon
       title="Country"
@@ -104,8 +111,9 @@
   </div>
 </template>
 
+
 <script setup>
-import { ref, computed, onMounted, nextTick } from 'vue';
+import { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue';
 import { useRouter } from 'vue-router';
 import CountryData from '../assets/Data/countries.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
@@ -126,6 +134,7 @@ const selectedCountry = ref('');
 const allCountries = CountryData.AllCountries;
 
 const isSmallScreen = ref(false);
+const isExtraSmallScreen = ref(false);
 const countrySelect = ref(null);
 
 const handleImageLoad = () => {
@@ -134,6 +143,7 @@ const handleImageLoad = () => {
 
 const filteredArtists = computed(() => {
   const query = searchQuery.value.toLowerCase();
+
   return !country.value
     ? []
     : country.value.artists.filter(artist =>
@@ -158,7 +168,10 @@ const openCountryDropdown = () => {
 };
 
 const formattedCountryNoArtists = computed(() => {
-  if (!props.country) return '';
+  if (!props.country) {
+    return '';
+  }
+
   return props.country
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -173,6 +186,7 @@ const headerConfig = computed(() => {
       leadingIconRoute: `/artist/${props.artist}`
     }
   }
+
   return {
     leadingIcon: 'home',
     leadingIconColor: 'sky',
@@ -188,8 +202,15 @@ const getArtistImagePath = (cleanedName) => {
   return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href;
 };
 
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
 const checkScreen = () => {
-  isSmallScreen.value = window.innerWidth <= 700;
+  const width = window.innerWidth;
+
+  isSmallScreen.value = width <= 700;
+  isExtraSmallScreen.value = width <= 400;
 };
 
 onMounted(() => {
@@ -198,7 +219,13 @@ onMounted(() => {
   checkScreen();
   window.addEventListener('resize', checkScreen);
 });
+
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', checkScreen);
+});
+
 </script>
+
 
 <style scoped>
 .country-page-container {
@@ -249,11 +276,9 @@ onMounted(() => {
   background-image: none;
 }
 
-
 .country-image {
   width: 100%;
   max-width: 600px;
-  /* margin: 1rem auto 0.5rem; */
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   opacity: 0;
@@ -410,5 +435,28 @@ onMounted(() => {
   }
 }
 
+@media (max-width: 400px) {
+  .go-to-top-btn {
+    display: block;
+    margin: 40px auto 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #2275d9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-to-top-btn:hover {
+    background-color: #1a57a2;
+  }
+
+  .artist-text {
+    font-size: 0.925rem;
+  }
+}
 
 </style>
