@@ -30,10 +30,7 @@
         <div class="result-text">
           <span class="result-title">{{ item.name || item.title }}</span>
           <div class="result-type">
-            {{ item.Type }}
-            <span v-if="item.Type === 'Song'">
-              <span class="dot">•</span> {{ item.artist }}
-            </span>
+            {{ item.Type }}<span v-if="item.Type === 'Song'"> • {{ item.artist }}</span>
           </div>
         </div>
       </li>
