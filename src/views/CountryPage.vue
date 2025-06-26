@@ -9,10 +9,17 @@
       :leadingIconRoute="headerConfig.leadingIconRoute"
     />
 
+    <!-- <img 
+      :src="getCountryImagePath(country.cleanedName)" 
+      :alt="country.name" 
+      class="country-image"
+    /> -->
     <img 
       :src="getCountryImagePath(country.cleanedName)" 
       :alt="country.name" 
       class="country-image"
+      :class="{ 'loaded': imageLoaded }"
+      @load="handleImageLoad"
     />
 
     <p class="artist-count">
@@ -92,6 +99,11 @@ const props = defineProps({
 
 const country = computed(() => CountryData[props.country.toLowerCase()]);
 const searchQuery = ref('');
+const imageLoaded = ref(false);
+
+const handleImageLoad = () => {
+  imageLoaded.value = true;
+};
 
 const filteredArtists = computed(() => {
   const query = searchQuery.value.toLowerCase();
@@ -256,6 +268,20 @@ onMounted(() => {
   display: block;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.country-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 1rem auto 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.country-image.loaded {
+  opacity: 1;
 }
 
 @media (max-width: 500px) {
