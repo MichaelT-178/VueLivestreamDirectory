@@ -215,7 +215,7 @@ const checkScreen = () => {
 
 onMounted(() => {
   window.scrollTo(0, 0);
-  selectedCountry.value = props.country;
+  selectedCountry.value = props.country.toLowerCase();
   checkScreen();
   window.addEventListener('resize', checkScreen);
 });
