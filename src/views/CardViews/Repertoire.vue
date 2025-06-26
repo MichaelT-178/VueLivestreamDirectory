@@ -5,8 +5,6 @@
       icon="musicnote"
       iconColor="rose"
     />
-<!-- 
-    <h2 v-if="isSmallScreen" class="mobile-title">Corey's Repertoire</h2> -->
 
     <div class="search-bar-container">
       <font-awesome-icon icon="search" class="search-icon" />
@@ -41,46 +39,43 @@
           <p>{{ song.Artist }}</p>
         </div>
       </div>
-      
-      <button
-        v-if="isSmallScreen"
-        class="go-to-top-btn"
-        @click="scrollToTop"
-      >
-        Go back to top
-      </button>
     </div>
 
-    <!-- <button
+    <!-- <div v-if="displayedCount < totalSongsCount" class="loading-more">
+      Loading more songs...
+    </div> -->
+
+    <button
       v-if="isSmallScreen"
       class="go-to-top-btn"
       @click="scrollToTop"
     >
       Go back to top
-    </button> -->
-
+    </button>
   </div>
 </template>
 
 
 <script setup>
-import { computed, ref, onMounted } from 'vue';
-import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
-import AllData from "../../assets/Data/repertoire.json";
-import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
+import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
+import AllData from '../../assets/Data/repertoire.json';
+import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 
 const searchQuery = ref('');
+const displayedCount = ref(20);
 
 const router = useRouter();
-
 const { isSmallScreen, scrollToTop } = useScreenHelpers();
+
+const totalSongsCount = Object.values(AllData).flat().length;
 
 const getImagePath = (song) => {
   if (song.CleanedAlbumTitle) {
     return new URL(`../../assets/AlbumPics/${song.CleanedAlbumTitle}.jpg`, import.meta.url).href;
   }
-
+  
   return new URL(`../../assets/ArtistPics/${song.CleanedArtist}.jpg`, import.meta.url).href;
 };
 
@@ -94,30 +89,49 @@ const goToSongPage = (cleanedTitle) => {
 
 const filteredData = computed(() => {
   const query = searchQuery.value.toLowerCase();
-
-  if (!query) {
-    return AllData;
-  }
-
   const result = {};
+  let count = 0;
 
   for (const [category, songs] of Object.entries(AllData)) {
-
     const filteredSongs = songs.filter(song =>
       song.Song.toLowerCase().includes(query) ||
       song.Artist.toLowerCase().includes(query)
     );
 
     if (filteredSongs.length > 0) {
-      result[category] = filteredSongs;
+      const remaining = displayedCount.value - count;
+
+      if (remaining <= 0) {
+        break;
+      }
+
+      result[category] = filteredSongs.slice(0, remaining);
+      count += result[category].length;
     }
   }
 
   return result;
 });
 
+const loadMoreSongs = () => {
+  displayedCount.value += 20;
+};
+
+const handleScroll = () => {
+  const nearBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 100;
+
+  if (nearBottom && displayedCount.value < totalSongsCount) {
+    loadMoreSongs();
+  }
+};
+
 onMounted(() => {
   window.scrollTo(0, 0);
+  window.addEventListener('scroll', handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll);
 });
 
 </script>
@@ -195,6 +209,13 @@ onMounted(() => {
   outline: none;
   box-shadow: none;
   border-color: #2275d9;
+}
+
+.loading-more {
+  text-align: center;
+  color: #ccc;
+  margin: 2rem 0;
+  font-style: italic;
 }
 
 @media (max-width: 400px) {
