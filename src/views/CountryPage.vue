@@ -19,8 +19,19 @@
       <strong>Number of Artists:</strong> {{ country.numOfArtists }}
     </p>
 
+    <!-- Search Bar -->
+    <div class="search-bar-container" v-if="country.numOfArtists >= 25">
+      <font-awesome-icon icon="search" class="search-icon" />
+      <input 
+        v-model="searchQuery"
+        type="text"
+        class="search-bar"
+        placeholder="Filter by artist or location"
+      />
+    </div>
+
     <div
-      v-for="artist in country.artists"
+      v-for="artist in filteredArtists"
       :key="artist.CleanedArtist"
       class="artist-card"
     >
@@ -63,11 +74,13 @@
   </div>
 </template>
 
+
 <script setup>
-import { computed, onMounted } from 'vue';
+import { computed, ref, onMounted } from 'vue';
 import CountryData from '../assets/Data/countries.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 import SamJacksonPic from '../assets/CountryPics/SamJackson.jpg';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 const props = defineProps({
   country: String,
@@ -78,6 +91,18 @@ const props = defineProps({
 });
 
 const country = computed(() => CountryData[props.country.toLowerCase()]);
+const searchQuery = ref('');
+
+const filteredArtists = computed(() => {
+  const query = searchQuery.value.toLowerCase();
+
+  return !country.value
+    ? []
+    : country.value.artists.filter(artist =>
+        artist.Artist.toLowerCase().includes(query) ||
+        artist.Location.toLowerCase().includes(query)
+      );
+});
 
 const formattedCountryNoArtists = computed(() => {
   if (!props.country) {
@@ -98,6 +123,7 @@ const headerConfig = computed(() => {
       leadingIconRoute: `/artist/${props.artist}`
     }
   }
+
   return {
     leadingIcon: 'home',
     leadingIconColor: 'sky',
@@ -116,7 +142,9 @@ const getArtistImagePath = (cleanedName) => {
 onMounted(() => {
   window.scrollTo(0, 0);
 });
+
 </script>
+
 
 <style scoped>
 .country-page-container {
@@ -126,8 +154,44 @@ onMounted(() => {
 }
 
 .artist-count {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   font-size: 1.1rem;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 9px 10px 9px 37px;
+  border-radius: 6px;
+  background-color: #eeeded;
+  border: 2px solid #eeeded;
+  font-size: 16px;
+  color: #111;
+  box-sizing: border-box;
+}
+
+.search-bar::placeholder {
+  color: #555;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #2275d9;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #555;
 }
 
 .artist-card {
@@ -171,16 +235,6 @@ onMounted(() => {
   margin: 0.25rem 0;
 }
 
-.not-found-message {
-  font-size: 1.3rem;
-}
-
-.not-found-image {
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
 .country-image {
   width: 100%;
   max-width: 600px;
@@ -189,15 +243,28 @@ onMounted(() => {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 830px) {
-  .not-found-image {
-    width: 90%;
-  }
+.not-found-message {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.not-found-image {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 500px) {
   .not-found-message {
     font-size: 1.1rem;
+  }
+
+  .search-bar-container {
+    margin-bottom: 1.5rem;
   }
 }
 </style>
