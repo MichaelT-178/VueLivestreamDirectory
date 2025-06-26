@@ -2655,5 +2655,132 @@
                 "Genre": "Blues"
             }
         ]
-    }
+    },
+    "AllCountries": [
+        {
+            "country": "Earth",
+            "cleanedCountry": "earth",
+            "emoji": "🌎"
+        },
+        {
+            "country": "Canada",
+            "cleanedCountry": "canada",
+            "emoji": "🇨🇦"
+        },
+        {
+            "country": "United States",
+            "cleanedCountry": "united-states",
+            "emoji": "🇺🇸"
+        },
+        {
+            "country": "England",
+            "cleanedCountry": "england",
+            "emoji": "🇬🇧"
+        },
+        {
+            "country": "Burma",
+            "cleanedCountry": "burma",
+            "emoji": "🇲🇲"
+        },
+        {
+            "country": "Australia",
+            "cleanedCountry": "australia",
+            "emoji": "🇦🇺"
+        },
+        {
+            "country": "Ireland",
+            "cleanedCountry": "ireland",
+            "emoji": "🇮🇪"
+        },
+        {
+            "country": "Spain",
+            "cleanedCountry": "spain",
+            "emoji": "🇪🇸"
+        },
+        {
+            "country": "Italy",
+            "cleanedCountry": "italy",
+            "emoji": "🇮🇹"
+        },
+        {
+            "country": "France",
+            "cleanedCountry": "france",
+            "emoji": "🇫🇷"
+        },
+        {
+            "country": "Jamaica",
+            "cleanedCountry": "jamaica",
+            "emoji": "🇯🇲"
+        },
+        {
+            "country": "Belgium",
+            "cleanedCountry": "belgium",
+            "emoji": "🇧🇪"
+        },
+        {
+            "country": "Scotland",
+            "cleanedCountry": "scotland",
+            "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        },
+        {
+            "country": "Germany",
+            "cleanedCountry": "germany",
+            "emoji": "🇩🇪"
+        },
+        {
+            "country": "Ukraine",
+            "cleanedCountry": "ukraine",
+            "emoji": "🇺🇦"
+        },
+        {
+            "country": "The Netherlands",
+            "cleanedCountry": "the-netherlands",
+            "emoji": "🇳🇱"
+        },
+        {
+            "country": "Norway",
+            "cleanedCountry": "norway",
+            "emoji": "🇳🇴"
+        },
+        {
+            "country": "Paraguay",
+            "cleanedCountry": "paraguay",
+            "emoji": "🇵🇾"
+        },
+        {
+            "country": "Puerto Rico",
+            "cleanedCountry": "puerto-rico",
+            "emoji": "🇵🇷"
+        },
+        {
+            "country": "Japan",
+            "cleanedCountry": "japan",
+            "emoji": "🇯🇵"
+        },
+        {
+            "country": "Israel",
+            "cleanedCountry": "israel",
+            "emoji": "🇮🇱"
+        },
+        {
+            "country": "Egypt",
+            "cleanedCountry": "egypt",
+            "emoji": "🇪🇬"
+        },
+        {
+            "country": "Hungary",
+            "cleanedCountry": "hungary",
+            "emoji": "🇭🇺"
+        },
+        {
+            "country": "Wales",
+            "cleanedCountry": "wales",
+            "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+        },
+        {
+            "country": "Cyprus",
+            "cleanedCountry": "cyprus",
+            "emoji": "🇨🇾"
+        }
+    ]
 }
