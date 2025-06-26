@@ -11,8 +11,16 @@
         :leadingIconRoute="headerConfig.leadingIconRoute"
       />
 
-      <div class="filter-wrapper header-dropdown-wrapper">
-        <select v-model="selectedCountry" class="filter-select" @change="handleCountryChange">
+      <!-- Clickable wrapper -->
+      <div class="filter-wrapper header-dropdown-wrapper" @click="openCountryDropdown">
+        <select
+          ref="countrySelect"
+          v-model="selectedCountry"
+          class="filter-select"
+          :class="{ 'no-arrow': isSmallScreen }"
+          @change="handleCountryChange"
+          @click.stop
+        >
           <option disabled value="">Select Country</option>
           <option
             v-for="c in allCountries"
@@ -25,13 +33,15 @@
       </div>
     </div>
 
-    <img 
-      :src="getCountryImagePath(country.cleanedName)" 
-      :alt="country.name" 
-      class="country-image"
-      :class="{ 'loaded': imageLoaded }"
-      @load="handleImageLoad"
-    />
+    <div class="country-image-wrapper">
+      <img 
+        :src="getCountryImagePath(country.cleanedName)" 
+        :alt="country.name" 
+        class="country-image"
+        :class="{ 'loaded': imageLoaded }"
+        @load="handleImageLoad"
+      />
+    </div>
 
     <p class="artist-count">
       <strong>Number of Artists:</strong> {{ country.numOfArtists }}
@@ -92,9 +102,8 @@
   </div>
 </template>
 
-
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, nextTick } from 'vue';
 import { useRouter } from 'vue-router';
 import CountryData from '../assets/Data/countries.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
@@ -105,18 +114,17 @@ const router = useRouter();
 
 const props = defineProps({
   country: String,
-  artist: {
-    type: String,
-    required: false,
-  },
+  artist: String
 });
 
 const country = computed(() => CountryData[props.country.toLowerCase()]);
 const searchQuery = ref('');
 const imageLoaded = ref(false);
-
 const selectedCountry = ref('');
 const allCountries = CountryData.AllCountries;
+
+const isSmallScreen = ref(false);
+const countrySelect = ref(null);
 
 const handleImageLoad = () => {
   imageLoaded.value = true;
@@ -124,7 +132,6 @@ const handleImageLoad = () => {
 
 const filteredArtists = computed(() => {
   const query = searchQuery.value.toLowerCase();
-
   return !country.value
     ? []
     : country.value.artists.filter(artist =>
@@ -139,11 +146,17 @@ const handleCountryChange = () => {
   }
 };
 
-const formattedCountryNoArtists = computed(() => {
-  if (!props.country) {
-    return '';
+const openCountryDropdown = () => {
+  if (countrySelect.value) {
+    nextTick(() => {
+      countrySelect.value.focus();
+      countrySelect.value.click();
+    });
   }
+};
 
+const formattedCountryNoArtists = computed(() => {
+  if (!props.country) return '';
   return props.country
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -158,7 +171,6 @@ const headerConfig = computed(() => {
       leadingIconRoute: `/artist/${props.artist}`
     }
   }
-
   return {
     leadingIcon: 'home',
     leadingIconColor: 'sky',
@@ -174,13 +186,18 @@ const getArtistImagePath = (cleanedName) => {
   return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href;
 };
 
+const checkScreen = () => {
+  isSmallScreen.value = window.innerWidth <= 700;
+};
+
 onMounted(() => {
   window.scrollTo(0, 0);
   selectedCountry.value = props.country;
+  checkScreen();
+  window.addEventListener('resize', checkScreen);
 });
 
 </script>
-
 
 <style scoped>
 .country-page-container {
@@ -189,15 +206,12 @@ onMounted(() => {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-/* Header + Dropdown row */
 .country-header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1rem;
-  /* margin-bottom: 2rem; */
 }
 
 .header-dropdown-wrapper {
@@ -206,9 +220,13 @@ onMounted(() => {
   border: 1px solid #ccc;
   border-radius: 8px;
   padding-right: 10px;
+  cursor: pointer;
+  position: relative;
 }
 
 .filter-select {
+  width: 100%;
+  height: 100%;
   padding: 10px 20px;
   font-size: 16px;
   color: white;
@@ -217,6 +235,12 @@ onMounted(() => {
   border-radius: 8px;
   outline: none;
   cursor: pointer;
+  appearance: auto;
+}
+
+.filter-select.no-arrow {
+  appearance: none;
+  background-image: none;
 }
 
 .artist-count {
@@ -330,7 +354,12 @@ onMounted(() => {
   opacity: 1;
 }
 
-@media (max-width: 600px) {
+.country-image-wrapper {
+  margin: 1rem 0;
+}
+
+
+@media (max-width: 700px) {
   .country-header-row {
     flex-direction: column;
     align-items: flex-start;
@@ -340,6 +369,25 @@ onMounted(() => {
     width: 100%;
     margin-left: 0;
   }
-}
 
+  .artist-thumb {
+    width: 60px;
+    height: 60px;
+  }
+
+  .country-image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+
+  .artist-card {
+    margin-bottom: 1rem;
+  }
+
+  .artist-link {
+    padding: 0.7rem 1rem;
+  }
+}
 </style>
