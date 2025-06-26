@@ -9,11 +9,6 @@
       :leadingIconRoute="headerConfig.leadingIconRoute"
     />
 
-    <!-- <img 
-      :src="getCountryImagePath(country.cleanedName)" 
-      :alt="country.name" 
-      class="country-image"
-    /> -->
     <img 
       :src="getCountryImagePath(country.cleanedName)" 
       :alt="country.name" 
@@ -168,6 +163,7 @@ onMounted(() => {
 .artist-count {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
+  color: #e3e3e3;
 }
 
 .search-bar-container {
@@ -247,14 +243,6 @@ onMounted(() => {
   margin: 0.25rem 0;
 }
 
-.country-image {
-  width: 100%;
-  max-width: 600px;
-  margin: 1rem auto 2rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-}
-
 .not-found-message {
   font-size: 1.3rem;
   text-align: center;
@@ -273,9 +261,9 @@ onMounted(() => {
 .country-image {
   width: 100%;
   max-width: 600px;
-  margin: 1rem auto 2rem;
+  margin: 1rem auto 0.5rem;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 }
@@ -293,4 +281,5 @@ onMounted(() => {
     margin-bottom: 1.5rem;
   }
 }
+
 </style>
