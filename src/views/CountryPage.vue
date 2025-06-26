@@ -11,36 +11,38 @@
         :leadingIconRoute="headerConfig.leadingIconRoute"
       />
 
-      <!-- Clickable wrapper -->
-      <div class="filter-wrapper header-dropdown-wrapper" @click="openCountryDropdown">
-        <select
-          ref="countrySelect"
-          v-model="selectedCountry"
-          class="filter-select"
-          :class="{ 'no-arrow': isSmallScreen }"
-          @change="handleCountryChange"
-          @click.stop
-        >
-          <option disabled value="">Select Country</option>
-          <option
-            v-for="c in allCountries"
-            :key="c.cleanedCountry"
-            :value="c.cleanedCountry"
+      <!-- Dropdown + Image wrapper -->
+      <div class="dropdown-and-image-wrapper">
+        <div class="filter-wrapper header-dropdown-wrapper" @click="openCountryDropdown">
+          <select
+            ref="countrySelect"
+            v-model="selectedCountry"
+            class="filter-select"
+            :class="{ 'no-arrow': isSmallScreen }"
+            @change="handleCountryChange"
+            @click.stop
           >
-            {{ c.emoji }} {{ c.country }}
-          </option>
-        </select>
-      </div>
-    </div>
+            <option disabled value="">Select Country</option>
+            <option
+              v-for="c in allCountries"
+              :key="c.cleanedCountry"
+              :value="c.cleanedCountry"
+            >
+              {{ c.emoji }} {{ c.country }}
+            </option>
+          </select>
+        </div>
 
-    <div class="country-image-wrapper">
-      <img 
-        :src="getCountryImagePath(country.cleanedName)" 
-        :alt="country.name" 
-        class="country-image"
-        :class="{ 'loaded': imageLoaded }"
-        @load="handleImageLoad"
-      />
+        <div class="country-image-wrapper">
+          <img 
+            :src="getCountryImagePath(country.cleanedName)" 
+            :alt="country.name" 
+            class="country-image"
+            :class="{ 'loaded': imageLoaded }"
+            @load="handleImageLoad"
+          />
+        </div>
+      </div>
     </div>
 
     <p class="artist-count">
@@ -196,7 +198,6 @@ onMounted(() => {
   checkScreen();
   window.addEventListener('resize', checkScreen);
 });
-
 </script>
 
 <style scoped>
@@ -208,14 +209,19 @@ onMounted(() => {
 
 .country-header-row {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 1rem;
 }
 
+.dropdown-and-image-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .header-dropdown-wrapper {
-  margin-left: auto;
   background-color: #1f2937;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -241,6 +247,21 @@ onMounted(() => {
 .filter-select.no-arrow {
   appearance: none;
   background-image: none;
+}
+
+
+.country-image {
+  width: 100%;
+  max-width: 600px;
+  /* margin: 1rem auto 0.5rem; */
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.country-image.loaded {
+  opacity: 1;
 }
 
 .artist-count {
@@ -340,39 +361,16 @@ onMounted(() => {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.country-image {
-  width: 100%;
-  max-width: 600px;
-  margin: 1rem auto 0.5rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.country-image.loaded {
-  opacity: 1;
-}
-
-.country-image-wrapper {
-  margin: 1rem 0;
-}
-
-
 @media (max-width: 700px) {
-  .country-header-row {
+  .dropdown-and-image-wrapper {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    width: 100%;
   }
 
   .header-dropdown-wrapper {
     width: 100%;
     margin-left: 0;
-  }
-
-  .artist-thumb {
-    width: 60px;
-    height: 60px;
   }
 
   .country-image-wrapper {
@@ -381,6 +379,10 @@ onMounted(() => {
     width: 100%;
   }
 
+  .artist-thumb {
+    width: 60px;
+    height: 60px;
+  }
 
   .artist-card {
     margin-bottom: 1rem;
@@ -390,4 +392,23 @@ onMounted(() => {
     padding: 0.7rem 1rem;
   }
 }
+
+@media (max-width: 500px) {
+  .search-bar-container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .search-bar-container .search-bar {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .artist-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+
 </style>
