@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 from termcolor import colored as c
 
 process = subprocess.run('git status', shell=True, capture_output=True, text=True)
@@ -26,7 +27,10 @@ else:
 	print('git push origin main')
 	exit(0)
 
-commit_msg = input("Enter your commit message: ")
+if len(sys.argv) > 1:
+    commit_msg = sys.argv[1]
+else:
+    commit_msg = input("Enter your commit message: ")
 
 os.system('git add .')
 os.system(f'git commit -m "{commit_msg}"')
