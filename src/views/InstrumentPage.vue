@@ -269,7 +269,7 @@ onMounted(() => {
   .appearance-card {
     width: 100%;
     box-sizing: border-box;
-    padding: 0 0.5rem;
+    padding: 0 0rem;
   }
 
   .appearance-link {
