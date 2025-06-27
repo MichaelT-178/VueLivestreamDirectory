@@ -36,6 +36,7 @@
         @mousedown.prevent="navigateTo(item)"
       >
         <img 
+          loading="lazy"
           :src="getImagePath(item)" 
           :alt="item.name || item.title" 
           :class="['search-thumb', { 'artist-thumb': item.Type === 'Artist' }]"
