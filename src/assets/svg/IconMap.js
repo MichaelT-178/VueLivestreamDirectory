@@ -1,9 +1,12 @@
 import ArrowRightIcon from "./ArrowRight.vue";
 import AudioLinesIcon from "./AudioLines.vue";
+import BadgeCheckIcon from "./BadgeCheck.vue";
 import BookmarkIcon from "./Bookmark.vue";
 import CameraIcon from "./Camera.vue";
 import CashIcon from "./Cash.vue";
 import ChevronRightIcon from "./ChevronRight.vue";
+import CircleCheckIcon from "./CircleCheck.vue";
+import CircleXIcon from "./CircleX.vue";
 import ClapperboardIcon from "./Clapperboard.vue";
 import CrownIcon from "./Crown.vue";
 import DiscIcon from "./Disc.vue";
@@ -29,10 +32,13 @@ import VideoIcon from "./Video.vue";
 const iconMap = {
   arrowright: ArrowRightIcon,
   audiolines: AudioLinesIcon,
+  badgecheck: BadgeCheckIcon,
   bookmark: BookmarkIcon,
   camera: CameraIcon,
   cash: CashIcon,
   chevronright: ChevronRightIcon,
+  circlecheck: CircleCheckIcon,
+  circlex: CircleXIcon,
   clapperboard: ClapperboardIcon,
   crown: CrownIcon,
   disc: DiscIcon,

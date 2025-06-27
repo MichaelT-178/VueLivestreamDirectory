@@ -1,5 +1,14 @@
 <template>
   <div class="contact-container">
+
+    <div class="modal-wrapper" v-if="showModal">
+      <EmailModal
+        v-if="showModal"
+        :success="modalSuccess"
+        @close="showModal = false"
+      />
+    </div>
+
     <div class="form-layout">
 
       <div class="header-with-icon">
@@ -74,8 +83,8 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
-import Swal from 'sweetalert2';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
+import EmailModal from '../../components/EmailModal.vue';
 
 const userName = ref('');
 const userEmail = ref('');
@@ -83,21 +92,21 @@ const userMessage = ref('');
 const isButtonClicked = ref(false);
 const buttonText = ref('Submit');
 
+
+const showModal = ref(false);
+const modalSuccess = ref(false);
+
 const publicEmailKey = 'n_0DD9e920wrGRa_I';
-
 emailjs.init(publicEmailKey);
-
 
 const isFormValid = computed(() => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
   return (
     userName.value.trim() !== '' &&
     emailRegex.test(userEmail.value) &&
     userMessage.value.trim() !== ''
   );
 });
-
 
 const submitForm = () => {
   if (!isFormValid.value) return;
@@ -116,13 +125,17 @@ const submitForm = () => {
   emailjs
     .send('service_5y41gll', 'template_6kezich', templateParams)
     .then(() => {
-      Swal.fire('Sent!', 'Your message has been sent successfully!', 'success');
+      modalSuccess.value = true;
+      showModal.value = true;
+
       userName.value = '';
       userEmail.value = '';
       userMessage.value = '';
     })
     .catch((err) => {
-      Swal.fire('Error!', 'Something went wrong when sending your message! See console.', 'error');
+      modalSuccess.value = false;
+      showModal.value = true;
+
       console.error('Failed to send email:', err);
     })
     .finally(() => {
@@ -252,6 +265,20 @@ textarea:focus {
 .header-with-icon {
   /* margin-top: -10px; */
   padding-bottom: 10px;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(2px);
 }
 
 @media (max-width: 400px) {
