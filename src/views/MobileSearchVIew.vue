@@ -171,7 +171,7 @@ onMounted(() => {
   padding: 8px 10px 8px 0px;
   border-radius: 6px;
   border: none;
-  font-size: 17px;
+  font-size: 16px;
   color: black;
   text-indent: 30px;
 }
@@ -229,8 +229,8 @@ onMounted(() => {
 }
 
 .result-thumb {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   border-radius: 4px;
 }
