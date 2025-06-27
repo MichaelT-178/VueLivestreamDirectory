@@ -6,7 +6,10 @@ process = subprocess.run('git status', shell=True, capture_output=True, text=Tru
 
 output = process.stdout
 
-branch = repr(output).split("\\n")[0].replace("'On branch ", "").strip()
+# branch = repr(output).split("\\n")[0].replace("'On branch ", "").strip()
+
+branch_line = output.splitlines()[0]
+branch = branch_line.replace("On branch ", "").strip()
 
 print('On branch ', end="")
 
