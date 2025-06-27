@@ -75,7 +75,9 @@ const handleFocus = () => {
 }
 
 .search-word {
-  color: #60A5FA;
+  /* color: #60A5FA; */
+  /* color: #60A5FA; */
+  color: red;
 }
 
 .search-wrapper {
