@@ -9,6 +9,11 @@
       :leadingIconRoute="headerConfig.leadingIconRoute"
     />
 
+    <p 
+      v-if="isSmallScreen"
+      class="mobile-instrument-title"
+    >{{ instrument.instrument }}</p>
+
     <img
       :src="getImagePath(instrument.pic)"
       :alt="instrument.instrument"
@@ -58,6 +63,18 @@
         Load More
       </button>
     </div>
+    <button
+      v-if="
+        instrument.numOfAppearances >= 25 &&
+        isSmallScreen &&
+        !searchQuery &&
+        filteredAppearances.length >= instrument.appearances.length
+      "
+      class="go-to-top-btn"
+      @click="scrollToTop"
+    >
+      Go back to top
+    </button>
   </div>
 
   <div class="instrument-page-container" v-else>
@@ -65,11 +82,15 @@
   </div>
 </template>
 
+
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import InstrumentData from '../assets/Data/InstrumentData.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { useScreenHelpers } from '../composables/useScreenHelpers.js';
+
+const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const props = defineProps({
   instrument: String,
@@ -277,5 +298,35 @@ onMounted(() => {
   }
 }
 
+@media (max-width: 400px) {
+  .mobile-instrument-title {
+    color: #e3e3e3;
+    margin-top: -1rem;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .appearance-count {
+    color: #e3e3e3;
+  }
+  
+  .go-to-top-btn {
+    display: block;
+    margin: 40px auto 50px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #e879f9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .go-to-top-btn:hover {
+    background-color: #d14ee4;
+  }
+}
 
 </style>
