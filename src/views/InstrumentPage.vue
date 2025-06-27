@@ -249,7 +249,33 @@ onMounted(() => {
   color: white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .search-bar-container {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .appearance-count {
+    margin-top: 0rem;
+  }
+
+  .search-bar {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .appearance-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+  }
+
+  .appearance-link {
+    padding: 0.7rem 1rem;
+  }
 }
+
 
 </style>
