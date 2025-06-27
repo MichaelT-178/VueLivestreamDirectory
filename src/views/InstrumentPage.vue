@@ -14,12 +14,23 @@
       :alt="instrument.instrument"
       class="instrument-main-image"
     />
+
     <p class="appearance-count">
       <strong>Number of Appearances:</strong> {{ instrument.numOfAppearances }}
     </p>
 
+    <div class="search-bar-container" v-if="instrument.numOfAppearances >= 25">
+      <font-awesome-icon icon="search" class="search-icon" />
+      <input
+        v-model="searchQuery"
+        type="text"
+        class="search-bar"
+        placeholder="Filter by song or artist"
+      />
+    </div>
+
     <div
-      v-for="appearance in visibleAppearances"
+      v-for="appearance in filteredAppearances"
       :key="appearance.id"
       class="appearance-card"
     >
@@ -42,7 +53,7 @@
       </a>
     </div>
 
-    <div v-if="canLoadMore" class="load-more-container">
+    <div v-if="canLoadMore && !searchQuery" class="load-more-container">
       <button @click="loadMore" class="load-more-button">
         Load More
       </button>
@@ -55,9 +66,10 @@
 </template>
 
 <script setup>
-import { computed, ref, onMounted } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import InstrumentData from '../assets/Data/InstrumentData.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 const props = defineProps({
   instrument: String,
@@ -68,16 +80,25 @@ const props = defineProps({
 });
 
 const instrument = computed(() => InstrumentData[props.instrument]);
+const searchQuery = ref('');
 const appearancesToShow = ref(100);
 
-const visibleAppearances = computed(() => {
-  return instrument.value?.appearances.slice(0, appearancesToShow.value) || [];
+const filteredAppearances = computed(() => {
+  const query = searchQuery.value.toLowerCase();
+  const baseList = instrument.value?.appearances ?? [];
+
+  const filtered = baseList.filter(app =>
+    app.songTitle.toLowerCase().includes(query) ||
+    app.artist.toLowerCase().includes(query)
+  );
+
+  return filtered.slice(0, appearancesToShow.value);
 });
 
 const canLoadMore = computed(() => {
   return (
     instrument.value &&
-    appearancesToShow.value < instrument.value.appearances.length
+    filteredAppearances.value.length < instrument.value.appearances.length
   );
 });
 
@@ -107,21 +128,18 @@ const getImagePath = (fileName) => {
 
 const getSongImagePath = (appearance) => {
   if (appearance.cleanedAlbum) {
-    return new URL(
-      `../assets/AlbumPics/${appearance.cleanedAlbum}.jpg`,
-      import.meta.url
-    ).href;
+    return new URL(`../assets/AlbumPics/${appearance.cleanedAlbum}.jpg`, import.meta.url).href;
   }
-  return new URL(
-    `../assets/ArtistPics/${appearance.cleanedArtist}.jpg`,
-    import.meta.url
-  ).href;
+
+  return new URL(`../assets/ArtistPics/${appearance.cleanedArtist}.jpg`, import.meta.url).href;
 };
 
 onMounted(() => {
   window.scrollTo(0, 0);
 });
+
 </script>
+
 
 <style scoped>
 .instrument-page-container {
@@ -140,6 +158,41 @@ onMounted(() => {
 .appearance-count {
   margin-bottom: 2rem;
   font-size: 1.1rem;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 2rem;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 9px 10px 9px 37px;
+  border-radius: 6px;
+  background-color: #eeeded;
+  border: 2px solid #eeeded;
+  font-size: 16px;
+  color: #111;
+}
+
+.search-bar::placeholder {
+  color: #555;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #2275d9;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #555;
 }
 
 .appearance-card {
@@ -194,6 +247,9 @@ onMounted(() => {
 .load-more-button:hover {
   background-color: #e879f9;
   color: white;
+}
+
+@media (max-width: 400px) {
 }
 
 </style>
