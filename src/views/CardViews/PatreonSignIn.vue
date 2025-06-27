@@ -44,7 +44,13 @@ const user = ref(null);
 const route = useRoute();
 const error = route.query.error;
 
-const VITE_API_LINK = "https://general-api-ht51.onrender.com";
+let VITE_API_LINK;
+
+if (import.meta.env.VITE_LOCAL_SERVER.toLowerCase() === "true") {
+  VITE_API_LINK = "http://localhost:5001";
+} else {
+  VITE_API_LINK = "https://general-api-ht51.onrender.com";
+}
 
 const fetchUserData = async () => {
   try {
