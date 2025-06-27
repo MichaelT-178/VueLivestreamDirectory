@@ -164,7 +164,7 @@ const routes = [
 ]
 
 const router = createRouter({
-	history: createWebHistory('/VueLivestreamDirectory/'),
+	history: createWebHistory('/'),
 	routes
 });
 
