@@ -44,6 +44,8 @@ const user = ref(null);
 const route = useRoute();
 const error = route.query.error;
 
+const VITE_API_LINK = "https://general-api-ht51.onrender.com";
+
 const fetchUserData = async () => {
   try {
     const { data } = await axiosInstance.get('/lessons/me', {
@@ -56,7 +58,7 @@ const fetchUserData = async () => {
 };
 
 const loginWithPatreon = () => {
-  window.location.href = `${import.meta.env.VITE_API_LINK}/lessons/login`;
+  window.location.href = `${VITE_API_LINK}/lessons/login`;
 };
 
 onMounted(() => {
