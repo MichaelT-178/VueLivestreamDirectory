@@ -1,17 +1,16 @@
 <template>
   <div class="country-page-container" v-if="country">
-
     <div class="country-header-row">
-      <HeaderWithIcon
-        :title="country.name"
-        icon="mappin"
-        iconColor="amber"
-        :leadingIcon="headerConfig.leadingIcon"
-        :leadingIconColor="headerConfig.leadingIconColor"
-        :leadingIconRoute="headerConfig.leadingIconRoute"
-      />
+      <div class="header-and-filter-row">
+        <HeaderWithIcon
+          :title="country.name"
+          icon="mappin"
+          iconColor="amber"
+          :leadingIcon="headerConfig.leadingIcon"
+          :leadingIconColor="headerConfig.leadingIconColor"
+          :leadingIconRoute="headerConfig.leadingIconRoute"
+        />
 
-      <div class="dropdown-and-image-wrapper">
         <div class="filter-wrapper header-dropdown-wrapper" @click="openCountryDropdown">
           <select
             ref="countrySelect"
@@ -31,16 +30,16 @@
             </option>
           </select>
         </div>
+      </div>
 
-        <div class="country-image-wrapper">
-          <img 
-            :src="getCountryImagePath(country.cleanedName)" 
-            :alt="country.name" 
-            class="country-image"
-            :class="{ 'loaded': imageLoaded }"
-            @load="handleImageLoad"
-          />
-        </div>
+      <div class="country-image-wrapper">
+        <img 
+          :src="getCountryImagePath(country.cleanedName)" 
+          :alt="country.name" 
+          class="country-image"
+          :class="{ 'loaded': imageLoaded }"
+          @load="handleImageLoad"
+        />
       </div>
     </div>
 
@@ -184,14 +183,14 @@ const headerConfig = computed(() => {
       leadingIcon: 'palette',
       leadingIconColor: 'indigo',
       leadingIconRoute: `/artist/${props.artist}`
-    }
+    };
   }
 
   return {
     leadingIcon: 'home',
     leadingIconColor: 'sky',
     leadingIconRoute: '/'
-  }
+  };
 });
 
 const getCountryImagePath = (cleanedName) => {
@@ -208,7 +207,6 @@ const scrollToTop = () => {
 
 const checkScreen = () => {
   const width = window.innerWidth;
-
   isSmallScreen.value = width <= 700;
   isExtraSmallScreen.value = width <= 400;
 };
@@ -240,12 +238,12 @@ onBeforeUnmount(() => {
   gap: 1rem;
 }
 
-.dropdown-and-image-wrapper {
+.header-and-filter-row {
   display: flex;
-  align-items: center;
-  gap: 1rem;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .header-dropdown-wrapper {
@@ -387,9 +385,9 @@ onBeforeUnmount(() => {
 }
 
 @media (max-width: 700px) {
-  .dropdown-and-image-wrapper {
+  .header-and-filter-row {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
   }
 
