@@ -349,9 +349,9 @@ onMounted(() => {
 
 @media (max-width: 400px) {
   .page-container {
-    padding: 1.5rem;
+    padding: 2rem 1rem;
   }
-
+  
   .image-wrapper {
     display: flex;
     justify-content: center;

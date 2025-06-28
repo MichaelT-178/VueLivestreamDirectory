@@ -507,6 +507,10 @@ p {
 }
 
 @media (max-width: 400px) {
+  .page-container {
+    padding: 2rem 1rem;
+  }
+
   .image-wrapper {
     display: flex;
     justify-content: center;
