@@ -22,7 +22,7 @@
     <MobileSearchView 
       v-if="showMobileSearch" 
       class="mobile-overlay" 
-      @close="showMobileSearch = false" 
+      @close="handleMobileSearchClose" 
     />
   </div>
 </template>
@@ -45,6 +45,11 @@ const handleFocus = () => {
   if (isSmallScreen.value) {
     showMobileSearch.value = true;
   }
+};
+
+const handleMobileSearchClose = () => {
+  window.scrollTo(0, 0);
+  showMobileSearch.value = false;
 };
 
 </script>
