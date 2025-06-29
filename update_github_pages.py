@@ -3,6 +3,8 @@ import subprocess
 import sys
 from termcolor import colored as c
 
+DOMAIN_LINK = 'www.coreyheuvelsearch.com'
+
 process = subprocess.run('git status', shell=True, capture_output=True, text=True)
 
 output = process.stdout
@@ -38,8 +40,7 @@ os.system('git push origin main')
 os.system('npm run build')
 os.system('cp dist/index.html dist/404.html')
 
-# Change YOUR_DOMAIN_NAME here
-os.system("echo 'www.coreyheuvelsearch.com' > dist/CNAME")
+os.system(f"echo '{DOMAIN_LINK}' > dist/CNAME")
 
 os.system('git add dist -f')
 os.system(f'git commit -m "{commit_msg}"')
