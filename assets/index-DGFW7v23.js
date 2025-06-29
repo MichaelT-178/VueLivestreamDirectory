@@ -91,7 +91,7 @@
             "title": "Original Website",
             "description": "The first Livestream Directory website. I'll continue to update this.",
             "linkTitle": "Go to Website",
-            "route": "https://www.coreyheuvelsearch.com/"
+            "route": "https://www.livestreamdirectory.com/"
         },
         {
             "id": 8,
