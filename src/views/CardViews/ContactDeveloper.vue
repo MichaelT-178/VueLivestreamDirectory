@@ -176,6 +176,7 @@ onMounted(() => {
   width: 100%;
   color: white;
   box-sizing: border-box;
+  padding-bottom: 2.5rem;
 }
 
 h1 {
@@ -224,6 +225,7 @@ textarea::placeholder {
 textarea {
   min-height: 160px;
   resize: vertical;
+  margin-bottom: 0.5rem;
 }
 
 .send-email-btn {
