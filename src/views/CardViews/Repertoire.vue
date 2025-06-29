@@ -95,7 +95,8 @@ const filteredData = computed(() => {
   for (const [category, songs] of Object.entries(AllData)) {
     const filteredSongs = songs.filter(song =>
       song.Song.toLowerCase().includes(query) ||
-      song.Artist.toLowerCase().includes(query)
+      song.Artist.toLowerCase().includes(query) ||
+      song.Category.toLowerCase().includes(query)
     );
 
     if (filteredSongs.length > 0) {
