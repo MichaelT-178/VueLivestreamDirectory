@@ -39,7 +39,7 @@ os.system('npm run build')
 os.system('cp dist/index.html dist/404.html')
 
 # Change YOUR_DOMAIN_NAME here
-os.system("echo 'www.livestreamdirectory.com' > dist/CNAME")
+os.system("echo 'www.coreyheuvelsearch.com' > dist/CNAME")
 
 os.system('git add dist -f')
 os.system(f'git commit -m "{commit_msg}"')
