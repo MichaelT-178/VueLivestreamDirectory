@@ -29,7 +29,7 @@
 
 
 <script setup>
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
 import MobileSearchView from './MobileSearchVIew.vue';
@@ -51,6 +51,10 @@ const handleMobileSearchClose = () => {
   window.scrollTo(0, 0);
   showMobileSearch.value = false;
 };
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 
 </script>
 
