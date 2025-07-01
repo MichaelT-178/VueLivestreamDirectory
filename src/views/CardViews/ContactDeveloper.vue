@@ -186,7 +186,7 @@ h1 {
 
 .intro-text {
   margin-bottom: 1.5rem;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   color: #cbd5e1;
 }
 
