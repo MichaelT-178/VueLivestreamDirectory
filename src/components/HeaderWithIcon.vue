@@ -40,6 +40,10 @@
 import { computed } from 'vue';
 import iconMap from '../assets/svg/IconMap.js';
 import ColorGraph from '../assets/Home/ColorGraph.json';
+import DarkColorGraph from '../assets/Home/DarkColorGraph.json';
+import { useDark } from '@vueuse/core';
+
+const isDark = useDark();
 
 const props = defineProps({
   title: {
@@ -87,8 +91,19 @@ function hexToRgba(hex, alpha = 1) {
 }
 
 const resolveColor = (name) => {
-  return ColorGraph[name]?.code || name;
-}
+  if (!name) {
+    return '#000000';
+  }
+
+  const graph = isDark.value ? DarkColorGraph : ColorGraph;
+
+  if (name.toLowerCase() === 'white') {
+    return isDark.value ? '#cbd5e1' : '#ffffff';
+  }
+
+  return graph[name.toLowerCase()]?.code || name;
+};
+
 
 const backgroundStyle = computed(() => ({
   backgroundColor: hexToRgba(resolveColor(props.iconColor), 0.3)
@@ -132,6 +147,10 @@ const leadingIconBackground = computed(() => ({
   font-size: 26px;
   font-weight: 600;
   margin-left: 9px;
+}
+
+.dark .header-title {
+  color: #cbd5e1;
 }
 
 @media (max-width: 400px) {

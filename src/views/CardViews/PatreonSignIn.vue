@@ -76,10 +76,6 @@ onMounted(() => {
 
 
 <style scoped>
-body {
-  background-color: #0F172A;
-  margin: 0;
-}
 
 .container {
   display: flex;
@@ -88,6 +84,24 @@ body {
   min-height: 80vh;
   padding: 1rem;
   background-color: #0F172A;
+}
+
+.dark .container {
+  background-color: white;
+}
+
+.dark .login-card {
+  background-color: #eef5fd;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #cbd5e1;
+}
+
+.dark .login-card h1 {
+  color: #f96854;
+}
+
+.dark .note {
+  color: #94A3B8;
 }
 
 .login-card {

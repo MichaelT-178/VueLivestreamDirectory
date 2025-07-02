@@ -206,6 +206,59 @@ onMounted(() => {
   margin-bottom: 0.5rem;
 }
 
+.dark .album-details h2 {
+  color: #94A3B8;
+}
+
+.dark .year-text {
+  color: #94A3B8;
+}
+
+.dark .tab-label {
+  color: #60A5FA;
+}
+
+.dark .song-list li {
+  background-color: #eef5fd;
+}
+
+.dark .song-list li.zebra {
+  background-color: white;
+}
+
+.dark .song-entry-index {
+  color: #94A3B8;
+}
+
+.dark .song-title {
+  color: #525252;
+}
+
+.dark .song-artist {
+  color: #94A3B8;
+}
+
+.dark .tab-header {
+  border-bottom: 1px solid #333;
+}
+
+.dark .song-link:hover .song-entry-row {
+  background-color: #808ea2;
+  text-decoration: none;
+}
+
+.dark .song-link:hover .song-title {
+  color: white;
+}
+
+.dark .song-link:hover .song-entry-index {
+  color: white;
+}
+
+.dark .song-link:hover .song-artist {
+  color: white;
+}
+
 .artist-thumb {
   width: 36px;
   height: 36px;

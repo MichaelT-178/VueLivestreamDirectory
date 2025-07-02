@@ -246,6 +246,22 @@ onBeforeUnmount(() => {
   gap: 1rem;
 }
 
+.dark .header-dropdown-wrapper {
+  background-color: #f43f5e;
+}
+
+.dark .filter-select {
+  background-color: #f43f5e;
+}
+
+.dark .artist-count {
+  color: #0284c7;
+}
+
+.dark .artist-card {
+  background-color: #d97706;
+}
+
 .header-dropdown-wrapper {
   background-color: #1f2937;
   border: 1px solid #ccc;

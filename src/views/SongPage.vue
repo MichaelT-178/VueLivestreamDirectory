@@ -300,6 +300,89 @@ onMounted(() => {
   width: 100%;
 }
 
+.dark .song-details h2 {
+  /* color: red; */
+  color: #94A3B8;
+}
+
+.dark .year-released {
+  /* color: red; */
+  color: #94A3B8;
+}
+
+.dark .appearances-tab {
+  color: #60A5FA;
+}
+
+.dark .appearances-tab.active {
+  border-bottom: 2px solid #60A5FA;
+}
+
+.dark .appearances-list li {
+  background-color: #eef5fd;
+}
+
+.dark .appearances-list li.zebra {
+  background-color: white;
+}
+
+.dark .album-info strong {
+  color: #94A3B8;
+}
+
+.dark .other-artists strong {
+  color: #94A3B8;
+}
+
+.dark .instruments strong {
+  color: #94A3B8;
+}
+
+.dark .instrument-name {
+  color: #94A3B8;
+}
+
+.dark .appearance-id {
+  color: #94A3B8;
+}
+
+.dark .appearance-content {
+  color: #525252;
+}
+
+.dark .keys {
+  color: #94A3B8;
+}
+
+.dark .appearance-link:hover .appearance-row {
+  background-color: #808ea2;
+  text-decoration: none;
+}
+
+.dark .appearance-link:hover .appearance-title {
+  color: white;
+}
+
+.dark .appearance-link:hover .appearance-id {
+  color: white;
+}
+
+.dark .appearance-link:hover .keys {
+  color: white;
+}
+
+/* .dark .tab-header {
+  border-bottom: 1px solid red;
+} */
+
+.dark .other-artists li::before,
+.dark .instruments li::before,
+.dark .album-info li::before,
+.dark .year-info li::before {
+  /* color: #94A3B8; */
+  color: black;
+}
+
 .artist-link, 
 .album-link {
   color: #007acc;

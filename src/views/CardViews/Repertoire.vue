@@ -151,6 +151,23 @@ onUnmounted(() => {
   margin-top: 2rem;
 }
 
+.dark .category-title {
+  color: #94A3B8;
+}
+
+.dark .song-card {
+  background-color: #f43f5e;
+  color: white;
+}
+
+.dark .song-card:hover {
+  background-color: #be123c;
+}
+
+.dark .divider {
+  background-color: #0284c7;
+}
+
 .divider {
   height: 2px;
   background-color: #FB7185;

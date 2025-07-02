@@ -207,6 +207,15 @@ onMounted(() => {
   border-color: #2275d9;
 }
 
+.dark .appearance-count {
+  color: #14b8a6;
+}
+
+.dark .appearance-card {
+  background-color: #c026d3;
+  color: white;
+}
+
 .search-icon {
   position: absolute;
   left: 12px;

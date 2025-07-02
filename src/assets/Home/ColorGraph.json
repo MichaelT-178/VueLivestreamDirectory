@@ -1,71 +1,25 @@
 {
-    "slate": {
-        "code": "#94a3b8"
-    },
-    "gray": {
-        "code": "#9ca3af"
-    },
-    "zinc": {
-        "code": "#a1a1aa"
-    },
-    "neutral": {
-        "code": "#a3a3a3"
-    },
-    "stone": {
-        "code": "#a8a29e"
-    },
-    "red": {
-        "code": "#f87171"
-    },
-    "orange": {
-        "code": "#fb923c"
-    },
-    "amber": {
-        "code": "#facc15"
-    },
-    "yellow": {
-        "code": "#facc15"
-    },
-    "lime": {
-        "code": "#a3e635"
-    },
-    "green": {
-        "code": "#4ade80"
-    },
-    "emerald": {
-        "code": "#34d399"
-    },
-    "teal": {
-        "code": "#2dd4bf"
-    },
-    "cyan": {
-        "code": "#22d3ee"
-    },
-    "sky": {
-        "code": "#38bdf8"
-    },
-    "blue": {
-        "code": "#60a5fa"
-    },
-    "indigo": {
-        "code": "#818cf8"
-    },
-    "violet": {
-        "code": "#a78bfa"
-    },
-    "purple": {
-        "code": "#c084fc"
-    },
-    "fuchsia": {
-        "code": "#e879f9"
-    },
-    "pink": {
-        "code": "#f472b6"
-    },
-    "rose": {
-        "code": "#fb7185"
-    },
-    "white": {
-        "code": "#ffffff"
-    }
+  "slate":    { "code": "#94a3b8" },
+  "gray":     { "code": "#9ca3af" },
+  "zinc":     { "code": "#a1a1aa" },
+  "neutral":  { "code": "#a3a3a3" },
+  "stone":    { "code": "#a8a29e" },
+  "red":      { "code": "#f87171" },
+  "orange":   { "code": "#fb923c" },
+  "amber":    { "code": "#facc15" },
+  "yellow":   { "code": "#facc15" },
+  "lime":     { "code": "#a3e635" },
+  "green":    { "code": "#4ade80" },
+  "emerald":  { "code": "#34d399" },
+  "teal":     { "code": "#2dd4bf" },
+  "cyan":     { "code": "#22d3ee" },
+  "sky":      { "code": "#38bdf8" },
+  "blue":     { "code": "#60a5fa" },
+  "indigo":   { "code": "#818cf8" },
+  "violet":   { "code": "#a78bfa" },
+  "purple":   { "code": "#c084fc" },
+  "fuchsia":  { "code": "#e879f9" },
+  "pink":     { "code": "#f472b6" },
+  "rose":     { "code": "#fb7185" },
+  "white":    { "code": "#ffffff" }
 }

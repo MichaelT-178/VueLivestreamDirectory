@@ -150,6 +150,14 @@ onMounted(() => {
   padding-right: 10px;
 }
 
+.dark .filter-wrapper {
+  background-color: #ea580c;
+}
+
+.dark .filter-select {
+  background-color: #ea580c;
+}
+
 .filter-select {
   padding: 10px 20px;
   font-size: 16px;

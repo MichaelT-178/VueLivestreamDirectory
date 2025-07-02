@@ -21,11 +21,15 @@ import HandCoinsIcon from "./HandCoins.vue";
 import HeartIcon from "./Heart.vue";
 import HomeIcon from "./Home.vue";
 import MapPinIcon from "./MapPin.vue";
+import MoonIcon from "./Moon.vue";
 import MusicNoteIcon from "./MusicNote.vue";
 import PaletteIcon from "./Palette.vue";
 import PinIcon from "./Pin.vue";
 import PlayCircleIcon from "./PlayCircle.vue";
 import SchoolIcon from "./School.vue";
+import SunIcon from "./Sun.vue";
+import ToggleLeftIcon from "./ToggleLeft.vue";
+import ToggleRightIcon from "./ToggleRight.vue";
 import TriangleAlertIcon from "./TriangleAlert.vue";
 import VideoIcon from "./Video.vue";
 
@@ -53,11 +57,15 @@ const iconMap = {
   heart: HeartIcon,
   home: HomeIcon,
   mappin: MapPinIcon,
+  moon: MoonIcon,
   musicnote: MusicNoteIcon,
   palette: PaletteIcon,
   pin: PinIcon,
   playcircle: PlayCircleIcon,
   school: SchoolIcon,
+  sun: SunIcon,
+  toggleleft: ToggleLeftIcon,
+  toggleright: ToggleRightIcon,
   trianglealert: TriangleAlertIcon,
   video: VideoIcon
 };

@@ -15,12 +15,18 @@
           </div>
         </router-link>
 
-        <!-- Nav links for desktop -->
         <div class="nav-links desktop-only">
-          <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
-          <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
-          <a href="https://www.patreon.com/coreyheuvel" target="_blank" rel="noopener noreferrer">Patreon</a>
-          <a href="http://paypal.me/coreyheuvel" target="_blank" rel="noopener noreferrer">PayPal</a>
+          <div class="nav-items">
+            <a href="https://www.youtube.com/@coreyheuvel" target="_blank" rel="noopener noreferrer">YouTube</a>
+            <a href="https://coreyheuvel.com/" target="_blank" rel="noopener noreferrer">Website</a>
+            <a href="https://www.patreon.com/coreyheuvel" target="_blank" rel="noopener noreferrer">Patreon</a>
+            <a href="http://paypal.me/coreyheuvel" target="_blank" rel="noopener noreferrer">PayPal</a>
+          </div>
+          <component
+            :is="!isDark ? iconMap['toggleright'] : iconMap['toggleleft']"
+            class="toggle-btn"
+            @click="toggleDark()"
+          />
         </div>
 
         <!-- Hamburger menu icon for mobile -->
@@ -72,8 +78,12 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 import CHLogo from '../../ch-logo.jpg';
+import iconMap from '../assets/svg/IconMap';
+import { useDark, useToggle } from "@vueuse/core";
 
 const isMobileMenuOpen = ref(false);
+const isDark = useDark();
+const toggleDark = useToggle(isDark);
 
 const toggleMobileMenu = () => {
   isMobileMenuOpen.value = !isMobileMenuOpen.value;
@@ -144,6 +154,42 @@ onBeforeUnmount(() => {
   color: #cbd5e1;
 }
 
+.dark .nav-links a {
+  color: #60A5FA;
+}
+
+.dark .toggle-btn {
+  /* color: #cbd5e1; */
+  color: #60A5FA;
+}
+
+.dark .top-bar {
+  width: 100%;
+  border-bottom: 0.5px solid #cbd5e1;
+  background-color: transparent;
+}
+
+.dark .site-title {
+  color: #60A5FA;
+}
+
+.dark .site-title:hover {
+  color: purple;
+}
+
+.dark .hamburger-icon {
+  color: #cbd5e1;
+}
+
+.dark .mobile-menu {
+  background-color: #eef5fd;
+  color: red;
+}
+
+.dark .mobile-menu a {
+  color: #60A5FA;
+}
+
 .nav-links a,
 .mobile-menu a {
   color: #cbd5e1;
@@ -157,6 +203,36 @@ onBeforeUnmount(() => {
 .mobile-menu a:hover {
   text-decoration: underline;
 }
+
+/* these are related to the toggle dark mode button */
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  min-width: 350px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items a {
+  margin-left: 20px;
+}
+
+.toggle-btn {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  filter: brightness(70%);
+}
+/* these are related to the toggle dark mode button */
 
 .mobile-menu {
   display: flex;
@@ -181,6 +257,7 @@ onBeforeUnmount(() => {
   font-size: 24px;
   cursor: pointer;
 }
+
 
 @media (max-width: 750px) {
   .top-bar-inner {

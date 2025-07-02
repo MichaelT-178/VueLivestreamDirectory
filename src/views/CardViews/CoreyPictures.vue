@@ -161,6 +161,10 @@ onMounted(() => {
     margin-left: 9px;
   }
 
+  .dark .mobile-title {
+    color: #cbd5e1
+  }
+
   .go-to-top-btn {
     display: block;
     margin: 40px auto 50px;

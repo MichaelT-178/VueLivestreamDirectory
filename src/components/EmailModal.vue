@@ -58,6 +58,10 @@ const config = computed(() => {
   color: white;
 }
 
+.dark .modal-card {
+  background-color: #cbd5e1;
+}
+
 .icon-wrapper {
   width: 56px;
   height: 56px;
@@ -93,7 +97,7 @@ const config = computed(() => {
 }
 
 .ok-button:hover {
-  background-color: #5750ad
+  background-color: #5750ad;
 }
 
 @media (max-width: 400px) {

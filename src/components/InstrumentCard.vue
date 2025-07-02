@@ -56,6 +56,25 @@ const handleImageLoad = (event) => {
   transition: background-color 0.2s;
 }
 
+.dark .instrument-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #14b8a6;
+  color: white;
+}
+
+.dark .instrument-card h2 {
+  color: white;
+}
+
+.dark .instrument-card:hover h2 {
+  color: #dfdfdf;
+}
+
+.dark .instrument-image {
+  transition: none;
+  opacity: 1;
+}
+
 .instrument-card:hover {
   cursor: pointer;
 }

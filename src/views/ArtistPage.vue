@@ -230,6 +230,61 @@ onMounted(() => {
   min-width: 250px;
 }
 
+.dark .artist-details h2 {
+  color: #94A3B8;
+}
+
+.dark .genre-year {
+  color: #94A3B8;
+}
+
+.dark .tab {
+  color: #60A5FA;
+}
+
+.dark .tab.active {
+  border-bottom: 2px solid #60A5FA;
+}
+
+.dark .list li {
+  background-color: #eef5fd;
+}
+
+.dark .list li.zebra {
+  background-color: white;
+}
+
+.dark .title {
+  color: #525252;
+}
+
+.dark .subtitle {
+  color: #94A3B8;
+}
+
+/* .dark .list-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+} */
+
+.dark .list-link:hover .list-row {
+  background-color: #808ea2;
+  text-decoration: none;
+}
+
+.dark .list-link:hover .title {
+  color: white;
+}
+
+.dark .list-link:hover .subtitle {
+  color: white;
+}
+
+/* .dark .tab-header {
+  border-bottom: 1px solid red;
+} */
+
 .artist-details h2 {
   color: white;
   margin-bottom: 0.5rem;

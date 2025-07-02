@@ -9,7 +9,7 @@
       <input 
         id="search"
         name="search"
-        class="search-bar"
+        :class="['search-bar', { 'show-dropdown': isFocused && filteredResults.length > 0 }]"
         type="text" 
         v-model="query"
         placeholder="Search by song, artist, or instrument"
@@ -202,6 +202,32 @@ const clearQuery = () => {
   color: #707070;
 }
 
+.dark .search-bar {  
+  border: 2px solid #94A3B8;
+  background-color: white;
+}
+
+.dark .search-bar-background.has-dropdown {
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+
+.dark .search-item {
+  background: white;
+}
+
+.dark .search-bar-background.has-dropdown {
+  background-color: white;
+}
+
+.dark .search-item {
+  border-bottom: none;
+}
+
+.dark .search-bar.show-dropdown {
+  border: 2px solid white !important;
+}
+
 .search-icon {
   position: absolute;
   left: 20px;
@@ -293,6 +319,10 @@ const clearQuery = () => {
 
 .search-title {
   font-weight: bold;
+}
+
+.dark .search-title {
+  color: #60A5FA;
 }
 
 .search-type {

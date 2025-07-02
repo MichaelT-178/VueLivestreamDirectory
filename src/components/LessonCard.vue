@@ -52,6 +52,20 @@ watchEffect(() => {
   transition: transform 0.2s ease;
 }
 
+.dark .lesson-card {
+  background-color:#9333ea;
+  color: white;
+}
+
+.dark .song-title {
+  color: white;
+}
+
+.dark .lesson-card:hover .song-title {
+  color: #dfdfdf;
+  text-decoration: underline;
+}
+
 .thumbnail-image {
   width: 100%;
   height: 180px;

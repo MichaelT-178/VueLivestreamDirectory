@@ -1,8 +1,6 @@
 <template>
   <nav-bar />
-  <div class="app-container">
-    <router-view />
-  </div>
+  <router-view />
 </template>
 
 
@@ -16,14 +14,16 @@ html, body {
   margin: 0;
   padding: 0;
   background: #0F172A;
-  /* background-color: #0d1117; */
-  /* background-color: red; */
+}
+
+html.dark, html.dark body {
+  background: white;
+  color: white;
 }
 
 .app-container {
   min-height: 100vh;
   background-attachment: fixed;
-
     /* background: linear-gradient(to bottom, #0d1117, #16202f, #0f1c2e); */
   /* background: linear-gradient(
     to bottom, 

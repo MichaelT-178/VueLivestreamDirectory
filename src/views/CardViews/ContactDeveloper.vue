@@ -179,6 +179,32 @@ onMounted(() => {
   padding-bottom: 2.5rem;
 }
 
+.dark .form-wrapper {
+  background: #2563eb;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.dark input,
+.dark textarea {
+  border: 1.5px solid #596a81;
+  background-color: #eef5fd;
+  color: black;
+}
+
+.dark .intro-text {
+  color: #eef5fd;
+}
+
+.dark .send-email-btn.valid {
+  background-color: #38bdf8;
+  /* background-color: #7066e0; */
+}
+
+.dark .send-email-btn.valid:hover {
+  background-color: #0284c7;
+  /* background-color: #5750ad; */
+}
+
 h1 {
   font-size: 1.75rem;
   margin-bottom: 0.5rem;

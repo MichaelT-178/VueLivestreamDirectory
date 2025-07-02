@@ -114,6 +114,10 @@ onMounted(() => {
   background-color: #0f172a;
 }
 
+.dark .title {
+  color: #94A3B8;
+}
+
 @media (max-width: 600px) {
   .title {
     font-size: 2rem;

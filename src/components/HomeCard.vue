@@ -3,12 +3,18 @@
     <div class="icon-background" :style="backgroundStyle">
       <component
         :is="IconComponent"
-        :stroke-color="card.iconColorCode"
+        :stroke-color="cardColor"
         :width="28"
       />
     </div>
 
-    <h2 class="card-title">{{ card.title }}</h2>
+    <h2
+      class="card-title"
+      :style="isDark ? { color: cardColor } : undefined"
+    >
+      {{ card.title }}
+    </h2>
+
 
     <p class="card-description">{{ card.description }}</p>
 
@@ -16,14 +22,14 @@
       :is="linkTag"
       v-bind="linkProps"
       class="link-with-icon"
-      :style="{ color: card.iconColorCode || '#aaa' }"
+      :style="{ color: cardColor }"
       v-if="linkTag !== 'div'"
     >
       {{ card.linkTitle }}
       <component
         v-if="ArrowIcon"
         :is="ArrowIcon"
-        :stroke-color="card.iconColorCode"
+        :stroke-color="cardColor"
         :width="20"
         class="arrow-icon"
       />
@@ -32,13 +38,13 @@
     <p
       v-else
       class="link-with-icon"
-      :style="{ color: card.iconColorCode || '#aaa' }"
+      :style="{ color: colorCode }"
     >
       {{ card.linkTitle }}
       <component
         v-if="ArrowIcon"
         :is="ArrowIcon"
-        :stroke-color="card.iconColorCode"
+        :stroke-color="colorCode"
         :width="20"
         class="arrow-icon"
       />
@@ -50,6 +56,11 @@
 <script setup>
 import { computed } from 'vue';
 import iconMap from '../assets/svg/IconMap.js';
+import ColorGraph from '../assets/Home/ColorGraph.json';
+import DarkColorGraph from '../assets/Home/DarkColorGraph.json';
+import { useDark } from '@vueuse/core';
+
+const isDark = useDark();
 
 const props = defineProps({
   card: {
@@ -73,13 +84,24 @@ function hexToRgba(hex, alpha = 1) {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
-const backgroundStyle = computed(() => {
-  const color = props.card.iconColorCode || '#000000';
-  
-  return {
-    backgroundColor: hexToRgba(color, 0.3)
-  };
+const cardColor = computed(() => {
+  const colorKey = props.card.iconColor?.toLowerCase();
+  const colorMap = isDark.value ? DarkColorGraph : ColorGraph;
+
+  return colorMap[colorKey]?.code || '#000000';
 });
+
+const backgroundStyle = computed(() => ({
+  backgroundColor: hexToRgba(cardColor.value, 0.3)
+}));
+
+// const backgroundStyle = computed(() => {
+//   const color = props.card.iconColorCode || '#000000';
+  
+//   return {
+//     backgroundColor: hexToRgba(color, 0.3)
+//   };
+// });
 
 const isExternalLink = computed(() =>
   typeof props.card.route === 'string' && props.card.route.startsWith('http')
@@ -143,6 +165,16 @@ const ArrowIcon = computed(() => iconMap['arrowright']);
   min-height: 202px;
   transition: transform 0.2s;
   text-decoration: none;
+}
+
+.dark .home-card {
+  background-color: white;
+  background-color: #eef5fd;
+  border: 1px solid #cbd5e1;
+}
+
+.dark .card-title {
+  color: red;
 }
 
 .icon-background {

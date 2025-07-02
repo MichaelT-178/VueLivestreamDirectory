@@ -153,6 +153,20 @@ onMounted(() => {
   transform: translateY(-3px);
 }
 
+.dark .cover-card {
+  background-color: #cbd5e1;
+  background-color: #ec4899
+}
+
+.dark .appearance {
+  /* color: #cbd5e1; */
+  color: #cbd5e1;
+}
+
+.dark .song {
+  color: white;
+}
+
 .album-img {
   width: 100%;
   aspect-ratio: 1;
