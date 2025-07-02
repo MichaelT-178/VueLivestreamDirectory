@@ -228,7 +228,7 @@
     "united-states": {
         "name": "United States",
         "cleanedName": "united-states",
-        "numOfArtists": 207,
+        "numOfArtists": 208,
         "emoji": "🇺🇸",
         "artists": [
             {
@@ -923,6 +923,13 @@
                 "Location": "Houston, Texas",
                 "YearFormed": 1969,
                 "Genre": "Hard Rock"
+            },
+            {
+                "Artist": "Otis Redding",
+                "CleanedArtist": "otis-redding",
+                "Location": "Dawson, Georgia",
+                "YearFormed": 1941,
+                "Genre": "R&B/Soul"
             },
             {
                 "Artist": "Jonny Lang",
@@ -2191,7 +2198,7 @@
     "australia": {
         "name": "Australia",
         "cleanedName": "australia",
-        "numOfArtists": 9,
+        "numOfArtists": 8,
         "emoji": "🇦🇺",
         "artists": [
             {
@@ -2232,13 +2239,6 @@
             {
                 "Artist": "Vance Joy",
                 "CleanedArtist": "vance-joy",
-                "Location": "Melbourne, Australia",
-                "YearFormed": 1987,
-                "Genre": "Alternative"
-            },
-            {
-                "Artist": "Otis Redding",
-                "CleanedArtist": "otis-redding",
                 "Location": "Melbourne, Australia",
                 "YearFormed": 1987,
                 "Genre": "Alternative"
