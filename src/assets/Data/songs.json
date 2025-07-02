@@ -29180,6 +29180,14 @@
             {
                 "name": "(main) - Stonebridge (Furch) OM32SM",
                 "cleanedName": "acoustic-guitar"
+            },
+            {
+                "name": "Electric Guitar",
+                "cleanedName": null
+            },
+            {
+                "name": "Fender Telecaster",
+                "cleanedName": "electric-guitar"
             }
         ],
         "Year": 2011,
@@ -29190,7 +29198,8 @@
                 "appearance": "Solo Video",
                 "link": "https://youtu.be/IGAF5rsX_s4&t=0",
                 "keys": [
-                    "main"
+                    "main",
+                    "Electric Song"
                 ]
             },
             {
@@ -34760,6 +34769,10 @@
             {
                 "name": "Electric Guitar",
                 "cleanedName": null
+            },
+            {
+                "name": "Fender Telecaster",
+                "cleanedName": "electric-guitar"
             }
         ],
         "Year": 1994,
@@ -34770,7 +34783,8 @@
                 "appearance": "Solo Video",
                 "link": "https://youtu.be/WoUNhf_PQsA&t=0",
                 "keys": [
-                    "main"
+                    "main",
+                    "Electric Song"
                 ]
             }
         ]

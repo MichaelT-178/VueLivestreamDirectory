@@ -46017,7 +46017,7 @@
     "electric-guitar": {
         "instrument": "Fender Telecaster",
         "pic": "electric-guitar.jpg",
-        "numOfAppearances": 190,
+        "numOfAppearances": 192,
         "appearances": [
             {
                 "id": 1,
@@ -46308,6 +46308,15 @@
                 "link": "https://youtu.be/0vseNNLzOWY&t=8010"
             },
             {
+                "id": 3031,
+                "songTitle": "Beautiful Slide",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "cleanedAlbum": "the-new",
+                "cleanedArtist": "corey-heuvel",
+                "link": "https://youtu.be/IGAF5rsX_s4&t=0"
+            },
+            {
                 "id": 3079,
                 "songTitle": "Red House",
                 "artist": "Jimi Hendrix",
@@ -46369,6 +46378,15 @@
                 "cleanedAlbum": "wired",
                 "cleanedArtist": "jeff-beck",
                 "link": "https://youtu.be/WGGj7qyf4pA&t=8379"
+            },
+            {
+                "id": 3575,
+                "songTitle": "Forget Her",
+                "artist": "Jeff Buckley",
+                "livestream": "Solo Video",
+                "cleanedAlbum": "grace",
+                "cleanedArtist": "jeff-buckley",
+                "link": "https://youtu.be/WoUNhf_PQsA&t=0"
             },
             {
                 "id": 3577,
