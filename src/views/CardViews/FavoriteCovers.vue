@@ -14,6 +14,7 @@
           name="cover-search"
           v-model="searchQuery" 
           type="text" 
+          autocomplete="off"
           placeholder="Filter by song or artist"
           class="search-bar"
         />

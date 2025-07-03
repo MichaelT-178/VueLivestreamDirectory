@@ -13,6 +13,7 @@
         type="text" 
         v-model="query"
         placeholder="Search by song, artist, or instrument"
+        autocomplete="off"
         @input="filterResults"
         @keyup.enter="handleEnter"
         @focus="handleFocus"

@@ -12,7 +12,8 @@
         id="tutorial-search"
         name="tutorial-search"
         v-model="searchQuery" 
-        type="text" 
+        type="text"
+        autocomplete="off"
         placeholder="Filter by song or artist"
         class="search-bar"
       />

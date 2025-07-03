@@ -30,6 +30,7 @@
         v-model="searchQuery"
         type="text"
         class="search-bar"
+        autocomplete="off"
         placeholder="Filter by song or artist"
       />
     </div>

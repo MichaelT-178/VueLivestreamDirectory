@@ -53,6 +53,7 @@
         v-model="searchQuery"
         type="text"
         class="search-bar"
+        autocomplete="off"
         placeholder="Filter by artist or location"
       />
     </div>

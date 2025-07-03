@@ -14,6 +14,7 @@
           name="tutorial-search"
           v-model="searchQuery" 
           type="text" 
+          autocomplete="off"
           placeholder="Filter by song, artist, or tuning"
           class="search-bar"
         />

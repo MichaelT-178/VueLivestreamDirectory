@@ -46,6 +46,7 @@
             type="email"
             id="email"
             v-model="userEmail"
+            autocomplete="off"
             placeholder="Enter your email"
           />
         </div>

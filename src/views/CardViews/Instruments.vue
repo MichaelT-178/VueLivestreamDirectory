@@ -13,6 +13,7 @@
           <input
             v-model="searchQuery"
             type="text"
+            autocomplete="off"
             placeholder="Search by name or type"
             class="search-bar"
           />

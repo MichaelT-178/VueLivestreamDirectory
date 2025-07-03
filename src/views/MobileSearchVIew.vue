@@ -6,6 +6,7 @@
         <input
           ref="searchInput"
           v-model="query"
+          autocomplete="off"
           type="text"
           class="search-input"
           placeholder="Search by song or artist"
