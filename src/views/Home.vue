@@ -102,7 +102,7 @@ onMounted(() => {
   margin-top: 1.5rem;
   padding: 0 1rem;
   margin-bottom: 100px;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .mobile-overlay {
