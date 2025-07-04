@@ -39,9 +39,13 @@
 import { ref, onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 import axiosInstance from '../../lib/axios.js';
+import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 
 const user = ref(null);
 const route = useRoute();
+
+const { isSmallScreen } = useScreenHelpers();
+
 const error = route.query.error;
 
 let VITE_API_LINK;
@@ -64,7 +68,11 @@ const fetchUserData = async () => {
 };
 
 const loginWithPatreon = () => {
-  window.location.href = `${VITE_API_LINK}/lessons/login`;
+  if (isSmallScreen) {
+    window.location.href = `${VITE_API_LINK}/lessons/login?from=webapp`;
+  } else {
+    window.location.href = `${VITE_API_LINK}/lessons/login`;
+  }
 };
 
 onMounted(() => {
