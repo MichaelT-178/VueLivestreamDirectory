@@ -68,11 +68,7 @@ const fetchUserData = async () => {
 };
 
 const loginWithPatreon = () => {
-  if (isSmallScreen) {
-    window.location.href = `${VITE_API_LINK}/lessons/login?from=webapp`;
-  } else {
-    window.location.href = `${VITE_API_LINK}/lessons/login`;
-  }
+  window.location.href = `${VITE_API_LINK}/lessons/login`;
 };
 
 onMounted(() => {
