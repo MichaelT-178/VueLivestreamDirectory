@@ -11,17 +11,6 @@
       >
         Login with Patreon
       </button>
-      <!-- <a 
-        class="secondary-btn"
-        href="https://www.patreon.com/coreyheuvel"
-        target="_blank" 
-        rel="noopener noreferrer"
-      >
-        Corey's Patreon
-      </a> -->
-      
-      <!-- I am NOT collecting your data or doing anything else. -->
-
       <router-link 
         class="secondary-btn"
         to="/"
@@ -68,7 +57,11 @@ const fetchUserData = async () => {
 };
 
 const loginWithPatreon = () => {
-  window.location.href = `${VITE_API_LINK}/lessons/login`;
+  if (isSmallScreen) {
+    window.location.href = 'https://www.patreon.com/home';
+  } else {
+    window.location.href = `${VITE_API_LINK}/lessons/login`;
+  }
 };
 
 onMounted(() => {
@@ -80,7 +73,6 @@ onMounted(() => {
 
 
 <style scoped>
-
 .container {
   display: flex;
   justify-content: center;
