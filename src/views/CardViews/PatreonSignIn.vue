@@ -65,7 +65,7 @@ const fetchUserData = async () => {
 };
 
 const loginWithPatreon = () => {
-  if (isSmallScreen) {
+  if (isSmallScreen.value) {
     window.location.href = 'https://www.patreon.com/home';
   } else {
     window.location.href = `${VITE_API_LINK}/lessons/login`;
