@@ -1,10 +1,18 @@
 <template>
   <div class="container">
     <div class="login-card">
-      <h1>Login to View Lessons</h1>
-      <p class="note">
-        * Note: All this program does is check whether you're a member of Corey's Patreon at the 'Student' tier.
-      </p>
+      <div v-if="!isSmallScreen">
+        <h1>Login to View Lessons</h1>
+        <p class="note">
+          * Note: All this program does is check whether you're a member of Corey's Patreon at the 'Student' tier.
+        </p>
+      </div>
+      <div v-else>
+        <h1>Go to Patreon</h1>
+        <p class="note">
+          * Note: On mobile this will just take you to the Patreon app.
+        </p>
+      </div>
       <button 
         class="patreon-btn"
         @click="loginWithPatreon"
