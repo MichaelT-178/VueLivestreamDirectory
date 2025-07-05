@@ -2,7 +2,7 @@
     "acoustic-guitar": {
         "instrument": "(main) - Stonebridge (Furch) OM32SM",
         "pic": "acoustic-guitar.jpg",
-        "numOfAppearances": 5112,
+        "numOfAppearances": 5113,
         "appearances": [
             {
                 "id": 8,
@@ -25059,6 +25059,15 @@
                 "cleanedAlbum": "disraeli-gears",
                 "cleanedArtist": "cream",
                 "link": "https://youtu.be/Uz3-Q1-R2kk?si=bPhYhVMFS8YQotE8&t=1932"
+            },
+            {
+                "id": 2980,
+                "songTitle": "My Favorite Obsession",
+                "artist": "Corey Heuvel",
+                "livestream": "Solo Video",
+                "cleanedAlbum": "in-balance",
+                "cleanedArtist": "corey-heuvel",
+                "link": "https://youtu.be/BwuqxrPeUAA&t=906"
             },
             {
                 "id": 2981,
@@ -51680,7 +51689,7 @@
     "fender-stratocaster": {
         "instrument": "(Strat) - Fender Stratocaster",
         "pic": "fender-stratocaster.jpg",
-        "numOfAppearances": 21,
+        "numOfAppearances": 20,
         "appearances": [
             {
                 "id": 625,
@@ -51807,15 +51816,6 @@
                 "cleanedAlbum": "disraeli-gears",
                 "cleanedArtist": "cream",
                 "link": "https://youtu.be/BwuqxrPeUAA&t=614"
-            },
-            {
-                "id": 2980,
-                "songTitle": "My Favorite Obsession",
-                "artist": "Corey Heuvel",
-                "livestream": "Solo Video",
-                "cleanedAlbum": "in-balance",
-                "cleanedArtist": "corey-heuvel",
-                "link": "https://youtu.be/BwuqxrPeUAA&t=906"
             },
             {
                 "id": 2986,

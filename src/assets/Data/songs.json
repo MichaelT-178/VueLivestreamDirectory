@@ -28638,14 +28638,6 @@
                 "cleanedName": "acoustic-guitar"
             },
             {
-                "name": "Electric Guitar",
-                "cleanedName": null
-            },
-            {
-                "name": "(Strat) - Fender Stratocaster",
-                "cleanedName": "fender-stratocaster"
-            },
-            {
                 "name": "(DX1R) - Martin DX1R",
                 "cleanedName": "martin-dx1r"
             }
@@ -28658,8 +28650,7 @@
                 "appearance": "Solo Video",
                 "link": "https://youtu.be/BwuqxrPeUAA&t=906",
                 "keys": [
-                    "Electric Song",
-                    "Strat"
+                    "main"
                 ]
             },
             {
