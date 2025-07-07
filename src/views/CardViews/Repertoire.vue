@@ -19,6 +19,13 @@
       />
     </div>
 
+    <p 
+      v-if="Object.keys(filteredData).length === 0" 
+      class="no-results-msg"
+    >
+      No results found
+    </p>
+
     <div v-for="(songs, category) in filteredData" :key="category" class="category-section">
       <h2 class="category-title">{{ formatCategory(category) }}</h2>
       <div class="divider"></div>
@@ -47,7 +54,7 @@
     </div> -->
 
     <button
-      v-if="isSmallScreen"
+      v-if="isSmallScreen && !searchQuery"
       class="go-to-top-btn"
       @click="scrollToTop"
     >
@@ -235,6 +242,12 @@ onUnmounted(() => {
   color: #ccc;
   margin: 2rem 0;
   font-style: italic;
+}
+
+.no-results-msg {
+  color: #888;
+  margin-top: -7px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 400px) {

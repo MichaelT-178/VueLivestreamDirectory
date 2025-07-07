@@ -57,6 +57,13 @@
         placeholder="Filter by artist or location"
       />
     </div>
+    
+    <p 
+      v-if="filteredArtists.length === 0 && country.numOfArtists >= 25" 
+      class="no-results-msg"
+    >
+      No results found
+    </p>
 
     <div
       v-for="artist in filteredArtists"
@@ -399,6 +406,12 @@ onBeforeUnmount(() => {
   display: block;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.no-results-msg {
+  color: #888;
+  margin-top: -17px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 700px) {

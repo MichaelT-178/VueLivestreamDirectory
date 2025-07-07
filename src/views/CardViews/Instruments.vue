@@ -18,7 +18,7 @@
             class="search-bar"
           />
         </div>
-
+        
         <div class="filter-wrapper">
           <select v-model="selectedType" class="filter-select">
             <option value="All">All Instruments</option>
@@ -32,6 +32,9 @@
           </select>
         </div>
       </div>
+      <p v-if="filteredInstruments.length === 0" class="no-results-msg">
+        No results found
+      </p>
     </div>
 
     <div class="instrument-list">
@@ -42,7 +45,7 @@
       />
     </div>
     <button
-      v-if="isSmallScreen"
+      v-if="isSmallScreen && !searchQuery"
       class="go-to-top-btn"
       @click="scrollToTop"
     >
@@ -175,6 +178,12 @@ onMounted(() => {
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1rem;
   padding: 1rem;
+}
+
+.no-results-msg {
+  color: #888;
+  margin-top: 8px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 400px) {

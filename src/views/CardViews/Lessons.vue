@@ -19,6 +19,10 @@
           class="search-bar"
         />
       </div>
+      
+      <p v-if="filteredTutorials.length === 0" class="no-results-msg">
+        No results found
+      </p>
 
       <div class="lesson-grid">
         <LessonCard 
@@ -29,7 +33,7 @@
       </div>
       
       <button
-        v-if="isSmallScreen"
+        v-if="isSmallScreen && !searchQuery"
         class="go-to-top-btn"
         @click="scrollToTop"
       >
@@ -214,6 +218,13 @@ onBeforeUnmount(() => {
   border-radius: 20px;
   margin-top: -30px;
   align-self: center;
+}
+
+.no-results-msg {
+  color: #888;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 900px) {

@@ -19,6 +19,9 @@
           class="search-bar"
         />
       </div>
+      <p v-if="filteredCovers.length === 0" class="no-results-msg">
+        No results found
+      </p>
 
       <div class="grid">
         <a
@@ -42,7 +45,7 @@
       </div>
 
       <button
-        v-if="isSmallScreen"
+        v-if="isSmallScreen && !searchQuery"
         class="go-to-top-btn"
         @click="scrollToTop"
       >
@@ -185,6 +188,13 @@ onMounted(() => {
 .appearance {
   font-size: 15px;
   color: #ddd;
+}
+
+.no-results-msg {
+  color: #888;
+  margin-top: -17px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 400px) {

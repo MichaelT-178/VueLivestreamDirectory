@@ -35,6 +35,13 @@
       />
     </div>
 
+    <p 
+      v-if="instrument.numOfAppearances >= 25 && filteredAppearances.length === 0" 
+      class="no-results-msg"
+    >
+      No results found
+    </p>
+
     <div
       v-for="appearance in filteredAppearances"
       :key="appearance.id"
@@ -278,6 +285,12 @@ onMounted(() => {
 .load-more-button:hover {
   background-color: #e879f9;
   color: white;
+}
+
+.no-results-msg {
+  color: #888;
+  margin-top: -17px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 500px) {
