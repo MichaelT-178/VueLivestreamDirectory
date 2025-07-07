@@ -65018,6 +65018,14 @@
         "Other_Artists": [],
         "Instruments": [
             {
+                "name": "Acoustic Guitar",
+                "cleanedName": null
+            },
+            {
+                "name": "(main) - Stonebridge (Furch) OM32SM",
+                "cleanedName": "acoustic-guitar"
+            },
+            {
                 "name": "Mandolin",
                 "cleanedName": "mandolin"
             }
@@ -65038,8 +65046,8 @@
                 "appearance": "Livestream 22",
                 "link": "https://youtu.be/watch?v=twwoDRDMthg&t=4345",
                 "keys": [
-                    "Audio Issues",
-                    "Mandolin"
+                    "main",
+                    "Audio Issues"
                 ]
             }
         ]
