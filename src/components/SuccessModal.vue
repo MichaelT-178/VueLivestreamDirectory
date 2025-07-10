@@ -1,7 +1,10 @@
 <template>
   <div class="modal-card">
     <div class="icon-wrapper">
-      <component :is="config.icon" :stroke-color="config.color" :width="100" />
+      <component 
+        :is="config.icon" 
+        :stroke-color="config.color" 
+        :width="100" />
     </div>
 
     <h1 class="modal-title">{{ config.title }}</h1>
@@ -20,6 +23,22 @@ const props = defineProps({
   success: {
     type: Boolean,
     default: false
+  },
+  successTitle: {
+    type: String,
+    default: 'Sent!'
+  },
+  successDescription: {
+    type: String,
+    default: 'Your message has been sent successfully!'
+  },
+  errorTitle: {
+    type: String,
+    default: 'Error!'
+  },
+  errorDescription: {
+    type: String,
+    default: 'Something went wrong when sending your message! See console.'
   }
 });
 
@@ -27,14 +46,14 @@ const config = computed(() => {
   return props.success
     ? {
         icon: iconMap['circlecheck'],
-        title: 'Sent!',
-        description: 'Your message has been sent successfully!',
+        title: props.successTitle,
+        description: props.successDescription,
         color: '#4ade80'
       }
     : {
         icon: iconMap['circlex'],
-        title: 'Error!',
-        description: 'Something went wrong when sending your message! See console.',
+        title: props.errorTitle,
+        description: props.errorDescription,
         color: '#f87171'
       };
 });

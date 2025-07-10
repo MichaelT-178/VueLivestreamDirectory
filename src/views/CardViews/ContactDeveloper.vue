@@ -2,7 +2,7 @@
   <div class="contact-container">
 
     <div class="modal-wrapper" v-if="showModal">
-      <EmailModal
+      <SuccessModal
         v-if="showModal"
         :success="modalSuccess"
         @close="showModal = false"
@@ -85,7 +85,7 @@
 import { ref, computed, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
-import EmailModal from '../../components/EmailModal.vue';
+import SuccessModal from '../../components/SuccessModal.vue';
 
 const userName = ref('');
 const userEmail = ref('');

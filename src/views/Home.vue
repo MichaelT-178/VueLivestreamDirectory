@@ -1,5 +1,17 @@
 <template>
   <div class="page-container">
+    <div v-if="showSuccessModal" class="modal-wrapper">
+      <SuccessModal 
+        v-if="showSuccessModal"
+        :success="modalSuccess" 
+        :success-title="successTitle"
+        :success-description="successDescription"
+        :error-title="errorTitle"
+        :error-description="errorDescription"
+        @close="handleModalClose"
+      />
+    </div>
+
     <div class="centered">
       <p class="title">
         <font-awesome-icon icon="guitar" />
@@ -30,15 +42,28 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
 import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
 import MobileSearchView from './MobileSearchVIew.vue';
+import SuccessModal from '../components/SuccessModal.vue';
 import rawCardData from '../assets/Home/HomeCardData.jsonc?raw';
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
 import { parse } from 'jsonc-parser';
 
+const route = useRoute();
+const router = useRouter();
+
 const CardData = parse(rawCardData);
 const showMobileSearch = ref(false);
+const showSuccessModal = ref(false);
+const modalSuccess = ref(false);
+
+const successTitle = ref('');
+const successDescription = ref('');
+const errorTitle = ref('');
+const errorDescription = ref('');
+
 const { isSmallScreen } = useScreenHelpers(400);
 
 const handleFocus = () => {
@@ -52,11 +77,36 @@ const handleMobileSearchClose = () => {
   showMobileSearch.value = false;
 };
 
+const handleModalClose = () => {
+  showSuccessModal.value = false;
+  router.replace({ path: route.path, query: {} });
+};
+
 onMounted(() => {
   window.scrollTo(0, 0);
+
+  const status = route.query.status;
+
+  if (status === 'success-payment') {
+    modalSuccess.value = true;
+    successTitle.value = 'Payment Successful!';
+    successDescription.value = "Thanks for the tip! It's greatly appreciated!";
+  } else if (status === 'cancel-payment') {
+    modalSuccess.value = false;
+    errorTitle.value = 'Payment Canceled';
+    errorDescription.value = 'No charges were made. You canceled the payment process.';
+  }
+
+  if (status === 'success-payment' || status === 'cancel-payment') {
+    showSuccessModal.value = true;
+  }
+
+  //http://localhost:5173/?status=success-payment
+  //http://localhost:5173/?status=cancel-payment
 });
 
 </script>
+
 
 
 <style scoped>
@@ -117,6 +167,20 @@ onMounted(() => {
 
 .dark .title {
   color: #94A3B8;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(2px);
 }
 
 @media (max-width: 600px) {
