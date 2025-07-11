@@ -31,8 +31,9 @@
             "title": "Tip the Developer",
             "description": "Tips for Michael L. Obviously completely optional, but greatly appreciated.",
             "linkTitle": "Go to PayPal",
-            "route": "https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US",
-            "linkType": "external"
+            //"route": "https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US",
+            "route": "",
+            "linkType": "none"
         },
         {
             "id": 4,

@@ -24,6 +24,7 @@
       class="link-with-icon"
       :style="{ color: cardColor }"
       v-if="linkTag !== 'div'"
+      @click="emit('card-click', card)"
     >
       {{ card.linkTitle }}
       <component
@@ -38,13 +39,14 @@
     <p
       v-else
       class="link-with-icon"
-      :style="{ color: colorCode }"
+      :style="{ color: cardColor }"
+      @click="emit('card-click', card)"
     >
       {{ card.linkTitle }}
       <component
         v-if="ArrowIcon"
         :is="ArrowIcon"
-        :stroke-color="colorCode"
+        :stroke-color="cardColor"
         :width="20"
         class="arrow-icon"
       />
@@ -61,6 +63,8 @@ import DarkColorGraph from '../assets/Home/DarkColorGraph.json';
 import { useDark } from '@vueuse/core';
 
 const isDark = useDark();
+
+const emit = defineEmits(['card-click']);
 
 const props = defineProps({
   card: {
@@ -95,14 +99,6 @@ const backgroundStyle = computed(() => ({
   backgroundColor: hexToRgba(cardColor.value, 0.3)
 }));
 
-// const backgroundStyle = computed(() => {
-//   const color = props.card.iconColorCode || '#000000';
-  
-//   return {
-//     backgroundColor: hexToRgba(color, 0.3)
-//   };
-// });
-
 const linkTag = computed(() => {
   if (props.card.linkType === 'router') return 'router-link';
   if (props.card.linkType === 'external') return 'a';
@@ -110,23 +106,18 @@ const linkTag = computed(() => {
 });
 
 const linkProps = computed(() => {
-  
-  if (isInternalLink.value) {
-    return { 
-      to: props.card.route 
-    };
-
-  } else if (isExternalLink.value) {
-    return {
-      href: props.card.route,
-      target: '_blank',
-      rel: 'noopener noreferrer',
-    };
-
-  } else {
-    return {};
+  switch (props.card.linkType) {
+    case 'router':
+      return { to: props.card.route };
+    case 'external':
+      return {
+        href: props.card.route,
+        target: '_blank',
+        rel: 'noopener noreferrer',
+      };
+    default:
+      return {};
   }
-
 });
 
 const IconComponent = computed(() => {

@@ -26,7 +26,8 @@
         <HomeCard 
           v-for="(card, index) in CardData.CardData" 
           :key="index"
-          :card="card" 
+          :card="card"
+          @card-click="handleCardClick"
         />
       </div>
     </div>
@@ -80,6 +81,16 @@ const handleMobileSearchClose = () => {
 const handleModalClose = () => {
   showSuccessModal.value = false;
   router.replace({ path: route.path, query: {} });
+};
+
+const goToStripe = () => {
+  window.open('https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US', '_blank');
+};
+
+const handleCardClick = (card) => {
+  if (card.icon === 'cash') {
+    goToStripe();
+  }
 };
 
 onMounted(() => {
