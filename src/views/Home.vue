@@ -94,7 +94,7 @@ const goToStripe = () => {
     PUBLISHABLE_KEY = "pk_live_51RjOnVDZIQV9zljKrZcab3BbagpvKcjCJRhPF1XPlcH2xpp4ylXeMgKUj60w4CvdH3B4EvcxKl1cqgWW7oCiQwwU00p3v300xs";
   }
 
-  console.log(`COOL ${PUBLISHABLE_KEY}`);
+  //console.log(`COOL ${PUBLISHABLE_KEY}`);
 
   window.open('https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US', '_blank');
 };
