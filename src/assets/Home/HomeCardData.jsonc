@@ -93,7 +93,8 @@
         {
             "id": 9,
             "icon": "camera",
-            "iconColor": "orange",
+            //"iconColor": "orange",
+            "iconColor": "teal",
             "iconColorCode": "#FB923C",
             "title": "Corey Pictures",
             "description": "Photo Gallery of Corey Heuvel and his guitars.",
