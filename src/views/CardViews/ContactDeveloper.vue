@@ -149,6 +149,14 @@ onMounted(() => {
   window.scrollTo(0, 0);
 });
 
+// POST http://localhost:5001/email/send_email
+
+// {
+//   "from_name": "John Smith",
+//   "from_email": "test@example.com",
+//   "message": "Hello! This message was sent by your api!"
+// }
+
 </script>
 
 

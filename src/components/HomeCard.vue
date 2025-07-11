@@ -103,23 +103,9 @@ const backgroundStyle = computed(() => ({
 //   };
 // });
 
-const isExternalLink = computed(() =>
-  typeof props.card.route === 'string' && props.card.route.startsWith('http')
-);
-
-const isInternalLink = computed(() =>
-  typeof props.card.route === 'string' && props.card.route.startsWith('/')
-);
-
 const linkTag = computed(() => {
-  if (isInternalLink.value) {
-    return 'router-link';
-  }
-
-  if (isExternalLink.value) {
-    return 'a';
-  }
-
+  if (props.card.linkType === 'router') return 'router-link';
+  if (props.card.linkType === 'external') return 'a';
   return 'div';
 });
 

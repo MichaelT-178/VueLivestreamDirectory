@@ -9,7 +9,8 @@
             "title": "Corey's Patreon",
             "description": "Corey Heuvel's Patreon. I'd highly recommend the \"Student\" tier.",
             "linkTitle": "Go to Patreon",
-            "route": "https://www.patreon.com/coreyheuvel"
+            "route": "https://www.patreon.com/coreyheuvel",
+            "linkType": "external"
         },
         {
             "id": 2,
@@ -19,7 +20,8 @@
             "title": "Lessons",
             "description": "All Patreon Lessons. Only members of the \"Student\" tier can view this content.",
             "linkTitle": "Go to Lessons",
-            "route": "/patreon-sign-in"
+            "route": "/patreon-sign-in",
+            "linkType": "router"
         },
         {
             "id": 3,
@@ -29,9 +31,8 @@
             "title": "Tip the Developer",
             "description": "Tips for Michael L. Obviously completely optional, but greatly appreciated.",
             "linkTitle": "Go to PayPal",
-            "route": "https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US"
-            // "linkTitle": "View Payment Methods",
-            // "route": "/tips"
+            "route": "https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US",
+            "linkType": "external"
         },
         {
             "id": 4,
@@ -41,7 +42,8 @@
             "title": "Contact The Developer",
             "description": "Send an email to Michael L. I'll try to respond as quick as possible.",
             "linkTitle": "Email the Dev",
-            "route": "/contact"
+            "route": "/contact",
+            "linkType": "router"
         },
         {
             "id": 5,
@@ -51,7 +53,8 @@
             "title": "My Favorite Covers",
             "description": "This is a list of Michael L's favorite Corey Heuvel covers.",
             "linkTitle": "See Covers",
-            "route": "/favorites"
+            "route": "/favorites",
+            "linkType": "router"
         },
         {
             "id": 6,
@@ -61,7 +64,8 @@
             "title": "Instruments",
             "description": "All instruments Corey has played throughout his music career.",
             "linkTitle": "View Instruments",
-            "route": "/instruments"
+            "route": "/instruments",
+            "linkType": "router"
         },
         {
             "id": 7,
@@ -71,7 +75,8 @@
             "title": "Original Website",
             "description": "The first Livestream Directory website. I'll continue to update this.",
             "linkTitle": "Go to Website",
-            "route": "https://www.livestreamdirectory.com/"
+            "route": "https://www.livestreamdirectory.com/",
+            "linkType": "external"
         },
         {
             "id": 8,
@@ -81,7 +86,8 @@
             "title": "Corey's Repertoire",
             "description": "This is a list of basically every song Corey has ever covered.",
             "linkTitle": "See Repertoire",
-            "route": "/repertoire"
+            "route": "/repertoire",
+            "linkType": "router"
         },
         {
             "id": 9,
@@ -91,7 +97,8 @@
             "title": "Corey Pictures",
             "description": "Photo Gallery of Corey Heuvel and his guitars.",
             "linkTitle": "See Pictures",
-            "route": "/photos"
+            "route": "/photos",
+            "linkType": "router"
         }
     ],
     "Unused": [
@@ -103,7 +110,8 @@
             "title": "Corey's PayPal",
             "description": "Tip Corey Heuvel on PayPal. He greatly appreciate's it!",
             "linkTitle": "Go to PayPal",
-            "route": "http://paypal.me/coreyheuvel"
+            "route": "http://paypal.me/coreyheuvel",
+            "linkType": "external"
         },
         {
             "id": 11,
@@ -113,7 +121,8 @@
             "title": "Corey's Patreon",
             "description": "Corey Heuvel's Patreon. I'd highly recommend the \"student\" tier.",
             "linkTitle": "Go to Patreon",
-            "route": "https://www.patreon.com/coreyheuvel"
+            "route": "https://www.patreon.com/coreyheuvel",
+            "linkType": "external"
         },
         {
             "id": 12,
@@ -123,7 +132,8 @@
             "title": "Corey's Patreon",
             "description": "Corey Heuvel's Patreon. I'd highly recommend the \"student\" tier.",
             "linkTitle": "Go to Patreon",
-            "route": "https://www.swiftcolors.com/"
+            "route": "https://www.swiftcolors.com/",
+            "linkType": "external"
         }
     ]
 }
