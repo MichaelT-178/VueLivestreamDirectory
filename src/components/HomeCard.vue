@@ -109,12 +109,14 @@ const linkProps = computed(() => {
   switch (props.card.linkType) {
     case 'router':
       return { to: props.card.route };
+
     case 'external':
       return {
         href: props.card.route,
         target: '_blank',
         rel: 'noopener noreferrer',
       };
+      
     default:
       return {};
   }

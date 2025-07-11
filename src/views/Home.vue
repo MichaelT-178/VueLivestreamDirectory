@@ -84,6 +84,16 @@ const handleModalClose = () => {
 };
 
 const goToStripe = () => {
+  if (import.meta.env.VITE_LOCAL_SERVER.toLowerCase() === "true") {
+    // Using localhost
+    PUBLISHABLE_KEY = "pk_test_51RjOnVDZIQV9zljKg256SEBxJNE0UfKEt1RTnpRQMkezM1ToyCjtsRwLlocMddSAslP3YdBdmuHz2jsumSdADecQ00t7vUot9H";
+  } else {
+    //using actual api
+    PUBLISHABLE_KEY = "pk_live_51RjOnVDZIQV9zljKrZcab3BbagpvKcjCJRhPF1XPlcH2xpp4ylXeMgKUj60w4CvdH3B4EvcxKl1cqgWW7oCiQwwU00p3v300xs";
+  }
+
+  console.log("COOL");
+
   window.open('https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US', '_blank');
 };
 
