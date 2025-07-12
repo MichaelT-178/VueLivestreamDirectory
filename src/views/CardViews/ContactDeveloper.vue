@@ -81,6 +81,66 @@
 </template>
 
 
+<!-- <script setup>
+import { ref, computed, onMounted } from 'vue';
+import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
+import SuccessModal from '../../components/SuccessModal.vue';
+import axiosInstance from '../../lib/axios';
+
+const userName = ref('');
+const userEmail = ref('');
+const userMessage = ref('');
+const isButtonClicked = ref(false);
+const buttonText = ref('Submit');
+
+const showModal = ref(false);
+const modalSuccess = ref(false);
+
+const isFormValid = computed(() => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return (
+    userName.value.trim() !== '' &&
+    emailRegex.test(userEmail.value) &&
+    userMessage.value.trim() !== ''
+  );
+});
+
+const submitForm = async () => {
+  if (!isFormValid.value) return;
+
+  isButtonClicked.value = true;
+  buttonText.value = 'Sending...';
+
+  const payload = {
+    from_name: userName.value,
+    from_email: userEmail.value,
+    message: userMessage.value,
+  };
+
+  try {
+    await axiosInstance.post('/email/send_email', payload);
+    modalSuccess.value = true;
+
+    userName.value = '';
+    userEmail.value = '';
+    userMessage.value = '';
+  } catch (err) {
+    modalSuccess.value = false;
+    console.error('Failed to send email:', err);
+  } finally {
+    showModal.value = true;
+    isButtonClicked.value = false;
+    buttonText.value = 'Submit';
+  }
+};
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
+
+</script> -->
+
+
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import emailjs from '@emailjs/browser';
@@ -149,13 +209,6 @@ onMounted(() => {
   window.scrollTo(0, 0);
 });
 
-// POST http://localhost:5001/email/send_email
-
-// {
-//   "from_name": "John Smith",
-//   "from_email": "test@example.com",
-//   "message": "Hello! This message was sent by your api!"
-// }
 
 </script>
 
