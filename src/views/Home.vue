@@ -48,6 +48,8 @@ import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
 import MobileSearchView from './MobileSearchVIew.vue';
 import SuccessModal from '../components/SuccessModal.vue';
+import axiosInstance from '../lib/axios.js';
+import { loadStripe } from '@stripe/stripe-js';
 import rawCardData from '../assets/Home/HomeCardData.jsonc?raw';
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
 import { parse } from 'jsonc-parser';
@@ -83,7 +85,7 @@ const handleModalClose = () => {
   router.replace({ path: route.path, query: {} });
 };
 
-const goToStripe = () => {
+const goToStripe = async () => {
   let PUBLISHABLE_KEY;
 
   if (import.meta.env.VITE_LOCAL_SERVER.toLowerCase() === "true") {
@@ -94,9 +96,22 @@ const goToStripe = () => {
     PUBLISHABLE_KEY = "pk_live_51RjOnVDZIQV9zljKrZcab3BbagpvKcjCJRhPF1XPlcH2xpp4ylXeMgKUj60w4CvdH3B4EvcxKl1cqgWW7oCiQwwU00p3v300xs";
   }
 
-  //console.log(`COOL ${PUBLISHABLE_KEY}`);
+  // ADD 
+  // const stripePromise = loadStripe(PUBLISHABLE_KEY);
 
+  // try {
+  //   const response = await axiosInstance.post('/stripe/create-checkout-session')
+
+  //   const stripe = await stripePromise
+  //   await stripe.redirectToCheckout({ sessionId: response.data.id })
+  // } catch (error) {
+  //   console.error('Error during checkout:', error)
+  // }
+
+  //DELETE 
+  //console.log(`COOL ${PUBLISHABLE_KEY}`);
   window.open('https://paypal.me/MichaelLTotaro?country.x=US&locale.x=en_US', '_blank');
+  
 };
 
 const handleCardClick = (card) => {
