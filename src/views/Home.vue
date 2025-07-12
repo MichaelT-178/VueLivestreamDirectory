@@ -128,7 +128,7 @@ onMounted(() => {
   if (status === 'success-payment') {
     modalSuccess.value = true;
     successTitle.value = 'Payment Successful!';
-    successDescription.value = "Thanks for the tip! It's greatly appreciated!";
+    successDescription.value = "Thanks for the tip! It's greatly appreciated! Check your email for the receipt!";
   } else if (status === 'cancel-payment') {
     modalSuccess.value = false;
     errorTitle.value = 'Payment Canceled';
