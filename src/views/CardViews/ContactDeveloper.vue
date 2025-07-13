@@ -81,7 +81,7 @@
 </template>
 
 
-<!-- <script setup>
+<script setup>
 import { ref, computed, onMounted } from 'vue';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import SuccessModal from '../../components/SuccessModal.vue';
@@ -137,78 +137,6 @@ const submitForm = async () => {
 onMounted(() => {
   window.scrollTo(0, 0);
 });
-
-</script> -->
-
-
-<script setup>
-import { ref, computed, onMounted } from 'vue';
-import emailjs from '@emailjs/browser';
-import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
-import SuccessModal from '../../components/SuccessModal.vue';
-
-const userName = ref('');
-const userEmail = ref('');
-const userMessage = ref('');
-const isButtonClicked = ref(false);
-const buttonText = ref('Submit');
-
-
-const showModal = ref(false);
-const modalSuccess = ref(false);
-
-const publicEmailKey = 'n_0DD9e920wrGRa_I';
-emailjs.init(publicEmailKey);
-
-const isFormValid = computed(() => {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return (
-    userName.value.trim() !== '' &&
-    emailRegex.test(userEmail.value) &&
-    userMessage.value.trim() !== ''
-  );
-});
-
-const submitForm = () => {
-  if (!isFormValid.value) return;
-
-  isButtonClicked.value = true;
-  buttonText.value = 'Sending...';
-
-  const templateParams = {
-    subject: 'New message from Livestream Directory',
-    website: 'Livestream Directory',
-    from_name: userName.value,
-    from_email: userEmail.value,
-    message: userMessage.value,
-  };
-
-  emailjs
-    .send('service_5y41gll', 'template_6kezich', templateParams)
-    .then(() => {
-      modalSuccess.value = true;
-      showModal.value = true;
-
-      userName.value = '';
-      userEmail.value = '';
-      userMessage.value = '';
-    })
-    .catch((err) => {
-      modalSuccess.value = false;
-      showModal.value = true;
-
-      console.error('Failed to send email:', err);
-    })
-    .finally(() => {
-      isButtonClicked.value = false;
-      buttonText.value = 'Submit';
-    });
-};
-
-onMounted(() => {
-  window.scrollTo(0, 0);
-});
-
 
 </script>
 
