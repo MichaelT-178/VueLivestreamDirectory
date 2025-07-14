@@ -1,6 +1,8 @@
 import { defineStore } from 'pinia';
 import { ref, computed, watch } from 'vue';
 
+// CURRENTLY UNUSED
+
 export const useSearchHistoryStore = defineStore('searchHistory', () => {
   const list = ref([]);
 
