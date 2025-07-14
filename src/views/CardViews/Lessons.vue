@@ -1,69 +1,75 @@
 <template>
-  <div v-if="message && message.Tutorials">
-    <div class="lessons-container">
-      <HeaderWithIcon
-        title="Patreon Lessons"
-        icon="school"
-        iconColor="purple"
-      />
+  <LoadingSpinner v-if="!hasLoaded" :loading="true" />
 
-      <div class="search-bar-container">
-        <font-awesome-icon icon="search" class="search-icon" />
-        <input 
-          id="tutorial-search"
-          name="tutorial-search"
-          v-model="searchQuery" 
-          type="text" 
-          autocomplete="off"
-          placeholder="Filter by song, artist, or tuning"
-          class="search-bar"
-        />
-      </div>
-      
-      <p v-if="filteredTutorials.length === 0" class="no-results-msg">
-        No results found
-      </p>
+  <template v-else>
 
-      <div class="lesson-grid">
-        <LessonCard 
-          v-for="tutorial in filteredTutorials" 
-          :key="tutorial.id" 
-          :lesson="tutorial"
-        />
-      </div>
-      
-      <button
-        v-if="isSmallScreen && !searchQuery"
-        class="go-to-top-btn"
-        @click="scrollToTop"
-      >
-        Go back to top
-      </button>
-    </div>
-  </div>
-
-  <div v-else>
-    <div class="unauthorized-container">
-      <div class="unauthorized-content">
+    <div v-if="message && message.Tutorials">
+      <div class="lessons-container">
         <HeaderWithIcon
           title="Patreon Lessons"
           icon="school"
           iconColor="purple"
         />
 
-        <ErrorCard 
-          title="401 - Unauthorized" 
-          description="You don't have access to view this content. Go sign up for Corey's Patreon at the 'Student' tier!"
-          link="https://www.patreon.com/coreyheuvel"
-          linkTitle="Go to Corey's Patreon"
-        />
+        <div class="search-bar-container">
+          <font-awesome-icon icon="search" class="search-icon" />
+          <input 
+            id="tutorial-search"
+            name="tutorial-search"
+            v-model="searchQuery" 
+            type="text" 
+            autocomplete="off"
+            placeholder="Filter by song, artist, or tuning"
+            class="search-bar"
+          />
+        </div>
 
-        <router-link to="/" class="mobile-home-button">
-          Go back home
-        </router-link>
+        <p v-if="filteredTutorials.length === 0" class="no-results-msg">
+          No results found
+        </p>
+
+        <div class="lesson-grid">
+          <LessonCard 
+            v-for="tutorial in filteredTutorials" 
+            :key="tutorial.id" 
+            :lesson="tutorial"
+          />
+        </div>
+
+        <button
+          v-if="isSmallScreen && !searchQuery"
+          class="go-to-top-btn"
+          @click="scrollToTop"
+        >
+          Go back to top
+        </button>
       </div>
     </div>
-  </div>
+
+    <!-- Show error if unauthorized -->
+    <div v-else>
+      <div class="unauthorized-container">
+        <div class="unauthorized-content">
+          <HeaderWithIcon
+            title="Patreon Lessons"
+            icon="school"
+            iconColor="purple"
+          />
+
+          <ErrorCard 
+            title="401 - Unauthorized" 
+            description="You don't have access to view this content. Go sign up for Corey's Patreon at the 'Student' tier!"
+            link="https://www.patreon.com/coreyheuvel"
+            linkTitle="Go to Corey's Patreon"
+          />
+
+          <router-link to="/" class="mobile-home-button">
+            Go back home
+          </router-link>
+        </div>
+      </div>
+    </div>
+  </template>
 </template>
 
 
@@ -76,29 +82,18 @@ import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import LessonCard from '../../components/LessonCard.vue';
 import ErrorCard from '../../components/ErrorCard.vue';
+import LoadingSpinner from '../../components/LoadingSpinner.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-const { user } = useUser();
+const { user, fetchUserData } = useUser();
 const message = ref(null);
 const searchQuery = ref('');
+const hasLoaded = ref(false);
 const router = useRouter();
-
 const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
-const logoutAndGoBack = async () => {
-  try {
-    await axiosInstance.post('/lessons/logout', null, {
-      withCredentials: true
-    });
-  } catch (err) {
-    console.error('Logout failed', err);
-  } finally {
-    router.push('/');
-  }
-};
-
 watch(user, (newUser) => {
-  if (newUser && newUser.message) {
+  if (newUser?.message) {
     try {
       message.value = typeof newUser.message === 'string'
         ? JSON.parse(newUser.message)
@@ -112,7 +107,7 @@ watch(user, (newUser) => {
 });
 
 const filteredTutorials = computed(() => {
-  if (!message.value || !message.value.Tutorials) return [];
+  if (!message.value?.Tutorials) return [];
 
   const query = searchQuery.value.toLowerCase();
 
@@ -124,12 +119,29 @@ const filteredTutorials = computed(() => {
   );
 });
 
+const logoutAndGoBack = async () => {
+  try {
+    await axiosInstance.post('/lessons/logout', null, {
+      withCredentials: true
+    });
+  } catch (err) {
+    console.error('Logout failed', err);
+  } finally {
+    router.push('/');
+  }
+};
+
 const handleUnload = () => {
   navigator.sendBeacon('/lessons/logout');
 };
 
 onMounted(() => {
   window.addEventListener('beforeunload', handleUnload);
+});
+
+onMounted(async () => {
+  await fetchUserData();
+  hasLoaded.value = true; 
 });
 
 onBeforeUnmount(() => {

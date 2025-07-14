@@ -1,7 +1,7 @@
-import { ref, onMounted } from 'vue';
-import axiosInstance from '../lib/axios';
+import { ref } from 'vue'
+import axiosInstance from '../lib/axios'
 
-const user = ref(null);
+const user = ref(null)
 
 export const useUser = () => {
   async function fetchUserData() {
@@ -13,10 +13,9 @@ export const useUser = () => {
       user.value = data;
     } catch (err) {
       console.warn('Failed to fetch user', err);
+      user.value = null;
     }
   }
 
-  onMounted(fetchUserData);
-
-  return { user };
-};
+  return { user, fetchUserData };
+}

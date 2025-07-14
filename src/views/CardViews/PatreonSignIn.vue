@@ -58,6 +58,7 @@ const fetchUserData = async () => {
     const { data } = await axiosInstance.get('/lessons/me', {
       withCredentials: true
     });
+    
     user.value = data;
   } catch (err) {
     console.warn('Not authenticated or error fetching user data', err);
