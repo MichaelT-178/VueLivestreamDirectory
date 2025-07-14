@@ -32,6 +32,8 @@
       </div>
     </div>
 
+    <LoadingSpinner :loading="isLoading" />
+
     <MobileSearchView 
       v-if="showMobileSearch" 
       class="mobile-overlay" 
@@ -48,6 +50,7 @@ import SearchBar from '../components/SearchBar.vue';
 import HomeCard from '../components/HomeCard.vue';
 import MobileSearchView from './MobileSearchVIew.vue';
 import SuccessModal from '../components/SuccessModal.vue';
+import LoadingSpinner from '../components/LoadingSpinner.vue';
 import axiosInstance from '../lib/axios.js';
 import { loadStripe } from '@stripe/stripe-js';
 import rawCardData from '../assets/Home/HomeCardData.jsonc?raw';
@@ -66,6 +69,7 @@ const successTitle = ref('');
 const successDescription = ref('');
 const errorTitle = ref('');
 const errorDescription = ref('');
+const isLoading = ref(false);
 
 const { isSmallScreen } = useScreenHelpers(400);
 
@@ -98,6 +102,8 @@ const goToStripe = async () => {
 
   const stripePromise = loadStripe(PUBLISHABLE_KEY);
 
+  isLoading.value = true;
+
   try {
     const response = await axiosInstance.post('/stripe/create-checkout-session')
 
@@ -105,6 +111,8 @@ const goToStripe = async () => {
     await stripe.redirectToCheckout({ sessionId: response.data.id })
   } catch (error) {
     console.error('Error during checkout:', error)
+  } finally {
+    isLoading.value = false; 
   }
 
 };

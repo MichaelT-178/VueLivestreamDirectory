@@ -1,6 +1,5 @@
 <template>
   <div class="contact-container">
-
     <div class="modal-wrapper" v-if="showModal">
       <SuccessModal
         v-if="showModal"
@@ -10,13 +9,8 @@
     </div>
 
     <div class="form-layout">
-
       <div class="header-with-icon">
-        <HeaderWithIcon
-          title=""
-          icon="email"
-          iconColor="blue"
-        />
+        <HeaderWithIcon title="" icon="email" iconColor="blue" />
       </div>
 
       <div class="form-wrapper">
@@ -35,6 +29,7 @@
             id="name"
             v-model="userName"
             placeholder="Enter your name"
+            :disabled="isLoading"
           />
         </div>
 
@@ -48,6 +43,7 @@
             v-model="userEmail"
             autocomplete="off"
             placeholder="Enter your email"
+            :disabled="isLoading"
           />
         </div>
 
@@ -59,6 +55,7 @@
             id="message"
             v-model="userMessage"
             placeholder="Enter your message"
+            :disabled="isLoading"
           ></textarea>
         </div>
 
@@ -66,7 +63,7 @@
           type="submit"
           class="send-email-btn"
           @click="submitForm"
-          :disabled="!isFormValid"
+          :disabled="!isFormValid || isLoading"
           :class="{
             valid: isFormValid && !isButtonClicked,
             clicked: isButtonClicked,
@@ -77,6 +74,8 @@
         </button>
       </div>
     </div>
+
+    <LoadingSpinner :loading="isLoading" />
   </div>
 </template>
 
@@ -85,6 +84,7 @@
 import { ref, computed, onMounted } from 'vue';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import SuccessModal from '../../components/SuccessModal.vue';
+import LoadingSpinner from '../../components/LoadingSpinner.vue';
 import axiosInstance from '../../lib/axios';
 
 const userName = ref('');
@@ -95,6 +95,8 @@ const buttonText = ref('Submit');
 
 const showModal = ref(false);
 const modalSuccess = ref(false);
+
+const isLoading = ref(false);
 
 const isFormValid = computed(() => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -117,6 +119,8 @@ const submitForm = async () => {
     message: userMessage.value,
   };
 
+  isLoading.value = true;
+
   try {
     await axiosInstance.post('/email/send_email', payload);
     modalSuccess.value = true;
@@ -131,6 +135,7 @@ const submitForm = async () => {
     showModal.value = true;
     isButtonClicked.value = false;
     buttonText.value = 'Submit';
+    isLoading.value = false;
   }
 };
 
