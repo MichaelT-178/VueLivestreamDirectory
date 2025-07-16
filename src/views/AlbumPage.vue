@@ -267,6 +267,11 @@ onMounted(() => {
   flex-shrink: 0;
 }
 
+.dark .artist-thumb {
+  /* border: 1px solid #656f7c; */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 .artist-link {
   color: #007acc;
   text-decoration: none;
@@ -297,6 +302,10 @@ onMounted(() => {
   gap: 1.5rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #333;
+}
+
+.dark .tab-header {
+  border-bottom: 1px solid#656f7c;
 }
 
 .tab-label {

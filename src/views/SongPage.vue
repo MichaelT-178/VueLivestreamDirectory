@@ -347,7 +347,8 @@ onMounted(() => {
 }
 
 .dark .appearance-content {
-  color: #525252;
+  /* color: #525252; */
+  color: #656f7c;
 }
 
 .dark .keys {
@@ -380,6 +381,7 @@ onMounted(() => {
 .dark .album-info li::before,
 .dark .year-info li::before {
   /* color: #94A3B8; */
+  /* color: black; */
   color: black;
 }
 
@@ -448,6 +450,11 @@ onMounted(() => {
   flex-shrink: 0;
 }
 
+.dark .artist-thumb {
+  /* border: 1px solid #656f7c; */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 p {
   margin: 0.5rem 0;
 }
@@ -463,6 +470,10 @@ p {
   gap: 1.5rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #333;
+}
+
+.dark .tab-header {
+  border-bottom: 1px solid#656f7c;
 }
 
 .appearances-tab {

@@ -92,7 +92,7 @@ onMounted(() => {
 }
 
 .dark .container {
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .dark .login-card {
@@ -123,6 +123,10 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.dark .login-card {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 h1 {

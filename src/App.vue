@@ -17,8 +17,8 @@ html, body {
 }
 
 html.dark, html.dark body {
-  background: white;
-  color: white;
+  background: #f5f5f5;
+  color: #f5f5f5;
 }
 
 .app-container {

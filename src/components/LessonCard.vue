@@ -53,6 +53,10 @@ watchEffect(() => {
 }
 
 .dark .lesson-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.0);
+}
+
+.dark .lesson-card {
   background-color:#9333ea;
   color: white;
 }

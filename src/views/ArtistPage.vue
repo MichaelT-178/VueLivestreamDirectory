@@ -255,7 +255,7 @@ onMounted(() => {
 }
 
 .dark .title {
-  color: #525252;
+  color: #656f7c;
 }
 
 .dark .subtitle {
@@ -321,6 +321,11 @@ onMounted(() => {
   gap: 1.5rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #333;
+}
+
+
+.dark .tab-header {
+  border-bottom: 1px solid#656f7c;
 }
 
 .tab {

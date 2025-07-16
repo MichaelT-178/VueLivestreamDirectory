@@ -7,7 +7,8 @@
         :width="100" />
     </div>
 
-    <h1 class="modal-title">{{ config.title }}</h1>
+    <!-- <h1 class="modal-title">{{ config.title }}</h1> -->
+    <h1 :class="['modal-title', titleClass]">{{ config.title }}</h1>
     <p class="modal-description">{{ config.description }}</p>
 
     <button class="ok-button" @click="$emit('close')">Ok</button>
@@ -40,6 +41,10 @@ const props = defineProps({
     type: String,
     default: 'Something went wrong when sending your message! See console.'
   }
+});
+
+const titleClass = computed(() => {
+  return props.success ? 'title-success' : 'title-error';
 });
 
 const config = computed(() => {
@@ -78,7 +83,8 @@ const config = computed(() => {
 }
 
 .dark .modal-card {
-  background-color: #cbd5e1;
+  /* background-color: #cbd5e1; */
+  background-color: white;
 }
 
 .icon-wrapper {
@@ -94,6 +100,14 @@ const config = computed(() => {
   font-size: 1.75rem;
   font-weight: bold;
   margin: 0;
+}
+
+.dark .title-success {
+  color: #4ade80;
+}
+
+.dark .title-error {
+  color: #f87171;
 }
 
 .modal-description {

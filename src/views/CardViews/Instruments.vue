@@ -129,6 +129,10 @@ onMounted(() => {
   box-sizing: border-box;
 }
 
+.dark .search-bar {
+  background-color: white;
+}
+
 .search-bar::placeholder {
   color: #555;
 }

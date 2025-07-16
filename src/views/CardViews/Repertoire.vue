@@ -231,6 +231,10 @@ onUnmounted(() => {
   box-sizing: border-box;
 }
 
+.dark .search-bar {
+  background-color: white;
+}
+
 .search-bar:focus {
   outline: none;
   box-shadow: none;

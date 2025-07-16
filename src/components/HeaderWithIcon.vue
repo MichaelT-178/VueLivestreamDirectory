@@ -150,7 +150,7 @@ const leadingIconBackground = computed(() => ({
 }
 
 .dark .header-title {
-  color: #cbd5e1;
+  color: #94A3B8;
 }
 
 @media (max-width: 400px) {

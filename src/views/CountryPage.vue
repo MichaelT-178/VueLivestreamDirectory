@@ -334,6 +334,10 @@ onBeforeUnmount(() => {
   color: #111;
 }
 
+.dark .search-bar {
+  background-color: white;
+}
+
 .search-bar::placeholder {
   color: #555;
 }
