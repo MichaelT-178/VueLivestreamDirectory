@@ -136,6 +136,17 @@
             "linkTitle": "Go to Patreon",
             "route": "https://www.swiftcolors.com/",
             "linkType": "external"
+        },
+        {
+            "id": 12,
+            "icon": "cash",
+            "iconColor": "fuchsia",
+            "iconColorCode": "#e879f9",
+            "title": "Music Recommendations",
+            "description": "Covers from other YouTubers I think you'll like if you're a Corey Heuvel Fan",
+            "linkTitle": "See Recommendations",
+            "route": "https://www.swiftcolors.com/",
+            "linkType": "external"
         }
     ]
 }
