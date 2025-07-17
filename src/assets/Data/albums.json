@@ -4798,6 +4798,19 @@
             }
         ]
     },
+    "running-on-empty": {
+        "AlbumTitle": "Running on Empty",
+        "CleanedAlbumTitle": "running-on-empty",
+        "Artist": "Jackson Browne",
+        "CleanedArtist": "jackson-browne",
+        "Year": 1977,
+        "Songs": [
+            {
+                "Song": "Running on Empty",
+                "CleanedSong": "running-on-empty"
+            }
+        ]
+    },
     "rust-never-sleeps": {
         "AlbumTitle": "Rust Never Sleeps",
         "CleanedAlbumTitle": "rust-never-sleeps",

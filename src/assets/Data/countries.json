@@ -228,7 +228,7 @@
     "united-states": {
         "name": "United States",
         "cleanedName": "united-states",
-        "numOfArtists": 208,
+        "numOfArtists": 209,
         "emoji": "🇺🇸",
         "artists": [
             {
@@ -1685,6 +1685,13 @@
                 "CleanedArtist": "gary-clark-jr",
                 "Location": "Austin, Texas",
                 "YearFormed": 1984,
+                "Genre": "Rock"
+            },
+            {
+                "Artist": "Jackson Browne",
+                "CleanedArtist": "jackson-browne",
+                "Location": "Los Angeles, California",
+                "YearFormed": 1948,
                 "Genre": "Rock"
             }
         ]
