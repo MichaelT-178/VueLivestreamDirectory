@@ -3323,9 +3323,9 @@
             }
         ]
     },
-    "justin-timberlake-ft-jay-z": {
-        "Artist": "Justin Timberlake ft. JAY-Z",
-        "CleanedArtist": "justin-timberlake-ft-jay-z",
+    "justin-timberlake": {
+        "Artist": "Justin Timberlake",
+        "CleanedArtist": "justin-timberlake",
         "Location": "Memphis, Tennessee",
         "YearFormed": 1981,
         "Genre": "Pop",
@@ -3337,17 +3337,38 @@
                 "Id": 51,
                 "Title": "Suit & Tie",
                 "CleanedTitle": "suit-tie",
-                "Album": "The 20/20 Experience",
-                "CleanedAlbum": "the-20-20-experience"
+                "Album": "",
+                "CleanedAlbum": ""
             }
         ],
-        "Albums": [
+        "Albums": []
+    },
+    "jay-z": {
+        "Artist": "JAY-Z",
+        "CleanedArtist": "jay-z",
+        "Location": "New York, New York",
+        "YearFormed": 1969,
+        "Genre": "Hip-Hop/Rap",
+        "Country": "United States",
+        "CleanedCountry": "united-states",
+        "Emoji": "🇺🇸",
+        "Songs": [
             {
-                "Title": "The 20/20 Experience",
-                "CleanedTitle": "the-20-20-experience",
-                "Year": 2013
+                "Id": 51,
+                "Title": "Suit & Tie",
+                "CleanedTitle": "suit-tie",
+                "Album": "",
+                "CleanedAlbum": ""
+            },
+            {
+                "Id": 283,
+                "Title": "Crazy In Love",
+                "CleanedTitle": "crazy-in-love",
+                "Album": "",
+                "CleanedAlbum": ""
             }
-        ]
+        ],
+        "Albums": []
     },
     "crosby-stills-nash-young": {
         "Artist": "Crosby, Stills, Nash & Young",
@@ -7491,9 +7512,9 @@
             }
         ]
     },
-    "beyonce-jay-z": {
-        "Artist": "Beyoncé, JAY-Z",
-        "CleanedArtist": "beyonce-jay-z",
+    "beyonce": {
+        "Artist": "Beyoncé",
+        "CleanedArtist": "beyonce",
         "Location": "Houston, Texas",
         "YearFormed": 1981,
         "Genre": "Pop",
@@ -7505,17 +7526,11 @@
                 "Id": 283,
                 "Title": "Crazy In Love",
                 "CleanedTitle": "crazy-in-love",
-                "Album": "Dangerously In Love",
-                "CleanedAlbum": "dangerously-in-love"
+                "Album": "",
+                "CleanedAlbum": ""
             }
         ],
-        "Albums": [
-            {
-                "Title": "Dangerously In Love",
-                "CleanedTitle": "dangerously-in-love",
-                "Year": 2003
-            }
-        ]
+        "Albums": []
     },
     "the-las": {
         "Artist": "The La's",

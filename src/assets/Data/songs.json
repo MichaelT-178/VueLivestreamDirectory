@@ -9265,11 +9265,16 @@
         "Id": 51,
         "Title": "Suit & Tie",
         "CleanedTitle": "suit-tie",
-        "Artist": "Justin Timberlake ft. JAY-Z",
-        "CleanedArtist": "justin-timberlake-ft-jay-z",
-        "Album": "The 20/20 Experience",
-        "CleanedAlbum": "the-20-20-experience",
-        "Other_Artists": [],
+        "Artist": "Justin Timberlake",
+        "CleanedArtist": "justin-timberlake",
+        "Album": "",
+        "CleanedAlbum": "",
+        "Other_Artists": [
+            {
+                "artist": "JAY-Z",
+                "cleanedArtist": "jay-z"
+            }
+        ],
         "Instruments": [
             {
                 "name": "Acoustic Guitar",
@@ -9284,8 +9289,8 @@
                 "cleanedName": "maestro-double-top"
             }
         ],
-        "Year": 2013,
-        "Search": "Suit and Tie, Justin Timberlake ft JAY-Z, Justin Timberlake ft. JAY Z",
+        "Year": 0,
+        "Search": "Suit and Tie, Justin Timberlake/JAY Z",
         "Appearances": [
             {
                 "id": 1,
@@ -40857,11 +40862,16 @@
         "Id": 283,
         "Title": "Crazy In Love",
         "CleanedTitle": "crazy-in-love",
-        "Artist": "Beyoncé, JAY-Z",
-        "CleanedArtist": "beyonce-jay-z",
-        "Album": "Dangerously In Love",
-        "CleanedAlbum": "dangerously-in-love",
-        "Other_Artists": [],
+        "Artist": "Beyoncé",
+        "CleanedArtist": "beyonce",
+        "Album": "",
+        "CleanedAlbum": "",
+        "Other_Artists": [
+            {
+                "artist": "JAY-Z",
+                "cleanedArtist": "jay-z"
+            }
+        ],
         "Instruments": [
             {
                 "name": "Acoustic Guitar",
@@ -40872,8 +40882,8 @@
                 "cleanedName": "acoustic-guitar"
             }
         ],
-        "Year": 2003,
-        "Search": "Beyonce, JAY-Z, Beyoncé  JAY Z",
+        "Year": 0,
+        "Search": "Beyonce/JAY-Z, Beyoncé/JAY Z",
         "Appearances": [
             {
                 "id": 1,
