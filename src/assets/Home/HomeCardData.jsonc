@@ -147,6 +147,17 @@
             "linkTitle": "See Recommendations",
             "route": "https://www.swiftcolors.com/",
             "linkType": "external"
+        },
+        {
+            "id": 12,
+            "icon": "cash",
+            "iconColor": "fuchsia",
+            "iconColorCode": "#e879f9",
+            "title": "Notable Links",
+            "description": "Coreys favorite shows, description of she who waits",
+            "linkTitle": "See Recommendations",
+            "route": "https://www.swiftcolors.com/",
+            "linkType": "external"
         }
     ]
 }
