@@ -9267,8 +9267,8 @@
         "CleanedTitle": "suit-tie",
         "Artist": "Justin Timberlake",
         "CleanedArtist": "justin-timberlake",
-        "Album": "",
-        "CleanedAlbum": "",
+        "Album": "The 20/20 Experience",
+        "CleanedAlbum": "the-20-20-experience",
         "Other_Artists": [
             {
                 "artist": "JAY-Z",
@@ -9289,7 +9289,7 @@
                 "cleanedName": "maestro-double-top"
             }
         ],
-        "Year": 0,
+        "Year": 2013,
         "Search": "Suit and Tie, Justin Timberlake/JAY Z",
         "Appearances": [
             {
@@ -40864,8 +40864,8 @@
         "CleanedTitle": "crazy-in-love",
         "Artist": "Beyoncé",
         "CleanedArtist": "beyonce",
-        "Album": "",
-        "CleanedAlbum": "",
+        "Album": "Dangerously In Love",
+        "CleanedAlbum": "dangerously-in-love",
         "Other_Artists": [
             {
                 "artist": "JAY-Z",
@@ -40882,7 +40882,7 @@
                 "cleanedName": "acoustic-guitar"
             }
         ],
-        "Year": 0,
+        "Year": 2003,
         "Search": "Beyonce/JAY-Z, Beyoncé/JAY Z",
         "Appearances": [
             {

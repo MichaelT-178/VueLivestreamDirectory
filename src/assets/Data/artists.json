@@ -3337,11 +3337,17 @@
                 "Id": 51,
                 "Title": "Suit & Tie",
                 "CleanedTitle": "suit-tie",
-                "Album": "",
-                "CleanedAlbum": ""
+                "Album": "The 20/20 Experience",
+                "CleanedAlbum": "the-20-20-experience"
             }
         ],
-        "Albums": []
+        "Albums": [
+            {
+                "Title": "The 20/20 Experience",
+                "CleanedTitle": "the-20-20-experience",
+                "Year": 2013
+            }
+        ]
     },
     "jay-z": {
         "Artist": "JAY-Z",
@@ -3357,18 +3363,29 @@
                 "Id": 51,
                 "Title": "Suit & Tie",
                 "CleanedTitle": "suit-tie",
-                "Album": "",
-                "CleanedAlbum": ""
+                "Album": "The 20/20 Experience",
+                "CleanedAlbum": "the-20-20-experience"
             },
             {
                 "Id": 283,
                 "Title": "Crazy In Love",
                 "CleanedTitle": "crazy-in-love",
-                "Album": "",
-                "CleanedAlbum": ""
+                "Album": "Dangerously In Love",
+                "CleanedAlbum": "dangerously-in-love"
             }
         ],
-        "Albums": []
+        "Albums": [
+            {
+                "Title": "Dangerously In Love",
+                "CleanedTitle": "dangerously-in-love",
+                "Year": 2003
+            },
+            {
+                "Title": "The 20/20 Experience",
+                "CleanedTitle": "the-20-20-experience",
+                "Year": 2013
+            }
+        ]
     },
     "crosby-stills-nash-young": {
         "Artist": "Crosby, Stills, Nash & Young",
@@ -7526,11 +7543,17 @@
                 "Id": 283,
                 "Title": "Crazy In Love",
                 "CleanedTitle": "crazy-in-love",
-                "Album": "",
-                "CleanedAlbum": ""
+                "Album": "Dangerously In Love",
+                "CleanedAlbum": "dangerously-in-love"
             }
         ],
-        "Albums": []
+        "Albums": [
+            {
+                "Title": "Dangerously In Love",
+                "CleanedTitle": "dangerously-in-love",
+                "Year": 2003
+            }
+        ]
     },
     "the-las": {
         "Artist": "The La's",

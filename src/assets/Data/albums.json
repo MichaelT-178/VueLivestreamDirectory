@@ -1614,8 +1614,8 @@
     "dangerously-in-love": {
         "AlbumTitle": "Dangerously In Love",
         "CleanedAlbumTitle": "dangerously-in-love",
-        "Artist": "Beyoncé, JAY-Z",
-        "CleanedArtist": "beyonce-jay-z",
+        "Artist": "Beyoncé",
+        "CleanedArtist": "beyonce",
         "Year": 2003,
         "Songs": [
             {
@@ -5706,8 +5706,8 @@
     "the-20-20-experience": {
         "AlbumTitle": "The 20/20 Experience",
         "CleanedAlbumTitle": "the-20-20-experience",
-        "Artist": "Justin Timberlake ft. JAY-Z",
-        "CleanedArtist": "justin-timberlake-ft-jay-z",
+        "Artist": "Justin Timberlake",
+        "CleanedArtist": "justin-timberlake",
         "Year": 2013,
         "Songs": [
             {
