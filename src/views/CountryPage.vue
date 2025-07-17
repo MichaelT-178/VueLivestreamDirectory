@@ -161,6 +161,7 @@ const filteredArtists = computed(() => {
 
 const handleCountryChange = () => {
   if (selectedCountry.value) {
+    searchQuery.value = '';
     router.push(`/country/${selectedCountry.value}`);
   }
 };
