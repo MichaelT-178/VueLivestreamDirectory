@@ -5,7 +5,7 @@ let VITE_API_LINK;
 if (import.meta.env.VITE_LOCAL_SERVER.toLowerCase() === "true") {
   VITE_API_LINK = "http://localhost:5001";
 } else {
-  VITE_API_LINK = "https://general-api-ht51.onrender.com";
+  VITE_API_LINK = "https://www.general-api.com";
 }
 
 const axiosInstance = axios.create({
