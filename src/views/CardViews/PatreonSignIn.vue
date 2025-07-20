@@ -56,7 +56,10 @@ if (import.meta.env.VITE_LOCAL_SERVER.toLowerCase() === "true") {
 const fetchUserData = async () => {
   try {
     const { data } = await axiosInstance.get('/lessons/me', {
-      withCredentials: true
+      withCredentials: true,
+      headers: {
+        "X-API-SECRET": "jkafhauiyFhjvbIU(8noiasfBU(Z))" //This isn't sensitive. This is the only use.
+      }
     });
     
     user.value = data;
