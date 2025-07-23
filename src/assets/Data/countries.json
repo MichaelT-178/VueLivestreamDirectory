@@ -1706,7 +1706,7 @@
     "england": {
         "name": "England",
         "cleanedName": "england",
-        "numOfArtists": 69,
+        "numOfArtists": 70,
         "emoji": "🇬🇧",
         "artists": [
             {
@@ -1736,6 +1736,13 @@
                 "Location": "London, England",
                 "YearFormed": 1967,
                 "Genre": "Rock"
+            },
+            {
+                "Artist": "Nick Drake",
+                "CleanedArtist": "nick-drake",
+                "Location": "Warwickshire, England",
+                "YearFormed": 1948,
+                "Genre": "Singer/Songwriter"
             },
             {
                 "Artist": "John Martyn",
@@ -2191,21 +2198,6 @@
                 "Location": "London, England",
                 "YearFormed": 1965,
                 "Genre": "Hard Rock"
-            }
-        ]
-    },
-    "burma": {
-        "name": "Burma",
-        "cleanedName": "burma",
-        "numOfArtists": 1,
-        "emoji": "🇲🇲",
-        "artists": [
-            {
-                "Artist": "Nick Drake",
-                "CleanedArtist": "nick-drake",
-                "Location": "Rangoon, Burma",
-                "YearFormed": 1948,
-                "Genre": "Singer/Songwriter"
             }
         ]
     },
@@ -2697,11 +2689,6 @@
             "country": "England",
             "cleanedCountry": "england",
             "emoji": "🇬🇧"
-        },
-        {
-            "country": "Burma",
-            "cleanedCountry": "burma",
-            "emoji": "🇲🇲"
         },
         {
             "country": "Australia",
