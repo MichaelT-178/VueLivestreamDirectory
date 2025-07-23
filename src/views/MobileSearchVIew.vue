@@ -23,12 +23,22 @@
         class="result-item"
         @mousedown.prevent="navigateTo(item)"
       >
-        <img
-          loading="lazy"
-          :src="getImagePath(item)"
-          :alt="item.name || item.title"
-          :class="['result-thumb', { 'artist-thumb': item.Type === 'Artist' }]"
-        />
+        <div class="image-container">
+          <div
+            v-if="!imageLoaded[item.id]"
+            class="image-placeholder"
+          ></div>
+
+          <img
+            @load="imageLoaded[item.id] = true"
+            loading="lazy"
+            :src="getImagePath(item)"
+            :alt="item.name || item.title"
+            :style="{ opacity: imageLoaded[item.id] ? 1 : 0 }"
+            :class="['result-thumb', { 'artist-thumb': item.Type === 'Artist' }]"
+          />
+        </div>
+
         <div class="result-text">
           <span class="result-title">{{ item.name || item.title }}</span>
           <div class="result-type">
@@ -42,10 +52,12 @@
 
 
 <script setup>
-import { ref, watch, onMounted } from 'vue';
+import { ref, reactive, watch, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
 import SearchData from '../assets/Data/SearchData.json';
+
+const imageLoaded = reactive({})
 
 const emit = defineEmits(['close']);
 const { isSmallScreen } = useScreenHelpers(400);
@@ -259,6 +271,37 @@ onMounted(() => {
 
 .dot {
   margin: 0 4px;
+}
+
+.image-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.image-placeholder {
+  background: #334155;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+img {
+  transition: opacity 0.3s ease;
 }
 
 </style>

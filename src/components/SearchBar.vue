@@ -36,12 +36,22 @@
         class="search-item"
         @mousedown.prevent="navigateTo(item)"
       >
-        <img 
-          loading="lazy"
-          :src="getImagePath(item)" 
-          :alt="item.name || item.title" 
-          :class="['search-thumb', { 'artist-thumb': item.Type === 'Artist' }]"
-        />
+        <div class="image-container">
+          <div
+            v-if="!imageLoaded[item.id]"
+            class="image-placeholder"
+          ></div>
+
+          <img
+            @load="imageLoaded[item.id] = true"
+            loading="lazy"
+            :src="getImagePath(item)"
+            :alt="item.name || item.title"
+            :style="{ opacity: imageLoaded[item.id] ? 1 : 0 }"
+            :class="['search-thumb', { 'artist-thumb': item.Type === 'Artist' }]"
+          />
+        </div>
+
         <div class="search-text">
           <span class="search-title">{{ item.name || item.title }}</span>
           <div class="search-type">
@@ -58,9 +68,11 @@
 
 
 <script setup>
-import { ref } from 'vue';
+import { ref, reactive } from 'vue';
 import { useRouter } from 'vue-router';
 import SearchData from '../assets/Data/SearchData.json';
+
+const imageLoaded = reactive({})
 
 const query = ref('');
 const filteredResults = ref([]);
@@ -329,6 +341,36 @@ const clearQuery = () => {
 .search-type {
   font-size: 0.85em;
   color: #666;
+}
+
+.image-container {
+  position: relative;
+  width: 47px;
+  height: 47px;
+}
+
+.image-placeholder {
+  background: #ddd;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
+img {
+  transition: opacity 0.3s ease;
 }
 
 @media (max-width: 900px) {
