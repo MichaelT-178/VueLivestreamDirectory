@@ -71,6 +71,8 @@
 import { ref, reactive } from 'vue';
 import { useRouter } from 'vue-router';
 import SearchData from '../assets/Data/SearchData.json';
+import AlbumLookup from '../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../assets/Data/ArtistLookup.js';
 
 const imageLoaded = reactive({})
 
@@ -132,16 +134,20 @@ const handleEnter = () => {
 };
 
 const getImagePath = (item) => {
-  try {
-    if (item.Type === 'Artist') {
-      return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
-    } else if (item.Type === 'Song' && item.CleanedPicture) {
-      const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
-      return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
-    }
-  } catch (e) {
-    return '';
+  if (item.Type === 'Artist') {
+    return ArtistLookup[item.cleanedName] || '';
   }
+
+  if (item.Type === 'Song') {
+    if (item.ArtistPic && item.CleanedPicture) {
+      return ArtistLookup[item.CleanedPicture] || '';
+    }
+
+    if (item.CleanedPicture) {
+      return AlbumLookup[item.CleanedPicture] || '';
+    }
+  }
+
   return '';
 };
 

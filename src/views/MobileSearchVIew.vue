@@ -56,6 +56,8 @@ import { ref, reactive, watch, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
 import SearchData from '../assets/Data/SearchData.json';
+import AlbumLookup from '../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../assets/Data/ArtistLookup.js';
 
 const imageLoaded = reactive({})
 
@@ -120,19 +122,38 @@ const filterResults = () => {
 };
 
 const getImagePath = (item) => {
-  try {
-    if (item.Type === 'Artist') {
-      return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
-    } else if (item.Type === 'Song' && item.CleanedPicture) {
-      const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
-      return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
+  if (item.Type === 'Artist') {
+    return ArtistLookup[item.cleanedName] || '';
+  }
+
+  if (item.Type === 'Song') {
+    if (item.ArtistPic && item.CleanedPicture) {
+      return ArtistLookup[item.CleanedPicture] || '';
     }
-  } catch (e) {
-    return '';
+
+    if (item.CleanedPicture) {
+      return AlbumLookup[item.CleanedPicture] || '';
+    }
   }
 
   return '';
 };
+
+
+// const getImagePath = (item) => {
+//   try {
+//     if (item.Type === 'Artist') {
+//       return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
+//     } else if (item.Type === 'Song' && item.CleanedPicture) {
+//       const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
+//       return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
+//     }
+//   } catch (e) {
+//     return '';
+//   }
+
+//   return '';
+// };
 
 const navigateTo = (item) => {
   if (item.Type === 'Artist') {
