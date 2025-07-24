@@ -183,6 +183,17 @@
             "linkTitle": "See Recommendations",
             "route": "https://www.swiftcolors.com/",
             "linkType": "external"
+        },
+        {
+            "id": 12,
+            "icon": "cat",
+            "iconColor": "fuchsia",
+            "iconColorCode": "#e879f9",
+            "title": "Notable Links",
+            "description": "Coreys favorite shows, description of she who waits",
+            "linkTitle": "Source Code",
+            "route": "https://www.swiftcolors.com/",
+            "linkType": "external"
         }
     ]
 }`;function h_(e,t=!1){const s=e.length;let i=0,a="",n=0,l=16,r=0,o=0,d=0,u=0,c=0;function m(C,L){let I=0,_=0;for(;I<C||!L;){let H=e.charCodeAt(i);if(H>=48&&H<=57)_=_*16+H-48;else if(H>=65&&H<=70)_=_*16+H-65+10;else if(H>=97&&H<=102)_=_*16+H-97+10;else break;i++,I++}return I<C&&(_=-1),_}function p(C){i=C,a="",n=0,l=16,c=0}function A(){let C=i;if(e.charCodeAt(i)===48)i++;else for(i++;i<e.length&&Sg(e.charCodeAt(i));)i++;if(i<e.length&&e.charCodeAt(i)===46)if(i++,i<e.length&&Sg(e.charCodeAt(i)))for(i++;i<e.length&&Sg(e.charCodeAt(i));)i++;else return c=3,e.substring(C,i);let L=i;if(i<e.length&&(e.charCodeAt(i)===69||e.charCodeAt(i)===101))if(i++,(i<e.length&&e.charCodeAt(i)===43||e.charCodeAt(i)===45)&&i++,i<e.length&&Sg(e.charCodeAt(i))){for(i++;i<e.length&&Sg(e.charCodeAt(i));)i++;L=i}else c=3;return e.substring(C,L)}function v(){let C="",L=i;for(;;){if(i>=s){C+=e.substring(L,i),c=2;break}const I=e.charCodeAt(i);if(I===34){C+=e.substring(L,i),i++;break}if(I===92){if(C+=e.substring(L,i),i++,i>=s){c=2;break}switch(e.charCodeAt(i++)){case 34:C+='"';break;case 92:C+="\\";break;case 47:C+="/";break;case 98:C+="\b";break;case 102:C+="\f";break;case 110:C+=`
