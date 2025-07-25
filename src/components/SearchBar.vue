@@ -312,7 +312,7 @@ const clearQuery = () => {
   height: 62px;
   box-sizing: border-box;
   cursor: pointer;
-  border-bottom: 1px solid transparent; /* was #eee */
+  border-bottom: 1px solid #eee; /* was #eee */
 }
 
 .search-item:hover {
