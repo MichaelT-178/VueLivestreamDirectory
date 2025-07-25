@@ -43,6 +43,21 @@ const goToPayment = (payment) => {
   }
 };
 
+// const getImagePath = (item) => {
+//   try {
+//     if (item.Type === 'Artist') {
+//       return new URL(`../assets/ArtistPics/${item.cleanedName}.jpg`, import.meta.url).href;
+//     } else if (item.Type === 'Song' && item.CleanedPicture) {
+//       const baseFolder = item.ArtistPic ? 'ArtistPics' : 'AlbumPics';
+//       return new URL(`../assets/${baseFolder}/${item.CleanedPicture}.jpg`, import.meta.url).href;
+//     }
+//   } catch (e) {
+//     return '';
+//   }
+
+//   return '';
+// };
+
 </script>
 
 

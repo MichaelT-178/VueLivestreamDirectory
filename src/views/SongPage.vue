@@ -204,6 +204,8 @@ import { useRoute } from 'vue-router'
 import SongData from '../assets/Data/songs.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
+import AlbumLookup from '../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../assets/Data/ArtistLookup.js';
 
 const props = defineProps({
   song: String,
@@ -256,14 +258,14 @@ const getImagePath = () => {
   }
 
   if (song.value.CleanedAlbum) {
-    return new URL(`../assets/AlbumPics/${song.value.CleanedAlbum}.jpg`, import.meta.url).href
+    return AlbumLookup[song.value.CleanedAlbum]
   }
 
-  return new URL(`../assets/ArtistPics/${song.value.CleanedArtist}.jpg`, import.meta.url).href
+  return ArtistLookup[song.value.CleanedArtist]
 }
 
 const getArtistImagePath = (cleanedName) => {
-  return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href
+  return ArtistLookup[cleanedName]
 }
 
 onMounted(() => {

@@ -124,6 +124,8 @@
 import { computed, onMounted, ref } from 'vue';
 import ArtistData from '../assets/Data/artists.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
+import AlbumLookup from '../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../assets/Data/ArtistLookup.js';
 
 const props = defineProps({
   artist: String,
@@ -165,20 +167,21 @@ const headerConfig = computed(() => {
 })
 
 const getArtistImagePath = (cleanedName) => {
-  return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href;
+  return ArtistLookup[cleanedName]
 }
 
-const getAlbumImagePath = (cleanedTitle) => {
-  return new URL(`../assets/AlbumPics/${cleanedTitle}.jpg`, import.meta.url).href;
+const getAlbumImagePath = (cleanedName) => {
+  return AlbumLookup[cleanedName]
 }
 
 const getSongImagePath = (song) => {
   if (song.CleanedAlbum) {
-    return new URL(`../assets/AlbumPics/${song.CleanedAlbum}.jpg`, import.meta.url).href;
+    return AlbumLookup[song.CleanedAlbum]
   }
 
-  return getArtistImagePath(artist.value.CleanedArtist);
+  return ArtistLookup[artist.value.CleanedArtist]
 }
+
 
 onMounted(() => {
   window.scrollTo(0, 0);

@@ -70,6 +70,8 @@ import { useRouter } from 'vue-router';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import AllData from '../../assets/Data/repertoire.json';
 import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
+import AlbumLookup from '../../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../../assets/Data/ArtistLookup.js';
 
 const searchQuery = ref('');
 const displayedCount = ref(20);
@@ -81,10 +83,10 @@ const totalSongsCount = Object.values(AllData).flat().length;
 
 const getImagePath = (song) => {
   if (song.CleanedAlbumTitle) {
-    return new URL(`../../assets/AlbumPics/${song.CleanedAlbumTitle}.jpg`, import.meta.url).href;
+    return AlbumLookup[song.CleanedAlbumTitle]
   }
-  
-  return new URL(`../../assets/ArtistPics/${song.CleanedArtist}.jpg`, import.meta.url).href;
+
+  return ArtistLookup[song.CleanedArtist]
 };
 
 const formatCategory = (category) => {

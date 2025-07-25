@@ -62,6 +62,8 @@ import AllData from '../../assets/Data/FavCovers.json';
 import HeaderWithIcon from '../../components/HeaderWithIcon.vue';
 import { useScreenHelpers } from '../../composables/useScreenHelpers.js';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import AlbumLookup from '../../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../../assets/Data/ArtistLookup.js';
 
 const searchQuery = ref('');
 
@@ -78,10 +80,10 @@ const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
 const getImagePath = (song) => {
   if (!song.ArtistPic) {
-    return new URL(`../../assets/AlbumPics/${song.AlbumImage}.jpg`, import.meta.url).href;
+    return AlbumLookup[song.AlbumImage]
   }
 
-  return new URL(`../../assets/ArtistPics/${song.AlbumImage}.jpg`, import.meta.url).href;
+  return ArtistLookup[song.AlbumImage]
 };
 
 

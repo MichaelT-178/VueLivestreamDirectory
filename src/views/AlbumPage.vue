@@ -99,6 +99,8 @@ import { computed, onMounted } from 'vue'
 import AlbumData from '../assets/Data/albums.json'
 import HeaderWithIcon from '../components/HeaderWithIcon.vue'
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
+import AlbumLookup from '../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../assets/Data/ArtistLookup.js';
 
 const props = defineProps({
   album: String,
@@ -139,11 +141,11 @@ const headerConfig = computed(() => {
 })
 
 const getAlbumImagePath = (cleanedTitle) => {
-  return new URL(`../assets/AlbumPics/${cleanedTitle}.jpg`, import.meta.url).href
+  return AlbumLookup[cleanedTitle]
 }
 
 const getArtistImagePath = (cleanedName) => {
-  return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href
+  return ArtistLookup[cleanedName]
 }
 
 onMounted(() => {

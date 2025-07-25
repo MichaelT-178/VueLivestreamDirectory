@@ -97,6 +97,8 @@ import InstrumentData from '../assets/Data/InstrumentData.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { useScreenHelpers } from '../composables/useScreenHelpers.js';
+import AlbumLookup from '../assets/Data/AlbumLookup.js';
+import ArtistLookup from '../assets/Data/ArtistLookup.js';
 
 const { isSmallScreen, scrollToTop } = useScreenHelpers();
 
@@ -157,10 +159,10 @@ const getImagePath = (fileName) => {
 
 const getSongImagePath = (appearance) => {
   if (appearance.cleanedAlbum) {
-    return new URL(`../assets/AlbumPics/${appearance.cleanedAlbum}.jpg`, import.meta.url).href;
+    return AlbumLookup[appearance.cleanedAlbum]
   }
 
-  return new URL(`../assets/ArtistPics/${appearance.cleanedArtist}.jpg`, import.meta.url).href;
+  return ArtistLookup[appearance.cleanedArtist]
 };
 
 onMounted(() => {
