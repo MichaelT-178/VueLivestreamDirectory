@@ -51,7 +51,7 @@
       v-else-if="query.trim() !== ''"
       class="no-results-message"
     >
-      No results found.
+      No results found
     </p>
   </div>
 </template>
