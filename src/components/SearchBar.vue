@@ -293,7 +293,7 @@ const clearQuery = () => {
   left: 0;
   right: 0;
   background: white;
-  border: 1px solid transparent; /* was #ccc */
+  border: 1px solid #ccc; /* was #ccc */
   max-height: calc(6 * 62px + 1px);
   overflow-y: auto;
   z-index: 10;
