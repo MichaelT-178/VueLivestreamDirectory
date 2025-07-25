@@ -47,6 +47,12 @@
         </div>
       </li>
     </ul>
+    <p
+      v-else-if="query.trim() !== ''"
+      class="no-results-message"
+    >
+      No results found.
+    </p>
   </div>
 </template>
 
@@ -292,6 +298,13 @@ onMounted(() => {
   border-radius: 4px;
   animation: pulse 1.2s infinite;
 }
+
+.no-results-message {
+  padding: 0rem 1rem;
+  text-align: center;
+  color: #94a3b8;
+}
+
 
 @keyframes pulse {
   0% {
