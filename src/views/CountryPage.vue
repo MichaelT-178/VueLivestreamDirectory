@@ -126,6 +126,7 @@ import CountryData from '../assets/Data/countries.json';
 import HeaderWithIcon from '../components/HeaderWithIcon.vue';
 import SamJacksonPic from '../assets/CountryPics/SamJackson.jpg';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import ArtistLookup from '../assets/Data/ArtistLookup.js';
 
 const router = useRouter();
 
@@ -207,7 +208,7 @@ const getCountryImagePath = (cleanedName) => {
 };
 
 const getArtistImagePath = (cleanedName) => {
-  return new URL(`../assets/ArtistPics/${cleanedName}.jpg`, import.meta.url).href;
+  return ArtistLookup[cleanedName]
 };
 
 const scrollToTop = () => {
